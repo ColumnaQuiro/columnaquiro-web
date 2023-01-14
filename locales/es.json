@@ -24,8 +24,57 @@
     "links": [
       {
         "text": "Política de Privacidad",
-        "to": "/privacy-policy"
+        "to": "/politica-de-privacidad"
+      },
+      {
+        "text": "Aviso Legal",
+        "to": "/aviso-legal"
+      },
+      {
+        "text": "Política de Cookies",
+        "to": "/politica-de-cookies"
       }
     ]
+  },
+  "home": {
+    "chiroIntro": {
+      "description": "La Quiropráctica es una profesión manual de salud que trabaja de manera integral y holística con tu sistema nervioso para que funciona a su plena capacidad. El sistema nervioso es el primer sistema que se desarolla durante la gestacion y que permite desarollar todos los otros sitemas : sistema circulatorio, respiratorio, cardiovascular, locomotor, digestivo, urinario, endocrino , repoductor , linfatico. Por su importancia , el sistema nervioso central es el unico que esta protegido : por tu columna vertebral ( protege tu medulla spinal) y tu craneo ( protege du cerebro).El cerebro es el jefe de tu cuerpo y manda informaciones a todo tu cuerpo y a estos siistemas a traves del sistema nervioso pereferico : tus nervios. Esta conexion entre tu cerebro y el resto de tu cuerpo es vital en la regulacion del estres, dolor y otros tipos de sintomas que aparecen entre los otros sistemas. A traves de ajustes quiropracticos, estumilamos receptores nerviososo en tu cuerpo , principalmente en tu colomuna vertebral para mantener una buena conexion entre du sistema nervioso central : cerebro y columna vertebral y tu cuerpo entero."
+    },
+    "toWho": {
+      "title": "La Quiropráctica es para tí",
+      "description": "La quiropráctica está pensada para todo el mundo desde los más pequeños hasta los más mayores. No hay una edad ni un estado físico en el cuál la quiropráctica no te aporte beneficios.",
+      "items": [
+        {
+          "key": "adults",
+          "title": "Adultos",
+          "description": "Work faster and smarter by integrating directly with Notion, right in the app."
+        },
+        {
+          "key": "kids",
+          "title": "Niños",
+          "description": "Work faster and smarter by integrating directly with Notion, right in the app."
+        },
+        {
+          "key": "pregnant",
+          "title": "Embarazadas",
+          "description": "Work faster and smarter by integrating directly with Notion, right in the app."
+        },
+        {
+          "key": "sport",
+          "title": "Deportistas",
+          "description": "Work faster and smarter by integrating directly with Notion, right in the app."
+        },
+        {
+          "key": "elder",
+          "title": "Tercera edad",
+          "description": "Work faster and smarter by integrating directly with Notion, right in the app."
+        },
+        {
+          "key": "adolescent",
+          "title": "Adolescentes",
+          "description": "Work faster and smarter by integrating directly with Notion, right in the app."
+        }
+      ]
+    }
   }
 }
