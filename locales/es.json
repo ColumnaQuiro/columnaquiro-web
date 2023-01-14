@@ -1,0 +1,31 @@
+{
+  "navigationBar": {
+    "links": [
+      {
+        "text": "Contacto",
+        "to": "/"
+      },
+      {
+        "text": "Contacto2",
+        "to": "/"
+      },
+      {
+        "text": "Blog",
+        "to": "/"
+      },
+      {
+        "text": "Pide Tu Cita",
+        "to": "/"
+      }
+    ]
+  },
+  "footer": {
+    "copyright": "© 2023 ColumnaQuiro",
+    "links": [
+      {
+        "text": "Política de Privacidad",
+        "to": "/privacy-policy"
+      }
+    ]
+  }
+}
