@@ -7,18 +7,22 @@
       <v-spacer />
       <nav>
         <cq-components-button
-          v-for="item in $tm('navigationBar.links')"
-          :key="$rt(item.text)"
-          :to="$rt(item.to)"
+          v-for="link in links"
+          :key="rt(link.text)"
+          :to="rt(link.to)"
           class="mr-4"
         >
-          {{ $rt(item.text) }}
+          {{ rt(link.text) }}
         </cq-components-button>
       </nav>
     </v-container>
   </v-app-bar>
 </template>
 <script setup lang="ts">
+import { useI18n } from 'vue-i18n'
+
+const { rt, tm } = useI18n({ useScope: 'local', inheritLocale: true })
+const links = tm('links')
 </script>
 <style lang="scss" scoped>
 .navigation-bar {
@@ -27,3 +31,27 @@
   box-shadow: 0 -5px 13px 0 rgba(71,71,71,0.47);
 }
 </style>
+<i18n>
+{
+  "es": {
+    "links": [
+      {
+        "text": "Contacto",
+        "to": "/"
+      },
+      {
+        "text": "Contacto2",
+        "to": "/"
+      },
+      {
+        "text": "Blog",
+        "to": "/"
+      },
+      {
+        "text": "Pide Tu Cita",
+        "to": "/"
+      }
+    ]
+  }
+}
+</i18n>
