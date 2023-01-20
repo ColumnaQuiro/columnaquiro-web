@@ -4,6 +4,6 @@
     <v-main>
       <NuxtPage />
     </v-main>
-    <cq-layout-footer />
+    <cq-layout-footer-container />
   </v-app>
 </template>

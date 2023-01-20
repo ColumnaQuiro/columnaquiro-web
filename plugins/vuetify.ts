@@ -1,4 +1,6 @@
 import { createVuetify } from 'vuetify'
+import '@mdi/font/css/materialdesignicons.css'
+
 import 'assets/scss/main.scss'
 
 const myCustomLightTheme = {
@@ -8,6 +10,7 @@ const myCustomLightTheme = {
     primary: '#8D5B4C',
     secondary: '#69A297',
     tertiary: '#F2B880',
+    quaternary: '#E7CFBC',
     whiteBranded: '#FFF4EC',
     blackBranded: '#474747',
     'on-background': '#474747',
@@ -19,7 +22,10 @@ export default defineNuxtPlugin((nuxtApp) => {
   const vuetify = createVuetify({
     defaults: {
       global: {
-        ripple: false
+        ripple: false,
+        VLayout: {
+          top: '100px'
+        }
       }
     },
     theme: {

@@ -1,7 +1,7 @@
 <template>
   <h3
     :class="[
-      'text-h3 pb-lg-12 pb-md-10 pb-sm-8',
+      'text-md-h3 text-h4 pb-lg-12 pb-md-10 pb-8',
       {'text-center': centered}
     ]"
   >

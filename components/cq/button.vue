@@ -1,28 +1,27 @@
 <template>
   <v-btn
-    class="button"
     :disabled="disabled"
-    :tag="tag"
+    :type="type"
     :block="block"
     :icon="icon"
-    :variant="variant"
-    :size="size"
+    :text="text"
+    :small="small"
+    :x-small="xSmall"
     :to="to"
     :href="href"
     :color="color"
+    depressed
     @click="click"
   >
     <slot />
   </v-btn>
 </template>
 <script setup lang="ts">
-import { FunctionalComponent } from 'vue'
-
 interface Props {
   /**
-   * Specify a custom tag used on the root element.
+   * Set the button’s type attribute
    */
-  tag?: string,
+  type?: string,
   /**
    * Removes the ability to click or target the component
    */
@@ -34,7 +33,7 @@ interface Props {
   /**
    * Designates the button as icon. Button will become round and applies the text prop
    */
-  icon?: boolean | string | (new () => any) | FunctionalComponent,
+  icon?: boolean,
   /**
    * Denotes the target route of the link
    */
@@ -44,13 +43,17 @@ interface Props {
    */
   href?: string,
   /**
-   * Applies one of 6 styles: elevated, flat, tonal, outlined, text, and plain.
+   * Makes the background transparent. When using the color prop, the color will be applied to the button text instead of the background
    */
-  variant?: string,
+  text?: boolean,
   /**
-   * Sets the height and width of the component. Default unit is px. Can also use the following predefined sizes: x-small, small, default, large, and x-large.
+   * Makes the component small
    */
-  size?: string,
+  small?: boolean,
+  /**
+   * Makes the component x-small
+   */
+  xSmall?: boolean,
   /**
    * Applies specified color to the control - it can be the name of material color (for example success or purple) or css color (#033 or rgba(255, 0, 0, 0.5))
    */
@@ -58,9 +61,13 @@ interface Props {
 }
 
 withDefaults(defineProps<Props>(), {
+  type: 'button',
   disabled: false,
   block: false,
+  icon: false,
   text: false,
+  small: false,
+  xSmall: false,
   color: 'primary'
 })
 
@@ -70,8 +77,3 @@ const click = () => {
   emit('click')
 }
 </script>
-<style lang="scss" scoped>
-.button {
-  text-transform: none !important;
-}
-</style>

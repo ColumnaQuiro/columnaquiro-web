@@ -14,12 +14,13 @@
       <v-col
         v-for="item in items"
         :key="rt(item.key)"
-        cols="6"
+        cols="12"
+        md="6"
         lg="4"
       >
         <v-card
           flat
-          :to="`para-quien-sirve-la-quiropractica/${item.key}`"
+          :to="`para-quien-sirve-la-quiropractica/${rt(item.key)}`"
           color="whiteBranded"
           class="pa-4"
         >
