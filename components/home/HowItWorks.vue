@@ -1,5 +1,5 @@
 <template>
-  <cq-layout-section>
+  <cq-layout-section class="how-it-works">
     <cq-fonts-h3>
       {{ t('title') }}
     </cq-fonts-h3>
@@ -10,7 +10,7 @@
       <v-timeline
         align="start"
         class="pt-8"
-        :direction="mdAndUp ? 'horizontal' : 'vertical'"
+        :direction="mdAndUp ? 'vertical' : 'vertical'"
         :density="mdAndUp ? 'default' : 'compact'"
       >
         <v-timeline-item
@@ -24,9 +24,7 @@
               {{ rt(item.title) }}
             </v-card-title>
             <v-card-text>
-              <div class="text-body-1">
-                {{ rt(item.description) }}
-              </div>
+              <div class="text-body-1" v-html="rt(item.description)" />
             </v-card-text>
           </v-card>
         </v-timeline-item>
@@ -42,6 +40,13 @@ const { mdAndUp } = useDisplay()
 const { tm, rt, t } = useI18n({ useScope: 'local', inheritLocale: true })
 const items = tm('items')
 </script>
+<style lang="scss">
+.how-it-works {
+  & > li {
+    margin-left: 16px;
+  }
+}
+</style>
 <i18n>
 {
   "es": {
@@ -51,26 +56,38 @@ const items = tm('items')
       {
         "color": "primary",
         "icon": "mdi-calendar",
-        "title": "Primera cita",
+        "title": "Reserva tu primera cita",
         "description": "Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop."
       },
       {
         "color": "tertiary",
         "icon": "mdi-magnify",
-        "title": "Segunda cita",
-        "description": "An all-in-one customer service platform that helps you balance everything your customers need to be happy."
+        "title": "Primera visita",
+        "description": "<ul>Te contamos lo que haremos en tu primera visita: <li> Rellenar el formulario de primera visita en la web </li> <li>historia clinica de salud</li> <li><ul>Pruebas para ver como funciona  tu sistema nervioso:<li>postura</li><li>pruebas neurológicas</li><li>patron de marcha</li></ul></li></ul>"
       },
       {
         "color": "quaternary",
         "icon": "mdi-file-document-check-outline",
-        "title": "Seguimiento",
-        "description": "An all-in-one customer service platform that helps you balance everything your customers need to be happy."
+        "title": "Segunda visita => Informe",
+        "description": "<ul><li>Te entregamos tu informe quiropractico con los resultados de las pruebas de la 1a visita</li><li>plan de cuidado recomendado </li></ul>"
       },
       {
         "color": "secondary",
         "icon": "mdi-hand-heart-outline",
+        "title": "Plan de cuidado",
+        "description": "Estableceremos un plan de cuidado recomendado a tus necesidades con una frecuencia de ajustes quiroprácticos"
+      },
+      {
+        "color": "whiteBranded",
+        "icon": "mdi-hand-heart-outline",
+        "title": "Revision",
+        "description": "<ul><li>Reevaluacion</li><li>Repetir las pruebas de la primera visita</li></ul>"
+      },
+      {
+        "color": "tertiary",
+        "icon": "mdi-hand-heart-outline",
         "title": "Mantenimiento",
-        "description": "An all-in-one customer service platform that helps you balance everything your customers need to be happy."
+        "description": ""
       }
     ]
   }

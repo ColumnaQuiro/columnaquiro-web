@@ -53,8 +53,8 @@ const items = tm('items')
     "description": "La quiropráctica está pensada para todo el mundo desde los más pequeños hasta los más mayores. No hay una edad ni un estado físico en el cuál la quiropráctica no te aporte beneficios.",
     "items": [
       {
-        "key": "adults",
-        "title": "Adultos",
+        "key": "workers",
+        "title": "Trabajadores",
         "description": "Work faster and smarter by integrating directly with Notion, right in the app."
       },
       {

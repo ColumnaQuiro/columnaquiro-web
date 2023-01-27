@@ -13,11 +13,14 @@
     "@nuxtjs/eslint-config-typescript": "^12.0.0",
     "@nuxtjs/i18n": "^8.0.0-beta.7",
     "nuxt": "3.0.0",
+    "nuxt-simple-sitemap": "^1.0.5",
     "sass": "^1.57.1",
     "vite-plugin-vuetify": "^1.0.1",
+    "vue-cookie-comply": "^0.0.3",
     "vue-i18n": "^9.2.2"
   },
   "dependencies": {
+    "nuxt-cookie-control": "^1.9.93",
     "vue3-carousel": "^0.2.9",
     "vuetify": "^3.1.1"
   }

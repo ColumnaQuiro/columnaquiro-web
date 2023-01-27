@@ -8,7 +8,7 @@
         <v-card
           flat
           color="quaternary"
-          class="pa-4"
+          class="pa-3"
         >
           <v-card-text>
             <div class="text-body-1">
@@ -71,24 +71,44 @@ const carouselBreakpoints = {
     "title": "Vuestros testimonios nos ayudan a seguir mejorando",
     "items": [
       {
-        "author": "Paqui Costea",
-        "description": "Recomiendo encarecidamente a este gran profesional! Para mi y mi familia ha sido un antes y después en nuestra salud desde que empezamos con nuestro tratamiento con él! Es el mejor quiropráctico y tratamiento de recuperación y rehabilitación que he tenido hasta ahora! GRACIAS!"
+        "author": "Yaneth",
+        "description": "La verdad que me ha cambiado la vida y mi diario vivir;  en cuanto escuche de este tipo de tto.  quize probarlo y la verdad no me arrepiento en lo absoluto, por que el seguimiento que me hace la dra.  Lea es fantástico, pocas personas se preocupan por la evolución  después del tratamiento... mil y mil gracias eres la mejor 👌👌👌😘"
       },
       {
-        "author": "Paqui Costea",
-        "description": "Recomiendo encarecidamente a este gran profesional! Para mi y mi familia ha sido un antes y después en nuestra salud desde que empezamos con nuestro tratamiento con él! Es el mejor quiropráctico y tratamiento de recuperación y rehabilitación que he tenido hasta ahora! GRACIAS!"
+        "author": "Jose Maria",
+        "description": "Que decir, llegué con las lumbares destruidas, casi sin poder moverme, y lleno de pastillas que me había dado el CAP. Lea sabe muy bien lo que hace, me dejó como nuevo. Súper recomendables."
       },
       {
-        "author": "Paqui Costea",
-        "description": "Recomiendo encarecidamente a este gran profesional! Para mi y mi familia ha sido un antes y después en nuestra salud desde que empezamos con nuestro tratamiento con él! Es el mejor quiropráctico y tratamiento de recuperación y rehabilitación que he tenido hasta ahora! GRACIAS!"
+        "author": "Nazareth",
+        "description": "Estoy muy contenta con los resultados. La doctora Lea es muy amable, te aconseja y los resultados son muy buenos.  Desde que voy al centro estoy mucho mejor y mi calidad de vida a mejorado mucho. Lo recomiendo 100%."
       },
       {
-        "author": "Paqui Costea",
-        "description": "Recomiendo encarecidamente a este gran profesional! Para mi y mi familia ha sido un antes y después en nuestra salud desde que empezamos con nuestro tratamiento con él! Es el mejor quiropráctico y tratamiento de recuperación y rehabilitación que he tenido hasta ahora! GRACIAS!"
+        "author": "Laura",
+        "description": "Fa uns messos que hi vaig i m’ha ajudat molt amb el dolor i la tensió de diferents parts del cos. També noto una correcció important en la meva postura corporal i el tractament ha afectat positivament en la meva salut i benestar. L’ambient de la consulta és molt relaxant i agradable"
       },
       {
-        "author": "Paqui Costea",
-        "description": "Recomiendo encarecidamente a este gran profesional! Para mi y mi familia ha sido un antes y después en nuestra salud desde que empezamos con nuestro tratamiento con él! Es el mejor quiropráctico y tratamiento de recuperación y rehabilitación que he tenido hasta ahora! GRACIAS!"
+        "author": "Elisabeth",
+        "description": "Vaig començar a tractar-me amb la Dra. Lea fa uns mesos, i estic molt contenta, els mals d'esquena gairebé han desaparescut, dormo millor, he guanyat en qualitat de vida. Recomano a la Dra. Lea al 100%."
+      },
+      {
+        "author": "Karen",
+        "description": "Estoy muy contenta con el servicio de Quirovida y con la Dra. Lea. Son un gran equipo que cuando entras te sientes cómo en casa. El tratamiento propuesto por la Dra. Lea me está ayudando mucho con mi problema de cervicales y espalda. Y que decir de ella es muy amable y siempre muy profesional. Estoy muy agradecida. Recomiendo sin duda a éste centro y sus profesionales."
+      },
+      {
+        "author": "Sandra",
+        "description": "Molt contenta amb el tractament que he rebut de la dra. Léa Guido. Hi vaig arribar gairebé per casualitat i estic encantada! No només ha desaparegut el dolor cervical, també m’ha ajudat molt a nivell emocional.La recomano totalment."
+      },
+      {
+        "author": "Marc",
+        "description": "Léa es una súper profesional!!Se nota la experiencia y en pocas sesiones he notado mucha mejoría en general. Muy recomendable."
+      },
+      {
+        "author": "Javier",
+        "description": "A los que padezcais problemas de espalda, al final de cada sesión y, desde la primera, todas las vértebras quedan en su sitio y, desparecen los desagradables dolores radiculares. La quiropŕactica Lea tiene manos mágicas."
+      },
+      {
+        "author": "Cristian",
+        "description": "Una experiencia  transformadora con la dra Lea  , un trato humano excelente ,lo recomiendo a todas las personas con síntomas o sin síntomas , merece la pena cuidar nuestro cuerpo - habitamos en el -"
       }
     ]
   }

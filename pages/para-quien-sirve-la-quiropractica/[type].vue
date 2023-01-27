@@ -1,9 +1,9 @@
 <template>
   <div>
-    {{ personType }}
+    <para-quien-sirve-la-quiropractica-intro :personType="personType"/>
   </div>
 </template>
 <script setup lang="ts">
 const route = useRoute()
-const personType = route.params.type
+const personType: string | string [] = route.params.type
 </script>
