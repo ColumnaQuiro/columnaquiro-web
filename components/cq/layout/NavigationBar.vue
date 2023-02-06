@@ -3,7 +3,7 @@
     <div class="w-100">
       <v-container class="d-flex align-center">
         <nuxt-link to="/">
-          <v-img src="https://dummyimage.com/80/8d5b4c/ffffff" :width="50" alt="ColumnaQuiro" />
+          <v-img :src="`${STATICS_CDN}logo/logo-color.webp`" :width="100" alt="ColumnaQuiro" />
         </nuxt-link>
         <v-spacer />
         <nav class="d-none d-md-flex">
@@ -44,6 +44,7 @@
 import { useI18n } from 'vue-i18n'
 import { Ref } from 'vue'
 import { useDisplay } from 'vuetify'
+import {STATICS_CDN} from "~/constants/urls";
 
 const { mdAndUp } = useDisplay()
 const { rt, tm } = useI18n({ useScope: 'local', inheritLocale: true })

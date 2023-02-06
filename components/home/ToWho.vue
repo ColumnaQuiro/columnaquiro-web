@@ -20,14 +20,15 @@
       >
         <v-card
           flat
-          :to="`para-quien-sirve-la-quiropractica/${rt(item.key)}`"
-          color="whiteBranded"
-          class="pa-4"
+          :to="`para-quien-sirve-la-quiropractica/${keyToTypeOfPerson.get(rt(item.key))}`"
+          class="pa-2"
         >
-          <v-card-title>
-            <v-img src="https://dummyimage.com/80/8d5b4c/ffffff" width="80" class="mx-auto" />
+          <v-card-title class="d-flex justify-center bg-whiteBranded py-3">
+            <v-avatar size="large">
+              <v-img :src="`${STATICS_CDN}website/home/${rt(item.key)}.webp`" width="100%" class="mx-auto" cover />
+            </v-avatar>
           </v-card-title>
-          <v-card-text class="pt-4">
+          <v-card-text class="pa-4 pt-4">
             <div class="text-h6 text-center pb-4">
               {{ rt(item.title) }}
             </div>
@@ -42,7 +43,8 @@
 </template>
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n'
-
+import { keyToTypeOfPerson } from '~/constants/typeOfPersonMapping'
+import { STATICS_CDN } from '~/constants/urls'
 const { tm, t, rt } = useI18n({ useScope: 'local', inheritLocale: true })
 const items = tm('items')
 </script>
@@ -55,7 +57,7 @@ const items = tm('items')
       {
         "key": "workers",
         "title": "Trabajadores",
-        "description": "Work faster and smarter by integrating directly with Notion, right in the app."
+        "description": "Aumenta la actividad de tu  corteza prefrontal y mejora tu rendimiento laboral a corto y largo plazo, reduciendo el estrés y la ausencia por motivos de salud."
       },
       {
         "key": "kids",
@@ -78,8 +80,8 @@ const items = tm('items')
         "description": "Work faster and smarter by integrating directly with Notion, right in the app."
       },
       {
-        "key": "adolescent",
-        "title": "Adolescentes",
+        "key": "disabled",
+        "title": "Discapacidades motoras o intelectuales",
         "description": "Work faster and smarter by integrating directly with Notion, right in the app."
       }
     ]

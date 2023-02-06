@@ -14,7 +14,8 @@ const myCustomLightTheme = {
     whiteBranded: '#FFF4EC',
     blackBranded: '#474747',
     'on-background': '#474747',
-    'on-whiteBranded': '#474747'
+    'on-whiteBranded': '#474747',
+    'on-surface': '#474747'
   }
 }
 

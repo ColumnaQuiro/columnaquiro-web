@@ -1,7 +1,5 @@
 <template>
   <v-footer class="footer bg-whiteBranded">
-    <div>hola</div>
-    <div>hola</div>
     <v-divider color="#ffffff" />
     <div class="d-flex align-content-space-between pt-4">
       <div class="text-caption">
@@ -17,7 +15,6 @@
 </template>
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n'
-const localePath = useLocalePath()
 
 const { t, tm, rt } = useI18n({ useScope: 'local', inheritLocale: true })
 

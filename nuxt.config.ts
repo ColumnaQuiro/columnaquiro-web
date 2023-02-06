@@ -22,13 +22,25 @@ export default defineNuxtConfig({
       })
     ]
   },
+  sitemap: {
+    hostname: 'https://columnaquiro.com',
+    exclude: [
+      'aviso-legal',
+      'politica-de-cookies',
+      'politica-de-privacidad',
+      'terminos-y-condiciones'
+    ]
+  },
   modules: [
+    'nuxt-simple-sitemap',
     // @ts-ignore
     // eslint-disable-next-line @typescript-eslint/no-unused-vars,require-await
     async (options, nuxt) => {
       nuxt.hooks.hook('vite:extendConfig', config =>
         // @ts-ignore
-        config.plugins.push(vuetify())
+        config.plugins.push(vuetify({
+          styles: { configFile: 'assets/scss/settings.scss' }
+        }))
       )
     }
   ]

@@ -42,7 +42,7 @@ const items = tm('items')
 </script>
 <style lang="scss">
 .how-it-works {
-  & > li {
+  li {
     margin-left: 16px;
   }
 }

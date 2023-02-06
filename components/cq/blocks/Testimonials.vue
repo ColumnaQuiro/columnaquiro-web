@@ -8,10 +8,10 @@
         <v-card
           flat
           color="quaternary"
-          class="pa-3"
+          class="pa-3 h-100"
         >
-          <v-card-text>
-            <div class="text-body-1">
+          <v-card-text class="d-flex flex-column justify-center h-100">
+            <div class="text-body-1 pb-2">
               {{ rt(item.description) }}
             </div>
             <div class="text-caption text--secondary">
@@ -20,7 +20,6 @@
           </v-card-text>
         </v-card>
       </slide>
-
       <template #addons>
         <navigation />
         <pagination />
