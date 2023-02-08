@@ -52,37 +52,37 @@ const items = tm('items')
 {
   "es": {
     "title": "La Quiropráctica es para tí",
-    "description": "La quiropráctica está pensada para todo el mundo desde los más pequeños hasta los más mayores. No hay una edad ni un estado físico en el cuál la quiropráctica no te aporte beneficios.",
+    "description": "La quiropráctica es para todas las edades, desde los niños hasta los adultos mayores y pasando por todas las etapas de vida. Aquí, nos encanta atender a todos los miembros de la familia.",
     "items": [
       {
         "key": "workers",
         "title": "Trabajadores",
-        "description": "Aumenta la actividad de tu  corteza prefrontal y mejora tu rendimiento laboral a corto y largo plazo, reduciendo el estrés y la ausencia por motivos de salud."
+        "description": "Aumenta la actividad de tu corteza prefrontal y mejora tu rendimiento laboral a corto o largo plazo , reduciendo el estres y la ausencia por motivos de salud."
       },
       {
         "key": "kids",
         "title": "Niños",
-        "description": "Work faster and smarter by integrating directly with Notion, right in the app."
+        "description": "El desarrollo de un niño  incluye diferentes  etapas sensoriales y motoras y un sistema nervioso saludable es vital  en su superación y mejora de su coordinación y sentidos."
       },
       {
         "key": "pregnant",
         "title": "Embarazadas",
-        "description": "Work faster and smarter by integrating directly with Notion, right in the app."
+        "description": "Prepara tu  cuerpo para los cambios del embarazo y mejorar tu  recuperación postparto, optimizando la función del sistema nervioso y la salud en esta nueva etapa de vida."
       },
       {
         "key": "sport",
         "title": "Deportistas",
-        "description": "Work faster and smarter by integrating directly with Notion, right in the app."
+        "description": ""
       },
       {
         "key": "elder",
         "title": "Tercera edad",
-        "description": "Work faster and smarter by integrating directly with Notion, right in the app."
+        "description": "Cuida tu  cuerpo para disfrutar al máximo de la vida y mejora tu  movilidad, equilibrio y estilo de vida de manera holística y vitalista."
       },
       {
         "key": "disabled",
         "title": "Discapacidades motoras o intelectuales",
-        "description": "Work faster and smarter by integrating directly with Notion, right in the app."
+        "description": "Mejora la movilidad, equilibrio, sensacion corporal y tu funcionamento general para fortalecer tu desarollo y tu independencia."
       }
     ]
   }

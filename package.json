@@ -20,6 +20,7 @@
     "vue-i18n": "^9.2.2"
   },
   "dependencies": {
+    "@gtm-support/vue-gtm": "^2.0.0",
     "nuxt-cookie-control": "^1.9.93",
     "vue3-carousel": "^0.2.9",
     "vuetify": "^3.1.1"

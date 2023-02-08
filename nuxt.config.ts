@@ -43,5 +43,10 @@ export default defineNuxtConfig({
         }))
       )
     }
-  ]
+  ],
+  runtimeConfig: {
+    public: {
+      gtmId: 'GTM-NTMKRQV'
+    }
+  }
 })

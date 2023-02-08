@@ -66,20 +66,8 @@ const toggleBurgerMenu = () => { showBurgerMenu.value = !showBurgerMenu.value }
   "es": {
     "links": [
       {
-        "text": "Contacto",
-        "to": "/"
-      },
-      {
-        "text": "Contacto2",
-        "to": "/"
-      },
-      {
-        "text": "Blog",
-        "to": "/"
-      },
-      {
         "text": "Pide Tu Cita",
-        "to": "/"
+        "to": "/reserva-tu-visita"
       }
     ]
   }

@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <cq-layout-navigation-bar />
-    <v-main>
+    <v-main class="mt-18 mt-lg-0">
       <NuxtPage />
     </v-main>
     <cq-layout-footer-container />
@@ -19,20 +19,15 @@
         <template #modal-header>
           <h3>{{ t('cookiesConsent.preferences.title') }}</h3>
         </template>
-        <template #modal-footer>
-          <footer>
-            <button class="cookie-comply__button">
-              {{ t('cookiesConsent.preferences.save') }}
-            </button>
-          </footer>
-        </template>
       </vue-cookie-comply>
     </client-only>
   </v-app>
 </template>
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n'
+import { useGtm } from '@gtm-support/vue-gtm'
 
+const gtm = useGtm()
 const { t } = useI18n({ useScope: 'local', inheritLocale: true })
 const preferences = [
   {
@@ -42,24 +37,26 @@ const preferences = [
     title: t('cookiesConsent.preferences.default.title'),
     description: t('cookiesConsent.preferences.default.description'),
     items: [
-      { label: 'Activar', value: 'defaul', isEnabled: true, isRequired: true }
+      { label: 'Activar', value: 'default', isEnable: true, isRequired: true }
     ]
   },
   {
     title: t('cookiesConsent.preferences.googleAnalytics.title'),
     description: t('cookiesConsent.preferences.googleAnalytics.description'),
     items: [
-      { label: 'Activar', value: 'ga' }
+      { label: 'Activar', value: 'ga', isEnable: true, isRequired: false }
     ]
   }
 ]
 
 const onAccept = () => {
-  console.log('accepted')
+  gtm?.enable(true)
 }
 
-const onSavePreferences = () => {
-  console.log('on save preferences')
+const onSavePreferences = (preferences: string[]) => {
+  if (preferences.includes('ga')) {
+    gtm?.enable(true)
+  }
 }
 </script>
 <style lang="scss">
