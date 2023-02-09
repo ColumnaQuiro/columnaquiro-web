@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&display=swap');
-
 @use 'vuetify/settings' with (
-  $body-font-family: 'EB Garamond'
+  $application-color: '#474747',
+  $text-field-affix-color: red
 );

@@ -1,6 +1,0 @@
-$font-families: (
-  'swis721greek-bt': 'Swis721Greek BT',
-  'swis721-md-bt': 'Swis721 Md BT'
-);
-
-@include create-classes('ff', $font-families, 'font-family');

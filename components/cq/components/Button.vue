@@ -10,12 +10,15 @@
     :to="to"
     :href="href"
     :color="color"
+    elevation="0"
     @click="click"
   >
     <slot />
   </v-btn>
 </template>
 <script setup lang="ts">
+import { FunctionalComponent } from 'vue'
+
 interface Props {
   /**
    * Specify a custom tag used on the root element.
@@ -32,7 +35,7 @@ interface Props {
   /**
    * Designates the button as icon. Button will become round and applies the text prop
    */
-  icon?: boolean,
+  icon?: boolean | string | (new () => any) | FunctionalComponent,
   /**
    * Denotes the target route of the link
    */
@@ -56,13 +59,9 @@ interface Props {
 }
 
 withDefaults(defineProps<Props>(), {
-  tag: 'button',
   disabled: false,
   block: false,
-  icon: false,
   text: false,
-  size: 'default',
-  variant: 'elevated',
   color: 'primary'
 })
 
