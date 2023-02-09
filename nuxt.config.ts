@@ -38,9 +38,7 @@ export default defineNuxtConfig({
     'nuxt-simple-sitemap',
     (_options, nuxt) => {
       nuxt.hooks.hook('vite:extendConfig', config =>
-        config.plugins?.push(vuetify({
-          styles: { configFile: 'assets/scss/settings.scss' }
-        })) as any
+        config.plugins?.push(vuetify()) as any
       )
     }
   ],
