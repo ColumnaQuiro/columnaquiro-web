@@ -6,14 +6,14 @@
       </div>
       <v-spacer />
       <nav>
-        <cq-button
+        <cq-components-button
           v-for="item in items"
           :key="rt(item.text)"
           :to="rt(item.to)"
           class="mr-4"
         >
           {{ rt(item.text) }}
-        </cq-button>
+        </cq-components-button>
       </nav>
     </v-container>
   </v-app-bar>

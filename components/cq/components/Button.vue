@@ -10,6 +10,7 @@
     :to="to"
     :href="href"
     :color="color"
+    elevation="0"
     @click="click"
   >
     <slot />

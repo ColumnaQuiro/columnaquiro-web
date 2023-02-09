@@ -6,9 +6,9 @@
         {{ t('copyright') }}
       </div>
       <div class="d-flex">
-        <cq-button v-for="link in links" :key="rt(link.text)" :to="locale">
+        <cq-components-button v-for="link in links" :key="rt(link.text)" :to="locale">
           {{ rt(link.text) }}
-        </cq-button>
+        </cq-components-button>
       </div>
     </div>
   </v-footer>

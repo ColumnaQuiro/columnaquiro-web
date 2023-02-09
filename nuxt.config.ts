@@ -5,6 +5,9 @@ import VueI18nVitePlugin from '@intlify/unplugin-vue-i18n/vite'
 import vuetify from 'vite-plugin-vuetify'
 
 export default defineNuxtConfig({
+  nitro: {
+    preset: 'netlify'
+  },
   vite: {
     resolve: {
       alias: {
@@ -33,14 +36,11 @@ export default defineNuxtConfig({
   },
   modules: [
     'nuxt-simple-sitemap',
-    // @ts-ignore
-    // eslint-disable-next-line @typescript-eslint/no-unused-vars,require-await
-    async (options, nuxt) => {
+    (_options, nuxt) => {
       nuxt.hooks.hook('vite:extendConfig', config =>
-        // @ts-ignore
-        config.plugins.push(vuetify({
+        config.plugins?.push(vuetify({
           styles: { configFile: 'assets/scss/settings.scss' }
-        }))
+        })) as any
       )
     }
   ],

@@ -72,7 +72,7 @@ const items = tm('items')
       {
         "key": "sport",
         "title": "Deportistas",
-        "description": ""
+        "description": "Optimiza tu rendimiento fisico y tu recuperación post-entrenamiento."
       },
       {
         "key": "elder",
