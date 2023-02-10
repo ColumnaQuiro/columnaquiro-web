@@ -1,10 +1,10 @@
 <template>
-  <div class="text-md-start text-center">
+  <div class="md:text-start text-center">
     <div v-for="timetable in timetableItems" :key="rt(timetable.day)">
-      <div class="text-md-subtitle-1 text-h6 font-weight-medium">
+      <div class="text-lg font-medium">
         {{ rt(timetable.day ) }}
       </div>
-      <div class="text-body-1 pl-4">
+      <div class="text-base pl-4">
         {{ rt(timetable.schedule ) }}
       </div>
     </div>

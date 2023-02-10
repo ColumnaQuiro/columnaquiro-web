@@ -1,32 +1,35 @@
 <template>
   <v-app-bar class="navigation-bar" :height="mdAndUp ? 64 : 'auto'" flat>
-    <div class="w-100">
-      <v-container class="d-flex align-center">
+    <div class="w-full">
+      <div class="container flex flex-wrap items-center">
         <nuxt-link to="/">
           <v-img :src="`${STATICS_CDN}logo/logo-color.webp`" :width="100" alt="ColumnaQuiro" />
         </nuxt-link>
-        <v-spacer />
-        <nav class="d-none d-md-flex">
+        <div class="flex-grow" />
+        <nav class="hidden md:flex h-fit">
           <cq-components-button
             v-for="link in links"
             :key="rt(link.text)"
             :to="rt(link.to)"
+            variant="text"
             class="mr-4"
           >
             {{ rt(link.text) }}
           </cq-components-button>
         </nav>
-        <cq-components-button
-          icon
-          color="primary"
-          class="d-md-none"
-          @click="toggleBurgerMenu"
-        >
-          <v-icon>mdi-menu</v-icon>
-        </cq-components-button>
-      </v-container>
+        <div class="md:hidden">
+          <cq-components-button
+            icon
+            color="primary"
+            class="md:hidden"
+            @click="toggleBurgerMenu"
+          >
+            <v-icon>mdi-menu</v-icon>
+          </cq-components-button>
+        </div>
+      </div>
       <v-expand-transition>
-        <nav v-if="showBurgerMenu" class="d-md-none d-flex flex-column">
+        <nav v-if="showBurgerMenu" class="md:hidden flex flex-col">
           <cq-components-button
             v-for="link in links"
             :key="rt(link.text)"
@@ -44,7 +47,7 @@
 import { useI18n } from 'vue-i18n'
 import { Ref } from 'vue'
 import { useDisplay } from 'vuetify'
-import {STATICS_CDN} from "~/constants/urls";
+import { STATICS_CDN } from '~/constants/urls'
 
 const { mdAndUp } = useDisplay()
 const { rt, tm } = useI18n({ useScope: 'local', inheritLocale: true })

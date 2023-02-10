@@ -1,6 +1,7 @@
 <template>
   <div>
     <para-quien-sirve-la-quiropractica-intro :person-type="personType" />
+    <cq-blocks-order-appointment-section />
   </div>
 </template>
 <script setup lang="ts">

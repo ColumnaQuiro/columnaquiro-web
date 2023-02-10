@@ -1,21 +1,25 @@
 <template>
-  <cq-layout-section>
-    <h3 class="text-h6">
+  <cq-layout-section class="booking">
+    <h3 class="text-3xl pb-4 text-center">
       {{ t('title') }}
     </h3>
-    <div class="text-subtitle-1" v-html="t('subtitle')" />
-    <v-form ref="formRef" class="d-flex v-col-md-6 pt-4 px-0" validate-on="submit" @submit.prevent="subscribeUser">
+    <div class="text-base" v-html="t('subtitle')" />
+    <v-form
+      ref="formRef"
+      class="pt-4 px-0"
+      validate-on="submit"
+      @submit.prevent="subscribeUser"
+    >
       <cq-components-input-text
         v-model="email"
         :label="t('form.email.label')"
         :placeholder="t('form.email.placeholder')"
         :rules="EMAIL_RULES"
+        append-inner-icon="mdi-send"
         type="email"
-        class="mr-2"
+        class="booking__input"
+        @click:append-inner="subscribeUser"
       />
-      <cq-components-button type="submit" color="tertiary">
-        {{ t('form.submit') }}
-      </cq-components-button>
     </v-form>
   </cq-layout-section>
 </template>
@@ -37,6 +41,13 @@ const subscribeUser = async () => {
 }
 </script>
 
+<style lang="scss" scoped>
+.booking {
+  &__input {
+    max-width: 500px;
+  }
+}
+</style>
 <i18n>
 {
   "es": {

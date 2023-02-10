@@ -1,9 +1,9 @@
 <template>
-  <div class="d-flex flex-column flex-md-row justify-space-between">
-    <div class="text-caption text-md-start text-center pb-md-0 pb-1">
+  <div class="flex flex-col md:flex-row justify-between">
+    <div class="text-xs md:text-start text-center md:pb-0 pb-1">
       {{ t('copyright') }}
     </div>
-    <div class="d-flex pb-md-0 pb-2 justify-center">
+    <div class="flex md:pb-0 pb-2 justify-center">
       <cq-components-button
         v-for="link in links"
         :key="rt(link.text)"

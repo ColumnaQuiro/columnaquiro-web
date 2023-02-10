@@ -2,10 +2,10 @@
   <cq-layout-section>
     <v-row no-gutters justify="center">
       <v-col cols="12" lg="8" md="10">
-        <cq-fonts-h3>
+        <h3 class="section-title text-center">
           {{ t('title') }}
-        </cq-fonts-h3>
-        <div class="text-h6 text-center">
+        </h3>
+        <div class="text-base text-center">
           {{ t('description') }}
         </div>
       </v-col>
@@ -23,16 +23,16 @@
           :to="`para-quien-sirve-la-quiropractica/${keyToTypeOfPerson.get(rt(item.key))}`"
           class="pa-2"
         >
-          <v-card-title class="d-flex justify-center bg-whiteBranded py-3">
+          <v-card-title class="!flex justify-center bg-brand-white py-3">
             <v-avatar size="large">
               <v-img :src="`${STATICS_CDN}website/home/${rt(item.key)}.webp`" width="100%" class="mx-auto" cover />
             </v-avatar>
           </v-card-title>
-          <v-card-text class="pa-4 pt-4">
-            <div class="text-h6 text-center pb-4">
+          <v-card-text class="pa-4 !pt-4">
+            <div class="text-lg font-medium text-center pb-4">
               {{ rt(item.title) }}
             </div>
-            <div class="text-body-1 text-center">
+            <div class="text-base text-center">
               {{ rt(item.description) }}
             </div>
           </v-card-text>

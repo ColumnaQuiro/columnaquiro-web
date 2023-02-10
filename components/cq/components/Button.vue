@@ -47,11 +47,11 @@ interface Props {
   /**
    * Applies one of 6 styles: elevated, flat, tonal, outlined, text, and plain.
    */
-  variant?: string,
+  variant?: 'flat' | 'text' | 'elevated' | 'tonal' | 'outlined' | 'plain',
   /**
    * Sets the height and width of the component. Default unit is px. Can also use the following predefined sizes: x-small, small, default, large, and x-large.
    */
-  size?: string,
+  size?: 'x-small' | 'small' | 'default' | 'large' | 'x-large',
   /**
    * Applies specified color to the control - it can be the name of material color (for example success or purple) or css color (#033 or rgba(255, 0, 0, 0.5))
    */
@@ -62,7 +62,13 @@ withDefaults(defineProps<Props>(), {
   disabled: false,
   block: false,
   text: false,
-  color: 'primary'
+  color: 'primary',
+  size: 'default',
+  href: undefined,
+  variant: 'elevated',
+  to: undefined,
+  icon: false,
+  tag: 'button'
 })
 
 const emit = defineEmits<{(e: 'click'): void }>()

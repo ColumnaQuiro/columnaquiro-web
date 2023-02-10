@@ -14,7 +14,7 @@
         @on-save-cookie-preferences="onSavePreferences"
       >
         <template #header>
-          <div class="text-body-1" v-html="t('cookiesConsent.description')" />
+          <div class="text-base" v-html="t('cookiesConsent.description')" />
         </template>
         <template #modal-header>
           <h3>{{ t('cookiesConsent.preferences.title') }}</h3>

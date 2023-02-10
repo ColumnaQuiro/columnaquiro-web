@@ -1,7 +1,16 @@
 @use 'vuetify' with (
   $body-font-family: 'EB Garamond',
-  $spacers-steps: 20
+  $spacers-steps: 20,
+  $utilities: false,
+  $color-pack: false
 );
+@use 'fonts';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&display=swap');
 body {
   color: #474747;

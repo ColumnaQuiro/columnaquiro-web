@@ -1,9 +1,9 @@
 <template>
   <cq-layout-section class="how-it-works">
-    <cq-fonts-h3>
+    <div class="section-title text-center">
       {{ t('title') }}
-    </cq-fonts-h3>
-    <div class="text-h6">
+    </div>
+    <div class="text-lg">
       {{ t('description') }}
     </div>
     <client-only>
@@ -20,11 +20,11 @@
           :icon="rt(item.icon)"
         >
           <v-card flat :color="rt(item.color)">
-            <v-card-title :class="['text-h6', `bg-${item.color}`]">
+            <v-card-title :class="['text-lg', `bg-${item.color}`]">
               {{ rt(item.title) }}
             </v-card-title>
             <v-card-text>
-              <div class="text-body-1" v-html="rt(item.description)" />
+              <div class="text-base" v-html="rt(item.description)" />
             </v-card-text>
           </v-card>
         </v-timeline-item>
@@ -43,7 +43,7 @@ const items = tm('items')
 <style lang="scss">
 .how-it-works {
   li {
-    margin-left: 16px;
+    margin-left: 16px !important;
   }
 }
 </style>
@@ -63,13 +63,13 @@ const items = tm('items')
         "color": "tertiary",
         "icon": "mdi-magnify",
         "title": "Primera visita",
-        "description": "<ul>Te contamos lo que haremos en tu primera visita: <li> Rellenar el formulario de primera visita en la web </li> <li>historia clinica de salud</li> <li><ul>Pruebas para ver como funciona  tu sistema nervioso:<li>postura</li><li>pruebas neurológicas</li><li>patron de marcha</li></ul></li></ul>"
+        "description": "<ul class='list-disc'>Te contamos lo que haremos en tu primera visita: <li> Rellenar el formulario de primera visita en la web </li> <li>historia clinica de salud</li> <li><ul>Pruebas para ver como funciona  tu sistema nervioso:<li>postura</li><li>pruebas neurológicas</li><li>patron de marcha</li></ul></li></ul>"
       },
       {
         "color": "quaternary",
         "icon": "mdi-file-document-check-outline",
         "title": "Segunda visita => Informe",
-        "description": "<ul><li>Te entregamos tu informe quiropractico con los resultados de las pruebas de la 1a visita</li><li>plan de cuidado recomendado </li></ul>"
+        "description": "<ul class='list-disc'><li>Te entregamos tu informe quiropractico con los resultados de las pruebas de la 1a visita</li><li>plan de cuidado recomendado </li></ul>"
       },
       {
         "color": "secondary",

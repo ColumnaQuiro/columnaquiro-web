@@ -1,20 +1,20 @@
 <template>
   <cq-layout-section>
-    <cq-fonts-h3>
+    <div class="section-title text-center">
       {{ t('title') }}
-    </cq-fonts-h3>
+    </div>
     <carousel :settings="carouselSettings" :breakpoints="carouselBreakpoints">
       <slide v-for="item in items" :key="rt(item.author)">
         <v-card
           flat
           color="quaternary"
-          class="pa-3 h-100"
+          class="p-3 h-full"
         >
-          <v-card-text class="d-flex flex-column justify-center h-100">
-            <div class="text-body-1 pb-2">
+          <v-card-text class="flex flex-col justify-center h-full">
+            <div class="text-base pb-2">
               {{ rt(item.description) }}
             </div>
-            <div class="text-caption text--secondary">
+            <div class="text-xs italic">
               {{ rt(item.author) }}
             </div>
           </v-card-text>
