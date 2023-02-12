@@ -1,8 +1,8 @@
 <template>
   <cq-layout-section class="how-it-works">
-    <div class="section-title text-center">
+    <h2 class="section-title text-center">
       {{ t('title') }}
-    </div>
+    </h2>
     <div class="text-lg">
       {{ t('description') }}
     </div>
