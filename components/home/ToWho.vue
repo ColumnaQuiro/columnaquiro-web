@@ -2,9 +2,9 @@
   <cq-layout-section>
     <v-row no-gutters justify="center">
       <v-col cols="12" lg="8" md="10">
-        <h3 class="section-title text-center">
+        <h2 class="section-title text-center">
           {{ t('title') }}
-        </h3>
+        </h2>
         <div class="text-base text-center">
           {{ t('description') }}
         </div>
