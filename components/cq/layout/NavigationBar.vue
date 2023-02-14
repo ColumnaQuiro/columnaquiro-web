@@ -70,7 +70,7 @@ const toggleBurgerMenu = () => { showBurgerMenu.value = !showBurgerMenu.value }
     "links": [
       {
         "text": "Pide Tu Cita",
-        "to": "/reserva-tu-visita"
+        "to": "/reserva-cita-centro-quiropractico-valencia"
       }
     ]
   }

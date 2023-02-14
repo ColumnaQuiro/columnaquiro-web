@@ -5,6 +5,12 @@ import VueI18nVitePlugin from '@intlify/unplugin-vue-i18n/vite'
 import vuetify from 'vite-plugin-vuetify'
 
 export default defineNuxtConfig({
+  app: {
+    head: {
+      charset: 'utf-8',
+      viewport: 'width=device-width, initial-scale=1.0'
+    }
+  },
   nitro: {
     preset: 'netlify'
   },

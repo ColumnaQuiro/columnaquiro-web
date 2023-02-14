@@ -1,16 +1,12 @@
 <template>
   <div>
-    <home-quiro-intro />
-    <home-science />
-    <home-to-who />
-    <home-how-it-works />
-    <cq-blocks-testimonials />
-    <home-quiro-logos />
+    <reserva-tu-visita-header />
+    <reserva-tu-visita-booking />
   </div>
 </template>
 <script setup lang="ts">
-import { useSeoMeta, useTagTitle } from '@unhead/vue'
 import { useI18n } from 'vue-i18n'
+import { useSeoMeta, useTagTitle } from '@unhead/vue'
 import { STATICS_CDN } from '~/constants/urls'
 
 const { t } = useI18n({ inheritLocale: true, useScope: 'local' })
@@ -28,8 +24,8 @@ useSeoMeta({
 {
   "es": {
     "seo": {
-      "title": "Centro Quiropráctico de Alta Calidad en València - ColumaQuiro",
-      "description": "Centro de quiropráctica en el centro de València. Descubre en el centro ColumnaQuiro qué es la quiropráctica y sus beneficios. La Quiropráctica es para tí"
+      "title": "Reserva tu visita - ColumaQuiro",
+      "description": "Reserva una cita en el Centro Quiropráctico de Valencia. Nuestro equipo de profesionales altamente capacitados brinda atención personalizada y efectiva."
     }
   }
 }
