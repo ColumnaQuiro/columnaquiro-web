@@ -5,7 +5,7 @@
         {{ t('title') }}
       </h3>
       <div class="text-lg pt-4 pb-6" v-html="t('subtitle')" />
-      <cq-components-button size="x-large" color="tertiary" to="/reserva-tu-visita">
+      <cq-components-button size="x-large" color="tertiary" to="/reserva-cita-centro-quiropractico-valencia">
         {{ t('button')}}
       </cq-components-button>
     </cq-layout-section>
