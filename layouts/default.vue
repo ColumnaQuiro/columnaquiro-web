@@ -2,7 +2,7 @@
   <div>
     <Html :lang="locale">
       <Head>
-        <Link rel="canonical" :href="`https://columnaquiro.com${fullPath}`" />
+        <Link rel="canonical" :href="canonical" />
       </Head>
       <v-app>
         <cq-layout-navigation-bar />
@@ -33,10 +33,12 @@
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n'
 import { useGtm } from '@gtm-support/vue-gtm'
+import { useSeoMeta } from '@unhead/vue'
 
 const { fullPath } = useRoute()
 const gtm = useGtm()
 const { t, locale } = useI18n({ useScope: 'local', inheritLocale: true })
+const canonical = `https://columnaquiro.com${fullPath}`
 const preferences = [
   {
     description: t('cookiesConsent.preferences.description')
@@ -66,6 +68,12 @@ const onSavePreferences = (preferences: string[]) => {
     gtm?.enable(true)
   }
 }
+
+useSeoMeta({
+  ogUrl: canonical,
+  ogType: 'website'
+})
+
 </script>
 <style lang="scss">
 .cookie-comply {
