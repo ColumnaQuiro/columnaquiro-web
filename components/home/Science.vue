@@ -17,6 +17,8 @@
           <v-progress-linear
             :model-value="rt(bar.percentage)"
             :height="25"
+            role="progressbar"
+            aria-label="progress"
             rounded
             class="!w-96"
           >
