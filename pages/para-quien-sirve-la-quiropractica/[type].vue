@@ -32,11 +32,11 @@ useSeoMeta({
       "title": "La quiropráctica es para tí - {personTitle} - ColumnaQuiro",
       "description": {
         "disabled": "La quiropráctica mejora la movilidad, equilibrio y coordinación en personas con discapacidades. También mejora el desarrollo en trastornos neuroconductuales.",
-        "kids": "Preven disfunciones en el sistema nervioso de tu bebé: cómo un sistema nervioso óptimo mejora su desarrollo sensorial y motor, coordinación, equilibrio y sentidos.",
+        "kids": "Preven disfunciones en el sistema nervioso de tu bebé: cómo un sistema nervioso óptimo mejora su desarrollo sensorial y motor, coordinación y sentidos.",
         "elder": "Mejora tu movilidad, equilibrio y calidad de vida en la tercera edad con la Quiropráctica: disfruta de un estilo de vida y saludable gracias a su enfoque.",
         "pregnant": "Optimiza tu salud durante y después del embarazo con la quiropráctica. Prepara tu cuerpo para los cambios físicos, químicos y emocionales del embarazo.",
-        "workers": "Mejora tu rendimiento laboral con Quiropraxia: los ajustes quiropáticos afectan positivamente a la toma de decisiones, cognición... reduciendo ausencias por salud.",
-        "sport": "Mejora el rendimiento deportivo con quiropráctica. Los ajustes regulares aumentan la fuerza, el tiempo de reacción, la movilidad, el equilibrio y la recuperación."
+        "workers": "Mejora tu rendimiento laboral con Quiropraxia: los ajustes afectan positivamente a la toma de decisiones, cognición... reduciendo ausencias por salud.",
+        "sport": "Mejora el rendimiento deportivo con quiropráctica. Los ajustes aumentan la fuerza, el tiempo de reacción, la movilidad, el equilibrio y la recuperación."
       }
     },
     "personTitle": {
