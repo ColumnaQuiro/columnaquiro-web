@@ -39,7 +39,7 @@ interface Props {
   /**
    * Denotes the target route of the link
    */
-  to?: string,
+  to?: string | undefined,
   /**
    * Designates the component as anchor and applies the href attribute.
    */

@@ -1,5 +1,5 @@
 <template>
-  <v-app-bar class="navigation-bar" :height="mdAndUp ? 64 : 'auto'" flat>
+  <v-app-bar class="navigation-bar !overflow-visible" :height="mdAndUp ? 64 : 'auto'" flat>
     <div class="w-full">
       <div class="container flex flex-wrap items-center">
         <nuxt-link to="/">
@@ -7,20 +7,22 @@
         </nuxt-link>
         <div class="flex-grow" />
         <nav class="hidden md:flex h-fit">
-          <cq-components-button
+          <cq-components-sub-menu-item
             v-for="link in links"
             :key="rt(link.text)"
-            :to="rt(link.to)"
-            variant="text"
-            class="mr-4"
-          >
-            {{ rt(link.text) }}
+            :text="rt(link.text)"
+            :to="link.to ? rt(link.to) : undefined"
+            :sub-menu="link.subMenu"
+          />
+          <cq-components-button :to="t('appointmentButton.to')" variant="elevated">
+            {{ t('appointmentButton.text') }}
           </cq-components-button>
         </nav>
         <div class="md:hidden">
           <cq-components-button
             icon
-            color="primary"
+            variant="plain"
+            color="#000000"
             class="md:hidden"
             @click="toggleBurgerMenu"
           >
@@ -30,13 +32,15 @@
       </div>
       <v-expand-transition>
         <nav v-if="showBurgerMenu" class="md:hidden flex flex-col">
-          <cq-components-button
+          <cq-components-sub-menu-item
             v-for="link in links"
             :key="rt(link.text)"
-            :to="rt(link.to)"
-            class="mb-2 mx-4"
-          >
-            {{ rt(link.text) }}
+            :text="rt(link.text)"
+            :to="link.to ? rt(link.to) : undefined"
+            :sub-menu="link.subMenu"
+          />
+          <cq-components-button :to="t('appointmentButton.to')" block variant="elevated">
+            {{ t('appointmentButton.text') }}
           </cq-components-button>
         </nav>
       </v-expand-transition>
@@ -48,10 +52,11 @@ import { useI18n } from 'vue-i18n'
 import { Ref } from 'vue'
 import { useDisplay } from 'vuetify'
 import { STATICS_CDN } from '~/constants/urls'
+import { Link } from '~/types/Link'
 
 const { mdAndUp } = useDisplay()
-const { rt, tm } = useI18n({ useScope: 'local', inheritLocale: true })
-const links = tm('links')
+const { t, rt, tm } = useI18n({ useScope: 'local', inheritLocale: true })
+const links: Link[] = tm('links')
 
 const showBurgerMenu: Ref<boolean> = ref(false)
 
@@ -69,10 +74,57 @@ const toggleBurgerMenu = () => { showBurgerMenu.value = !showBurgerMenu.value }
   "es": {
     "links": [
       {
-        "text": "Pide Tu Cita",
-        "to": "/reserva-cita-centro-quiropractico-valencia"
+        "text": "Quiropráctica",
+        "subMenu": [
+          {
+            "text": "¿Qué es?",
+            "to": "/que-es-la-quiropractica"
+          },
+          {
+            "text": "¿Es para mí?",
+            "to": "/para-quien-sirve-la-quiropractica"
+          },
+          {
+            "text": "Preguntas Frecuentes",
+            "to": "/que-es-la-quiropractica/preguntas-frecuentes"
+          }
+        ]
+      },
+      {
+        "text": "Servicios",
+        "subMenu": [
+          {
+            "text": "¿Cómo funciona?",
+            "to": "/servicios-quiropractica"
+          },
+          {
+            "text": "Primera visita",
+            "to": "/servicios-quiropractica/primera-visita"
+          }
+        ]
+      },
+      {
+        "text": "Sobre nosotros",
+        "subMenu": [
+          {
+            "text": "Nuestro equipo",
+            "to": "/sobre-nosotros/equipo"
+          },
+          {
+            "text": "Nuestro centro",
+            "to": "/sobre-nosotros/centro-quiropractico-valencia"
+          },
+          {
+            "text": "Contacto",
+            "to": "/sobre-nosotros/contacto"
+          }
+        ]
       }
-    ]
+    ],
+    "appointmentButton": {
+      "text": "Pide Tu Cita",
+      "to": "/reserva-cita-centro-quiropractico-valencia"
+    }
   }
 }
 </i18n>
