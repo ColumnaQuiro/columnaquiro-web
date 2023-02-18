@@ -47,6 +47,7 @@ export default defineNuxtConfig({
     ]
   },
   modules: [
+    'nuxt-delay-hydration',
     'nuxt-simple-sitemap',
     (_options, nuxt) => {
       nuxt.hooks.hook('vite:extendConfig', config =>
@@ -60,5 +61,9 @@ export default defineNuxtConfig({
     public: {
       gtmId: 'GTM-NTMKRQV'
     }
+  },
+  delayHydration: {
+    mode: 'mount',
+    debug: process.env.NODE_ENV === 'development'
   }
 })

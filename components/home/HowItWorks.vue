@@ -63,7 +63,7 @@ const items = tm('items')
         "color": "tertiary",
         "icon": "mdi-magnify",
         "title": "Primera visita",
-        "description": "Te contamos lo que haremos en tu primera visita:<ul class='list-disc'><li> Rellenar el formulario de primera visita en la web </li> <li>historia clinica de salud</li> <li><ul>Pruebas para ver como funciona  tu sistema nervioso:<li>postura</li><li>pruebas neurológicas</li><li>patron de marcha</li></ul></li></ul>"
+        "description": "Te contamos lo que haremos en tu primera visita:<ul class='list-disc'><li> Rellenar el formulario de primera visita en la web </li> <li>historia clinica de salud</li> <li>Pruebas para ver como funciona  tu sistema nervioso:<ul><li>postura</li><li>pruebas neurológicas</li><li>patron de marcha</li></ul></li></ul>"
       },
       {
         "color": "quaternary",
