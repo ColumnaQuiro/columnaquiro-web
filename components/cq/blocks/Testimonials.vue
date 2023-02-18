@@ -1,6 +1,6 @@
 <template>
   <cq-layout-section>
-    <div class="section-title text-center">
+    <div class="section-title">
       {{ t('title') }}
     </div>
     <carousel :settings="carouselSettings" :breakpoints="carouselBreakpoints">

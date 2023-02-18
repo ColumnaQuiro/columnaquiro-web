@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 class="section-title text-center pb-4">
+    <h1 class="section-title pb-4">
       {{ t('title') }}
     </h1>
     <h2 class="text-2xl text-center">
@@ -13,7 +13,6 @@
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n'
 import { useSeoMeta, useTagTitle } from '@unhead/vue'
-import { STATICS_CDN } from '~/constants/urls'
 
 const { t } = useI18n({ useScope: 'local', inheritLocale: true })
 
@@ -21,9 +20,7 @@ useTagTitle(t('seo.title'))
 useSeoMeta({
   description: t('seo.description'),
   ogDescription: t('seo.description'),
-  ogTitle: t('seo.title'),
-  ogImage: `${STATICS_CDN}website/seo/og-image.png`,
-  twitterCard: 'summary_large_image'
+  ogTitle: t('seo.title')
 })
 </script>
 <i18n>

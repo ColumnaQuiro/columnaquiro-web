@@ -1,6 +1,6 @@
 <template>
   <cq-layout-section>
-    <h1 class="section-title text-center">{{ t(`title.${personType}`)}}</h1>
+    <h1 class="section-title">{{ t(`title.${personType}`)}}</h1>
     <cq-blocks-sections-paragraphWithImage
       :text="t(`description.${personType}`)"
       image="https://dummyimage.com/80/8d5b4c/ffffff"

@@ -1,7 +1,7 @@
 <template>
   <div class="bg-brand-tertiary">
     <cq-layout-section>
-      <h2 class="section-title text-center">
+      <h2 class="section-title">
         {{ t('title') }}
       </h2>
       <div class="text-base" v-html="t('body')" />

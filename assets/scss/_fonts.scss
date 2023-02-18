@@ -1,3 +1,5 @@
 .section-title {
-  @apply text-3xl md:text-4xl font-medium lg:pb-12 md:pb-10 pb-8;
+  @apply text-3xl font-medium pb-8 text-center;
+  @apply md:text-4xl md:pb-10;
+  @apply lg:pb-12;
 }

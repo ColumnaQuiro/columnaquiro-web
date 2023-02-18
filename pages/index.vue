@@ -11,7 +11,6 @@
 <script setup lang="ts">
 import { useSeoMeta, useTagTitle } from '@unhead/vue'
 import { useI18n } from 'vue-i18n'
-import { STATICS_CDN } from '~/constants/urls'
 
 const { t } = useI18n({ inheritLocale: true, useScope: 'local' })
 
@@ -19,9 +18,7 @@ useTagTitle(t('seo.title'))
 useSeoMeta({
   description: t('seo.description'),
   ogDescription: t('seo.description'),
-  ogTitle: t('seo.title'),
-  ogImage: `${STATICS_CDN}website/seo/og-image.png`,
-  twitterCard: 'summary_large_image'
+  ogTitle: t('seo.title')
 })
 </script>
 <i18n>

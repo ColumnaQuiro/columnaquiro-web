@@ -1,6 +1,6 @@
 <template>
   <cq-layout-section>
-    <h1 class="section-title text-center">
+    <h1 class="section-title">
       {{ t('title') }}
     </h1>
     <div class="text-lg pt-4 text-center text-md-start">
