@@ -18,7 +18,7 @@
       </nuxt-link>
     </div>
     <div class="flex pt-4">
-      <cq-components-button icon :href="INSTAGRAM_URL" size="x-small" variant="tonal">
+      <cq-components-button icon :href="INSTAGRAM_URL" size="x-small" variant="tonal" aria-label="Instagram">
         <v-icon>mdi-instagram</v-icon>
       </cq-components-button>
     </div>

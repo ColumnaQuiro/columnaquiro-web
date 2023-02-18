@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 class="section-title text-center pb-4">
+    <h1 class="section-title pb-4">
       {{ t('title') }}
     </h1>
     <h2 class="text-2xl text-center">

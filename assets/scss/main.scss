@@ -19,6 +19,8 @@ body {
 }
 
 ul {
+  @apply list-disc;
+
   li {
     @apply ml-4;
   }

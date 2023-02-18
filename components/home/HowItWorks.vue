@@ -1,6 +1,6 @@
 <template>
   <cq-layout-section class="how-it-works">
-    <h2 class="section-title text-center">
+    <h2 class="section-title">
       {{ t('title') }}
     </h2>
     <div class="text-lg">
@@ -19,12 +19,12 @@
           :dot-color="rt(item.color)"
           :icon="rt(item.icon)"
         >
-          <v-card flat :color="rt(item.color)">
-            <v-card-title :class="['text-lg', `bg-${item.color}`]">
+          <v-card variant="outlined" :color="rt(item.color)">
+            <v-card-title :class="['text-lg text-brand-black', `bg-${item.color}`]">
               {{ rt(item.title) }}
             </v-card-title>
             <v-card-text>
-              <div class="text-base" v-html="rt(item.description)" />
+              <div class="text-base text-brand-black" v-html="rt(item.description)" />
             </v-card-text>
           </v-card>
         </v-timeline-item>
@@ -63,7 +63,7 @@ const items = tm('items')
         "color": "tertiary",
         "icon": "mdi-magnify",
         "title": "Primera visita",
-        "description": "<ul class='list-disc'>Te contamos lo que haremos en tu primera visita: <li> Rellenar el formulario de primera visita en la web </li> <li>historia clinica de salud</li> <li><ul>Pruebas para ver como funciona  tu sistema nervioso:<li>postura</li><li>pruebas neurológicas</li><li>patron de marcha</li></ul></li></ul>"
+        "description": "Te contamos lo que haremos en tu primera visita:<ul class='list-disc'><li> Rellenar el formulario de primera visita en la web </li> <li>historia clinica de salud</li> <li><ul>Pruebas para ver como funciona  tu sistema nervioso:<li>postura</li><li>pruebas neurológicas</li><li>patron de marcha</li></ul></li></ul>"
       },
       {
         "color": "quaternary",

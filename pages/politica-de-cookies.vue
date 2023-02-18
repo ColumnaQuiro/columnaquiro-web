@@ -32,17 +32,17 @@
     Las velocidades de transmisión de vídeo compatibles con su navegador.
     <b>Cookies de Geolocalización:</b> Estas cookies son utilizadas para averiguar en qué país te encuentras cuando se navega por la web. Esta cookie es totalmente anónima, y sólo se utiliza para ayudar a orientar el contenido a tu ubicación.
     <br><br>
-    <ul class="list-disc">
     <b>Cookies de Registro:</b>
-      Las cookies de registro se generan una vez que el usuario se ha registrado o posteriormente comenzó la sesión, y se utilizan para identificarlo en las páginas con los siguientes objetivos:
+    Las cookies de registro se generan una vez que el usuario se ha registrado o posteriormente comenzó la sesión, y se utilizan para identificarlo en las páginas con los siguientes objetivos:
+    <ul class="list-disc">
       <li>Mantener el usuario identificado de manera que, si cierra una página, el navegador o el ordenador y en otro momento u otro día vuelve a entrar en esta página, seguirá identificado, facilitando así su navegación sin tener que volver a identificarse. Esta funcionalidad se puede suprimir si el usuario pulsa la funcionalidad «cerrar sesión», por lo que esta cookie se elimina y la próxima vez que entre en la página el usuario deberá iniciar sesión para estar identificado.</li>
       <li>Comprobar si el usuario está autorizado para acceder a ciertas páginas, por ejemplo, para participar en un concurso.</li>
       <li>Adicionalmente, algunas páginas pueden utilizar conectores con redes sociales como Facebook, Instagram, Youtube o Twitter. Cuando el usuario se registra en una página con credenciales de una red social, autoriza a la red social a guardar una cookie persistente que recuerda su identidad y le garantiza acceso a las páginas hasta que expira. El usuario puede borrar esta cookie y revocar el acceso a las páginas a través de redes sociales actualizando sus preferencias en la red social que específica.</li>
     </ul>
     <br>
-    <ul class="list-disc">
     <b>Cookies de Analíticas:</b>
-      Cada vez que un usuario visita una página, una herramienta de un proveedor externo (en nuestro caso Google Analytics) genera una cookie analítica en el ordenador del usuario. Esta cookie que sólo se genera en la visita, servirá en futuras visitas a las páginas de www.columnaquiro.com para identificar de forma anónima al visitante. Los objetivos principales que se persiguen son:
+    Cada vez que un usuario visita una página, una herramienta de un proveedor externo (en nuestro caso Google Analytics) genera una cookie analítica en el ordenador del usuario. Esta cookie que sólo se genera en la visita, servirá en futuras visitas a las páginas de www.columnaquiro.com para identificar de forma anónima al visitante. Los objetivos principales que se persiguen son:
+    <ul class="list-disc">
       <li>Permitir la identificación anónima de los usuarios navegantes a través de la «cookie» (identifica navegadores y dispositivos, no personas) y por tanto la contabilización aproximada del número de visitantes y su tendencia en el tiempo.</li>
       <li>Identificar de forma anónima los contenidos más visitados y por lo tanto más atractivos para los usuarios.</li>
       <li>Saber si el usuario que está accediendo es nuevo o repite visita.</li>
@@ -77,8 +77,8 @@
 
     Normalmente es posible dejar de aceptar las cookies del navegador, o dejar de aceptar las cookies de una página en particular. Todos los navegadores modernos permiten cambiar la configuración de cookies. Este ajuste normalmente se encuentra en las «Opciones» o «Preferencias» del menú de su navegador.
     <br><br>
+    La web de www.columnaquiro.com ofrecen orientación al usuario sobre los pasos para acceder al menú de configuración de las cookies y, si procede, de la navegación privada en cada uno de los navegadores principales:
     <ul class="list-disc">
-      La web de www.columnaquiro.com ofrecen orientación al usuario sobre los pasos para acceder al menú de configuración de las cookies y, si procede, de la navegación privada en cada uno de los navegadores principales:
       <br><br>
       <li>
         Internet Explorer: Herramientas -> Opciones de Internet -> Privacidad -> Configuración.<br>
