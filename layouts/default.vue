@@ -34,6 +34,7 @@
 import { useI18n } from 'vue-i18n'
 import { useGtm } from '@gtm-support/vue-gtm'
 import { useSeoMeta } from '@unhead/vue'
+import { STATICS_CDN } from '~/constants/urls'
 
 const { fullPath } = useRoute()
 const gtm = useGtm()
@@ -71,7 +72,10 @@ const onSavePreferences = (preferences: string[]) => {
 
 useSeoMeta({
   ogUrl: canonical,
-  ogType: 'website'
+  ogType: 'website',
+  ogSiteName: '',
+  ogImage: `${STATICS_CDN}website/seo/og-image.png`,
+  twitterCard: 'summary_large_image'
 })
 
 </script>

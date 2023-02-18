@@ -8,7 +8,6 @@
 import { useI18n } from 'vue-i18n'
 import { useSeoMeta, useTagTitle } from '@unhead/vue'
 import { typeOfPersonToKey } from '~/constants/typeOfPersonMapping'
-import { STATICS_CDN } from '~/constants/urls'
 
 const route = useRoute()
 const { t } = useI18n({ inheritLocale: true, useScope: 'local' })
@@ -19,9 +18,7 @@ useTagTitle(t('seo.title', { personTitle }))
 useSeoMeta({
   description: t(`seo.description.${personType}`),
   ogDescription: t(`seo.description.${personType}`),
-  ogTitle: t('seo.title'),
-  ogImage: `${STATICS_CDN}website/seo/og-image.png`,
-  twitterCard: 'summary_large_image'
+  ogTitle: t('seo.title')
 })
 
 </script>
