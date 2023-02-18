@@ -1,4 +1,4 @@
-@use 'vuetify' with (
+@use 'vuetify/lib/styles/main.sass' with (
   $body-font-family: 'EB Garamond',
   $spacers-steps: 20,
   $utilities: false,
