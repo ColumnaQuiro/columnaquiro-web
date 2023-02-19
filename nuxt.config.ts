@@ -1,7 +1,4 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
-import { resolve, dirname } from 'node:path'
-import { fileURLToPath } from 'url'
-import VueI18nVitePlugin from '@intlify/unplugin-vue-i18n/vite'
 import vuetify from 'vite-plugin-vuetify'
 
 export default defineNuxtConfig({
@@ -11,8 +8,16 @@ export default defineNuxtConfig({
       viewport: 'width=device-width, initial-scale=1.0'
     }
   },
+  css: [
+    'vuetify/lib/styles/main.sass',
+    '@mdi/font/css/materialdesignicons.min.css',
+    '~/assets/scss/main.scss'
+  ],
   nitro: {
     preset: 'netlify'
+  },
+  build: {
+    transpile: ['vuetify']
   },
   vite: {
     resolve: {
@@ -22,14 +27,7 @@ export default defineNuxtConfig({
     },
     ssr: {
       noExternal: ['vuetify']
-    },
-    plugins: [
-      VueI18nVitePlugin({
-        include: [
-          resolve(dirname(fileURLToPath(import.meta.url)), './locales/*.json')
-        ]
-      })
-    ]
+    }
   },
   postcss: {
     plugins: {
@@ -47,7 +45,7 @@ export default defineNuxtConfig({
     ]
   },
   modules: [
-    'nuxt-delay-hydration',
+    '@nuxtjs/i18n',
     'nuxt-simple-sitemap',
     (_options, nuxt) => {
       nuxt.hooks.hook('vite:extendConfig', config =>
@@ -57,13 +55,13 @@ export default defineNuxtConfig({
       )
     }
   ],
+  sourcemap: {
+    server: false,
+    client: false
+  },
   runtimeConfig: {
     public: {
       gtmId: 'GTM-NTMKRQV'
     }
-  },
-  delayHydration: {
-    mode: 'mount',
-    debug: process.env.NODE_ENV === 'development'
   }
 })

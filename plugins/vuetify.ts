@@ -1,5 +1,7 @@
 import { createVuetify } from 'vuetify'
-import '@mdi/font/css/materialdesignicons.css'
+import { createI18n } from 'vue-i18n'
+import { createVueI18nAdapter } from 'vuetify/locale/adapters/vue-i18n'
+// import '@mdi/font/css/materialdesignicons.css'
 
 import 'assets/scss/main.scss'
 
@@ -21,6 +23,30 @@ const myCustomLightTheme = {
 }
 
 export default defineNuxtPlugin((nuxtApp) => {
+  const messages = {
+    es: {
+      $vuetify: {
+        dataIterator: {
+          rowsPerPageText: 'Items per page:',
+          pageText: '{0}-{1} of {2}'
+        }
+      }
+    },
+    sv: {
+      $vuetify: {
+        dataIterator: {
+          rowsPerPageText: 'Element per sida:',
+          pageText: '{0}-{1} av {2}'
+        }
+      }
+    }
+  }
+  const i18n = createI18n({
+    legacy: false,
+    locale: 'es',
+    fallbackLocale: 'es',
+    messages
+  })
   const vuetify = createVuetify({
     defaults: {
       global: {
@@ -29,6 +55,9 @@ export default defineNuxtPlugin((nuxtApp) => {
           top: '100px'
         }
       }
+    },
+    locale: {
+      adapter: createVueI18nAdapter({ i18n, useI18n })
     },
     theme: {
       defaultTheme: 'myCustomLightTheme',

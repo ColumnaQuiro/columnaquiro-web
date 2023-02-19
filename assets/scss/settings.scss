@@ -1,3 +1,5 @@
-@use 'vuetify/settings' with (
-  $application-color: '#474747',
+@forward 'vuetify/settings' with (
+$application-color: '#474747',
+  $color-pack: false,
+  $utilities: false
 );
