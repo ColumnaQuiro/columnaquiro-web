@@ -14,6 +14,14 @@ export default defineNuxtConfig({
   nitro: {
     preset: 'netlify'
   },
+  css: [
+    'vuetify/styles',
+    '~/assets/scss/main.scss',
+    '@mdi/font/css/materialdesignicons.css'
+  ],
+  build: {
+    transpile: ['vuetify']
+  },
   vite: {
     resolve: {
       alias: {
@@ -52,7 +60,8 @@ export default defineNuxtConfig({
     (_options, nuxt) => {
       nuxt.hooks.hook('vite:extendConfig', config =>
         config.plugins?.push(vuetify({
-          styles: { configFile: 'assets/scss/settings.scss' }
+          autoImport: true,
+          styles: { configFile: 'assets/scss/vuetify.scss' }
         })) as any
       )
     }
@@ -63,7 +72,13 @@ export default defineNuxtConfig({
     }
   },
   delayHydration: {
-    mode: 'mount',
+    mode: 'manual',
+    idleCallbackTimeout: 1000,
+    postIdleTimeout: { desktop: 1000, mobile: 2000 },
     debug: process.env.NODE_ENV === 'development'
+  },
+  sourcemap: {
+    server: false,
+    client: false
   }
 })

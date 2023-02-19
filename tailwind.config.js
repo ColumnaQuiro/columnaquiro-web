@@ -20,6 +20,9 @@ module.exports = {
         '2xl': '6rem'
       }
     },
+    fontFamily: {
+      sans: ['Montserrat', 'sans-serif']
+    },
     colors: {
       white: '#FFFFFF',
       black: '#000000',

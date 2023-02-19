@@ -14,18 +14,20 @@
         class="pt-4"
       >
         <div class="flex gap-2">
-          <v-progress-linear
-            :model-value="rt(bar.percentage)"
-            :height="25"
-            role="progressbar"
-            aria-label="progress"
-            rounded
-            class="!w-96"
-          >
-            <div class="text-white">
-              {{ rt(bar.percentage) }}%
-            </div>
-          </v-progress-linear>
+          <div>
+            <v-progress-linear
+              :model-value="rt(bar.percentage)"
+              :height="25"
+              role="progressbar"
+              aria-label="progress"
+              rounded
+              class="!w-96"
+            >
+              <div class="text-white">
+                {{ rt(bar.percentage) }}%
+              </div>
+            </v-progress-linear>
+          </div>
           <div>
             {{ rt(bar.time) }}
           </div>
@@ -37,14 +39,12 @@
 
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n'
-import { Ref } from 'vue'
 
 interface Bar {
   percentage: number
   time: string
 }
 
-const model: Ref<Number> = ref(40)
 const { t, tm, rt } = useI18n({ inheritLocale: true, useScope: 'local' })
 const bars: Bar[] = tm('graph.bars')
 </script>

@@ -6,9 +6,11 @@
       </Head>
       <v-app>
         <cq-layout-navigation-bar />
-        <v-main class="mt-18 mt-lg-0">
-          <slot />
-        </v-main>
+        <DelayHydration>
+          <v-main class="mt-18 mt-lg-0">
+            <slot />
+          </v-main>
+        </DelayHydration>
         <cq-layout-footer-container />
         <client-only>
           <vue-cookie-comply
