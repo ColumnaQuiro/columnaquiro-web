@@ -1,0 +1,5 @@
+.section-title {
+  @apply text-2xl font-medium pb-8 text-center;
+  @apply md:text-3xl md:pb-10;
+  @apply lg:text-4xl lg:pb-12;
+}

@@ -1,0 +1,652 @@
+{
+  "general": {
+    "testimonials": {
+      "title": "Vuestros testimonios nos ayudan a seguir mejorando",
+      "items": [
+        {
+          "author": "Juan Carlos",
+          "description": "La verdad que me ha cambiado la vida y mi diario vivir;  en cuanto escuche de este tipo de tto.  quize probarlo y la verdad no me arrepiento en lo absoluto, por que el seguimiento que me hace la dra.  Lea es fantástico, pocas personas se preocupan por la evolución  después del tratamiento... mil y mil gracias eres la mejor 👌👌👌😘"
+        },
+        {
+          "author": "Miguel",
+          "description": "Recomendar las sabías, firmes y dulces manos de Lea. O como mejorar tu vida y tu salud en unas semanas."
+        },
+        {
+          "author": "Yaneth",
+          "description": "Léa es una gran profesional. El dolor y los mareos fueron desapareciendo en cada sesión. Gracias!"
+        },
+        {
+          "author": "Jose Maria",
+          "description": "Que decir, llegué con las lumbares destruidas, casi sin poder moverme, y lleno de pastillas que me había dado el CAP. Lea sabe muy bien lo que hace, me dejó como nuevo. Súper recomendables."
+        },
+        {
+          "author": "Nazareth",
+          "description": "Estoy muy contenta con los resultados. La doctora Lea es muy amable, te aconseja y los resultados son muy buenos.  Desde que voy al centro estoy mucho mejor y mi calidad de vida a mejorado mucho. Lo recomiendo 100%."
+        },
+        {
+          "author": "Laura",
+          "description": "Fa uns messos que hi vaig i m’ha ajudat molt amb el dolor i la tensió de diferents parts del cos. També noto una correcció important en la meva postura corporal i el tractament ha afectat positivament en la meva salut i benestar. L’ambient de la consulta és molt relaxant i agradable"
+        },
+        {
+          "author": "Elisabeth",
+          "description": "Vaig començar a tractar-me amb la Dra. Lea fa uns mesos, i estic molt contenta, els mals d'esquena gairebé han desaparescut, dormo millor, he guanyat en qualitat de vida. Recomano a la Dra. Lea al 100%."
+        },
+        {
+          "author": "Karen",
+          "description": "Estoy muy contenta con el servicio de Quirovida y con la Dra. Lea. Son un gran equipo que cuando entras te sientes cómo en casa. El tratamiento propuesto por la Dra. Lea me está ayudando mucho con mi problema de cervicales y espalda. Y que decir de ella es muy amable y siempre muy profesional. Estoy muy agradecida. Recomiendo sin duda a éste centro y sus profesionales."
+        },
+        {
+          "author": "Sandra",
+          "description": "Molt contenta amb el tractament que he rebut de la dra. Léa Guido. Hi vaig arribar gairebé per casualitat i estic encantada! No només ha desaparegut el dolor cervical, també m’ha ajudat molt a nivell emocional.La recomano totalment."
+        },
+        {
+          "author": "Marc",
+          "description": "Léa es una súper profesional!!Se nota la experiencia y en pocas sesiones he notado mucha mejoría en general. Muy recomendable."
+        },
+        {
+          "author": "Javier",
+          "description": "A los que padezcais problemas de espalda, al final de cada sesión y, desde la primera, todas las vértebras quedan en su sitio y, desparecen los desagradables dolores radiculares. La quiropŕactica Lea tiene manos mágicas."
+        },
+        {
+          "author": "Cristian",
+          "description": "Una experiencia  transformadora con la dra Lea  , un trato humano excelente ,lo recomiendo a todas las personas con síntomas o sin síntomas , merece la pena cuidar nuestro cuerpo - habitamos en el -"
+        }
+      ]
+    },
+    "orderAppointment": {
+      "title": "¿Quieres empezar a sentirte mejor con ColumnaQuiro?",
+      "subtitle": "Más vale prevenir que curar. Cuanto antes te cuides más potencial de vida podrás descubrir.<br>¡Estás a un paso de empezar a sentirte mejor!",
+      "button": "Pide tu cita"
+    },
+    "toWho": {
+      "items": [
+        {
+          "key": "workers",
+          "title": "Trabajadores",
+          "description": "Aumenta la actividad de tu corteza prefrontal y mejora tu rendimiento laboral a corto o largo plazo , reduciendo el estres y la ausencia por motivos de salud."
+        },
+        {
+          "key": "kids",
+          "title": "Niños",
+          "description": "El desarrollo de un niño  incluye diferentes  etapas sensoriales y motoras y un sistema nervioso saludable es vital  en su superación y mejora de su coordinación y sentidos."
+        },
+        {
+          "key": "pregnant",
+          "title": "Embarazadas",
+          "description": "Prepara tu  cuerpo para los cambios del embarazo y mejorar tu  recuperación postparto, optimizando la función del sistema nervioso y la salud en esta nueva etapa de vida."
+        },
+        {
+          "key": "sport",
+          "title": "Deportistas",
+          "description": "Optimiza tu rendimiento fisico y tu recuperación post-entrenamiento."
+        },
+        {
+          "key": "elder",
+          "title": "Tercera edad",
+          "description": "Cuida tu  cuerpo para disfrutar al máximo de la vida y mejora tu  movilidad, equilibrio y estilo de vida de manera holística y vitalista."
+        },
+        {
+          "key": "disabled",
+          "title": "Discapacidades motoras o intelectuales",
+          "description": "Mejora la movilidad, equilibrio, sensacion corporal y tu funcionamento general para fortalecer tu desarollo y tu independencia."
+        }
+      ]
+    },
+    "cookiesConsent": {
+      "description": "Este sitio web utiliza cookies propias y de terceros para mantener la sesión, ofrecerle una mejor experiencia de usuario y obtener datos estadísticos de navegación de los usuarios. Para más información vea la <a class='text-black' href='/politica-de-cookies'>Política de cookies.</a>",
+      "actions": {
+        "accept": "Aceptar las cookies",
+        "configure": "Personalizar las cookies"
+      },
+      "preferences": {
+        "title": "Gestión de cookies",
+        "description": "Este sitio web utiliza cookies propias y de terceros para mantener la sesión, ofrecerle una mejor experiencia de usuario y obtener datos estadísticos de navegación de los usuarios. Para más información vea la Política de cookies.",
+        "save": "Aceptar selección",
+        "default": {
+          "title": "Cookies para el funcionamiento de la web",
+          "description": "Estas cookies son esenciales para el correcto funcionamiento del sitio web, sin estas cookies el sitio web puede no funcionar correctamente"
+        },
+        "googleAnalytics": {
+          "title": "Cookies de Google Analytics",
+          "description": "Se utilizan para generar un identificador de usuario único, utilizado para hacer recuento de cuántas veces visita el sitio un usuario, así como la fecha de la primera y la última vez que visitó la web. Registran la fecha y hora de acceso a cualquiera de las páginas del portal. Comprueban la necesidad de mantener la sesión de un usuario abierta o crear una nueva. Identifican la sesión del usuario, para recoger la ubicación geográfica aproximada del ordenador que accede al portal."
+        }
+      }
+    },
+    "layout": {
+      "navigationBar": {
+        "links": [
+          {
+            "text": "Para tí",
+            "subMenu": [
+              {
+                "text": "¿Qué es la quiropráctica?",
+                "to": "/que-es-la-quiropractica"
+              },
+              {
+                "text": "¿Cómo funciona?",
+                "to": "/como-funciona"
+              },
+              {
+                "text": "FAQs",
+                "to": "/que-es-la-quiropractica/preguntas-frecuentes"
+              }
+            ]
+          },
+          {
+            "text": "Para todos",
+            "to": "/para-quien-sirve-la-quiropractica"
+          },
+          {
+            "text": "Sobre nosotros",
+            "subMenu": [
+              {
+                "text": "Nuestro equipo",
+                "to": "/sobre-nosotros/equipo"
+              },
+              {
+                "text": "Nuestro centro",
+                "to": "/sobre-nosotros/centro-quiropractico-valencia"
+              },
+              {
+                "text": "Contacto",
+                "to": "/sobre-nosotros/contacto"
+              }
+            ]
+          },
+          {
+            "text": "Blog",
+            "to": "/blog"
+          }
+        ],
+        "mobileLinks": [
+          {
+            "text": "¿Qué es la quiropráctica?",
+            "to": "/que-es-la-quiropractica"
+          },
+          {
+            "text": "¿Cómo funciona?",
+            "to": "/como-funciona"
+          },
+          {
+            "text": "Nuestro centro",
+            "to": "/sobre-nosotros/centro-quiropractico-valencia"
+          },
+          {
+            "text": "Contacto",
+            "to": "/sobre-nosotros/contacto"
+          },
+          {
+            "text": "FAQs",
+            "to": "/que-es-la-quiropractica/preguntas-frecuentes"
+          },
+          {
+            "text": "Blog",
+            "to": "/blog"
+          }
+        ],
+        "appointmentButton": {
+          "text": "Pide Tu Cita",
+          "to": "/reserva-cita-centro-quiropractico-valencia"
+        }
+      },
+      "footer": {
+        "details": {
+          "title": "Centro Quiropráctico",
+          "street": "",
+          "email": "hola{'@'}columnaquiro.com",
+          "phone": "+34 645967420"
+        },
+        "copyright": "© 2023 ColumnaQuiro",
+        "links": [
+          {
+            "text": "Política de Privacidad",
+            "to": "/politica-de-privacidad"
+          },
+          {
+            "text": "Aviso Legal",
+            "to": "/aviso-legal"
+          },
+          {
+            "text": "Política de Cookies",
+            "to": "/politica-de-cookies"
+          }
+        ],
+        "timetable": [
+          {
+            "day": "Lunes",
+            "schedule": "10:30-13:00/ 15:00-20:00"
+          },
+          {
+            "day": "Martes",
+            "schedule": "10:30-13:00/ 15:00-20:00"
+          },
+          {
+            "day": "Miércoles",
+            "schedule": "10:30-13:00/ 15:00-20:00"
+          },
+          {
+            "day": "Jueves",
+            "schedule": "10:30-13:00/ 15:00-20:00"
+          },
+          {
+            "day": "Viernes",
+            "schedule": "10:30-13:00/ 15:00-20:00"
+          }
+        ]
+      }
+    }
+  },
+  "home": {
+    "seo": {
+      "title": "Centro Quiropráctico en València - ColumaQuiro",
+      "description": "Centro de quiropráctica en el centro de València. Descubre en el centro ColumnaQuiro qué es la quiropráctica y sus beneficios. La Quiropráctica es para tí"
+    },
+    "mission": {
+      "title": "¡Estás a un paso de mejorar tu salud!",
+      "description": "Bienvenido/a a <span class='font-medium'>ColumnaQuiro</span>, tu centro quiropráctico para una visión holística de tu salud!<br><br><span class='font-medium'>¿Estás buscando formas de lidiar con los efectos del estrés en tu día a día? <br><br>¿Sufres de dolores musculares, tensión o ansiedad?</span><br><br>En nuestro centro, nos dedicamos a corregir las causas de los problemas de manera eficaz, duradera y segura, sin recurrir a remedios químicos o medicamentos.<br><br>Nuestro objetivo es ayudarte a alcanzar el máximo potencial de tu cuerpo y satisfacer tus necesidades de salud."
+    },
+    "exclusiveFocus": {
+      "title": "Nuestro Enfoque Exclusivo: Tu Salud Integral en ColumnaQuiro",
+      "intro": "Nuestro compromiso es monitorizar tu progreso de forma regular, permitiéndonos adaptar el cuidado que necesitas en cada etapa de tu vida. Para ello, empleamos diversas herramientas y técnicas avanzadas: ",
+      "specifications": [
+        {
+          "id": "back-analisis",
+          "title": "Análisis de postura",
+          "body": "Evaluamos detalladamente tu postura, identificando posibles desalineaciones que puedan afectar tu bienestar físico."
+        },
+        {
+          "id": "advanced-app",
+          "title": "Aplicación avanzada",
+          "body": "Utilizamos una aplicación innovadora para evaluar la velocidad de la conexión entre tu cerebro y el resto de tu cuerpo. Esta información es vital para comprender tu salud neurológica."
+        },
+        {
+          "id": "walking-pattern",
+          "title": "Equilibrio y coordinación",
+          "body": "Estudiamos cómo te mueves y cómo responden tus reflejos para obtener una visión completa de tu sistema nervioso."
+        },
+        {
+          "id": "health-questionare",
+          "title": "Cuestionario de salud",
+          "body": "Completamos el panorama al conocer tu historial médico y tus hábitos de vida, lo que nos permite personalizar aún más tu cuidado."
+        }
+      ],
+      "footer": "🎓 Además, no nos limitamos a proporcionar un tratamiento, sino que te acompañamos durante todo el proceso de mejora con una educación continuada sobre un estilo de vida saludable. Nuestro equipo está comprometido a brindarte información valiosa para que puedas cuidar de tu bienestar a diario.<br><br><br>En ColumnaQuiro, no solo buscamos aliviar síntomas superficiales, sino que trabajamos en el origen de los problemas para mejorar tu calidad de vida en su totalidad. Si buscas un enfoque de salud integral y personalizado, ¡estamos aquí para ayudarte en cada paso del camino!<br><br>Contáctanos hoy mismo para dar el primer paso hacia una vida más saludable y equilibrada."
+    },
+    "interferencesSchema": {
+      "description": "Tu cuerpo siempre reacciona de manera inteligente a los factores estresantes inevitables de la vida. Estas reacciones son muy variadas: dolores y molestias, falta de energía, bajas defensas, síntoma cualquiera… Estos signos indican que algo está impidiendo que tu cuerpo funcione de manera óptima. Este 'algo' se llama una interferencia del sistema nervioso.<br><br>En lugar de intentar callar los gritos del cuerpo con remedios externos, en ColumnaQuiro eliminamos las interferencias del sistema nervioso, permitiéndote manejar mejor los factores estresantes del cotidiano y gozar de una salud excelente.<br><br>Independientemente de tu edad, la columna vertebral es la raíz de nuestra salud y requiere atención durante toda la vida. Por ello, en nuestro centro acuden personas de todas las edades en busca de una mejor calidad de vida.<br><br><span class='font-medium'> Gracias a nuestros ajustes quiroprácticos, estimularás los receptores nerviosos de tu columna vertebral, manteniendo así tu cerebro conectado con cada célula, órgano y tejido de tu cuerpo.</span>"
+    },
+    "toWho": {
+      "title": "La Quiropráctica es para tí",
+      "description": "La quiropráctica es para todas las edades, desde los niños hasta los adultos mayores y pasando por todas las etapas de vida. Aquí, nos encanta atender a todos los miembros de la familia."
+    },
+    "science": {
+      "title": "La Quiropráctica bajo la ciencia",
+      "body": "“Un estudio de 2.818 pacientes que recibieron tratamiento quiropráctico en los Estados Unidos y en todo el mundo, demostró que el cuidado quiropráctico está asociado con una mejora profunda y estadísticamente significativa en las áreas del bienestar. Los pacientes informan cambios en: bienestar físico, disminución del nivel de estrés percibido, disfrute de la vida, cambios en el estilo de vida, bienestar emocional, psicológico y calidad de vida.”<br><br>Blanks, RH; Boone, WR; Schmidt, S; Dobson, M; Network Care: A retrospective outcomes assessment. 1996 Dobson, M; Boone WR; Blanks, RH; Women and Alternative Health Care: A retrospective study of recipients of Network Care. 1996",
+      "graph": {
+        "title": "Se ha demostrado que con los ajustes quiroprácticos se mejora un:",
+        "bars": [
+          {
+            "percentage": "65",
+            "time": "en 1-3 meses (recuperación)"
+          },
+          {
+            "percentage": "74",
+            "time": "en 3-12 meses (recuperación)"
+          },
+          {
+            "percentage": "84",
+            "time": "en 13-36 meses (mejora)"
+          },
+          {
+            "percentage": "95",
+            "time": "en +36 meses (optimización)"
+          }
+        ]
+      }
+    },
+    "quiroLogos": {
+      "logos": [
+        {
+          "id": "word-federation-quiro",
+          "alt": "Word Federation of Chiropractic"
+        },
+        {
+          "id": "ecce",
+          "alt": "European Council of Chiropractic Education"
+        },
+        {
+          "id": "aeq",
+          "alt": "Asociación Española de Quiropráctica"
+        },
+        {
+          "id": "bcc",
+          "alt": "Barcelona College of Chiropractic"
+        },
+        {
+          "id": "icpa",
+          "alt": "International Council Pediatric Association"
+        }
+      ]
+    }
+  },
+  "queEsLaQuiropractica": {
+    "seo": {
+      "title": "¿Qué es la quiropráctica? - ColumnaQuiro",
+      "description": "Mejora con la quiropráctica: centrada en mejorar la funcionalidad del sistema nervioso. Ajustes quiroprácticos para el estrés, el dolor y otros síntomas."
+    },
+    "intro": {
+      "title": "La Quiropractica y el sistema nervioso",
+      "description": "La quiropráctica es una profesión de la salud que se enfoca en mejorar la funcionalidad del sistema nervioso y del cuerpo en su totalidad a través de un enfoque integral y holístico.<br><br>El sistema nervioso es el primer sistema del cuerpo en desarrollarse, coordinando cada órgano, músculo, glándula y célula para que cada uno pueda funcionar en perfecta sincronía.<br><br>El cerebro recibe constantemente información del mundo externo e interno, y gracias al funcionamiento del sistema nervioso, puede responder adecuadamente a las necesidades del momento, enviando información de vuelta al cuerpo. Este proceso conlleva una constante adaptación óptima del cuerpo, comúnmente llamada salud.<br><br>Esta conexión entre el cerebro y el resto del cuerpo es crucial para regular el estrés, el dolor y otros síntomas que puedan aparecer en otros sistemas.<br><br>El Sistema Nervioso Central (SNC), compuesto por el cerebro y la médula espinal, es el único órgano del cuerpo que está completamente protegido por una capa de hueso: el cráneo protege el cerebro y la columna vertebral protege la médula espinal. Podemos imaginar la médula espinal como una autovía que transporta toda la información del cuerpo al cerebro y viceversa, siendo un elemento esencial para el correcto funcionamiento del sistema nervioso."
+    },
+    "interferences": {
+      "title": "¿Por qué tengo interferencias nerviosas en mi cuerpo?",
+      "subtitle": "Nuestro cuerpo se adapta constantemente a varios tipos de estrés a diario para mantenernos en un estado óptimo.",
+      "items": [
+        {
+          "icon": "sad",
+          "title": "Estrés físico",
+          "body": "Debido a accidentes, golpes, caídas fuertes, levantar peso de forma incorrecta, mantener malas posturas por períodos prolongados, un parto o la práctica de deportes de élite."
+        },
+        {
+          "icon": "emotional-stress",
+          "title": "Estrés emocional",
+          "body": "Causado por las relaciones humanas, el nerviosismo crónico, las preocupaciones económicas, el agotamiento familiar, el empleo, la relación de pareja, la dificultad para manejar a los niños y las relaciones con amigos."
+        },
+        {
+          "icon": "quimical",
+          "title": "Estrés químico",
+          "body": "En nuestro estilo de vida, no tenemos mucho tiempo y recurrimos a menudo a cosas rápidas, lo que nos expone a una gran cantidad de toxinas. Por ejemplo, en la comida rápida, contaminación ambiental, productos de belleza o de limpieza."
+        }
+      ]
+    },
+    "nervousSystem": {
+      "title": "¿Cómo trabaja la quiropráctica con el sistema nervioso?",
+      "body": "Los quiroprácticos somos profesionales capacitados para analizar, detectar y corregir las interferencias nerviosas mediante ajustes manuales específicos, seguros y no invasivos. Estas interferencias pueden afectar la comunicación entre el cerebro y el cuerpo, lo que impide su correcto funcionamiento.<br><br>Uno de los principales objetivos de la quiropráctica es mantener una buena comunicación entre el sistema nervioso central (cerebro y columna vertebral) y el resto del cuerpo.<br><br>Los ajustes quiroprácticos se realizan principalmente en la columna vertebral y consisten en impulsos de alta velocidad y baja amplitud que estimulan los receptores nerviosos en el cuerpo.<br><br>Como profesionales certificados, nos aseguramos de que cada ajuste sea específico, indoloro y seguro para el paciente."
+    }
+  },
+  "paraQuienSirveLaQuiropractica": {
+    "seo": {
+      "title": "¿Quiropráctica para todos? - Enfoque integral - ColumnaQuiro",
+      "description": "Descubre si la quiropráctica es adecuada para ti. Nuestro enfoque mejora la salud de atletas, personas activas y aquellos que buscan alivio del dolor crónico."
+    },
+    "title": "Para todos",
+    "description": "En  Columna Quiro, nuestro objetivo es ayudar a las familias a vivir una vida plena y saludable. Sabemos con certeza que cuando el cuerpo está bien conectado, tanto tú como tu familia estaréis mejor preparados para enfrentar cualquier desafío que la vida les presente, desde el estrés diario hasta alcanzar una salud óptima.<br><br>Nuestros ajustes quiroprácticos seguros y efectivos se enfocan en mejorar la salud y el bienestar de toda la familia. Desde bebés hasta adultos mayores, ofrecemos soluciones personalizadas y adaptadas a las necesidades individuales de cada paciente.<br><br>En Columna Quiro, nos dedicamos a proporcionar la mejor atención quiropráctica para ayudar a las familias a disfrutar de una vida más activa, feliz y saludable. ¡Únete a nosotros en este viaje hacia la salud y el bienestar!",
+    "types": {
+      "seo": {
+        "title": "La quiropráctica es para tí - {personTitle} - ColumnaQuiro",
+        "description": {
+          "disabled": "La quiropráctica mejora la movilidad, equilibrio y coordinación en personas con discapacidades. También mejora el desarrollo en trastornos neuroconductuales.",
+          "kids": "Preven disfunciones en el sistema nervioso de tu bebé: cómo un sistema nervioso óptimo mejora su desarrollo sensorial y motor, coordinación y sentidos.",
+          "elder": "Mejora tu movilidad, equilibrio y calidad de vida en la tercera edad con la Quiropráctica: disfruta de un estilo de vida y saludable gracias a su enfoque.",
+          "pregnant": "Optimiza tu salud durante y después del embarazo con la quiropráctica. Prepara tu cuerpo para los cambios físicos, químicos y emocionales del embarazo.",
+          "workers": "Mejora tu rendimiento laboral con Quiropraxia: los ajustes afectan positivamente a la toma de decisiones, cognición... reduciendo ausencias por salud.",
+          "sport": "Mejora el rendimiento deportivo con quiropráctica. Los ajustes aumentan la fuerza, el tiempo de reacción, la movilidad, el equilibrio y la recuperación."
+        }
+      },
+      "personTitle": {
+        "disabled": "Discapacidades",
+        "kids": "Bebes / Niños",
+        "elder": "Personas mayores",
+        "pregnant": "Embarazadas",
+        "workers": "Trabajadores",
+        "sport": "Deportistas"
+      },
+      "intro": {
+        "title": {
+          "disabled": "Discapacidades motoras o intelectuales",
+          "kids": "Bebes / Niños",
+          "elder": "Personas mayores",
+          "pregnant": "Embarazadas",
+          "workers": "Trabajadores",
+          "sport": "Deportistas"
+        },
+        "description": {
+          "disabled": "Las personas con discapacidades motoras o intelectuales a menudo tienen acceso limitado a terapias. La quiropráctica, al trabajar de manera holística en el cuerpo entero, puede mejorar la sensación corporal, movilidad, funcionalidad, equilibrio y coordinación. Además, numerosos estudios sobre la quiropráctica y el cerebro han demostrado su potencial para producir cambios en la plasticidad cerebral. En particular, los ajustes quiroprácticos pueden equilibrar diferentes áreas del cerebro y mejorar el desarrollo en personas con trastornos neuroconductuales.",
+          "kids": "Durante el nacimiento, el bebé experimenta estrés, desde su descenso en el canal de parto hasta su salida al mundo externo desconocido. Durante este proceso, el bebé puede quedarse atrapado en una posición o encontrar obstáculos que dificulten su salida. Esto se puede reflejar en la forma poco común de su cabeza al nacer o en un lado preferido para mamar durante la lactancia. Estos esfuerzos pueden causar disfunciones en su sistema nervioso.<br><br>Desde su nacimiento hasta su desarrollo, el bebé debe pasar por diferentes etapas en un orden específico. Estas etapas son sinónimo de un buen desarrollo sensorial y motor: el desarrollo motor le permitirá tener una musculatura adecuada y una coordinación corporal, mientras que el desarrollo sensorial le permitirá desarrollar todos sus sentidos (visión, olfato, tacto, etc.).<br><br>Un sistema nervioso que funcione al 100% ayudará al bebé a superar estas etapas, mejorando su coordinación, equilibrio y todos sus sentidos.",
+          "elder": "En nuestra sociedad, aunque es común, no es normal que la tercera edad se asocie con debilidad, lentitud, enfermedad y dependencia. Es importante tener en cuenta que con la edad, nuestro cuerpo experimenta cambios, como la pérdida de calidad en huesos, colágeno y fibras musculares, y que nuestra calidad de vida puede verse afectada. Sin embargo, esta etapa es tan importante como cualquier otra y es esencial cuidar nuestro cuerpo para disfrutar al máximo de la vida. La quiropráctica puede ayudarte a mejorar tu movilidad, equilibrio y estilo de vida de manera holística y vitalista, fomentando un estilo de vida activo y saludable.",
+          "pregnant": "<h2 class='text-lg'>Antes y durante el embarazo</h2>Es importante preparar el cuerpo para los cambios que se producirán durante el embarazo:<ul class='list-disc'><li>Cambios físicos: la alteración del centro de gravedad afecta la postura y la tensión muscular.</li><li>Cambios químicos: los cambios hormonales aumentan la laxitud de los ligamentos y las articulaciones.</li><li>Cambios emocionales: ser madre es un paso importante que puede generar estrés y preguntas para la futura madre.</li></ul><br>Estos cambios pueden interferir en el sistema nervioso, que controla todos los demás sistemas del cuerpo, incluidos los músculos, ligamentos y articulaciones, como los músculos y ligamentos del suelo pélvico, la articulación sacroilíaca y el coxis. La quiropráctica puede ayudar a alinear la pelvis y la columna vertebral para que el bebé tenga suficiente espacio y la madre pueda vivir un embarazo más efectivo. Por lo tanto, entendemos que la salud de una mujer embarazada es muy importante para ella y para el bebé.<br><br>Estamos certificados en la técnica Webster, una técnica quiropráctica que se centra en el análisis y la alineación de la pelvis y sus músculos y ligamentos para optimizar la función pélvica de la madre durante el embarazo y el parto, reduciendo la necesidad de medicamentos o intervenciones quirúrgicas durante el parto.<br><br><h2 class='text-lg'>Después del parto</h2>El parto es un evento estresante a nivel físico (horas de contracciones, salida del bebé), químico (cambios hormonales con aumento de la leche) y emocional (llegada del bebé, ser madre, posparto). La quiropráctica puede ayudar a mejorar la recuperación postparto, permitiendo que el cuerpo funcione mejor para que puedas disfrutar al máximo de este nuevo capítulo en tu vida.",
+          "workers": "La quiropractica y su impacto en el cerebro han sido objeto de numerosos estudios, demostrando la capacidad de los ajustes para influir en la plasticidad cerebral. En concreto, los ajustes quiropácticos aumentan la actividad en la corteza prefrontal.<br><br>La corteza prefrontal está involucrada en cuatro aspectos clave: toma de decisiones, cognición (procesamiento de información), comportamiento social y expresión de la personalidad. Estos aspectos, mejorados por los ajustes quiropácticos, contribuyen a un mejor rendimiento laboral, incluyendo: mayor eficiencia, tiempo de reacción más rápido, desempeño social óptimo y un nivel de estrés reducido.<br><br>A largo plazo, la quiropractica en el entorno laboral trae consigo una serie de beneficensos en las ausencias por motivos de salud, como la depresión, dolor de espalda y dolor de cabeza. Además, mejora la retención de personal al permitir que los trabajadores manejen mejor el estrés y otros síntomas, y conduce a un mejor rendimiento laboral en general.",
+          "sport": "Cuando se trata de deportistas regulares o de élite, a menudo pensamos en posibles lesiones o síntomas relacionados con sus actividades, pero no en su rendimiento deportivo. La quiropráctica ha sido utilizada por muchos atletas profesionales y es reconocida como una forma complementaria de atención médica para los atletas. Por ejemplo, Usain Bolt se ha ajustado antes de sus competiciones.<br><br>A pesar de ser poco conocida en el mundo del deporte, la quiropráctica ha sido objeto de muchos estudios que han demostrado que los ajustes regulares pueden mejorar:<ul class='list-disc'><li>La fuerza</li><li>El tiempo de reacción</li><li>La movilidad</li><li>El equilibrio</li><li>La recuperación post-entrenamiento</li></ul><br>Estos parámetros son cruciales para aumentar las habilidades atléticas."
+        }
+      }
+    }
+  },
+  "faqs": {
+    "seo": {
+      "title": "Mejora tu salud con nuestros servicios - ColumnaQuiro",
+      "description": "Respuestas a tus preguntas sobre nuestro centro quiropráctico: servicios, enfoque integral y cómo mejorar tu salud. Descúbrelo en nuestras preguntas frecuentes."
+    },
+    "sections": [
+      {
+        "title": "La Quiropráctica",
+        "body": "Las dudas más frecuentes sobre la quiropráctica y su práctica",
+        "faqs": [
+          {
+            "title": "Requisitos y proceso de formación para convertirse en quiropráctico",
+            "body": "Para convertirse en quiropráctico, se requiere obtener un título universitario en Quiropráctica y un Doctorado en Quiropráctica, después de completar un programa de estudios que tiene una duración de entre 5 y 7 años. Ambos títulos son reconocidos por el Consejo Europeo de Educación Quiropráctica (ECCE).<br><br>El inicio de la carrera es similar al de la medicina, ya que se estudian disciplinas como anatomía, radiología, epidemiología, nutrición y patofisiología, pero con un enfoque específico en cada tipo de población, incluyendo bebés, embarazadas, personas mayores y deportistas. Desde el primer año y a lo largo de toda la carrera, también se adquieren conocimientos en técnicas quiroprácticas.<br><br>Los dos últimos años de la carrera están dedicados a la parte práctica, donde los estudiantes se convierten en internos en la clínica de la escuela bajo la supervisión de profesores. Durante este periodo, los estudiantes atienden a pacientes de diversas edades y perfiles, como deportistas, personas mayores, adolescentes y bebés, con el objetivo de obtener una experiencia completa y aprender a aplicar las técnicas adecuadas antes de graduarse."
+          },
+          {
+            "title": "Importancia de la atención quiropráctica preventiva para mantener la salud",
+            "body": "El dolor es una señal de alarma que el cuerpo emite cuando algo no funciona correctamente. Sin embargo, es posible que nuestro cuerpo experimente disfunciones durante años sin que nos demos cuenta, ya que sigue aparentemente funcionando bien. Es solo cuando ocurre una sobrecarga en nuestro sistema nervioso que se desencadena una alarma en forma de dolor o síntomas. Estas sobrecargas pueden ser causadas por diferentes factores, como estrés físico, emocional y químico.<br><br>La salud no puede ser definida únicamente como la ausencia de dolor o síntomas. Adoptar un enfoque preventivo implica tomar decisiones proactivas que nos permiten limitar la enfermedad y optimizar nuestra salud antes de que aparezcan los síntomas, lo cual requiere un proceso de recuperación más prolongado.<br><br>En este sentido, la atención quiropráctica preventiva juega un papel fundamental. Al buscar tratamientos quiroprácticos regulares, podemos abordar los desequilibrios y disfunciones del cuerpo antes de que se manifiesten como dolor o síntomas evidentes. Al mantener un sistema nervioso saludable y una alineación adecuada de la columna vertebral, podemos promover la función óptima del cuerpo, prevenir problemas futuros y mejorar nuestra calidad de vida en general."
+          },
+          {
+            "title": "¿Qué es la quiropráctica y por qué debería considerar el mantenimiento quiropráctico?",
+            "body": "La quiropráctica es una profesión de la salud que se enfoca en promover el buen funcionamiento del sistema nervioso y del cuerpo en su totalidad. Su objetivo no es solo aliviar síntomas, sino lograr un cuerpo sano y libre de interferencias nerviosas. Se recomienda seguir el mantenimiento quiropráctico para mantener y mejorar la salud actual, así como prevenir recaídas y factores estresantes que puedan afectar el sistema nervioso y el cuerpo en general. Al recibir tratamientos quiroprácticos regulares, se busca mantener la alineación adecuada de la columna vertebral y fortalecer el cuerpo para prevenir complicaciones futuras."
+          },
+          {
+            "title": "¿Qué reconocimiento tiene la quiropráctica y su desarrollo en España?",
+            "body": "La quiropráctica es reconocida por la Organización Mundial de la Salud (OMS) como una profesión de la salud a nivel mundial, ubicándose en el tercer lugar después de la medicina convencional y la odontología.<br><br>Aunque la quiropráctica tiene sus orígenes en los Estados Unidos, se ha desarrollado ampliamente en países avanzados como Australia y Europa. En estos países, numerosos estudios han demostrado los beneficios de la quiropráctica para la salud y el bienestar de diversas poblaciones.<br><br>En España, la quiropráctica está experimentando un crecimiento gradual con el apoyo de la Asociación Española de Quiropráctica (AEQ). Es fundamental asegurarse de que el quiropráctico al que acudas sea miembro de la AEQ, ya que esta asociación es la única entidad que garantiza los diplomas de quiroprácticos y regula la profesión en España.<br<br>Esta creciente presencia y respaldo de la AEQ brinda mayor confianza y seguridad a aquellos que buscan servicios quiroprácticos en España. A medida que la quiropráctica se consolida en el país, se espera que más personas se beneficien de sus enfoques holísticos para la salud y el bienestar."
+          },
+          {
+            "title": "¿Qué tipos de estrés afectan a nuestro cuerpo y cómo nos adaptamos a ellos?",
+            "body": "Nuestro cuerpo constantemente se enfrenta a diferentes tipos de estrés para mantenernos en un estado óptimo. Hay tres tipos principales de estrés a los que nos enfrentamos:<ul class='list-disc'><li>Estrés físico: Este tipo de estrés puede ser causado por accidentes, golpes, caídas, levantar objetos pesados de manera incorrecta, posturas incorrectas durante largos períodos de tiempo, parto y deporte de élite. Nuestro cuerpo se adapta a este estrés mediante la respuesta de curación y reparación de los tejidos afectados, fortaleciéndose y ajustándose para prevenir futuras lesiones.</li><li>Estrés químico: En nuestro estilo de vida moderno, estamos expuestos a una variedad de sustancias tóxicas en nuestra alimentación y entorno. El consumo de alimentos procesados, conservantes, fertilizantes, la contaminación ambiental, así como el uso de productos de belleza y limpieza, contribuyen a este estrés químico. Nuestro cuerpo se adapta a través de procesos de desintoxicación y eliminación de estas sustancias para mantener un equilibrio interno saludable.</li><li>Estrés emocional: Este tipo de estrés es causado por relaciones humanas, preocupaciones económicas, agotamiento emocional en la familia, trabajo, relaciones de pareja, dificultad para manejar el cuidado de los niños y relaciones con amigos. Nuestro cuerpo responde al estrés emocional a través de mecanismos como la liberación de hormonas del estrés y la activación del sistema nervioso. Es importante encontrar formas saludables de manejar el estrés emocional, como el apoyo social, la terapia y las técnicas de relajación.</li></ul><br>Es fundamental reconocer estos diferentes tipos de estrés y comprender cómo nuestro cuerpo se adapta a ellos. La quiropráctica puede desempeñar un papel importante en ayudar al cuerpo a adaptarse y recuperarse del estrés, al mejorar la función del sistema nervioso y promover el equilibrio y la salud en general."
+          },
+          {
+            "title": "¿Cuál es tu formación y experiencia como quiropráctico/a?",
+            "body": "Soy diplomado/a del Barcelona College of Chiropractic en 2021 después de completar una carrera de 6 años. Inicié mis dos primeros años de estudio en IFEC en Francia y luego decidí trasladarme a España. Durante mi formación, también tuve la oportunidad de trabajar como profesor/a de técnicas y supervisor/a de clínica en el Barcelona College of Chiropractic.<br><br>Después de obtener mi diploma, trabajé en una consulta quiropráctica en Barcelona, donde pude aplicar mis conocimientos y habilidades en el cuidado quiropráctico. Además, he asistido a numerosos seminarios y cursos de quiroprácticos tanto durante mis estudios como después de graduarme. Esto me ha permitido ampliar mis conocimientos y combinar una variedad de técnicas para brindar a cada paciente una experiencia personalizada y beneficiarse de los ajustes quiroprácticos.<ul class='list-disc'>Algunas de las técnicas de ajuste que utilizo incluyen:<li>SOT (Sacro Occipital Technique)</li><li>Kinesiología Aplicada (Applied Kinesiology)</li><li>Gonstead</li><li>TBM (Total Body Modification)</li><li>Técnica Toggle Recoil-Hole in One</li><li>Técnica Webster</li></ul><br>Cada una de estas técnicas tiene sus propias características y enfoques, y las adapto según las necesidades individuales de cada paciente. Mi objetivo es brindar un cuidado quiropráctico integral y efectivo para ayudar a restaurar el equilibrio y promover la salud y el bienestar en cada persona que atiendo. Si tienes alguna pregunta específica sobre las técnicas que utilizo o estás interesado/a en saber más, no dudes en consultarme."
+          }
+        ]
+      },
+      {
+        "title": "Los ajustes quiroprácticos",
+        "body": "Las dudas más frecuentes sobre los ajustes quiroprácticos",
+        "faqs": [
+          {
+            "title": "¿Cuánto tiempo tomará ver resultados y mejoras en mi salud?",
+            "body": "La percepción de los cambios puede variar en cada persona, ya que cada cuerpo tiene su propia capacidad de expresión y recuperación. Como quiroprácticos, nuestro objetivo es establecer un plan de cuidado adecuado a las necesidades individuales de cada paciente, lo cual incluye analizar diferentes pruebas durante la primera visita. Durante esta visita, dedicamos tiempo para hablar y realizar pruebas que nos permitan definir tu estado de salud.<br><br>Es importante tener en cuenta que algunos síntomas o condiciones pueden mejorar después de unas pocas sesiones, mientras que otras condiciones más crónicas pueden requerir más tiempo para mejorar. Cada persona es única y responde de manera diferente al tratamiento quiropráctico.<br><br>A lo largo del proceso, solicitaremos tu colaboración en tu propia salud. Te recomendamos seguir el plan de cuidado recomendado para obtener resultados excelentes y duraderos. También realizaremos revisiones regulares para monitorear tu progreso y ajustaremos el plan de cuidado a medida que avanzamos, para asegurarnos de que estés sintiéndote lo mejor posible y experimentando una mejora en tu salud.<br><br>Recuerda que cada caso es individual y los resultados pueden variar. Nuestro compromiso es brindarte la mejor atención y trabajar en conjunto para ayudarte a alcanzar tus objetivos de salud. Si tienes alguna pregunta o inquietud sobre tu progreso durante el tratamiento quiropráctico, no dudes en comunicarte con nuestro equipo. Estamos aquí para apoyarte en tu camino hacia una mejor salud."
+          },
+          {
+            "title": "¿Es seguro acudir al quiropráctico durante el embarazo y para niños?",
+            "body": "Sí, es seguro acudir al quiropráctico durante el embarazo y para niños. En nuestro centro, contamos con formación y cursos especializados en pediatría para poder atender a los niños, así como certificación en la técnica de Webster para mujeres embarazadas.<br><br>Cada técnica de ajuste que aplicamos es extremadamente suave y se adapta a la columna vertebral de personas de diferentes edades, incluyendo niños. Además, tenemos en cuenta los cambios que ocurren en el cuerpo durante el embarazo, garantizando un enfoque seguro y adaptado a las necesidades de las mujeres embarazadas.<br><br>Muchos padres deciden llevar a sus hijos al quiropráctico para corregir cualquier disfunción de espalda o cráneo y mejorar la salud general. Es importante destacar que identificar y abordar estas disfunciones a una edad temprana puede contribuir al correcto desarrollo del niño en las etapas posteriores de su vida.<br><br>En el caso del embarazo, el seguimiento quiropráctico puede brindar muchos beneficios en la preparación del parto y en el buen desarrollo del embarazo, ayudando a mantener una buena salud y reducir la presencia de disfunciones en la madre.<br><br>Si tienes más preguntas o deseas obtener más información sobre la quiropráctica durante el embarazo o para niños, te invitamos a que consultes con nuestro equipo de quiroprácticos. Estamos aquí para brindarte la atención y el cuidado adecuados durante estas etapas especiales de la vida."
+          },
+          {
+            "title": "¿Qué reacciones puedo experimentar después de recibir un tratamiento quiropráctico?",
+            "body": "Después de recibir un tratamiento quiropráctico, es posible experimentar diferentes reacciones en tu cuerpo. Estas reacciones son normales y forman parte del proceso de sanación y ajuste del sistema nervioso. Aquí hay algunas posibles respuestas que podrías experimentar:<ul class='list-disc'><li>Sensación de alivio: Muchas personas experimentan una sensación de alivio inmediato en las tensiones del cuerpo después de un ajuste quiropráctico. Puedes sentir como si se te hubiera quitado un gran peso de encima y notar una mayor relajación muscular.</li><li>Cambios internos: Es posible que no notes cambios inmediatos en tu cuerpo, pero eso no significa que el tratamiento no esté funcionando. Los ajustes quiroprácticos se centran en tratar las causas subyacentes de los problemas en el sistema nervioso, lo que puede llevar tiempo para que los resultados se hagan evidentes. Tu cuerpo comenzará a funcionar de manera más eficiente y estarás un paso más cerca del proceso de sanación.</li><li>Fatiga y molestias temporales: Algunas personas pueden experimentar fatiga, agujetas y un malestar general después del tratamiento quiropráctico. Estos síntomas suelen ser temporales y suelen durar las primeras 24 horas. Son señales de que tu cuerpo está ajustándose y liberando interferencias nerviosas. Es importante escuchar a tu cuerpo durante este período y descansar lo necesario para permitir que el proceso de sanación siga su curso.</li></ul><br>Cada persona puede tener una experiencia diferente después del tratamiento quiropráctico, ya que cada cuerpo reacciona de manera única. Si tienes alguna preocupación o pregunta específica sobre las reacciones que estás experimentando, te recomendamos que consultes con tu quiropráctico/a, quien podrá brindarte orientación y apoyo adicionales.<br><br>Recuerda que estos cambios y reacciones son parte de tu proceso de recuperación y que tu quiropráctico/a está ahí para ayudarte en cada etapa del camino hacia una mejor salud y bienestar."
+          },
+          {
+            "title": "¿Los ajustes quiroprácticos son dolorosos?",
+            "body": "No, los ajustes quiroprácticos no son dolorosos. De hecho, la mayoría de las personas experimentan una sensación de relajación y reducción de la tensión después de los ajustes quiroprácticos.<br><br>Los ajustes quiroprácticos se centran principalmente en la columna vertebral y se realizan mediante impulsos de alta velocidad y baja amplitud que estimulan los receptores nerviosos del cuerpo. Estos ajustes están diseñados para restaurar el equilibrio y la alineación adecuada de la columna vertebral, lo que puede aliviar la presión y las interferencias nerviosas.<br><br>Durante el ajuste, es posible que escuches un sonido similar a un chasquido. Este sonido se debe a la liberación de gases en las articulaciones, como resultado del cambio de presión durante el ajuste. Es importante tener en cuenta que este sonido no es indicativo de dolor ni de ningún daño en las articulaciones.<br><br>Cada persona puede experimentar las sensaciones de los ajustes quiroprácticos de manera diferente. Algunos pueden percibir una sensación de alivio inmediato, mientras que otros pueden experimentar una leve sensación de presión o estiramiento. En general, la mayoría de las personas encuentran los ajustes quiroprácticos cómodos y beneficiosos para su bienestar general.<br><br>Es importante comunicarse abiertamente con tu quiropráctico/a y expresar cualquier inquietud o sensibilidad que puedas tener. Ellos están capacitados para adaptar los ajustes según las necesidades y preferencias individuales, asegurando una experiencia cómoda y segura.<br><br>Recuerda que la quiropráctica es una práctica segura y efectiva para mejorar la salud y el funcionamiento del sistema nervioso, sin causar dolor innecesario. Si tienes alguna pregunta adicional o deseas saber más sobre los ajustes quiroprácticos, no dudes en consultar a tu quiropráctico/a."
+          },
+          {
+            "title": "¿Qué produce el sonido de 'crack' durante los ajustes quiroprácticos?",
+            "body": "El sonido de 'crack' que se produce durante los ajustes quiroprácticos no es el resultado de los huesos rompiéndose. En realidad, este sonido se debe al fenómeno de cavitación, que ocurre cuando un líquido sinovial presente en las articulaciones es sometido a presión y provoca la vaporización de gases, como el nitrógeno, el oxígeno y el dióxido de carbono. Esta liberación brusca de gases es lo que genera el sonido característico.<br><br>Es importante destacar que el sonido de 'crack' no indica necesariamente que el ajuste haya sido exitoso o beneficioso. Este sonido es simplemente una consecuencia natural de la cavitación del líquido sinovial y no está directamente relacionado con el buen funcionamiento de la articulación.<br><br>Además, una vez que se produce el sonido, no se puede reproducir de inmediato, ya que los gases se reorganizan de manera natural y se vuelven a disolver en el líquido articular a medida que la presión aumenta.<<br><br>Es común que también se produzcan chasquidos articulares al agacharse o al mover las manos, y esto se debe al mismo fenómeno de cavitación del líquido sinovial en las articulaciones. Sin embargo, es importante tener en cuenta que este ruido no es perjudicial en sí mismo.<br><br>Es importante señalar que hacer crujir deliberadamente las articulaciones, como los dedos, no es recomendado, ya que puede generar una dependencia y no está relacionado con los beneficios de los ajustes quiroprácticos realizados por un profesional capacitado.<br><br>Si tienes alguna pregunta adicional o deseas obtener más información sobre el sonido de 'crack' durante los ajustes quiroprácticos, te recomendamos que consultes a tu quiropráctico/a, quien podrá brindarte una explicación más detallada y personalizada."
+          }
+        ]
+      },
+      {
+        "title": "Nuestros servicios",
+        "body": "Las dudas más frecuentes sobre los servicios que ofrecemos en nuestro centro ColumnaQuiro en Valencia",
+        "faqs": [
+          {
+            "title": "¿Cuánto tiempo durará mi primera visita y los ajustes regulares?",
+            "body": "En tu primera visita, dedicaremos todo el tiempo necesario para recolectar la información que necesitamos y realizar pruebas de examinación. Nos enfocaremos en tus resultados de la primera visita para obtener una idea precisa de tu caso y las disfunciones de tu columna vertebral. Esta visita suele durar aproximadamente 60 minutos. Durante este tiempo, nos aseguraremos de escuchar tus inquietudes, recopilar tu historial médico y realizar las evaluaciones necesarias para diseñar un plan de cuidado personalizado.<br><br>En cuanto a los ajustes regulares, se realizan en una sala cerrada y se adaptan a las necesidades específicas de tu cuerpo. Por lo general, su duración oscila entre 15 y 20 minutos. Durante estas sesiones, nos enfocamos en realizar los ajustes quiroprácticos necesarios para abordar las interferencias nerviosas y promover el buen funcionamiento de tu sistema nervioso y cuerpo en general.<br><br>A lo largo del proceso de tratamiento, realizaremos revisiones comparando los resultados de tus pruebas iniciales con los actuales para evaluar tus mejoras y ajustar tu plan de cuidado según sea necesario. Estas revisiones nos permiten monitorear tu progreso y asegurarnos de que estés recibiendo el cuidado más adecuado para ti en cada etapa de tu tratamiento.<br><br>Nuestro objetivo es brindarte una atención de calidad y personalizada, adaptada a tus necesidades individuales. Si tienes alguna pregunta adicional sobre la duración de las visitas o el proceso de tratamiento, no dudes en comunicarte con nuestro equipo. Estamos aquí para brindarte el mejor cuidado quiropráctico posible."
+          },
+          {
+            "title": "¿Puedo llevar a mi hijo/a a la consulta quiropráctica?",
+            "body": "¡Absolutamente! En nuestro centro, damos la bienvenida a toda la familia. Nos encanta ver a los niños y no importa la edad que tengan, puedes traer a tu hijo/a a nuestra consulta. Queremos que todos se sientan cómodos y bienvenidos.<br><br>Hemos diseñado una sala de espera especialmente equipada con juegos para que los más pequeños se diviertan mientras esperan su turno. Queremos que la experiencia sea agradable tanto para los padres como para los niños.<br><br>Entendemos que los padres también necesitan cuidar de sí mismos y atender sus propias necesidades de salud y bienestar. Por lo tanto, te animamos a que programes una cita con nosotros para recibir el cuidado quiropráctico que necesitas. Estamos aquí para ayudarte a mantener y mejorar tu salud en general.<br><br>Si tienes alguna pregunta adicional sobre cómo atendemos a los niños en nuestra consulta o si deseas programar una cita para ti o para tu familia, no dudes en contactarnos. Estaremos encantados de ayudarte."
+          }
+        ]
+      }
+    ]
+  },
+  "contacto": {
+    "seo": {
+      "title": "Contacta con los expertos en quiropráctica - ColumnaQuiro",
+      "description": "Contacta con nuestros quiroprácticos altamente capacitados para programar una cita personalizada y descubre cómo podemos ayudarte a recuperar tu calidad de vida."
+    },
+    "title": "Contacta con ColumnaQuiro",
+    "subtitle": "Centro Quiropráctico en Valencia",
+    "form": {
+      "title": "Hola, ¿cómo estás? 👋",
+      "subtitle": "Nos encanta poder ayudarte a resolver cualquier duda que puedas tener y asistirte para programar tu próxima visita a nuestra consulta quiropráctica. Además, nos alegra mucho saber de ti en cualquier momento, incluso si es solo para ponerte al día. ¡Estamos aquí para brindarte la mejor atención posible!",
+      "fields": [
+        {
+          "key": "name",
+          "label": "Nombre y Apellidos*",
+          "type": "text"
+        },
+        {
+          "key": "email",
+          "label": "Correo electrónico*",
+          "type": "email"
+        },
+        {
+          "key": "subject",
+          "label": "Asunto*",
+          "type": "text"
+        },
+        {
+          "key": "message",
+          "label": "Mensaje*",
+          "type": "text"
+        }
+      ],
+      "cta": "Enviar"
+    }
+  },
+  "equipo": {
+    "seo": {
+      "title": "Equipo Quiropráctico - Dedicados a Mejorar tu Salud",
+      "description": "Conoce a nuestro equipo de profesionales altamente capacitados dedicados a mejorar tu salud y bienestar. Comienza tu camino hacia una vida más saludable hoy."
+    },
+    "peopleList": {
+      "title": "Conoce al equipo",
+      "items": [
+        {
+          "name": "Léa Guido",
+          "description": "Nací en la Côte d'Azur, en el sur de Francia, y siempre he sentido una gran pasión por el cuerpo humano y su increíble poder de sanación a través de procesos naturales. Soy aficionada a los deportes y siempre he sido muy activa en mi vida, por lo que entiendo muy bien la importancia de tener un cuerpo sano, adaptable y que funcione al máximo potencial.<br><br>Desde mi nacimiento, he tenido varios problemas de salud relacionados con el sistema musculoesquelético, lo que me impidió hacer deporte y subir escaleras a los 13 años. Por casualidad, acabé en un centro de terapias manuales en Francia donde noté enormes mejoras en mi salud y bienestar general.<br><br>Fue entonces cuando decidí estudiar una profesión relacionada con las terapias manuales, y al descubrir la filosofía de la quiropráctica, supe que sería mi vocación ayudar a crear una humanidad más saludable, sostenible y feliz a través del enfoque y cuidado quiropráctico.<br><br>Después de seis años de estudios entre Francia (dos años) y Barcelona (cuatro años), me gradué en 2021 del Barcelona College of Chiropractic. Desde entonces, he colaborado en diferentes clínicas, aprendiendo de los maestros de la profesión y practicando con diferentes técnicas y enfoques en Barcelona y en la provincia de Barcelona (Terrassa). También he sido profesora asistente en diferentes clases de técnicas y supervisora en la clínica de la escuela Barcelona College of Chiropractic, ya que siempre me ha gustado enseñar y ayudar a más personas posibles.<br><br>Desde mi graduación, he seguido formándome para ampliar mis conocimientos y habilidades con el fin de poder ofrecer el mejor cuidado a mis pacientes. Recientemente, me he especializado en un enfoque holístico para mujeres embarazadas y niños, lo que me permite brindar una atención más completa y personalizada a estas poblaciones.<br><br>Para mí, ColumnaQuiro va más allá de ser un centro quiropráctico. Es un proyecto humanista que permite empoderar a la población desde dentro hacia fuera, ayudando a cada individuo a entender que la salud viene de dentro y su importancia.<br><br>Estoy emocionada de dar la bienvenida a todos los que buscan una forma natural y efectiva de mejorar su salud en ColumnaQuiro, ¡y espero poder ayudarlos con los brazos abiertos!",
+          "imagePath": "",
+          "role": "Doctora en Quiropráctica"
+        }
+      ]
+    }
+  },
+  "reservaVisita": {
+    "header": {
+      "title": "Reserva tu visita en ColumnaQuiro",
+      "subtitle": "¡Hola! A continuación puedes reservar tu próxima visita en ColumnaQuiro. Ya sea primera visita o paciente frecuente.",
+      "steps": {
+        "title": "¿Cómo hacer la reserva en 3 sencillos pasos?",
+        "items": [
+          "Llamándonos al +34 645967420.",
+          "Enviándonos un Whatsapp.",
+          "A través de nuestra cuenta <a href='https://www.instagram.com/columnaquiro/'>Instagram.</a>"
+        ]
+      }
+    },
+    "booking": {
+      "title": "¡Déjanos tu email!",
+      "subtitle": "Estamos terminando de montar la consulta. Obtén las últimas noticias sobre nuestro avance y día de apertura. Haremos una gran inauguración, no te la pierdas!<br><br>Mientras tanto puedes seguir leyendo sobre nosotros y la quiropractica en nuestra web, seguirnos en redes sociales donde subimos contenido relacionado sobre la quiropractica, curiosidades, consejos y mucho más!",
+      "form": {
+        "email": {
+          "placeholder": "tuemail{'@'}gmail.com",
+          "label": "Introduce tu correo electrónico"
+        },
+        "submit": "Suscribirse"
+      }
+    }
+  },
+  "comoFunciona": {
+    "seo": {
+      "title": "Servicios Quiroprácticos - Enfoque Integral - ColumnaQuiro",
+      "description": "Descubre nuestros servicios quiroprácticos enfocados en mejorar la salud y el bienestar. Comienza tu camino hacia una vida más saludable hoy."
+    },
+    "steps": {
+      "title": "¿Cuántas sesiones tengo que hacer?",
+      "description": "Empieza en Columnaquiro, te contamos los primeros pasos:",
+      "items": [
+        {
+          "color": "primary",
+          "icon": "mdi-calendar",
+          "title": "Reserva tu primera cita",
+          "description": "¡Genial! Puedes reservar tu primera cita como tu prefieras:<ul class='list-disc'><li>Llamándonos al +34 645967420.</li><li>Enviándonos un Whatsapp.</li><li>A través de nuestra cuenta instagram <a href='https://www.instagram.com/columnaquiro/' target='_blank'><span class='font-semibold'>{'@'}columnaquiro</span></a>.</li></ul>"
+        },
+        {
+          "color": "tertiary",
+          "icon": "mdi-magnify",
+          "title": "Primera visita",
+          "description": "Te contamos lo que haremos:<ul class='list-disc'><li>Rellenaremos el formulario de primera visita en nuestra web.</li><li>Tomaremos tu historial de salud.</li><li>Realizaremos pruebas para evaluar el funcionamiento de tu sistema nervioso, incluyendo una postura digital, pruebas neurológicas digitales y de coordinación, examen de tu columna vertebral y patrón de marcha.</li><li><span class='font-semibold'>Primera sesión de ajuste.</span></li></ul>"
+        },
+        {
+          "color": "quaternary",
+          "icon": "mdi-file-document-check-outline",
+          "title": "Informe quiropráctico",
+          "description": "Te entregaremos tu informe quiropráctico con los resultados de las pruebas de la primera visita. Basándonos en estos resultados y en tu historia clínica, te recomendaremos un plan de cuidado personalizado para lograr tus objetivos de salud de la manera más eficiente."
+        },
+        {
+          "color": "secondary",
+          "icon": "mdi-hand-heart-outline",
+          "title": "Plan de cuidado",
+          "description": "Se dividirá en dos fases: la intensiva y la correctiva, y estableceremos una frecuencia de ajustes quiroprácticos adecuada a tus necesidades."
+        },
+        {
+          "color": "whiteBranded",
+          "icon": "mdi-hand-heart-outline",
+          "title": "Reevaluación",
+          "description": "Después de un tiempo , haremos una re evaluación para medir tus mejorias y adaptar tu plan de cuidado a tus nuevas necesidades."
+        },
+        {
+          "color": "tertiary",
+          "icon": "mdi-hand-heart-outline",
+          "title": "Mantenimiento",
+          "description": "Finalmente, la fase más importante se concentra en la prevención y en evitar recaídas, manteniendo un estado general de salud óptimo."
+        }
+      ]
+    },
+    "primeraVisita": {
+      "title": "¿Cómo funciona?",
+      "description": "¡Bienvenido a Columnaquiro! Nuestro objetivo es brindarte la mejor atención quiropráctica personalizada. La primera visita es fundamental en nuestra clínica para ofrecerte el mejor cuidado quiropráctico posible. <br><br>Antes de tu primera visita, te enviaremos un cuestionario en línea para conocer tus preocupaciones y objetivos de salud actuales, lo que nos permitirá comprender mejor tus necesidades antes de la sesión quiropráctica.<br><br>Ahora te contamos lo que haremos durante la primera visita ,  nos enfocamos en esta etapa para monitorear y evaluar tu evolución a lo largo del cuidado quiropráctico: ",
+      "steps": [
+        {
+          "text": "Revisar tu historial de salud contigo para asegurarnos que tenemos todas las informaciones."
+        },
+        {
+          "text": "Prueba neurologica con nuestra herramienta para evaluar el funcionamiento de tu sistema nervioso."
+        },
+        {
+          "text": "Evaluacion de tu patrón de marcha, equilibrio y coordinación, y la integración adecuada de tus reflejos."
+        },
+        {
+          "text": "Evaluacion de tu postura a traves de nuestro programa de analisis postural."
+        },
+        {
+          "text": "Evaluacion de tus rangos de movimientos articulares."
+        },
+        {
+          "text": "Palpacion especifica en tu craneo y de tus segmentos vertebrales."
+        }
+      ],
+      "footer": "Basándonos en la información recopilada, crearemos un plan de cuidado personalizado adaptado a tus necesidades, que incluirá mis mejores recomendaciones. En algunos casos, se pueden requerir radiografías para obtener una comprensión más completa de tu condición.<br><br>    En la primera sesión de quiropráctica, comenzaremos a implementar el plan de cuidado específico para ti, para que puedas comenzar a experimentar cambios positivos en tu salud desde el principio. Después de tu consulta inicial, programaremos otra cita para revisar los resultados de tu estudio y entregarte un Informe Digital completo.<br><br>    En Columnaquiro, nos enfocamos en los resultados. Por eso, realizaremos revisiones periódicas para evaluar los cambios objetivos que hayas experimentado bajo nuestro cuidado quiropráctico. Estas revisiones también nos permiten asegurarnos de que estés satisfecho/a con el trato que has recibido en todo momento.<br><br>    Durante cada revisión, revisaremos contigo las estrategias adecuadas para alcanzar todos tus objetivos de salud y estilo de vida. Nuestro objetivo es ayudarte a lograr un nivel de salud óptimo a largo plazo, para que puedas disfrutar de una vida más plena y activa. ¡Estamos aquí para ayudarte en tu camino hacia la salud y el bienestar!"
+    }
+  },
+  "blog": {
+    "seo": {
+      "title": "Noticias y artículos | Columnaquiro",
+      "description": "Descubre las últimas noticias y articulos de nuestro centro de quiropráctico en Valencia."
+    },
+    "hero": {
+      "title": "Blog ColumnaQuiro",
+      "body": "¡Bienvenidos al Blog de ColumnaQuiro! Este es un espacio exclusivo donde encontrarás las últimas novedades y artículos relacionados con quiropráctica y salud en general. <br><br>Recuerda visitarnos regularmente para mantenerte al tanto de las últimas noticias y consejos. Tu salud y bienestar son nuestra prioridad. ¡Gracias por ser parte de la comunidad ColumnaQuiro!"
+    }
+  }
+}
