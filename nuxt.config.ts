@@ -5,6 +5,9 @@ import VueI18nVitePlugin from '@intlify/unplugin-vue-i18n/vite'
 
 export default defineNuxtConfig({
   devtools: { enabled: true },
+  site: {
+    url: 'https://columnaquiro.com'
+  },
   app: {
     head: {
       charset: 'utf-8',
@@ -24,7 +27,6 @@ export default defineNuxtConfig({
     'nuxt-simple-sitemap'
   ],
   sitemap: {
-    siteUrl: 'https://columnaquiro.com',
     exclude: [
       'aviso-legal',
       'politica-de-cookies',
