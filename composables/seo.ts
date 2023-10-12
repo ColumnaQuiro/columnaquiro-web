@@ -2,7 +2,7 @@ import { useSeoMeta } from '@unhead/vue'
 
 export const useSetSEOTags = (title?: string, description?: string) => {
   const { path } = useRoute()
-  const canonical = `https://quiropracticavalencia.es${path}`
+  const canonical = `https://columnaquiro.com${path}`
   useHead(() => ({
     title,
     link: [

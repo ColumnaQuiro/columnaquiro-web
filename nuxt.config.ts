@@ -24,7 +24,7 @@ export default defineNuxtConfig({
     'nuxt-simple-sitemap'
   ],
   sitemap: {
-    siteUrl: 'https://quiropracticavalencia.es',
+    siteUrl: 'https://columnaquiro.com',
     exclude: [
       'aviso-legal',
       'politica-de-cookies',
