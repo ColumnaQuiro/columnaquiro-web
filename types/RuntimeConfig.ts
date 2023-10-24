@@ -1,5 +1,4 @@
 interface PublicRuntimeConfig {
-  gtmId: string
 }
 
 export {

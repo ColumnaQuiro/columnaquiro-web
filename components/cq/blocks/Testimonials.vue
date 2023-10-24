@@ -1,5 +1,5 @@
 <template>
-  <cq-layout-section>
+  <cq-layout-section class="bg-brand-light-tertiary">
     <div class="section-title">
       {{ t('general.testimonials.title') }}
     </div>
@@ -7,7 +7,7 @@
       <slide v-for="item in items" :key="rt(item.author)">
         <v-card
           :flat="true"
-          class="p-3 h-full !bg-brand-light-quaternary"
+          class="p-3 h-full !bg-white"
         >
           <v-card-text class="flex flex-col justify-center h-full">
             <div class="text-base pb-2">
@@ -53,7 +53,6 @@ const carouselBreakpoints = {
 .carousel__item {
   min-height: 200px;
   width: 100%;
-  background: rgb(var(--v-theme-quaternary));
   color: var(--v-theme-blackBranded);
   border-radius: 8px;
 }

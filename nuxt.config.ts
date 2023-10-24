@@ -22,6 +22,7 @@ export default defineNuxtConfig({
     }
   },
   modules: [
+    'nuxt-gtag',
     'vuetify-nuxt-module',
     '@nuxt/content',
     'nuxt-simple-sitemap'
@@ -49,6 +50,10 @@ export default defineNuxtConfig({
         'vue-i18n': 'vue-i18n/dist/vue-i18n.runtime.esm-bundler.js'
       }
     },
+    gtag: {
+      id: 'G-7RZ1YECNKZ',
+      initialConsent: false
+    },
     plugins: [
       VueI18nVitePlugin({
         strictMessage: false,
@@ -68,11 +73,6 @@ export default defineNuxtConfig({
     plugins: {
       tailwindcss: {},
       autoprefixer: {}
-    }
-  },
-  runtimeConfig: {
-    public: {
-      gtmId: 'GTM-NTMKRQV'
     }
   },
   nitro: {

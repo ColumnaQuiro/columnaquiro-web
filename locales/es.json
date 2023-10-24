@@ -639,6 +639,30 @@
       "footer": "Basándonos en la información recopilada, crearemos un plan de cuidado personalizado adaptado a tus necesidades, que incluirá mis mejores recomendaciones. En algunos casos, se pueden requerir radiografías para obtener una comprensión más completa de tu condición.<br><br>    En la primera sesión de quiropráctica, comenzaremos a implementar el plan de cuidado específico para ti, para que puedas comenzar a experimentar cambios positivos en tu salud desde el principio. Después de tu consulta inicial, programaremos otra cita para revisar los resultados de tu estudio y entregarte un Informe Digital completo.<br><br>    En Columnaquiro, nos enfocamos en los resultados. Por eso, realizaremos revisiones periódicas para evaluar los cambios objetivos que hayas experimentado bajo nuestro cuidado quiropráctico. Estas revisiones también nos permiten asegurarnos de que estés satisfecho/a con el trato que has recibido en todo momento.<br><br>    Durante cada revisión, revisaremos contigo las estrategias adecuadas para alcanzar todos tus objetivos de salud y estilo de vida. Nuestro objetivo es ayudarte a lograr un nivel de salud óptimo a largo plazo, para que puedas disfrutar de una vida más plena y activa. ¡Estamos aquí para ayudarte en tu camino hacia la salud y el bienestar!"
     }
   },
+  "nuestroCentro": {
+    "seo": {
+      "title": "Noticias y artículos | Columnaquiro",
+      "description": "Descubre las últimas noticias y articulos de nuestro centro de quiropráctico en Valencia."
+    },
+    "title": "Centro Quiropractico ColumnaQuiro",
+    "description": "En nuestro centro quiropráctico en Valencia Ruzafa, entendemos que cada persona es única, y tus necesidades de salud también lo son. Estamos aquí para guiarte en tu viaje hacia el bienestar y ayudarte a alcanzar tu máximo potencial de salud. Si estás buscando una solución natural y efectiva para tus problemas de salud, ¡has venido al lugar correcto!",
+    "salaDeEspera": {
+      "title": "Sala de espera",
+      "description": "Nuestra sala de espera es un oasis de calma. Nuestra amigable secretaria estará encantada de charlar contigo. Refréscate con agua y sumérgete en nuestros libros de salud mientras aguardas tu consulta. Aquí, tu bienestar es lo primero."
+    },
+    "salaDePrimeraVisita": {
+      "title": "Sala de primera visita",
+      "description": "En nuestra sala de primera visita, tu privacidad es fundamental. Aquí, tomamos el tiempo necesario para una evaluación detallada y personalizada, asegurándonos de entender tus necesidades específicas. Este espacio está diseñado para garantizar tu comodidad y confidencialidad mientras trazamos juntos tu camino hacia un mayor bienestar."
+    },
+    "salaDeAjuste": {
+      "title": "Sala de ajuste",
+      "description": "Aquí, en la sala de ajuste, tu bienestar toma forma. Nuestros quiroprácticos expertos te proporcionarán una atención personalizada y efectiva. Es el lugar donde aliviamos tus molestias y mejoramos tu calidad de vida. Bienvenido a tu camino hacia la salud!"
+    },
+    "biblioteca": {
+      "title": "Nuestra Biblioteca de Salud Multilingüe",
+      "description": "Nuestra estantería de libros es un tesoro de conocimiento en múltiples idiomas: francés, castellano e inglés. Aquí encontrarás una variada selección de libros sobre temas de salud y quiropráctica. Lo mejor es que puedes llevarte estos tesoros a casa.<br><br>Enriquece tu mente y amplía tus horizontes mientras te sumerges en temas de bienestar y autocuidado. Estos libros están disponibles para ti, para que puedas continuar tu búsqueda de conocimiento en casa. ¡Explora, aprende y crece con nosotros!"
+    }
+  },
   "blog": {
     "seo": {
       "title": "Noticias y artículos | Columnaquiro",

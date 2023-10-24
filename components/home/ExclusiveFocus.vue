@@ -1,5 +1,5 @@
 <template>
-  <cq-layout-section class="quiro-logos bg-brand-light-tertiary">
+  <cq-layout-section>
     <h2 class="section-title pb-4">
       {{ t('home.exclusiveFocus.title') }}
     </h2>
