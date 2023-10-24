@@ -1,5 +1,5 @@
 <template>
-  <cq-layout-section>
+  <cq-layout-section class="article">
     <ContentDoc head>
       <template #not-found>
         <h2>Blog slug ({{ $route.params.slug }}) not found</h2>
@@ -10,3 +10,13 @@
 <script setup>
 useSetSEOTags()
 </script>
+<style lang="scss">
+.article {
+  p {
+    @apply mt-4;
+  }
+  img {
+    @apply max-w-[500px];
+  }
+}
+</style>

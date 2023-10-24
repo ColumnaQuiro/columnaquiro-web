@@ -27,12 +27,12 @@
 </template>
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n'
-import { useGtm } from '@gtm-support/vue-gtm'
 import { useSeoMeta } from '@unhead/vue'
 import { STATICS_CDN } from '~/constants/urls'
 
-const gtm = useGtm()
 const { t, locale } = useI18n()
+const { grantConsent } = useGtag()
+
 const preferences = [
   {
     description: t('general.cookiesConsent.preferences.description')
@@ -54,12 +54,12 @@ const preferences = [
 ]
 
 const onAccept = () => {
-  gtm?.enable(true)
+  grantConsent('G-7RZ1YECNKZ')
 }
 
 const onSavePreferences = (preferences: string[]) => {
   if (preferences.includes('ga')) {
-    gtm?.enable(true)
+    grantConsent('G-7RZ1YECNKZ')
   }
 }
 useSeoMeta({

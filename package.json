@@ -12,13 +12,13 @@
     "check-dependencies": "npx npm-check-updates --interactive --target minor"
   },
   "devDependencies": {
-    "@gtm-support/vue-gtm": "^2.2.0",
     "@intlify/unplugin-vue-i18n": "1.0.1",
     "@nuxt/content": "^2.8.5",
     "@nuxt/devtools": "latest",
     "@nuxtjs/eslint-config-typescript": "12.1.0",
     "nuxt": "3.7.4",
     "nuxt-cookie-control": "1.9.93",
+    "nuxt-gtag": "^1.1.1",
     "nuxt-simple-sitemap": "^3.4.0",
     "postcss": "8.4.31",
     "sass": "1.69.0",

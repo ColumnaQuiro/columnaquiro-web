@@ -1,7 +1,7 @@
 <template>
-  <div class="paragraph-with-image flex flex-col md:flex-row gap-10">
+  <div :style="cssVars" class="paragraph-with-image flex flex-col lg:flex-row gap-10">
     <div
-      class="md:col-span-2"
+      class="lg:col-span-2"
       :class="{
         'order-0': isImagePositionRight,
         'order-1': isImagePositionLeft
@@ -11,10 +11,10 @@
         <div class="text-base" v-html="text" />
       </slot>
     </div>
-    <div class="w-full justify-self-center md:justify-self-end">
+    <div>
       <slot name="image">
         <div class="paragraph-with-image__image">
-          <img :src="image" class="w-full mx-auto lg:mx-0 mt-8 lg:mt-0" alt="">
+          <img :src="image" class="w-full mx-auto lg:mx-0 mt-8 lg:mt-0" :alt="imageAlt">
         </div>
       </slot>
     </div>
@@ -22,7 +22,6 @@
 </template>
 <script setup lang="ts">
 import { PropType } from 'vue'
-import {imageMeta} from "image-meta";
 
 type ImagePosition = 'left' | 'right'
 
@@ -32,18 +31,26 @@ const props = defineProps({
     required: true
   },
   image: {
-    type: String
+    type: String,
+    required: true
   },
   imageWidth: {
-    type: Number
+    type: Number,
+    required: true
   },
   imagePosition: {
     type: String as PropType<ImagePosition>,
     default: 'right'
+  },
+  imageAlt: {
+    type: String,
+    default: ''
   }
 })
 
-const width = `${props.imageWidth}px`
+const cssVars = computed(() => ({
+  '--width': `${props.imageWidth}px`
+}))
 const isImagePositionLeft = props.imagePosition === 'left'
 const isImagePositionRight = props.imagePosition === 'right'
 </script>
@@ -54,7 +61,8 @@ const isImagePositionRight = props.imagePosition === 'right'
   }
 
   &__image {
-    width: v-bind(width);
+    @apply w-full;
+    @apply lg:w-[var(--width)];
   }
 }
 </style>
