@@ -58,7 +58,7 @@ const onAccept = () => {
 }
 
 const onSavePreferences = (preferences: string[]) => {
-  if (preferences.includes('ga')) {
+  if (preferences.includes('ga') || preferences.includes('all')) {
     grantConsent('G-7RZ1YECNKZ')
   }
 }
@@ -69,6 +69,16 @@ useSeoMeta({
   twitterCard: 'summary_large_image'
 })
 
+onMounted(() => {
+  const cookieComplyAcceptance = localStorage.getItem('cookie-comply')
+  const hasCookieComplyAllAccepted = cookieComplyAcceptance && cookieComplyAcceptance === 'all'
+  const hasGAComplyAccepted = cookieComplyAcceptance && cookieComplyAcceptance === 'ga'
+  if (hasCookieComplyAllAccepted) {
+    grantConsent('G-7RZ1YECNKZ')
+  } else if (hasGAComplyAccepted) {
+    grantConsent('G-7RZ1YECNKZ')
+  }
+})
 </script>
 <style lang="scss">
 .cookie-comply {
