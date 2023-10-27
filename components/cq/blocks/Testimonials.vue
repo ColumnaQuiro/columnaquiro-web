@@ -5,19 +5,21 @@
     </div>
     <carousel :settings="carouselSettings" :breakpoints="carouselBreakpoints">
       <slide v-for="item in items" :key="rt(item.author)">
-        <v-card
-          :flat="true"
-          class="p-3 h-full !bg-white"
+        <div
+          class="p-3 h-full rounded-xl bg-white"
         >
-          <v-card-text class="flex flex-col justify-center h-full">
+          <div class="flex flex-row justify-end">
+            <img :src="`${STATICS_CDN}icons/icon__google.webp`" width="20" alt="google">
+          </div>
+          <div class="flex flex-col justify-center h-full">
             <div class="text-base pb-2">
               {{ rt(item.description) }}
             </div>
             <div class="text-xs italic">
               {{ rt(item.author) }}
             </div>
-          </v-card-text>
-        </v-card>
+          </div>
+        </div>
       </slide>
       <template #addons>
         <navigation />
@@ -30,6 +32,7 @@
 import { useI18n } from 'vue-i18n'
 import 'vue3-carousel/dist/carousel.css'
 import { Carousel, Slide, Pagination, Navigation } from 'vue3-carousel'
+import { STATICS_CDN } from '~/constants/urls'
 
 const { t, tm, rt } = useI18n()
 const items = tm('general.testimonials.items')
