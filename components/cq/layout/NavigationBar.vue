@@ -38,6 +38,7 @@
             :text="rt(link.text)"
             :to="link.to ? rt(link.to) : undefined"
             :sub-menu="link.subMenu"
+            @click="toggleBurgerMenu"
           />
           <cq-components-button :to="t('general.layout.navigationBar.appointmentButton.to')" block variant="elevated">
             {{ t('general.layout.navigationBar.appointmentButton.text') }}
