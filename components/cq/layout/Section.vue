@@ -14,7 +14,12 @@
       :width="shapeWidth"
       alt="shape"
     >
-    <div class="container relative lg:py-16 md:py-10 py-4">
+    <div
+      class="container relative"
+      :class="{
+        'lg:py-16 md:py-10 py-4': !removeInnerSpace
+      }"
+    >
       <slot />
     </div>
   </div>
@@ -25,13 +30,15 @@ import { STATICS_CDN } from '~/constants/urls'
 interface Props {
   shape?: 'shape-white-1' | 'shape-secondary-left' | 'shape-tertiary-right' | 'shape-secondary-light-left' | 'shape-tertiary-light-right'
   shapeWidth?: number
-  shapePosition?: 'top-left' | 'top-right' | 'center-left' | 'center-right' | 'bottom-left' | 'bottom-right'
+  shapePosition?: 'top-left' | 'top-right' | 'center-left' | 'center-right' | 'bottom-left' | 'bottom-right',
+  removeInnerSpace: boolean
 }
 
 const props = withDefaults(defineProps<Props>(), {
   shape: undefined,
   shapeWidth: undefined,
-  shapePosition: 'top-left'
+  shapePosition: 'top-left',
+  removeInnerSpace: false
 })
 
 const isShapeCenter = props.shapePosition.includes('center')

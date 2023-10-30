@@ -60,6 +60,10 @@ const carouselBreakpoints = {
   border-radius: 8px;
 }
 
+.carousel__pagination-button--active::after {
+  @apply bg-brand-black;
+}
+
 .carousel__slide {
   padding: 10px;
 }

@@ -17,8 +17,8 @@
         {{ t('general.layout.footer.details.phone') }}
       </nuxt-link>
     </div>
-    <div class="flex pt-4">
-      <cq-components-button icon :href="INSTAGRAM_URL" size="x-small" variant="tonal" aria-label="Instagram">
+    <div class="flex justify-center md:justify-start pt-4">
+      <cq-components-button icon :href="INSTAGRAM_URL" size="small" variant="tonal" aria-label="Instagram">
         <v-icon>mdi-instagram</v-icon>
       </cq-components-button>
     </div>
