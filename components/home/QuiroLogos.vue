@@ -1,6 +1,6 @@
 <template>
   <cq-layout-section class="quiro-logos">
-    <div class="flex flex-wrap gap-7">
+    <div class="flex flex-wrap gap-7 justify-center md:justify-start">
       <img
         v-for="logo in logos"
         :key="rt(logo.id)"

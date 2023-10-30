@@ -194,7 +194,7 @@
           "title": "Centro Quiropráctico",
           "street": "",
           "email": "hola{'@'}columnaquiro.com",
-          "phone": "+34 645967420"
+          "phone": "+34 744735363"
         },
         "copyright": "© 2023 ColumnaQuiro",
         "links": [
@@ -243,7 +243,7 @@
     },
     "mission": {
       "title": "¡Estás a un paso de mejorar tu salud!",
-      "description": "Bienvenido/a a <span class='font-medium'>ColumnaQuiro</span>, tu centro quiropráctico para una visión holística de tu salud!<br><br><span class='font-medium'>¿Estás buscando formas de lidiar con los efectos del estrés en tu día a día? <br><br>¿Sufres de dolores musculares, tensión o ansiedad?</span><br><br>En nuestro centro, nos dedicamos a corregir las causas de los problemas de manera eficaz, duradera y segura, sin recurrir a remedios químicos o medicamentos.<br><br>Nuestro objetivo es ayudarte a alcanzar el máximo potencial de tu cuerpo y satisfacer tus necesidades de salud."
+      "description": "Bienvenido/a a <span class='font-medium'>ColumnaQuiro</span>, tu centro quiropráctico en Valencia para una visión holística de tu salud!<br><br><span class='font-medium'>¿Tiene dolor de espalda o alguna molestia en particular? ¿Sufres de dolores musculares, tensión o ansiedad?</span><br><br>En ColumnaQuiro estudiamos en detalle el estado de tu columna vertebral y del funcionamiento de tu sistema nervioso, con un enfoque holístico, considerando el efecto que tiene para tu salud y bienestar integral.<br><br>Monitorizamos tu progreso de forma regular, de manera que adaptamos el cuidado que necesitas en cada momento de tu vida.<br><br>Te acompañamos durante todo el proceso de mejora con una educación continuada sobre un estilo de vida saludable."
     },
     "exclusiveFocus": {
       "title": "Nuestro Enfoque Exclusivo: Tu Salud Integral en ColumnaQuiro",
@@ -257,7 +257,7 @@
         {
           "id": "advanced-app",
           "title": "Aplicación avanzada",
-          "body": "Utilizamos una aplicación innovadora para evaluar la velocidad de la conexión entre tu cerebro y el resto de tu cuerpo. Esta información es vital para comprender tu salud neurológica."
+          "body": "Utilizamos una aplicación innovadora para evaluar la velocidad de la conexión entre tu cerebro y el resto de tu cuerpo."
         },
         {
           "id": "walking-pattern",
@@ -270,10 +270,10 @@
           "body": "Completamos el panorama al conocer tu historial médico y tus hábitos de vida, lo que nos permite personalizar aún más tu cuidado."
         }
       ],
-      "footer": "🎓 Además, no nos limitamos a proporcionar un tratamiento, sino que te acompañamos durante todo el proceso de mejora con una educación continuada sobre un estilo de vida saludable. Nuestro equipo está comprometido a brindarte información valiosa para que puedas cuidar de tu bienestar a diario.<br><br><br>En ColumnaQuiro, no solo buscamos aliviar síntomas superficiales, sino que trabajamos en el origen de los problemas para mejorar tu calidad de vida en su totalidad. Si buscas un enfoque de salud integral y personalizado, ¡estamos aquí para ayudarte en cada paso del camino!<br><br>Contáctanos hoy mismo para dar el primer paso hacia una vida más saludable y equilibrada."
+      "footer": "🎓 Además, no nos limitamos a proporcionar un tratamiento, sino que <span class='font-medium'>te acompañamos durante todo el proceso de mejora con una educación continuada sobre un estilo de vida saludable.</span><br><br><br>En nuestro centro Quiropráctico ColumnaQuiro, no solo buscamos aliviar síntomas superficiales, sino que trabajamos en el origen de los problemas para mejorar tu calidad de vida en su totalidad. Si buscas un enfoque de salud integral y personalizado, ¡estamos aquí para ayudarte en cada paso del camino!<br><br>Contáctanos hoy mismo para dar el primer paso hacia una vida más saludable y equilibrada."
     },
     "interferencesSchema": {
-      "description": "Tu cuerpo siempre reacciona de manera inteligente a los factores estresantes inevitables de la vida. Estas reacciones son muy variadas: dolores y molestias, falta de energía, bajas defensas, síntoma cualquiera… Estos signos indican que algo está impidiendo que tu cuerpo funcione de manera óptima. Este 'algo' se llama una interferencia del sistema nervioso.<br><br>En lugar de intentar callar los gritos del cuerpo con remedios externos, en ColumnaQuiro eliminamos las interferencias del sistema nervioso, permitiéndote manejar mejor los factores estresantes del cotidiano y gozar de una salud excelente.<br><br>Independientemente de tu edad, la columna vertebral es la raíz de nuestra salud y requiere atención durante toda la vida. Por ello, en nuestro centro acuden personas de todas las edades en busca de una mejor calidad de vida.<br><br><span class='font-medium'> Gracias a nuestros ajustes quiroprácticos, estimularás los receptores nerviosos de tu columna vertebral, manteniendo así tu cerebro conectado con cada célula, órgano y tejido de tu cuerpo.</span>"
+      "description": "Tu cuerpo siempre reacciona de manera inteligente a los factores estresantes inevitables de la vida. <br><br>Estas reacciones son muy variadas: <span class='font-medium'>dolores y molestias, falta de energía, bajas defensas</span>... Estos signos indican que algo está impidiendo que tu cuerpo funcione de manera óptima. Este \"algo\" se llama una <span class='font-medium'>interferencia del sistema nervioso</span>.<br><br>En ColumnaQuiro eliminamos las interferencias del sistema nervioso, permitiéndote manejar mejor los factores estresantes del cotidiano y gozar de una salud excelente.<br><br>Independientemente de tu edad, la columna vertebral es la raíz de nuestra salud y requiere atención durante toda la vida. Por ello, en nuestro centro quiropractico en Russafa, acuden personas de todas las edades en busca de una mejor calidad de vida.<br><br><span class='font-medium'> Gracias a nuestros ajustes quiroprácticos, estimularás los receptores nerviosos de tu columna vertebral, manteniendo así tu cerebro conectado con cada célula, órgano y tejido de tu cuerpo.</span>"
     },
     "toWho": {
       "title": "La Quiropráctica es para tí",
