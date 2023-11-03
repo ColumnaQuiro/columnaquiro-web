@@ -1,5 +1,5 @@
 <template>
-  <div :style="cssVars" class="paragraph-with-image flex flex-col lg:flex-row gap-10">
+  <div :style="cssVars" class="paragraph-with-image flex flex-col md:flex-row gap-10">
     <div
       class="lg:col-span-2"
       :class="{
@@ -14,7 +14,7 @@
     <div>
       <slot name="image">
         <div class="paragraph-with-image__image">
-          <img :src="image" class="w-full mx-auto lg:mx-0 mt-8 lg:mt-0" :alt="imageAlt">
+          <img :src="image" class="w-full mx-auto md:mx-0 md:mt-0" :alt="imageAlt">
         </div>
       </slot>
     </div>
