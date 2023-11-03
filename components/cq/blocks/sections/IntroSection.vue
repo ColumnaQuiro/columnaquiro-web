@@ -1,12 +1,15 @@
 <template>
-  <cq-layout-section class="intro-section">
-    <h1 class="section-title text-white">
-      {{ title }}
-    </h1>
-    <div v-if="description" class="text-base text-white">
-      {{ description }}
-    </div>
-  </cq-layout-section>
+  <div>
+    <cq-layout-section class="intro-section">
+      <h1 class="relative section-title text-white z-10">
+        {{ title }}
+      </h1>
+      <div v-if="description" class="relative text-base text-white z-10">
+        {{ description }}
+      </div>
+    </cq-layout-section>
+    <div class="intro-section__overlay" />
+  </div>
 </template>
 <script setup lang="ts">
 const props = defineProps({
@@ -30,6 +33,10 @@ const backgroundImageCss = `url("${props.backgroundImageUrl}")`
 <style lang="scss" scoped>
 .intro-section {
   background: v-bind(backgroundImageCss);
-  @apply h-[500px] bg-no-repeat bg-cover flex flex-col justify-center;
+  @apply h-[500px] bg-no-repeat bg-cover flex flex-col justify-center bg-center;
+
+  &__overlay {
+    @apply h-[500px] w-screen absolute top-[64px] right-0 bottom-0 left-0 bg-black opacity-30;
+  }
 }
 </style>

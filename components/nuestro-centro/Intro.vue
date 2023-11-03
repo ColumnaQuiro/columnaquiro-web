@@ -2,11 +2,12 @@
   <cq-blocks-sections-intro-section
     :title="t('nuestroCentro.title')"
     :description="t('nuestroCentro.description')"
-    background-image-url="https://dummyimage.com/80/8d5b4c/ffffff"
+    :background-image-url="`${STATICS_CDN}website/nuestro-centro/local-outside-landscape.webp`"
   />
 </template>
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n'
+import { STATICS_CDN } from '~/constants/urls'
 
 const { t } = useI18n()
 </script>

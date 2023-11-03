@@ -31,7 +31,7 @@ interface Props {
   shape?: 'shape-white-1' | 'shape-secondary-left' | 'shape-tertiary-right' | 'shape-secondary-light-left' | 'shape-tertiary-light-right'
   shapeWidth?: number
   shapePosition?: 'top-left' | 'top-right' | 'center-left' | 'center-right' | 'bottom-left' | 'bottom-right',
-  removeInnerSpace: boolean
+  removeInnerSpace?: boolean
 }
 
 const props = withDefaults(defineProps<Props>(), {

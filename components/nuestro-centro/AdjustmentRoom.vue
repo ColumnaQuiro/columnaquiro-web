@@ -4,7 +4,7 @@
       {{ t('nuestroCentro.salaDeAjuste.title') }}
     </h2>
     <cq-blocks-sections-paragraph-with-image
-      image="https://dummyimage.com/80/8d5b4c/ffffff"
+      :image="`${STATICS_CDN}website/nuestro-centro/local-adjustment-room.webp`"
       :image-width="400"
       :text="t('nuestroCentro.salaDeAjuste.description')"
       :image-alt="t('nuestroCentro.salaDeAjuste.title')"
@@ -13,6 +13,7 @@
 </template>
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n'
+import { STATICS_CDN } from '~/constants/urls'
 
 const { t } = useI18n()
 </script>
