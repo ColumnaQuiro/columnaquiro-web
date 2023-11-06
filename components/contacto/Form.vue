@@ -42,7 +42,7 @@ interface ContactForm {
 interface Field {
   key: string
   label: string
-  type?: string
+  type: string
 }
 
 const { t, tm, rt } = useI18n()
@@ -59,7 +59,8 @@ const formData = reactive<ContactForm>({
 const submitForm = async (validate) => {
   const { valid } = await validate
   if (valid) {
-    const text = Object.keys(formData).reduce((accum: string, current: string) => `${current}: ${formData[current]}
+    const formDataKeys = Object.keys(formData) as Array<keyof ContactForm>
+    const text = formDataKeys.reduce((accum, current) => `${current}: ${formData[current]}
     ${accum}`, '')
     await useSendSlackMessage({ channel: CONTACT_FORM_CHANNEL, text })
   }

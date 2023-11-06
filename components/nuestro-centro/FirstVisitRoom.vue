@@ -5,10 +5,11 @@
     </h2>
     <cq-blocks-sections-paragraph-with-image
       :image="`${STATICS_CDN}website/nuestro-centro/local-first-visit-room.webp`"
-      :image-width="400"
+      :image-width="350"
       :text="t('nuestroCentro.salaDePrimeraVisita.description')"
       image-position="left"
       :image-alt="t('nuestroCentro.salaDePrimeraVisita.title')"
+      text-narrow
     />
   </cq-layout-section>
 </template>

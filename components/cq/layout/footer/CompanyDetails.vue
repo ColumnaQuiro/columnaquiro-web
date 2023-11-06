@@ -1,12 +1,12 @@
 <template>
   <div class="text-center md:text-start">
     <img :src="`${STATICS_CDN}logo/logo-color.webp`" :width="100" alt="ColumnaQuiro" class="md:mx-0 mx-auto" loading="lazy">
-    <div class="text-lg pt-4">
+    <div class="text-lg py-4">
       {{ t('general.layout.footer.details.title') }}
     </div>
-    <div class="text-base pb-2">
+    <a class="text-base" :href="GOOGLE_MAPS_LOCAL_DIRECTION" target="_blank">
       {{ t('general.layout.footer.details.street') }}
-    </div>
+    </a>
     <div>
       <nuxt-link :href="`mailto:${t('general.layout.footer.details.email')}`" class="text-base pb-2 text-brand-black no-underline">
         {{ t('general.layout.footer.details.email') }}
@@ -26,7 +26,7 @@
 </template>
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n'
-import { INSTAGRAM_URL, STATICS_CDN } from '~/constants/urls'
+import { GOOGLE_MAPS_LOCAL_DIRECTION, INSTAGRAM_URL, STATICS_CDN } from '~/constants/urls'
 
 const { t } = useI18n()
 

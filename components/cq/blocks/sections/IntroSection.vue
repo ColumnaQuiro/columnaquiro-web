@@ -33,10 +33,10 @@ const backgroundImageCss = `url("${props.backgroundImageUrl}")`
 <style lang="scss" scoped>
 .intro-section {
   background: v-bind(backgroundImageCss);
-  @apply h-[500px] bg-no-repeat bg-cover flex flex-col justify-center bg-center;
+  @apply h-[400px] md:h-[500px] bg-no-repeat bg-cover flex flex-col justify-center bg-center;
 
   &__overlay {
-    @apply h-[500px] w-screen absolute top-[64px] right-0 bottom-0 left-0 bg-black opacity-30;
+    @apply h-[400px] md:h-[500px] w-screen absolute top-14 lg:top-16 right-0 bottom-0 left-0 bg-black opacity-30;
   }
 }
 </style>
