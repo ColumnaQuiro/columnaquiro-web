@@ -1,14 +1,20 @@
 <template>
-  <div :style="cssVars" class="paragraph-with-image flex flex-col md:flex-row gap-10">
+  <div :style="cssVars" class="paragraph-with-image flex flex-col md:flex-row md:justify-center gap-10">
     <div
-      class="lg:col-span-2"
       :class="{
         'order-0': isImagePositionRight,
         'order-1': isImagePositionLeft
       }"
     >
       <slot name="text">
-        <div class="text-base" v-html="text" />
+        <div
+          class="text-base"
+          :class="{
+            'w-full': !textNarrow,
+            'md:max-w-[400px]': textNarrow
+          }"
+          v-html="text"
+        />
       </slot>
     </div>
     <div>
@@ -45,6 +51,10 @@ const props = defineProps({
   imageAlt: {
     type: String,
     default: ''
+  },
+  textNarrow: {
+    type: Boolean,
+    default: false
   }
 })
 
@@ -62,7 +72,7 @@ const isImagePositionRight = props.imagePosition === 'right'
 
   &__image {
     @apply w-full;
-    @apply lg:w-[var(--width)];
+    @apply md:w-[var(--width)];
   }
 }
 </style>
