@@ -53,6 +53,31 @@
         }
       ]
     },
+    "timetable": {
+      "title": "Nuestros horarios",
+      "items": [
+        {
+          "day": "Lunes",
+          "schedule": "15:00-20:00"
+        },
+        {
+          "day": "Martes",
+          "schedule": "10:00-14:00"
+        },
+        {
+          "day": "Miércoles",
+          "schedule": "15:00-20:00"
+        },
+        {
+          "day": "Jueves",
+          "schedule": "10:00-14:00"
+        },
+        {
+          "day": "Viernes",
+          "schedule": "10:00-14:00"
+        }
+      ]
+    },
     "orderAppointment": {
       "title": "¿Quieres empezar a sentirte mejor con ColumnaQuiro?",
       "subtitle": "Más vale prevenir que curar. Cuanto antes te cuides más potencial de vida podrás descubrir.<br>¡Estás a un paso de empezar a sentirte mejor!",
@@ -210,32 +235,7 @@
             "text": "Política de Cookies",
             "to": "/politica-de-cookies"
           }
-        ],
-        "timetable": {
-          "title": "Nuestros horarios",
-          "items": [
-            {
-              "day": "Lunes",
-              "schedule": "14:30-20:00"
-            },
-            {
-              "day": "Martes",
-              "schedule": "10:00-14:00"
-            },
-            {
-              "day": "Miércoles",
-              "schedule": "14:30-20:00"
-            },
-            {
-              "day": "Jueves",
-              "schedule": "10:00-14:00"
-            },
-            {
-              "day": "Viernes",
-              "schedule": "10:00-14:00"
-            }
-          ]
-        }
+        ]
       }
     }
   },
@@ -545,16 +545,19 @@
     }
   },
   "reservaVisita": {
+    "seo": {
+      "title": "Reserva tu visita Centro Quiropráctico Valencia",
+      "description": "Reserva una cita en el Centro Quiropráctico de Valencia. Nuestro equipo de profesionales altamente capacitados brinda atención personalizada y efectiva."
+    },
     "header": {
-      "title": "Reserva tu visita en ColumnaQuiro",
-      "subtitle": "¡Hola! A continuación puedes reservar tu próxima visita en ColumnaQuiro. Ya sea primera visita o paciente frecuente.",
-      "steps": {
-        "title": "¿Cómo hacer la reserva en 3 sencillos pasos?",
-        "items": [
-          "Llamándonos al +34 645967420.",
-          "Enviándonos un Whatsapp.",
-          "A través de nuestra cuenta <a href='https://www.instagram.com/columnaquiro/'>Instagram.</a>"
-        ]
+      "title": "Reserva cita en nuestro centro quiropráctico",
+      "subtitle": "Reserva tu próxima visita, ya sea tu primera experiencia o si eres un paciente frecuente. Nuestros profesionales quiroprácticos te esperan para brindarte la atención que mereces.",
+      "contact": {
+        "tel": "Llamanos al teléfono <a href=\"tel:+34744735363\" class=\"font-medium\">+34 744 735 363</a>",
+        "whatsapp": "o contactanos por Whatsapp"
+      },
+      "schedule": {
+
       }
     },
     "booking": {

@@ -31,7 +31,7 @@
 
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n'
-import { Link } from '~/types/Link'
+import type { Link } from '~/types/Link'
 
 interface Props {
   text: string

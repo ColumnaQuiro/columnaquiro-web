@@ -5,8 +5,7 @@
         <cq-layout-footer-company-details class="md:pb-0 pb-4" />
         <cq-layout-footer-timetable />
       </div>
-      <v-divider color="#ffffff" class="my-4" />
-      <cq-layout-footer-copyright />
+      <cq-layout-footer-copyright class="mt-8" />
     </div>
   </footer>
 </template>

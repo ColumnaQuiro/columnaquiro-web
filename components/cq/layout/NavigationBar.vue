@@ -50,9 +50,9 @@
 </template>
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n'
-import { Ref } from 'vue'
+import type { Ref } from 'vue'
 import { STATICS_CDN } from '~/constants/urls'
-import { Link } from '~/types/Link'
+import type { Link } from '~/types/Link'
 
 const { t, rt, tm } = useI18n()
 const links: Link[] = tm('general.layout.navigationBar.links')

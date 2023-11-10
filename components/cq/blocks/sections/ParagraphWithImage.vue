@@ -27,7 +27,6 @@
   </div>
 </template>
 <script setup lang="ts">
-import { PropType } from 'vue'
 
 type ImagePosition = 'left' | 'right'
 

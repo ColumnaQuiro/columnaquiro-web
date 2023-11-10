@@ -1,4 +1,5 @@
 import { defineVuetifyConfiguration } from 'vuetify-nuxt-module/custom-configuration'
+
 const myCustomLightTheme = {
   dark: false,
   colors: {
@@ -28,7 +29,6 @@ export default defineVuetifyConfiguration({
       elevation: 0
     }
   },
-  directives: false,
   theme: {
     defaultTheme: 'myCustomLightTheme',
     themes: {

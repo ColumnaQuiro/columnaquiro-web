@@ -12,6 +12,7 @@
             <img :src="`${STATICS_CDN}icons/icon__google.webp`" width="20" alt="google">
           </div>
           <div class="flex flex-col justify-center h-full">
+            <NuxtImg :src="`${STATICS_CDN}icons/icon__five-stars.webp`" width="100" class="pb-4 mx-auto" />
             <div class="text-base pb-2">
               {{ rt(item.description) }}
             </div>
@@ -68,4 +69,11 @@ const carouselBreakpoints = {
   padding: 10px;
 }
 
+.carousel__next {
+  right: -30px;
+}
+
+.carousel__prev {
+  left: -30px;
+}
 </style>

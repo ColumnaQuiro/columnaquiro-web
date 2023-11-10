@@ -1,36 +1,35 @@
 <template>
   <cq-layout-section>
-    <h1 class="section-title">
-      {{ t('reservaVisita.header.title') }}
-    </h1>
-    <div class="text-lg pt-4 text-center text-md-start">
-      {{ t('reservaVisita.header.subtitle') }}
-    </div>
-    <div>
-      <div class="pt-12">
-        <h2 class="text-lg font-medium text-center text-md-start">
-          {{ t('reservaVisita.header.steps.title') }}
-        </h2>
-        <div class="grid grid-cols-3">
-          <div class="col-span-2">
-            <ol class="pt-3 list-decimal">
-              <li v-for="step in steps" :key="step" class="text-base" v-html="rt(step)" />
-            </ol>
-          </div>
-        </div>
+    <div class="text-center">
+      <div class="pb-8" @click="onTelClicked" v-html="t('reservaVisita.header.contact.tel')" />
+      <div class="pb-4">
+        {{ t('reservaVisita.header.contact.whatsapp') }}
       </div>
+      <div class="flex justify-center">
+        <a href="https://api.whatsapp.com/send?phone=34744735363" target="_blank" @click="onWhatsappClicked">
+          <img :src="`${STATICS_CDN}icons/icon__whatsapp.webp`" width="60" alt="whatsapp">
+        </a>
+      </div>
+      <cq-layout-footer-timetable class="mt-8"/>
     </div>
   </cq-layout-section>
 </template>
 
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n'
+import { STATICS_CDN } from '~/constants/urls'
 
-const { t, tm, rt } = useI18n()
+const { t } = useI18n()
 
-const steps = tm('reservaVisita.header.steps.items')
+const onTelClicked = () => {
+  useTrackEvent('contact', {
+    method: 'Telephone'
+  })
+}
+
+const onWhatsappClicked = () => {
+  useTrackEvent('contact', {
+    method: 'Whatsapp'
+  })
+}
 </script>
-
-<style scoped>
-
-</style>
