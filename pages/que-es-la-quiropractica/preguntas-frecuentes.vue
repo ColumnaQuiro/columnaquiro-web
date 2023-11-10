@@ -12,11 +12,9 @@
           v-for="faq in section.faqs"
           :key="faq.title"
           :title="rt(faq.title)"
+          :answer="rt(faq.body)"
           class="mb-3"
         >
-          <template #answer>
-            <div v-html="rt(faq.body)" />
-          </template>
         </cq-components-expansion-panel>
       </div>
     </div>

@@ -32,7 +32,7 @@
         >
           <div class="text-base mt-4">
             <slot name="answer">
-              {{ answer }}
+              <div v-html="answer" />
             </slot>
           </div>
         </div>

@@ -17,15 +17,22 @@ export default defineNuxtConfig({
         { rel: 'preconnect', href: 'https://statics.columnaquiro.com' }
       ],
       script: [
-        { type: 'text/javascript', id: 'hs-script-loader', async: true, defer: true, src: '//js-eu1.hs-scripts.com/143268808.js' }
+        {
+          type: 'text/javascript',
+          id: 'hs-script-loader',
+          async: true,
+          defer: true,
+          src: '//js-eu1.hs-scripts.com/143268808.js'
+        }
       ]
     }
   },
   modules: [
     'nuxt-gtag',
-    'vuetify-nuxt-module',
     '@nuxt/content',
-    'nuxt-simple-sitemap'
+    'nuxt-simple-sitemap',
+    'vuetify-nuxt-module',
+    '@nuxt/image'
   ],
   sitemap: {
     exclude: [
@@ -50,10 +57,6 @@ export default defineNuxtConfig({
         'vue-i18n': 'vue-i18n/dist/vue-i18n.runtime.esm-bundler.js'
       }
     },
-    gtag: {
-      id: 'G-7RZ1YECNKZ',
-      initialConsent: false
-    },
     plugins: [
       VueI18nVitePlugin({
         strictMessage: false,
@@ -66,8 +69,17 @@ export default defineNuxtConfig({
   vuetify: {
     moduleOptions: {
       importComposables: false,
-      styles: { configFile: '/assets/scss/settings.scss' }
+      styles: { configFile: '/assets/scss/settings.scss' },
+      ssrClientHints: {
+        viewportSize: true,
+        prefersColorSchemeOptions: {},
+        reloadOnFirstRequest: true
+      }
     }
+  },
+  gtag: {
+    id: 'G-7RZ1YECNKZ',
+    initialConsent: false
   },
   postcss: {
     plugins: {
