@@ -8,7 +8,7 @@ import { STATICS_CDN } from '~/constants/urls'
 
 const onWhatsappClicked = () => {
   useTrackEvent('contact', {
-    method: 'Whatsapp'
+    method: 'Whatsapp-widget'
   })
 }
 </script>
