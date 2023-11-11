@@ -3,7 +3,7 @@
     <div class="w-full">
       <div class="container flex flex-wrap items-center">
         <nuxt-link to="/">
-          <img :src="`${STATICS_CDN}logo/logo-color.webp`" :width="90" alt="ColumnaQuiro">
+          <NuxtImg :src="`${STATICS_CDN}logo/logo-color.webp`" :width="90" alt="ColumnaQuiro" />
         </nuxt-link>
         <div class="flex-grow" />
         <nav class="hidden lg:flex h-fit">

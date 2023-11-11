@@ -1,4 +1,4 @@
-import { RouteLocationPathRaw } from 'vue-router'
+import type { RouteLocationPathRaw } from 'vue-router'
 
 export default function ({ path, query, hash }: RouteLocationPathRaw) {
   if (path === '/' || !path.endsWith('/')) {

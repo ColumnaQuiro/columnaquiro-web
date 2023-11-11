@@ -36,9 +36,16 @@
 import { useI18n } from 'vue-i18n'
 import { useDisplay } from 'vuetify'
 
+interface Item {
+  title: string
+  color: string
+  description: string
+  icon: string
+}
+
 const { mdAndUp } = useDisplay()
 const { tm, rt, t } = useI18n()
-const items = tm('comoFunciona.steps.items')
+const items: Item[] = tm('comoFunciona.steps.items')
 </script>
 <style lang="scss">
 .how-it-works {

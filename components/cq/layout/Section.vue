@@ -1,6 +1,6 @@
 <template>
   <div class="section relative">
-    <img
+    <NuxtImg
       v-if="shape"
       class="absolute opacity-80"
       :class="{
@@ -13,7 +13,7 @@
       :src="`${STATICS_CDN}website/shapes/${shape}.webp`"
       :width="shapeWidth"
       alt="shape"
-    >
+    />
     <div
       class="container relative"
       :class="{

@@ -25,8 +25,19 @@
 import { useI18n } from 'vue-i18n'
 import { useSetSEOTags } from '~/composables/seo'
 
+interface FAQ {
+  title: string
+  body: string
+}
+
+interface Section {
+  title: string
+  body: string
+  faqs: FAQ[]
+}
+
 const { t, tm, rt } = useI18n()
-const sections = tm('faqs.sections')
+const sections: Section[] = tm('faqs.sections')
 
 useSetSEOTags(t('faqs.seo.title'), t('faqs.seo.description'))
 </script>

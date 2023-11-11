@@ -1,6 +1,6 @@
 interface PublicRuntimeConfig {
 }
 
-export {
+export type {
   PublicRuntimeConfig
 }

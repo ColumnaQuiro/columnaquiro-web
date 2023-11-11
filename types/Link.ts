@@ -1,5 +1,5 @@
 export interface Link {
   text: string
-  to?: string
+  to: string
   subMenu?: Link[]
 }

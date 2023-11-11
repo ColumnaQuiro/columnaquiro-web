@@ -7,10 +7,10 @@
       </div>
       <div class="flex justify-center">
         <a href="https://api.whatsapp.com/send?phone=34744735363" target="_blank" @click="onWhatsappClicked">
-          <img :src="`${STATICS_CDN}icons/icon__whatsapp.webp`" width="60" alt="whatsapp">
+          <NuxtImg :src="`${STATICS_CDN}icons/icon__whatsapp.webp`" width="60" alt="whatsapp" />
         </a>
       </div>
-      <cq-layout-footer-timetable class="mt-8"/>
+      <cq-layout-footer-timetable class="mt-8" />
     </div>
   </cq-layout-section>
 </template>

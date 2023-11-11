@@ -14,7 +14,7 @@
       >
         <v-card-title class="!flex justify-center py-3">
           <v-avatar size="large">
-            <img :src="`${STATICS_CDN}website/home/${rt(item.key)}.webp`" width="100%" class="mx-auto">
+            <NuxtImg :src="`${STATICS_CDN}website/home/${rt(item.key)}.webp`" width="100%" class="mx-auto" />
           </v-avatar>
         </v-card-title>
         <v-card-text class="pa-4 !pt-4">
@@ -33,6 +33,13 @@
 import { useI18n } from 'vue-i18n'
 import { keyToTypeOfPerson } from '~/constants/typeOfPersonMapping'
 import { STATICS_CDN } from '~/constants/urls'
+
+interface Item {
+  key: string
+  title: string
+  description: string
+}
+
 const { tm, rt } = useI18n()
-const items = tm('general.toWho.items')
+const items: Item[] = tm('general.toWho.items')
 </script>
