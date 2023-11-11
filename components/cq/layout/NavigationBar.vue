@@ -40,7 +40,7 @@
             :sub-menu="link.subMenu"
             @click="toggleBurgerMenu"
           />
-          <cq-components-button :to="t('general.layout.navigationBar.appointmentButton.to')" block variant="elevated">
+          <cq-components-button :to="t('general.layout.navigationBar.appointmentButton.to')" block variant="elevated" color="tertiary" @click="toggleBurgerMenu">
             {{ t('general.layout.navigationBar.appointmentButton.text') }}
           </cq-components-button>
         </nav>

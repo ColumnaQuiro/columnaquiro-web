@@ -15,15 +15,6 @@ export default defineNuxtConfig({
       link: [
         { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
         { rel: 'preconnect', href: 'https://statics.columnaquiro.com' }
-      ],
-      script: [
-        {
-          type: 'text/javascript',
-          id: 'hs-script-loader',
-          async: true,
-          defer: true,
-          src: '//js-eu1.hs-scripts.com/143268808.js'
-        }
       ]
     }
   },

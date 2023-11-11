@@ -4,7 +4,7 @@
       {{ t('general.timetable.title') }}
     </div>
     <div class="flex flex-row justify-center align-bottom text-start flex-wrap">
-      <div v-for="timetable in timetableItems" :key="rt(timetable.day)" class="mr-4">
+      <div v-for="timetable in timetableItems" :key="rt(timetable.day)" class="mr-4 mb-4">
         <div class="text-base font-medium">
           {{ rt(timetable.day) }}
         </div>

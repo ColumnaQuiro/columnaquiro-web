@@ -1,5 +1,5 @@
 <template>
-  <cq-layout-section>
+  <cq-layout-section shape="shape-secondary-light-left" :shape-width="80" shape-position="bottom-left">
     <div class="text-center">
       <div class="pb-8" @click="onTelClicked" v-html="t('reservaVisita.header.contact.tel')" />
       <div class="pb-4">

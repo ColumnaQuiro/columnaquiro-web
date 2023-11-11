@@ -17,7 +17,7 @@
     <div
       class="container relative"
       :class="{
-        'lg:py-16 md:py-10 py-4': !removeInnerSpace
+        'lg:py-16 md:py-10 py-8': !removeInnerSpace
       }"
     >
       <slot />
