@@ -70,7 +70,7 @@ export default defineNuxtConfig({
   },
   gtag: {
     id: 'G-7RZ1YECNKZ',
-    initialConsent: false
+    initialConsent: true
   },
   postcss: {
     plugins: {
