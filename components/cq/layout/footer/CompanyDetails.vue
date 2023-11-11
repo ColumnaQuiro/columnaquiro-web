@@ -1,6 +1,6 @@
 <template>
   <div class="text-center md:text-start">
-    <img :src="`${STATICS_CDN}logo/logo-color.webp`" :width="100" alt="ColumnaQuiro" class="md:mx-0 mx-auto" loading="lazy">
+    <NuxtImg :src="`${STATICS_CDN}logo/logo-color.webp`" :width="100" alt="ColumnaQuiro" class="md:mx-0 mx-auto" loading="lazy" />
     <div class="text-lg py-4">
       {{ t('general.layout.footer.details.title') }}
     </div>

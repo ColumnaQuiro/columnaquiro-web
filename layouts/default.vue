@@ -22,6 +22,7 @@
           </template>
         </vue-cookie-comply>
       </client-only>
+      <cq-components-whatsapp-widget />
     </Html>
   </div>
 </template>

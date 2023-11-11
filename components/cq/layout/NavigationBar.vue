@@ -3,7 +3,7 @@
     <div class="w-full">
       <div class="container flex flex-wrap items-center">
         <nuxt-link to="/">
-          <img :src="`${STATICS_CDN}logo/logo-color.webp`" :width="90" alt="ColumnaQuiro">
+          <NuxtImg :src="`${STATICS_CDN}logo/logo-color.webp`" :width="90" alt="ColumnaQuiro" />
         </nuxt-link>
         <div class="flex-grow" />
         <nav class="hidden lg:flex h-fit">
@@ -40,7 +40,7 @@
             :sub-menu="link.subMenu"
             @click="toggleBurgerMenu"
           />
-          <cq-components-button :to="t('general.layout.navigationBar.appointmentButton.to')" block variant="elevated">
+          <cq-components-button :to="t('general.layout.navigationBar.appointmentButton.to')" block variant="elevated" color="tertiary" @click="toggleBurgerMenu">
             {{ t('general.layout.navigationBar.appointmentButton.text') }}
           </cq-components-button>
         </nav>

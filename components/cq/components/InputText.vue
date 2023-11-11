@@ -13,7 +13,7 @@
   />
 </template>
 <script setup lang="ts">
-import { FunctionalComponent } from 'vue'
+import type { FunctionalComponent } from 'vue'
 import { REQUIRED_RULE } from '~/constants/form-rules'
 
 interface Props {

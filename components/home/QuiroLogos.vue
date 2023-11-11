@@ -1,7 +1,7 @@
 <template>
   <cq-layout-section class="quiro-logos">
     <div class="flex flex-wrap gap-7 justify-center md:justify-start">
-      <img
+      <NuxtImg
         v-for="logo in logos"
         :key="rt(logo.id)"
         class="quiro-logos__logo"
@@ -9,7 +9,7 @@
         :width="200"
         :alt="rt(logo.alt)"
         loading="lazy"
-      >
+      />
     </div>
   </cq-layout-section>
 </template>
@@ -18,8 +18,13 @@
 import { useI18n } from 'vue-i18n'
 import { STATICS_CDN } from '~/constants/urls'
 
+interface Logo {
+  id: string
+  alt: string
+}
+
 const { tm, rt } = useI18n()
-const logos = tm('home.quiroLogos.logos')
+const logos: Logo[] = tm('home.quiroLogos.logos')
 </script>
 
 <style lang="scss" scoped>

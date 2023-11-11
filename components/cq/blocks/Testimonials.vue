@@ -9,10 +9,10 @@
           class="p-3 h-full rounded-xl bg-white"
         >
           <div class="flex flex-row justify-end">
-            <img :src="`${STATICS_CDN}icons/icon__google.webp`" width="20" alt="google">
+            <NuxtImg :src="`${STATICS_CDN}icons/icon__google.webp`" width="20" alt="google" />
           </div>
           <div class="flex flex-col justify-center h-full">
-            <NuxtImg :src="`${STATICS_CDN}icons/icon__five-stars.webp`" width="100" class="pb-4 mx-auto" />
+            <NuxtImg :src="`${STATICS_CDN}icons/icon__five-stars.webp`" width="100" class="pb-4 mx-auto" alt="five stars" />
             <div class="text-base pb-2">
               {{ rt(item.description) }}
             </div>
@@ -35,8 +35,15 @@ import 'vue3-carousel/dist/carousel.css'
 import { Carousel, Slide, Pagination, Navigation } from 'vue3-carousel'
 import { STATICS_CDN } from '~/constants/urls'
 
+interface Testimonial {
+  author: string
+  description: string
+}
+
 const { t, tm, rt } = useI18n()
-const items = tm('general.testimonials.items')
+
+const items: Testimonial[] = tm('general.testimonials.items')
+
 const carouselSettings = {
   itemsToShow: 1,
   wrapAround: true,

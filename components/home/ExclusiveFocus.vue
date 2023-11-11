@@ -9,13 +9,13 @@
         v-for="specification in specifications"
         :key="rt(specification.id)"
       >
-        <img
+        <NuxtImg
           class="quiro-logos__logo mx-auto mb-4"
           :src="`${STATICS_CDN}icons/icon__${rt(specification.id)}.webp`"
           :width="120"
           :alt="rt(specification.id)"
           loading="lazy"
-        >
+        />
         <div class="text-xl mb-2 font-medium">
           {{ rt(specification.title) }}
         </div>

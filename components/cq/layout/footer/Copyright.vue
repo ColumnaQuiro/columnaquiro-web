@@ -19,8 +19,9 @@
 </template>
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n'
+import type { Link } from '~/types/Link'
 
 const { tm, rt, t } = useI18n()
 
-const links = tm('general.footer.links')
+const links: Link[] = tm('general.footer.links')
 </script>
