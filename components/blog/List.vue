@@ -21,7 +21,6 @@
                 </p>
               </client-only>
             </div>
-            </nuxtimg>
           </header>
         </div>
       </NuxtLink>
