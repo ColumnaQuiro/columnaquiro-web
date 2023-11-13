@@ -11,8 +11,11 @@ import { useSEO } from '~/composables/seo'
 
 const route = useRoute()
 const { t } = useI18n()
+const useSeo = useSEO()
+
 const personType: string | undefined = typeOfPersonToKey.get(route.params.type as string)
 const personTitle = t(`personTitle.${personType}`)
 
-useSEO().setSeoTags(t('paraQuienSirveLaQuiropractica.types.seo.title', { personTitle }), t(`paraQuienSirveLaQuiropractica.types.seo.description.${personType}`))
+useSeo.setLocalBusinessSchemaOrgTag()
+useSeo.setSeoTags(t('paraQuienSirveLaQuiropractica.types.seo.title', { personTitle }), t(`paraQuienSirveLaQuiropractica.types.seo.description.${personType}`))
 </script>
