@@ -14,8 +14,7 @@
           :title="rt(faq.title)"
           :answer="rt(faq.body)"
           class="mb-3"
-        >
-        </cq-components-expansion-panel>
+        />
       </div>
     </div>
   </cq-layout-section>
@@ -23,7 +22,7 @@
 
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n'
-import { useSetSEOTags } from '~/composables/seo'
+import { useSEO } from '~/composables/seo'
 
 interface FAQ {
   title: string
@@ -39,5 +38,5 @@ interface Section {
 const { t, tm, rt } = useI18n()
 const sections: Section[] = tm('faqs.sections')
 
-useSetSEOTags(t('faqs.seo.title'), t('faqs.seo.description'))
+useSEO().setSeoTags(t('faqs.seo.title'), t('faqs.seo.description'))
 </script>

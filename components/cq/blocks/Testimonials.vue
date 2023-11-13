@@ -77,10 +77,12 @@ const carouselBreakpoints = {
 }
 
 .carousel__next {
-  right: -30px;
+  @apply right-[-25px];
+  @apply md:right-[-30px];
 }
 
 .carousel__prev {
-  left: -30px;
+  @apply left-[-25px];
+  @apply md:left-[-30px];
 }
 </style>

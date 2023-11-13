@@ -1,5 +1,6 @@
 <template>
   <div>
+    <home-header-video />
     <home-mission />
     <home-interferences-schema />
     <lazy-home-exclusive-focus />
@@ -9,9 +10,9 @@
 </template>
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n'
-import { useSetSEOTags } from '~/composables/seo'
+import { useSEO } from '~/composables/seo'
 
 const { t } = useI18n()
 
-useSetSEOTags(t('home.seo.title'), t('home.seo.description'))
+useSEO().setSeoTags(t('home.seo.title'), t('home.seo.description'))
 </script>

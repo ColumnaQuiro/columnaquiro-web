@@ -12,10 +12,10 @@
 </template>
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n'
-import { useSetSEOTags } from '~/composables/seo'
+import { useSEO } from '~/composables/seo'
 import { STATICS_CDN } from '~/constants/urls'
 
 const { t } = useI18n()
 
-useSetSEOTags(t('reservaVisita.seo.title'), t('reservaVisita.seo.description'))
+useSEO().setSeoTags(t('reservaVisita.seo.title'), t('reservaVisita.seo.description'))
 </script>

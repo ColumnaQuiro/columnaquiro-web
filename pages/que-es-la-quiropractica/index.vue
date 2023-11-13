@@ -9,9 +9,9 @@
 
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n'
-import { useSetSEOTags } from '~/composables/seo'
+import { useSEO } from '~/composables/seo'
 
 const { t } = useI18n()
 
-useSetSEOTags(t('queEsLaQuiropractica.seo.title'), t('queEsLaQuiropractica.seo.description'))
+useSEO().setSeoTags(t('queEsLaQuiropractica.seo.title'), t('queEsLaQuiropractica.seo.description'))
 </script>
