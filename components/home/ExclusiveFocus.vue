@@ -1,5 +1,5 @@
 <template>
-  <cq-layout-section>
+  <cq-layout-section shape="shape-secondary-light-left" :shape-width="100" shape-position="top-left">
     <h2 class="section-title pb-4">
       {{ t('home.exclusiveFocus.title') }}
     </h2>
