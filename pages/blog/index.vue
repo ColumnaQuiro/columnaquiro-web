@@ -35,6 +35,8 @@ const { data } = await useAsyncData('content-/blog', async () => {
 })
 
 const { t } = useI18n()
+const useSeo = useSEO()
 
-useSetSEOTags(t('blog.seo.title'), t('blog.seo.description'))
+useSeo.setLocalBusinessSchemaOrgTag()
+useSeo.setSeoTags(t('blog.seo.title'), t('blog.seo.description'))
 </script>

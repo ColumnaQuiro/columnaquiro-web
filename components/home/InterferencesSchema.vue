@@ -1,5 +1,5 @@
 <template>
-  <cq-layout-section shape="shape-secondary-light-left" shape-position="center-left" :shape-width="160">
+  <cq-layout-section>
     <cq-blocks-sections-paragraph-with-image :text="t('home.interferencesSchema.description')" :image="`${STATICS_CDN}website/home/interferences-schema.webp`" :image-width="500" image-position="left" />
   </cq-layout-section>
 </template>

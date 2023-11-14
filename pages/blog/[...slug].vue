@@ -8,7 +8,6 @@
   </cq-layout-section>
 </template>
 <script setup>
-useSetSEOTags()
 </script>
 <style lang="scss">
 .article {

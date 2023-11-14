@@ -1,5 +1,6 @@
 <template>
   <cq-layout-section
+    id="mission"
     class="bg-brand-light-quaternary lg:pt-16 md:pt-10 pt-4"
     shape="shape-tertiary-light-right"
     :shape-width="200"

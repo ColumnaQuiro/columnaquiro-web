@@ -2,7 +2,7 @@
   <header class="navigation-bar">
     <div class="w-full">
       <div class="container flex flex-wrap items-center">
-        <nuxt-link to="/">
+        <nuxt-link to="/" @click="toggleBurgerMenu">
           <NuxtImg :src="`${STATICS_CDN}logo/logo-color.webp`" :width="90" alt="ColumnaQuiro" />
         </nuxt-link>
         <div class="flex-grow" />
@@ -64,7 +64,7 @@ const toggleBurgerMenu = () => { showBurgerMenu.value = !showBurgerMenu.value }
 </script>
 <style lang="scss">
 .navigation-bar {
-  @apply fixed z-10 bg-white w-full h-14;
+  @apply fixed z-20 bg-white w-full h-14;
   @apply md:h-16 flex md:flex-col md:justify-center;
   box-shadow: 0 -5px 13px 0 rgba(71,71,71,0.47) !important;
 }

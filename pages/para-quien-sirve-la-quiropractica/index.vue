@@ -13,9 +13,11 @@
 
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n'
-import { useSetSEOTags } from '~/composables/seo'
+import { useSEO } from '~/composables/seo'
 
 const { t } = useI18n()
+const useSeo = useSEO()
 
-useSetSEOTags(t('paraQuienSirveLaQuiropractica.seo.title'), t('paraQuienSirveLaQuiropractica.seo.description'))
+useSeo.setLocalBusinessSchemaOrgTag()
+useSeo.setSeoTags(t('paraQuienSirveLaQuiropractica.seo.title'), t('paraQuienSirveLaQuiropractica.seo.description'))
 </script>
