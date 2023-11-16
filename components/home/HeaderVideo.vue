@@ -1,10 +1,10 @@
 <template>
   <div class="header-video w-screen h-screen">
     <div class="header-video__overlay">
-      <div class="text-4xl lg:text-6xl text-white pb-8">
+      <div class="header-video__title">
         Bienvenid@ a Columnaquiro
       </div>
-      <div class="text-2xl lg:text-3xl text-white">
+      <div class="header-video__subtitle">
         ¡Estas a un paso de mejorar tu salud!
       </div>
     </div>
@@ -39,6 +39,16 @@ useHead({
 
   &__video {
     @apply object-cover w-screen h-screen;
+  }
+
+  &__title {
+    @apply text-4xl text-white pb-8 text-center;
+    @apply lg:text-6xl lg:text-start;
+  }
+
+  &__subtitle {
+    @apply text-2xl text-white text-center;
+    @apply lg:text-3xl lg:text-start;
   }
 
   &__arrow-down {

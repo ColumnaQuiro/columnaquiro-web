@@ -1,9 +1,9 @@
 <template>
   <div class="text-center">
     <cq-layout-section>
-      <h3 class="text-4xl">
+      <h2 class="section-title">
         {{ t('general.orderAppointment.title') }}
-      </h3>
+      </h2>
       <div class="text-lg pt-4 pb-6" v-html="t('general.orderAppointment.subtitle')" />
       <cq-components-button size="x-large" color="tertiary" to="/reserva-cita-centro-quiropractico-valencia">
         {{ t('general.orderAppointment.button') }}
