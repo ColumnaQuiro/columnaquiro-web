@@ -4,6 +4,7 @@
     <lazy-que-es-la-quiropractica-nervous-system />
     <lazy-que-es-la-quiropractica-interferences />
     <lazy-home-science class="bg-brand-tertiary" />
+    <cq-blocks-order-appointment-section />
   </div>
 </template>
 

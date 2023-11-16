@@ -1,8 +1,8 @@
 <template>
   <cq-layout-section class="bg-brand-light-tertiary">
-    <div class="section-title">
+    <h2 class="section-title">
       {{ t('general.testimonials.title') }}
-    </div>
+    </h2>
     <carousel :settings="carouselSettings" :breakpoints="carouselBreakpoints">
       <slide v-for="item in items" :key="rt(item.author)">
         <div

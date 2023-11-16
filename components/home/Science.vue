@@ -1,5 +1,5 @@
 <template>
-  <cq-layout-section>
+  <cq-layout-section class="science">
     <h2 class="section-title">
       {{ t('home.science.title') }}
     </h2>
@@ -20,7 +20,7 @@
             role="progressbar"
             aria-label="progress"
             rounded
-            class="!w-96"
+            class="science__progress-bar"
           >
             <div class="text-white pt-1 md:pt-0">
               {{ rt(bar.percentage) }}%
@@ -46,3 +46,10 @@ interface Bar {
 const { t, tm, rt } = useI18n()
 const bars: Bar[] = tm('home.science.graph.bars')
 </script>
+<style lang="scss" scoped>
+.science {
+  &__progress-bar {
+    @apply md:w-96 w-full;
+  }
+}
+</style>

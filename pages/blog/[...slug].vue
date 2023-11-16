@@ -15,7 +15,7 @@
     @apply mt-4;
   }
   img {
-    @apply max-w-[500px];
+    @apply md:max-w-[500px];
   }
 }
 </style>
