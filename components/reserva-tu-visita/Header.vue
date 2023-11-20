@@ -1,9 +1,9 @@
 <template>
   <cq-layout-section shape="shape-secondary-light-left" :shape-width="80" shape-position="bottom-left">
     <div class="text-center">
-      <div class="pb-8" @click="onTelClicked" v-html="t('reservaVisita.header.contact.tel')" />
+      <div class="pb-8" @click="onTelClicked" v-html="t('bookVisit.header.contact.tel')" />
       <div class="pb-4">
-        {{ t('reservaVisita.header.contact.whatsapp') }}
+        {{ t('bookVisit.header.contact.whatsapp') }}
       </div>
       <div class="flex justify-center">
         <a :href="WHATSAPP_URL" target="_blank" @click="onWhatsappClicked">

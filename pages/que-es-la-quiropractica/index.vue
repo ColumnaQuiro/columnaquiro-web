@@ -16,5 +16,5 @@ const { t } = useI18n()
 const useSeo = useSEO()
 
 useSeo.setLocalBusinessSchemaOrgTag()
-useSeo.setSeoTags(t('queEsLaQuiropractica.seo.title'), t('queEsLaQuiropractica.seo.description'))
+useSeo.setSeoTags(t('whatIsChiropractic.seo.title'), t('whatIsChiropractic.seo.description'))
 </script>

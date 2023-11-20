@@ -2,7 +2,7 @@
   <header class="navigation-bar">
     <div class="w-full">
       <div class="container flex flex-wrap items-center h-14 md:h-16">
-        <nuxt-link to="/" @click="toggleBurgerMenu">
+        <nuxt-link to="/" @click="closeBurgerMenu">
           <NuxtImg :src="`${STATICS_CDN}logo/logo-color.webp`" :width="90" alt="ColumnaQuiro" />
         </nuxt-link>
         <div class="flex-grow" />
@@ -19,7 +19,9 @@
             variant="flat"
             color="tertiary"
           >
-            {{ t('general.layout.navigationBar.appointmentButton.text') }}
+            <v-icon class="mr-2">
+              mdi-calendar
+            </v-icon>{{ t('general.layout.navigationBar.appointmentButton.text') }}
           </cq-components-button>
         </nav>
         <div class="lg:hidden">
@@ -28,7 +30,9 @@
             variant="flat"
             color="tertiary"
           >
-            {{ t('general.layout.navigationBar.appointmentButton.text') }}
+            <v-icon class="mr-2">
+              mdi-calendar
+            </v-icon> {{ t('general.layout.navigationBar.appointmentButton.text') }}
           </cq-components-button>
           <cq-components-button
             icon
@@ -79,6 +83,10 @@ const showBurgerMenu: Ref<boolean> = ref(false)
 
 const toggleBurgerMenu = () => {
   showBurgerMenu.value = !showBurgerMenu.value
+}
+
+const closeBurgerMenu = () => {
+  showBurgerMenu.value = false
 }
 </script>
 <style lang="scss">

@@ -1,0 +1,689 @@
+{
+  "general": {
+    "testimonials": {
+      "title": "Your Testimonials Help Us Keep Improving",
+      "items": [
+        {
+          "author": "Miriam",
+          "description": "Honestly, it has changed my life and my daily living. As soon as I heard about this type of treatment, I wanted to try it, and I truly don't regret it at all. The follow-up that Dr. Lea provides is fantastic. Few people care about the progress after the treatment. A thousand thanks; you are the best."
+        },
+        {
+          "author": "Miguel",
+          "description": "I recommend Lea's wise, firm, and gentle hands. Or how to improve your life and health in a few weeks."
+        },
+        {
+          "author": "Florencio",
+          "description": "Lea is a great professional. Pain and dizziness were disappearing with each session. Thank you!"
+        },
+        {
+          "author": "Jose Maria",
+          "description": "What can I say, I arrived with my lumbar spine destroyed, almost unable to move, and full of pills given to me by the CAP. Lea knows very well what she is doing; she left me as good as new. Highly recommended."
+        },
+        {
+          "author": "Nazareth",
+          "description": "I am very happy with the results. Dr. Lea is very friendly, advises you, and the results are very good. Since I started going to the center, I am much better, and my quality of life has improved a lot. I recommend it 100%."
+        },
+        {
+          "author": "Laura",
+          "description": "I've been here for a few months, and it has helped me a lot with pain and tension in different parts of the body. I also notice a significant correction in my body posture, and the treatment has positively affected my health and well-being. The atmosphere in the office is very relaxing and pleasant."
+        },
+        {
+          "author": "Elisabeth",
+          "description": "I started treatment with Dr. Lea a few months ago, and I am very happy. Back pains have almost disappeared; I sleep better, and I have gained in the quality of life. I recommend Dr. Lea 100%."
+        },
+        {
+          "author": "Karen",
+          "description": "I am very happy with the service of Columnaquiro and with Dr. Lea. They are a great team that makes you feel at home when you enter. The treatment proposed by Dr. Lea is helping me a lot with my cervical and back problem. And what can I say about her; she is very kind and always very professional. I am very grateful. I recommend this center and its professionals without a doubt."
+        },
+        {
+          "author": "Rosario",
+          "description": "Very happy with the treatment I received from Dr. Lea Guido. I arrived almost by chance, and I am delighted! Not only has cervical pain disappeared, but it has also helped me a lot emotionally. I totally recommend her."
+        },
+        {
+          "author": "Almudena",
+          "description": "Lea is a super professional! You can feel the experience, and in a few sessions, I have noticed a lot of improvement overall. Highly recommended."
+        },
+        {
+          "author": "Javier",
+          "description": "For those of you who suffer from back problems, at the end of each session, and from the first one, all the vertebrae are in place, and the unpleasant radicular pains disappear. Chiropractic Lea has magical hands."
+        },
+        {
+          "author": "Cristian",
+          "description": "A transformative experience with Dr. Lea, excellent human treatment. I recommend it to all people with symptoms or without symptoms; it is worth taking care of our body - we inhabit it."
+        }
+      ]
+    },
+    "timetable": {
+      "title": "Our Opening Hours",
+      "items": [
+        {
+          "day": "Monday",
+          "schedule": "3:00 PM - 8:00 PM"
+        },
+        {
+          "day": "Tuesday",
+          "schedule": "10:00 AM - 2:00 PM"
+        },
+        {
+          "day": "Wednesday",
+          "schedule": "3:00 PM - 8:00 PM"
+        },
+        {
+          "day": "Thursday",
+          "schedule": "10:00 AM - 2:00 PM"
+        },
+        {
+          "day": "Friday",
+          "schedule": "10:00 AM - 2:00 PM"
+        }
+      ]
+    },
+    "orderAppointment": {
+      "title": "Do You Want to Start Feeling Better with ColumnaQuiro?",
+      "subtitle": "It's better to prevent than to cure. The sooner you take care of yourself, the more potential for life you can discover. You are one step away from starting to feel better!",
+      "button": "Book an Appointment"
+    },
+    "toWho": {
+      "items": [
+        {
+          "key": "workers",
+          "title": "Workers",
+          "description": "Increase the activity of your prefrontal cortex and improve your short or long-term work performance, reducing stress and absenteeism for health reasons.",
+          "to": "/en/who-is-chiropractic-for/workers"
+        },
+        {
+          "key": "kids",
+          "title": "Children",
+          "description": "A child's development includes different sensory and motor stages, and a healthy nervous system is vital for overcoming and improving coordination and senses.",
+          "to": "/en/who-is-chiropractic-for/kids"
+        },
+        {
+          "key": "pregnant",
+          "title": "Pregnant Women",
+          "description": "Prepare your body for the changes of pregnancy and improve your postpartum recovery, optimizing the function of the nervous system and health in this new stage of life.",
+          "to": "/en/who-is-chiropractic-for/pregnant-women"
+        },
+        {
+          "key": "sport",
+          "title": "Athletes",
+          "description": "Optimize your physical performance and post-training recovery.",
+          "to": "/en/who-is-chiropractic-for/athletes"
+        },
+        {
+          "key": "elder",
+          "title": "Elderly",
+          "description": "Take care of your body to enjoy life to the fullest and improve your mobility, balance, and lifestyle in a holistic and vitalistic way.",
+          "to": "/en/who-is-chiropractic-for/elder-people"
+        },
+        {
+          "key": "disabled",
+          "title": "Motor or Intellectual Disabilities",
+          "description": "Improve mobility, balance, bodily sensation, and overall functioning to strengthen your development and independence.",
+          "to": "/en/who-is-chiropractic-for/disabled-people"
+        }
+      ]
+    },
+    "cookiesConsent": {
+      "description": "This website uses its own and third-party cookies to maintain the session, offer you a better user experience, and obtain statistical navigation data from users. For more information, see the <a class='text-black' href='/cookies-policy'>Cookies Policy.</a>",
+      "actions": {
+        "accept": "Accept Cookies",
+        "configure": "Customize Cookies"
+      },
+      "preferences": {
+        "title": "Cookie Management",
+        "description": "This website uses its own and third-party cookies to maintain the session, offer you a better user experience, and obtain statistical navigation data from users. For more information, see the Cookie Policy.",
+        "save": "Accept Selection",
+        "default": {
+          "title": "Cookies for Website Functionality",
+          "description": "These cookies are essential for the proper functioning of the website; without these cookies, the website may not function correctly."
+        },
+        "googleAnalytics": {
+          "title": "Google Analytics Cookies",
+          "description": "Used to generate a unique user identifier, used to count how many times a user visits the site, as well as the date of the first and last time they visited the website. They record the date and time of access to any of the pages on the portal. They check the need to keep the user's session open or create a new one. They identify the user's session to collect the approximate geographic location of the computer accessing the portal."
+        }
+      }
+    },
+    "layout": {
+      "navigationBar": {
+        "links": [
+          {
+            "text": "For You",
+            "subMenu": [
+              {
+                "text": "What is Chiropractic?",
+                "to": "/en/what-is-chiropractic"
+              },
+              {
+                "text": "How Does It Work?",
+                "to": "/en/how-does-it-work"
+              },
+              {
+                "text": "FAQs",
+                "to": "/en/what-is-chiropractic/faqs"
+              }
+            ]
+          },
+          {
+            "text": "For Everyone",
+            "to": "/en/who-is-chiropractic-for"
+          },
+          {
+            "text": "About Us",
+            "subMenu": [
+              {
+                "text": "Our Team",
+                "to": "/en/about-us/our-team"
+              },
+              {
+                "text": "Our Center",
+                "to": "/en/about-us/chiropractic-valencia"
+              },
+              {
+                "text": "Contact",
+                "to": "/en/about-us/contact"
+              }
+            ]
+          },
+          {
+            "text": "Blog",
+            "to": "/en/blog"
+          }
+        ],
+        "mobileLinks": [
+          {
+            "text": "What is Chiropractic?",
+            "to": "/en/what-is-chiropractic"
+          },
+          {
+            "text": "How Does It Work?",
+            "to": "/en/how-does-it-work"
+          },
+          {
+            "text": "Our Center",
+            "to": "/en/about-us/chiropractic-valencia"
+          },
+          {
+            "text": "Contact",
+            "to": "/en/about-us/contact"
+          },
+          {
+            "text": "FAQs",
+            "to": "/en/what-is-chiropractic/faqs"
+          },
+          {
+            "text": "Blog",
+            "to": "/en/blog"
+          }
+        ],
+        "appointmentButton": {
+          "text": "Book Appointment",
+          "to": "/en/book-appointment-chiropractic-valencia"
+        }
+      },
+      "footer": {
+        "details": {
+          "title": "Your Chiropractic Center in Ruzafa",
+          "street": "Calle dels Vivons 29, bajo izquierda, Valencia",
+          "email": "hola{'@'}columnaquiro.com",
+          "phone": "+34 744735363"
+        },
+        "copyright": "© 2023 ColumnaQuiro",
+        "links": [
+          {
+            "text": "Privacy Policy",
+            "to": "/en/privacy-policy"
+          },
+          {
+            "text": "Legal Notice",
+            "to": "/en/legal-notice"
+          },
+          {
+            "text": "Cookies Policy",
+            "to": "/en/cookies-policy"
+          }
+        ]
+      }
+    }
+  },
+  "home": {
+    "seo": {
+      "title": "Chiropractic Center in València - ColumnaQuiro",
+      "description": "Chiropractic center in the center of València. Discover at ColumnaQuiro center what chiropractic is and its benefits. Chiropractic is for you."
+    },
+    "headerVideo": {
+      "title": "Welcome to Columnaquiro",
+      "subtitle": "You are one step away from improving your health!"
+    },
+    "mission": {
+      "title": "Chiropractic Center Valencia",
+      "description": "Welcome to <span class='font-medium'>ColumnaQuiro</span>, your chiropractic center in Valencia, with a holistic vision of your health!<br><br><span class='font-medium'>Do you have back pain or any specific discomfort? Do you suffer from muscle aches, tension, or anxiety?</span><br><br> The origin of most problems in our life and body comes from the dysfunction of the autonomic nervous system. It controls, coordinates, and regulates all the information necessary for the optimal functioning of our body. The brain sends and receives all the information through the spinal cord and nerves to each cell, tissue, organ, and muscle in our body.<br><br> Chiropractic is an excellent way to improve health and your symptoms naturally and safely."
+    },
+    "exclusiveFocus": {
+      "title": "Our Exclusive Focus: Your Comprehensive Health at ColumnaQuiro",
+      "intro": "Our commitment is to monitor your progress regularly, allowing us to adapt the care you need at each stage of your life. To do this, we use various advanced tools and techniques:",
+      "specifications": [
+        {
+          "id": "back-analysis",
+          "title": "Posture Analysis",
+          "body": "We thoroughly evaluate your posture, identifying possible misalignments that may affect your physical well-being."
+        },
+        {
+          "id": "advanced-app",
+          "title": "Advanced Application",
+          "body": "We use an innovative application to assess the speed of connection between your brain and the rest of your body."
+        },
+        {
+          "id": "walking-pattern",
+          "title": "Balance and Coordination",
+          "body": "We study how you move and how your reflexes respond to gain a complete view of your nervous system."
+        },
+        {
+          "id": "health-questionnaire",
+          "title": "Health Questionnaire",
+          "body": "We complete the picture by knowing your medical history and lifestyle habits, allowing us to further customize your care."
+        }
+      ],
+      "footer": "🎓 Additionally, we not only provide treatment but <span class='font-medium'>accompany you throughout the improvement process with ongoing education about a healthy lifestyle.</span>"
+    },
+    "interferencesSchema": {
+      "description": "It is essential to highlight that the nervous system is the first to develop in vitro during the third gestation and acts as the main conductor of information between different parts of the body. In fact, the development of all other parts of the body depends on a healthy nervous system. <br><br>Our goal is to <span class='font-medium'>optimize and rebalance the function of the nervous system to improve your health, reduce your ailments, and enhance your quality of life and sense of well-being.</span><br><br>Regardless of your age, the spine is the root of our health and requires attention throughout life. Therefore, people of all ages come to our chiropractic center in Ruzafa in search of better health.<br><br><span class='font-medium'>"
+    },
+    "toWho": {
+      "title": "Chiropractic is for You",
+      "description": "Chiropractic is for all ages, from children to the elderly, and through all stages of life. Here, we love to attend to all family members."
+    },
+    "science": {
+      "title": "Chiropractic under Science",
+      "body": "A study of 2,818 patients who received chiropractic treatment in the United States and worldwide showed that chiropractic care is associated with a profound and statistically significant improvement in areas of well-being. Patients report changes in: physical well-being, decreased perceived stress levels, enjoyment of life, lifestyle changes, emotional well-being, psychological well-being, and quality of life.<br><br>Blanks, RH; Boone, WR; Schmidt, S; Dobson, M; Network Care: A retrospective outcomes assessment. 1996 Dobson, M; Boone WR; Blanks, RH; Women and Alternative Health Care: A retrospective study of recipients of Network Care. 1996",
+      "graph": {
+        "title": "Chiropractic adjustments have been shown to improve:",
+        "bars": [
+          {
+            "percentage": "65",
+            "time": "in 1-3 months (recovery)"
+          },
+          {
+            "percentage": "74",
+            "time": "in 3-12 months (recovery)"
+          },
+          {
+            "percentage": "84",
+            "time": "in 13-36 months (improvement)"
+          },
+          {
+            "percentage": "95",
+            "time": "in +36 months (optimization)"
+          }
+        ]
+      }
+    },
+    "quiroLogos": {
+      "logos": [
+        {
+          "id": "world-federation-chiro",
+          "alt": "World Federation of Chiropractic"
+        },
+        {
+          "id": "ecce",
+          "alt": "European Council of Chiropractic Education"
+        },
+        {
+          "id": "aec",
+          "alt": "Spanish Association of Chiropractic"
+        },
+        {
+          "id": "bcc",
+          "alt": "Barcelona College of Chiropractic"
+        },
+        {
+          "id": "icpa",
+          "alt": "International Council Pediatric Association"
+        }
+      ]
+    }
+  },
+  "whatIsChiropractic": {
+    "seo": {
+      "title": "What is Chiropractic? - ColumnaQuiro",
+      "description": "Improve with chiropractic: focused on enhancing the functionality of the nervous system. Chiropractic adjustments for stress, pain, and other symptoms."
+    },
+    "intro": {
+      "title": "Chiropractic and the Nervous System",
+      "description": "Chiropractic is a health profession that focuses on improving the functionality of the nervous system and the body as a whole through a comprehensive and holistic approach.<br><br>The nervous system is the first system to develop in the body, coordinating every organ, muscle, gland, and cell so that each can function in perfect synchrony.<br><br>The brain constantly receives information from the external and internal world, and thanks to the functioning of the nervous system, it can adequately respond to the needs of the moment, sending information back to the body. This process involves constant optimal adaptation of the body, commonly called health.<br><br>This connection between the brain and the rest of the body is crucial for regulating stress, pain, and other symptoms that may appear in other systems.<br><br>The Central Nervous System (CNS), composed of the brain and the spinal cord, is the only organ in the body that is completely protected by a layer of bone: the skull protects the brain, and the spine protects the spinal cord. We can imagine the spinal cord as a highway that transports all the information from the body to the brain and vice versa, being an essential element for the proper functioning of the nervous system."
+    },
+    "interferences": {
+      "title": "Why Do I Have Nervous Interferences in My Body?",
+      "subtitle": "Our body constantly adapts to various types of stress every day to keep us in an optimal state.",
+      "items": [
+        {
+          "icon": "sad",
+          "title": "Physical Stress",
+          "body": "Due to accidents, impacts, heavy falls, lifting weight incorrectly, maintaining bad postures for extended periods, childbirth, or practicing elite sports."
+        },
+        {
+          "icon": "emotional-stress",
+          "title": "Emotional Stress",
+          "body": "Caused by human relationships, chronic nervousness, economic concerns, family exhaustion, employment, the relationship with a partner, difficulty managing children, and relationships with friends."
+        },
+        {
+          "icon": "quimical",
+          "title": "Chemical Stress",
+          "body": "In our lifestyle, we often lack time and frequently resort to quick solutions, exposing us to a large number of toxins. For example, in fast food, environmental pollution, beauty products, or cleaning products."
+        }
+      ]
+    },
+    "nervousSystem": {
+      "title": "How Does Chiropractic Work with the Nervous System?",
+      "body": "Chiropractors are trained professionals to analyze, detect, and correct nervous interferences through specific, safe, and non-invasive manual adjustments. These interferences can affect communication between the brain and the body, hindering its proper functioning.<br><br>One of the main objectives of chiropractic is to maintain good communication between the central nervous system (brain and spine) and the rest of the body.<br><br>Chiropractic adjustments are mainly performed on the spine and consist of high-velocity, low-amplitude impulses that stimulate nerve receptors in the body.<br><br>As certified professionals, we ensure that each adjustment is specific, painless, and safe for the patient."
+    }
+  },
+  "chiropracticForWhom": {
+    "seo": {
+      "title": "Chiropractic for Everyone? - Comprehensive Approach - ColumnaQuiro",
+      "description": "Discover if chiropractic is right for you. Our approach improves the health of athletes, active individuals, and those seeking relief from chronic pain."
+    },
+    "title": "For Everyone",
+    "description": "At Columna Quiro, our goal is to help families live a full and healthy life. We are confident that when the body is well connected, both you and your family will be better prepared to face any challenges life presents, from daily stress to achieving optimal health.<br><br>Our safe and effective chiropractic adjustments focus on improving the health and well-being of the entire family. From infants to seniors, we offer personalized solutions tailored to the individual needs of each patient.<br><br>At Columna Quiro, we are dedicated to providing the best chiropractic care to help families enjoy a more active, happy, and healthy life. Join us on this journey to health and well-being!",
+    "types": {
+      "seo": {
+        "title": "Chiropractic is for You - {personTitle} - ColumnaQuiro",
+        "description": {
+          "disabled": "Chiropractic improves mobility, balance, and coordination in people with disabilities. It also enhances development in neurobehavioral disorders.",
+          "kids": "Prevent dysfunction in your baby's nervous system: how an optimal nervous system improves sensory and motor development, coordination, and senses.",
+          "elder": "Improve mobility, balance, and quality of life in old age with Chiropractic: enjoy a healthy and active lifestyle thanks to its approach.",
+          "pregnant": "Optimize your health during and after pregnancy with chiropractic care. Prepare your body for the physical, chemical, and emotional changes of pregnancy.",
+          "workers": "Improve work performance with Chiropractic: adjustments positively affect decision-making, cognition... reducing absences due to health issues.",
+          "sport": "Enhance athletic performance with chiropractic care. Adjustments increase strength, reaction time, mobility, balance, and post-training recovery."
+        }
+      },
+      "personTitle": {
+        "disabled": "People with Disabilities",
+        "kids": "Babies / Children",
+        "elder": "Seniors",
+        "pregnant": "Pregnant Women",
+        "workers": "Workers",
+        "sport": "Athletes"
+      },
+      "intro": {
+        "title": {
+          "disabled": "Motor or Intellectual Disabilities",
+          "kids": "Babies / Children",
+          "elder": "Seniors",
+          "pregnant": "Pregnant Women",
+          "workers": "Workers",
+          "sport": "Athletes"
+        },
+        "description": {
+          "disabled": "People with motor or intellectual disabilities often have limited access to therapies. Chiropractic, by working holistically on the entire body, can improve body awareness, mobility, functionality, balance, and coordination. Numerous studies on chiropractic and the brain have shown its potential to produce changes in brain plasticity. In particular, chiropractic adjustments can balance different areas of the brain and improve development in people with neurobehavioral disorders.",
+          "kids": "During birth, the baby experiences stress, from descent in the birth canal to emergence into the unknown external world. During this process, the baby may get stuck in a position or encounter obstacles that hinder their exit. This can be reflected in the baby's unusual head shape at birth or a preferred side for breastfeeding. These efforts can cause dysfunction in their nervous system.<br><br>From birth to development, the baby must go through different stages in a specific order. These stages are synonymous with good sensory and motor development: motor development will allow them to have proper musculature and body coordination, while sensory development will allow them to develop all their senses (vision, smell, touch, etc.).<br><br>A 100% functioning nervous system will help the baby overcome these stages, improving their coordination, balance, and all their senses.",
+          "elder": "In our society, although common, it is not normal for old age to be associated with weakness, slowness, illness, and dependence. It is important to note that with age, our body undergoes changes, such as the loss of quality in bones, collagen, and muscle fibers, and our quality of life may be affected. However, this stage is as important as any other, and it is essential to take care of our body to fully enjoy life. Chiropractic can help improve your mobility, balance, and lifestyle in a holistic and vitalistic way, promoting an active and healthy lifestyle.",
+          "pregnant": "<h2 class='text-lg'>Before and During Pregnancy</h2>It is important to prepare the body for the changes that will occur during pregnancy:<ul class='list-disc'><li>Physical changes: alteration of the center of gravity affects posture and muscle tension.</li><li>Chemical changes: hormonal changes increase the laxity of ligaments and joints.</li><li>Emotional changes: becoming a mother is a significant step that can generate stress and questions for the expectant mother.</li></ul><br>These changes can interfere with the nervous system, which controls all other systems of the body, including muscles, ligaments, and joints, such as the muscles and ligaments of the pelvic floor, the sacroiliac joint, and the coccyx. Chiropractic can help align the pelvis and spine so that the baby has enough space, and the mother can experience a more effective pregnancy. Therefore, we understand that the health of a pregnant woman is very important for her and the baby.<br><br>We are certified in the Webster technique, a chiropractic technique that focuses on the analysis and alignment of the pelvis and its muscles and ligaments to optimize the pelvic function of the mother during pregnancy and childbirth, reducing the need for medications or surgical interventions during childbirth.<br><br><h2 class='text-lg'>After Childbirth</h2>Childbirth is a physically stressful event (hours of contractions, baby's delivery), chemical (hormonal changes with increased milk), and emotional (arrival of the baby, being a mother, postpartum). Chiropractic can help improve postpartum recovery, allowing the body to function better so you can fully enjoy this new chapter in your life.",
+          "workers": "Chiropractic and its impact on the brain have been the subject of numerous studies, demonstrating the ability of adjustments to influence brain plasticity. Specifically, chiropractic adjustments increase activity in the prefrontal cortex.<br><br>The prefrontal cortex is involved in four key aspects: decision-making, cognition (information processing), social behavior, and personality expression. These aspects, improved by chiropractic adjustments, contribute to better work performance, including: greater efficiency, faster reaction time, optimal social performance, and reduced stress level.<br><br>In the long term, chiropractic in the workplace brings a series of benefits in absences due to health reasons, such as depression, back pain, and headaches. It also improves employee retention by allowing workers to better manage stress and other symptoms, leading to overall better work performance.",
+          "sport": "When it comes to regular or elite athletes, we often think of possible injuries or symptoms related to their activities, but not their athletic performance. Chiropractic has been used by many professional athletes and is recognized as a complementary form of healthcare for athletes. For example, Usain Bolt has been adjusted before his competitions.<br><br>Despite being little known in the sports world, chiropractic has been the subject of many studies that have shown that regular adjustments can improve:<ul class='list-disc'><li>Strength</li><li>Reaction time</li><li>Mobility</li><li>Balance</li><li>Post-training recovery</li></ul><br>These parameters are crucial for enhancing athletic abilities."
+        }
+      }
+    }
+  },
+  "faqs": {
+    "seo": {
+      "title": "Improve Your Health with Our Services - ColumnaQuiro",
+      "description": "Answers to your questions about our chiropractic center: services, comprehensive approach, and how to improve your health. Discover it in our frequently asked questions."
+    },
+    "sections": [
+      {
+        "title": "Chiropractic",
+        "body": "Frequently asked questions about chiropractic and its practice",
+        "faqs": [
+          {
+            "title": "Requirements and training process to become a chiropractor",
+            "body": "To become a chiropractor, obtaining a university degree in Chiropractic and a Doctorate in Chiropractic is required, after completing a 5 to 7-year study program. Both degrees are recognized by the European Council on Chiropractic Education (ECCE). The career's beginning is similar to medicine, as disciplines like anatomy, radiology, epidemiology, nutrition, and pathophysiology are studied, with a specific focus on each population type, including babies, pregnant women, seniors, and athletes. Throughout the career, knowledge in chiropractic techniques is also acquired. The last two years are dedicated to practical experience, where students become interns in the school clinic under faculty supervision, attending patients of different ages and profiles to gain comprehensive experience before graduation."
+          },
+          {
+            "title": "Importance of preventive chiropractic care for maintaining health",
+            "body": "Health cannot be defined solely as the absence of pain or symptoms. Adopting a preventive approach involves making proactive decisions that allow us to limit disease and optimize our health before symptoms appear. Preventive chiropractic care plays a fundamental role in addressing imbalances and dysfunctions in the body before they manifest as pain or evident symptoms. By maintaining a healthy nervous system and proper spinal alignment, we can promote optimal body function, prevent future problems, and improve overall quality of life."
+          },
+          {
+            "title": "What is chiropractic, and why should I consider chiropractic maintenance?",
+            "body": "Chiropractic is a health profession that focuses on promoting the proper functioning of the nervous system and the body as a whole. Its goal is not just to relieve symptoms but to achieve a healthy body free of nerve interference. Chiropractic maintenance is recommended to preserve and improve current health, prevent relapses, and address stress factors that may affect the nervous system and the body in general. Regular chiropractic treatments aim to maintain proper spinal alignment and strengthen the body to prevent future complications."
+          },
+          {
+            "title": "Recognition of chiropractic and its development in Spain",
+            "body": "Chiropractic is recognized by the World Health Organization (WHO) as a global health profession, ranking third after conventional medicine and dentistry. While chiropractic has its origins in the United States, it has developed widely in advanced countries like Australia and Europe. In Spain, chiropractic is experiencing gradual growth with the support of the Spanish Chiropractic Association (AEQ). It is essential to ensure that the chiropractor you visit is a member of the AEQ, the only entity guaranteeing chiropractic diplomas and regulating the profession in Spain. The growing presence and endorsement of the AEQ provide more confidence to those seeking chiropractic services in Spain, and as chiropractic consolidates in the country, more people are expected to benefit from its holistic approaches to health and well-being."
+          },
+          {
+            "title": "Types of stress affecting our body and how we adapt to them",
+            "body": "Our body constantly faces different types of stress to keep us in an optimal state. There are three main types of stress: physical, chemical, and emotional. Chiropractic can play a significant role in helping the body adapt to and recover from stress by improving the function of the nervous system. Recognizing these different types of stress and understanding how our body adapts to them is crucial. Chiropractic can contribute to the body's adaptation and recovery from stress by enhancing the function of the nervous system, promoting balance, and overall health."
+          },
+          {
+            "title": "What is your training and experience as a chiropractor?",
+            "body": "I graduated from the Barcelona College of Chiropractic in 2021 after completing a 6-year program. I began my first two years of study at IFEC in France and then decided to move to Spain. During my training, I also had the opportunity to work as a technique teacher and clinic supervisor at the Barcelona College of Chiropractic. After obtaining my diploma, I worked in a chiropractic practice in Barcelona, applying my knowledge and skills in chiropractic care. I have attended numerous seminars and chiropractic courses during and after my studies, allowing me to expand my knowledge and incorporate various techniques for personalized patient care. Some of the adjustment techniques I use include SOT (Sacro Occipital Technique), Applied Kinesiology, Gonstead, Total Body Modification, Toggle Recoil-Hole in One Technique, and Webster Technique. Each of these techniques has its characteristics and approaches, and I adapt them based on the individual needs of each patient. My goal is to provide comprehensive and effective chiropractic care to help restore balance and promote health and well-being in each person I treat. If you have specific questions about the techniques I use or are interested in learning more, feel free to ask."
+          }
+        ]
+      },
+      {
+        "title": "Chiropractic Adjustments",
+        "body": "Frequently asked questions about chiropractic adjustments",
+        "faqs": [
+          {
+            "title": "How long will it take to see results and improvements in my health?",
+            "body": "The perception of changes can vary from person to person, as each body has its own capacity for expression and recovery. As chiropractors, our goal is to establish a care plan tailored to the individual needs of each patient, including analyzing different tests during the first visit. Some symptoms or conditions may improve after a few sessions, while more chronic conditions may require more time. It's important to collaborate in your own health by following the recommended care plan for excellent and lasting results. We will also conduct regular reviews to monitor your progress and adjust the care plan as needed to ensure you feel your best and experience health improvements. Remember that each case is unique, and results may vary. Our commitment is to provide you with the best care and work together to help you achieve your health goals. If you have any questions or concerns about your progress during chiropractic treatment, feel free to contact our team. We are here to support you on your journey to better health."
+          },
+          {
+            "title": "Is it safe to visit the chiropractor during pregnancy and for children?",
+            "body": "Yes, it is safe to visit the chiropractor during pregnancy and for children. In our center, we have specialized training and courses in pediatrics to attend to children, as well as certification in the Webster Technique for pregnant women. Each adjustment technique we apply is extremely gentle and adapted to the spinal column of people of different ages, including children. We also consider the changes that occur in the body during pregnancy, ensuring a safe approach tailored to the needs of pregnant women. Many parents choose to bring their children to the chiropractor to correct any back or cranial dysfunction and improve overall health. Identifying and addressing these dysfunctions at an early age can contribute to the proper development of the child in later stages of life. In the case of pregnancy, chiropractic care can provide many benefits in preparing for childbirth and the proper development of pregnancy, helping to maintain good health and reduce dysfunction in the mother. If you have more questions or want more information about chiropractic care during pregnancy or for children, feel free to consult with our chiropractic team. We are here to provide the right care and support during these special stages of life."
+          },
+          {
+            "title": "What reactions might I experience after receiving chiropractic treatment?",
+            "body": "After receiving chiropractic treatment, you may experience different reactions in your body. These reactions are normal and part of the healing and adjustment process of the nervous system. Some possible responses you could experience include a sense of relief, internal changes, and temporary fatigue or discomfort. Each person may have a different experience after chiropractic treatment, as each body reacts uniquely. If you have specific concerns or questions about the reactions you are experiencing, we recommend consulting with your chiropractor, who can provide additional guidance and support. Remember that these changes and reactions are part of your recovery process, and your chiropractor is there to help you at each stage of the journey toward better health and well-being."
+          },
+          {
+            "title": "Are chiropractic adjustments painful?",
+            "body": "No, chiropractic adjustments are not painful. In fact, most people experience a sense of relaxation and reduced tension after chiropractic adjustments. The adjustments focus on the spine and are performed using quick, low-amplitude impulses that stimulate the body's nerve receptors. These adjustments are designed to restore the proper balance and alignment of the spine, relieving pressure and nerve interference. During the adjustment, you may hear a sound similar to a crack. This sound is due to the release of gases in the joints, a result of pressure changes during the adjustment. It's essential to note that this sound is not indicative of pain or joint damage. Each person may experience the sensations of chiropractic adjustments differently. Open communication with your chiropractor is crucial, and expressing any concerns or sensitivities you may have is encouraged. Chiropractic is a safe and effective practice for improving health and nervous system function without causing unnecessary pain. If you have additional questions or want to know more about chiropractic adjustments, feel free to consult with your chiropractor."
+          },
+          {
+            "title": "What causes the 'crack' sound during chiropractic adjustments?",
+            "body": "The 'crack' sound during chiropractic adjustments is not the result of bones breaking. Instead, this sound is due to the phenomenon of cavitation, which occurs when synovial fluid in the joints is subjected to pressure, causing the vaporization of gases like nitrogen, oxygen, and carbon dioxide. This sudden release of gases is what generates the characteristic sound. It's important to emphasize that the 'crack' sound doesn't necessarily indicate a successful or beneficial adjustment. This sound is simply a natural consequence of synovial fluid cavitation and is not directly related to the proper functioning of the joint. The sound cannot be reproduced immediately, as gases naturally reorganize and dissolve back into the joint fluid as pressure increases. While joint cracking can occur naturally during movements like bending or moving the hands, deliberately cracking joints, like fingers, is not recommended. It can lead to dependence and is not related to the benefits of chiropractic adjustments performed by a trained professional. If you have additional questions or want more information about the 'crack' sound during chiropractic adjustments, we recommend consulting with your chiropractor for a more detailed and personalized explanation."
+          }
+        ]
+      },
+      {
+        "title": "Our Services",
+        "body": "Frequently asked questions about the services we offer at our ColumnaQuiro center in Valencia",
+        "faqs": [
+          {
+            "title": "How long will my first visit and regular adjustments take?",
+            "body": "During your first visit, we will dedicate all the necessary time to collect the information we need and perform examination tests. We will focus on your first visit results to get a precise idea of your case and spinal dysfunctions. This visit usually lasts about 60 minutes. During this time, we will make sure to listen to your concerns, gather your medical history, and perform the necessary assessments to design a personalized care plan. As for regular adjustments, they are performed in a closed room and tailored to the specific needs of your body. Their duration typically ranges between 15 and 20 minutes. Throughout the treatment process, we will conduct reviews by comparing your initial test results with current ones to assess your improvements and adjust your care plan as needed. These reviews allow us to monitor your progress and ensure you are receiving the most suitable care at each stage of your treatment. Our goal is to provide you with quality and personalized care tailored to your individual needs. If you have additional questions about the duration of visits or the process of treatment, feel free to contact our team. We are here to provide you with the best chiropractic care possible."
+          },
+          {
+            "title": "Can I bring my child to the chiropractic consultation?",
+            "body": "Absolutely! In our center, we welcome the whole family. We love to see children, no matter their age, and you can bring your child to our consultation. We want everyone to feel comfortable and welcome. We have designed a waiting room specifically equipped with games for the little ones to have fun while waiting for their turn. We want the experience to be enjoyable for both parents and children. We understand that parents also need to take care of themselves and address their own health and wellness needs. Therefore, we encourage you to schedule an appointment with us to receive the chiropractic care you need. We are here to help you maintain and improve your overall health. If you have additional questions about how we care for children in our consultation or if you want to schedule an appointment for yourself or your family, feel free to contact us. We will be happy to assist you."
+          }
+        ]
+      }
+    ]
+  },
+  "contact": {
+    "seo": {
+      "title": "Contact the Chiropractic Experts - ColumnaQuiro",
+      "description": "Contact our highly trained chiropractors to schedule a personalized appointment and discover how we can help you regain your quality of life."
+    },
+    "title": "Contact ColumnaQuiro",
+    "subtitle": "Chiropractic Center in Valencia",
+    "form": {
+      "title": "Hello, how are you? 👋",
+      "subtitle": "We love to help you resolve any questions you may have and assist you in scheduling your next visit to our chiropractic consultation. Also, we're delighted to hear from you anytime, even if it's just to catch up. We are here to provide you with the best possible care!",
+      "fields": [
+        {
+          "key": "name",
+          "label": "Name and Surname*",
+          "type": "text"
+        },
+        {
+          "key": "email",
+          "label": "Email*",
+          "type": "email"
+        },
+        {
+          "key": "subject",
+          "label": "Subject*",
+          "type": "text"
+        },
+        {
+          "key": "message",
+          "label": "Message*",
+          "type": "text"
+        }
+      ],
+      "cta": "Send"
+    }
+  },
+  "team": {
+    "seo": {
+      "title": "Chiropractic Team - Dedicated to Improving Your Health",
+      "description": "Meet our team of highly trained professionals dedicated to improving your health and well-being. Start your journey to a healthier life today."
+    },
+    "peopleList": {
+      "title": "Meet the Team",
+      "items": [
+        {
+          "name": "Léa Guido",
+          "description": "I was born in the Côte d'Azur, in the south of France, and have always felt a great passion for the human body and its incredible healing power through natural processes. I am a sports enthusiast and have always been very active in my life, so I understand the importance of having a healthy, adaptable body that functions at its maximum potential.<br><br>Since birth, I have had various health problems related to the musculoskeletal system, which prevented me from playing sports and climbing stairs at the age of 13. By chance, I ended up in a manual therapy center in France where I noticed significant improvements in my health and overall well-being.<br><br>That's when I decided to study a profession related to manual therapies, and upon discovering the philosophy of chiropractic, I knew that helping create a healthier, sustainable, and happier humanity through chiropractic care would be my calling.<br><br>After six years of studies between France (two years) and Barcelona (four years), I graduated in 2021 from the Barcelona College of Chiropractic. Since then, I have collaborated in different clinics, learning from the masters of the profession and practicing with different techniques and approaches in Barcelona and the province of Barcelona (Terrassa). I have also been an assistant teacher in different technique classes and a supervisor at the clinic of the Barcelona College of Chiropractic, as I have always enjoyed teaching and helping as many people as possible.<br><br>Since my graduation, I have continued to educate myself to expand my knowledge and skills to offer the best care to my patients. Recently, I have specialized in a holistic approach for pregnant women and children, allowing me to provide more comprehensive and personalized care to these populations.<br><br>For me, ColumnaQuiro goes beyond being a chiropractic center. It is a humanistic project that empowers the population from the inside out, helping each individual understand that health comes from within and its importance.<br><br>I am excited to welcome everyone seeking a natural and effective way to improve their health at ColumnaQuiro, and I look forward to helping them with open arms!",
+          "imagePath": "website/team/lea.webp",
+          "role": "Doctor of Chiropractic"
+        }
+      ]
+    }
+  },
+  "bookVisit": {
+    "seo": {
+      "title": "Book Your Visit at Valencia Chiropractic Center",
+      "description": "Schedule an appointment at the Valencia Chiropractic Center. Our team of highly trained professionals provides personalized and effective care."
+    },
+    "header": {
+      "title": "Schedule an Appointment at Our Chiropractic Center",
+      "subtitle": "Book your next visit, whether it's your first experience or if you're a frequent patient. Our chiropractic professionals are ready to provide you with the care you deserve.",
+      "contact": {
+        "tel": "Call us at <a href=\"tel:+34744735363\" class=\"font-medium\">+34 744 735 363</a>",
+        "whatsapp": "or contact us via WhatsApp"
+      }
+    },
+    "booking": {
+      "title": "Leave us your email!",
+      "subtitle": "We're finishing setting up the clinic. Get the latest updates on our progress and opening day. We'll have a grand opening, don't miss it!<br><br>In the meantime, you can continue reading about us and chiropractic on our website, follow us on social media where we share chiropractic-related content, trivia, tips, and much more!",
+      "form": {
+        "email": {
+          "placeholder": "youremail{'@'}gmail.com",
+          "label": "Enter your email address"
+        },
+        "submit": "Subscribe"
+      }
+    }
+  },
+  "howItWorks": {
+    "seo": {
+      "title": "Chiropractic Services - Comprehensive Approach - ColumnaQuiro",
+      "description": "Discover our chiropractic services focused on improving health and well-being. Start your journey to a healthier life today."
+    },
+    "steps": {
+      "title": "How Many Sessions Do I Have to Do?",
+      "description": "Start at ColumnaQuiro, and we'll guide you through the first steps:",
+      "items": [
+        {
+          "color": "primary",
+          "icon": "mdi-calendar",
+          "title": "Book Your First Appointment",
+          "description": "Great! You can book your first appointment however you prefer:<ul class='list-disc'><li>Call us at +34 645967420.</li><li>Send us a WhatsApp message.</li><li>Through our Instagram account <a href='https://www.instagram.com/columnaquiro/' target='_blank'><span class='font-semibold'>{'@'}columnaquiro</span></a>.</li></ul>"
+        },
+        {
+          "color": "tertiary",
+          "icon": "mdi-magnify",
+          "title": "First Visit",
+          "description": "Here's what we'll do:<ul class='list-disc'><li>Fill out the first visit form on our website.</li><li>Take your health history.</li><li>Perform tests to assess the functioning of your nervous system, including a digital posture analysis, digital neurological and coordination tests, examination of your spine, and gait pattern.</li><li><span class='font-semibold'>First chiropractic adjustment session.</span></li></ul>"
+        },
+        {
+          "color": "quaternary",
+          "icon": "mdi-file-document-check-outline",
+          "title": "Chiropractic Report",
+          "description": "We will provide you with your chiropractic report with the results of the tests from the first visit. Based on these results and your medical history, we will recommend a personalized care plan to achieve your health goals most efficiently."
+        },
+        {
+          "color": "secondary",
+          "icon": "mdi-hand-heart-outline",
+          "title": "Care Plan",
+          "description": "It will be divided into two phases: the intensive and corrective phases, and we will establish a chiropractic adjustment frequency suitable for your needs."
+        },
+        {
+          "color": "whiteBranded",
+          "icon": "mdi-hand-heart-outline",
+          "title": "Reassessment",
+          "description": "After some time, we will conduct a reassessment to measure your improvements and adapt your care plan to your new needs."
+        },
+        {
+          "color": "tertiary",
+          "icon": "mdi-hand-heart-outline",
+          "title": "Maintenance",
+          "description": "Finally, the most important phase focuses on prevention and avoiding relapses, maintaining an overall optimal state of health."
+        }
+      ]
+    },
+    "firstVisit": {
+      "title": "How Does It Work?",
+      "description": "Welcome to ColumnaQuiro! Our goal is to provide you with the best personalized chiropractic care. The first visit is crucial in our clinic to offer you the best chiropractic care possible. <br><br>Before your first visit, we will send you an online questionnaire to understand your current health concerns and goals, allowing us to better grasp your needs before the chiropractic session.<br><br>Now, let us explain what we will do during the first visit; we focus on this stage to monitor and assess your progress throughout chiropractic care:",
+      "steps": [
+        {
+          "text": "Review your health history with you to ensure we have all the necessary information."
+        },
+        {
+          "text": "Neurological testing with our tool to assess the functioning of your nervous system."
+        },
+        {
+          "text": "Evaluation of your gait pattern, balance, and coordination, and proper integration of your reflexes."
+        },
+        {
+          "text": "Posture evaluation through our postural analysis program."
+        },
+        {
+          "text": "Evaluation of your joint range of motion."
+        },
+        {
+          "text": "Specific palpation on your skull and vertebral segments."
+        }
+      ],
+      "footer": "Based on the information gathered, we will create a personalized care plan tailored to your needs, including my best recommendations. In some cases, X-rays may be required for a more comprehensive understanding of your condition.<br><br> In the first chiropractic session, we will begin implementing the specific care plan for you, so you can start experiencing positive changes in your health from the outset. After your initial consultation, we will schedule another appointment to review the results of your study and provide you with a comprehensive Digital Report.<br><br> At ColumnaQuiro, we focus on results. That's why we conduct periodic reviews to assess the objective changes you have experienced under our chiropractic care. These reviews also allow us to ensure that you are satisfied with the treatment you have received at all times.<br><br> During each review, we will discuss with you the appropriate strategies to achieve all your health and lifestyle goals. Our goal is to help you achieve optimal long-term health so you can enjoy a fuller and more active life. We are here to assist you on your journey to health and well-being!"
+    }
+  },
+  "ourCenter": {
+    "seo": {
+      "title": "News and Articles | ColumnaQuiro",
+      "description": "Discover the latest news and articles from our chiropractic center in Valencia."
+    },
+    "title": "Chiropractic Center ColumnaQuiro",
+    "description": "In our chiropractic center in Ruzafa, Valencia, we understand that each person is unique, and so are your health needs. We are here to guide you on your journey to well-being and help you reach your full health potential. If you're looking for a natural and effective solution to your health issues, you've come to the right place!",
+    "waitingRoom": {
+      "title": "Waiting Room",
+      "description": "Welcome to our tranquil oasis in the waiting room. Our friendly receptionist is always ready to chat with you and make you feel at home.<br><br>You can enjoy a refreshing glass of water and delve into our selection of health books while waiting for your consultation. Here, your well-being is our absolute priority.<br><br>We are committed to making your experience as comfortable and relaxing as possible.<br><br>Thank you for trusting us to take care of you!"
+    },
+    "firstVisitRoom": {
+      "title": "First Visit Room",
+      "description": "In our first visit room, your privacy and comfort are our top priorities.<br><br>Here, we dedicate the necessary time to conduct a thorough and personalized chiropractic assessment, deeply understanding your individual needs.<br><br>This environment is carefully designed to ensure your tranquility and confidentiality as we together chart the path to optimal well-being.<br><br>At every step, your health and satisfaction are our greatest concerns."
+    },
+    "adjustmentRoom": {
+      "title": "Adjustment Room",
+      "description": "Welcome to our adjustment room, where your well-being comes to life.<br><br>In this space, our expert chiropractors are dedicated to providing you with personalized and highly effective care. It's the place where we alleviate your discomforts and work tirelessly to enhance your quality of life.<br><br>Here, in our care oasis, we welcome you to your journey toward health. We are committed to guiding you toward a healthier and discomfort-free life.<br><br>Your well-being is our priority, and we are here to accompany you at every step toward a better quality of life."
+    },
+    "library": {
+      "title": "Our Multilingual Health Library",
+      "description": "Our bookshelf is a treasure trove of knowledge in multiple languages: French, Spanish, and English.<br><br>Here, you'll find a diverse selection of books on health and chiropractic topics. The best part is you can take these treasures home with you.<br><br>Enrich your mind and broaden your horizons as you delve into wellness and self-care subjects. These books are available to you so you can continue your quest for knowledge at home.<br><br>Explore, learn, and grow with us!"
+    }
+  },
+  "blog": {
+    "seo": {
+      "title": "News and Articles | ColumnaQuiro",
+      "description": "Discover the latest news and articles from our chiropractic center in Valencia."
+    },
+    "hero": {
+      "title": "ColumnaQuiro Blog",
+      "body": "Welcome to the ColumnaQuiro Blog! This is an exclusive space where you'll find the latest updates and articles related to chiropractic and overall health. <br><br>Remember to visit us regularly to stay informed about the latest news and tips. Your health and well-being are our priority. Thank you for being part of the ColumnaQuiro community!"
+    }
+  }
+}

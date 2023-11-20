@@ -1,10 +1,10 @@
 <template>
   <div>
     <h1 class="section-title pb-4">
-      {{ t('contacto.title') }}
+      {{ t('contact.title') }}
     </h1>
     <h2 class="text-2xl text-center">
-      {{ t('contacto.subtitle') }}
+      {{ t('contact.subtitle') }}
     </h2>
     <contacto-form />
   </div>
@@ -18,5 +18,5 @@ const { t } = useI18n()
 const useSeo = useSEO()
 
 useSeo.setLocalBusinessSchemaOrgTag()
-useSeo.setSeoTags(t('contacto.seo.title'), t('contacto.seo.description'))
+useSeo.setSeoTags(t('contact.seo.title'), t('contact.seo.description'))
 </script>

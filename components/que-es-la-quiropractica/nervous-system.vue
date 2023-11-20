@@ -1,9 +1,9 @@
 <template>
   <cq-layout-section class="bg-brand-light-secondary">
     <h2 class="section-title">
-      {{ t('queEsLaQuiropractica.nervousSystem.title') }}
+      {{ t('whatIsChiropractic.nervousSystem.title') }}
     </h2>
-    <div class="text-base" v-html="t('queEsLaQuiropractica.nervousSystem.body')" />
+    <div class="text-base" v-html="t('whatIsChiropractic.nervousSystem.body')" />
   </cq-layout-section>
 </template>
 <script setup lang="ts">

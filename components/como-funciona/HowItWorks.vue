@@ -1,10 +1,10 @@
 <template>
   <cq-layout-section class="how-it-works" shape="shape-secondary-light-left" :shape-width="200" shape-position="center-left">
     <h2 class="section-title">
-      {{ t('comoFunciona.steps.title') }}
+      {{ t('howItWorks.steps.title') }}
     </h2>
     <div class="text-lg">
-      {{ t('comoFunciona.steps.description') }}
+      {{ t('howItWorks.steps.description') }}
     </div>
     <client-only>
       <v-timeline
@@ -45,7 +45,7 @@ interface Item {
 
 const { mdAndUp } = useDisplay()
 const { tm, rt, t } = useI18n()
-const items: Item[] = tm('comoFunciona.steps.items')
+const items: Item[] = tm('howItWorks.steps.items')
 </script>
 <style lang="scss">
 .how-it-works {

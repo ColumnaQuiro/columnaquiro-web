@@ -88,32 +88,38 @@
         {
           "key": "workers",
           "title": "Trabajadores",
-          "description": "Aumenta la actividad de tu corteza prefrontal y mejora tu rendimiento laboral a corto o largo plazo , reduciendo el estres y la ausencia por motivos de salud."
+          "description": "Aumenta la actividad de tu corteza prefrontal y mejora tu rendimiento laboral a corto o largo plazo , reduciendo el estres y la ausencia por motivos de salud.",
+          "to": "/para-quien-sirve-la-quiropractica/trabajadores"
         },
         {
           "key": "kids",
           "title": "Niños",
-          "description": "El desarrollo de un niño  incluye diferentes  etapas sensoriales y motoras y un sistema nervioso saludable es vital  en su superación y mejora de su coordinación y sentidos."
+          "description": "El desarrollo de un niño  incluye diferentes  etapas sensoriales y motoras y un sistema nervioso saludable es vital  en su superación y mejora de su coordinación y sentidos.",
+          "to": "/para-quien-sirve-la-quiropractica/bebes-y-ninos"
         },
         {
           "key": "pregnant",
           "title": "Embarazadas",
-          "description": "Prepara tu  cuerpo para los cambios del embarazo y mejorar tu  recuperación postparto, optimizando la función del sistema nervioso y la salud en esta nueva etapa de vida."
+          "description": "Prepara tu  cuerpo para los cambios del embarazo y mejorar tu  recuperación postparto, optimizando la función del sistema nervioso y la salud en esta nueva etapa de vida.",
+          "to": "/para-quien-sirve-la-quiropractica/trabajadores"
         },
         {
           "key": "sport",
           "title": "Deportistas",
-          "description": "Optimiza tu rendimiento fisico y tu recuperación post-entrenamiento."
+          "description": "Optimiza tu rendimiento fisico y tu recuperación post-entrenamiento.",
+          "to": "/para-quien-sirve-la-quiropractica/embarazadas"
         },
         {
           "key": "elder",
           "title": "Tercera edad",
-          "description": "Cuida tu  cuerpo para disfrutar al máximo de la vida y mejora tu  movilidad, equilibrio y estilo de vida de manera holística y vitalista."
+          "description": "Cuida tu  cuerpo para disfrutar al máximo de la vida y mejora tu  movilidad, equilibrio y estilo de vida de manera holística y vitalista.",
+          "to": "/para-quien-sirve-la-quiropractica/personas-mayores"
         },
         {
           "key": "disabled",
           "title": "Discapacidades motoras o intelectuales",
-          "description": "Mejora la movilidad, equilibrio, sensacion corporal y tu funcionamento general para fortalecer tu desarollo y tu independencia."
+          "description": "Mejora la movilidad, equilibrio, sensacion corporal y tu funcionamento general para fortalecer tu desarollo y tu independencia.",
+          "to": "/para-quien-sirve-la-quiropractica/discapacidades-motoras-intelectuales"
         }
       ]
     },
@@ -244,6 +250,10 @@
       "title": "Centro Quiropráctico en València - ColumaQuiro",
       "description": "Centro de quiropráctica en el centro de València. Descubre en el centro ColumnaQuiro qué es la quiropráctica y sus beneficios. La Quiropráctica es para tí"
     },
+    "headerVideo": {
+      "title": "Bienvenid{'@'} a Columnaquiro",
+      "subtitle": "¡Estas a un paso de mejorar tu salud!"
+    },
     "mission": {
       "title": "Centro Quiropráctico Valencia",
       "description": "Bienvenido/a a <span class='font-medium'>ColumnaQuiro</span>, tu centro quiropráctico en Valencia, con una visión holística de tu salud!<br><br><span class='font-medium'>¿Tienes dolor de espalda o alguna molestia en particular? ¿Sufres de dolores musculares, tensión o ansiedad?</span><br><br> El origen de la mayoría de los problemas de nuestra vida y de nuestro cuerpo proviene de la disfunción del sistema nervioso autónomo. Controla, coordina y regula toda la información necesaria para el óptimo funcionamiento de nuestro organismo. El cerebro envía y recibe toda la información a través de la médula espinal  y de los nervios hacia cada célula, tejido, órgano y músculo de nuestro cuerpo.<br><br> La quiropráctica es una excelente manera de mejorar la salud y tus sintomas de manera natural y segura."
@@ -332,7 +342,7 @@
       ]
     }
   },
-  "queEsLaQuiropractica": {
+  "whatIsChiropractic": {
     "seo": {
       "title": "¿Qué es la quiropráctica? - ColumnaQuiro",
       "description": "Mejora con la quiropráctica: centrada en mejorar la funcionalidad del sistema nervioso. Ajustes quiroprácticos para el estrés, el dolor y otros síntomas."
@@ -367,7 +377,7 @@
       "body": "Los quiroprácticos somos profesionales capacitados para analizar, detectar y corregir las interferencias nerviosas mediante ajustes manuales específicos, seguros y no invasivos. Estas interferencias pueden afectar la comunicación entre el cerebro y el cuerpo, lo que impide su correcto funcionamiento.<br><br>Uno de los principales objetivos de la quiropráctica es mantener una buena comunicación entre el sistema nervioso central (cerebro y columna vertebral) y el resto del cuerpo.<br><br>Los ajustes quiroprácticos se realizan principalmente en la columna vertebral y consisten en impulsos de alta velocidad y baja amplitud que estimulan los receptores nerviosos en el cuerpo.<br><br>Como profesionales certificados, nos aseguramos de que cada ajuste sea específico, indoloro y seguro para el paciente."
     }
   },
-  "paraQuienSirveLaQuiropractica": {
+  "chiropracticForWhom": {
     "seo": {
       "title": "¿Quiropráctica para todos? - Enfoque integral - ColumnaQuiro",
       "description": "Descubre si la quiropráctica es adecuada para ti. Nuestro enfoque mejora la salud de atletas, personas activas y aquellos que buscan alivio del dolor crónico."
@@ -492,7 +502,7 @@
       }
     ]
   },
-  "contacto": {
+  "contact": {
     "seo": {
       "title": "Contacta con los expertos en quiropráctica - ColumnaQuiro",
       "description": "Contacta con nuestros quiroprácticos altamente capacitados para programar una cita personalizada y descubre cómo podemos ayudarte a recuperar tu calidad de vida."
@@ -527,7 +537,7 @@
       "cta": "Enviar"
     }
   },
-  "equipo": {
+  "team": {
     "seo": {
       "title": "Equipo Quiropráctico - Dedicados a Mejorar tu Salud",
       "description": "Conoce a nuestro equipo de profesionales altamente capacitados dedicados a mejorar tu salud y bienestar. Comienza tu camino hacia una vida más saludable hoy."
@@ -538,13 +548,13 @@
         {
           "name": "Léa Guido",
           "description": "Nací en la Côte d'Azur, en el sur de Francia, y siempre he sentido una gran pasión por el cuerpo humano y su increíble poder de sanación a través de procesos naturales. Soy aficionada a los deportes y siempre he sido muy activa en mi vida, por lo que entiendo muy bien la importancia de tener un cuerpo sano, adaptable y que funcione al máximo potencial.<br><br>Desde mi nacimiento, he tenido varios problemas de salud relacionados con el sistema musculoesquelético, lo que me impidió hacer deporte y subir escaleras a los 13 años. Por casualidad, acabé en un centro de terapias manuales en Francia donde noté enormes mejoras en mi salud y bienestar general.<br><br>Fue entonces cuando decidí estudiar una profesión relacionada con las terapias manuales, y al descubrir la filosofía de la quiropráctica, supe que sería mi vocación ayudar a crear una humanidad más saludable, sostenible y feliz a través del enfoque y cuidado quiropráctico.<br><br>Después de seis años de estudios entre Francia (dos años) y Barcelona (cuatro años), me gradué en 2021 del Barcelona College of Chiropractic. Desde entonces, he colaborado en diferentes clínicas, aprendiendo de los maestros de la profesión y practicando con diferentes técnicas y enfoques en Barcelona y en la provincia de Barcelona (Terrassa). También he sido profesora asistente en diferentes clases de técnicas y supervisora en la clínica de la escuela Barcelona College of Chiropractic, ya que siempre me ha gustado enseñar y ayudar a más personas posibles.<br><br>Desde mi graduación, he seguido formándome para ampliar mis conocimientos y habilidades con el fin de poder ofrecer el mejor cuidado a mis pacientes. Recientemente, me he especializado en un enfoque holístico para mujeres embarazadas y niños, lo que me permite brindar una atención más completa y personalizada a estas poblaciones.<br><br>Para mí, ColumnaQuiro va más allá de ser un centro quiropráctico. Es un proyecto humanista que permite empoderar a la población desde dentro hacia fuera, ayudando a cada individuo a entender que la salud viene de dentro y su importancia.<br><br>Estoy emocionada de dar la bienvenida a todos los que buscan una forma natural y efectiva de mejorar su salud en ColumnaQuiro, ¡y espero poder ayudarlos con los brazos abiertos!",
-          "imagePath": "",
+          "imagePath": "website/team/lea.webp",
           "role": "Doctora en Quiropráctica"
         }
       ]
     }
   },
-  "reservaVisita": {
+  "bookVisit": {
     "seo": {
       "title": "Reserva tu visita Centro Quiropráctico Valencia",
       "description": "Reserva una cita en el Centro Quiropráctico de Valencia. Nuestro equipo de profesionales altamente capacitados brinda atención personalizada y efectiva."
@@ -555,9 +565,6 @@
       "contact": {
         "tel": "Llamanos al teléfono <a href=\"tel:+34744735363\" class=\"font-medium\">+34 744 735 363</a>",
         "whatsapp": "o contactanos por Whatsapp"
-      },
-      "schedule": {
-
       }
     },
     "booking": {
@@ -572,7 +579,7 @@
       }
     }
   },
-  "comoFunciona": {
+  "howItWorks": {
     "seo": {
       "title": "Servicios Quiroprácticos - Enfoque Integral - ColumnaQuiro",
       "description": "Descubre nuestros servicios quiroprácticos enfocados en mejorar la salud y el bienestar. Comienza tu camino hacia una vida más saludable hoy."
@@ -619,7 +626,7 @@
         }
       ]
     },
-    "primeraVisita": {
+    "firstVisit": {
       "title": "¿Cómo funciona?",
       "description": "¡Bienvenido a Columnaquiro! Nuestro objetivo es brindarte la mejor atención quiropráctica personalizada. La primera visita es fundamental en nuestra clínica para ofrecerte el mejor cuidado quiropráctico posible. <br><br>Antes de tu primera visita, te enviaremos un cuestionario en línea para conocer tus preocupaciones y objetivos de salud actuales, lo que nos permitirá comprender mejor tus necesidades antes de la sesión quiropráctica.<br><br>Ahora te contamos lo que haremos durante la primera visita ,  nos enfocamos en esta etapa para monitorear y evaluar tu evolución a lo largo del cuidado quiropráctico: ",
       "steps": [
@@ -645,26 +652,26 @@
       "footer": "Basándonos en la información recopilada, crearemos un plan de cuidado personalizado adaptado a tus necesidades, que incluirá mis mejores recomendaciones. En algunos casos, se pueden requerir radiografías para obtener una comprensión más completa de tu condición.<br><br>    En la primera sesión de quiropráctica, comenzaremos a implementar el plan de cuidado específico para ti, para que puedas comenzar a experimentar cambios positivos en tu salud desde el principio. Después de tu consulta inicial, programaremos otra cita para revisar los resultados de tu estudio y entregarte un Informe Digital completo.<br><br>    En Columnaquiro, nos enfocamos en los resultados. Por eso, realizaremos revisiones periódicas para evaluar los cambios objetivos que hayas experimentado bajo nuestro cuidado quiropráctico. Estas revisiones también nos permiten asegurarnos de que estés satisfecho/a con el trato que has recibido en todo momento.<br><br>    Durante cada revisión, revisaremos contigo las estrategias adecuadas para alcanzar todos tus objetivos de salud y estilo de vida. Nuestro objetivo es ayudarte a lograr un nivel de salud óptimo a largo plazo, para que puedas disfrutar de una vida más plena y activa. ¡Estamos aquí para ayudarte en tu camino hacia la salud y el bienestar!"
     }
   },
-  "nuestroCentro": {
+  "ourCenter": {
     "seo": {
       "title": "Noticias y artículos | Columnaquiro",
       "description": "Descubre las últimas noticias y articulos de nuestro centro de quiropráctico en Valencia."
     },
     "title": "Centro Quiropractico ColumnaQuiro",
     "description": "En nuestro centro quiropráctico en Valencia Ruzafa, entendemos que cada persona es única, y tus necesidades de salud también lo son. Estamos aquí para guiarte en tu viaje hacia el bienestar y ayudarte a alcanzar tu máximo potencial de salud. Si estás buscando una solución natural y efectiva para tus problemas de salud, ¡has venido al lugar correcto!",
-    "salaDeEspera": {
+    "waitingRoom": {
       "title": "Sala de espera",
       "description": "Bienvenido a nuestro tranquilo oasis en la sala de espera. Nuestra amable secretaria está siempre dispuesta a charlar contigo y hacer que te sientas como en casa.<br><br>Puedes disfrutar de un refrescante vaso de agua y sumergirte en nuestra selección de libros de salud mientras esperas tu consulta. Aquí, tu bienestar es nuestra prioridad absoluta. <br><br>Estamos comprometidos en hacer que tu experiencia sea lo más cómoda y relajante posible. <br><br>¡Gracias por confiar en nosotros para cuidar de ti!"
     },
-    "salaDePrimeraVisita": {
+    "firstVisitRoom": {
       "title": "Sala de primera visita",
       "description": "En nuestra sala de primera visita, tu privacidad y comodidad son nuestra prioridad principal.<br><br>Aquí, dedicamos el tiempo necesario para realizar una evaluación quiropráctica exhaustiva y personalizada, comprendiendo a fondo tus necesidades individuales.<br><br>Este ambiente está cuidadosamente diseñado para asegurar tu tranquilidad y confidencialidad mientras juntos trazamos el camino hacia un bienestar óptimo. <br><br>En cada paso, tu salud y satisfacción son nuestra mayor preocupación."
     },
-    "salaDeAjuste": {
+    "adjustmentRoom": {
       "title": "Sala de ajuste",
       "description": "Bienvenido a nuestra sala de ajuste, donde tu bienestar cobra vida.<br><br>En este espacio, nuestros quiroprácticos expertos se dedican a proporcionarte una atención personalizada y altamente efectiva. Es el lugar donde aliviamos tus molestias y trabajamos incansablemente para mejorar tu calidad de vida.<br><br>Aquí, en nuestro oasis de cuidado, te damos la bienvenida a tu camino hacia la salud. Estamos comprometidos en guiarte hacia una vida más saludable y libre de molestias. <br><br>Tu bienestar es nuestra prioridad, y estamos aquí para acompañarte en cada paso del camino hacia una mejor calidad de vida."
     },
-    "biblioteca": {
+    "library": {
       "title": "Nuestra Biblioteca de Salud Multilingüe",
       "description": "Nuestra estantería de libros es un tesoro de conocimiento en múltiples idiomas: francés, castellano e inglés. <br><br>Aquí encontrarás una variada selección de libros sobre temas de salud y quiropráctica. Lo mejor es que puedes llevarte estos tesoros a casa.<br><br>Enriquece tu mente y amplía tus horizontes mientras te sumerges en temas de bienestar y autocuidado. Estos libros están disponibles para ti, para que puedas continuar tu búsqueda de conocimiento en casa. <br><br>¡Explora, aprende y crece con nosotros!"
     }

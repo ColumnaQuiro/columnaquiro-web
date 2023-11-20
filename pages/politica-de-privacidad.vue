@@ -22,9 +22,9 @@
     El responsable del tratamiento de los datos personales recogidos en Columnaquiro es: Léa Guido, con NIF: Y7115191V (en adelante, Responsable del tratamiento).
     Sus datos de contacto son los siguientes:
     <ul class="list-disc">
-      <li>Dirección: Calle Entença 91, 3-4, 08015, Barcelona</li>
-      <li>Teléfono de contacto: 645967420</li>
-      <li>Email de contacto: hola@columnaquiro.com</li>
+      <li>Dirección: Calle dels Vivons 29, bajo izquierda, 46004 Valencia</li>
+      <li>Teléfono de contacto: 744735362</li>
+      <li>Email de contacto: lea@columnaquiro.com</li>
     </ul>
     <br>
     <div class="text-xl font-medium pb-3">
@@ -127,8 +127,8 @@
       <br>
       Esta solicitud y todo otro documento adjunto podrá enviarse a la siguiente dirección y/o correo electrónico:
       <ul class="list-disc">
-        <li>Dirección postal: Calle Entença 91, 3-4, 08015, Barcelona</li>
-        <li>Correo electrónico: hola@columnaquiro.com</li>
+        <li>Dirección postal: Calle dels Vivons 29, bajo izquierda, 46004 Valencia</li>
+        <li>Correo electrónico: lea@columnaquiro.com</li>
       </ul>
       <br>
       <div class="text-xl font-medium pb-3">

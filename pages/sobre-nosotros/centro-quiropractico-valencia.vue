@@ -16,7 +16,7 @@ const { t } = useI18n()
 const useSeo = useSEO()
 
 useSeo.setLocalBusinessSchemaOrgTag()
-useSeo.setSeoTags(t('nuestroCentro.seo.title'), t('nuestroCentro.seo.description'))
+useSeo.setSeoTags(t('ourCenter.seo.title'), t('ourCenter.seo.description'))
 </script>
 
 <style scoped>

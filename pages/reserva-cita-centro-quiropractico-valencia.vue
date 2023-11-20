@@ -1,8 +1,8 @@
 <template>
   <div>
     <cq-blocks-sections-intro-section
-      :title="t('reservaVisita.header.title')"
-      :description="t('reservaVisita.header.subtitle')"
+      :title="t('bookVisit.header.title')"
+      :description="t('bookVisit.header.subtitle')"
       :background-image-url="`${STATICS_CDN}website/nuestro-centro/local-outside-landscape.webp`"
     />
     <reserva-tu-visita-header />
@@ -17,5 +17,5 @@ import { STATICS_CDN } from '~/constants/urls'
 
 const { t } = useI18n()
 
-useSEO().setSeoTags(t('reservaVisita.seo.title'), t('reservaVisita.seo.description'))
+useSEO().setSeoTags(t('bookVisit.seo.title'), t('bookVisit.seo.description'))
 </script>

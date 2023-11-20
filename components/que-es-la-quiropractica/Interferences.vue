@@ -1,10 +1,10 @@
 <template>
   <cq-layout-section>
     <h2 class="section-title">
-      {{ t('queEsLaQuiropractica.interferences.title') }}
+      {{ t('whatIsChiropractic.interferences.title') }}
     </h2>
     <div class="text-base">
-      {{ t('queEsLaQuiropractica.interferences.subtitle') }}
+      {{ t('whatIsChiropractic.interferences.subtitle') }}
     </div>
     <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 pt-8 text-center">
       <div v-for="item in items" :key="rt(item.icon)">
@@ -36,5 +36,5 @@ interface Item {
   body: string
 }
 const { t, tm, rt } = useI18n()
-const items: Item[] = tm('queEsLaQuiropractica.interferences.items')
+const items: Item[] = tm('whatIsChiropractic.interferences.items')
 </script>
