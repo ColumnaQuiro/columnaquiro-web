@@ -17,5 +17,5 @@ const personType: string | undefined = typeOfPersonToKey.get(route.params.type a
 const personTitle = t(`personTitle.${personType}`)
 
 useSeo.setLocalBusinessSchemaOrgTag()
-useSeo.setSeoTags(t('paraQuienSirveLaQuiropractica.types.seo.title', { personTitle }), t(`paraQuienSirveLaQuiropractica.types.seo.description.${personType}`))
+useSeo.setSeoTags(t('chiropracticForWhom.types.seo.title', { personTitle }), t(`chiropracticForWhom.types.seo.description.${personType}`))
 </script>

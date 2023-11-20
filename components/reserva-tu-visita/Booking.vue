@@ -1,9 +1,9 @@
 <template>
   <cq-layout-section class="booking">
     <h3 class="text-3xl pb-4 text-center">
-      {{ t('reservaVisita.booking.title') }}
+      {{ t('bookVisit.booking.title') }}
     </h3>
-    <div class="text-base" v-html="t('reservaVisita.booking.subtitle')" />
+    <div class="text-base" v-html="t('bookVisit.booking.subtitle')" />
     <v-form
       ref="formRef"
       class="pt-4 px-0"
@@ -12,8 +12,8 @@
     >
       <cq-components-input-text
         v-model="email"
-        :label="t('reservaVisita.booking.form.email.label')"
-        :placeholder="t('reservaVisita.booking.form.email.placeholder')"
+        :label="t('bookVisit.booking.form.email.label')"
+        :placeholder="t('bookVisit.booking.form.email.placeholder')"
         :rules="EMAIL_RULES"
         append-inner-icon="mdi-send"
         type="email"

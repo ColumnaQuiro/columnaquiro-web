@@ -1,14 +1,14 @@
 <template>
   <cq-layout-section>
     <h2 class="section-title">
-      {{ t('nuestroCentro.salaDePrimeraVisita.title') }}
+      {{ t('ourCenter.firstVisitRoom.title') }}
     </h2>
     <cq-blocks-sections-paragraph-with-image
       :image="`${STATICS_CDN}website/nuestro-centro/local-first-visit-room.webp`"
       :image-width="350"
-      :text="t('nuestroCentro.salaDePrimeraVisita.description')"
+      :text="t('ourCenter.firstVisitRoom.description')"
       image-position="left"
-      :image-alt="t('nuestroCentro.salaDePrimeraVisita.title')"
+      :image-alt="t('ourCenter.firstVisitRoom.title')"
       text-narrow
     />
   </cq-layout-section>

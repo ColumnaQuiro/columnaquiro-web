@@ -2,9 +2,9 @@
   <div>
     <cq-layout-section class="bg-brand-light-secondary">
       <h1 class="section-title">
-        {{ t('paraQuienSirveLaQuiropractica.title') }}
+        {{ t('chiropracticForWhom.title') }}
       </h1>
-      <div class="text-base" v-html="t('paraQuienSirveLaQuiropractica.description')" />
+      <div class="text-base" v-html="t('chiropracticForWhom.description')" />
       <cq-blocks-to-who />
     </cq-layout-section>
     <cq-blocks-order-appointment-section />
@@ -19,5 +19,5 @@ const { t } = useI18n()
 const useSeo = useSEO()
 
 useSeo.setLocalBusinessSchemaOrgTag()
-useSeo.setSeoTags(t('paraQuienSirveLaQuiropractica.seo.title'), t('paraQuienSirveLaQuiropractica.seo.description'))
+useSeo.setSeoTags(t('chiropracticForWhom.seo.title'), t('chiropracticForWhom.seo.description'))
 </script>

@@ -9,7 +9,7 @@
     >
       <v-card
         :flat="true"
-        :to="`para-quien-sirve-la-quiropractica/${keyToTypeOfPerson.get(rt(item.key))}`"
+        :to="rt(item.to)"
         class="pa-2 h-full"
       >
         <v-card-title class="!flex justify-center py-3">
@@ -31,13 +31,13 @@
 </template>
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n'
-import { keyToTypeOfPerson } from '~/constants/typeOfPersonMapping'
 import { STATICS_CDN } from '~/constants/urls'
 
 interface Item {
   key: string
   title: string
   description: string
+  to: string
 }
 
 const { tm, rt } = useI18n()

@@ -2,10 +2,10 @@
   <div class="header-video w-screen h-screen">
     <div class="header-video__overlay">
       <div class="header-video__title">
-        Bienvenid@ a Columnaquiro
+        {{ t('home.headerVideo.title') }}
       </div>
       <div class="header-video__subtitle">
-        ¡Estas a un paso de mejorar tu salud!
+        {{ t('home.headerVideo.subtitle') }}
       </div>
     </div>
     <video
@@ -24,6 +24,7 @@
 <script setup lang="ts">
 import { STATICS_CDN } from '~/constants/urls'
 
+const { t } = useI18n()
 useHead({
   link: [
     { rel: 'prefetch', href: 'https://statics.columnaquiro.com/website/home/header_video.mp4' }

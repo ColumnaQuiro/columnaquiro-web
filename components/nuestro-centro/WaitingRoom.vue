@@ -1,13 +1,13 @@
 <template>
   <cq-layout-section>
     <h2 class="section-title">
-      {{ t('nuestroCentro.salaDeEspera.title') }}
+      {{ t('ourCenter.waitingRoom.title') }}
     </h2>
     <cq-blocks-sections-paragraph-with-image
       :image="`${STATICS_CDN}website/nuestro-centro/local-reception.webp`"
       :image-width="350"
-      :text="t('nuestroCentro.salaDeEspera.description')"
-      :image-alt="t('nuestroCentro.salaDeEspera.title')"
+      :text="t('ourCenter.waitingRoom.description')"
+      :image-alt="t('ourCenter.waitingRoom.title')"
       text-narrow
     />
   </cq-layout-section>

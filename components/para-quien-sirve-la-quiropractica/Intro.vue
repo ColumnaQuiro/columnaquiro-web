@@ -1,10 +1,10 @@
 <template>
   <cq-layout-section>
     <h1 class="section-title">
-      {{ t(`paraQuienSirveLaQuiropractica.types.intro.title.${personType}`) }}
+      {{ t(`chiropracticForWhom.types.intro.title.${personType}`) }}
     </h1>
     <cq-blocks-sections-paragraphWithImage
-      :text="t(`paraQuienSirveLaQuiropractica.types.intro.description.${personType}`)"
+      :text="t(`chiropracticForWhom.types.intro.description.${personType}`)"
       :image="`${STATICS_CDN}website/para-todos/${personType}.webp`"
       :image-width="400"
     />

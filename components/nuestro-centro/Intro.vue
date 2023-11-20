@@ -1,7 +1,7 @@
 <template>
   <cq-blocks-sections-intro-section
-    :title="t('nuestroCentro.title')"
-    :description="t('nuestroCentro.description')"
+    :title="t('ourCenter.title')"
+    :description="t('ourCenter.description')"
     :background-image-url="`${STATICS_CDN}website/nuestro-centro/local-outside-landscape.webp`"
   />
 </template>

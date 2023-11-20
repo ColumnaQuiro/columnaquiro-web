@@ -1,6 +1,14 @@
 <template>
   <div>
-    <Html :lang="locale">
+    <Html :lang="head.htmlAttrs.lang" :dir="head.htmlAttrs.dir">
+      <Head>
+        <template v-for="link in head.link" :key="link.id">
+          <Link :id="link.id" :rel="link.rel" :href="link.href" :hreflang="link.hreflang" />
+        </template>
+        <template v-for="meta in head.meta" :key="meta.id">
+          <Meta :id="meta.id" :property="meta.property" :content="meta.content" />
+        </template>
+      </Head>
       <cq-layout-navigation-bar />
       <main class="pt-14 lg:pt-16">
         <slot />
@@ -31,8 +39,14 @@ import { useI18n } from 'vue-i18n'
 import { useSeoMeta } from '@unhead/vue'
 import { STATICS_CDN } from '~/constants/urls'
 
-const { t, locale } = useI18n()
+const { t } = useI18n()
 const { grantConsent } = useGtag()
+
+const head = useLocaleHead({
+  addDirAttribute: true,
+  identifierAttribute: 'id',
+  addSeoAttributes: true
+})
 
 const preferences = [
   {

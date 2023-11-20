@@ -2,7 +2,7 @@
   <div>
     <cq-layout-section>
       <h1 class="section-title">
-        {{ t('equipo.peopleList.title') }}
+        {{ t('team.peopleList.title') }}
       </h1>
     </cq-layout-section>
     <cq-layout-section v-for="(person, i) in people" :key="person.name">
@@ -14,7 +14,7 @@
       </div>
       <cq-blocks-sections-paragraphWithImage
         :text="rt(person.description)"
-        image="https://dummyimage.com/80/8d5b4c/ffffff"
+        :image="`${STATICS_CDN}${rt(person.imagePath)}`"
         :image-position=" i % 2 === 0 ? 'right' : 'left'"
         :image-width="400"
       />
@@ -23,6 +23,7 @@
 </template>
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n'
+import { STATICS_CDN } from '~/constants/urls'
 
 interface Person {
   name: string
@@ -33,5 +34,5 @@ interface Person {
 
 const { t, tm, rt } = useI18n()
 
-const people: Person[] = tm('equipo.peopleList.items')
+const people: Person[] = tm('team.peopleList.items')
 </script>

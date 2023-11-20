@@ -1,7 +1,4 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
-import { resolve, dirname } from 'node:path'
-import { fileURLToPath } from 'url'
-import VueI18nVitePlugin from '@intlify/unplugin-vue-i18n/vite'
 
 export default defineNuxtConfig({
   devtools: { enabled: true },
@@ -19,6 +16,7 @@ export default defineNuxtConfig({
     }
   },
   modules: [
+    '@nuxtjs/i18n',
     'nuxt-gtag',
     '@nuxt/content',
     'nuxt-simple-sitemap',
@@ -29,12 +27,8 @@ export default defineNuxtConfig({
     exclude: [
       'aviso-legal',
       'politica-de-cookies',
-      'politica-de-privacidad',
-      'terminos-y-condiciones'
+      'politica-de-privacidad'
     ]
-  },
-  build: {
-    transpile: [/vue-i18n/]
   },
   css: ['~/assets/scss/main.scss'],
   vite: {
@@ -42,20 +36,71 @@ export default defineNuxtConfig({
       exclude: [
         'fsevents'
       ]
-    },
-    resolve: {
-      alias: {
-        'vue-i18n': 'vue-i18n/dist/vue-i18n.runtime.esm-bundler.js'
+    }
+  },
+  i18n: {
+    langDir: 'locales',
+    baseUrl: 'https://columnaquiro.com',
+    vueI18n: 'i18n.config.ts',
+    detectBrowserLanguage: { alwaysRedirect: true, fallbackLocale: 'es' },
+    defaultLocale: 'es',
+    strategy: 'prefix_except_default',
+    locales: [
+      {
+        code: 'en',
+        iso: 'en',
+        file: 'en.json',
+        name: 'English'
+      },
+      {
+        code: 'es',
+        iso: 'es',
+        file: 'es.json',
+        name: 'Spanish'
       }
+    ],
+    compilation: {
+      strictMessage: false
     },
-    plugins: [
-      VueI18nVitePlugin({
-        strictMessage: false,
-        include: [
-          resolve(dirname(fileURLToPath(import.meta.url)), './locales/*.json')
-        ]
-      })
-    ]
+    customRoutes: 'config',
+    pages: {
+      'que-es-la-quiropractica/index': {
+        en: '/what-is-chiropractic'
+      },
+      'que-es-la-quiropractica/preguntas-frecuentes': {
+        en: '/what-is-chiropractic/faqs'
+      },
+      'como-funciona/index': {
+        en: '/how-does-it-work'
+      },
+      'para-quien-sirve-la-quiropractica/index': {
+        en: '/who-is-chiropractic-for'
+      },
+      'para-quien-sirve-la-quiropractica/[type]': {
+        en: '/who-is-chiropractic-for/[type]'
+      },
+      'sobre-nosotros/centro-quiropractico-valencia': {
+        en: '/about-us/chiropractic-valencia'
+      },
+      'sobre-nosotros/contacto': {
+        en: '/about-us/contact'
+      },
+      'sobre-nosotros/equipo': {
+        en: '/about-us/our-team'
+      },
+      'aviso-legal': {
+        en: '/legal-notice'
+      },
+      'politica-de-cookies': {
+        en: '/cookies-policy'
+      },
+      'politica-de-privacidad': {
+        en: '/privacy-policy'
+      },
+      'reserva-cita-centro-quiropractico-valencia': {
+        en: '/book-appointment-chiropractic-valencia'
+      }
+    }
   },
   vuetify: {
     moduleOptions: {

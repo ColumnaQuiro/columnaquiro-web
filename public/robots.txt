@@ -2,6 +2,5 @@ User-Agent: *
 Disallow: /aviso-legal
 Disallow: /politica-de-cookies
 Disallow: /politica-de-privacidad
-Disallow: /terminos-y-condiciones
 Allow:
 Sitemap: https://columnaquiro.com/sitemap.xml

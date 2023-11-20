@@ -3,10 +3,10 @@
     <div class="grid grid-cols-12 gap-10">
       <div class="col-span-full md:col-span-6">
         <div class="text-xl pb-4">
-          {{ t('contacto.form.title') }}
+          {{ t('contact.form.title') }}
         </div>
         <div>
-          {{ t('contacto.form.subtitle') }}
+          {{ t('contact.form.subtitle') }}
         </div>
       </div>
       <v-form ref="formRef" v-model="isFormValid" class="col-span-full md:col-span-6" validate-on="submit" @submit.prevent="submitForm">
@@ -19,7 +19,7 @@
           :type="rt(field.type)"
         />
         <cq-components-button type="submit" color="tertiary">
-          {{ t('contacto.form.cta') }}
+          {{ t('contact.form.cta') }}
         </cq-components-button>
       </v-form>
     </div>
@@ -46,7 +46,7 @@ interface Field {
 }
 
 const { t, tm, rt } = useI18n()
-const fields: Field[] = tm('contacto.form.fields')
+const fields: Field[] = tm('contact.form.fields')
 const formRef = ref<any>(null)
 const isFormValid = ref<boolean>(true)
 const formData = reactive<ContactForm>({
