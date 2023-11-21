@@ -14,7 +14,7 @@ const { t } = useI18n()
 const useSeo = useSEO()
 
 const personType: string | undefined = typeOfPersonToKey.get(route.params.type as string)
-const personTitle = t(`personTitle.${personType}`)
+const personTitle = t(`chiropracticForWhom.types.personTitle.${personType}`)
 
 useSeo.setLocalBusinessSchemaOrgTag()
 useSeo.setSeoTags(t('chiropracticForWhom.types.seo.title', { personTitle }), t(`chiropracticForWhom.types.seo.description.${personType}`))

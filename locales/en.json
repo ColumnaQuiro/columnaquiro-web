@@ -89,37 +89,37 @@
           "key": "workers",
           "title": "Workers",
           "description": "Increase the activity of your prefrontal cortex and improve your short or long-term work performance, reducing stress and absenteeism for health reasons.",
-          "to": "/en/who-is-chiropractic-for/workers"
+          "urlParam": "workers"
         },
         {
           "key": "kids",
           "title": "Children",
           "description": "A child's development includes different sensory and motor stages, and a healthy nervous system is vital for overcoming and improving coordination and senses.",
-          "to": "/en/who-is-chiropractic-for/kids"
+          "urlParam": "kids"
         },
         {
           "key": "pregnant",
           "title": "Pregnant Women",
           "description": "Prepare your body for the changes of pregnancy and improve your postpartum recovery, optimizing the function of the nervous system and health in this new stage of life.",
-          "to": "/en/who-is-chiropractic-for/pregnant-women"
+          "urlParam": "pregnant-women"
         },
         {
           "key": "sport",
           "title": "Athletes",
           "description": "Optimize your physical performance and post-training recovery.",
-          "to": "/en/who-is-chiropractic-for/athletes"
+          "urlParam": "athletes"
         },
         {
           "key": "elder",
           "title": "Elderly",
           "description": "Take care of your body to enjoy life to the fullest and improve your mobility, balance, and lifestyle in a holistic and vitalistic way.",
-          "to": "/en/who-is-chiropractic-for/elder-people"
+          "urlParam": "elder-people"
         },
         {
           "key": "disabled",
           "title": "Motor or Intellectual Disabilities",
           "description": "Improve mobility, balance, bodily sensation, and overall functioning to strengthen your development and independence.",
-          "to": "/en/who-is-chiropractic-for/disabled-people"
+          "urlParam": "disabled-people"
         }
       ]
     },
@@ -263,7 +263,7 @@
       "intro": "Our commitment is to monitor your progress regularly, allowing us to adapt the care you need at each stage of your life. To do this, we use various advanced tools and techniques:",
       "specifications": [
         {
-          "id": "back-analysis",
+          "id": "back-analisis",
           "title": "Posture Analysis",
           "body": "We thoroughly evaluate your posture, identifying possible misalignments that may affect your physical well-being."
         },
@@ -278,7 +278,7 @@
           "body": "We study how you move and how your reflexes respond to gain a complete view of your nervous system."
         },
         {
-          "id": "health-questionnaire",
+          "id": "health-questionare",
           "title": "Health Questionnaire",
           "body": "We complete the picture by knowing your medical history and lifestyle habits, allowing us to further customize your care."
         }
@@ -320,7 +320,7 @@
     "quiroLogos": {
       "logos": [
         {
-          "id": "world-federation-chiro",
+          "id": "word-federation-quiro",
           "alt": "World Federation of Chiropractic"
         },
         {
@@ -328,7 +328,7 @@
           "alt": "European Council of Chiropractic Education"
         },
         {
-          "id": "aec",
+          "id": "aeq",
           "alt": "Spanish Association of Chiropractic"
         },
         {

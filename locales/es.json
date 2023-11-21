@@ -89,37 +89,37 @@
           "key": "workers",
           "title": "Trabajadores",
           "description": "Aumenta la actividad de tu corteza prefrontal y mejora tu rendimiento laboral a corto o largo plazo , reduciendo el estres y la ausencia por motivos de salud.",
-          "to": "/para-quien-sirve-la-quiropractica/trabajadores"
+          "urlParam": "trabajadores"
         },
         {
           "key": "kids",
           "title": "Niños",
           "description": "El desarrollo de un niño  incluye diferentes  etapas sensoriales y motoras y un sistema nervioso saludable es vital  en su superación y mejora de su coordinación y sentidos.",
-          "to": "/para-quien-sirve-la-quiropractica/bebes-y-ninos"
+          "urlParam": "bebes-y-ninos"
         },
         {
           "key": "pregnant",
           "title": "Embarazadas",
           "description": "Prepara tu  cuerpo para los cambios del embarazo y mejorar tu  recuperación postparto, optimizando la función del sistema nervioso y la salud en esta nueva etapa de vida.",
-          "to": "/para-quien-sirve-la-quiropractica/trabajadores"
+          "urlParam": "embarazadas"
         },
         {
           "key": "sport",
           "title": "Deportistas",
           "description": "Optimiza tu rendimiento fisico y tu recuperación post-entrenamiento.",
-          "to": "/para-quien-sirve-la-quiropractica/embarazadas"
+          "urlParam": "deportistas"
         },
         {
           "key": "elder",
           "title": "Tercera edad",
           "description": "Cuida tu  cuerpo para disfrutar al máximo de la vida y mejora tu  movilidad, equilibrio y estilo de vida de manera holística y vitalista.",
-          "to": "/para-quien-sirve-la-quiropractica/personas-mayores"
+          "urlParam": "personas-mayores"
         },
         {
           "key": "disabled",
           "title": "Discapacidades motoras o intelectuales",
           "description": "Mejora la movilidad, equilibrio, sensacion corporal y tu funcionamento general para fortalecer tu desarollo y tu independencia.",
-          "to": "/para-quien-sirve-la-quiropractica/discapacidades-motoras-intelectuales"
+          "urlParam": "discapacidades-motoras-intelectuales"
         }
       ]
     },
