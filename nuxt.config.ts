@@ -24,10 +24,15 @@ export default defineNuxtConfig({
     '@nuxt/image'
   ],
   sitemap: {
+    autoI18n: false,
+    autoAlternativeLangPrefixes: false,
     exclude: [
       'aviso-legal',
       'politica-de-cookies',
-      'politica-de-privacidad'
+      'politica-de-privacidad',
+      'en/cookies-policy',
+      'en/privacy-policy',
+      'en/legal-notice'
     ]
   },
   css: ['~/assets/scss/main.scss'],
@@ -78,6 +83,22 @@ export default defineNuxtConfig({
       },
       'para-quien-sirve-la-quiropractica/[type]': {
         en: '/who-is-chiropractic-for/[type]'
+      },
+      'para-quien-sirve-la-quiropractica/kids': {
+        es: 'para-quien-sirve-la-quiropractica/bebes-y-ninos',
+        en: '/who-is-chiropractic-for/kids'
+      },
+      'para-quien-sirve-la-quiropractica/discapacidades-motoras-intelectuales': {
+        en: '/who-is-chiropractic-for/disabled-people'
+      },
+      'para-quien-sirve-la-quiropractica/personas-mayores': {
+        en: '/who-is-chiropractic-for/elder-people'
+      },
+      'para-quien-sirve-la-quiropractica/deportistas': {
+        en: '/who-is-chiropractic-for/athletes'
+      },
+      'para-quien-sirve-la-quiropractica/trabajadores': {
+        en: '/who-is-chiropractic-for/workers'
       },
       'sobre-nosotros/centro-quiropractico-valencia': {
         en: '/about-us/chiropractic-valencia'

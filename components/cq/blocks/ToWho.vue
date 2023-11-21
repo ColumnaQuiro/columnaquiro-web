@@ -1,5 +1,5 @@
 <template>
-  <v-row class="pt-10">
+  <v-row class="to-who pt-10">
     <v-col
       v-for="item in items"
       :key="rt(item.key)"
@@ -9,20 +9,19 @@
     >
       <v-card
         :flat="true"
-        :to="rt(item.to)"
-        class="pa-2 h-full"
+        :to="localePath(`/para-quien-sirve-la-quiropractica/${rt(item.urlParam)}`)"
+        class="h-full"
+        :hover="true"
       >
-        <v-card-title class="!flex justify-center py-3">
-          <v-avatar size="large">
-            <NuxtImg :src="`${STATICS_CDN}website/home/${rt(item.key)}.webp`" width="100%" class="mx-auto" />
-          </v-avatar>
-        </v-card-title>
-        <v-card-text class="pa-4 !pt-4">
-          <div class="text-lg font-medium text-center pb-4">
-            {{ rt(item.title) }}
-          </div>
-          <div class="text-base text-center">
-            {{ rt(item.description) }}
+        <v-card-text>
+          <NuxtImg :src="`${STATICS_CDN}website/home/${rt(item.key)}.webp`" class="w-full max-h-[200px] object-cover" />
+          <div class="py-4 px-4">
+            <div class="text-lg font-medium text-center">
+              {{ rt(item.title) }}
+            </div>
+            <div class="text-base text-center">
+              {{ rt(item.description) }}
+            </div>
           </div>
         </v-card-text>
       </v-card>
@@ -37,9 +36,17 @@ interface Item {
   key: string
   title: string
   description: string
-  to: string
+  urlParam: string
 }
 
+const localePath = useLocaleRoute()
 const { tm, rt } = useI18n()
 const items: Item[] = tm('general.toWho.items')
 </script>
+<style lang="scss">
+.to-who {
+  .v-card-text {
+    padding: 0;
+  }
+}
+</style>

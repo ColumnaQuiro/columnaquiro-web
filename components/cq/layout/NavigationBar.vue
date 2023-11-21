@@ -2,9 +2,9 @@
   <header class="navigation-bar">
     <div class="w-full">
       <div class="container flex flex-wrap items-center h-14 md:h-16">
-        <nuxt-link to="/" @click="closeBurgerMenu">
+        <NuxtLinkLocale to="/" @click="closeBurgerMenu">
           <NuxtImg :src="`${STATICS_CDN}logo/logo-color.webp`" :width="90" alt="ColumnaQuiro" />
-        </nuxt-link>
+        </NuxtLinkLocale>
         <div class="flex-grow" />
         <nav class="hidden lg:flex h-fit">
           <cq-components-sub-menu-item
