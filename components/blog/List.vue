@@ -5,13 +5,13 @@
       :key="article._path"
       class="blog-list__item relative rounded-md m-0 overflow-hidden"
     >
-      <NuxtLink :to="article._path">
+      <NuxtLinkLocale :to="article._path">
         <div class="wrapper">
           <header class="flex">
             <NuxtImg :src="article.cover" class="rounded object-cover min-w-[150px] w-[150px] h-[150px] md:w-[180px] md:h-[180px]" :alt="article.headline" loading="lazy" />
             <div class="pl-5">
               <h2
-                class="blog-list__item-title lg:text-2xl md:text-xl text-lg font-medium mb-1 group-hover:text-brand-secondary"
+                class="blog-list__item-title text-lg font-medium mb-1 group-hover:text-brand-secondary"
               >
                 {{ article.headline }}
               </h2>
@@ -23,7 +23,7 @@
             </div>
           </header>
         </div>
-      </NuxtLink>
+      </NuxtLinkLocale>
     </li>
   </ul>
   <p v-if="data.length === 0" class="w-full md:w-7/12 text-h3 leading-h3 font-bold dark:text-white">

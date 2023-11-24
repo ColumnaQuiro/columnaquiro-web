@@ -1,19 +1,19 @@
 <template>
   <div class="text-center md:text-start">
     <NuxtImg :src="`${STATICS_CDN}logo/logo-color.webp`" :width="100" alt="ColumnaQuiro" class="md:mx-0 mx-auto" loading="lazy" />
-    <h3 class="text-lg font-medium py-4">
+    <h3 class="text-base font-medium py-4">
       {{ t('general.layout.footer.details.title') }}
     </h3>
-    <a class="text-base" :href="GOOGLE_MAPS_LOCAL_DIRECTION" target="_blank">
+    <a class="text-sm" :href="GOOGLE_MAPS_LOCAL_DIRECTION" target="_blank">
       {{ t('general.layout.footer.details.street') }}
     </a>
     <div>
-      <nuxt-link :href="`mailto:${t('general.layout.footer.details.email')}`" class="text-base pb-2 text-brand-black no-underline">
+      <nuxt-link :href="`mailto:${t('general.layout.footer.details.email')}`" class="text-sm pb-2 text-brand-black no-underline">
         {{ t('general.layout.footer.details.email') }}
       </nuxt-link>
     </div>
     <div>
-      <nuxt-link :href="`tel:${t('general.layout.footer.details.phone')}`" class="text-base pb-2 text-brand-black no-underline">
+      <nuxt-link :href="`tel:${t('general.layout.footer.details.phone')}`" class="text-sm pb-2 text-brand-black no-underline">
         {{ t('general.layout.footer.details.phone') }}
       </nuxt-link>
     </div>
