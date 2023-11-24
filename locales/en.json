@@ -58,23 +58,23 @@
       "items": [
         {
           "day": "Monday",
-          "schedule": "3:00 PM - 8:00 PM"
+          "schedule": "15:00 - 20:00"
         },
         {
           "day": "Tuesday",
-          "schedule": "10:00 AM - 2:00 PM"
+          "schedule": "10:00 - 14:00"
         },
         {
           "day": "Wednesday",
-          "schedule": "3:00 PM - 8:00 PM"
+          "schedule": "15:00 - 20:00"
         },
         {
           "day": "Thursday",
-          "schedule": "10:00 AM - 2:00 PM"
+          "schedule": "15:00 - 20:00"
         },
         {
           "day": "Friday",
-          "schedule": "10:00 AM - 2:00 PM"
+          "schedule": "10:00 - 14:00"
         }
       ]
     },
@@ -216,7 +216,7 @@
           }
         ],
         "appointmentButton": {
-          "text": "Book Appointment",
+          "text": "Book",
           "to": "/en/book-appointment-chiropractic-valencia"
         }
       },

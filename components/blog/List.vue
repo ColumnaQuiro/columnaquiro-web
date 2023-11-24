@@ -11,7 +11,7 @@
             <NuxtImg :src="article.cover" class="rounded object-cover min-w-[150px] w-[150px] h-[150px] md:w-[180px] md:h-[180px]" :alt="article.headline" loading="lazy" />
             <div class="pl-5">
               <h2
-                class="blog-list__item-title lg:text-2xl md:text-xl text-lg font-medium mb-1 group-hover:text-brand-secondary"
+                class="blog-list__item-title text-lg font-medium mb-1 group-hover:text-brand-secondary"
               >
                 {{ article.headline }}
               </h2>

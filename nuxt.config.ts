@@ -45,6 +45,7 @@ export default defineNuxtConfig({
   },
   i18n: {
     langDir: 'locales',
+    lazy: true,
     baseUrl: 'https://columnaquiro.com',
     vueI18n: 'i18n.config.ts',
     detectBrowserLanguage: { alwaysRedirect: true, fallbackLocale: 'es' },
@@ -84,22 +85,6 @@ export default defineNuxtConfig({
       'para-quien-sirve-la-quiropractica/[type]': {
         en: '/who-is-chiropractic-for/[type]'
       },
-      'para-quien-sirve-la-quiropractica/kids': {
-        es: 'para-quien-sirve-la-quiropractica/bebes-y-ninos',
-        en: '/who-is-chiropractic-for/kids'
-      },
-      'para-quien-sirve-la-quiropractica/discapacidades-motoras-intelectuales': {
-        en: '/who-is-chiropractic-for/disabled-people'
-      },
-      'para-quien-sirve-la-quiropractica/personas-mayores': {
-        en: '/who-is-chiropractic-for/elder-people'
-      },
-      'para-quien-sirve-la-quiropractica/deportistas': {
-        en: '/who-is-chiropractic-for/athletes'
-      },
-      'para-quien-sirve-la-quiropractica/trabajadores': {
-        en: '/who-is-chiropractic-for/workers'
-      },
       'sobre-nosotros/centro-quiropractico-valencia': {
         en: '/about-us/chiropractic-valencia'
       },
@@ -120,7 +105,8 @@ export default defineNuxtConfig({
       },
       'reserva-cita-centro-quiropractico-valencia': {
         en: '/book-appointment-chiropractic-valencia'
-      }
+      },
+      blog: false
     }
   },
   vuetify: {

@@ -12,10 +12,19 @@ import { useSEO } from '~/composables/seo'
 const route = useRoute()
 const { t } = useI18n()
 const useSeo = useSEO()
-
 const personType: string | undefined = typeOfPersonToKey.get(route.params.type as string)
 const personTitle = t(`chiropracticForWhom.types.personTitle.${personType}`)
 
+route.meta.nuxtI18n = { en: { type: typeOfPersonToKey.get(route.params.type as string) } }
+
+const head = useLocaleHead({
+  identifierAttribute: 'id',
+  addSeoAttributes: true
+})
+useHead({
+  link: head.value.link,
+  meta: head.value.meta
+})
 useSeo.setLocalBusinessSchemaOrgTag()
 useSeo.setSeoTags(t('chiropracticForWhom.types.seo.title', { personTitle }), t(`chiropracticForWhom.types.seo.description.${personType}`))
 </script>
