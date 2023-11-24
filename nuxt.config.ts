@@ -105,7 +105,8 @@ export default defineNuxtConfig({
       },
       'reserva-cita-centro-quiropractico-valencia': {
         en: '/book-appointment-chiropractic-valencia'
-      }
+      },
+      blog: false
     }
   },
   vuetify: {
