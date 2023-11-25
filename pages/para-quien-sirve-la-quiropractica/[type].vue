@@ -6,16 +6,22 @@
 </template>
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n'
-import { typeOfPersonToKey } from '~/constants/typeOfPersonMapping'
+import { typeOfPersonLocales, typeOfPersonToKey } from '~/constants/typeOfPersonMapping'
 import { useSEO } from '~/composables/seo'
+import type { UrlEnPersonType, UrlEsPersonType } from '~/types/Person'
 
 const route = useRoute()
-const { t } = useI18n()
+const { t, locale } = useI18n()
 const useSeo = useSEO()
 const personType: string | undefined = typeOfPersonToKey.get(route.params.type as string)
 const personTitle = t(`chiropracticForWhom.types.personTitle.${personType}`)
 
-route.meta.nuxtI18n = { en: { type: typeOfPersonToKey.get(route.params.type as string) } }
+if (personType) {
+  route.meta.nuxtI18n = {
+    en: { type: locale.value === 'en' ? personType : typeOfPersonLocales.en[personType as UrlEsPersonType] },
+    es: { type: locale.value === 'es' ? personType : typeOfPersonLocales.es[personType as UrlEnPersonType] }
+  }
+}
 
 const head = useLocaleHead({
   identifierAttribute: 'id',
