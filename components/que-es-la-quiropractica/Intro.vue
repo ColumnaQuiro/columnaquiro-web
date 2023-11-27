@@ -3,10 +3,11 @@
     <h1 class="section-title">
       {{ t('whatIsChiropractic.intro.title') }}
     </h1>
-    <cq-blocks-sections-paragraphWithImage
+    <cq-blocks-sections-paragraph-with-image
       :text="t('whatIsChiropractic.intro.description')"
       :image="`${STATICS_CDN}website/home/quiro-intro.webp`"
       :image-width="240"
+      image-alt="quiropractica valencia"
     />
   </cq-layout-section>
 </template>

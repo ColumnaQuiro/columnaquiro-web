@@ -1,8 +1,8 @@
 <template>
   <cq-layout-section>
-    <div class="section-title">
+    <h1 class="section-title">
       Aviso Legal
-    </div>
+    </h1>
     <div class="text-xl font-medium pb-3">
       Léa Guido
     </div>

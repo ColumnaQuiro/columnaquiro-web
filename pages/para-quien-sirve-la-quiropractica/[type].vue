@@ -32,6 +32,8 @@ useHead({
   link: head.value.link,
   meta: head.value.meta
 })
+
+useSeo.setI18nTags()
 useSeo.setLocalBusinessSchemaOrgTag()
 useSeo.setSeoTags(t('chiropracticForWhom.types.seo.title', { personTitle }), t(`chiropracticForWhom.types.seo.description.${personType}`))
 </script>

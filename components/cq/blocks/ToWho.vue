@@ -14,7 +14,7 @@
         :hover="true"
       >
         <v-card-text>
-          <NuxtImg :src="`${STATICS_CDN}website/home/${rt(item.key)}.webp`" class="w-full max-h-[200px] object-cover" />
+          <NuxtImg :src="`${STATICS_CDN}website/home/${rt(item.key)}.webp`" class="w-full max-h-[200px] object-cover" :alt="rt(item.title)" />
           <div class="py-4 px-4">
             <div class="text-lg font-medium text-center">
               {{ rt(item.title) }}

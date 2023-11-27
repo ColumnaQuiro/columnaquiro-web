@@ -23,8 +23,10 @@
               mdi-calendar
             </v-icon>{{ t('general.layout.navigationBar.appointmentButton.text') }}
           </cq-components-button>
+          <div class="h-8 bg-light-grey w-[1px] ml-4 mr-3" />
+          <cq-layout-language-selector />
         </nav>
-        <div class="lg:hidden">
+        <div class="flex items-center lg:hidden">
           <cq-components-button
             :to="t('general.layout.navigationBar.appointmentButton.to')"
             variant="flat"
@@ -34,6 +36,7 @@
               mdi-calendar
             </v-icon> {{ t('general.layout.navigationBar.appointmentButton.text') }}
           </cq-components-button>
+          <cq-layout-language-selector class="ml-4" />
           <cq-components-button
             icon
             variant="plain"

@@ -1,8 +1,8 @@
 <template>
   <cq-layout-section>
-    <div class="text-xl font-medium pb-3">
-      ¿Qué son y para qué las utilizamos?
-    </div>
+    <h1 class="section-title">
+      Política de Cookies
+    </h1>
 
     Este sitio web, al igual que la mayoría de sitios web en Internet, utiliza cookies para mejorar la experiencia del usuario. A continuación, encontrará información sobre qué son las cookies, qué tipo de cookies utiliza este portal, como puede desactivar las cookies en su navegador y como desactivar específicamente la instalación de las cookies de terceros.
     <br><br>

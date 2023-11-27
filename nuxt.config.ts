@@ -48,7 +48,7 @@ export default defineNuxtConfig({
     lazy: true,
     baseUrl: 'https://columnaquiro.com',
     vueI18n: 'i18n.config.ts',
-    detectBrowserLanguage: { alwaysRedirect: true, fallbackLocale: 'es' },
+    detectBrowserLanguage: false,
     defaultLocale: 'es',
     strategy: 'prefix_except_default',
     locales: [
@@ -105,8 +105,7 @@ export default defineNuxtConfig({
       },
       'reserva-cita-centro-quiropractico-valencia': {
         en: '/book-appointment-chiropractic-valencia'
-      },
-      blog: false
+      }
     }
   },
   vuetify: {

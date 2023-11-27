@@ -15,6 +15,7 @@ import { useSEO } from '~/composables/seo'
 const { t } = useI18n()
 const useSeo = useSEO()
 
+useSeo.setI18nTags()
 useSeo.setLocalBusinessSchemaOrgTag()
 useSeo.setSeoTags(t('home.seo.title'), t('home.seo.description'))
 </script>

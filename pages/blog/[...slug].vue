@@ -1,13 +1,20 @@
 <template>
   <cq-layout-section class="article">
-    <ContentDoc head>
-      <template #not-found>
-        <h2>Blog slug ({{ $route.params.slug }}) not found</h2>
-      </template>
-    </ContentDoc>
+    <ContentRenderer :value="data" />
   </cq-layout-section>
 </template>
 <script setup>
+import { useSEO } from '~/composables/seo'
+
+const localePath = useLocalePath()
+const useSeo = useSEO()
+const { params } = useRoute()
+const { data } = await useAsyncData(localePath('/blog'), async () => {
+  return await queryContent(`${localePath('/blog')}/${params.slug}`).findOne()
+})
+
+useSeo.setLocalBusinessSchemaOrgTag()
+useSeo.setSeoTags(data.value.title, data.value.description)
 </script>
 <style lang="scss">
 .article {

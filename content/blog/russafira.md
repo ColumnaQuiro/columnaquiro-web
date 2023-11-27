@@ -1,6 +1,6 @@
 ---
 title: 'Russafira | Blog | ColumnaQuiro'
-description: 'Supera el estrés con consejos de adaptación: ejercita, descansa y considera la quiropráctica para el bienestar en tiempos desafiantes.'
+description: 'Celebra un Halloween divertido en Russafira 2023. Descubre la importancia de cuidar la salud de la columna vertebral de manera divertida y educativa.'
 headline: 'Russafira 2023 y ColumnaQuiro'
 date: '2023-10-24T09:30:00'
 dateUpdated: ''

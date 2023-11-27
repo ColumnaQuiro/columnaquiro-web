@@ -216,7 +216,7 @@
           }
         ],
         "appointmentButton": {
-          "text": "Pide Tu Cita",
+          "text": "Pedir cita",
           "to": "/reserva-cita-centro-quiropractico-valencia"
         }
       },

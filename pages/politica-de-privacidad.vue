@@ -1,8 +1,8 @@
 <template>
   <cq-layout-section>
-    <div class="section-title">
+    <h1 class="section-title">
       I. POLÍTICA DE PRIVACIDAD Y PROTECCIÓN DE DATOS
-    </div>
+    </h1>
     Respetando lo establecido en la legislación vigente, Columnaquiro (en adelante, también Sitio Web) se compromete a adoptar las medidas técnicas y organizativas necesarias, según el nivel de seguridad adecuado al riesgo de los datos recogidos.
     <br><br>
     <div class="text-xl font-medium pb-3">

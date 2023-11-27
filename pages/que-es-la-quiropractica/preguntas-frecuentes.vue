@@ -39,6 +39,7 @@ const { t, tm, rt } = useI18n()
 const sections: Section[] = tm('faqs.sections')
 const useSeo = useSEO()
 
+useSeo.setI18nTags()
 useSeo.setLocalBusinessSchemaOrgTag()
 useSeo.setSeoTags(t('faqs.seo.title'), t('faqs.seo.description'))
 useSeo.setSchemaOrgTag({
