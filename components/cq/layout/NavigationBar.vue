@@ -23,8 +23,8 @@
               mdi-calendar
             </v-icon>{{ t('general.layout.navigationBar.appointmentButton.text') }}
           </cq-components-button>
-          <div class="h-8 bg-light-grey w-[1px] ml-4 mr-3" />
-          <cq-layout-language-selector />
+          <div v-if="!isBlogContentUrl" class="h-8 bg-light-grey w-[1px] ml-4 mr-3" />
+          <cq-layout-language-selector v-if="!isBlogContentUrl" />
         </nav>
         <div class="flex items-center lg:hidden">
           <cq-components-button
@@ -36,7 +36,7 @@
               mdi-calendar
             </v-icon> {{ t('general.layout.navigationBar.appointmentButton.text') }}
           </cq-components-button>
-          <cq-layout-language-selector class="ml-4" />
+          <cq-layout-language-selector v-if="!isBlogContentUrl" class="ml-4" />
           <cq-components-button
             icon
             variant="plain"
@@ -79,10 +79,12 @@ import { STATICS_CDN } from '~/constants/urls'
 import type { Link } from '~/types/Link'
 
 const { t, rt, tm } = useI18n()
+const route = useRoute()
 const links: Link[] = tm('general.layout.navigationBar.links')
 const mobileLinks: Link[] = tm('general.layout.navigationBar.mobileLinks')
-
 const showBurgerMenu: Ref<boolean> = ref(false)
+
+const isBlogContentUrl = computed(() => route.name.includes('slug'))
 
 const toggleBurgerMenu = () => {
   showBurgerMenu.value = !showBurgerMenu.value
