@@ -18,6 +18,7 @@ import { useSEO } from '~/composables/seo'
 const { t } = useI18n()
 const useSeo = useSEO()
 
+useSeo.setI18nTags()
 useSeo.setLocalBusinessSchemaOrgTag()
 useSeo.setSeoTags(t('chiropracticForWhom.seo.title'), t('chiropracticForWhom.seo.description'))
 </script>

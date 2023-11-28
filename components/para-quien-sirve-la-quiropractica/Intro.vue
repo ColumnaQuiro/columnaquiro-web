@@ -7,6 +7,7 @@
       :text="t(`chiropracticForWhom.types.intro.description.${personType}`)"
       :image="`${STATICS_CDN}website/para-todos/${personType}.webp`"
       :image-width="400"
+      :image-alt="t(`chiropracticForWhom.types.intro.title.${personType}`)"
     />
   </cq-layout-section>
 </template>

@@ -5,7 +5,7 @@
       :key="article._path"
       class="blog-list__item relative rounded-md m-0 overflow-hidden"
     >
-      <NuxtLink :to="article._path">
+      <NuxtLinkLocale :to="article._path">
         <div class="wrapper">
           <header class="flex">
             <NuxtImg :src="article.cover" class="rounded object-cover min-w-[150px] w-[150px] h-[150px] md:w-[180px] md:h-[180px]" :alt="article.headline" loading="lazy" />
@@ -23,7 +23,7 @@
             </div>
           </header>
         </div>
-      </NuxtLink>
+      </NuxtLinkLocale>
     </li>
   </ul>
   <p v-if="data.length === 0" class="w-full md:w-7/12 text-h3 leading-h3 font-bold dark:text-white">

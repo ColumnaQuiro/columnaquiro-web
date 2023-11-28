@@ -3,7 +3,7 @@
     <BlogHero />
     <ContentQuery
       v-slot="{ data }"
-      path="/blog"
+      :path="localePath('/blog')"
       :only="['headline', 'description', 'date', 'tags', '_path', 'image', 'cover']"
       :sort="{
         date: -1
@@ -13,11 +13,11 @@
       <BlogList :data="data" />
     </ContentQuery>
     <BlogPagination
-      v-if="data > 1"
+      v-if="numberOfPosts > 1"
       class="mt-8"
       :current-page="1"
-      :total-pages="data"
-      :next-page="data > 1"
+      :total-pages="numberOfPosts"
+      :next-page="numberOfPosts > 1"
       base-url="/blog/"
       page-url="/blog/page/"
     />
@@ -25,18 +25,18 @@
 </template>
 
 <script setup>
-// Find the number of blogs present
 import { useI18n } from 'vue-i18n'
 
+const { t } = useI18n()
+const localePath = useLocalePath()
+const useSeo = useSEO()
 const blogCountLimit = 6
-const { data } = await useAsyncData('content-/blog', async () => {
-  const _posts = await queryContent('/blog').only('headline').find()
+const { data: numberOfPosts } = await useAsyncData('content-/blog', async () => {
+  const _posts = await queryContent(localePath('/blog')).only('headline').find()
   return Math.ceil(_posts.length / blogCountLimit)
 })
 
-const { t } = useI18n()
-const useSeo = useSEO()
-
+useSeo.setI18nTags()
 useSeo.setLocalBusinessSchemaOrgTag()
 useSeo.setSeoTags(t('blog.seo.title'), t('blog.seo.description'))
 </script>

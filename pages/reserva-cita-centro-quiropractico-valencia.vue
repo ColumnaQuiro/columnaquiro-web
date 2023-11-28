@@ -16,6 +16,8 @@ import { useSEO } from '~/composables/seo'
 import { STATICS_CDN } from '~/constants/urls'
 
 const { t } = useI18n()
+const useSeo = useSEO()
 
-useSEO().setSeoTags(t('bookVisit.seo.title'), t('bookVisit.seo.description'))
+useSeo.setI18nTags()
+useSeo.setSeoTags(t('bookVisit.seo.title'), t('bookVisit.seo.description'))
 </script>

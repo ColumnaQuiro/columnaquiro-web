@@ -14,6 +14,7 @@
       :text="t('home.mission.description')"
       :image="`${STATICS_CDN}website/home/intro.webp`"
       :image-width="350"
+      image-alt="Lea Guido"
     />
   </cq-layout-section>
 </template>

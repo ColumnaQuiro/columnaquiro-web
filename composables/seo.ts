@@ -89,7 +89,22 @@ export const useSEO = () => {
     })
   }
 
+  const setI18nTags = () => {
+    const head = useLocaleHead({
+      addDirAttribute: true,
+      identifierAttribute: 'id',
+      addSeoAttributes: true
+    })
+    useHead({
+      htmlAttrs: {
+        lang: head.value.htmlAttrs!.lang
+      },
+      link: [...(head.value.link || [])],
+      meta: [...(head.value.meta || [])]
+    })
+  }
   return {
+    setI18nTags,
     setSeoTags,
     setSchemaOrgTag,
     setLocalBusinessSchemaOrgTag

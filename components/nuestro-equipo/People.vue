@@ -17,6 +17,7 @@
         :image="`${STATICS_CDN}${rt(person.imagePath)}`"
         :image-position=" i % 2 === 0 ? 'right' : 'left'"
         :image-width="400"
+        :image-alt="rt(person.name)"
       />
     </cq-layout-section>
   </div>
