@@ -1,6 +1,6 @@
 ---
 title: 'Dolor de espalda | Blog | ColumnaQuiro'
-description: 'La quiropráctica no solo aborda los síntomas sino también las causas subyacentes de la escoliosis, buscando mejorar la salud general.'
+description: 'La quiropráctica puede ser una opción valiosa para aliviar el dolor de espalda, que afecta a millones de personas en todo el mundo.'
 headline: 'Dolor de espalda'
 date: '2023-11-30T09:00:00'
 cover: https://statics.columnaquiro.com/blog/dolor-de-espalda.webp
