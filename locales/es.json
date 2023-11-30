@@ -258,6 +258,27 @@
       "title": "Centro Quiropráctico Valencia",
       "description": "Bienvenido/a a <span class='font-medium'>ColumnaQuiro</span>, tu centro quiropráctico en Valencia, con una visión holística de tu salud!<br><br><span class='font-medium'>¿Tienes dolor de espalda o alguna molestia en particular? ¿Sufres de dolores musculares, tensión o ansiedad?</span><br><br> El origen de la mayoría de los problemas de nuestra vida y de nuestro cuerpo proviene de la disfunción del sistema nervioso autónomo. Controla, coordina y regula toda la información necesaria para el óptimo funcionamiento de nuestro organismo. El cerebro envía y recibe toda la información a través de la médula espinal  y de los nervios hacia cada célula, tejido, órgano y músculo de nuestro cuerpo.<br><br> La quiropráctica es una excelente manera de mejorar la salud y tus sintomas de manera natural y segura."
     },
+    "howCareYourBack": {
+      "title": "Así cuidamos de tu columna vertebral",
+      "items": [
+        {
+          "imagePath": "estudio-individual",
+          "title": "Estudio personalizado",
+          "description": "A través de un cuestionario de salud, analizaremos tu caso de forma individual. En la primera visita realizaremos una sería de pruebas y el primer ajuste quiropráctico."
+        },
+        {
+          "imagePath": "informe-quiropractico",
+          "title": "Informe quiropráctico",
+          "description": "Te entregaremos tu informe quiropráctico con los resultados de las pruebas de la primera visita. Nuestro quiropráctico te resolverá cualquier duda."
+        },
+        {
+          "imagePath": "plan-de-cuidado",
+          "title": "Plan de cuidado",
+          "description": "Para mejorar el rendimiento de tu cuerpo, estableceremos una frecuencia de ajustes quiroprácticos adecuada a tus necesidades."
+        }
+      ],
+      "button": "Pide tu estudio personalizado"
+    },
     "exclusiveFocus": {
       "title": "Nuestro Enfoque Exclusivo: Tu Salud Integral en ColumnaQuiro",
       "intro": "Nuestro compromiso es monitorizar tu progreso de forma regular, permitiéndonos adaptar el cuidado que necesitas en cada etapa de tu vida. Para ello, empleamos diversas herramientas y técnicas avanzadas: ",

@@ -258,6 +258,27 @@
       "title": "Chiropractic Center Valencia",
       "description": "Welcome to <span class='font-medium'>ColumnaQuiro</span>, your chiropractic center in Valencia, with a holistic vision of your health!<br><br><span class='font-medium'>Do you have back pain or any specific discomfort? Do you suffer from muscle aches, tension, or anxiety?</span><br><br> The origin of most problems in our life and body comes from the dysfunction of the autonomic nervous system. It controls, coordinates, and regulates all the information necessary for the optimal functioning of our body. The brain sends and receives all the information through the spinal cord and nerves to each cell, tissue, organ, and muscle in our body.<br><br> Chiropractic is an excellent way to improve health and your symptoms naturally and safely."
     },
+    "howCareYourBack": {
+      "title": "How We Take Care of Your Spine",
+      "items": [
+        {
+          "imagePath": "estudio-individual",
+          "title": "Personalized Study",
+          "description": "Through a health questionnaire, we will analyze your case individually. During the first visit, we will conduct a series of tests and the first chiropractic adjustment."
+        },
+        {
+          "imagePath": "informe-quiropractico",
+          "title": "Chiropractic Report",
+          "description": "We will provide you with your chiropractic report containing the results of the tests from the first visit. Our chiropractor will address any questions you may have."
+        },
+        {
+          "imagePath": "plan-de-cuidado",
+          "title": "Care Plan",
+          "description": "To enhance your body's performance, we will establish a frequency of chiropractic adjustments tailored to your needs."
+        }
+      ],
+      "button": "Request Your Personalized Study"
+    },
     "exclusiveFocus": {
       "title": "Our Exclusive Focus: Your Comprehensive Health at ColumnaQuiro",
       "intro": "Our commitment is to monitor your progress regularly, allowing us to adapt the care you need at each stage of your life. To do this, we use various advanced tools and techniques:",

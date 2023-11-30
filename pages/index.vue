@@ -3,7 +3,7 @@
     <home-header-video />
     <home-mission />
     <home-interferences-schema />
-    <lazy-home-exclusive-focus />
+    <lazy-home-how-care-your-back />
     <lazy-cq-blocks-testimonials />
     <lazy-home-quiro-logos />
   </div>
