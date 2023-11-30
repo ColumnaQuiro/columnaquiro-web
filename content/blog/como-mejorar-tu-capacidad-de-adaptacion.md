@@ -3,15 +3,6 @@ title: 'Mejorar la capacidad de adaptación | Blog | ColumnaQuiro'
 description: 'Supera el estrés con consejos de adaptación: ejercita, descansa y considera la quiropráctica para el bienestar en tiempos desafiantes.'
 headline: 'Mejorar la capacidad de adaptación'
 date: '2023-08-31T09:00:00'
-dateUpdated: ''
-author: 'Léa Guido'
-authorUrl: 'https://example.com/'
-socialImage:
-src: '/img/blog/sample.webp'
-mime: 'webp'
-alt: 'Mountain'
-width: 1200
-height: 630
 cover: https://statics.columnaquiro.com/blog/como-mejorar-tu-capacidad-de-adaptacion.webp
 ---
 

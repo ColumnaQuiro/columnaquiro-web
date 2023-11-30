@@ -11,28 +11,28 @@ module.exports = {
   theme: {
     extend: {
       fontSize: {
-        h1: '4rem',
-        h2: '3rem',
-        h3: '2rem',
-        h4: '1.5rem',
+        h1: '3rem',
+        h2: '2rem',
+        h3: '1.5rem',
+        h4: '1.25rem',
+        h5: '1rem',
+        h1_sm: '2rem',
+        h2_sm: '1.75rem',
+        h3_sm: '1.5rem',
+        h4_sm: '1.25rem',
+        h5_sm: '1rem'
+      },
+      lineHeight: {
+        h1: '3.25rem',
+        h2: '2.25rem',
+        h3: '1.75rem',
+        h4: '1.50rem',
         h5: '1.25rem',
-        h1_sm: '3rem',
-        h2_sm: '2.25rem',
+        h1_sm: '2.25rem',
+        h2_sm: '2rem',
         h3_sm: '1.75rem',
         h4_sm: '1.5rem',
         h5_sm: '1.25rem'
-      },
-      lineHeight: {
-        h1: '4.25rem',
-        h2: '3.25rem',
-        h3: '2.25rem',
-        h4: '1.75rem',
-        h5: '1.5rem',
-        h1_sm: '3.25rem',
-        h2_sm: '2.5rem',
-        h3_sm: '2rem',
-        h4_sm: '1.75rem',
-        h5_sm: '1.5rem'
       },
       spacing: {
         nav: '4rem',

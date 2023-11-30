@@ -3,21 +3,12 @@ title: 'Como seleccionar la mochila perfecta para tus hijos | Blog'
 description: 'Consejos para elegir una mochila infantil adecuada y prevenir problemas de espalda: peso adecuado, tamaño, correas anchas, regulación, organización interna.'
 headline: 'Como seleccionar la mochila perfecta para tus hijos'
 date: '2023-09-06T08:00:00'
-dateUpdated: ''
-author: 'Léa Guido'
-authorUrl: 'https://example.com/'
-socialImage:
-src: '/img/blog/sample.webp'
-mime: 'webp'
-alt: 'Mountain'
-width: 1200
-height: 630
 cover: https://statics.columnaquiro.com/blog/como-elegir-la-mochila-perfecta-para-tus-hijos.webp
 ---
 
 
 # Cómo elegir la mochila perfecta para tus hijos 
-![Descripción de la imagen](https://statics.columnaquiro.com/blog/como-elegir-la-mochila-perfecta-para-tus-hijos.webp)
+![Mochila perfecta para tus hijos](https://statics.columnaquiro.com/blog/como-elegir-la-mochila-perfecta-para-tus-hijos.webp)
 Cada vez es más común observar a niños experimentando dolores de espalda o molestias posturales, lo cual se debe en gran parte a su estilo de vida cada vez más sedentario, caracterizado por largos períodos de tiempo sentados. El movimiento es esencial para el desarrollo apropiado de la musculatura y la columna vertebral en los niños.
 
 Cuando a esta ecuación le añadimos una mochila pesada y mal colocada en niños tan pequeños, los problemas en la columna y el desarrollo pueden surgir, ya que las curvaturas de la columna vertebral pueden verse afectadas.
