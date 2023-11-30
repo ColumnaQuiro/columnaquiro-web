@@ -3,15 +3,6 @@ title: 'Russafira | Blog | ColumnaQuiro'
 description: 'Celebra un Halloween divertido en Russafira 2023. Descubre la importancia de cuidar la salud de la columna vertebral de manera divertida y educativa.'
 headline: 'Russafira 2023 y ColumnaQuiro'
 date: '2023-10-24T09:30:00'
-dateUpdated: ''
-author: 'Léa Guido'
-authorUrl: 'https://example.com/'
-socialImage:
-src: '/img/blog/sample.webp'
-mime: 'webp'
-alt: 'Mountain'
-width: 1200
-height: 630
 cover: https://statics.columnaquiro.com/blog/russafira-mercat-animes-2023.webp
 ---
 

@@ -19,7 +19,11 @@ useSeo.setSeoTags(data.value.title, data.value.description)
 <style lang="scss">
 .article {
   p {
-    @apply mt-4;
+    @apply mt-2 mb-4;
+  }
+  ul {
+    @apply list-disc mb-4;
+    list-style: disc;
   }
   img {
     @apply md:max-w-[500px];
