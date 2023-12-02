@@ -28,12 +28,14 @@
 </template>
 <script setup lang="ts">
 
+import type { PropType } from 'vue'
+
 type ImagePosition = 'left' | 'right'
 
 const props = defineProps({
   text: {
     type: String,
-    required: true
+    default: ''
   },
   image: {
     type: String,

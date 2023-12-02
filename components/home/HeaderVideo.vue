@@ -4,9 +4,12 @@
       <div class="header-video__title">
         {{ t('home.headerVideo.title') }}
       </div>
-      <div class="header-video__subtitle">
+      <h3 class="header-video__subtitle px-4 md:px-0 pb-5">
         {{ t('home.headerVideo.subtitle') }}
-      </div>
+      </h3>
+      <cq-components-button href="#oferta" variant="outlined" color="#ffffff" size="large">
+        {{ t('home.headerVideo.button') }}
+      </cq-components-button>
     </div>
     <video
       autoplay
@@ -16,7 +19,7 @@
       :src="`${STATICS_CDN}website/home/header_video.mp4`"
       class="header-video__video"
     />
-    <a class="header-video__arrow-down" href="#mission">
+    <a class="header-video__arrow-down" href="#tu-centro">
       <NuxtImg :src="`${STATICS_CDN}icons/icon__arrow-down--white.webp`" :width="40" alt="flecha abajo" />
     </a>
   </div>
@@ -34,7 +37,7 @@ useHead({
 <style lang="scss" scoped>
 .header-video {
   &__overlay {
-    @apply absolute inset-0 top-14 h-screen bg-[#47474780] flex flex-col justify-center items-center;
+    @apply absolute inset-0 top-14 h-screen bg-[#47474780] flex flex-col justify-center items-center z-10;
     @apply lg:top-16;
   }
 

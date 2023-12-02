@@ -1,7 +1,7 @@
 {
   "general": {
     "testimonials": {
-      "title": "Your Testimonials Help Us Keep Improving",
+      "title": "They talk about the Chiropractic Center ColumnaQuiro",
       "items": [
         {
           "author": "Miriam",
@@ -51,7 +51,8 @@
           "author": "Cristian",
           "description": "A transformative experience with Dr. Lea, excellent human treatment. I recommend it to all people with symptoms or without symptoms; it is worth taking care of our body - we inhabit it."
         }
-      ]
+      ],
+      "button": "See more reviews"
     },
     "timetable": {
       "title": "Our Opening Hours",
@@ -252,11 +253,20 @@
     },
     "headerVideo": {
       "title": "Welcome to Columnaquiro",
-      "subtitle": "You are one step away from improving your health!"
+      "subtitle": "Take advantage of our offer: Chiropractic assessment and adjustment for only €50.",
+      "button": "See Offer"
+    },
+    "yourCenter": {
+      "title": "We Are Your Chiropractic Center in Valencia"
     },
     "mission": {
-      "title": "Chiropractic Center Valencia",
-      "description": "Welcome to <span class='font-medium'>ColumnaQuiro</span>, your chiropractic center in Valencia, with a holistic vision of your health!<br><br><span class='font-medium'>Do you have back pain or any specific discomfort? Do you suffer from muscle aches, tension, or anxiety?</span><br><br> The origin of most problems in our life and body comes from the dysfunction of the autonomic nervous system. It controls, coordinates, and regulates all the information necessary for the optimal functioning of our body. The brain sends and receives all the information through the spinal cord and nerves to each cell, tissue, organ, and muscle in our body.<br><br> Chiropractic is an excellent way to improve health and your symptoms naturally and safely."
+      "title": "Discover how chiropractic enhances the well-being of your spine and promotes the overall health of your body",
+      "description": "\"Chiropractic is for you, regardless of your age or situation. Whether you are a <span class='font-medium'>newborn, child, pregnant, experiencing neck or back discomfort due to work, in the beautiful stage of old age, or an athlete</span>, chiropractic will help you improve your lifestyle and health.\""
+    },
+    "offer": {
+      "title": "First chiropractic session for €50",
+      "description": "For the <span class='font-medium'>first 30 individuals</span>, enjoy your personalized assessment and first chiropractic adjustment for <span class='font-medium'>only €50.</span> *Includes all tests.",
+      "button": "Book Appointment"
     },
     "howCareYourBack": {
       "title": "How We Take Care of Your Spine",

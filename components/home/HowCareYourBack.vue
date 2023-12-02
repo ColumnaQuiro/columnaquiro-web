@@ -18,8 +18,8 @@
         <div class="text-base" v-html="rt(item.description)" />
       </div>
     </div>
-    <div class="text-center pt-8">
-      <cq-components-button :to="localePath('/reserva-cita-centro-quiropractico-valencia')" color="tertiary" @click="trackBookButton">
+    <div class="text-center pt-10">
+      <cq-components-button :to="localePath('/reserva-cita-centro-quiropractico-valencia')" color="tertiary" size="large" @click="trackBookButton">
         {{ t('home.howCareYourBack.button') }}
       </cq-components-button>
     </div>
