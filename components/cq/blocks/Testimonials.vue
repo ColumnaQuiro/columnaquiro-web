@@ -1,5 +1,5 @@
 <template>
-  <cq-layout-section class="bg-brand-light-tertiary">
+  <cq-layout-section class="bg-light-grey">
     <h2 class="section-title">
       {{ t('general.testimonials.title') }}
     </h2>
@@ -27,13 +27,18 @@
         <pagination />
       </template>
     </carousel>
+    <div class="text-center pt-10">
+      <cq-components-button :href="COLUMNAQUIRO_GOOGLE_REVIEWS" color="secondary" size="x-large">
+        {{ t('general.testimonials.button') }}
+      </cq-components-button>
+    </div>
   </cq-layout-section>
 </template>
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n'
 import 'vue3-carousel/dist/carousel.css'
 import { Carousel, Slide, Pagination, Navigation } from 'vue3-carousel'
-import { STATICS_CDN } from '~/constants/urls'
+import { COLUMNAQUIRO_GOOGLE_REVIEWS, STATICS_CDN } from '~/constants/urls'
 
 interface Testimonial {
   author: string

@@ -1,7 +1,7 @@
 {
   "general": {
     "testimonials": {
-      "title": "Vuestros testimonios nos ayudan a seguir mejorando",
+      "title": "Hablan del Centro Quiropráctico ColumnaQuiro",
       "items": [
         {
           "author": "Miriam",
@@ -51,7 +51,8 @@
           "author": "Cristian",
           "description": "Una experiencia  transformadora con la dra Lea  , un trato humano excelente ,lo recomiendo a todas las personas con síntomas o sin síntomas , merece la pena cuidar nuestro cuerpo - habitamos en el -"
         }
-      ]
+      ],
+      "button": "Ver más reseñas"
     },
     "timetable": {
       "title": "Nuestros horarios",
@@ -252,11 +253,41 @@
     },
     "headerVideo": {
       "title": "Bienvenid{'@'} a Columnaquiro",
-      "subtitle": "¡Estas a un paso de mejorar tu salud!"
+      "subtitle": "Aprovecha nuestra oferta, por solo 50€ estudio quiropráctico y ajuste.",
+      "button": "Ver oferta"
+    },
+    "yourCenter": {
+      "title": "Somos tu Centro Quiropráctico en Valencia"
     },
     "mission": {
-      "title": "Centro Quiropráctico Valencia",
-      "description": "Bienvenido/a a <span class='font-medium'>ColumnaQuiro</span>, tu centro quiropráctico en Valencia, con una visión holística de tu salud!<br><br><span class='font-medium'>¿Tienes dolor de espalda o alguna molestia en particular? ¿Sufres de dolores musculares, tensión o ansiedad?</span><br><br> El origen de la mayoría de los problemas de nuestra vida y de nuestro cuerpo proviene de la disfunción del sistema nervioso autónomo. Controla, coordina y regula toda la información necesaria para el óptimo funcionamiento de nuestro organismo. El cerebro envía y recibe toda la información a través de la médula espinal  y de los nervios hacia cada célula, tejido, órgano y músculo de nuestro cuerpo.<br><br> La quiropráctica es una excelente manera de mejorar la salud y tus sintomas de manera natural y segura."
+      "title": "Descubre cómo la quiropráctica potencia el bienestar de tu columna vertebral y favorece la salud integral de tu organismo",
+      "description": "\"La quiropráctica es para ti, sin importar tu edad o situación. Ya seas un <span class='font-medium'>recién nacido, niño, embarazada, experimentes molestias en el cuello o la espalda debido al trabajo, estés en la hermosa etapa de la vejez o seas un deportista</span>, la quiropráctica te ayudará a mejorar tu estilo de vida y salud\""
+    },
+    "offer": {
+      "title": "Primera sesión quiropráctica por 50€",
+      "description": "Solo para los <span class='font-medium'>30 primeros</span>, disfruta de tu estudio personalizado y primer ajuste quiropráctico por tan <span class='font-medium'>solo 50€.</span> *Incluye todas las pruebas.",
+      "button": "Pedir cita"
+    },
+    "howCareYourBack": {
+      "title": "Así cuidamos de tu columna vertebral",
+      "items": [
+        {
+          "imagePath": "estudio-individual",
+          "title": "Estudio personalizado",
+          "description": "A través de un cuestionario de salud, analizaremos tu caso de forma individual. En la primera visita realizaremos una sería de pruebas y el primer ajuste quiropráctico."
+        },
+        {
+          "imagePath": "informe-quiropractico",
+          "title": "Informe quiropráctico",
+          "description": "Te entregaremos tu informe quiropráctico con los resultados de las pruebas de la primera visita. Nuestro quiropráctico te resolverá cualquier duda."
+        },
+        {
+          "imagePath": "plan-de-cuidado",
+          "title": "Plan de cuidado",
+          "description": "Para mejorar el rendimiento de tu cuerpo, estableceremos una frecuencia de ajustes quiroprácticos adecuada a tus necesidades."
+        }
+      ],
+      "button": "Pide tu estudio personalizado"
     },
     "exclusiveFocus": {
       "title": "Nuestro Enfoque Exclusivo: Tu Salud Integral en ColumnaQuiro",

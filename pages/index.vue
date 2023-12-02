@@ -1,9 +1,10 @@
 <template>
   <div>
     <home-header-video />
-    <home-mission />
-    <home-interferences-schema />
-    <lazy-home-exclusive-focus />
+    <home-your-center-title />
+    <lazy-home-mission />
+    <home-offer />
+    <lazy-home-how-care-your-back />
     <lazy-cq-blocks-testimonials />
     <lazy-home-quiro-logos />
   </div>

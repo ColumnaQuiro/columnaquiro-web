@@ -10,6 +10,7 @@
     :to="to"
     :href="href"
     :color="color"
+    :flat="true"
     @click="click"
   >
     <slot />
@@ -60,7 +61,6 @@ interface Props {
 withDefaults(defineProps<Props>(), {
   disabled: false,
   block: false,
-  text: false,
   color: 'primary',
   size: 'default',
   href: undefined,
