@@ -3,30 +3,7 @@
     <h2 class="section-title">
       {{ t('general.testimonials.title') }}
     </h2>
-    <carousel :settings="carouselSettings" :breakpoints="carouselBreakpoints">
-      <slide v-for="item in items" :key="rt(item.author)">
-        <div
-          class="p-3 h-full rounded-xl bg-white"
-        >
-          <div class="flex flex-row justify-end">
-            <NuxtImg :src="`${STATICS_CDN}icons/icon__google.webp`" width="20" alt="google" />
-          </div>
-          <div class="flex flex-col justify-center h-full">
-            <NuxtImg :src="`${STATICS_CDN}icons/icon__five-stars.webp`" width="100" class="pb-4 mx-auto" alt="five stars" />
-            <div class="text-base pb-2">
-              {{ rt(item.description) }}
-            </div>
-            <div class="text-xs italic">
-              {{ rt(item.author) }}
-            </div>
-          </div>
-        </div>
-      </slide>
-      <template #addons>
-        <navigation />
-        <pagination />
-      </template>
-    </carousel>
+    <div class="sk-ww-google-reviews" data-embed-id="236880" />
     <div class="text-center pt-10">
       <cq-components-button :href="COLUMNAQUIRO_GOOGLE_REVIEWS" color="secondary" size="x-large">
         {{ t('general.testimonials.button') }}
@@ -36,58 +13,26 @@
 </template>
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n'
-import 'vue3-carousel/dist/carousel.css'
-import { Carousel, Slide, Pagination, Navigation } from 'vue3-carousel'
-import { COLUMNAQUIRO_GOOGLE_REVIEWS, STATICS_CDN } from '~/constants/urls'
+import { COLUMNAQUIRO_GOOGLE_REVIEWS } from '~/constants/urls'
 
 interface Testimonial {
   author: string
   description: string
 }
 
-const { t, tm, rt } = useI18n()
+const { t } = useI18n()
 
-const items: Testimonial[] = tm('general.testimonials.items')
-
-const carouselSettings = {
-  itemsToShow: 1,
-  wrapAround: true,
-  autoplay: 2000,
-  transition: 1000
-}
-
-const carouselBreakpoints = {
-  800: {
-    itemsToShow: 2
-  },
-  1280: {
-    itemsToShow: 3
-  }
-}
 </script>
 <style lang="scss">
-.carousel__item {
-  min-height: 200px;
-  width: 100%;
-  color: var(--v-theme-blackBranded);
-  border-radius: 8px;
+.sk_reviews_grid {
+  @apply md:h-[600px] #{!important};
 }
 
-.carousel__pagination-button--active::after {
-  @apply bg-brand-black;
+.sk-ww-google-reviews-review-text {
+  @apply h-[115px] md:h-[150px] #{!important};
 }
 
-.carousel__slide {
-  padding: 10px;
-}
-
-.carousel__next {
-  @apply right-[-25px];
-  @apply md:right-[-30px];
-}
-
-.carousel__prev {
-  @apply left-[-25px];
-  @apply md:left-[-30px];
+.sk_reviews_grid-content {
+  @apply md:h-[250px] #{!important};
 }
 </style>

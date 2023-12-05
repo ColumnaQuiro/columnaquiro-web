@@ -121,6 +121,9 @@ export default defineNuxtConfig({
   },
   gtag: {
     id: 'G-7RZ1YECNKZ',
+    config: {
+      debug_mode: process.env.NODE_ENV === 'development'
+    },
     initialConsent: true
   },
   postcss: {
