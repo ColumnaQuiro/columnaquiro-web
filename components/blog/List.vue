@@ -5,7 +5,7 @@
       :key="article._path"
       class="blog-list__item relative rounded-md m-0 overflow-hidden"
     >
-      <NuxtLinkLocale :to="article._path">
+      <a :href="localePath(article._path)">
         <div class="wrapper">
           <header class="flex">
             <NuxtImg :src="article.cover" class="rounded object-cover min-w-[150px] w-[150px] h-[150px] md:w-[180px] md:h-[180px]" :alt="article.headline" loading="lazy" />
@@ -23,7 +23,7 @@
             </div>
           </header>
         </div>
-      </NuxtLinkLocale>
+      </a>
     </li>
   </ul>
   <p v-if="data.length === 0" class="w-full md:w-7/12 text-h3 leading-h3 font-bold dark:text-white">
@@ -32,6 +32,8 @@
 </template>
 
 <script setup>
+import {useLocalePath} from "#i18n";
+
 defineProps({
   data: {
     type: Array,
@@ -44,6 +46,7 @@ defineProps({
 })
 
 const { $formatDate } = useNuxtApp()
+const localePath = useLocalePath()
 </script>
 <style lang="scss" scoped>
 .blog-list {
