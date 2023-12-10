@@ -15,7 +15,7 @@ const onWhatsappClicked = () => {
 <style lang="scss" scoped>
 .whatsapp-widget {
   transition: all;
-  @apply fixed bottom-2 right-4;
+  @apply fixed bottom-2 right-4 z-20;
 
   &:hover {
     img {

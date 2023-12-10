@@ -1,9 +1,9 @@
 <template>
   <div>
-    <div class="text-base font-medium text-center pb-4">
+    <h3 class="text-base font-medium text-center pb-4">
       {{ t('general.timetable.title') }}
-    </div>
-    <div class="flex flex-row justify-center align-bottom text-start flex-wrap">
+    </h3>
+    <div class="flex flex-row justify-center align-bottom text-center lg:text-start flex-wrap">
       <div v-for="timetable in timetableItems" :key="rt(timetable.day)" class="mr-4 mb-4">
         <div class="text-sm font-medium">
           {{ rt(timetable.day) }}

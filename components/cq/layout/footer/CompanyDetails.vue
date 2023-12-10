@@ -1,7 +1,6 @@
 <template>
   <div class="text-center md:text-start">
-    <NuxtImg :src="`${STATICS_CDN}logo/logo-color.webp`" :width="100" alt="ColumnaQuiro" class="md:mx-0 mx-auto" loading="lazy" />
-    <h3 class="text-base font-medium py-4">
+    <h3 class="text-base font-medium pb-4">
       {{ t('general.layout.footer.details.title') }}
     </h3>
     <a class="text-sm" :href="GOOGLE_MAPS_LOCAL_DIRECTION" target="_blank">
@@ -58,7 +57,7 @@
 </template>
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n'
-import { FACEBOOK_URL, GOOGLE_MAPS_LOCAL_DIRECTION, INSTAGRAM_URL, STATICS_CDN, WHATSAPP_URL } from '~/constants/urls'
+import { FACEBOOK_URL, GOOGLE_MAPS_LOCAL_DIRECTION, INSTAGRAM_URL, WHATSAPP_URL } from '~/constants/urls'
 
 const { t } = useI18n()
 type SocialApps = 'whatsapp' | 'facebook' | 'instagram'

@@ -3,9 +3,9 @@
     id="tu-centro"
     class="bg-brand-light-tertiary"
   >
-    <h1 class="section-title pb-0 mb-0">
+    <h2 class="section-title pb-0 mb-0">
       {{ t('home.yourCenter.title') }}
-    </h1>
+    </h2>
   </cq-layout-section>
 </template>
 <script setup lang="ts">
