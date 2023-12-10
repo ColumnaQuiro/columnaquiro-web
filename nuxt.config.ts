@@ -158,5 +158,8 @@ export default defineNuxtConfig({
   },
   experimental: {
     inlineSSRStyles: false
+  },
+  runtimeConfig: {
+    googleMapsApiKey: ''
   }
 })
