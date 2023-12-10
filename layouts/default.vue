@@ -1,8 +1,8 @@
 <template>
   <div>
-    <Html :lang="head.htmlAttrs.lang" :dir="head.htmlAttrs.dir">
+    <Html :lang="head?.htmlAttrs?.lang" :dir="head?.htmlAttrs?.dir">
       <cq-layout-navigation-bar />
-      <main class="pt-14 lg:pt-16">
+      <main :class="{'pt-14 lg:pt-16': !isIndexUrl}">
         <slot />
       </main>
       <lazy-cq-layout-footer-container />
@@ -33,6 +33,8 @@ import { STATICS_CDN } from '~/constants/urls'
 
 const { t } = useI18n()
 const { grantConsent } = useGtag()
+const route = useRoute()
+const isIndexUrl = computed(() => route.name?.includes('index'))
 const head = useLocaleHead({
   addDirAttribute: true,
   identifierAttribute: 'id',

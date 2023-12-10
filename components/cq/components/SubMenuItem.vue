@@ -3,9 +3,9 @@
     <cq-components-button
       :to="to"
       variant="text"
-      color="blackBranded"
+      :color="isScrolling ? 'blackBranded' : 'background'"
       block
-      class="sub-menu-item_:button mr-4"
+      class="mr-4"
     >
       {{ text }}
     </cq-components-button>
@@ -37,10 +37,12 @@ interface Props {
   text: string
   to: string | undefined
   subMenu?: Link[]
+  isScrolling?: boolean
 }
 
 withDefaults(defineProps<Props>(), {
-  subMenu: undefined
+  subMenu: undefined,
+  isScrolling: false
 })
 
 const { rt } = useI18n()
