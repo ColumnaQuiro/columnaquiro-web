@@ -348,6 +348,51 @@
         ]
       }
     },
+    "faqs": {
+      "title": "Frequently Asked Questions",
+      "items": [
+        {
+          "title": "What is chiropractic, and how can it benefit my health?",
+          "body": "Chiropractic is a health care approach focused on the nervous system and spine. It can improve overall body function, alleviate pain, and promote well-being."
+        },
+        {
+          "title": "What common health issues does chiropractic address?",
+          "body": "Chiropractic addresses a variety of issues, including back, neck, and head pain, postural problems, sports injuries, and nervous system disorders."
+        },
+        {
+          "title": "How do I know if chiropractic is right for me?",
+          "body": "Chiropractic is safe for most people. Before starting treatment, we conduct a thorough assessment to determine the patient's suitability and customize the treatment plan."
+        },
+        {
+          "title": "How long will it take to see results with chiropractic?",
+          "body": "The speed at which improvements are experienced varies depending on the health issue. Some patients feel relief after the first session, while others may need several sessions."
+        },
+        {
+          "title": "What is a typical chiropractic session like?",
+          "body": "Chiropractic sessions typically include assessment, specific adjustments, and recommendations for home care, such as exercises and postures."
+        },
+        {
+          "title": "Is chiropractic safe during pregnancy?",
+          "body": "Yes, chiropractic can be safe and beneficial during pregnancy. Adjustments are adapted to ensure the comfort and safety of both the mother and the baby."
+        },
+        {
+          "title": "Does chiropractic only treat back pain?",
+          "body": "While chiropractic is effective for back pain, it also addresses a variety of health issues, including headaches, migraines, digestive problems, and stress."
+        },
+        {
+          "title": "How many chiropractic sessions will I need?",
+          "body": "The number of sessions depends on the specific issue and how the patient responds to treatment. We develop personalized treatment plans for each individual."
+        },
+        {
+          "title": "Is chiropractic suitable for children?",
+          "body": "Yes, chiropractic can be beneficial for children. Adjustments are gentle and tailored to the child's age, addressing issues such as colic, scoliosis, and sports injuries."
+        },
+        {
+          "title": "Is chiropractic a long-term treatment?",
+          "body": "The duration of treatment varies based on the condition and the patient's goals. Some people choose chiropractic as part of their ongoing wellness approach, while others seek specific and limited treatment."
+        }
+      ]
+    },
     "quiroLogos": {
       "logos": [
         {
