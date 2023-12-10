@@ -23,11 +23,7 @@
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n'
 import { useSEO } from '~/composables/seo'
-
-interface FAQ {
-  title: string
-  body: string
-}
+import type { FAQ } from '~/types/Faq'
 
 interface Section {
   title: string

@@ -1,12 +1,12 @@
 <template>
   <div class="header-video w-screen h-screen">
     <div class="header-video__overlay">
-      <div class="header-video__title">
+      <h1 class="header-video__title">
         {{ t('home.headerVideo.title') }}
-      </div>
-      <h3 class="header-video__subtitle px-4 md:px-0 pb-5">
+      </h1>
+      <h2 class="header-video__subtitle px-4 md:px-0 pb-5">
         {{ t('home.headerVideo.subtitle') }}
-      </h3>
+      </h2>
       <cq-components-button href="#oferta" variant="outlined" color="#ffffff" size="large">
         {{ t('home.headerVideo.button') }}
       </cq-components-button>
@@ -37,8 +37,7 @@ useHead({
 <style lang="scss" scoped>
 .header-video {
   &__overlay {
-    @apply absolute inset-0 top-14 h-screen bg-[#47474780] flex flex-col justify-center items-center z-10;
-    @apply lg:top-16;
+    @apply absolute inset-0 h-screen bg-[#47474780] flex flex-col justify-center items-center z-10;
   }
 
   &__video {
@@ -56,7 +55,7 @@ useHead({
   }
 
   &__arrow-down {
-    @apply absolute bottom-2 inset-x-0 animate-bounce;
+    @apply absolute bottom-2 inset-x-0 animate-bounce z-10;
 
     img {
       @apply mx-auto;

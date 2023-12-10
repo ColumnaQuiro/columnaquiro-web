@@ -6,7 +6,6 @@
       :background-image-url="`${STATICS_CDN}website/nuestro-centro/local-outside-landscape.webp`"
     />
     <reserva-tu-visita-header />
-    <lazy-cq-blocks-testimonials />
     <lazy-home-quiro-logos />
   </div>
 </template>

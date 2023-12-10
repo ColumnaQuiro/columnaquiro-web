@@ -15,24 +15,5 @@
 import { useI18n } from 'vue-i18n'
 import { COLUMNAQUIRO_GOOGLE_REVIEWS } from '~/constants/urls'
 
-interface Testimonial {
-  author: string
-  description: string
-}
-
 const { t } = useI18n()
-
 </script>
-<style lang="scss">
-.sk_reviews_grid {
-  @apply md:h-[600px] #{!important};
-}
-
-.sk-ww-google-reviews-review-text {
-  @apply h-[115px] md:h-[150px] #{!important};
-}
-
-.sk_reviews_grid-content {
-  @apply md:h-[250px] #{!important};
-}
-</style>
