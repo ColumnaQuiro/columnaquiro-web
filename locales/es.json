@@ -252,12 +252,12 @@
       "description": "Centro de quiropráctica en el centro de València. Descubre en el centro ColumnaQuiro qué es la quiropráctica y sus beneficios. La Quiropráctica es para tí"
     },
     "headerVideo": {
-      "title": "Bienvenid{'@'} a Columnaquiro",
+      "title": "Tu Centro Quiropráctico en Valencia",
       "subtitle": "Aprovecha nuestra oferta, por solo 50€ estudio quiropráctico y ajuste.",
       "button": "Ver oferta"
     },
     "yourCenter": {
-      "title": "Somos tu Centro Quiropráctico en Valencia"
+      "title": "Somos tu Centro Quiropráctico de confianza"
     },
     "mission": {
       "title": "Descubre cómo la quiropráctica potencia el bienestar de tu columna vertebral y favorece la salud integral de tu organismo",
@@ -347,6 +347,51 @@
           }
         ]
       }
+    },
+    "faqs": {
+      "title": "Preguntas frecuentes",
+      "items": [
+        {
+          "title": "¿Qué es la quiropráctica y cómo puede beneficiar mi salud?",
+          "body": "La quiropráctica es un enfoque de atención de la salud centrado en el sistema nervioso y la columna vertebral. Puede mejorar la función general del cuerpo, aliviar el dolor y promover el bienestar."
+        },
+        {
+          "title": "¿Cuáles son los problemas de salud comunes que trata la quiropráctica?",
+          "body": "La quiropráctica aborda una variedad de problemas, como dolores de espalda, cuello y cabeza, problemas posturales, lesiones deportivas y trastornos del sistema nervioso."
+        },
+        {
+          "title": "¿Cómo sé si la quiropráctica es adecuada para mí?",
+          "body": "La quiropráctica es segura para la mayoría de las personas. Antes de iniciar el tratamiento, realizamos una evaluación exhaustiva para determinar la idoneidad del paciente y personalizar el plan de tratamiento."
+        },
+        {
+          "title": "¿Cuánto tiempo tomará ver resultados con la quiropráctica?",
+          "body": "La rapidez con la que se experimentan mejoras varía según el problema de salud. Algunos pacientes sienten alivio después de la primera sesión, mientras que otros pueden necesitar varias."
+        },
+        {
+          "title": "¿Cómo es una sesión típica de quiropráctica?",
+          "body": "Las sesiones de quiropráctica suelen incluir evaluación, ajustes específicos, y recomendaciones para el cuidado en el hogar, como ejercicios y posturas."
+        },
+        {
+          "title": "¿La quiropráctica es segura durante el embarazo?",
+          "body": "Sí, la quiropráctica puede ser segura y beneficiosa durante el embarazo. Los ajustes se adaptan para garantizar la comodidad y seguridad de la madre y el bebé."
+        },
+        {
+          "title": "¿La quiropráctica trata solo el dolor de espalda?",
+          "body": "Aunque la quiropráctica es eficaz para el dolor de espalda, también aborda una variedad de problemas de salud, incluidos dolores de cabeza, migrañas, problemas digestivos y estrés."
+        },
+        {
+          "title": "¿Cuántas sesiones de quiropráctica necesitaré?",
+          "body": "La cantidad de sesiones depende del problema específico y de cómo responda el paciente al tratamiento. Desarrollamos planes de tratamiento personalizados para cada individuo."
+        },
+        {
+          "title": "¿La quiropráctica es adecuada para niños?",
+          "body": "Sí, la quiropráctica puede ser beneficiosa para niños. Los ajustes son suaves y adaptados a la edad del niño, ayudando con problemas como el cólico, la escoliosis y las lesiones deportivas."
+        },
+        {
+          "title": "¿La quiropráctica es un tratamiento a largo plazo?",
+          "body": "La duración del tratamiento varía según la condición y los objetivos del paciente. Algunas personas eligen la quiropráctica como parte de su enfoque continuo de bienestar, mientras que otras buscan tratamiento específico y limitado."
+        }
+      ]
     },
     "quiroLogos": {
       "logos": [

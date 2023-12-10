@@ -6,6 +6,7 @@
     <lazy-home-offer />
     <lazy-cq-blocks-testimonials />
     <lazy-home-how-care-your-back />
+    <lazy-home-faqs />
     <lazy-home-quiro-logos />
   </div>
 </template>

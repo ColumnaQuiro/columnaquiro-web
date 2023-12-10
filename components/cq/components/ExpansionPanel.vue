@@ -1,9 +1,8 @@
 <template>
   <div>
     <div class="space-y-4">
-      <div class="bg-brand-light-secondary rounded">
-        <button
-          type="button"
+      <div class="bg-brand-light-white rounded">
+        <a
           class="p-4 flex items-center justify-between cursor-pointer w-full"
           @click="togglePanel"
         >
@@ -25,10 +24,10 @@
               d="M5 15l7-7 7 7"
             />
           </svg>
-        </button>
+        </a>
         <div
           class="transition-height overflow-hidden"
-          :class="{'h-0': !expanded, 'h-auto p-4': expanded}"
+          :class="{'h-0': !expanded, 'h-auto px-4 pb-4': expanded}"
         >
           <div class="text-base mt-4">
             <slot name="answer">
