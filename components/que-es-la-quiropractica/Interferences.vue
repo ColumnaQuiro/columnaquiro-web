@@ -9,7 +9,8 @@
     <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 pt-8 text-center">
       <div v-for="item in items" :key="rt(item.icon)">
         <NuxtImg
-          :src="`${STATICS_CDN}icons/icon-${rt(item.icon)}.webp`"
+          :src="`icons/icon-${rt(item.icon)}.webp`"
+          provider="s3"
           :alt="rt(item.title)"
           width="80"
           class="mx-auto"
@@ -28,7 +29,6 @@
 
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n'
-import { STATICS_CDN } from '~/constants/urls'
 
 interface Item {
   icon: string

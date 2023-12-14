@@ -14,7 +14,7 @@
       </div>
       <cq-blocks-sections-paragraphWithImage
         :text="rt(person.description)"
-        :image="`${STATICS_CDN}${rt(person.imagePath)}`"
+        :image="`${rt(person.imagePath)}`"
         :image-position=" i % 2 === 0 ? 'right' : 'left'"
         :image-width="400"
         :image-alt="rt(person.name)"
@@ -24,7 +24,6 @@
 </template>
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n'
-import { STATICS_CDN } from '~/constants/urls'
 
 interface Person {
   name: string

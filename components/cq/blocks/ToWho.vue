@@ -14,7 +14,12 @@
         :hover="true"
       >
         <v-card-text>
-          <NuxtImg :src="`${STATICS_CDN}website/home/${rt(item.key)}.webp`" class="w-full max-h-[200px] object-cover" :alt="rt(item.title)" />
+          <NuxtImg
+            provider="s3"
+            :src="`website/home/${rt(item.key)}.webp`"
+            class="w-full max-h-[200px] object-cover"
+            :alt="rt(item.title)"
+          />
           <div class="py-4 px-4">
             <div class="text-lg font-medium text-center">
               {{ rt(item.title) }}
@@ -30,7 +35,6 @@
 </template>
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n'
-import { STATICS_CDN } from '~/constants/urls'
 
 interface Item {
   key: string

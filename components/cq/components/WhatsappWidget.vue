@@ -1,10 +1,15 @@
 <template>
   <a class="whatsapp-widget" :href="WHATSAPP_URL" target="_blank" @click="onWhatsappClicked">
-    <NuxtImg :src="`${STATICS_CDN}icons/icon__whatsapp.webp`" width="50" alt="whatsapp" />
+    <NuxtImg
+      src="icons/icon__whatsapp.webp"
+      provider="s3"
+      width="50"
+      alt="whatsapp"
+    />
   </a>
 </template>
 <script setup lang="ts">
-import { STATICS_CDN, WHATSAPP_URL } from '~/constants/urls'
+import { WHATSAPP_URL } from '~/constants/urls'
 
 const onWhatsappClicked = () => {
   useTrackEvent('contact', {

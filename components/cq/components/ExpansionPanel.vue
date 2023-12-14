@@ -2,8 +2,11 @@
   <div>
     <div class="space-y-4">
       <div class="bg-brand-light-white rounded">
-        <a
+        <div
+          role="button"
           class="p-4 flex items-center justify-between cursor-pointer w-full"
+          :aria-expanded="expanded"
+          :aria-controls="faqId"
           @click="togglePanel"
         >
           <h3 class="text-base font-medium">
@@ -24,8 +27,9 @@
               d="M5 15l7-7 7 7"
             />
           </svg>
-        </a>
+        </div>
         <div
+          :id="faqId"
           class="transition-height overflow-hidden"
           :class="{'h-0': !expanded, 'h-auto px-4 pb-4': expanded}"
         >
@@ -46,8 +50,8 @@ interface Props {
   answer: String
 }
 
-defineProps<Props>()
-
+const props = defineProps<Props>()
+const faqId = props.title.replace(/\s/g, '-').replace(/[?|¿]/g, '').toLowerCase()
 const expanded = ref(false)
 
 const togglePanel = () => {

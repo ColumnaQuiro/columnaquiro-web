@@ -1,6 +1,7 @@
 <template>
   <v-btn
     class="button shadow-none"
+    role="button"
     :disabled="disabled"
     :tag="tag"
     :block="block"

@@ -1,7 +1,7 @@
 <template>
   <cq-layout-section id="oferta" class="bg-brand-light-quaternary">
     <cq-blocks-sections-paragraph-with-image
-      :image="`${STATICS_CDN}website/home/oferta-primer-ajuste-quiropractico.webp`"
+      image="website/home/oferta-primer-ajuste-quiropractico.webp"
       :image-width="400"
       image-alt="Lea Guido"
       image-position="left"
@@ -27,7 +27,6 @@
 </template>
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n'
-import { STATICS_CDN } from '~/constants/urls'
 
 const { t } = useI18n()
 const localePath = useLocalePath()

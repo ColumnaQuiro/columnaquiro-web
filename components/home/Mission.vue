@@ -1,7 +1,7 @@
 <template>
   <cq-layout-section>
     <cq-blocks-sections-paragraph-with-image
-      :image="`${STATICS_CDN}website/home/quiropractica-es-para-ti.webp`"
+      image="website/home/quiropractica-es-para-ti.webp"
       :image-width="500"
       image-alt="Lea Guido"
     >
@@ -18,7 +18,6 @@
 </template>
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n'
-import { STATICS_CDN } from '~/constants/urls'
 
 const { t } = useI18n()
 </script>

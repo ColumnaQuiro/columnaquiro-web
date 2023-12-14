@@ -7,7 +7,12 @@
       </div>
       <div class="flex justify-center">
         <a :href="WHATSAPP_URL" target="_blank" @click="onWhatsappClicked">
-          <NuxtImg :src="`${STATICS_CDN}icons/icon__whatsapp.webp`" width="60" alt="whatsapp" />
+          <NuxtImg
+            src="icons/icon__whatsapp.webp"
+            provider="s3"
+            width="60"
+            alt="whatsapp"
+          />
         </a>
       </div>
       <cq-layout-footer-timetable class="mt-8" />
@@ -17,7 +22,7 @@
 
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n'
-import { STATICS_CDN, WHATSAPP_URL } from '~/constants/urls'
+import { WHATSAPP_URL } from '~/constants/urls'
 
 const { t } = useI18n()
 

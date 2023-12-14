@@ -11,9 +11,39 @@ export default defineNuxtConfig({
       viewport: 'width=device-width, initial-scale=1.0',
       link: [
         { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
+        { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: 'anonymous' },
+        { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Montserrat:wght@400..700&display=swap' },
+        { rel: 'preconnect', href: 'https://maxcdn.bootstrapcdn.com' },
         { rel: 'preconnect', href: 'https://statics.columnaquiro.com' }
       ]
     }
+  },
+  css: ['~/assets/scss/main.scss'],
+  vite: {
+    optimizeDeps: {
+      exclude: [
+        'fsevents'
+      ]
+    }
+  },
+  sourcemap: {
+    server: false,
+    client: false
+  },
+  experimental: {
+    inlineSSRStyles: false
+  },
+  runtimeConfig: {
+    googleMapsApiKey: ''
+  },
+  postcss: {
+    plugins: {
+      tailwindcss: {},
+      autoprefixer: {}
+    }
+  },
+  nitro: {
+    preset: 'netlify-static'
   },
   modules: [
     '@nuxtjs/i18n',
@@ -23,6 +53,16 @@ export default defineNuxtConfig({
     'vuetify-nuxt-module',
     '@nuxt/image'
   ],
+  image: {
+    providers: {
+      s3: {
+        provider: '~/providers/aws-s3.ts',
+        options: {
+          baseURL: 'https://statics.columnaquiro.com/'
+        }
+      }
+    }
+  },
   sitemap: {
     autoI18n: false,
     autoAlternativeLangPrefixes: false,
@@ -32,16 +72,20 @@ export default defineNuxtConfig({
       'politica-de-privacidad',
       'en/cookies-policy',
       'en/privacy-policy',
-      'en/legal-notice'
+      'en/legal-notice',
+      '/para-quien-sirve-la-quiropractica/disabled-people',
+      '/para-quien-sirve-la-quiropractica/kids',
+      '/para-quien-sirve-la-quiropractica/elder-people',
+      '/para-quien-sirve-la-quiropractica/pregnant-women',
+      '/para-quien-sirve-la-quiropractica/athletes',
+      '/para-quien-sirve-la-quiropractica/workers',
+      '/en/who-is-chiropractic-for/personas-mayores',
+      '/en/who-is-chiropractic-for/discapacidades-motoras-intelectuales',
+      '/en/who-is-chiropractic-for/bebes-y-ninos',
+      '/en/who-is-chiropractic-for/embarazadas',
+      '/en/who-is-chiropractic-for/trabajadores',
+      '/en/who-is-chiropractic-for/who-is-chiropractic-for'
     ]
-  },
-  css: ['~/assets/scss/main.scss'],
-  vite: {
-    optimizeDeps: {
-      exclude: [
-        'fsevents'
-      ]
-    }
   },
   i18n: {
     langDir: 'locales',
@@ -126,15 +170,6 @@ export default defineNuxtConfig({
     },
     initialConsent: true
   },
-  postcss: {
-    plugins: {
-      tailwindcss: {},
-      autoprefixer: {}
-    }
-  },
-  nitro: {
-    preset: 'netlify-static'
-  },
   content: {
     // https://content.nuxtjs.org/api/configuration
     highlight: {
@@ -151,15 +186,5 @@ export default defineNuxtConfig({
         searchDepth: 5
       }
     }
-  },
-  sourcemap: {
-    server: false,
-    client: false
-  },
-  experimental: {
-    inlineSSRStyles: false
-  },
-  runtimeConfig: {
-    googleMapsApiKey: ''
   }
 })
