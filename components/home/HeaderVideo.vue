@@ -16,23 +16,25 @@
       muted
       loop
       playsinline
-      :src="`${STATICS_CDN}website/home/header_video.mp4`"
       class="header-video__video"
-    />
+      poster="https://res.cloudinary.com/dqrtj7gca/image/upload/f_auto,q_auto/v1/website/home/header_video_poster"
+    >
+      <source src="https://res.cloudinary.com/dqrtj7gca/video/upload/f_auto:video,q_auto/v1/website/home/header_video_webm" type="video/webm">
+      <source src="https://res.cloudinary.com/dqrtj7gca/video/upload/f_auto:video,q_auto/v1/website/home/header_video_mp4" type="video/mp4">
+    </video>
+
     <a class="header-video__arrow-down" href="#tu-centro">
-      <NuxtImg :src="`${STATICS_CDN}icons/icon__arrow-down--white.webp`" :width="40" alt="flecha abajo" />
+      <NuxtImg
+        src="icons/icon__arrow-down--white.webp"
+        provider="s3"
+        :width="40"
+        alt="flecha abajo"
+      />
     </a>
   </div>
 </template>
 <script setup lang="ts">
-import { STATICS_CDN } from '~/constants/urls'
-
 const { t } = useI18n()
-useHead({
-  link: [
-    { rel: 'prefetch', href: 'https://statics.columnaquiro.com/website/home/header_video.mp4' }
-  ]
-})
 </script>
 <style lang="scss" scoped>
 .header-video {

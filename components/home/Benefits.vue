@@ -3,7 +3,12 @@
     <h2 class="section-title">
       Beneficios de la quiropráctica
     </h2>
-    <cq-blocks-sections-paragraph-with-image :text="t('home.interferencesSchema.description')" :image="`${STATICS_CDN}website/home/benefits.webp`" :image-width="500" image-position="left">
+    <cq-blocks-sections-paragraph-with-image
+      :text="t('home.interferencesSchema.description')"
+      image="website/home/benefits.webp"
+      :image-width="500"
+      image-position="left"
+    >
       <template #text>
         <div class="w-full md:max-w-[400px]">
           <div v-for="benefit in benefits" :key="benefit.text">
@@ -18,7 +23,6 @@
 </template>
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n'
-import { STATICS_CDN } from '~/constants/urls'
 
 const { t } = useI18n()
 const benefits = [
@@ -45,6 +49,6 @@ const benefits = [
   },
   {
     text: 'Problemas de visión y oído'
-  },
+  }
 ]
 </script>

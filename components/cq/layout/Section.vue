@@ -2,6 +2,7 @@
   <div class="section relative">
     <NuxtImg
       v-if="shape"
+      provider="s3"
       class="absolute opacity-80"
       :class="{
         'inset-y-0 my-auto': isShapeCenter,
@@ -10,7 +11,7 @@
         'left-0': isShapeLeft,
         'right-0': isShapeRight
       }"
-      :src="`${STATICS_CDN}website/shapes/${shape}.webp`"
+      :src="`website/shapes/${shape}.webp`"
       :width="shapeWidth"
       alt="shape"
     />
@@ -25,7 +26,6 @@
   </div>
 </template>
 <script setup lang="ts">
-import { STATICS_CDN } from '~/constants/urls'
 
 interface Props {
   shape?: 'shape-white-1' | 'shape-secondary-left' | 'shape-tertiary-right' | 'shape-secondary-light-left' | 'shape-tertiary-light-right'

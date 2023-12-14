@@ -9,7 +9,13 @@
     <div class="w-full">
       <div class="container flex flex-wrap items-center h-14 md:h-16">
         <a :href="localePath('/')" @click="closeBurgerMenu">
-          <NuxtImg :src="`${STATICS_CDN}logo/logo-color.webp`" :width="90" alt="ColumnaQuiro" />
+          <NuxtImg
+            src="logo/logo-color.webp"
+            provider="s3"
+            :width="90"
+            preload
+            alt="ColumnaQuiro"
+          />
         </a>
         <div class="flex-grow" />
         <nav class="hidden lg:flex h-fit">
@@ -53,6 +59,7 @@
             variant="plain"
             :color="isScrolling || !isIndexUrl ? '#474747' : '#ffffff'"
             class="ml-2"
+            aria-label="menu"
             @click="toggleBurgerMenu"
           >
             <v-icon>mdi-menu</v-icon>
@@ -87,7 +94,6 @@
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n'
 import type { Ref } from 'vue'
-import { STATICS_CDN } from '~/constants/urls'
 import type { Link } from '~/types/Link'
 
 const { t, rt, tm } = useI18n()

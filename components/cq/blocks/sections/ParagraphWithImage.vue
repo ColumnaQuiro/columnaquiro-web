@@ -20,7 +20,13 @@
     <div>
       <slot name="image">
         <div class="paragraph-with-image__image">
-          <NuxtImg :src="image" class="w-full mx-auto md:mx-0 md:mt-0" :alt="imageAlt" />
+          <NuxtImg
+            :src="image"
+            class="mx-auto md:mx-0 md:mt-0"
+            :alt="imageAlt"
+            :preload="preload"
+            provider="s3"
+          />
         </div>
       </slot>
     </div>
@@ -54,6 +60,10 @@ const props = defineProps({
     default: ''
   },
   textNarrow: {
+    type: Boolean,
+    default: false
+  },
+  preload: {
     type: Boolean,
     default: false
   }

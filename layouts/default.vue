@@ -35,11 +35,6 @@ const { t } = useI18n()
 const { grantConsent } = useGtag()
 const route = useRoute()
 const isIndexUrl = computed(() => route.name?.includes('index'))
-const head = useLocaleHead({
-  addDirAttribute: true,
-  identifierAttribute: 'id',
-  addSeoAttributes: true
-})
 
 const preferences = [
   {
@@ -94,7 +89,7 @@ onMounted(() => {
   right: 0 !important;
   bottom: 0 !important;
   left: 0 !important;
-  border-radius: 0 !important;
+  @apply z-20;
 
   &__back-arrow {
     top: 29px;

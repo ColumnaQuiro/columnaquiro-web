@@ -5,7 +5,8 @@
         v-for="logo in logos"
         :key="rt(logo.id)"
         class="quiro-logos__logo"
-        :src="`${STATICS_CDN}website/home/quiro-logos/${rt(logo.id)}.webp`"
+        :src="`website/home/quiro-logos/${rt(logo.id)}.webp`"
+        provider="s3"
         :width="200"
         :alt="rt(logo.alt)"
         loading="lazy"
@@ -16,7 +17,6 @@
 
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n'
-import { STATICS_CDN } from '~/constants/urls'
 
 interface Logo {
   id: string

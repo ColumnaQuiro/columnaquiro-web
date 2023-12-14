@@ -33,9 +33,6 @@ const faqsSchema = [
     }
   }))
 ]
-useSeo.setI18nTags()
-useSeo.setLocalBusinessSchemaOrgTag()
-useSeo.setSeoTags(t('faqs.seo.title'), t('faqs.seo.description'))
 useSeo.setSchemaOrgTag({
   type: 'FAQPage',
   customProps: {

@@ -6,7 +6,8 @@
     <div class="flex flex-col md:flex-row gap-5 text-center">
       <div v-for="item in items" :key="item.title" class="flex-1">
         <NuxtImg
-          :src="`${STATICS_CDN}website/home/${rt(item.imagePath)}.webp`"
+          :src="`website/home/${rt(item.imagePath)}.webp`"
+          provider="s3"
           :width="150"
           loading="lazy"
           :alt="rt(item.title)"
@@ -27,7 +28,6 @@
 </template>
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n'
-import { STATICS_CDN } from '~/constants/urls'
 
 interface Item {
   imagePath: string

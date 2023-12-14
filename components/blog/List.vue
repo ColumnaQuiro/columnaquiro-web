@@ -8,7 +8,13 @@
       <a :href="localePath(article._path)">
         <div class="wrapper">
           <header class="flex">
-            <NuxtImg :src="article.cover" class="rounded object-cover min-w-[150px] w-[150px] h-[150px] md:w-[180px] md:h-[180px]" :alt="article.headline" loading="lazy" />
+            <NuxtImg
+              :src="article.cover"
+              provider="s3"
+              class="rounded object-cover min-w-[150px] w-[150px] h-[150px] md:w-[180px] md:h-[180px]"
+              :alt="article.headline"
+              loading="lazy"
+            />
             <div class="pl-5">
               <h2
                 class="blog-list__item-title text-lg font-medium mb-1 group-hover:text-brand-secondary"
@@ -32,7 +38,7 @@
 </template>
 
 <script setup>
-import {useLocalePath} from "#i18n";
+import { useLocalePath } from '#i18n'
 
 defineProps({
   data: {

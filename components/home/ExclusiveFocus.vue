@@ -11,8 +11,9 @@
       >
         <NuxtImg
           class="quiro-logos__logo mx-auto mb-4"
-          :src="`${STATICS_CDN}icons/icon__${rt(specification.id)}.webp`"
+          :src="`icons/icon__${rt(specification.id)}.webp`"
           :width="120"
+          provider="s3"
           :alt="rt(specification.id)"
           loading="lazy"
         />
@@ -31,7 +32,6 @@
 
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n'
-import { STATICS_CDN } from '~/constants/urls'
 
 interface Specification {
   id: string
