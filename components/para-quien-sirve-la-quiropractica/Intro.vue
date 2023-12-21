@@ -5,7 +5,7 @@
     </h1>
     <cq-blocks-sections-paragraphWithImage
       :text="t(`chiropracticForWhom.types.intro.description.${personType}`)"
-      :image="`${STATICS_CDN}website/para-todos/${personType}.webp`"
+      :image="`website/para-todos/${personType}.webp`"
       :image-width="400"
       :image-alt="t(`chiropracticForWhom.types.intro.title.${personType}`)"
     />
@@ -13,7 +13,6 @@
 </template>
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n'
-import { STATICS_CDN } from '~/constants/urls'
 
 interface Props {
   personType: string | string []

@@ -83,6 +83,7 @@ export default defineNuxtConfig({
       '/en/who-is-chiropractic-for/discapacidades-motoras-intelectuales',
       '/en/who-is-chiropractic-for/bebes-y-ninos',
       '/en/who-is-chiropractic-for/embarazadas',
+      '/en/who-is-chiropractic-for/deportistas',
       '/en/who-is-chiropractic-for/trabajadores',
       '/en/who-is-chiropractic-for/who-is-chiropractic-for'
     ]
