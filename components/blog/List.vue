@@ -10,7 +10,7 @@
           <header class="flex">
             <NuxtImg
               :src="article.cover"
-              class="rounded object-cover min-w-[150px] w-[150px] h-[150px] md:w-[180px] md:h-[180px]"
+              class="rounded object-cover w-[150px] h-[150px] md:w-[180px] md:h-[180px]"
               :alt="article.headline"
               loading="lazy"
             />

@@ -18,15 +18,28 @@ useSeo.setSeoTags(data.value.title, data.value.description)
 </script>
 <style lang="scss">
 .article {
+  strong {
+    @apply font-medium;
+  }
   p {
     @apply mt-2 mb-4;
+
+    a {
+      @apply underline text-brand-secondary;
+    }
   }
   ul {
-    @apply list-disc mb-4;
-    list-style: disc;
+    @apply list-disc mb-3;
+  }
+  ol {
+    @apply list-decimal mb-3 pl-4;
+
+    li::marker {
+      @apply font-medium;
+    }
   }
   img {
-    @apply md:max-w-[500px];
+    @apply md:max-w-[400px];
   }
 }
 </style>
