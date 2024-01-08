@@ -56,6 +56,8 @@ const localePath = useLocalePath()
 <style lang="scss" scoped>
 .blog-list {
   &__item {
+    @apply mb-4;
+
     &:hover {
       .blog-list__item-title {
         @apply underline;

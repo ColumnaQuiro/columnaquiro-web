@@ -1,11 +1,18 @@
 <template>
   <cq-layout-section class="article">
-    <ContentRenderer :value="data" />
+    <ContentRenderer :value="data">
+      <h1 class="mb-4">{{ data.headline }}</h1>
+      <div class="mb-6">
+        {{ $formatDate(data.date) }}
+      </div>
+      <ContentRendererMarkdown :value="data" />
+    </ContentRenderer>
   </cq-layout-section>
 </template>
 <script setup>
 import { useSEO } from '~/composables/seo'
 
+const { $formatDate } = useNuxtApp()
 const localePath = useLocalePath()
 const useSeo = useSEO()
 const { params } = useRoute()
@@ -39,7 +46,7 @@ useSeo.setSeoTags(data.value.title, data.value.description)
     }
   }
   img {
-    @apply md:max-w-[400px];
+    @apply md:max-w-[400px] mb-6;
   }
 }
 </style>
