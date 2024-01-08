@@ -1,5 +1,8 @@
 <template>
   <cq-layout-section>
+    <h1 class="section-title">
+      {{ t('faqs.title') }}
+    </h1>
     <div v-for="section in sections" :key="section.title" class="mb-14">
       <h2 class="text-3xl pb-3">
         {{ rt(section.title) }}
