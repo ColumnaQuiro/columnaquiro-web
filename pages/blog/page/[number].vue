@@ -2,8 +2,8 @@
   <cq-layout-section>
     <!-- Query for the given blog page number -->
     <ContentQuery
-      path="/blog"
-      :only="['headline', 'excerpt', 'date', 'tags', '_path', 'image']"
+      :path="localePath('/blog')"
+      :only="['headline', 'description', 'date', 'tags', '_path', 'image', 'cover']"
       :sort="{
         date: -1
       }"
@@ -45,7 +45,7 @@
 </template>
 
 <script setup>
-// Fetching data
+const localePath = useLocalePath()
 const { path, params } = useRoute()
 const blogCountLimit = 6
 

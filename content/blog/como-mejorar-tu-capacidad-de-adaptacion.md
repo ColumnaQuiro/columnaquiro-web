@@ -6,9 +6,6 @@ date: '2023-08-31T09:00:00'
 cover: https://statics.columnaquiro.com/blog/como-mejorar-tu-capacidad-de-adaptacion.webp
 ---
 
-
-# Cómo mejorar tu capacidad de adaptación en tiempos difíciles
-
 Los últimos años han sido muy desafiantes para muchas personas en todo el mundo. La pandemia, el aumento del desempleo, el aislamiento, el miedo y las inclemencias climáticas han provocado estrés, ansiedad y dolor en tiempos difíciles. Es normal experimentar estas emociones en situaciones estresantes, pero el problema surge cuando se vuelven persistentes y difíciles de superar.
 
 Cuidarse a uno mismo es esencial en situaciones altamente estresantes, ya que puede mejorar la capacidad de adaptación. Como seres humanos, tenemos la capacidad de adaptarnos y superar los desafíos de la vida, y así como el gusano se transforma en mariposa y se adapta a sus cambios de entorno para pasar a otras etapas de la vida, nosotros también podemos mejorar nuestra capacidad de adaptación.

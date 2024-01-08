@@ -248,7 +248,7 @@
   },
   "home": {
     "seo": {
-      "title": "Quiropráctico Valencia - ColumaQuiro",
+      "title": "Centro Quiropráctico Valencia | ColumaQuiro",
       "description": "Descubre que es la quiropráctica en nuestro Centro Quiropráctico en Valencia. Tratamos diferentes síntomas, ayudamos a embarazadas, deportistas, accidentes."
     },
     "headerVideo": {
@@ -420,7 +420,7 @@
   },
   "whatIsChiropractic": {
     "seo": {
-      "title": "¿Qué es la quiropráctica? - ColumnaQuiro",
+      "title": "¿Qué es la quiropráctica? | ColumnaQuiro",
       "description": "Mejora con la quiropráctica: centrada en mejorar la funcionalidad del sistema nervioso. Ajustes quiroprácticos para el estrés, el dolor y otros síntomas."
     },
     "intro": {
@@ -502,9 +502,10 @@
   },
   "faqs": {
     "seo": {
-      "title": "Mejora tu salud con nuestros servicios - ColumnaQuiro",
-      "description": "Respuestas a tus preguntas sobre nuestro centro quiropráctico: servicios, enfoque integral y cómo mejorar tu salud. Descúbrelo en nuestras preguntas frecuentes."
+      "title": "Preguntas frecuentes sobre la Quiropráctica | ColumnaQuiro",
+      "description": "Respuestas a tus preguntas sobre la Quiropráctica, los ajustes Quiroprácticos y nuestro Centro Quiropráctico en Valencia."
     },
+    "title": "Preguntas frecuentes sobre la quiropráctica",
     "sections": [
       {
         "title": "La Quiropráctica",
@@ -580,8 +581,8 @@
   },
   "contact": {
     "seo": {
-      "title": "Contacta con los expertos en quiropráctica - ColumnaQuiro",
-      "description": "Contacta con nuestros quiroprácticos altamente capacitados para programar una cita personalizada y descubre cómo podemos ayudarte a recuperar tu calidad de vida."
+      "title": "Contacta con el Centro Quiropráctico en Valencia | ColumnaQuiro",
+      "description": "Contacta con nuestro Centro Quiropráctico en Valencia para programar una cita personalizada y descubre cómo podemos ayudarte a recuperar tu calidad de vida."
     },
     "title": "Contacta con ColumnaQuiro",
     "subtitle": "Centro Quiropráctico en Valencia",
@@ -615,7 +616,7 @@
   },
   "team": {
     "seo": {
-      "title": "Equipo Quiropráctico - Dedicados a Mejorar tu Salud",
+      "title": "Equipo del Centro Quiropráctico en Valencia | ColumnaQuiro",
       "description": "Conoce a nuestro equipo de profesionales altamente capacitados dedicados a mejorar tu salud y bienestar. Comienza tu camino hacia una vida más saludable hoy."
     },
     "peopleList": {
@@ -632,8 +633,8 @@
   },
   "bookVisit": {
     "seo": {
-      "title": "Reserva tu visita Centro Quiropráctico Valencia",
-      "description": "Reserva una cita en el Centro Quiropráctico de Valencia. Nuestro equipo de profesionales altamente capacitados brinda atención personalizada y efectiva."
+      "title": "Reserva cita Centro Quiropráctico en Valencia | ColumnaQuiro",
+      "description": "Reserva una cita en el Centro Quiropráctico en Valencia. Nuestro equipo de profesionales altamente capacitados brinda atención personalizada y efectiva."
     },
     "header": {
       "title": "Reserva cita en nuestro centro quiropráctico",
@@ -657,7 +658,7 @@
   },
   "howItWorks": {
     "seo": {
-      "title": "Servicios Quiroprácticos - Enfoque Integral - ColumnaQuiro",
+      "title": "Como funciona Centro Quiropráctico en Valencia | ColumnaQuiro",
       "description": "Descubre nuestros servicios quiroprácticos enfocados en mejorar la salud y el bienestar. Comienza tu camino hacia una vida más saludable hoy."
     },
     "steps": {
@@ -730,7 +731,7 @@
   },
   "ourCenter": {
     "seo": {
-      "title": "Tu Centro Quiropráctico en Valencia - ColumnaQuiro",
+      "title": "Tu Centro Quiropráctico en Valencia | ColumnaQuiro",
       "description": "Tratamos síntomas como el dolor de espalda, dolor cuello, migrañas, mejoramos tu embarazo. Deja que cuidemos de ti en nuestro Centro Quiropráctico en Valencia."
     },
     "title": "Centro Quiropractico ColumnaQuiro",
@@ -754,11 +755,11 @@
   },
   "blog": {
     "seo": {
-      "title": "Noticias y artículos - Columnaquiro",
-      "description": "Descubre las últimas noticias y articulos de nuestro centro de quiropráctico en Valencia."
+      "title": "Noticias y artículos sobre la Quiropráctica | Columnaquiro",
+      "description": "Descubre los últimos artículos sobre la Quiropráctica y diferentes dolencias y las noticias sobre nuestro centro de Quiropráctico en Valencia."
     },
     "hero": {
-      "title": "Blog ColumnaQuiro",
+      "title": "Blog Centro Quiropráctico ColumnaQuiro",
       "body": "¡Bienvenidos al Blog de ColumnaQuiro! Este es un espacio exclusivo donde encontrarás las últimas novedades y artículos relacionados con quiropráctica y salud en general. <br><br>Recuerda visitarnos regularmente para mantenerte al tanto de las últimas noticias y consejos. Tu salud y bienestar son nuestra prioridad. ¡Gracias por ser parte de la comunidad ColumnaQuiro!"
     }
   }

@@ -2,7 +2,9 @@
   <div class="pagination-list text-brand-black">
     <!-- Chevron -->
     <nuxt-link v-show="currentPage > 1" class="pagination-item pagination-icon" :to="prevLink">
-      <IconsChevronDown class="transform rotate-90 h-6 w-6" width="24" height="24" />
+      <v-icon>
+        mdi-chevron-left
+      </v-icon>
     </nuxt-link>
     <!-- First Page -->
     <nuxt-link :class="['pagination-item', currentPage === 1 ? 'active' : '']" :to="baseUrl">
@@ -28,7 +30,9 @@
     </nuxt-link>
     <!-- Chevron -->
     <nuxt-link v-show="currentPage < totalPages" class="pagination-item pagination-icon" :to="getPageUrl(currentPage + 1)">
-      <IconsChevronDown class="transform -rotate-90 h-6 w-6" width="24" height="24" />
+      <v-icon>
+        mdi-chevron-right
+      </v-icon>
     </nuxt-link>
   </div>
 </template>
@@ -77,7 +81,7 @@ const prevLink = computed(() => {
   @apply bg-brand-secondary text-brand-white;
 }
 .pagination-item {
-  @apply rounded-md border border-brand-secondary px-2 py-1 mx-1 w-8 text-center h-full;
+  @apply rounded-md px-2 py-1 w-8 text-center h-full;
 }
 .pagination-item:not(.active):hover {
   @apply bg-brand-secondary/25;

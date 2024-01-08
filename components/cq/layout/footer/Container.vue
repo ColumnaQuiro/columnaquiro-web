@@ -24,7 +24,7 @@
   display: block !important;
   background: url('https://statics.columnaquiro.com/website/shapes/footer-shape.webp') !important;
   background-size: cover !important;
-  @apply pt-10;
+  @apply pt-12;
   @apply md:pt-0;
 }
 </style>

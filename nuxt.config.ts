@@ -185,6 +185,10 @@ export default defineNuxtConfig({
       toc: {
         depth: 5,
         searchDepth: 5
+      },
+      rehypePlugins: {
+        // remove the no-follow in the external links
+        'rehype-external-links': false
       }
     }
   }

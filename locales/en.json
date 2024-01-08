@@ -248,7 +248,7 @@
   },
   "home": {
     "seo": {
-      "title": "Chiropractor in Valencia - ColumaQuiro",
+      "title": "Chiropractor Center in Valencia | ColumaQuiro",
       "description": "Explore chiropractic care at our Chiropractic Center in Valencia. We address various symptoms, provide assistance for pregnant women, athletes, and accident cases."
     },
     "headerVideo": {
@@ -420,7 +420,7 @@
   },
   "whatIsChiropractic": {
     "seo": {
-      "title": "What is Chiropractic? - ColumnaQuiro",
+      "title": "What is Chiropractic? | ColumnaQuiro",
       "description": "Improve with chiropractic: focused on enhancing the functionality of the nervous system. Chiropractic adjustments for stress, pain, and other symptoms."
     },
     "intro": {
@@ -502,9 +502,10 @@
   },
   "faqs": {
     "seo": {
-      "title": "Improve Your Health with Our Services - ColumnaQuiro",
-      "description": "Answers to your questions about our chiropractic center: services, comprehensive approach, and how to improve your health. Discover it in our frequently asked questions."
+      "title": "Frequently asked questions about Chiropractic | ColumnaQuiro",
+      "description": "Answers to Your Questions about Chiropractic and Our Chiropractic Center in Valencia: Services, Comprehensive Approach, and How to Improve Your Health."
     },
+    "title": "Frequently asked questions about Chiropractic",
     "sections": [
       {
         "title": "Chiropractic",
@@ -580,8 +581,8 @@
   },
   "contact": {
     "seo": {
-      "title": "Contact the Chiropractic Experts - ColumnaQuiro",
-      "description": "Contact our highly trained chiropractors to schedule a personalized appointment and discover how we can help you regain your quality of life."
+      "title": "Contact Chiropractic Center in Valencia | ColumnaQuiro",
+      "description": "Contact our Chiropractic Center in Valencia to schedule a personalized appointment and discover how we can help you regain your quality of life."
     },
     "title": "Contact ColumnaQuiro",
     "subtitle": "Chiropractic Center in Valencia",
@@ -615,7 +616,7 @@
   },
   "team": {
     "seo": {
-      "title": "Chiropractic Team - Dedicated to Improving Your Health",
+      "title": "Team Chiropractic Center in Valencia | ColumnaQuiro",
       "description": "Meet our team of highly trained professionals dedicated to improving your health and well-being. Start your journey to a healthier life today."
     },
     "peopleList": {
@@ -632,8 +633,8 @@
   },
   "bookVisit": {
     "seo": {
-      "title": "Book Your Visit at Valencia Chiropractic Center",
-      "description": "Schedule an appointment at the Valencia Chiropractic Center. Our team of highly trained professionals provides personalized and effective care."
+      "title": "Book Appointment Chiropractic Center in Valencia | ColumnaQuiro",
+      "description": "Book an appointment at Chiropractic Center in Valencia. Our team of highly trained professionals provides personalized and effective care."
     },
     "header": {
       "title": "Schedule an Appointment at Our Chiropractic Center",
@@ -657,7 +658,7 @@
   },
   "howItWorks": {
     "seo": {
-      "title": "Chiropractic Services - Comprehensive Approach - ColumnaQuiro",
+      "title": "How works Chiropractic Center in Valencia | ColumnaQuiro",
       "description": "Discover our chiropractic services focused on improving health and well-being. Start your journey to a healthier life today."
     },
     "steps": {
@@ -730,7 +731,7 @@
   },
   "ourCenter": {
     "seo": {
-      "title": "Your Chiropractic Center in Valencia - ColumnaQuiro",
+      "title": "Your Chiropractic Center in Valencia | ColumnaQuiro",
       "description": "We address symptoms like back pain, neck pain, migraines, and enhance your pregnancy. Let us take care of you at our Chiropractic Center in Valencia."
     },
     "title": "Chiropractic Center ColumnaQuiro",
@@ -754,11 +755,11 @@
   },
   "blog": {
     "seo": {
-      "title": "News and Articles | ColumnaQuiro",
-      "description": "Discover the latest news and articles from our chiropractic center in Valencia."
+      "title": "News and Articles about Chiropractic | Columnaquiro",
+      "description": "Discover the latest articles about Chiropractic, various conditions, and news about our Chiropractic Center in Valencia."
     },
     "hero": {
-      "title": "ColumnaQuiro Blog",
+      "title": "Blog Chiropractic center ColumnaQuiro",
       "body": "Welcome to the ColumnaQuiro Blog! This is an exclusive space where you'll find the latest updates and articles related to chiropractic and overall health. <br><br>Remember to visit us regularly to stay informed about the latest news and tips. Your health and well-being are our priority. Thank you for being part of the ColumnaQuiro community!"
     }
   }

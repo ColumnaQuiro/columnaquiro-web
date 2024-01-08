@@ -25,19 +25,16 @@ ul {
 }
 
 h1 {
-  @apply text-h1_sm leading-h1_sm mb-6;
+  @apply text-h1_sm leading-h1_sm mb-10 font-medium;
 }
 h2 {
-  @apply text-h2_sm leading-h2_sm mb-4;
+  @apply text-h2_sm leading-h2_sm mb-4 font-medium;
 }
 h3 {
-  @apply text-h3_sm leading-h3_sm;
+  @apply text-h3_sm leading-h3_sm font-medium;
 }
 h4 {
   @apply text-h4_sm leading-h4_sm mb-2;
-}
-h5 {
-  @apply text-h5_sm leading-h5_sm mb-1;
 }
 
 @screen md {
@@ -52,9 +49,6 @@ h5 {
   }
   h4 {
     @apply text-h4 leading-h4;
-  }
-  h5 {
-    @apply text-h5 leading-h5;
   }
 }
 /* Body Text */
