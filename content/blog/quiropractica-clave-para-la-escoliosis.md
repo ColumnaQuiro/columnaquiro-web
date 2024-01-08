@@ -6,7 +6,6 @@ date: '2023-11-29T09:00:00'
 cover: https://statics.columnaquiro.com/blog/quiropractica-clave-para-la-escoliosis.webp
 ---
 
-# Descubre cómo la Quiropráctica puede ser clave en el tratamiento de la Escoliosis
 ![Quiropráctica clave para la escoliosis](https://statics.columnaquiro.com/blog/quiropractica-clave-para-la-escoliosis.webp)
 
 La escoliosis, una curvatura anormal de la columna vertebral que afecta a personas de todas las edades, puede tener un impacto significativo en la calidad de vida y la salud en general. En este comunicado, exploramos cómo la quiropráctica se ha destacado como un enfoque efectivo y holístico para aliviar los síntomas de la escoliosis y mejorar la calidad de vida de quienes la padecen.

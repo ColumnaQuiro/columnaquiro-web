@@ -6,8 +6,6 @@ date: '2023-09-06T08:00:00'
 cover: https://statics.columnaquiro.com/blog/como-elegir-la-mochila-perfecta-para-tus-hijos.webp
 ---
 
-
-# Cómo elegir la mochila perfecta para tus hijos 
 ![Mochila perfecta para tus hijos](https://statics.columnaquiro.com/blog/como-elegir-la-mochila-perfecta-para-tus-hijos.webp)
 Cada vez es más común observar a niños experimentando dolores de espalda o molestias posturales, lo cual se debe en gran parte a su estilo de vida cada vez más sedentario, caracterizado por largos períodos de tiempo sentados. El movimiento es esencial para el desarrollo apropiado de la musculatura y la columna vertebral en los niños.
 

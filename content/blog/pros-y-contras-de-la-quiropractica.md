@@ -6,8 +6,6 @@ date: '2024-01-03T16:00:00'
 cover: https://res.cloudinary.com/dqrtj7gca/image/upload/f_auto,q_auto/v1/website/blog/ajuste-quiropractico
 ---
 
-# Pros y Contras de la Quiropráctica
-
 ![Ajuste Quiropráctico](https://res.cloudinary.com/dqrtj7gca/image/upload/f_auto,q_auto/v1/website/blog/ajuste-quiropractico)
 ## Introducción
 
