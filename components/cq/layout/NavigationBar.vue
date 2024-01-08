@@ -25,7 +25,7 @@
             :text="rt(link.text)"
             :to="link.to ? rt(link.to) : undefined"
             :sub-menu="link.subMenu"
-            :is-scrolling="isScrolling || !isIndexUrl"
+            :text-color="textColor"
           />
           <cq-components-button
             :to="t('general.layout.navigationBar.appointmentButton.to')"
@@ -37,7 +37,7 @@
             </v-icon>{{ t('general.layout.navigationBar.appointmentButton.text') }}
           </cq-components-button>
           <div v-if="!isBlogContentUrl" class="h-8 bg-light-grey w-[1px] ml-4 mr-3" />
-          <cq-layout-language-selector v-if="!isBlogContentUrl" :is-scrolling="isScrolling || !isIndexUrl" />
+          <cq-layout-language-selector v-if="!isBlogContentUrl" :text-color="textColor" />
         </nav>
         <div class="flex items-center lg:hidden">
           <cq-components-button
@@ -52,7 +52,7 @@
           <cq-layout-language-selector
             v-if="!isBlogContentUrl"
             class="ml-4"
-            :is-scrolling="isScrolling || !isIndexUrl"
+            :text-color="textColor"
           />
           <cq-components-button
             icon
@@ -74,7 +74,6 @@
             :text="rt(link.text)"
             :to="link.to ? rt(link.to) : undefined"
             :sub-menu="link.subMenu"
-            :is-scrolling="isScrolling || isIndexUrl"
             @click="toggleBurgerMenu"
           />
           <cq-components-button
@@ -105,6 +104,7 @@ const showBurgerMenu: Ref<boolean> = ref(false)
 const isBlogContentUrl = computed(() => route.name?.includes('slug'))
 const isIndexUrl = computed(() => route.name?.includes('index'))
 const isScrolling = ref(false)
+const textColor = computed(() => isIndexUrl.value && !isScrolling.value ? 'background' : 'blackBranded')
 
 const toggleBurgerMenu = () => {
   showBurgerMenu.value = !showBurgerMenu.value
@@ -119,7 +119,7 @@ const onScroll = () => {
 }
 
 onMounted(() => {
-  if (process.client && isIndexUrl) {
+  if (process.client && isIndexUrl.value) {
     window.addEventListener('scroll', onScroll)
   }
 })
