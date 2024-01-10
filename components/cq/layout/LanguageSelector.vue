@@ -4,6 +4,7 @@
       v-for="availableLocale in availableLocales"
       :key="availableLocale.code"
       :to="switchLocalePath(availableLocale.code)"
+      :external="true"
       :class="`text-${textColor}`"
       class="text-sm"
     >
