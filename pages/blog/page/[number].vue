@@ -1,7 +1,8 @@
 <template>
   <cq-layout-section>
-    <!-- Query for the given blog page number -->
+    <BlogHero />
     <ContentQuery
+      v-slot="{ data }"
       :path="localePath('/blog')"
       :only="['headline', 'description', 'date', 'tags', '_path', 'image', 'cover']"
       :sort="{
@@ -10,43 +11,27 @@
       :skip="blogCountLimit * (getPageNumber() - 1)"
       :limit="blogCountLimit"
     >
-      <!-- In case it is found -->
-      <template #default="{ data }">
-        <BlogHero />
-        <BlogList :data="data" />
-        <ContentQuery
-          path="/blog"
-          :only="['headline']"
-        >
-          <template #default="{ data }">
-            <BlogPagination
-              v-if="getPageLimit(data.length) > 1"
-              class="mt-8"
-              :current-page="getPageNumber()"
-              :total-pages="getPageLimit(data.length)"
-              :next-page="getPageNumber() < getPageLimit(data.length)"
-              base-url="/blog/"
-              page-url="/blog/page/"
-            />
-          </template>
-          <template #not-found>
-            <!-- Nothing -->
-          </template>
-        </ContentQuery>
-      </template>
-      <!-- In case not found -->
-      <template #not-found>
-        <!-- Show hero and message -->
-        <BlogHero />
-        <BlogList :data="[]" message="There are no posts in this page, maybe try searching on another one." />
-      </template>
+      <BlogList :data="data" />
     </ContentQuery>
+    <BlogPagination
+      v-if="numPages > 1"
+      class="mt-8"
+      :current-page="getPageNumber()"
+      :total-pages="getPageLimit(numPages)"
+      :next-page="getPageNumber() < getPageLimit(numPages)"
+      base-url="/blog/"
+      page-url="/blog/page/"
+    />
   </cq-layout-section>
 </template>
 
 <script setup>
+import { useI18n } from 'vue-i18n'
+
+const { t } = useI18n()
 const localePath = useLocalePath()
-const { path, params } = useRoute()
+const { params } = useRoute()
+const useSeo = useSEO()
 const blogCountLimit = 6
 
 const getPageLimit = (totalPosts) => {
@@ -57,16 +42,12 @@ const getPageNumber = () => {
   return Number(params.number)
 }
 
-// Attempt to get the number
-const router = useRouter()
-let pageNo
-try {
-  pageNo = getPageNumber()
-  if (isNaN(pageNo) || pageNo <= 0) {
-    router.replace('/blog/')
-  }
-} catch (err) {
-  console.error(err)
-  router.replace('/blog/')
-}
+const { data: numPages } = await useAsyncData('content-/blog', async () => {
+  const _posts = await queryContent(localePath('/blog')).only('headline').find()
+  return Math.ceil(_posts.length / blogCountLimit)
+})
+
+useSeo.setI18nTags()
+useSeo.setLocalBusinessSchemaOrgTag()
+useSeo.setSeoTags(t('blog.seo.title'), t('blog.seo.description'))
 </script>
