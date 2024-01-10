@@ -26,7 +26,8 @@ const availableLocales = computed(() => {
 })
 defineProps({
   textColor: {
-    type: String as PropType<'blackBranded' | 'background'>
+    type: String as PropType<'blackBranded' | 'background'>,
+    required: true
   }
 })
 </script>
