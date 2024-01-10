@@ -43,7 +43,11 @@ export default defineNuxtConfig({
     }
   },
   nitro: {
-    preset: 'netlify-static'
+    preset: 'netlify-static',
+    prerender: {
+      crawlLinks: false,
+      routes: ['/sitemap.xml', '/robots.txt']
+    }
   },
   modules: [
     '@nuxtjs/i18n',
@@ -51,7 +55,8 @@ export default defineNuxtConfig({
     '@nuxt/content',
     'nuxt-simple-sitemap',
     'vuetify-nuxt-module',
-    '@nuxt/image'
+    '@nuxt/image',
+    '@nuxtjs/robots'
   ],
   image: {
     providers: {
@@ -87,6 +92,20 @@ export default defineNuxtConfig({
       '/en/who-is-chiropractic-for/trabajadores',
       '/en/who-is-chiropractic-for/who-is-chiropractic-for'
     ]
+  },
+  robots: {
+    rules: {
+      UserAgent: '*',
+      Disallow: [
+        '/aviso-legal',
+        '/politica-de-cookies',
+        '/politica-de-privacidad',
+        '/en/lega-notice',
+        '/en/privacy-policy',
+        '/en/cookies-policy'
+      ],
+      Sitemap: 'https://columnaquiro.com/sitemap_index.xml'
+    }
   },
   i18n: {
     langDir: 'locales',
