@@ -2,6 +2,7 @@
 
 export default defineNuxtConfig({
   devtools: { enabled: true },
+  ssr: true,
   site: {
     url: 'https://columnaquiro.com'
   },
@@ -31,7 +32,8 @@ export default defineNuxtConfig({
     client: false
   },
   experimental: {
-    inlineSSRStyles: false
+    inlineSSRStyles: false,
+    payloadExtraction: false
   },
   runtimeConfig: {
     googleMapsApiKey: ''
@@ -43,15 +45,24 @@ export default defineNuxtConfig({
     }
   },
   nitro: {
-    preset: 'netlify-static'
+    preset: 'netlify_builder',
+    prerender: {
+      crawlLinks: true
+    }
+  },
+  router: {
+    options: {
+      strict: false
+    }
   },
   modules: [
     '@nuxtjs/i18n',
     'nuxt-gtag',
     '@nuxt/content',
-    'nuxt-simple-sitemap',
+    '@nuxtjs/sitemap',
     'vuetify-nuxt-module',
-    '@nuxt/image'
+    '@nuxt/image',
+    '@nuxtjs/robots'
   ],
   image: {
     providers: {
@@ -65,7 +76,7 @@ export default defineNuxtConfig({
   },
   sitemap: {
     autoI18n: false,
-    autoAlternativeLangPrefixes: false,
+    strictNuxtContentPaths: true,
     exclude: [
       'aviso-legal',
       'politica-de-cookies',
@@ -87,6 +98,20 @@ export default defineNuxtConfig({
       '/en/who-is-chiropractic-for/trabajadores',
       '/en/who-is-chiropractic-for/who-is-chiropractic-for'
     ]
+  },
+  robots: {
+    rules: {
+      UserAgent: '*',
+      Disallow: [
+        '/aviso-legal',
+        '/politica-de-cookies',
+        '/politica-de-privacidad',
+        '/en/lega-notice',
+        '/en/privacy-policy',
+        '/en/cookies-policy'
+      ],
+      Sitemap: 'https://columnaquiro.com/sitemap.xml'
+    }
   },
   i18n: {
     langDir: 'locales',

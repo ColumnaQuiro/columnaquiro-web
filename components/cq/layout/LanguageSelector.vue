@@ -4,6 +4,7 @@
       v-for="availableLocale in availableLocales"
       :key="availableLocale.code"
       :to="switchLocalePath(availableLocale.code)"
+      :external="true"
       :class="`text-${textColor}`"
       class="text-sm"
     >
@@ -25,7 +26,8 @@ const availableLocales = computed(() => {
 })
 defineProps({
   textColor: {
-    type: String as PropType<'blackBranded' | 'background'>
+    type: String as PropType<'blackBranded' | 'background'>,
+    required: true
   }
 })
 </script>
