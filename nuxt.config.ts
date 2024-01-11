@@ -71,6 +71,7 @@ export default defineNuxtConfig({
   sitemap: {
     autoI18n: false,
     autoAlternativeLangPrefixes: false,
+    strictNuxtContentPaths: true,
     exclude: [
       'aviso-legal',
       'politica-de-cookies',
@@ -104,7 +105,7 @@ export default defineNuxtConfig({
         '/en/privacy-policy',
         '/en/cookies-policy'
       ],
-      Sitemap: 'https://columnaquiro.com/sitemap_index.xml'
+      Sitemap: 'https://columnaquiro.com/sitemap.xml'
     }
   },
   i18n: {
