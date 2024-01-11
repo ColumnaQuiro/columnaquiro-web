@@ -2,6 +2,7 @@
 
 export default defineNuxtConfig({
   devtools: { enabled: true },
+  ssr: true,
   site: {
     url: 'https://columnaquiro.com'
   },
@@ -31,7 +32,8 @@ export default defineNuxtConfig({
     client: false
   },
   experimental: {
-    inlineSSRStyles: false
+    inlineSSRStyles: false,
+    payloadExtraction: false
   },
   runtimeConfig: {
     googleMapsApiKey: ''
@@ -43,17 +45,21 @@ export default defineNuxtConfig({
     }
   },
   nitro: {
-    preset: 'netlify-static',
+    preset: 'netlify_builder',
     prerender: {
-      crawlLinks: false,
-      routes: ['/sitemap.xml', '/robots.txt']
+      crawlLinks: true
+    }
+  },
+  router: {
+    options: {
+      strict: false
     }
   },
   modules: [
     '@nuxtjs/i18n',
     'nuxt-gtag',
     '@nuxt/content',
-    'nuxt-simple-sitemap',
+    '@nuxtjs/sitemap',
     'vuetify-nuxt-module',
     '@nuxt/image',
     '@nuxtjs/robots'
@@ -70,7 +76,6 @@ export default defineNuxtConfig({
   },
   sitemap: {
     autoI18n: false,
-    autoAlternativeLangPrefixes: false,
     strictNuxtContentPaths: true,
     exclude: [
       'aviso-legal',
