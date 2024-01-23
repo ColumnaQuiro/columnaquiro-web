@@ -244,6 +244,15 @@
           }
         ]
       }
+    },
+    "symptoms": {
+      "title": "Síntomas",
+      "items": [
+        {
+          "title": "Escoliosis",
+          "to": "/sintomas/escoliosis"
+        }
+      ]
     }
   },
   "home": {
@@ -416,6 +425,65 @@
           "alt": "International Council Pediatric Association"
         }
       ]
+    }
+  },
+  "symptoms": {
+    "appointmentSection": {
+      "title": "¿Quieres que te ayudemos a mejorar la escoliosis?",
+      "description": "Pide cita para que nuestros quiroprácticos te ayuden. <br>Nuestros pacientes han mejorado gracias a nuestros ajustes quiroprácticos."
+    },
+    "escoliosis": {
+      "whatIs": {
+        "title": "¿Qué es la Escoliosis?",
+        "description": "<p>La escoliosis, un trastorno médico distintivo, se manifiesta mediante una curvatura anormal de la columna vertebral. A diferencia de la alineación recta típica, <span class='font-medium'>la columna se desvía formando curvas en \"S\" o \"C\"</span>. Esta inclinación atípica puede manifestarse en diversas ubicaciones a lo largo de la columna vertebral y variar en intensidad.</p>  <p>Este trastorno puede presentarse en diferentes etapas de la vida, siendo más común durante la adolescencia, período en el cual experimenta un rápido crecimiento. La escoliosis puede clasificarse en varios tipos, como la idiopática (de causa desconocida), congénita (presente desde el nacimiento), neuromuscular (relacionada con trastornos neuromusculares), degenerativa (causada por el desgaste natural de las articulaciones) y otros tipos más específicos que explicaremos más hacia delante.</p>",
+        "image": "f_auto,q_auto/v1/website/sintomas/que-es-la-escoliosis",
+        "imageAlt": "Que es la escoliosis"
+      },
+      "symptoms": {
+        "title": "Síntomas de la escoliosis",
+        "description": "<p>La detección temprana de la escoliosis es crucial para un tratamiento efectivo. Algunos indicadores comunes de esta condición incluyen: </p><ol><li><span class='font-medium'>Desigualdad en la altura de los hombros:</span> Uno de los síntomas visibles es la discrepancia en la altura de los hombros, ya que la columna puede inclinarse lateralmente.</li><li><span class='font-medium'>Asimetría de los omóplatos:</span> Los omóplatos pueden presentar una disposición irregular, siendo uno más prominente o desplazado en comparación con el otro.</li><li><span class='font-medium'>Cintura desigual:</span> La formación de una curva anormal en la columna vertebral puede llevar a la asimetría en la cintura, visible al observar la alineación del cuerpo.</li><li><span class='font-medium'>Desviación de la columna vertebral:</span> A medida que la escoliosis progresa, la columna vertebral se desvía hacia un lado, adoptando la forma característica de \"S\" o \"C\".</li><li><span class='font-medium'>Molestias musculares:</span> Algunas personas pueden experimentar molestias musculares en la espalda debido a la tensión ejercida por la curvatura anormal."
+      },
+      "types": {
+        "title": "Tipos de escoliosis y sus variantes",
+        "description": "<h3>1. Escoliosis idiopática</h3><p><span class='font-medium'>Misteriosa y pervasiva:</span> Este tipo, constituyendo la mayoría de los casos, desafía aún la comprensión completa de sus causas. Se manifiesta principalmente durante la adolescencia y se subdivide en escoliosis idiopática del adolescente y escoliosis idiopática del adulto.</p><h3>2. Escoliosis congénita</h3><p><span class='font-medium'>Desde el comienzo:</span> Presente desde el nacimiento, esta variante se origina debido a malformaciones vertebrales durante el desarrollo fetal. Su detección temprana es crucial para intervenciones efectivas.</p><h3>3. Escoliosis neuromuscular</h3><p><span class='font-medium'>Conexiones intrincadas:</span> Resulta de trastornos neuromusculares como la parálisis cerebral o distrofia muscular, donde la interacción compleja entre el sistema nervioso y los músculos desempeña un papel central en la progresión de la curvatura.</p><h3>4. Escoliosis degenerativa</h3><p><span class='font-medium'>Desgaste y desafíos:</span> Afecta principalmente a adultos y se desarrolla como resultado del desgaste natural de las articulaciones de la columna vertebral. Con el tiempo, puede dar lugar a curvaturas significativas.</p><h3>5. Escoliosis funcional</h3><p><span class='font-medium'>Compensación y adaptación:</span> A menudo asociada con desequilibrios musculares o asimetrías en las piernas, la escoliosis funcional se desarrolla como respuesta del cuerpo a ciertos desafíos biomecánicos.</p><h3>6. Escoliosis neurovascular</h3><p><span class='font-medium'>Explorando conexiones vasculares:</span> Este tipo de escoliosis se vincula a alteraciones en el sistema vascular, donde la relación entre la circulación sanguínea y la columna vertebral puede influir en la curvatura.</p><h3>7. Escoliosis miofascial</h3><p><span class='font-medium'>Teniendo en cuenta los tejidos:</span> La escoliosis miofascial se caracteriza por desequilibrios en los tejidos conectivos y musculares que rodean la columna vertebral, influyendo en su alineación.</p><h3>Variantes específicas de escoliosis</h3><p>Dentro de las variantes de la escoliosis podemos encontrar:</p><ol><li><a target='_blank' href='https://columnaquiro.com/blog/esclerosis-multiple-agresiva'><span class='font-medium'>Escoliosis múltiple:</span></a> Algunas personas pueden experimentar curvaturas en múltiples secciones de la columna, creando desafíos únicos en el tratamiento.</li><li><span class='font-medium'>Escoliosis dorsal:</span> La curvatura se localiza en la región dorsal de la columna vertebral, presentando características específicas que requieren atención especializada.</li><li><span class='font-medium'>Escoliosis lumbosacra:</span> Cuando la curvatura abarca la región lumbar y se extiende hacia el sacro, se clasifica como escoliosis lumbosacra, presentando consideraciones particulares en el tratamiento.</li><li><span class='font-medium'>Escoliosis dorsolumbar:</span> Esta variante afecta las regiones dorsal y lumbar de la columna, generando desafíos únicos que deben abordarse de manera integral.</li><li><span class='font-medium'>Escoliosis cervical:</span> La curvatura se localiza en la región cervical de la columna vertebral, requiriendo enfoques específicos para mantener la movilidad y aliviar la tensión en esta área delicada.</li></ol><p>Entender la variedad de tipos de escoliosis, incluyendo estas variantes específicas, es esencial para un diagnóstico preciso y un tratamiento adaptado a las necesidades individuales. En las secciones que siguen, exploraremos cómo la quiropráctica aborda cada tipo de escoliosis, brindando enfoques personalizados y orientados hacia la mejora de la calidad de vida.</p>"
+      },
+      "chiropracticBenefits": {
+        "title": "Descubriendo los Beneficios de la Quiropráctica en el Tratamiento de la Escoliosis",
+        "description": "<h3>1. Alineación vertebral y corrección postural:</h3><ul><li>Los ajustes quiroprácticos buscan corregir las subluxaciones vertebrales, promoviendo una alineación adecuada de la columna.</li><li>Mejorar la postura es esencial en el tratamiento de la escoliosis, y la quiropráctica se enfoca en alinear la columna para reducir la curvatura anormal.</li></ul><h3>2. Reducción de la tensión muscular:</h3><ul><li>La quiropráctica aborda la tensión muscular desigual asociada con la escoliosis, ayudando a reducir la fatiga y el malestar.</li><li>Empleando técnicas específicas, los quiroprácticos alivian la carga en los músculos afectados, proporcionando alivio y mejorando la movilidad.</li></ul><h3>3. Estímulo del sistema nervioso:</h3><ul><li>Los ajustes quiroprácticos impactan positivamente el sistema nervioso, mejorando la comunicación entre el cerebro y el cuerpo.</li><li>Un sistema nervioso más saludable facilita la adaptación del cuerpo a la curvatura vertebral, optimizando la función global.</li></ul><h3>4. Enfoque personalizado en cada tipo de escoliosis:</h3><ul><li>En nuestro <a href='https://columnaquiro.com'>Centro Quiropráctico</a> adaptamos los ajustes quiroprácticos a las características específicas de cada tipo de escoliosis, ofreciendo tratamientos personalizados.</li><li>La versatilidad de la quiropráctica permite abordar las variantes, incluyendo escoliosis múltiple, dorsal, lumbosacra, dorsolumbar y cervical.</li></ul><h3>5. Mejora de la movilidad y flexibilidad:</h3><ul><li>La quiropráctica busca mejorar la movilidad de la columna, contrarrestando la rigidez asociada con la escoliosis.</li><li>A través de técnicas específicas, se promueve la flexibilidad, permitiendo una mayor adaptabilidad de la columna a los cambios posturales.</li></ul><h3>6. Enfoque holístico en el bienestar general:</h3><ul><li>Más allá de la corrección física, la quiropráctica adopta un enfoque holístico que considera la salud general del individuo.</li><li>Se abordan factores como la nutrición, el estilo de vida y el bienestar emocional para complementar el tratamiento de la escoliosis.</li></ul><h3>7. Reducción del dolor y mejora en la calidad de vida:</h3><ul><li>Muchos de nuestros pacientes experimentan una reducción significativa en el dolor asociado con la escoliosis después de recibir ajustes quiroprácticos.</li><li>Al mejorar la función espinal y reducir la carga en los músculos, la quiropráctica contribuye a una mejora general en la calidad de vida.</li></ul>"
+      },
+      "faqs": {
+        "title": "Preguntas frecuentes sobre la escoliosis",
+        "items": [
+          {
+            "title": "¿La Quiropráctica es efectiva para el tratamiento de la escoliosis en adultos?",
+            "body": "Sí, la quiropráctica puede ser efectiva en adultos con escoliosis. Los ajustes quiroprácticos pueden ayudar a mejorar la alineación vertebral y reducir la tensión muscular, brindando alivio y promoviendo la movilidad."
+          },
+          {
+            "title": "¿Cómo puede la Quiropráctica ayudar en el tratamiento de la escoliosis?",
+            "body": "La quiropráctica aborda la escoliosis mediante ajustes que buscan corregir subluxaciones vertebrales, mejorar la postura y reducir la carga en los músculos afectados. Esto contribuye a una mejor alineación y función de la columna."
+          },
+          {
+            "title": "¿Se puede curar completa y permanentemente la Escoliosis con la Quiropráctica?",
+            "body": "La quiropráctica no pretende 'curar' la escoliosis de manera completa y permanente, pero puede ayudar a mejorar los síntomas, la postura y la calidad de vida. Es importante trabajar en conjunto con otros profesionales de la salud para un enfoque integral."
+          },
+          {
+            "title": "¿Cuánto tiempo puede tomar ver resultados con la Quiropráctica en la escoliosis?",
+            "body": "La duración para ver resultados varía según la severidad y el tipo de escoliosis. Algunos pacientes experimentan alivio desde las primeras sesiones, mientras que otros pueden requerir un enfoque a más largo plazo para obtener beneficios sostenidos."
+          },
+          {
+            "title": "¿La Quiropráctica puede aplicarse a distintos tipos de escoliosis?",
+            "body": "Sí, la quiropráctica puede adaptarse a diversos tipos de escoliosis, incluyendo escoliosis en adultos, escoliosis idiopática, escoliosis degenerativa, entre otras. Los quiroprácticos ajustan sus técnicas según las necesidades específicas de cada paciente."
+          },
+          {
+            "title": "¿existen ejercicios complementarios que se recomienden con la quiropráctica para la escoliosis?",
+            "body": "Sí, algunos quiroprácticos pueden sugerir ejercicios específicos para fortalecer y mejorar la flexibilidad de los músculos que rodean la columna vertebral. Estos ejercicios pueden ser parte de un plan de tratamiento integral."
+          },
+          {
+            "title": "¿Cuál es el primer paso para iniciar el tratamiento Quiropráctico en la escoliosis?",
+            "body": "El primer paso es programar una consulta con un quiropráctico especializado en el tratamiento de la escoliosis. Durante la consulta, se evaluará tu condición y se discutirá un plan de tratamiento personalizado según tus necesidades."
+          }
+        ]
+      }
     }
   },
   "whatIsChiropractic": {

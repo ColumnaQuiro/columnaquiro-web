@@ -18,6 +18,7 @@
       playsinline
       class="header-video__video"
       poster="https://res.cloudinary.com/dqrtj7gca/image/upload/f_auto,q_auto/v1/website/home/header_video_poster"
+      v-lazy-load
     >
       <source src="https://res.cloudinary.com/dqrtj7gca/video/upload/f_auto:video,q_auto/v1/website/home/header_video_webm" type="video/webm">
       <source src="https://res.cloudinary.com/dqrtj7gca/video/upload/f_auto:video,q_auto/v1/website/home/header_video_mp4" type="video/mp4">
@@ -34,6 +35,8 @@
   </div>
 </template>
 <script setup lang="ts">
+import { useI18n } from 'vue-i18n'
+
 const { t } = useI18n()
 </script>
 <style lang="scss" scoped>

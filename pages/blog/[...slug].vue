@@ -28,13 +28,6 @@ useSeo.setSeoTags(data.value.title, data.value.description)
   strong {
     @apply font-medium;
   }
-  p {
-    @apply mt-2 mb-4;
-
-    a {
-      @apply underline text-brand-secondary;
-    }
-  }
   ul {
     @apply list-disc mb-3;
   }

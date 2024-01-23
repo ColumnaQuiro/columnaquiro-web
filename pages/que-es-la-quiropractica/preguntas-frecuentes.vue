@@ -16,7 +16,7 @@
           :key="faq.title"
           :title="rt(faq.title)"
           :answer="rt(faq.body)"
-          class="mb-3"
+          class="mb-4"
         />
       </div>
     </div>

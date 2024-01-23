@@ -15,21 +15,53 @@ export const typeOfPersonToKey = new Map<string, string>([
   ['athletes', 'sport']
 ])
 
-export const typeOfPersonLocales: TypeOfPersonLocales = {
-  en: {
-    'discapacidades-motoras-intelectuales': 'disabled-people',
-    'bebes-y-ninos': 'kids',
-    'personas-mayores': 'elder-people',
-    embarazadas: 'pregnant-women',
-    trabajadores: 'workers',
-    deportistas: 'athletes'
+export const typeOfPersonLocales = {
+  'discapacidades-motoras-intelectuales': {
+    en: 'disabled-people',
+    es: 'discapacidades-motoras-intelectuales'
   },
-  es: {
-    workers: 'trabajadores',
-    athletes: 'deportistas',
-    'pregnant-women': 'embarazadas',
-    kids: 'bebes-y-ninos',
-    'disabled-people': 'discapacidades-motoras-intelectuales',
-    'elder-people': 'personas-mayores'
+  'bebes-y-ninos': {
+    en: 'kids',
+    es: 'bebes-y-ninos'
+  },
+  'personas-mayores': {
+    en: 'elder-people',
+    es: 'personas-mayores'
+  },
+  embarazadas: {
+    en: 'pregnant-women',
+    es: 'embarazadas'
+  },
+  trabajadores: {
+    en: 'workers',
+    es: 'trabajadores'
+  },
+  deportistas: {
+    en: 'athletes',
+    es: 'deportistas'
+  },
+  workers: {
+    en: 'workers',
+    es: 'trabajadores'
+  },
+  athletes: {
+    en: 'athletes',
+    es: 'deportistas'
+  },
+  'pregnant-women': {
+    en: 'pregnant-women',
+    es: 'embarazadas'
+  },
+  kids: {
+    en: 'kids',
+    es: 'bebes-y-ninos'
+  },
+  'disabled-people': {
+    en: 'disabled-people',
+    es: 'discapacidades-motoras-intelectuales'
+  },
+  'elder-people': {
+    en: 'elder-people',
+    es: 'personas-mayores'
   }
 }

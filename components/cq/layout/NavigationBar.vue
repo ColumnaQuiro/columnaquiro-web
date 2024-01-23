@@ -37,7 +37,9 @@
             </v-icon>{{ t('general.layout.navigationBar.appointmentButton.text') }}
           </cq-components-button>
           <div v-if="!isBlogContentUrl" class="h-8 bg-light-grey w-[1px] ml-4 mr-3" />
-          <cq-layout-language-selector v-if="!isBlogContentUrl" :text-color="textColor" />
+          <client-only>
+            <cq-layout-language-selector v-if="!isBlogContentUrl" :text-color="textColor" />
+          </client-only>
         </nav>
         <div class="flex items-center lg:hidden">
           <cq-components-button
@@ -49,11 +51,13 @@
               mdi-calendar
             </v-icon> {{ t('general.layout.navigationBar.appointmentButton.text') }}
           </cq-components-button>
-          <cq-layout-language-selector
-            v-if="!isBlogContentUrl"
-            class="ml-4"
-            :text-color="textColor"
-          />
+          <client-only>
+            <cq-layout-language-selector
+              v-if="!isBlogContentUrl"
+              class="ml-4"
+              :text-color="textColor"
+            />
+          </client-only>
           <cq-components-button
             icon
             variant="plain"
@@ -92,7 +96,8 @@
 </template>
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n'
-import type { Ref } from 'vue'
+import { computed, onMounted, ref, type Ref } from 'vue'
+import { useRoute } from 'vue-router'
 import type { Link } from '~/types/Link'
 
 const { t, rt, tm } = useI18n()
@@ -101,8 +106,8 @@ const localePath = useLocalePath()
 const links: Link[] = tm('general.layout.navigationBar.links')
 const mobileLinks: Link[] = tm('general.layout.navigationBar.mobileLinks')
 const showBurgerMenu: Ref<boolean> = ref(false)
-const isBlogContentUrl = computed(() => route.name?.includes('slug'))
-const isIndexUrl = computed(() => route.name?.includes('index'))
+const isBlogContentUrl = computed(() => route.name?.toString().includes('slug'))
+const isIndexUrl = computed(() => route.name?.toString().includes('index'))
 const isScrolling = ref(false)
 const textColor = computed(() => isIndexUrl.value && !isScrolling.value ? 'background' : 'blackBranded')
 

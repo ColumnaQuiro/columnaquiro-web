@@ -16,7 +16,7 @@
 </template>
 
 <script setup lang="ts">
-import type { PropType } from 'vue'
+import { computed, type PropType } from 'vue'
 
 const { locale, locales } = useI18n()
 const switchLocalePath = useSwitchLocalePath()

@@ -24,7 +24,8 @@ useHead({
   script: [
     {
       src: 'https://widgets.sociablekit.com/google-reviews/widget.js',
-      defer: true
+      defer: true,
+      tagPosition: 'bodyClose'
     }
   ]
 })

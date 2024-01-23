@@ -1,40 +1,40 @@
 <template>
   <div>
-    <Html :lang="head?.htmlAttrs?.lang" :dir="head?.htmlAttrs?.dir">
-      <cq-layout-navigation-bar />
-      <main :class="{'pt-14 lg:pt-16': !isIndexUrl}">
-        <slot />
-      </main>
-      <lazy-cq-layout-footer-container />
-      <client-only>
-        <vue-cookie-comply
-          :preferences="preferences"
-          :preferences-label="t('general.cookiesConsent.actions.configure')"
-          :accept-all-label="t('general.cookiesConsent.actions.accept')"
-          @on-accept-all-cookies="onAccept"
-          @on-save-cookie-preferences="onSavePreferences"
-        >
-          <template #header>
-            <div class="text-base" v-html="t('general.cookiesConsent.description')" />
-          </template>
-          <template #modal-header>
-            <h3>{{ t('general.cookiesConsent.preferences.title') }}</h3>
-          </template>
-        </vue-cookie-comply>
-      </client-only>
-      <cq-components-whatsapp-widget />
-    </Html>
+    <cq-layout-navigation-bar />
+    <main :class="{'pt-14 lg:pt-16': !isIndexUrl}">
+      <slot />
+    </main>
+    <lazy-cq-layout-footer-container />
+    <client-only>
+      <vue-cookie-comply
+        :preferences="preferences"
+        :preferences-label="t('general.cookiesConsent.actions.configure')"
+        :accept-all-label="t('general.cookiesConsent.actions.accept')"
+        @on-accept-all-cookies="onAccept"
+        @on-save-cookie-preferences="onSavePreferences"
+      >
+        <template #header>
+          <div class="text-base" v-html="t('general.cookiesConsent.description')" />
+        </template>
+        <template #modal-header>
+          <h3>{{ t('general.cookiesConsent.preferences.title') }}</h3>
+        </template>
+      </vue-cookie-comply>
+    </client-only>
+    <cq-components-whatsapp-widget />
   </div>
 </template>
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n'
 import { useSeoMeta } from '@unhead/vue'
+import { computed, onMounted } from 'vue'
+import { useRoute } from 'vue-router'
 import { STATICS_CDN } from '~/constants/urls'
 
 const { t } = useI18n()
 const { grantConsent } = useGtag()
 const route = useRoute()
-const isIndexUrl = computed(() => route.name?.includes('index'))
+const isIndexUrl = computed(() => route.name?.toString().includes('index'))
 
 const preferences = [
   {

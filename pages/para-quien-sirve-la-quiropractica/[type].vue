@@ -8,32 +8,22 @@
 import { useI18n } from 'vue-i18n'
 import { typeOfPersonLocales, typeOfPersonToKey } from '~/constants/typeOfPersonMapping'
 import { useSEO } from '~/composables/seo'
-import type { UrlEnPersonType, UrlEsPersonType } from '~/types/Person'
 
 const route = useRoute()
-const { t, locale } = useI18n()
+const { t } = useI18n()
 const useSeo = useSEO()
+const setI18nParams = useSetI18nParams()
 const type = route.params.type as string
 const personType: string | undefined = typeOfPersonToKey.get(type)
 const personTitle = t(`chiropracticForWhom.types.personTitle.${personType}`)
 
-if (personType) {
-  route.meta.nuxtI18n = {
-    en: { type: locale.value === 'en' ? type : typeOfPersonLocales.en[type as UrlEsPersonType] },
-    es: { type: locale.value === 'es' ? type : typeOfPersonLocales.es[type as UrlEnPersonType] }
-  }
-}
-
-const head = useLocaleHead({
-  identifierAttribute: 'id',
-  addSeoAttributes: true
-})
-useHead({
-  link: head.value.link,
-  meta: head.value.meta
+setI18nParams({
+  en: { type: typeOfPersonLocales[type as keyof typeof typeOfPersonLocales].en },
+  es: { type: typeOfPersonLocales[type as keyof typeof typeOfPersonLocales].es }
 })
 
 useSeo.setI18nTags()
 useSeo.setLocalBusinessSchemaOrgTag()
-useSeo.setSeoTags(t('chiropracticForWhom.types.seo.title', { personTitle }), t(`chiropracticForWhom.types.seo.description.${personType}`))
+useSeo.setSeoTags(t('chiropracticForWhom.types.seo.title', { personTitle }),
+  t(`chiropracticForWhom.types.seo.description.${personType}`))
 </script>

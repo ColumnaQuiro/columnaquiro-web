@@ -244,6 +244,15 @@
           }
         ]
       }
+    },
+    "symptoms": {
+      "title": "Symptoms",
+      "items": [
+        {
+          "title": "Scoliosis",
+          "to": "/en/symptoms/scoliosis"
+        }
+      ]
     }
   },
   "home": {
@@ -416,6 +425,65 @@
           "alt": "International Council Pediatric Association"
         }
       ]
+    }
+  },
+  "symptoms": {
+    "appointmentSection": {
+      "title": "Do you want us to help you improve scoliosis?",
+      "description": "Schedule an appointment for our chiropractors to assist you. <br>Our patients have improved thanks to our chiropractic adjustments."
+    },
+    "scoliosis": {
+      "whatIs": {
+        "title": "What is Scoliosis?",
+        "description": "<p>Scoliosis, a distinctive medical condition, manifests as an abnormal curvature of the spine. Unlike the typical straight alignment, <span class='font-medium'>the spine deviates forming curves in \"S\" or \"C\"</span>. This atypical inclination can occur in various locations along the spine and vary in intensity.</p>  <p>This disorder can occur at different stages of life, being more common during adolescence, a period of rapid growth. Scoliosis can be classified into various types, such as idiopathic (of unknown cause), congenital (present from birth), neuromuscular (related to neuromuscular disorders), degenerative (caused by natural wear and tear of the joints), and other more specific types that we will explain further.</p>",
+        "image": "f_auto,q_auto/v1/website/sintomas/que-es-la-escoliosis",
+        "imageAlt": "What is scoliosis"
+      },
+      "symptoms": {
+        "title": "Scoliosis Symptoms",
+        "description": "<p>Early detection of scoliosis is crucial for effective treatment. Some common indicators of this condition include: </p><ol><li><span class='font-medium'>Uneven shoulder height:</span> One visible symptom is the discrepancy in shoulder height, as the spine may lean laterally.</li><li><span class='font-medium'>Asymmetry of the shoulder blades:</span> The shoulder blades may exhibit an irregular arrangement, with one being more prominent or displaced compared to the other.</li><li><span class='font-medium'>Uneven waist:</span> The formation of an abnormal curve in the spine can lead to asymmetry in the waist, visible when observing body alignment.</li><li><span class='font-medium'>Deviation of the spine:</span> As scoliosis progresses, the spine deviates to one side, adopting the characteristic \"S\" or \"C\" shape.</li><li><span class='font-medium'>Muscle discomfort:</span> Some individuals may experience muscle discomfort in the back due to the strain exerted by the abnormal curvature."
+      },
+      "types": {
+        "title": "Types of Scoliosis and Their Variants",
+        "description": "<h3>1. Idiopathic Scoliosis</h3><p><span class='font-medium'>Mysterious and pervasive:</span> This type, constituting the majority of cases, still challenges a complete understanding of its causes. It mainly manifests during adolescence and is subdivided into adolescent idiopathic scoliosis and adult idiopathic scoliosis.</p><h3>2. Congenital Scoliosis</h3><p><span class='font-medium'>From the beginning:</span> Present from birth, this variant originates due to vertebral malformations during fetal development. Early detection is crucial for effective interventions.</p><h3>3. Neuromuscular Scoliosis</h3><p><span class='font-medium'>Intricate connections:</span> Results from neuromuscular disorders such as cerebral palsy or muscular dystrophy, where the complex interaction between the nervous system and muscles plays a central role in curvature progression.</p><h3>4. Degenerative Scoliosis</h3><p><span class='font-medium'>Wear and challenges:</span> Primarily affecting adults, it develops as a result of the natural wear and tear of the spinal joints. Over time, it can lead to significant curvatures.</p><h3>5. Functional Scoliosis</h3><p><span class='font-medium'>Compensation and adaptation:</span> Often associated with muscular imbalances or asymmetries in the legs, functional scoliosis develops as the body's response to certain biomechanical challenges.</p><h3>6. Neurovascular Scoliosis</h3><p><span class='font-medium'>Exploring vascular connections:</span> This type of scoliosis is linked to alterations in the vascular system, where the relationship between blood circulation and the spine can influence curvature.</p><h3>7. Myofascial Scoliosis</h3><p><span class='font-medium'>Considering tissues:</span> Myofascial scoliosis is characterized by imbalances in the connective tissues and muscles surrounding the spine, influencing its alignment.</p><h3>Specific Variants of Scoliosis</h3><p>Within scoliosis variants, we can find:</p><ol><li><a target='_blank' href='https://columnaquiro.com/blog/esclerosis-multiple-agresiva'><span class='font-medium'>Multiple Scoliosis:</span></a> Some individuals may experience curvatures in multiple sections of the spine, creating unique challenges in treatment.</li><li><span class='font-medium'>Dorsal Scoliosis:</span> The curvature is located in the dorsal region of the spine, presenting specific characteristics that require specialized attention.</li><li><span class='font-medium'>Lumbosacral Scoliosis:</span> When the curvature spans the lumbar region and extends to the sacrum, it is classified as lumbosacral scoliosis, presenting particular considerations in treatment.</li><li><span class='font-medium'>Dorsolumbar Scoliosis:</span> This variant affects the dorsal and lumbar regions of the spine, generating unique challenges that must be addressed comprehensively.</li><li><span class='font-medium'>Cervical Scoliosis:</span> The curvature is located in the cervical region of the spine, requiring specific approaches to maintain mobility and relieve tension in this delicate area.</li></ol><p>Understanding the variety of scoliosis types, including these specific variants, is essential for accurate diagnosis and treatment tailored to individual needs. In the following sections, we will explore how chiropractic addresses each type of scoliosis, providing personalized and improvement-oriented approaches to enhance quality of life.</p>"
+      },
+      "chiropracticBenefits": {
+        "title": "Discovering the Benefits of Chiropractic in Scoliosis Treatment",
+        "description": "<h3>1. Spinal Alignment and Postural Correction:</h3><ul><li>Chiropractic adjustments aim to correct vertebral subluxations, promoting proper alignment of the spine.</li><li>Improving posture is essential in scoliosis treatment, and chiropractic focuses on aligning the spine to reduce abnormal curvature.</li></ul><h3>2. Reduction of Muscle Tension:</h3><ul><li>Chiropractic addresses uneven muscle tension associated with scoliosis, helping to reduce fatigue and discomfort.</li><li>Using specific techniques, chiropractors alleviate the burden on affected muscles, providing relief and improving mobility.</li></ul><h3>3. Stimulation of the Nervous System:</h3><ul><li>Chiropractic adjustments positively impact the nervous system, enhancing communication between the brain and body.</li><li>A healthier nervous system facilitates the body's adaptation to vertebral curvature, optimizing overall function.</li></ul><h3>4. Customized Approach to Each Type of Scoliosis:</h3><ul><li>In our <a href='https://columnaquiro.com'>Chiropractic Center</a>, we adapt chiropractic adjustments to the specific characteristics of each type of scoliosis, offering personalized treatments.</li><li>The versatility of chiropractic allows addressing variants, including multiple, dorsal, lumbosacral, dorsolumbar, and cervical scoliosis.</li></ul><h3>5. Improvement of Mobility and Flexibility:</h3><ul><li>Chiropractic aims to improve spinal mobility, counteracting stiffness associated with scoliosis.</li><li>Through specific techniques, flexibility is promoted, allowing greater adaptability of the spine to postural changes.</li></ul><h3>6. Holistic Focus on General Well-being:</h3><ul><li>Beyond physical correction, chiropractic adopts a holistic approach considering the individual's overall health.</li><li>Factors such as nutrition, lifestyle, and emotional well-being are addressed to complement scoliosis treatment.</li></ul><h3>7. Pain Reduction and Improvement in Quality of Life:</h3><ul><li>Many of our patients experience a significant reduction in scoliosis-related pain after receiving chiropractic adjustments.</li><li>By improving spinal function and reducing muscle strain, chiropractic contributes to an overall enhancement in quality of life.</li></ul>"
+      },
+      "faqs": {
+        "title": "Frequently Asked Questions about Scoliosis",
+        "items": [
+          {
+            "title": "Is Chiropractic Effective for the Treatment of Scoliosis in Adults?",
+            "body": "Yes, chiropractic can be effective in adults with scoliosis. Chiropractic adjustments can help improve vertebral alignment and reduce muscle tension, providing relief and promoting mobility."
+          },
+          {
+            "title": "How Can Chiropractic Help in the Treatment of Scoliosis?",
+            "body": "Chiropractic addresses scoliosis through adjustments that aim to correct vertebral subluxations, improve posture, and reduce the load on affected muscles. This contributes to better alignment and function of the spine."
+          },
+          {
+            "title": "Can Scoliosis be Completely and Permanently Cured with Chiropractic?",
+            "body": "Chiropractic does not claim to 'cure' scoliosis completely and permanently, but it can help improve symptoms, posture, and quality of life. It is important to work in collaboration with other healthcare professionals for a comprehensive approach."
+          },
+          {
+            "title": "How Long Can It Take to See Results with Chiropractic in Scoliosis?",
+            "body": "The duration to see results varies depending on the severity and type of scoliosis. Some patients experience relief from the early sessions, while others may require a longer-term approach for sustained benefits."
+          },
+          {
+            "title": "Can Chiropractic be Applied to Different Types of Scoliosis?",
+            "body": "Yes, chiropractic can be adapted to various types of scoliosis, including scoliosis in adults, idiopathic scoliosis, degenerative scoliosis, among others. Chiropractors adjust their techniques according to the specific needs of each patient."
+          },
+          {
+            "title": "Are There Complementary Exercises Recommended with Chiropractic for Scoliosis?",
+            "body": "Yes, some chiropractors may suggest specific exercises to strengthen and improve the flexibility of the muscles surrounding the spine. These exercises can be part of a comprehensive treatment plan."
+          },
+          {
+            "title": "What is the First Step to Initiate Chiropractic Treatment for Scoliosis?",
+            "body": "The first step is to schedule a consultation with a chiropractor specialized in scoliosis treatment. During the consultation, your condition will be assessed, and a personalized treatment plan will be discussed based on your needs."
+          }
+        ]
+      }
     }
   },
   "whatIsChiropractic": {

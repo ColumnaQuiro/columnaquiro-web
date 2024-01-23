@@ -1,9 +1,10 @@
 <template>
-  <div :style="cssVars" class="paragraph-with-image flex flex-col md:flex-row md:justify-center gap-10">
+  <div :style="cssVars" class="paragraph-with-image flex flex-col lg:flex-row lg:justify-center gap-10">
     <div
+      class="order-last"
       :class="{
-        'order-0': isImagePositionRight,
-        'order-1': isImagePositionLeft
+        'lg:order-first': isImagePositionRight,
+        'lg:order-last': isImagePositionLeft
       }"
     >
       <slot name="text">
@@ -19,13 +20,13 @@
     </div>
     <div>
       <slot name="image">
-        <div class="paragraph-with-image__image">
+        <div class="paragraph-with-image__container">
           <NuxtImg
             :src="image"
-            class="mx-auto md:mx-0 md:mt-0"
+            class="paragraph-with-image__image"
             :alt="imageAlt"
             :preload="preload"
-            provider="s3"
+            :provider="provider"
           />
         </div>
       </slot>
@@ -34,7 +35,7 @@
 </template>
 <script setup lang="ts">
 
-import type { PropType } from 'vue'
+import { computed, type PropType } from 'vue'
 
 type ImagePosition = 'left' | 'right'
 
@@ -66,6 +67,10 @@ const props = defineProps({
   preload: {
     type: Boolean,
     default: false
+  },
+  provider: {
+    type: String as PropType<'s3'|'cloudinary'>,
+    default: 's3'
   }
 })
 
@@ -81,9 +86,14 @@ const isImagePositionRight = props.imagePosition === 'right'
     margin-left: 16px !important;
   }
 
-  &__image {
+  &__container {
     @apply w-full;
-    @apply md:w-[var(--width)];
+    @apply lg:w-max;
+  }
+
+  &__image {
+    @apply w-full mx-auto;
+    @apply md:w-[var(--width)] lg:mx-0 lg:mt-0;
   }
 }
 </style>

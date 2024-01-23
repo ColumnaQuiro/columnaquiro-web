@@ -58,6 +58,10 @@ const localePath = useLocalePath()
   &__item {
     @apply mb-4;
 
+    &-title {
+      @apply text-brand-black;
+    }
+
     &:hover {
       .blog-list__item-title {
         @apply underline;

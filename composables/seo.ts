@@ -5,7 +5,6 @@ export const useSEO = () => {
     const { path } = useRoute()
     const canonical = `https://columnaquiro.com${path}`
     useHead(() => ({
-      title,
       link: [
         {
           rel: 'canonical',
@@ -14,12 +13,11 @@ export const useSEO = () => {
       ]
     }))
     useSeoMeta({
-      ogUrl: canonical
-    })
-    useSeoMeta({
+      title,
       description,
       ogDescription: description,
-      ogTitle: title
+      ogTitle: title,
+      ogUrl: canonical
     })
   }
 
