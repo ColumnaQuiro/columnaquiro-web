@@ -9,11 +9,11 @@
     density="compact"
     variant="outlined"
     class="input-text"
-    @click:appendInner="emit('click:appendInner')"
+    @click:append-inner="emit('click:appendInner')"
   />
 </template>
 <script setup lang="ts">
-import type { FunctionalComponent } from 'vue'
+import { computed, type FunctionalComponent } from 'vue'
 import { REQUIRED_RULE } from '~/constants/form-rules'
 
 interface Props {
@@ -41,7 +41,7 @@ const model = computed({
   get () {
     return props.modelValue
   },
-  set (value) {
+  set (value: string) {
     emit('update:modelValue', value)
   }
 })

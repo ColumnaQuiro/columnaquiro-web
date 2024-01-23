@@ -26,6 +26,7 @@
 
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n'
+import { ref } from 'vue'
 import { EMAIL_RULES } from '~/constants/form-rules'
 import { useSendSlackMessage } from '~/composables/slack'
 import { EMAIL_SUBSCRIPTION_CHANNEL } from '~/constants/slackChannels'

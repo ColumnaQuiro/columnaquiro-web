@@ -6,7 +6,7 @@ date: '2024-01-07T19:20:00'
 cover: https://res.cloudinary.com/dqrtj7gca/image/upload/f_auto,q_auto/v1/website/blog/escoliosis-en-la-adolescencia-2
 ---
 
-La [escoliosis](https://columnaquiro.com/blog/quiropractica-clave-para-la-escoliosis) en la adolescencia es una condición prevalente, constituyendo el 85% de los casos totales. Esta deformidad de la columna vertebral se manifiesta durante la fase de crecimiento, afectando aproximadamente al 3% de la población adolescente. Este tipo de escoliosis suele ser diagnosticado en la pubertad o adolescencia, etapas cruciales en las que el cuerpo experimenta cambios significativos.
+La [escoliosis](https://columnaquiro.com/sintomas/escoliosis) en la adolescencia es una condición prevalente, constituyendo el 85% de los casos totales. Esta deformidad de la columna vertebral se manifiesta durante la fase de crecimiento, afectando aproximadamente al 3% de la población adolescente. Este tipo de escoliosis suele ser diagnosticado en la pubertad o adolescencia, etapas cruciales en las que el cuerpo experimenta cambios significativos.
 
 Es fundamental abordar esta condición de manera temprana, ya que, de lo contrario, las consecuencias a largo plazo pueden ser sustanciales. La curvatura visible de la columna vertebral es el signo más común, pero a medida que la desviación progresa, pueden surgir síntomas adicionales como dolor de espalda, cefaleas, dificultad para respirar y asimetrías corporales.
 

@@ -62,9 +62,13 @@ export default defineNuxtConfig({
     '@nuxtjs/sitemap',
     'vuetify-nuxt-module',
     '@nuxt/image',
-    '@nuxtjs/robots'
+    '@nuxtjs/robots',
+    'nuxt-lazy-load'
   ],
   image: {
+    cloudinary: {
+      baseURL: 'https://res.cloudinary.com/dqrtj7gca/image/upload/'
+    },
     providers: {
       s3: {
         provider: '~/providers/aws-s3.ts',
@@ -83,20 +87,7 @@ export default defineNuxtConfig({
       'politica-de-privacidad',
       'en/cookies-policy',
       'en/privacy-policy',
-      'en/legal-notice',
-      '/para-quien-sirve-la-quiropractica/disabled-people',
-      '/para-quien-sirve-la-quiropractica/kids',
-      '/para-quien-sirve-la-quiropractica/elder-people',
-      '/para-quien-sirve-la-quiropractica/pregnant-women',
-      '/para-quien-sirve-la-quiropractica/athletes',
-      '/para-quien-sirve-la-quiropractica/workers',
-      '/en/who-is-chiropractic-for/personas-mayores',
-      '/en/who-is-chiropractic-for/discapacidades-motoras-intelectuales',
-      '/en/who-is-chiropractic-for/bebes-y-ninos',
-      '/en/who-is-chiropractic-for/embarazadas',
-      '/en/who-is-chiropractic-for/deportistas',
-      '/en/who-is-chiropractic-for/trabajadores',
-      '/en/who-is-chiropractic-for/who-is-chiropractic-for'
+      'en/legal-notice'
     ]
   },
   robots: {
@@ -155,6 +146,9 @@ export default defineNuxtConfig({
       'para-quien-sirve-la-quiropractica/[type]': {
         en: '/who-is-chiropractic-for/[type]'
       },
+      'sintomas/[symptom]': {
+        en: '/symptoms/[symptom]'
+      },
       'sobre-nosotros/centro-quiropractico-valencia': {
         en: '/about-us/chiropractic-valencia'
       },
@@ -189,6 +183,9 @@ export default defineNuxtConfig({
       }
     }
   },
+  lazyLoad: {
+    directiveOnly: true
+  },
   gtag: {
     id: 'G-7RZ1YECNKZ',
     config: {
@@ -196,6 +193,14 @@ export default defineNuxtConfig({
     },
     initialConsent: true
   },
+  facebook: {
+    pixelId: '1329787411048279',
+    autoPageView: true
+  },
+  // tiktok: {
+  //   pixel: 'CMJP54RC77U667VECG80',
+  //   disabled: false
+  // },
   content: {
     // https://content.nuxtjs.org/api/configuration
     highlight: {

@@ -9,11 +9,17 @@
           {{ t('contact.form.subtitle') }}
         </div>
       </div>
-      <v-form ref="formRef" v-model="isFormValid" class="col-span-full md:col-span-6" validate-on="submit" @submit.prevent="submitForm">
+      <v-form
+        ref="formRef"
+        v-model="isFormValid"
+        class="col-span-full md:col-span-6"
+        validate-on="submit"
+        @submit.prevent="submitForm"
+      >
         <cq-components-input-text
           v-for="field in fields"
           :key="rt(field.key)"
-          v-model="formData[rt(field.key)]"
+          v-model="formData[rt(field.key) as keyof ContactForm]"
           :label="rt(field.label)"
           :rules="rt(field.type) === 'email' ? EMAIL_RULES : REQUIRED_RULE"
           :type="rt(field.type)"
@@ -28,6 +34,9 @@
 
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n'
+import type { VForm } from 'vuetify/components/VForm'
+import type { SubmitEventPromise } from 'vuetify'
+import { reactive, ref } from 'vue'
 import { EMAIL_RULES, REQUIRED_RULE } from '~/constants/form-rules'
 import { useSendSlackMessage } from '~/composables/slack'
 import { CONTACT_FORM_CHANNEL } from '~/constants/slackChannels'
@@ -56,7 +65,7 @@ const formData = reactive<ContactForm>({
   message: ''
 })
 
-const submitForm = async (validate) => {
+const submitForm = async (validate: SubmitEventPromise) => {
   const { valid } = await validate
   if (valid) {
     const formDataKeys = Object.keys(formData) as Array<keyof ContactForm>

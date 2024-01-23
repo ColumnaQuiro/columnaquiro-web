@@ -6,7 +6,7 @@ date: '2024-01-07T18:00:00'
 cover: https://res.cloudinary.com/dqrtj7gca/image/upload/f_auto,q_auto/v1/website/blog/escoliosis
 ---
 
-La escoliosis, una condición caracterizada por la curvatura anormal de la columna vertebral, afecta a un considerable número de personas en todo el mundo. Esta deformidad, que a menudo se desarrolla durante el crecimiento, puede tener ramificaciones significativas en la salud y el bienestar de quienes la padecen. Sin embargo, más allá de las preocupaciones evidentes sobre la postura y el dolor asociado, uno de los desafíos más apremiantes que enfrentan las personas con [escoliosis](https://columnaquiro.com/blog/quiropractica-clave-para-la-escoliosis) es la dificultad respiratoria.
+[La escoliosis](https://columnaquiro.com/sintomas/escoliosis), una condición caracterizada por la curvatura anormal de la columna vertebral, afecta a un considerable número de personas en todo el mundo. Esta deformidad, que a menudo se desarrolla durante el crecimiento, puede tener ramificaciones significativas en la salud y el bienestar de quienes la padecen. Sin embargo, más allá de las preocupaciones evidentes sobre la postura y el dolor asociado, uno de los desafíos más apremiantes que enfrentan las personas con [escoliosis](https://columnaquiro.com/sintomas/escoliosis) es la dificultad respiratoria.
 
 ## Importancia de abordar la escoliosis
 
