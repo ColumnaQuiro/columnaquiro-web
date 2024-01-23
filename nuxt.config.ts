@@ -63,7 +63,6 @@ export default defineNuxtConfig({
     'vuetify-nuxt-module',
     '@nuxt/image',
     '@nuxtjs/robots',
-    'nuxt3-meta-pixel',
     'nuxt-lazy-load'
   ],
   image: {
