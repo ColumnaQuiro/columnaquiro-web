@@ -66,8 +66,7 @@ export default defineNuxtConfig({
     '@nuxtjs/sitemap',
     'vuetify-nuxt-module',
     '@nuxt/image',
-    '@nuxtjs/robots',
-    'nuxt-lazy-load'
+    '@nuxtjs/robots'
   ],
   image: {
     formats: {
@@ -192,9 +191,6 @@ export default defineNuxtConfig({
       }
     }
   },
-  lazyLoad: {
-    images: false
-  },
   gtag: {
     id: 'G-7RZ1YECNKZ',
     config: {
@@ -202,14 +198,6 @@ export default defineNuxtConfig({
     },
     initialConsent: true
   },
-  facebook: {
-    pixelId: '1329787411048279',
-    autoPageView: true
-  },
-  // tiktok: {
-  //   pixel: 'CMJP54RC77U667VECG80',
-  //   disabled: false
-  // },
   content: {
     // https://content.nuxtjs.org/api/configuration
     highlight: {
