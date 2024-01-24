@@ -15,7 +15,9 @@ export default defineNuxtConfig({
         { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: 'anonymous' },
         { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Montserrat:wght@400..700&display=swap' },
         { rel: 'preconnect', href: 'https://maxcdn.bootstrapcdn.com' },
-        { rel: 'preconnect', href: 'https://statics.columnaquiro.com' }
+        { rel: 'preconnect', href: 'https://statics.columnaquiro.com' },
+        { rel: 'preconnect', href: 'https://res.cloudinary.com' },
+        { rel: 'preconnect', href: 'https://lh3.googleusercontent.com' }
       ]
     }
   },
@@ -32,8 +34,10 @@ export default defineNuxtConfig({
     client: false
   },
   experimental: {
-    inlineSSRStyles: false,
     payloadExtraction: false
+  },
+  features: {
+    inlineStyles: false
   },
   runtimeConfig: {
     googleMapsApiKey: ''
@@ -62,10 +66,14 @@ export default defineNuxtConfig({
     '@nuxtjs/sitemap',
     'vuetify-nuxt-module',
     '@nuxt/image',
-    '@nuxtjs/robots',
-    'nuxt-lazy-load'
+    '@nuxtjs/robots'
   ],
   image: {
+    formats: {
+      webp: {
+        quality: 80
+      }
+    },
     cloudinary: {
       baseURL: 'https://res.cloudinary.com/dqrtj7gca/image/upload/'
     },
@@ -183,9 +191,6 @@ export default defineNuxtConfig({
       }
     }
   },
-  lazyLoad: {
-    directiveOnly: true
-  },
   gtag: {
     id: 'G-7RZ1YECNKZ',
     config: {
@@ -193,14 +198,6 @@ export default defineNuxtConfig({
     },
     initialConsent: true
   },
-  facebook: {
-    pixelId: '1329787411048279',
-    autoPageView: true
-  },
-  // tiktok: {
-  //   pixel: 'CMJP54RC77U667VECG80',
-  //   disabled: false
-  // },
   content: {
     // https://content.nuxtjs.org/api/configuration
     highlight: {

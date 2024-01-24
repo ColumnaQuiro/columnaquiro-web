@@ -2,9 +2,7 @@
   <div class="pagination-list text-brand-black">
     <!-- Chevron -->
     <nuxt-link v-show="currentPage > 1" class="pagination-item pagination-icon" :to="prevLink">
-      <v-icon>
-        mdi-chevron-left
-      </v-icon>
+      <v-icon :icon="mdiChevronLeft" />
     </nuxt-link>
     <!-- First Page -->
     <nuxt-link :class="['pagination-item', currentPage === 1 ? 'active' : '']" :to="baseUrl">
@@ -30,15 +28,15 @@
     </nuxt-link>
     <!-- Chevron -->
     <nuxt-link v-show="currentPage < totalPages" class="pagination-item pagination-icon" :to="getPageUrl(currentPage + 1)">
-      <v-icon>
-        mdi-chevron-right
-      </v-icon>
+      <v-icon :icon="mdiChevronRight" />
     </nuxt-link>
   </div>
 </template>
 
 <script setup>
 import { computed } from 'vue'
+import { mdiChevronLeft, mdiChevronRight } from '@mdi/js'
+
 const props = defineProps({
   currentPage: {
     type: Number,

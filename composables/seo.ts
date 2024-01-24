@@ -65,7 +65,8 @@ export const useSEO = () => {
                 '@type': 'OpeningHoursSpecification',
                 dayOfWeek: [
                   'Monday',
-                  'Wednesday'
+                  'Wednesday',
+                  'Thursday'
                 ],
                 opens: '15:00',
                 closes: '20:00'
@@ -74,7 +75,6 @@ export const useSEO = () => {
                 '@type': 'OpeningHoursSpecification',
                 dayOfWeek: [
                   'Tuesday',
-                  'Thursday',
                   'Friday'
                 ],
                 opens: '10:00',
