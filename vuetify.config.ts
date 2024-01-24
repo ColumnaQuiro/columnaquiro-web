@@ -29,6 +29,9 @@ export default defineVuetifyConfiguration({
       elevation: 0
     }
   },
+  icons: {
+    defaultSet: 'mdi-svg'
+  },
   theme: {
     defaultTheme: 'myCustomLightTheme',
     themes: {

@@ -34,8 +34,10 @@ export default defineNuxtConfig({
     client: false
   },
   experimental: {
-    inlineSSRStyles: false,
     payloadExtraction: false
+  },
+  features: {
+    inlineStyles: false
   },
   runtimeConfig: {
     googleMapsApiKey: ''

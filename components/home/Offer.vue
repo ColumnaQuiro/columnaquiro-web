@@ -14,9 +14,7 @@
           <div class="text-base text-center md:text-start" v-html="t('home.offer.description')" />
           <div class="text-center pt-8">
             <cq-components-button :to="localePath('/reserva-cita-centro-quiropractico-valencia')" color="secondary">
-              <v-icon class="mr-2">
-                mdi-calendar
-              </v-icon>
+              <v-icon :icon="mdiCalendar" class="mr-2" />
               {{ t('home.offer.button') }}
             </cq-components-button>
           </div>
@@ -27,6 +25,7 @@
 </template>
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n'
+import { mdiCalendar } from '@mdi/js'
 
 const { t } = useI18n()
 const localePath = useLocalePath()

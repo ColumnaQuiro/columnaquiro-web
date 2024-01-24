@@ -26,7 +26,7 @@
         color="#fbad50"
         @click="onSocialIconClicked('instagram')"
       >
-        <v-icon>mdi-instagram</v-icon>
+        <v-icon :icon="mdiInstagram" />
       </cq-components-button>
       <cq-components-button
         class="ml-3"
@@ -38,7 +38,7 @@
         color="#1877F2"
         @click="onSocialIconClicked('facebook')"
       >
-        <v-icon>mdi-facebook</v-icon>
+        <v-icon :icon="mdiFacebook" />
       </cq-components-button>
       <cq-components-button
         class="ml-3"
@@ -50,15 +50,15 @@
         color="#25D366"
         @click="onSocialIconClicked('whatsapp')"
       >
-        <v-icon>mdi-whatsapp</v-icon>
+        <v-icon :icon="mdiWhatsapp" />
       </cq-components-button>
     </div>
   </div>
 </template>
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n'
+import { mdiWhatsapp, mdiFacebook, mdiInstagram } from '@mdi/js'
 import { FACEBOOK_URL, GOOGLE_MAPS_LOCAL_DIRECTION, INSTAGRAM_URL, WHATSAPP_URL } from '~/constants/urls'
-
 const { t } = useI18n()
 type SocialApps = 'whatsapp' | 'facebook' | 'instagram'
 const onSocialIconClicked = (icon: SocialApps) => {

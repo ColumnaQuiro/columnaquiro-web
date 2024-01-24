@@ -32,9 +32,7 @@
             variant="flat"
             color="tertiary"
           >
-            <v-icon class="mr-2">
-              mdi-calendar
-            </v-icon>{{ t('general.layout.navigationBar.appointmentButton.text') }}
+            <v-icon class="mr-2" :icon="mdiCalendar" />{{ t('general.layout.navigationBar.appointmentButton.text') }}
           </cq-components-button>
           <div v-if="!isBlogContentUrl" class="h-8 bg-light-grey w-[1px] ml-4 mr-3" />
           <client-only>
@@ -47,9 +45,7 @@
             variant="flat"
             color="tertiary"
           >
-            <v-icon class="mr-2">
-              mdi-calendar
-            </v-icon> {{ t('general.layout.navigationBar.appointmentButton.text') }}
+            <v-icon :icon="mdiCalendar" class="mr-2" />{{ t('general.layout.navigationBar.appointmentButton.text') }}
           </cq-components-button>
           <client-only>
             <cq-layout-language-selector
@@ -66,7 +62,7 @@
             aria-label="menu"
             @click="toggleBurgerMenu"
           >
-            <v-icon>mdi-menu</v-icon>
+            <v-icon :icon="mdiMenu" />
           </cq-components-button>
         </div>
       </div>
@@ -98,6 +94,7 @@
 import { useI18n } from 'vue-i18n'
 import { computed, onMounted, ref, type Ref } from 'vue'
 import { useRoute } from 'vue-router'
+import { mdiCalendar, mdiMenu } from '@mdi/js'
 import type { Link } from '~/types/Link'
 
 const { t, rt, tm } = useI18n()
