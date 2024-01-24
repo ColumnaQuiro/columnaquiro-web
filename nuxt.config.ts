@@ -15,7 +15,9 @@ export default defineNuxtConfig({
         { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: 'anonymous' },
         { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Montserrat:wght@400..700&display=swap' },
         { rel: 'preconnect', href: 'https://maxcdn.bootstrapcdn.com' },
-        { rel: 'preconnect', href: 'https://statics.columnaquiro.com' }
+        { rel: 'preconnect', href: 'https://statics.columnaquiro.com' },
+        { rel: 'preconnect', href: 'https://res.cloudinary.com' },
+        { rel: 'preconnect', href: 'https://lh3.googleusercontent.com' }
       ]
     }
   },
@@ -184,7 +186,7 @@ export default defineNuxtConfig({
     }
   },
   lazyLoad: {
-    directiveOnly: true
+    images: false
   },
   gtag: {
     id: 'G-7RZ1YECNKZ',
