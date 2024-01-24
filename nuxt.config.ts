@@ -47,7 +47,7 @@ export default defineNuxtConfig({
     }
   },
   nitro: {
-    preset: 'netlify',
+    preset: 'netlify-static',
     prerender: {
       crawlLinks: true
     }
@@ -68,6 +68,11 @@ export default defineNuxtConfig({
     'nuxt-lazy-load'
   ],
   image: {
+    formats: {
+      webp: {
+        quality: 80
+      }
+    },
     cloudinary: {
       baseURL: 'https://res.cloudinary.com/dqrtj7gca/image/upload/'
     },
