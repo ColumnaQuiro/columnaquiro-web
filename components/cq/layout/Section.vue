@@ -14,6 +14,7 @@
       :src="`website/shapes/${shape}.webp`"
       :width="shapeWidth"
       alt="shape"
+      loading="lazy"
     />
     <div
       class="container relative"
