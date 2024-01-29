@@ -107,7 +107,9 @@ export default defineNuxtConfig({
         '/politica-de-privacidad',
         '/en/lega-notice',
         '/en/privacy-policy',
-        '/en/cookies-policy'
+        '/en/cookies-policy',
+        '/apple-app-site-association',
+        '/.well-known/apple-app-site-association'
       ],
       Sitemap: 'https://columnaquiro.com/sitemap.xml'
     }
@@ -196,7 +198,7 @@ export default defineNuxtConfig({
     config: {
       debug_mode: process.env.NODE_ENV === 'development'
     },
-    initialConsent: true
+    initialConsent: process.env.NODE_ENV !== 'development'
   },
   content: {
     // https://content.nuxtjs.org/api/configuration

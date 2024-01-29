@@ -11,7 +11,7 @@
       />
       <div class="flex flex-col md:flex-row justify-between pt-10">
         <cq-layout-footer-company-details class="md:pb-0 pb-8" />
-        <cq-layout-footer-symptoms />
+        <cq-layout-footer-symptoms class="md:pb-0 pb-8" />
         <cq-layout-footer-timetable />
       </div>
       <cq-layout-footer-copyright class="mt-8" />

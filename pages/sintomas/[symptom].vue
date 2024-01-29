@@ -3,15 +3,15 @@
     <sintomas-what-is :symptom="`${symptom}`" />
     <sintomas-symptoms :symptom="`${symptom}`" />
     <cq-blocks-order-appointment-section
-      :title="t('symptoms.appointmentSection.title')"
-      :description="t('symptoms.appointmentSection.description')"
+      :title="t(`symptoms.${symptom}.appointmentSection.title`)"
+      :description="t(`symptoms.${symptom}.appointmentSection.description`)"
     />
     <sintomas-types :symptom="`${symptom}`" />
     <sintomas-chiropractic-benefits :symptom="`${symptom}`" />
     <sintomas-faqs :symptom="`${symptom}`" />
     <cq-blocks-order-appointment-section
-      :title="t('symptoms.appointmentSection.title')"
-      :description="t('symptoms.appointmentSection.description')"
+      :title="t(`symptoms.${symptom}.appointmentSection.title`)"
+      :description="t(`symptoms.${symptom}.appointmentSection.description`)"
     />
   </div>
 </template>

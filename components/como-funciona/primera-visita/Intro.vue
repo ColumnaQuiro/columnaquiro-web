@@ -1,8 +1,5 @@
 <template>
   <cq-layout-section shape="shape-tertiary-light-right" shape-position="bottom-right" :shape-width="400">
-    <h1 class="section-title">
-      {{ t('howItWorks.firstVisit.title') }}
-    </h1>
     <div class="text-base pb-4" v-html="t('howItWorks.firstVisit.description')" />
     <div class="grid gap-5 grid-cols-2">
       <cq-components-bullet-item-list v-for="(step, i) in steps" :key="i" :index="i + 1">
