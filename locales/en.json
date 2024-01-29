@@ -1,5 +1,8 @@
 {
   "general": {
+    "button": {
+      "knowMore": "Know more"
+    },
     "testimonials": {
       "title": "They talk about the Chiropractic Center ColumnaQuiro",
       "items": [
@@ -251,6 +254,10 @@
         {
           "title": "Scoliosis",
           "to": "/en/symptoms/scoliosis"
+        },
+        {
+          "title": "Neck an headache pain",
+          "to": "/en/symptoms/neck-and-headache-pain"
         }
       ]
     }
@@ -261,9 +268,7 @@
       "description": "Explore chiropractic care at our Chiropractic Center in Valencia. We address various symptoms, provide assistance for pregnant women, athletes, and accident cases."
     },
     "headerVideo": {
-      "title": "Your Chiropractic center in Valencia",
-      "subtitle": "Take advantage of our offer: Chiropractic assessment and adjustment for only €50.",
-      "button": "See Offer"
+      "title": "Your Chiropractic center in Valencia"
     },
     "yourCenter": {
       "title": "We are your trusted Chiropractic Center"
@@ -428,11 +433,11 @@
     }
   },
   "symptoms": {
-    "appointmentSection": {
-      "title": "Do you want us to help you improve scoliosis?",
-      "description": "Schedule an appointment for our chiropractors to assist you. <br>Our patients have improved thanks to our chiropractic adjustments."
-    },
     "scoliosis": {
+      "appointmentSection": {
+        "title": "Do you want us to help you improve scoliosis?",
+        "description": "Schedule an appointment for our chiropractors to assist you. <br>Our patients have improved thanks to our chiropractic adjustments."
+      },
       "whatIs": {
         "title": "What is Scoliosis?",
         "description": "<p>Scoliosis, a distinctive medical condition, manifests as an abnormal curvature of the spine. Unlike the typical straight alignment, <span class='font-medium'>the spine deviates forming curves in \"S\" or \"C\"</span>. This atypical inclination can occur in various locations along the spine and vary in intensity.</p>  <p>This disorder can occur at different stages of life, being more common during adolescence, a period of rapid growth. Scoliosis can be classified into various types, such as idiopathic (of unknown cause), congenital (present from birth), neuromuscular (related to neuromuscular disorders), degenerative (caused by natural wear and tear of the joints), and other more specific types that we will explain further.</p>",
@@ -484,7 +489,53 @@
           }
         ]
       }
+    },
+    "neck-and-headache-pain": {
+      "appointmentSection": {
+        "title": "Do you want us to help you improve neck and head pain?",
+        "description": "Make an appointment for our chiropractors to assist you. <br>Our patients have improved thanks to our chiropractic adjustments."
+      },
+      "whatIs": {
+        "title": "What is Neck and Head Pain?",
+        "description": "<p>Neck and head pain is a condition that <span class='font-medium'>affects the neck and head region</span>, causing discomfort ranging from <span class='font-medium'>pulsating pain to stiffness and dizziness</span>. This discomfort can arise due to various <span class='font-medium'>reasons such as poor posture, injuries, muscle tension</span>, or even problems in the alignment of the spine.</p><p>In addition to the causes mentioned above, other factors may contribute to neck and head pain. <span class='font-medium'>Stress and anxiety</span> are common factors that can cause tension in the muscles of the neck and shoulders, thereby exacerbating discomfort. Lack of physical activity or a sedentary lifestyle can also weaken the neck muscles, increasing susceptibility to these pains. <br><br>Modern technology also plays a significant role in the development of neck and head pain. Prolonged use of electronic devices, such as smartphones and computers, can result in a hunched posture that exerts additional pressure on the cervical spine. This phenomenon, known as <span class='font-medium'>text neck or tech neck</span>, has led to an increase in cases of neck pain related to excessive use of digital devices.</p>",
+        "image": "f_auto,q_auto/v1/website/sintomas/dolor-de-cervicales-y-cabeza",
+        "imageAlt": "What is scoliosis"
+      },
+      "symptoms": {
+        "title": "Symptoms of Neck and Head Pain",
+        "description": "<p>In addition to persistent neck pain, people experiencing this type of pain often report stiffness in the cervical area. Recurrent <span class='font-medium'>headaches</span>, especially in the front or back of the head, are also common. In some cases, neck tension can <span class='font-medium'>cause dizziness and a feeling of imbalance</span>. Another common symptom associated with neck pain is the <span class='font-medium'>radiation of discomfort to the shoulders and arms</span>. This sensation can manifest as a constant discomfort or intermittent episodes of sharp pain. Reduced mobility in the neck, with difficulty turning or tilting the head sideways, is also common among those suffering from neck pain.<br><br>The sensation of <span class='font-medium'>numbness or tingling in the arms and hands</span> can be another manifestation of this type of pain, possibly indicating the presence of nerve compression in the cervical region. In addition, some individuals may experience a <span class='font-medium'>decrease in grip strength and motor coordination</span> due to the involvement of nerves radiating from the cervical spine to the upper extremities.<br><br>Lack of restful sleep can also be linked to neck and head pain. Affected individuals may experience <span class='font-medium'>difficulty falling asleep or waking up</span> frequently during the night due to discomfort in the cervical area. This relationship between cervical pain and poor sleep can contribute to a negative cycle, as the lack of adequate rest can worsen existing symptoms. Early identification of symptoms and taking measures to address the underlying causes can be crucial to preventing long-term complications and improving the quality of life for those suffering from neck and head pain. That's why at our Chiropractic Center, we help alleviate pain through specific adjustments.</p>"
+      },
+      "types": {
+        "title": "Types of Headache Related to Neck Pain",
+        "description": "<h3>Tension Headaches</h3><p>Caused by tension in the muscles of the neck and upper back, these headaches can be constant and generate a feeling of pressure in the head. Tension headaches are often described as a tight band <span class='font-medium'>around the head or a feeling of tightness</span>.<br><br>In addition to head pain, those suffering from tension headaches often report <span class='font-medium'>sensitivity in the scalp, neck muscles, and shoulders</span>. Constant pressure in these areas can contribute to the onset of neck stiffness, amplifying the experienced discomfort.<br><br>It is important to note that, although tension headaches are a common cause of neck-related head pain, there are other types of headaches and cervical problems that may require <span class='font-medium'>specific care approaches</span>. Therefore, their assessment is essential to determine the underlying cause and design a personalized care plan. That's why at <span class='font-medium'>ColumnaQuiro, we study each patient individually and personalized</span>.</p><h3>Cervical Migraines:</h3><p>Characterized by a <span class='font-medium'>sharp and pulsating pain</span>, often associated with changes in posture or neck movements. Unlike conventional migraines, cervical migraines originate in the cervical region and can radiate towards the head, causing intense and debilitating pain.<br><br>These migraines are often triggered by irritation of cervical structures, such as nerves and joints. The relationship between the neck and cervical migraines has led to the identification of specific triggers, such as <span class='font-medium'>sudden neck movements, sustained poor postures, and previous cervical traumas</span>.<br><br>Additional symptoms of cervical migraines may include sensitivity to light and sound, nausea, and even vomiting. Unlike tension headaches, cervical migraines tend to be more disabling and <span class='font-medium'>can last for hours or even days</span>, significantly affecting the quality of life of those who experience them.<br><br>It is essential for individuals experiencing cervical migraines to seek evaluation, as care can vary depending on the underlying cause and the severity of symptoms. Ignoring these episodes of pain can lead to a decrease in quality of life and negatively impact overall well-being. At our <a href='/'> Chiropractic Center</a>, <span class='font-medium'>we care for cervical migraines by applying a specific technique</span>.</p>"
+      },
+      "chiropracticBenefits": {
+        "title": "Chiropractic Benefits for Neck and Head Pain",
+        "description": "<p>Chiropractic addresses the underlying cause of pain through specific adjustments. These adjustments aim to correct spinal alignment, thus reducing pressure on nerves and relieving muscle tension. Chiropractic focuses on the <span class='font-medium'>correction of spinal structure and the promotion of overall nervous system health</span>, which can have positive impacts in the long term on quality of life. Chiropractic also emphasizes prevention, providing patients with tools and guidance to maintain proper posture and adopt healthy habits that <span class='font-medium'>reduce</span> the likelihood of <span class='font-medium'>future episodes of neck and head pain</span>. Chiropractors can offer personalized recommendations on workplace ergonomics, specific exercises, and lifestyle adjustments to support long-term neck health.</p> <h3>Why is Chiropractic a Better Alternative?</h3><p>Unlike headache pills, which can have side effects and do not address the underlying cause, chiropractic offers a holistic approach. By improving the function of the spine and the nervous system, a sustainable reduction in the frequency and intensity of headaches can be experienced, without relying on medications.</p><h3>Daily Headache and Chiropractic</h3> <p>For those facing daily headaches, chiropractic can offer significant relief. Chiropractic assessment identifies possible misalignments and tensions in the neck, allowing a personalized approach to <span class='font-medium'>reduce the frequency of headaches and improve quality of life</span>.</p>"
+      },
+      "faqs": {
+        "title": "Frequently Asked Questions about Chiropractic for Neck and Head Pain",
+        "items": [
+          {
+            "title": "Is chiropractic safe for treating headaches?",
+            "body": "Yes, chiropractic is safe and non-invasive, providing a natural alternative to headache management."
+          },
+          {
+            "title": "How many chiropractic sessions are needed to see results?",
+            "body": "The number of sessions varies depending on the severity of the problem. Some experience relief after a few sessions, while others may require a longer-term approach."
+          },
+          {
+            "title": "Is chiropractic effective for daily headaches?",
+            "body": "Yes, chiropractic can address the underlying causes of daily headaches, offering sustainable relief."
+          },
+          {
+            "title": "Can chiropractic be combined with other headache care?",
+            "body": "Yes, chiropractic can complement other approaches to headache management, providing a comprehensive and personalized strategy."
+          }
+        ]
+      }
     }
+
   },
   "whatIsChiropractic": {
     "seo": {

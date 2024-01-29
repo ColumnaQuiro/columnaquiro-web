@@ -6,5 +6,13 @@ export const symptomsI18n = {
   scoliosis: {
     en: 'scoliosis',
     es: 'escoliosis'
+  },
+  'dolor-de-cervicales-y-cabeza': {
+    en: 'neck-and-headache-pain',
+    es: 'dolor-de-cervicales-y-cabeza'
+  },
+  'neck-and-headache-pain': {
+    en: 'neck-and-headache-pain',
+    es: 'dolor-de-cervicales-y-cabeza'
   }
 }

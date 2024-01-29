@@ -13,7 +13,7 @@
       v-if="subMenu"
       class="sub-menu-item__container bg-white rounded md:shadow w-auto px-3"
     >
-      <ul class="list-none py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownHoverButton">
+      <ul class="list-none py-2 my-0 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownHoverButton">
         <li v-for="subItem in subMenu" :key="rt(subItem.text)" class="ml-0">
           <cq-components-button
             :to="rt(subItem.to)"

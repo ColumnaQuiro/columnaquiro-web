@@ -4,12 +4,6 @@
       <h1 class="header-video__title">
         {{ t('home.headerVideo.title') }}
       </h1>
-      <h2 class="header-video__subtitle px-4 md:px-0 pb-5">
-        {{ t('home.headerVideo.subtitle') }}
-      </h2>
-      <cq-components-button href="#oferta" variant="outlined" color="#ffffff" size="large">
-        {{ t('home.headerVideo.button') }}
-      </cq-components-button>
     </div>
     <video
       autoplay

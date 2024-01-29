@@ -1,7 +1,7 @@
 <template>
   <div>
     <cq-layout-section class="intro-section">
-      <h1 class="relative section-title text-white z-10">
+      <h1 class="relative text-white z-10 text-center">
         {{ title }}
       </h1>
       <div v-if="description" class="relative text-base text-white z-10">
@@ -33,10 +33,10 @@ const backgroundImageCss = `url("${props.backgroundImageUrl}")`
 <style lang="scss" scoped>
 .intro-section {
   background: v-bind(backgroundImageCss);
-  @apply h-[400px] md:h-[500px] bg-no-repeat bg-cover flex flex-col justify-center bg-center;
+  @apply h-[350px] md:h-[350px] bg-no-repeat bg-cover flex flex-col justify-center bg-center;
 
   &__overlay {
-    @apply h-[400px] md:h-[500px] w-screen absolute top-14 lg:top-16 right-0 bottom-0 left-0 bg-black opacity-30;
+    @apply h-[350px] md:h-[350px] w-screen absolute top-14 lg:top-16 right-0 bottom-0 left-0 bg-black opacity-30;
   }
 }
 </style>

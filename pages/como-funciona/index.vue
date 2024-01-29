@@ -1,5 +1,6 @@
 <template>
   <div>
+    <como-funciona-primera-visita-header />
     <como-funciona-primera-visita-intro />
     <como-funciona-how-it-works />
   </div>

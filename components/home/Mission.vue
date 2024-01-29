@@ -11,6 +11,11 @@
             {{ t('home.mission.title') }}
           </h3>
           <div class="text-base text-center md:text-start" v-html="t('home.mission.description')" />
+          <div class="pt-4">
+            <cq-components-button color="tertiary" :to="localePath('/como-funciona')" variant="tonal">
+              {{ t('general.button.knowMore') }}
+            </cq-components-button>
+          </div>
         </div>
       </template>
     </cq-blocks-sections-paragraph-with-image>
@@ -20,4 +25,5 @@
 import { useI18n } from 'vue-i18n'
 
 const { t } = useI18n()
+const localePath = useLocalePath()
 </script>
