@@ -62,23 +62,23 @@
       "items": [
         {
           "day": "Lunes",
-          "schedule": "15:00-20:00"
+          "schedule": "15:00-21:00"
         },
         {
           "day": "Martes",
-          "schedule": "10:00-14:00"
+          "schedule": "09:00-14:00"
         },
         {
           "day": "Miércoles",
-          "schedule": "15:00-20:00"
+          "schedule": "15:00-21:00"
         },
         {
           "day": "Jueves",
-          "schedule": "15:00-20:00"
+          "schedule": "15:00-21:00"
         },
         {
           "day": "Viernes",
-          "schedule": "10:00-14:00"
+          "schedule": "09:00-14:00"
         }
       ]
     },
@@ -231,7 +231,7 @@
           "email": "hola{'@'}columnaquiro.com",
           "phone": "+34 744735363"
         },
-        "copyright": "© 2023 ColumnaQuiro",
+        "copyright": "© 2024 ColumnaQuiro",
         "links": [
           {
             "text": "Política de Privacidad",
@@ -258,6 +258,10 @@
         {
           "title": "Dolor de cervicales y cabeza",
           "to": "/sintomas/dolor-de-cervicales-y-cabeza"
+        },
+        {
+          "title": "Ciática",
+          "to": "/sintomas/ciatica"
         }
       ]
     }
@@ -531,6 +535,51 @@
           {
             "title": "¿Se puede combinar la quiropráctica con otros cuidados para el dolor de cabeza?",
             "body": "Sí, la quiropráctica puede complementar otros enfoques para el dolor de cabeza, proporcionando una estrategia integral y personalizada."
+          }
+        ]
+      }
+    },
+    "ciatica": {
+      "appointmentSection": {
+        "title": "¿Quieres que te ayudemos a mejorar la ciática?",
+        "description": "Pide cita para que nuestros quiroprácticos te ayuden. <br>Nuestros pacientes han mejorado gracias a nuestros ajustes quiroprácticos."
+      },
+      "whatIs": {
+        "title": "¿Qué es la Ciática?",
+        "description": "<p>La ciática es una condición médica que afecta el nervio ciático, el cual es el nervio más largo del cuerpo humano. Este nervio se extiende desde la parte inferior de la columna vertebral, pasando por las caderas y la parte posterior de las piernas, hasta llegar a los pies. La ciática ocurre cuando este nervio se irrita o comprime, causando dolor, entumecimiento, hormigueo o debilidad en la zona afectada.</p>",
+        "image": "f_auto,q_auto/v1/website/sintomas/ciatica",
+        "imageAlt": "Que es la ciática"
+      },
+      "symptoms": {
+        "title": "Síntomas de la ciática",
+        "description": "<h3>Dolor</h3><p>Puede variar desde leve hasta severo y puede manifestarse como un dolor punzante, ardoroso o como una sensación de descarga eléctrica.</p><h3>Entumecimiento</h3><p>Sensación de adormecimiento u hormigueo que se irradia desde la parte baja de la espalda hasta la pierna afectada.</p><h3>Debilidad muscular</h3><p>Dificultad para mover la pierna afectada o para levantar el pie.</p><p>Es importante destacar que la ciática puede variar en intensidad y duración, y puede ser intermitente o constante. Además, los factores como la edad, el estilo de vida, la actividad física y la salud general pueden influir en la probabilidad de desarrollar esta condición. Si experimentas síntomas de ciática, es fundamental buscar atención médica para un diagnóstico preciso y un plan de tratamiento adecuado.</p>"
+      },
+      "types": {
+        "title": "Tipos de ciática y sus variantes",
+        "description": "<p>Existen diferentes tipos de ciática, clasificados según la causa subyacente de la irritación o compresión del nervio ciático. Algunos de los tipos más comunes incluyen:</p><ol><li><h3>Hernia de disco:</h3><p>Se produce cuando el material blando del disco intervertebral se desplaza y presiona el nervio ciático.</p></li><li><h3>Estenosis espinal:</h3><p>Un estrechamiento del canal espinal que ejerce presión sobre el nervio ciático.</p></li><li><h3>Espondilolistesis:</h3><p>Desplazamiento de una vértebra que comprime el nervio ciático.</p></li><li><h3>Lesiones o traumatismos:</h3><p>Como caídas, golpes o accidentes que pueden dañar el nervio ciático.</p></li><li><h3>Síndrome del piriforme:</h3><p>Irritación o espasmo del músculo piriforme, que puede comprimir el nervio ciático.</p></li></ol>"
+      },
+      "chiropracticBenefits": {
+        "title": "Descubriendo los Beneficios de la Quiropráctica en el cuidado de la ciática",
+        "description": " <ol><li><h3>Alivio del dolor:</h3><p>Los ajustes quiroprácticos pueden ayudar a aliviar la presión sobre el nervio ciático, reduciendo así el dolor asociado con esta condición.</p></li><li><h3>Mejora de la movilidad:</h3><p>Los tratamientos quiroprácticos pueden ayudar a mejorar la movilidad de la columna vertebral y las articulaciones, lo que puede reducir la rigidez y mejorar la capacidad de movimiento.</p></li><li><h3>Reducción de la inflamación:</h3><p>La quiropráctica puede ayudar a reducir la inflamación en los tejidos que rodean el nervio ciático, lo que puede contribuir a una recuperación más rápida.</p></li><li><h3>Enfoque holístico:</h3><p>Los quiroprácticos se centran en abordar la causa subyacente de la ciática, en lugar de simplemente tratar los síntomas, lo que puede conducir a una mejoría a largo plazo y a una prevención de futuros episodios.</p></li><li><h3>Tratamiento personalizado:</h3><p>Los quiroprácticos realizan evaluaciones detalladas para desarrollar un plan de tratamiento individualizado que se adapte a las necesidades específicas de cada paciente, lo que puede maximizar los resultados.</p></li></ol><p>Es importante tener en cuenta que los beneficios de la quiropráctica pueden variar según cada individuo, y es fundamental consultar a un quiropráctico calificado para determinar si este enfoque es adecuado para el tratamiento de la ciática.</p>"
+      },
+      "faqs": {
+        "title": "Preguntas frecuentes sobre la ciática",
+        "items": [
+          {
+            "title": "¿Puede la quiropráctica tratar la ciática?",
+            "body": "Sí, la quiropráctica puede ser eficaz en el tratamiento de la ciática. Los quiroprácticos realizan ajustes manuales de la columna vertebral y otras articulaciones para aliviar la presión sobre el nervio ciático, lo que puede reducir el dolor y mejorar la función."
+          },
+          {
+            "title": "¿Es seguro recibir tratamiento quiropráctico para la ciática?",
+            "body": "En general, la quiropráctica es considerada una opción de tratamiento segura para la ciática, especialmente cuando es realizada por un quiropráctico calificado y licenciado. Sin embargo, como con cualquier tratamiento médico, existen ciertos riesgos y posibles efectos secundarios, por lo que es importante discutir cualquier preocupación con tu quiropráctico antes de comenzar el tratamiento."
+          },
+          {
+            "title": "¿Cuánto tiempo lleva ver resultados con la quiropráctica para la ciática?",
+            "body": "La cantidad de tiempo necesario para ver resultados con la quiropráctica puede variar según cada individuo y la gravedad de la ciática. Algunas personas experimentan alivio inmediato después de un solo tratamiento, mientras que otras pueden requerir múltiples sesiones para obtener resultados significativos. Tu quiropráctico podrá proporcionarte una estimación más precisa después de evaluar tu situación específica."
+          },
+          {
+            "title": "¿Cuáles son las causas más comunes de la ciática?",
+            "body": "La ciática puede ser causada por varias condiciones médicas, siendo las más comunes la hernia de disco, la estenosis espinal, el síndrome del piriforme, las lesiones traumáticas y el desplazamiento de una vértebra. En ocasiones, la ciática también puede ser el resultado de enfermedades como la diabetes o el cáncer."
           }
         ]
       }
@@ -829,19 +878,19 @@
           "text": "Revisar tu historial de salud contigo para asegurarnos que tenemos todas las informaciones."
         },
         {
-          "text": "Prueba neurologica con nuestra herramienta para evaluar el funcionamiento de tu sistema nervioso."
+          "text": "Prueba neurológica con nuestra herramienta para evaluar el funcionamiento de tu sistema nervioso."
         },
         {
-          "text": "Evaluacion de tu patrón de marcha, equilibrio y coordinación, y la integración adecuada de tus reflejos."
+          "text": "Evaluación de tu patrón de marcha, equilibrio y coordinación, y la integración adecuada de tus reflejos."
         },
         {
-          "text": "Evaluacion de tu postura a traves de nuestro programa de analisis postural."
+          "text": "Evaluación de tu postura a través de nuestro programa de análisis postural."
         },
         {
-          "text": "Evaluacion de tus rangos de movimientos articulares."
+          "text": "Evaluación de tus rangos de movimientos articulares."
         },
         {
-          "text": "Palpacion especifica en tu craneo y de tus segmentos vertebrales."
+          "text": "Palpación especifica en tu cráneo y de tus segmentos vertebrales."
         }
       ],
       "footer": "Basándonos en la información recopilada, crearemos un plan de cuidado personalizado adaptado a tus necesidades, que incluirá mis mejores recomendaciones. En algunos casos, se pueden requerir radiografías para obtener una comprensión más completa de tu condición.<br><br>    En la primera sesión de quiropráctica, comenzaremos a implementar el plan de cuidado específico para ti, para que puedas comenzar a experimentar cambios positivos en tu salud desde el principio. Después de tu consulta inicial, programaremos otra cita para revisar los resultados de tu estudio y entregarte un Informe Digital completo.<br><br>    En Columnaquiro, nos enfocamos en los resultados. Por eso, realizaremos revisiones periódicas para evaluar los cambios objetivos que hayas experimentado bajo nuestro cuidado quiropráctico. Estas revisiones también nos permiten asegurarnos de que estés satisfecho/a con el trato que has recibido en todo momento.<br><br>    Durante cada revisión, revisaremos contigo las estrategias adecuadas para alcanzar todos tus objetivos de salud y estilo de vida. Nuestro objetivo es ayudarte a lograr un nivel de salud óptimo a largo plazo, para que puedas disfrutar de una vida más plena y activa. ¡Estamos aquí para ayudarte en tu camino hacia la salud y el bienestar!"
@@ -849,10 +898,10 @@
   },
   "ourCenter": {
     "seo": {
-      "title": "Tu Centro Quiropráctico en Valencia | ColumnaQuiro",
-      "description": "Tratamos síntomas como el dolor de espalda, dolor cuello, migrañas, mejoramos tu embarazo. Deja que cuidemos de ti en nuestro Centro Quiropráctico en Valencia."
+      "title": "Descubre nuestro centro",
+      "description": "Tratamos síntomas como el dolor de espalda, dolor cuello, migrañas, mejoramos tu embarazo. Deja que cuidemos de ti en nuestro Centro Quiropráctico en Valencia.",
     },
-    "title": "Centro Quiropractico ColumnaQuiro",
+    "title": "Conoce nuestro Centro ColumnaQuiro",
     "description": "En nuestro centro quiropráctico en Valencia Ruzafa, entendemos que cada persona es única, y tus necesidades de salud también lo son. Estamos aquí para guiarte en tu viaje hacia el bienestar y ayudarte a alcanzar tu máximo potencial de salud. Si estás buscando una solución natural y efectiva para tus problemas de salud, ¡has venido al lugar correcto!",
     "waitingRoom": {
       "title": "Sala de espera",

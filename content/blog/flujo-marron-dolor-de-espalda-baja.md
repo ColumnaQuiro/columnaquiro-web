@@ -1,5 +1,5 @@
 ---
-title: 'Flujo marron y dolor de espalda baja | Blog | ColumnaQuiro'
+title: 'Flujo marron y dolor de espalda baja | ColumnaQuiro'
 description: 'Exploraremos la conexión intrigante entre el flujo marrón y el dolor de espalda baja, dos síntomas aparentemente diferentes que podrían tener un vínculo subyacente.'
 headline: 'Flujo marron y dolor de espalda baja'
 date: '2024-01-06T17:00:00'

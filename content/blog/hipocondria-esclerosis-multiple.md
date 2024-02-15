@@ -1,5 +1,5 @@
 ---
-title: 'Hipocóndria esclerosis múltiple | Blog | ColumnaQuiro'
+title: 'Hipocóndria esclerosis múltiple | ColumnaQuiro'
 description: 'Exploraremos los componentes esenciales de la hipocondría, examinando cómo la ansiedad puede convertirse en el catalizador que impulsa esta preocupación.'
 headline: 'Hipocóndria esclerosis múltiple'
 date: '2024-01-05T17:00:00'

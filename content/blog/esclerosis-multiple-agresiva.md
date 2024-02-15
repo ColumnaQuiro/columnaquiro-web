@@ -1,5 +1,5 @@
 ---
-title: 'Esclerosis múltiple agresiva | Blog | ColumnaQuiro'
+title: 'Esclerosis múltiple agresiva | ColumnaQuiro'
 description: 'Exploraremos los predictores clínicos que permiten la identificación temprana de la esclerosis múltiple agresiva, y la importancia de modelos predictivos.'
 headline: 'Esclerosis múltiple agresiva'
 date: '2024-01-05T18:00:00'
