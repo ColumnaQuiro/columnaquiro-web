@@ -62,23 +62,23 @@
       "items": [
         {
           "day": "Monday",
-          "schedule": "15:00 - 20:00"
+          "schedule": "15:00 - 21:00"
         },
         {
           "day": "Tuesday",
-          "schedule": "10:00 - 14:00"
+          "schedule": "09:00 - 14:00"
         },
         {
           "day": "Wednesday",
-          "schedule": "15:00 - 20:00"
+          "schedule": "15:00 - 21:00"
         },
         {
           "day": "Thursday",
-          "schedule": "15:00 - 20:00"
+          "schedule": "15:00 - 21:00"
         },
         {
           "day": "Friday",
-          "schedule": "10:00 - 14:00"
+          "schedule": "09:00 - 14:00"
         }
       ]
     },
@@ -231,7 +231,7 @@
           "email": "hola{'@'}columnaquiro.com",
           "phone": "+34 744735363"
         },
-        "copyright": "© 2023 ColumnaQuiro",
+        "copyright": "© 2024 ColumnaQuiro",
         "links": [
           {
             "text": "Privacy Policy",
@@ -258,6 +258,10 @@
         {
           "title": "Neck an headache pain",
           "to": "/en/symptoms/neck-and-headache-pain"
+        },
+        {
+          "title": "Sciatica",
+          "to": "/en/symptoms/sciatica"
         }
       ]
     }
@@ -534,8 +538,52 @@
           }
         ]
       }
+    },
+    "sciatica": {
+      "appointmentSection": {
+        "title": "Do you want us to help you improve sciatica?",
+        "description": "Make an appointment for our chiropractors to help you. <br>Our patients have improved thanks to our chiropractic adjustments."
+      },
+      "whatIs": {
+        "title": "What is Sciatica?",
+        "description": "<p>Sciatica is a medical condition that affects the sciatic nerve, which is the longest nerve in the human body. This nerve extends from the lower part of the spine, passing through the hips and the back of the legs, all the way to the feet. Sciatica occurs when this nerve is irritated or compressed, causing pain, numbness, tingling, or weakness in the affected area.</p>",
+        "image": "f_auto,q_auto/v1/website/sintomas/ciatica",
+        "imageAlt": "What is sciatica"
+      },
+      "symptoms": {
+        "title": "Symptoms of Sciatica",
+        "description": "<h3>Pain</h3><p>It can range from mild to severe and may manifest as a sharp, burning pain, or as an electric shock-like sensation.</p><h3>Numbness</h3><p>Feeling of numbness or tingling radiating from the lower back to the affected leg.</p><h3>Muscle weakness</h3><p>Difficulty moving the affected leg or lifting the foot.</p><p>It is important to note that sciatica can vary in intensity and duration, and can be intermittent or constant. Additionally, factors such as age, lifestyle, physical activity, and overall health can influence the likelihood of developing this condition. If you experience symptoms of sciatica, it is essential to seek medical attention for an accurate diagnosis and appropriate treatment plan.</p>"
+      },
+      "types": {
+        "title": "Types of Sciatica and Their Variants",
+        "description": "<p>There are different types of sciatica, classified according to the underlying cause of irritation or compression of the sciatic nerve. Some of the most common types include:</p><ol><li><h3>Herniated Disc:</h3><p>Occurs when the soft material of the intervertebral disc shifts and presses on the sciatic nerve.</p></li><li><h3>Spinal Stenosis:</h3><p>Narrowing of the spinal canal that puts pressure on the sciatic nerve.</p></li><li><h3>Spondylolisthesis:</h3><p>Displacement of a vertebra that compresses the sciatic nerve.</p></li><li><h3>Injuries or Trauma:</h3><p>Such as falls, blows, or accidents that can damage the sciatic nerve.</p></li><li><h3>Piriformis Syndrome:</h3><p>Irritation or spasm of the piriformis muscle, which can compress the sciatic nerve.</p></li></ol>"
+      },
+      "chiropracticBenefits": {
+        "title": "Discovering the Benefits of Chiropractic Care for Sciatica",
+        "description": " <ol><li><h3>Pain Relief:</h3><p>Chiropractic adjustments can help alleviate pressure on the sciatic nerve, thus reducing pain associated with this condition.</p></li><li><h3>Improved Mobility:</h3><p>Chiropractic treatments can help improve spinal and joint mobility, which can reduce stiffness and enhance movement capability.</p></li><li><h3>Inflammation Reduction:</h3><p>Chiropractic care may help reduce inflammation in the tissues surrounding the sciatic nerve, which can contribute to quicker recovery.</p></li><li><h3>Holistic Approach:</h3><p>Chiropractors focus on addressing the underlying cause of sciatica rather than just treating symptoms, which may lead to long-term improvement and prevention of future episodes.</p></li><li><h3>Personalized Treatment:</h3><p>Chiropractors conduct detailed assessments to develop an individualized treatment plan tailored to each patient's specific needs, which can maximize results.</p></li></ol><p>It is important to note that the benefits of chiropractic care may vary for each individual, and it is essential to consult with a qualified chiropractor to determine if this approach is suitable for treating sciatica.</p>"
+      },
+      "faqs": {
+        "title": "Frequently Asked Questions About Sciatica",
+        "items": [
+          {
+            "title": "Can chiropractic care treat sciatica?",
+            "body": "Yes, chiropractic care can be effective in treating sciatica. Chiropractors perform manual adjustments of the spine and other joints to relieve pressure on the sciatic nerve, which can reduce pain and improve function."
+          },
+          {
+            "title": "Is it safe to receive chiropractic treatment for sciatica?",
+            "body": "In general, chiropractic care is considered a safe treatment option for sciatica, especially when performed by a qualified and licensed chiropractor. However, like with any medical treatment, there are certain risks and potential side effects, so it is important to discuss any concerns with your chiropractor before starting treatment."
+          },
+          {
+            "title": "How long does it take to see results with chiropractic care for sciatica?",
+            "body": "The amount of time needed to see results with chiropractic care can vary for each individual and the severity of sciatica. Some people experience immediate relief after a single treatment, while others may require multiple sessions to achieve significant results. Your chiropractor will be able to provide a more accurate estimate after evaluating your specific situation."
+          },
+          {
+            "title": "What are the most common causes of sciatica?",
+            "body": "Sciatica can be caused by various medical conditions, with the most common being herniated disc, spinal stenosis, piriformis syndrome, traumatic injuries, and vertebral displacement. Occasionally, sciatica can also result from diseases such as diabetes or cancer."
+          }
+        ]
+      }
     }
-
   },
   "whatIsChiropractic": {
     "seo": {

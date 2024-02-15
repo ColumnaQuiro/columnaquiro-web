@@ -1,5 +1,5 @@
 ---
-title: 'How to improve adaptability | Blog | ColumnaQuiro'
+title: 'How to improve adaptability | ColumnaQuiro'
 description: 'Overcome stress with adaptation tips: exercise, rest, and consider chiropractic care for well-being in challenging times.'
 headline: 'How to improve adaptability'
 date: '2023-08-31T09:00:00'

@@ -1,5 +1,5 @@
 ---
-title: 'Escoliosis en la adolescencia | Blog | ColumnaQuiro'
+title: 'Escoliosis en la adolescencia | ColumnaQuiro'
 description: 'En este artículo, exploraremos la importancia del diagnóstico precoz de la escoliosis en la adolescencia, destacando cómo prevenir complicaciones graves.'
 headline: '¿Se puede corregir la escoliosis en la adolescencia?'
 date: '2024-01-07T19:20:00'

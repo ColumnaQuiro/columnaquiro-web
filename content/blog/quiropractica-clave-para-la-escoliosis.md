@@ -1,5 +1,5 @@
 ---
-title: 'Quirópractica clave para la escoliosis | Blog | ColumnaQuiro'
+title: 'Quirópractica clave para la escoliosis | ColumnaQuiro'
 description: 'La quiropráctica no solo aborda los síntomas sino también las causas subyacentes de la escoliosis, buscando mejorar la salud general.'
 headline: 'La Quirópractica clave para combatir la escoliosis'
 date: '2023-11-29T09:00:00'

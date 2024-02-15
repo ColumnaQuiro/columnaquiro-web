@@ -1,5 +1,5 @@
 ---
-title: 'Como seleccionar la mochila perfecta para tus hijos | Blog'
+title: 'Como seleccionar la mochila perfecta para tus hijos'
 description: 'Consejos para elegir una mochila infantil adecuada y prevenir problemas de espalda: peso adecuado, tamaño, correas anchas, regulación, organización interna.'
 headline: 'Como seleccionar la mochila perfecta para tus hijos'
 date: '2023-09-06T08:00:00'

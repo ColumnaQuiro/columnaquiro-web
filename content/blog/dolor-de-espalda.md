@@ -1,5 +1,5 @@
 ---
-title: 'Dolor de espalda | Blog | ColumnaQuiro'
+title: 'Dolor de espalda | ColumnaQuiro'
 description: 'La quiropráctica puede ser una opción valiosa para aliviar el dolor de espalda, que afecta a millones de personas en todo el mundo.'
 headline: 'Dolor de espalda'
 date: '2023-11-30T09:00:00'

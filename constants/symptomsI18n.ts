@@ -14,5 +14,13 @@ export const symptomsI18n = {
   'neck-and-headache-pain': {
     en: 'neck-and-headache-pain',
     es: 'dolor-de-cervicales-y-cabeza'
+  },
+  ciatica: {
+    en: 'sciatica',
+    es: 'ciatica'
+  },
+  sciatica: {
+    en: 'sciatica',
+    es: 'ciatica'
   }
 }

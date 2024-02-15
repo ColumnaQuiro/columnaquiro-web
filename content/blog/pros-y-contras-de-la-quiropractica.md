@@ -1,5 +1,5 @@
 ---
-title: 'Pros y contras de la Quiropráctica | Blog | ColumnaQuiro'
+title: 'Pros y contras de la Quiropráctica | ColumnaQuiro'
 description: 'En este artículo se explican los pros y contras de la Quiropráctica, destacando sus ventajas, límites, seguridad, riesgos y a quién va dirigido.'
 headline: 'Pros y contras de la Quiropráctica'
 date: '2024-01-03T16:00:00'
