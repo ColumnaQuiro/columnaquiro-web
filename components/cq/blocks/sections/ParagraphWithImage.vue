@@ -1,7 +1,6 @@
 <template>
   <div :style="cssVars" class="paragraph-with-image flex flex-col lg:flex-row lg:justify-center gap-10">
     <div
-      class="order-last"
       :class="{
         'lg:order-first': isImagePositionRight,
         'lg:order-last': isImagePositionLeft
