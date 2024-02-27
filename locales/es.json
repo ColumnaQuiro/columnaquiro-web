@@ -271,6 +271,15 @@
       "title": "Centro Quiropráctico Valencia | ColumaQuiro",
       "description": "Descubre que es la quiropráctica en nuestro Centro Quiropráctico en Valencia. Tratamos diferentes síntomas, ayudamos a embarazadas, deportistas, accidentes."
     },
+    "intro": {
+      "title": "Descubre el centro quiropráctico en Valencia que cambiará tu vida",
+      "description": "Elimina tus dolencias, recupera tu salud, mejora tu rendimiento y vitalidad de forma natural con nuestros ajustes quiroprácticos de forma personalizada en nuestro centro en Ruzafa.",
+      "button": "Reserva tu visita"
+    },
+    "pain": {
+      "title": "¿Cansado de vivir con dolor o buscas mejorar tu energía y rendimiento?",
+      "description": "El dolor está presente de forma cotidiana en nuestras vidas; nuestro cuerpo esta sometido a estrés debido al trabajo, las malas posturas, las relaciones con familiares y amigos y nuestras preocupaciones.<br><br><span class='font-medium'>En nuestro Centro Quiropráctico, no solo te liberamos del dolor, sino que también mejoramos tu calidad de vida con nuestro enfoque integral y personalizado.</span>"
+    },
     "headerVideo": {
       "title": "Tu Centro Quiropráctico en Valencia"
     },
@@ -371,27 +380,23 @@
       "items": [
         {
           "title": "¿Qué es la quiropráctica y cómo puede beneficiar mi salud?",
-          "body": "La quiropráctica es un enfoque de atención de la salud centrado en el sistema nervioso y la columna vertebral. Puede mejorar la función general del cuerpo, aliviar el dolor y promover el bienestar."
+          "body": "La quiropráctica es un enfoque de atención de la salud centrado en el sistema nervioso y la columna vertebral. No solo puede mejorar dolencias como escoliosis, dolor lumbar, dolor cervical, dolor de cabeza, fibromialgia, ciática, etc sino también Puede mejorar la función general del cuerpo, promoviendo el bienestar."
         },
         {
           "title": "¿Cuáles son los problemas de salud comunes que trata la quiropráctica?",
-          "body": "La quiropráctica aborda una variedad de problemas, como dolores de espalda, cuello y cabeza, problemas posturales, lesiones deportivas y trastornos del sistema nervioso."
+          "body": "La quiropráctica aborda una variedad de problemas, como dolores de espalda, cuello, cabeza, tobillos,  brazos, codos, muñecas... dolor de costilla, cadera, piernas, rodillas, problemas posturales, ciática, síndrome del túnel carpiano, tortícolis, reumatismo, artritis, artrosis, dolor de articulaciones, pinzamiento, calcificaciones, fibromialgia, escoliosis, lesiones deportivas, acidez estomacal, taquicardias, problemas sistema gastrointestinal, problemas respiratorios..."
         },
         {
           "title": "¿Cómo sé si la quiropráctica es adecuada para mí?",
-          "body": "La quiropráctica es segura para la mayoría de las personas. Antes de iniciar el cuidado, realizamos una evaluación exhaustiva para determinar la idoneidad del paciente y personalizar el plan de cuidado."
-        },
-        {
-          "title": "¿Cuánto tiempo tomará ver resultados con la quiropráctica?",
-          "body": "La rapidez con la que se experimentan mejoras varía según el problema de salud. Algunos pacientes sienten alivio después de la primera sesión, mientras que otros pueden necesitar varias."
+          "body": "La quiropráctica es segura para la mayoría de las personas, al no ser un tratamiento intrusivo. Además, antes de iniciar el plan cuidado, realizamos una evaluación de cada paciente de forma individual y personalizada para adaptar el plan de cuidado a cada uno."
         },
         {
           "title": "¿Cómo es una sesión típica de quiropráctica?",
           "body": "Las sesiones de quiropráctica suelen incluir evaluación, ajustes específicos, y recomendaciones para el cuidado en el hogar, como ejercicios y posturas."
         },
         {
-          "title": "¿La quiropráctica es segura durante el embarazo?",
-          "body": "Sí, la quiropráctica puede ser segura y beneficiosa durante el embarazo. Los ajustes se adaptan para garantizar la comodidad y seguridad de la madre y el bebé."
+          "title": "¿Se ajusta en una sala cerrada o hay más gente?",
+          "body": "Muchos quiroprácticos usan sala abierta con varias camillas donde van pasando de paciente en paciente. El problema es que no se focalizan en un solo paciente por lo que tienen peores resultados. Además suelen ser sesiones de pocos minutos, estamos hablando de 5 o menos minutos. En nuestro centro quiropráctico, disponemos de una sala de primera visita y dos salas de ajuste, donde pasamos entre 20 y 30 minutos por ajuste y paciente y siempre somos flexibles. Nuestra misión es ayudar a la gente y es por eso que tenemos resultados con todos nuestros pacientes."
         },
         {
           "title": "¿La quiropráctica trata solo el dolor de espalda?",
@@ -399,19 +404,16 @@
         },
         {
           "title": "¿Cuántas sesiones de quiropráctica necesitaré?",
-          "body": "La cantidad de sesiones depende del problema específico y de cómo responda el paciente al cuidado. Desarrollamos planes de cuidado personalizados para cada individuo."
-        },
-        {
-          "title": "¿La quiropráctica es adecuada para niños?",
-          "body": "Sí, la quiropráctica puede ser beneficiosa para niños. Los ajustes son suaves y adaptados a la edad del niño, ayudando con problemas como el cólico, la escoliosis y las lesiones deportivas."
+          "body": "La cantidad de sesiones depende del problema específico y de cómo responda el paciente al cuidado. Desarrollamos planes de cuidado personalizados para cada paciente. Algunos pacientes sienten alivio después de la primera sesión, mientras que otros pueden necesitar varias. Normalmente ya se nota una mejoría después de la primera o segunda sesión."
         },
         {
           "title": "¿La quiropráctica es un cuidado a largo plazo?",
-          "body": "La duración del cuidado varía según la condición y los objetivos del paciente. Algunas personas eligen la quiropráctica como parte de su enfoque continuo de bienestar, mientras que otras buscan cuidado específico y limitado."
+          "body": "La duración del cuidado varía según la condición y los objetivos del paciente. Algunas personas eligen la quiropráctica como parte de mejorar su calidad de vida y bienestar, mientras que otras buscan aliviar dolores específicos."
         }
       ]
     },
     "quiroLogos": {
+      "title": "Somos miembros de",
       "logos": [
         {
           "id": "word-federation-quiro",
@@ -661,8 +663,22 @@
           "kids": "Durante el nacimiento, el bebé experimenta estrés, desde su descenso en el canal de parto hasta su salida al mundo externo desconocido. Durante este proceso, el bebé puede quedarse atrapado en una posición o encontrar obstáculos que dificulten su salida. Esto se puede reflejar en la forma poco común de su cabeza al nacer o en un lado preferido para mamar durante la lactancia. Estos esfuerzos pueden causar disfunciones en su sistema nervioso.<br><br>Desde su nacimiento hasta su desarrollo, el bebé debe pasar por diferentes etapas en un orden específico. Estas etapas son sinónimo de un buen desarrollo sensorial y motor: el desarrollo motor le permitirá tener una musculatura adecuada y una coordinación corporal, mientras que el desarrollo sensorial le permitirá desarrollar todos sus sentidos (visión, olfato, tacto, etc.).<br><br>Un sistema nervioso que funcione al 100% ayudará al bebé a superar estas etapas, mejorando su coordinación, equilibrio y todos sus sentidos.",
           "elder": "En nuestra sociedad, aunque es común, no es normal que la tercera edad se asocie con debilidad, lentitud, enfermedad y dependencia. Es importante tener en cuenta que con la edad, nuestro cuerpo experimenta cambios, como la pérdida de calidad en huesos, colágeno y fibras musculares, y que nuestra calidad de vida puede verse afectada. Sin embargo, esta etapa es tan importante como cualquier otra y es esencial cuidar nuestro cuerpo para disfrutar al máximo de la vida. La quiropráctica puede ayudarte a mejorar tu movilidad, equilibrio y estilo de vida de manera holística y vitalista, fomentando un estilo de vida activo y saludable.",
           "pregnant": "<h2 class='text-lg'>Antes y durante el embarazo</h2>Es importante preparar el cuerpo para los cambios que se producirán durante el embarazo:<ul class='list-disc'><li>Cambios físicos: la alteración del centro de gravedad afecta la postura y la tensión muscular.</li><li>Cambios químicos: los cambios hormonales aumentan la laxitud de los ligamentos y las articulaciones.</li><li>Cambios emocionales: ser madre es un paso importante que puede generar estrés y preguntas para la futura madre.</li></ul><br>Estos cambios pueden interferir en el sistema nervioso, que controla todos los demás sistemas del cuerpo, incluidos los músculos, ligamentos y articulaciones, como los músculos y ligamentos del suelo pélvico, la articulación sacroilíaca y el coxis. La quiropráctica puede ayudar a alinear la pelvis y la columna vertebral para que el bebé tenga suficiente espacio y la madre pueda vivir un embarazo más efectivo. Por lo tanto, entendemos que la salud de una mujer embarazada es muy importante para ella y para el bebé.<br><br>Estamos certificados en la técnica Webster, una técnica quiropráctica que se centra en el análisis y la alineación de la pelvis y sus músculos y ligamentos para optimizar la función pélvica de la madre durante el embarazo y el parto, reduciendo la necesidad de medicamentos o intervenciones quirúrgicas durante el parto.<br><br><h2 class='text-lg'>Después del parto</h2>El parto es un evento estresante a nivel físico (horas de contracciones, salida del bebé), químico (cambios hormonales con aumento de la leche) y emocional (llegada del bebé, ser madre, posparto). La quiropráctica puede ayudar a mejorar la recuperación postparto, permitiendo que el cuerpo funcione mejor para que puedas disfrutar al máximo de este nuevo capítulo en tu vida.",
-          "workers": "La quiropractica y su impacto en el cerebro han sido objeto de numerosos estudios, demostrando la capacidad de los ajustes para influir en la plasticidad cerebral. En concreto, los ajustes quiropácticos aumentan la actividad en la corteza prefrontal.<br><br>La corteza prefrontal está involucrada en cuatro aspectos clave: toma de decisiones, cognición (procesamiento de información), comportamiento social y expresión de la personalidad. Estos aspectos, mejorados por los ajustes quiropácticos, contribuyen a un mejor rendimiento laboral, incluyendo: mayor eficiencia, tiempo de reacción más rápido, desempeño social óptimo y un nivel de estrés reducido.<br><br>A largo plazo, la quiropractica en el entorno laboral trae consigo una serie de beneficensos en las ausencias por motivos de salud, como la depresión, dolor de espalda y dolor de cabeza. Además, mejora la retención de personal al permitir que los trabajadores manejen mejor el estrés y otros síntomas, y conduce a un mejor rendimiento laboral en general.",
+          "workers": "La quiropráctica y su impacto en el cerebro han sido objeto de numerosos estudios, demostrando la capacidad de los ajustes para influir en la plasticidad cerebral. En concreto, los ajustes quiropácticos aumentan la actividad en la corteza prefrontal.<br><br>La corteza prefrontal está involucrada en cuatro aspectos clave: toma de decisiones, cognición (procesamiento de información), comportamiento social y expresión de la personalidad. Estos aspectos, mejorados por los ajustes quiropácticos, contribuyen a un mejor rendimiento laboral, incluyendo: mayor eficiencia, tiempo de reacción más rápido, desempeño social óptimo y un nivel de estrés reducido.<br><br>A largo plazo, la quiropractica en el entorno laboral trae consigo una serie de beneficensos en las ausencias por motivos de salud, como la depresión, dolor de espalda y dolor de cabeza. Además, mejora la retención de personal al permitir que los trabajadores manejen mejor el estrés y otros síntomas, y conduce a un mejor rendimiento laboral en general.",
           "sport": "Cuando se trata de deportistas regulares o de élite, a menudo pensamos en posibles lesiones o síntomas relacionados con sus actividades, pero no en su rendimiento deportivo. La quiropráctica ha sido utilizada por muchos atletas profesionales y es reconocida como una forma complementaria de atención médica para los atletas. Por ejemplo, Usain Bolt se ha ajustado antes de sus competiciones.<br><br>A pesar de ser poco conocida en el mundo del deporte, la quiropráctica ha sido objeto de muchos estudios que han demostrado que los ajustes regulares pueden mejorar:<ul class='list-disc'><li>La fuerza</li><li>El tiempo de reacción</li><li>La movilidad</li><li>El equilibrio</li><li>La recuperación post-entrenamiento</li></ul><br>Estos parámetros son cruciales para aumentar las habilidades atléticas."
+        },
+        "faqs": {
+          "pregnant": [
+            {
+              "title": "¿La quiropráctica es segura durante el embarazo?",
+              "body": "Sí, la quiropráctica puede ser segura y beneficiosa durante el embarazo. Los ajustes se adaptan para garantizar la comodidad y seguridad de la madre y el bebé."
+            }
+          ],
+          "kids": [
+            {
+              "title": "¿La quiropráctica es adecuada para niños?",
+              "body": "Sí, la quiropráctica puede ser beneficiosa para niños. Los ajustes son suaves y adaptados a la edad del niño, ayudando con problemas como el cólico, la escoliosis y las lesiones deportivas."
+            }
+          ]
         }
       }
     }
@@ -899,7 +915,7 @@
   "ourCenter": {
     "seo": {
       "title": "Descubre nuestro centro",
-      "description": "Tratamos síntomas como el dolor de espalda, dolor cuello, migrañas, mejoramos tu embarazo. Deja que cuidemos de ti en nuestro Centro Quiropráctico en Valencia.",
+      "description": "Tratamos síntomas como el dolor de espalda, dolor cuello, migrañas, mejoramos tu embarazo. Deja que cuidemos de ti en nuestro Centro Quiropráctico en Valencia."
     },
     "title": "Conoce nuestro Centro ColumnaQuiro",
     "description": "En nuestro centro quiropráctico en Valencia Ruzafa, entendemos que cada persona es única, y tus necesidades de salud también lo son. Estamos aquí para guiarte en tu viaje hacia el bienestar y ayudarte a alcanzar tu máximo potencial de salud. Si estás buscando una solución natural y efectiva para tus problemas de salud, ¡has venido al lugar correcto!",

@@ -3,7 +3,7 @@
     <cq-components-button
       :to="to"
       variant="text"
-      :color="textColor"
+      color="blackBranded"
       block
       class="mr-4"
     >
@@ -37,12 +37,10 @@ interface Props {
   text: string
   to: string | undefined
   subMenu?: Link[]
-  textColor: 'blackBranded' | 'background'
 }
 
 withDefaults(defineProps<Props>(), {
-  subMenu: undefined,
-  textColor: 'blackBranded'
+  subMenu: undefined
 })
 
 const { rt } = useI18n()

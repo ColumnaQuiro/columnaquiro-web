@@ -1,7 +1,7 @@
 <template>
   <div>
     <cq-layout-navigation-bar />
-    <main :class="{'pt-14 lg:pt-16': !isIndexUrl}">
+    <main class="pt-14 lg:pt-16">
       <slot />
     </main>
     <lazy-cq-layout-footer-container />
@@ -27,14 +27,11 @@
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n'
 import { useSeoMeta } from '@unhead/vue'
-import { computed, onMounted } from 'vue'
-import { useRoute } from 'vue-router'
+import { onMounted } from 'vue'
 import { STATICS_CDN } from '~/constants/urls'
 
 const { t } = useI18n()
 const { grantConsent } = useGtag()
-const route = useRoute()
-const isIndexUrl = computed(() => route.name?.toString().includes('index'))
 
 const preferences = [
   {

@@ -1,5 +1,8 @@
 <template>
   <cq-layout-section class="quiro-logos">
+    <h2 class="section-title">
+      {{ t('home.quiroLogos.title') }}
+    </h2>
     <div class="flex flex-wrap gap-7 justify-center md:justify-start">
       <NuxtImg
         v-for="logo in logos"
@@ -23,7 +26,7 @@ interface Logo {
   alt: string
 }
 
-const { tm, rt } = useI18n()
+const { tm, rt, t } = useI18n()
 const logos: Logo[] = tm('home.quiroLogos.logos')
 </script>
 

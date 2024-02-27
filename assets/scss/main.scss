@@ -10,14 +10,17 @@ html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   --v-theme-overlay-multiplier: 1.2;
+  --font-heading-scale: 1.0588235294117647;
+  --font-body-scale: 0.85;
   scroll-behavior: smooth;
 }
 
 body {
   color: #474747;
   @apply text-base;
+  letter-spacing: 0.06rem;
+  line-height: calc(1 + .4 / var(--font-body-scale));
 }
-
 
 ol {
   @apply list-decimal pl-4;
@@ -44,16 +47,20 @@ ul {
 }
 
 h1 {
-  @apply text-h1_sm leading-h1_sm mb-10 font-medium;
+  @apply text-h1_sm leading-h1_sm mb-10 font-light uppercase;
+  letter-spacing: calc(var(--font-heading-scale) * 0.06rem);
 }
 h2 {
-  @apply text-h2_sm leading-h2_sm mb-4 font-medium;
+  @apply text-h2_sm leading-h2_sm mb-4 font-light;
+  letter-spacing: calc(var(--font-heading-scale) * 0.06rem);
 }
 h3 {
-  @apply text-h3_sm leading-h3_sm font-medium;
+  @apply text-h3_sm leading-h3_sm font-light;
+  letter-spacing: calc(var(--font-heading-scale) * 0.06rem);
 }
 h4 {
   @apply text-h4_sm leading-h4_sm mb-2;
+  letter-spacing: calc(var(--font-heading-scale) * 0.06rem);
 }
 
 @screen md {
@@ -78,5 +85,4 @@ p {
     @apply text-brand-secondary;
   }
 }
-
 

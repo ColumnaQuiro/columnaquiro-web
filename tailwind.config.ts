@@ -30,7 +30,7 @@ module.exports = {
         h1_sm: '2rem',
         h2_sm: '1.75rem',
         h3_sm: '1.5rem',
-        h4_sm: '1.25rem',
+        h4_sm: '1.25rem'
       },
       spacing: {
         nav: '4rem',
@@ -56,7 +56,7 @@ module.exports = {
     colors: {
       white: '#FFFFFF',
       black: '#000000',
-      'light-grey': '#EDEDED',
+      'light-grey': '#F9F9F9',
       brand: {
         primary: '#8D5B4C',
         secondary: '#69A297',

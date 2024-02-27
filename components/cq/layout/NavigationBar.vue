@@ -1,11 +1,5 @@
 <template>
-  <header
-    class="navigation-bar"
-    :class="{
-      'navigation-bar--with-shadow bg-white': isScrolling || !isIndexUrl,
-      'bg-transparent': !isScrolling
-    }"
-  >
+  <header class="navigation-bar">
     <div class="w-full">
       <div class="container flex flex-wrap items-center h-14 md:h-16">
         <a :href="localePath('/')" @click="closeBurgerMenu">
@@ -25,18 +19,18 @@
             :text="rt(link.text)"
             :to="link.to ? rt(link.to) : undefined"
             :sub-menu="link.subMenu"
-            :text-color="textColor"
           />
           <cq-components-button
             :to="t('general.layout.navigationBar.appointmentButton.to')"
             variant="flat"
             color="tertiary"
           >
-            <v-icon class="mr-2" :icon="mdiCalendar" />{{ t('general.layout.navigationBar.appointmentButton.text') }}
+            <v-icon class="mr-2" :icon="mdiCalendar" />
+            {{ t('general.layout.navigationBar.appointmentButton.text') }}
           </cq-components-button>
           <div v-if="!isBlogContentUrl" class="h-8 bg-light-grey w-[1px] ml-4 mr-3" />
           <client-only>
-            <cq-layout-language-selector v-if="!isBlogContentUrl" :text-color="textColor" />
+            <cq-layout-language-selector v-if="!isBlogContentUrl" />
           </client-only>
         </nav>
         <div class="flex items-center lg:hidden">
@@ -45,19 +39,19 @@
             variant="flat"
             color="tertiary"
           >
-            <v-icon :icon="mdiCalendar" class="mr-2" />{{ t('general.layout.navigationBar.appointmentButton.text') }}
+            <v-icon :icon="mdiCalendar" class="mr-2" />
+            {{ t('general.layout.navigationBar.appointmentButton.text') }}
           </cq-components-button>
           <client-only>
             <cq-layout-language-selector
               v-if="!isBlogContentUrl"
               class="ml-4"
-              :text-color="textColor"
             />
           </client-only>
           <cq-components-button
             icon
             variant="plain"
-            :color="isScrolling || !isIndexUrl ? '#474747' : '#ffffff'"
+            color="#474747"
             class="ml-2"
             aria-label="menu"
             @click="toggleBurgerMenu"
@@ -92,7 +86,7 @@
 </template>
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n'
-import { computed, onMounted, ref, type Ref } from 'vue'
+import { computed, ref, type Ref } from 'vue'
 import { useRoute } from 'vue-router'
 import { mdiCalendar, mdiMenu } from '@mdi/js'
 import type { Link } from '~/types/Link'
@@ -104,9 +98,6 @@ const links: Link[] = tm('general.layout.navigationBar.links')
 const mobileLinks: Link[] = tm('general.layout.navigationBar.mobileLinks')
 const showBurgerMenu: Ref<boolean> = ref(false)
 const isBlogContentUrl = computed(() => route.name?.toString().includes('slug'))
-const isIndexUrl = computed(() => route.name?.toString().includes('index'))
-const isScrolling = ref(false)
-const textColor = computed(() => isIndexUrl.value && !isScrolling.value ? 'background' : 'blackBranded')
 
 const toggleBurgerMenu = () => {
   showBurgerMenu.value = !showBurgerMenu.value
@@ -115,24 +106,11 @@ const toggleBurgerMenu = () => {
 const closeBurgerMenu = () => {
   showBurgerMenu.value = false
 }
-
-const onScroll = () => {
-  isScrolling.value = window.scrollY !== 0
-}
-
-onMounted(() => {
-  if (process.client && isIndexUrl.value) {
-    window.addEventListener('scroll', onScroll)
-  }
-})
 </script>
 <style lang="scss">
 .navigation-bar {
-  @apply fixed z-20 w-full h-14;
+  @apply fixed z-20 w-full h-14 bg-white;
   @apply md:h-16 flex lg:flex-col lg:justify-center;
-
-  &--with-shadow {
-    box-shadow: 0 -5px 13px 0 rgba(71, 71, 71, 0.47) !important;
-  }
+  box-shadow: 0 -5px 13px 0 rgba(71, 71, 71, 0.47) !important;
 }
 </style>
