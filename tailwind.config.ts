@@ -57,6 +57,7 @@ module.exports = {
       white: '#FFFFFF',
       black: '#000000',
       'light-grey': '#F9F9F9',
+      'light-background': '#F1F1F1',
       brand: {
         primary: '#8D5B4C',
         secondary: '#69A297',

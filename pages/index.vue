@@ -2,10 +2,11 @@
   <div>
     <home-intro />
     <home-your-center-title />
-    <home-pains />
+    <lazy-home-pains />
     <lazy-cq-blocks-testimonials />
     <lazy-home-mission />
     <lazy-home-how-care-your-back />
+    <lazy-home-why-choose-us />
     <lazy-home-faqs />
     <lazy-home-quiro-logos />
   </div>
