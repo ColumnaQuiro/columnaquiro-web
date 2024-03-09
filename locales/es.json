@@ -268,50 +268,85 @@
   },
   "home": {
     "seo": {
-      "title": "Centro Quiropráctico Valencia | ColumaQuiro",
+      "title": "Centro Quiropráctico Valencia",
       "description": "Descubre que es la quiropráctica en nuestro Centro Quiropráctico en Valencia. Tratamos diferentes síntomas, ayudamos a embarazadas, deportistas, accidentes."
     },
     "intro": {
-      "title": "Descubre el centro quiropráctico en Valencia que cambiará tu vida",
-      "description": "Elimina tus dolencias, recupera tu salud, mejora tu rendimiento y vitalidad de forma natural con nuestros ajustes quiroprácticos de forma personalizada en nuestro centro en Ruzafa.",
+      "title": "El centro quiropráctico en Valencia que se adapta a ti",
+      "description": "Mejora tu salud y vitalidad con nuestros ajustes quiroprácticos adaptados a ti en nuestro centro en Ruzafa. Elimina dolencias y mejora tu rendimiento de forma natural.",
       "button": "Reserva tu visita"
     },
     "pain": {
       "title": "¿Cansado de vivir con dolor o buscas mejorar tu energía y rendimiento?",
-      "description": "El dolor está presente de forma cotidiana en nuestras vidas; nuestro cuerpo esta sometido a estrés debido al trabajo, las malas posturas, las relaciones con familiares y amigos y nuestras preocupaciones.<br><br><span class='font-medium'>En nuestro Centro Quiropráctico, no solo te liberamos del dolor, sino que también mejoramos tu calidad de vida con nuestro enfoque integral y personalizado.</span>"
+      "description": "El dolor es común en nuestra vida diaria. Nuestro cuerpo sufre estrés por el trabajo, malas posturas, relaciones y inquietudes con familiares y amigos. <span class='font-medium'>En nuestro centro, no solo te liberamos del dolor, sino que también mejoramos tu calidad de vida con nuestro enfoque integral y adaptado a ti.</span>"
     },
     "headerVideo": {
       "title": "Tu Centro Quiropráctico en Valencia"
     },
     "yourCenter": {
-      "title": "Somos tu Centro Quiropráctico de confianza"
+      "title": "Somos tu Centro Quiropraxia de confianza"
     },
     "mission": {
-      "title": "Descubre cómo la quiropráctica potencia el bienestar de tu columna vertebral y favorece la salud integral de tu organismo",
-      "description": "\"La quiropráctica es para ti, sin importar tu edad o situación. Ya seas un <span class='font-medium'>recién nacido, niño, embarazada, experimentes molestias en el cuello o la espalda debido al trabajo, estés en la hermosa etapa de la vejez o seas un deportista</span>, la quiropráctica te ayudará a mejorar tu estilo de vida y salud\""
+      "title": "Descubre cómo la quiropraxia potencia el bienestar de tu columna vertebral y favorece la salud integral de tu organismo",
+      "description": "\"La quiropraxia es para ti, sin importar tu edad o situación. La quiropraxia puede mejorar tu vida y salud. Puede ayudar a bebés, niños, mujeres embarazadas, personas con molestias en el cuello o la espalda por el trabajo, adultos mayores y deportistas.\""
     },
     "offer": {
       "title": "Primera sesión quiropráctica por 50€",
       "description": "Solo para los <span class='font-medium'>30 primeros</span>, disfruta de tu estudio personalizado y primer ajuste quiropráctico por tan <span class='font-medium'>solo 50€.</span> *Incluye todas las pruebas.",
       "button": "Pedir cita"
     },
+    "whyChooseUs": {
+      "title": "¿Por qué elegir nuestro Centro Quiropráctico?",
+      "items": [
+        {
+          "title": "Visita individual",
+          "description": "Las sesiones tienen lugar en sala cerrada, es decir, no tenemos varias camillas en la sala con más de un paciente a la vez.",
+          "icon": "website/home/why-choose-us/visita-individual"
+        },
+        {
+          "title": "Sesiones de verdad",
+          "description": "Nuestras sesiones de corrección quiropráctica duran entre 20 y 30 minutos. Tomamos el tiempo necesario para ajustar de forma correcta a cada paciente.",
+          "icon": "website/home/why-choose-us/sesiones-de-verdad"
+        },
+        {
+          "title": "Ajuste en la primera visita",
+          "description": "Para que puedas empezar a notar mejoría, en nuestro centro quiropráctico te ajustamos en la primera sesión a diferencia de otros centros.",
+          "icon": "website/home/why-choose-us/ajuste-quiropractico"
+        },
+        {
+          "title": "Enfoque holístico",
+          "description": "Aunque sientas dolor en una parte, nuestro cuidado se enfoca en todo el cuerpo. Verás mejoras físicas y emocionales que te harán sentir mejor.",
+          "icon": "website/home/why-choose-us/enfoque-holistico"
+        },
+        {
+          "title": "Foco en resultados",
+          "description": "Nuestro cuidado es personalizado a cada individuo y es por eso que tenemos un 100% de éxito con nuestro pacientes que cumplen el plan de cuidado.",
+          "icon": "website/home/why-choose-us/foco-en-resultados"
+        },
+        {
+          "title": "Formación constante",
+          "description": "Nuestros equipo están en constante formación aprendiendo nuevas técnicas y para poder ofrecerte el mejor cuidado posible.",
+          "icon": "website/home/why-choose-us/formacion-constante"
+        }
+      ]
+    },
     "howCareYourBack": {
       "title": "Así cuidamos de tu columna vertebral",
       "items": [
         {
           "imagePath": "estudio-individual",
-          "title": "Estudio personalizado",
-          "description": "A través de un cuestionario de salud, analizaremos tu caso de forma individual. En la primera visita realizaremos una sería de pruebas y el primer ajuste quiropráctico."
+          "title": "Estudio adaptado a ti",
+          "description": "A través de un cuestionario de salud, estudiamos tu caso de forma individual. En la primera visita haremos una sería de pruebas y el primer ajuste quiropráctico."
         },
         {
           "imagePath": "informe-quiropractico",
           "title": "Informe quiropráctico",
-          "description": "Te entregaremos tu informe quiropráctico con los resultados de las pruebas de la primera visita. Nuestro quiropráctico te resolverá cualquier duda."
+          "description": "Te daremos tu informe quiropráctico con los resultados de las pruebas de la primera visita. Nuestro quiropráctico te resolverá cualquier duda."
         },
         {
           "imagePath": "plan-de-cuidado",
           "title": "Plan de cuidado",
-          "description": "Para mejorar el rendimiento de tu cuerpo, estableceremos una frecuencia de ajustes quiroprácticos adecuada a tus necesidades."
+          "description": "Para mejorar el rendimiento de tu cuerpo, fijaremos una frecuencia de ajustes quiroprácticos adecuada a tus requisitos."
         }
       ],
       "button": "Pide tu estudio personalizado"
@@ -380,35 +415,35 @@
       "items": [
         {
           "title": "¿Qué es la quiropráctica y cómo puede beneficiar mi salud?",
-          "body": "La quiropráctica es un enfoque de atención de la salud centrado en el sistema nervioso y la columna vertebral. No solo puede mejorar dolencias como escoliosis, dolor lumbar, dolor cervical, dolor de cabeza, fibromialgia, ciática, etc sino también Puede mejorar la función general del cuerpo, promoviendo el bienestar."
+          "body": " La quiropráctica es un enfoque de atención de la salud centrado en el sistema nervioso y la columna vertebral. La quiropráctica puede mejorar problemas como dolor de espalda, cuello, cabeza, fibromialgia y ciática, además de promover la salud general del cuerpo y el bienestar."
         },
         {
           "title": "¿Cuáles son los problemas de salud comunes que trata la quiropráctica?",
-          "body": "La quiropráctica aborda una variedad de problemas, como dolores de espalda, cuello, cabeza, tobillos,  brazos, codos, muñecas... dolor de costilla, cadera, piernas, rodillas, problemas posturales, ciática, síndrome del túnel carpiano, tortícolis, reumatismo, artritis, artrosis, dolor de articulaciones, pinzamiento, calcificaciones, fibromialgia, escoliosis, lesiones deportivas, acidez estomacal, taquicardias, problemas sistema gastrointestinal, problemas respiratorios..."
+          "body": "La quiropráctica trata una amplia variedad de problemas, como dolores en diferentes partes del cuerpo, problemas de postura y diversas condiciones de salud. Entre los problemas que la quiropráctica puede tratar se encuentran dolores en la espalda, cuello, cabeza, tobillos, brazos, codos, muñecas, costillas, cadera, piernas y rodillas. También puede ayudar con problemas como ciática, túnel carpiano, tortícolis, reumatismo, artritis, artrosis, articulaciones, calcificaciones, fibromialgia, escoliosis y lesiones deportivas. Además, la quiropráctica puede ayudar a tratar condiciones como acidez estomacal, taquicardias, problemas del sistema intestinal y respiratorio."
         },
         {
           "title": "¿Cómo sé si la quiropráctica es adecuada para mí?",
-          "body": "La quiropráctica es segura para la mayoría de las personas, al no ser un tratamiento intrusivo. Además, antes de iniciar el plan cuidado, realizamos una evaluación de cada paciente de forma individual y personalizada para adaptar el plan de cuidado a cada uno."
+          "body": "La quiropráctica es segura para la mayoría de las personas, al no ser un tratamiento intrusivo. Antes de empezar el plan de cuidado, evaluamos a cada paciente de manera individual y personalizada para adaptar el plan a tus necesidades."
         },
         {
           "title": "¿Cómo es una sesión típica de quiropráctica?",
-          "body": "Las sesiones de quiropráctica suelen incluir evaluación, ajustes específicos, y recomendaciones para el cuidado en el hogar, como ejercicios y posturas."
+          "body": "Las <a class='underline' href='/como-funciona' target='_blank'>sesiones de quiropráctica</a> incluyen una serie de ajustes, donde la técnica se adapta a cada persona."
         },
         {
-          "title": "¿Se ajusta en una sala cerrada o hay más gente?",
-          "body": "Muchos quiroprácticos usan sala abierta con varias camillas donde van pasando de paciente en paciente. El problema es que no se focalizan en un solo paciente por lo que tienen peores resultados. Además suelen ser sesiones de pocos minutos, estamos hablando de 5 o menos minutos. En nuestro centro quiropráctico, disponemos de una sala de primera visita y dos salas de ajuste, donde pasamos entre 20 y 30 minutos por ajuste y paciente y siempre somos flexibles. Nuestra misión es ayudar a la gente y es por eso que tenemos resultados con todos nuestros pacientes."
+          "title": "¿Estaré solo en el ajuste?",
+          "body": "Muchos centros usan sala abierta con varias camillas donde van pasando de paciente en paciente. El problema es que no se focalizan en un solo paciente por lo que tienen peores resultados. Además suelen ser sesiones de pocos minutos, estamos hablando de 5 o menos minutos.<br><br>En nuestro centro quiropráctico tenemos una sala para la primera visita y dos salas para ajustes. Pasamos entre 20 y 30 minutos por ajuste y paciente, siempre siendo flexibles. Nuestra misión es ayudar a la gente y es por eso que tenemos resultados con todos nuestros pacientes."
         },
         {
           "title": "¿La quiropráctica trata solo el dolor de espalda?",
-          "body": "Aunque la quiropráctica es eficaz para el dolor de espalda, también aborda una variedad de problemas de salud, incluidos dolores de cabeza, migrañas, problemas digestivos y estrés."
+          "body": "La quiropráctica ayuda con el dolor de espalda y otros problemas como dolores de cabeza, migrañas, problemas digestivos y estrés."
         },
         {
-          "title": "¿Cuántas sesiones de quiropráctica necesitaré?",
-          "body": "La cantidad de sesiones depende del problema específico y de cómo responda el paciente al cuidado. Desarrollamos planes de cuidado personalizados para cada paciente. Algunos pacientes sienten alivio después de la primera sesión, mientras que otros pueden necesitar varias. Normalmente ya se nota una mejoría después de la primera o segunda sesión."
+          "title": "¿Cuántas sesiones necesitaré?",
+          "body": "La cantidad de sesiones depende del problema en concreto y de cómo respondas al cuidado quiropráctico. Exponemos planes de cuidado adaptados a cada paciente. Algunos pacientes sienten alivio después de la primera sesión, mientras que otros pueden necesitar varias. Normalmente ya se nota una mejoría después de la primera o segunda sesión."
         },
         {
           "title": "¿La quiropráctica es un cuidado a largo plazo?",
-          "body": "La duración del cuidado varía según la condición y los objetivos del paciente. Algunas personas eligen la quiropráctica como parte de mejorar su calidad de vida y bienestar, mientras que otras buscan aliviar dolores específicos."
+          "body": "Si, a diferencia de otros tratamientos temporales, la quiropráctica no solo se enfoca en aliviar síntomas o dolores, sino que trabaja en prevenir problemas futuros."
         }
       ]
     },
@@ -845,44 +880,38 @@
       "description": "Descubre nuestros servicios quiroprácticos enfocados en mejorar la salud y el bienestar. Comienza tu camino hacia una vida más saludable hoy."
     },
     "steps": {
-      "title": "¿Cuántas sesiones tengo que hacer?",
-      "description": "Empieza en Columnaquiro, te contamos los primeros pasos:",
+      "title": "¿Cómo funciona nuestro cuidado quiropráctico?",
+      "description": "A continuación te contamos los pasos que seguimos con nuestros pacientes:",
       "items": [
         {
-          "color": "primary",
-          "icon": "mdi-calendar",
+          "color": "brand-light-quaternary",
           "title": "Reserva tu primera cita",
-          "description": "¡Genial! Puedes reservar tu primera cita como tu prefieras:<ul class='list-disc'><li>Llamándonos al +34 645967420.</li><li>Enviándonos un Whatsapp.</li><li>A través de nuestra cuenta instagram <a href='https://www.instagram.com/columnaquiro/' target='_blank'><span class='font-semibold'>{'@'}columnaquiro</span></a>.</li></ul>"
+          "description": "<ul class='list-disc'><li>Por teléfono al <a href='tel:+34744735363'> 744735363</a>.</li><li>Por <a target='_blank' href='https://api.whatsapp.com/send?phone=34744735363&text=Hola%20me%20gustar%C3%ADa%20pedir%20una%20cita'>Whatsapp</a>.</li><li>Online en este <a href='https://columnaquiropracticehub.neptune.practicehub.io/p/booking?lid=1&pid=1&atid=2&' target='_blank'>link.</a></li></ul>"
         },
         {
-          "color": "tertiary",
-          "icon": "mdi-magnify",
-          "title": "Primera visita",
-          "description": "Te contamos lo que haremos:<ul class='list-disc'><li>Rellenaremos el formulario de primera visita en nuestra web.</li><li>Tomaremos tu historial de salud.</li><li>Realizaremos pruebas para evaluar el funcionamiento de tu sistema nervioso, incluyendo una postura digital, pruebas neurológicas digitales y de coordinación, examen de tu columna vertebral y patrón de marcha.</li><li><span class='font-semibold'>Primera sesión de ajuste.</span></li></ul>"
+          "color": "brand-light-tertiary",
+          "title": "Primera cita",
+          "description": "<ul class='list-disc'><li>Tomaremos tu historial de salud.</li><li>Realizaremos unas pruebas de coordinación y postura.</li><li>La primera sesión de ajuste quiropráctico.</li></ul>"
         },
         {
-          "color": "quaternary",
-          "icon": "mdi-file-document-check-outline",
+          "color": "brand-tertiary",
           "title": "Informe quiropráctico",
-          "description": "Te entregaremos tu informe quiropráctico con los resultados de las pruebas de la primera visita. Basándonos en estos resultados y en tu historia clínica, te recomendaremos un plan de cuidado personalizado para lograr tus objetivos de salud de la manera más eficiente."
+          "description": "<ul class='list-disc'><li>Resultados de las pruebas de la primera visita.</li><li>Segunda sesión de ajuste quiropráctico.</li><li>Te recomendaremos un plan de cuidado personalizado.</li>"
         },
         {
-          "color": "secondary",
-          "icon": "mdi-hand-heart-outline",
+          "color": "brand-light-quaternary",
           "title": "Plan de cuidado",
-          "description": "Se dividirá en dos fases: la intensiva y la correctiva, y estableceremos una frecuencia de ajustes quiroprácticos adecuada a tus necesidades."
+          "description": "Realizaremos los ajustes quiroprácticos según el plan de cuidado recomendado."
         },
         {
-          "color": "whiteBranded",
-          "icon": "mdi-hand-heart-outline",
-          "title": "Reevaluación",
-          "description": "Después de un tiempo , haremos una re evaluación para medir tus mejorias y adaptar tu plan de cuidado a tus nuevas necesidades."
+          "color": "brand-light-secondary",
+          "title": "Revisión",
+          "description": "Una vez acabado el plan de cuidado, haremos:<ul class='list-disc'><li>Reevaluación de las pruebas de la primera visita.</li><li>Sesión de ajuste quiropráctico.</li></ul>"
         },
         {
-          "color": "tertiary",
-          "icon": "mdi-hand-heart-outline",
+          "color": "brand-light-secondary",
           "title": "Mantenimiento",
-          "description": "Finalmente, la fase más importante se concentra en la prevención y en evitar recaídas, manteniendo un estado general de salud óptimo."
+          "description": "Una vez al mes realizaremos un ajuste quiropráctico para evitar recaídas, manteniendo un estado general de salud óptimo."
         }
       ]
     },

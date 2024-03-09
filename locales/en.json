@@ -291,6 +291,41 @@
       "description": "For the <span class='font-medium'>first 30 individuals</span>, enjoy your personalized assessment and first chiropractic adjustment for <span class='font-medium'>only €50.</span> *Includes all tests.",
       "button": "Book Appointment"
     },
+    "whyChooseUs": {
+      "title": "Why Choose Our Chiropractic Center?",
+      "items": [
+        {
+          "title": "Individual Visits",
+          "description": "Sessions take place in a closed room, meaning we do not have multiple tables in the room with more than one patient at a time.",
+          "icon": "website/home/why-choose-us/visita-individual"
+        },
+        {
+          "title": "True Sessions",
+          "description": "Our chiropractic correction sessions last between 20 and 30 minutes. We take the necessary time to adjust each patient correctly.",
+          "icon": "website/home/why-choose-us/sesiones-de-verdad"
+        },
+        {
+          "title": "Adjustment on First Visit",
+          "description": "So you can start to feel improvement, in our chiropractic center, we adjust you in the first session unlike other centers.",
+          "icon": "website/home/why-choose-us/ajuste-quiropractico"
+        },
+        {
+          "title": "Holistic Approach",
+          "description": "Even if you feel pain in one area, our care focuses on the whole body. You will see physical and emotional improvements that will make you feel better.",
+          "icon": "website/home/why-choose-us/enfoque-holistico"
+        },
+        {
+          "title": "Focus on Results",
+          "description": "Our care is personalized to each individual, which is why we have a 100% success rate with our patients who follow the care plan.",
+          "icon": "website/home/why-choose-us/foco-en-resultados"
+        },
+        {
+          "title": "Continuous Training",
+          "description": "Our team is constantly training, learning new techniques to offer you the best possible care.",
+          "icon": "website/home/why-choose-us/formacion-constante"
+        }
+      ]
+    },
     "howCareYourBack": {
       "title": "How We Take Care of Your Spine",
       "items": [
@@ -827,44 +862,38 @@
       "description": "Discover our chiropractic services focused on improving health and well-being. Start your journey to a healthier life today."
     },
     "steps": {
-      "title": "How Many Sessions Do I Have to Do?",
-      "description": "Start at ColumnaQuiro, and we'll guide you through the first steps:",
+      "title": "How does our chiropractic care work?",
+      "description": "Here are the steps we follow with our patients:",
       "items": [
         {
-          "color": "primary",
-          "icon": "mdi-calendar",
-          "title": "Book Your First Appointment",
-          "description": "Great! You can book your first appointment however you prefer:<ul class='list-disc'><li>Call us at +34 645967420.</li><li>Send us a WhatsApp message.</li><li>Through our Instagram account <a href='https://www.instagram.com/columnaquiro/' target='_blank'><span class='font-semibold'>{'@'}columnaquiro</span></a>.</li></ul>"
+          "color": "brand-light-quaternary",
+          "title": "Book your first appointment",
+          "description": "<ul class='list-disc'><li>By phone at <a href='tel:+34744735363'> 744735363</a>.</li><li>Through <a target='_blank' href='https://api.whatsapp.com/send?phone=34744735363&text=Hola%20me%20gustar%C3%ADa%20pedir%20una%20cita'>Whatsapp</a>.</li><li>Online at this <a href='https://columnaquiropracticehub.neptune.practicehub.io/p/booking?lid=1&pid=1&atid=2&' target='_blank'>link.</a></li></ul>"
         },
         {
-          "color": "tertiary",
-          "icon": "mdi-magnify",
-          "title": "First Visit",
-          "description": "Here's what we'll do:<ul class='list-disc'><li>Fill out the first visit form on our website.</li><li>Take your health history.</li><li>Perform tests to assess the functioning of your nervous system, including a digital posture analysis, digital neurological and coordination tests, examination of your spine, and gait pattern.</li><li><span class='font-semibold'>First chiropractic adjustment session.</span></li></ul>"
+          "color": "brand-light-tertiary",
+          "title": "First appointment",
+          "description": "<ul class='list-disc'><li>We will take your health history.</li><li>We will perform coordination and posture tests.</li><li>The first chiropractic adjustment session.</li></ul>"
         },
         {
-          "color": "quaternary",
-          "icon": "mdi-file-document-check-outline",
-          "title": "Chiropractic Report",
-          "description": "We will provide you with your chiropractic report with the results of the tests from the first visit. Based on these results and your medical history, we will recommend a personalized care plan to achieve your health goals most efficiently."
+          "color": "brand-tertiary",
+          "title": "Chiropractic report",
+          "description": "<ul class='list-disc'><li>Results of the tests from the first visit.</li><li>Second chiropractic adjustment session.</li><li>We will recommend a personalized care plan.</li>"
         },
         {
-          "color": "secondary",
-          "icon": "mdi-hand-heart-outline",
-          "title": "Care Plan",
-          "description": "It will be divided into two phases: the intensive and corrective phases, and we will establish a chiropractic adjustment frequency suitable for your needs."
+          "color": "brand-light-quaternary",
+          "title": "Care plan",
+          "description": "We will perform chiropractic adjustments according to the recommended care plan."
         },
         {
-          "color": "whiteBranded",
-          "icon": "mdi-hand-heart-outline",
-          "title": "Reassessment",
-          "description": "After some time, we will conduct a reassessment to measure your improvements and adapt your care plan to your new needs."
+          "color": "brand-light-secondary",
+          "title": "Review",
+          "description": "Once the care plan is finished, we will:<ul class='list-disc'><li>Reevaluation of the tests from the first visit.</li><li>Chiropractic adjustment session.</li></ul>"
         },
         {
-          "color": "tertiary",
-          "icon": "mdi-hand-heart-outline",
+          "color": "brand-light-secondary",
           "title": "Maintenance",
-          "description": "Finally, the most important phase focuses on prevention and avoiding relapses, maintaining an overall optimal state of health."
+          "description": "Once a month, we will perform a chiropractic adjustment to prevent relapses, maintaining an overall optimal state of health."
         }
       ]
     },

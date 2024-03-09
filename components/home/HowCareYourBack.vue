@@ -13,7 +13,7 @@
           :alt="rt(item.title)"
           class="mx-auto"
         />
-        <h3 class="text-lg font-medium">
+        <h3 class="text-lg font-medium pb-2">
           {{ rt(item.title) }}
         </h3>
         <div class="text-base" v-html="rt(item.description)" />
