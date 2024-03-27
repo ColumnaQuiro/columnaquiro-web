@@ -48,7 +48,7 @@
         },
         {
           "author": "Javier",
-          "description": "A los que padezcais problemas de espalda, al final de cada sesión y, desde la primera, todas las vértebras quedan en su sitio y, desparecen los desagradables dolores radiculares. La quiropŕactica Lea tiene manos mágicas."
+          "description": "A los que padezcais problemas de espalda, al final de cada sesión y, desde la primera, todas las vértebras quedan en su sitio y, desaparecen los desagradables dolores radiculares. La quiropŕactica Lea tiene manos mágicas."
         },
         {
           "author": "Cristian",
@@ -84,7 +84,7 @@
     },
     "orderAppointment": {
       "title": "¿Quieres empezar a sentirte mejor con ColumnaQuiro?",
-      "subtitle": "Más vale prevenir que curar. Cuanto antes te cuides más potencial de vida podrás descubrir.<br>¡Estás a un paso de empezar a sentirte mejor!",
+      "subtitle": "Ya tengas una dolencia o quieras potenciar tu salud deja que te ayudemos de forma natural. <br> ¡Nuestros pacientes han conseguido mejorado su salud y tú puedes ser el próximo!",
       "button": "Pide tu cita"
     },
     "toWho": {
@@ -256,12 +256,12 @@
           "to": "/sintomas/escoliosis"
         },
         {
-          "title": "Dolor de cervicales y cabeza",
-          "to": "/sintomas/dolor-de-cervicales-y-cabeza"
-        },
-        {
           "title": "Ciática",
           "to": "/sintomas/ciatica"
+        },
+        {
+          "title": "Dolor de cervicales y cabeza",
+          "to": "/sintomas/dolor-de-cervicales-y-cabeza"
         }
       ]
     }
@@ -430,7 +430,7 @@
           "body": "Las <a class='underline' href='/como-funciona' target='_blank'>sesiones de quiropráctica</a> incluyen una serie de ajustes, donde la técnica se adapta a cada persona."
         },
         {
-          "title": "¿Estaré solo en el ajuste?",
+          "title": "¿Estaré solo/a en el ajuste?",
           "body": "Muchos centros usan sala abierta con varias camillas donde van pasando de paciente en paciente. El problema es que no se focalizan en un solo paciente por lo que tienen peores resultados. Además suelen ser sesiones de pocos minutos, estamos hablando de 5 o menos minutos.<br><br>En nuestro centro quiropráctico tenemos una sala para la primera visita y dos salas para ajustes. Pasamos entre 20 y 30 minutos por ajuste y paciente, siempre siendo flexibles. Nuestra misión es ayudar a la gente y es por eso que tenemos resultados con todos nuestros pacientes."
         },
         {
@@ -876,32 +876,31 @@
   },
   "howItWorks": {
     "seo": {
-      "title": "Como funciona Centro Quiropráctico en Valencia | ColumnaQuiro",
+      "title": "Descubre nuestro plan de cuidado Quiropráctico",
       "description": "Descubre nuestros servicios quiroprácticos enfocados en mejorar la salud y el bienestar. Comienza tu camino hacia una vida más saludable hoy."
     },
     "steps": {
-      "title": "¿Cómo funciona nuestro cuidado quiropráctico?",
-      "description": "A continuación te contamos los pasos que seguimos con nuestros pacientes:",
+      "description": "A continuación te contamos los pasos que vamos a seguir desde la primera visita hasta el plan de cuidado.",
       "items": [
         {
           "color": "brand-light-quaternary",
           "title": "Reserva tu primera cita",
-          "description": "<ul class='list-disc'><li>Por teléfono al <a href='tel:+34744735363'> 744735363</a>.</li><li>Por <a target='_blank' href='https://api.whatsapp.com/send?phone=34744735363&text=Hola%20me%20gustar%C3%ADa%20pedir%20una%20cita'>Whatsapp</a>.</li><li>Online en este <a href='https://columnaquiropracticehub.neptune.practicehub.io/p/booking?lid=1&pid=1&atid=2&' target='_blank'>link.</a></li></ul>"
+          "description": "<ul class='list-disc'><li>Por teléfono al <a rel='nofollow' href='tel:+34744735363'> 744735363</a>.</li><li>Por <a target='_blank' rel='nofollow' href='https://api.whatsapp.com/send?phone=34744735363&text=Hola%20me%20gustar%C3%ADa%20pedir%20una%20cita'>Whatsapp</a>.</li><li>Online en este <a rel='nofollow' href='https://columnaquiropracticehub.neptune.practicehub.io/p/booking?lid=1&pid=1&atid=2&' target='_blank'>link.</a></li></ul>"
         },
         {
           "color": "brand-light-tertiary",
           "title": "Primera cita",
-          "description": "<ul class='list-disc'><li>Tomaremos tu historial de salud.</li><li>Realizaremos unas pruebas de coordinación y postura.</li><li>La primera sesión de ajuste quiropráctico.</li></ul>"
+          "description": "<ul class='list-disc'><li>Tomaremos tu historial de salud.</li><li>Haremos unas pruebas de equilibrio y postura.</li><li>La primera sesión de ajuste quiropráctico.</li></ul>"
         },
         {
           "color": "brand-tertiary",
           "title": "Informe quiropráctico",
-          "description": "<ul class='list-disc'><li>Resultados de las pruebas de la primera visita.</li><li>Segunda sesión de ajuste quiropráctico.</li><li>Te recomendaremos un plan de cuidado personalizado.</li>"
+          "description": "<ul class='list-disc'><li>Resultados de las pruebas de la primera visita.</li><li>Segunda sesión de ajuste quiropráctico.</li><li>Te daremos un plan de cuidado adaptado a ti.</li>"
         },
         {
           "color": "brand-light-quaternary",
           "title": "Plan de cuidado",
-          "description": "Realizaremos los ajustes quiroprácticos según el plan de cuidado recomendado."
+          "description": "Realizaremos los ajustes quiroprácticos según tu plan de cuidado."
         },
         {
           "color": "brand-light-secondary",
@@ -911,13 +910,56 @@
         {
           "color": "brand-light-secondary",
           "title": "Mantenimiento",
-          "description": "Una vez al mes realizaremos un ajuste quiropráctico para evitar recaídas, manteniendo un estado general de salud óptimo."
+          "description": "Una vez al mes procederemos con un ajuste quiropráctico para evitar recaídas, manteniendo un estado general de salud óptimo."
+        }
+      ]
+    },
+    "caminoAlBienestar": {
+      "title": "El camino al bienestar",
+      "description": "Por último te presentamos las distintas fases del cuidado quiropráctico, el cual te daremos en la segunda visita al centro. Es muy importante tener una visión global de como la quiropráctica te ayuda y no solo cuida las dolencias. El camino al bienestar se divide en 3 fases que encontrarás más abajo explicadas. Cada fase es igual de importante, ya que si abandonas en alguna de estas podrás volver al punto inicial.",
+      "alt": "camino al bienestar",
+      "items": [
+        {
+          "title": "Recuperación",
+          "description": "Durante esta fase, nos enfocamos en la recuperación intensiva de tu cuerpo. En esta etapa, tu cuerpo se defiende y los problemas en la columna dañan los nervios. Es normal sentir dolor y otros síntomas porque tu cuerpo no funciona de forma correcta. En esta fase es normal notar mejorías en pocos días."
+        },
+        {
+          "title": "Corrección",
+          "description": "Esta fase requiere un poco más de tiempo, alrededor de unas semanas. Tu cuerpo se adapta a los cambios gracias a los ajustes que hemos ido haciendo. Esto alinea tu columna y mejora el rendimiento de tu cuerpo."
+        },{
+          "title": "Mantenimiento",
+          "description": "El objetivo de esta fase es prevenir recaídas, porque estas harían un efecto opuesto, volviendo a la primera fase del camino. Todos estamos expuestos a diferentes estreses en nuestra vida que no paran de cesar, como es el trabajo, las relaciones, la familia, los amigos, etc..."
+        }
+      ]
+    },
+    "faqs": {
+      "title": "Preguntas frecuentes sobre el cuidado quiropráctico",
+      "items": [
+        {
+          "title": "¿Necesito cita previa para acudir al centro?",
+          "body": "Sí, nuestro centro funciona con cita previa, ya sea para la primera visita o un sesión de ajuste normal. Esto nos ayuda a planificar cada paciente y poder darte una mejor atención."
+        },
+        {
+          "title": "¿Puedo cancelar la visita?",
+          "body": "Sí, no hay ningún problema en cancelar la visita con anterioridad. Si cancelas la primera visita con menos de 24 horas, te la reprogramaremos una vez. Si cancelas dos veces con menos de 24 horas, se descontará del bono el ajuste realizado. Muchas veces tenemos lista de espera y cada cancelación es una oportunidad perdida para ayudar a otra persona."
+        },
+        {
+          "title": "¿Por qué es necesario el historial de salud?",
+          "body": "La información de tu historial de salud es importante para brindarte una mejor atención. También nos ayuda a identificar posibles problemas que puedan afectar el tratamiento que te damos."
+        },
+        {
+          "title": "¿Cuánto dura el plan de cuidado?",
+          "body": "El plan de cuidado depende de cada persona y las dolencias u objetivos que tenga. No es lo mismo una persona que busque mejorar su salud y no tiene ninguna dolencia, a una persona que tiene escoliosis o un problema grave y busca un cuidado. Nuestros quiroprácticos te ayudaran a solucionar cualquier duda sobre el cuidado en la segunda cita donde te explicaran todo en detalle."
+        },
+        {
+          "title": "¿Por qué necesito el mantenimiento?",
+          "body": "Como explicamos en el camino al bienestar, el mantenimiento es el último paso del cuidado quiropráctico. Por desgracia, aúnque hayas terminado el cuidado quiropráctico con todos los ajustes recomendados, todos acumulamos estrés en nuestra vida diaria. Esto hace que necesites hacer ajustes puntuales normalmente cada 3 semanas o un mes para no recaer y seguir mejorando tu salud."
         }
       ]
     },
     "firstVisit": {
-      "title": "¿Cómo funciona?",
-      "description": "¡Bienvenido a Columnaquiro! Nuestro objetivo es brindarte la mejor atención quiropráctica personalizada. La primera visita es fundamental en nuestra clínica para ofrecerte el mejor cuidado quiropráctico posible. <br><br>Antes de tu primera visita, te enviaremos un cuestionario en línea para conocer tus preocupaciones y objetivos de salud actuales, lo que nos permitirá comprender mejor tus necesidades antes de la sesión quiropráctica.<br><br>Ahora te contamos lo que haremos durante la primera visita ,  nos enfocamos en esta etapa para monitorear y evaluar tu evolución a lo largo del cuidado quiropráctico: ",
+      "title": "¿Cómo funciona nuestro cuidado quiropráctico?",
+      "description": "¡Bienvenido a ColumnaQuiro! Nuestro objetivo es brindarte la mejor atención quiropráctica personalizada. La primera visita es fundamental en nuestra clínica para ofrecerte el mejor cuidado quiropráctico posible. <br><br>A continuación te contamos lo que haremos durante la primera visita ,  nos enfocamos en esta etapa para monitorear y evaluar tu evolución a lo largo del cuidado quiropráctico: ",
       "steps": [
         {
           "text": "Revisar tu historial de salud contigo para asegurarnos que tenemos todas las informaciones."

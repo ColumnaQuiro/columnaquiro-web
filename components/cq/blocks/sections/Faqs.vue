@@ -1,7 +1,7 @@
 <template>
   <cq-layout-section>
-    <h2 class="text-3xl pb-3">
-      {{ t(`symptoms.${symptom}.faqs.title`) }}
+    <h2 class="section-title pb-10">
+      {{ title }}
     </h2>
     <div>
       <cq-components-expansion-panel
@@ -17,21 +17,26 @@
 
 <script setup lang="ts">
 import { useI18n } from 'vue-i18n'
+import type { PropType } from 'vue'
 import { useSEO } from '~/composables/seo'
 import type { FAQ } from '~/types/Faq'
 
 const props = defineProps({
-  symptom: {
+  title: {
     type: String,
+    required: true
+  },
+  faqs: {
+    type: Array as PropType<FAQ[]>,
     required: true
   }
 })
 
-const { t, tm, rt } = useI18n()
-const faqs: FAQ[] = tm(`symptoms.${props.symptom}.faqs.items`)
+const { rt } = useI18n()
 const useSeo = useSEO()
+
 const faqsSchema = [
-  ...faqs.map(faq => ({
+  ...props.faqs.map(faq => ({
     '@type': 'Question',
     name: rt(faq.title),
     acceptedAnswer: {

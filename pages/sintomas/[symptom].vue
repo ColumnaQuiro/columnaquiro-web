@@ -1,15 +1,15 @@
 <template>
   <div>
     <sintomas-what-is :symptom="`${symptom}`" />
-    <sintomas-symptoms :symptom="`${symptom}`" />
-    <cq-blocks-order-appointment-section
+    <lazy-sintomas-symptoms :symptom="`${symptom}`" />
+    <lazy-cq-blocks-order-appointment-section
       :title="t(`symptoms.${symptom}.appointmentSection.title`)"
       :description="t(`symptoms.${symptom}.appointmentSection.description`)"
     />
-    <sintomas-types :symptom="`${symptom}`" />
-    <sintomas-chiropractic-benefits :symptom="`${symptom}`" />
-    <sintomas-faqs :symptom="`${symptom}`" />
-    <cq-blocks-order-appointment-section
+    <lazy-sintomas-types :symptom="`${symptom}`" />
+    <lazy-sintomas-chiropractic-benefits :symptom="`${symptom}`" />
+    <lazy-cq-blocks-sections-faqs :title="t(`symptoms.${symptom}.faqs.title`)" :faqs=" tm(`symptoms.${symptom}.faqs.items`)" />
+    <lazy-cq-blocks-order-appointment-section
       :title="t(`symptoms.${symptom}.appointmentSection.title`)"
       :description="t(`symptoms.${symptom}.appointmentSection.description`)"
     />
@@ -26,7 +26,7 @@ import { useSEO } from '~/composables/seo'
 const { params } = useRoute()
 const { symptom } = params
 
-const { t } = useI18n()
+const { t, tm } = useI18n()
 const setI18nParams = useSetI18nParams()
 const useSeo = useSEO()
 
