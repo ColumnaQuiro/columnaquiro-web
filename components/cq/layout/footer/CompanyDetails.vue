@@ -3,6 +3,9 @@
     <h3 class="text-base font-medium pb-4">
       {{ t('general.layout.footer.details.title') }}
     </h3>
+    <div>
+      Lea Marie Lucie Guido
+    </div>
     <a class="text-sm" :href="GOOGLE_MAPS_LOCAL_DIRECTION" target="_blank">
       {{ t('general.layout.footer.details.street') }}
     </a>
