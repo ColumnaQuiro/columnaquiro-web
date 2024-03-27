@@ -1,8 +1,5 @@
 <template>
   <cq-layout-section class="how-it-works" shape="shape-secondary-light-left" :shape-width="200" shape-position="center-left">
-    <h2 class="section-title">
-      {{ t('howItWorks.steps.title') }}
-    </h2>
     <div class="text-lg pb-8">
       {{ t('howItWorks.steps.description') }}
     </div>
