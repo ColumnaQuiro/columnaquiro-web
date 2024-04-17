@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.belvo.belvoandroidwebview",
+    "sha256_cert_fingerprints":
+    ["5B:50:09:53:D6:D7:15:7E:46:EF:A4:EB:07:D2:71:23:CF:AD:1E:6F:6E:85:2F:B3:03:5C:A6:7F:A3:85:97:E7"]
+  }
+}]
