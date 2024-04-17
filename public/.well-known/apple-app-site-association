@@ -1,0 +1,32 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": [
+          "GH6L8MTA46.com.belvo.belvo-ios-webview-internal-tools"
+        ],
+        "components": [
+          {
+            "#": "no_universal_links",
+            "exclude": true,
+            "comment": "Matches any URL with a fragment that equals no_universal_links and instructs the system not to open it as a universal link."
+          },
+          {
+            "/": "/*",
+            "comment": "Matches any URL with a path that starts with /*."
+          }
+        ]
+      }
+    ]
+  },
+  "webcredentials": {
+    "apps": [
+      "GH6L8MTA46.com.belvo.belvo-ios-webview-internal-tools"
+    ]
+  },
+  "appclips": {
+    "apps": [
+      "GH6L8MTA46.com.belvo.belvo-ios-webview-internal-tools"
+    ]
+  }
+}
