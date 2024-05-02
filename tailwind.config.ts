@@ -13,12 +13,12 @@ module.exports = {
       fontSize: {
         h1: '2.5rem',
         h2: '1.75rem',
-        h3: '1.4rem',
+        h3: '1.1rem',
         h4: '1.25rem',
         h5: '1rem',
         h1_sm: '1.75rem',
         h2_sm: '1.5rem',
-        h3_sm: '1.25rem',
+        h3_sm: '1.15rem',
         h4_sm: '1rem'
       },
       lineHeight: {
