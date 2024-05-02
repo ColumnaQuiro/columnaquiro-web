@@ -55,7 +55,7 @@ h2 {
   letter-spacing: calc(var(--font-heading-scale) * 0.06rem);
 }
 h3 {
-  @apply text-h3_sm leading-h3_sm font-light;
+  @apply text-h3_sm leading-h3_sm font-medium;
   letter-spacing: calc(var(--font-heading-scale) * 0.06rem);
 }
 h4 {
