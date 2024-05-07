@@ -20,7 +20,7 @@
       </div>
     </div>
     <div class="text-center pt-10">
-      <cq-components-button :to="localePath('/reserva-cita-centro-quiropractico-valencia')" color="tertiary" size="large" @click="trackBookButton">
+      <cq-components-button :to="localePath('/reserva-cita')" color="tertiary" size="large" @click="trackBookButton">
         {{ t('home.howCareYourBack.button') }}
       </cq-components-button>
     </div>

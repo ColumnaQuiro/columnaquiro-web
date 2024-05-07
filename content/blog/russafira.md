@@ -1,11 +1,10 @@
 ---
-title: 'Russafira | ColumnaQuiro'
+title: 'Russafira 2023: Diviértete y Cuida tu Espalda con Columnaquiro'
 description: 'Celebra un Halloween divertido en Russafira 2023. Descubre la importancia de cuidar la salud de la columna vertebral de manera divertida y educativa.'
 headline: 'Russafira 2023 y ColumnaQuiro'
 date: '2023-10-24T09:30:00'
 cover: https://statics.columnaquiro.com/blog/russafira-mercat-animes-2023.webp
 ---
-
 
 ¡Estamos a punto de sumergirnos en el espíritu escalofriante de Halloween! En la Feria de Animación de Russafira en el parque de Manuel de Granero del 28 y 29 de octubre de 2023  , la diversión no es lo único que te hará temblar. En este evento lleno de risas y sustos, Columnaquiro presenta un stand que combina el entretenimiento espeluznante con un toque de cuidado de la salud. ¿Te atreverás a unirte a nosotros?
 

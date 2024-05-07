@@ -1,7 +1,7 @@
 ---
-title: '¿Qué son las Contracturas Musculares Lumbares?'
+title: '¿Qué son las contracturas musculares lumbares?'
 description: 'Las contracturas musculares lumbares se caracterizan por ser situaciones disfuncionales en las fibras musculares de la región lumbar.'
-headline: '¿Qué son las Contracturas Musculares Lumbares?'
+headline: 'Contracturas musculares lumbares: síntomas y cuidado'
 date: '2024-04-02T17:00:00'
 cover: https://res.cloudinary.com/dqrtj7gca/image/upload/f_auto,q_auto/v1/website/blog/contractura-lumbosacra
 ---

@@ -1,7 +1,7 @@
 ---
-title: 'Dolor de espalda | ColumnaQuiro'
+title: 'Entendiendo el dolor de espalda y su cuidado quiropráctico'
 description: 'La quiropráctica puede ser una opción valiosa para aliviar el dolor de espalda, que afecta a millones de personas en todo el mundo.'
-headline: 'Dolor de espalda'
+headline: 'Dolor de espalda: sus causas y cuidado quiropráctico'
 date: '2023-11-30T09:00:00'
 cover: https://statics.columnaquiro.com/blog/dolor-de-espalda.webp
 ---

@@ -221,7 +221,7 @@
         ],
         "appointmentButton": {
           "text": "Book",
-          "to": "/en/book-appointment-chiropractic-valencia"
+          "to": "/en/book-appointment"
         }
       },
       "footer": {

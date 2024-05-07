@@ -83,7 +83,7 @@
       ]
     },
     "orderAppointment": {
-      "title": "¿Quieres empezar a sentirte mejor con ColumnaQuiro?",
+      "title": "¿Quieres empezar a sentirte mejor?",
       "subtitle": "Ya tengas una dolencia o quieras potenciar tu salud deja que te ayudemos de forma natural. <br> ¡Nuestros pacientes han conseguido mejorado su salud y tú puedes ser el próximo!",
       "button": "Pide tu cita"
     },
@@ -221,7 +221,7 @@
         ],
         "appointmentButton": {
           "text": "Pedir cita",
-          "to": "/reserva-cita-centro-quiropractico-valencia"
+          "to": "/reserva-cita"
         }
       },
       "footer": {

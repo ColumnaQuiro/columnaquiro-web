@@ -4,8 +4,8 @@
       <h2 class="section-title">
         {{ title || t('general.orderAppointment.title') }}
       </h2>
-      <div class="text-lg pt-4 pb-6" v-html="description || t('general.orderAppointment.subtitle')" />
-      <cq-components-button size="x-large" color="tertiary" :to="localePath('/reserva-cita-centro-quiropractico-valencia')">
+      <div class="text-lg pb-6" v-html="description || t('general.orderAppointment.subtitle')" />
+      <cq-components-button size="x-large" color="tertiary" :to="localePath('/reserva-cita')">
         {{ t('general.orderAppointment.button') }}
       </cq-components-button>
     </cq-layout-section>

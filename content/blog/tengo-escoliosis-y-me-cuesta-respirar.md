@@ -1,5 +1,5 @@
 ---
-title: 'Tengo escoliosis y me cuesta respirar | ColumnaQuiro'
+title: 'Escoliosis y dificultad respiratoria: Abordaje y cuidado'
 description: 'La escoliosis, una condición caracterizada por la curvatura anormal de la columna vertebral, afecta a un considerable número de personas en todo el mundo.'
 headline: 'Tengo escoliosis y me cuesta respirar'
 date: '2024-01-07T18:00:00'

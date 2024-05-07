@@ -1,7 +1,7 @@
 ---
-title: 'Lordosis Cervical'
+title: 'Lordosis cervical: síntomas, tipos y cuidado Quiropráctico'
 description: 'La lordosis cervical es una curvatura natural hacia adentro de la columna vertebral en la región del cuello, conocida como columna cervical.'
-headline: 'Lordosis Cervical'
+headline: 'Lordosis cervical'
 date: '2024-04-02T12:00:00'
 cover: https://res.cloudinary.com/dqrtj7gca/image/upload/f_auto,q_auto/v1/website/blog/lordosis-cervical
 ---

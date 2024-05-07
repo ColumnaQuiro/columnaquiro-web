@@ -1,7 +1,7 @@
 ---
 title: 'Guia completa para tratar el dolor de cabeza por cervicales'
 description: 'La cefalea cervicogénica es un tipo de dolor de cabeza que tiene su origen en problemas cervicales, específicamente en la región del cuello.'
-headline: 'Guia completa para tratar el dolor de cabeza por cervicales'
+headline: 'Qué es cefalea cervicogénica y su cuidado'
 date: '2024-04-02T09:00:00'
 cover: https://res.cloudinary.com/dqrtj7gca/image/upload/f_auto,q_auto/v1/website/blog/dolor-de-cabeza-por-cervicales
 ---
