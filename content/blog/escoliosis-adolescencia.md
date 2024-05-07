@@ -1,5 +1,5 @@
 ---
-title: 'Escoliosis en la adolescencia | ColumnaQuiro'
+title: 'Escoliosis en la adolescencia: detección y cuidado'
 description: 'En este artículo, exploraremos la importancia del diagnóstico precoz de la escoliosis en la adolescencia, destacando cómo prevenir complicaciones graves.'
 headline: '¿Se puede corregir la escoliosis en la adolescencia?'
 date: '2024-01-07T19:20:00'
@@ -46,7 +46,7 @@ Sí, es posible corregir la escoliosis en la adolescencia sin necesidad de cirug
 
 La quiropráctica emerge como una alternativa valiosa en el tratamiento de la escoliosis en la adolescencia. Este enfoque se centra en ajustes manuales de la columna vertebral para mejorar su alineación y funcionalidad. Los quiroprácticos especializados en escoliosis comprenden las complejidades de esta condición y diseñan programas específicos que se adaptan a las necesidades de cada paciente.
 
-## Resultados positivos con tratamientos Quiroprácticos
+## Resultados positivos con cuidado Quiropráctico
 
 Numerosos casos han mostrado resultados positivos mediante la quiropráctica en adolescentes con escoliosis. Al enfocarse en el fortalecimiento muscular y la alineación vertebral, se ha logrado reducir las curvaturas, aliviar el dolor asociado y mejorar la calidad de vida de los pacientes. Estos resultados respaldan la eficacia de la quiropráctica como una opción viable y menos invasiva para la corrección de la escoliosis en la adolescencia.
 

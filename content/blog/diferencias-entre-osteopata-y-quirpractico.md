@@ -1,7 +1,7 @@
 ---
 title: 'Diferencias entre osteópata y quiropráctico'
 description: 'Aunque el osteópata y el quiropráctico comparten algunas similitudes es esencial recalcar que tienen diferencias fundamentales en sus enfoques y prácticas.'
-headline: 'Diferencias entre osteópata y quiropráctico'
+headline: 'Quiroprácticos vs osteópatas: diferencias y similitudes'
 date: '2024-04-02T20:00:00'
 cover: https://res.cloudinary.com/dqrtj7gca/image/upload/f_auto,q_auto/v1/website/blog/quiropractico-y-osteopata
 ---

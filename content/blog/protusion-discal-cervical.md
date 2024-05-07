@@ -1,5 +1,5 @@
 ---
-title: '¿Qué es la protusión discal cervical?'
+title: 'Protrusión discal cervical: Síntomas y cuidado'
 description: 'La protrusión cervical, o hernia de disco cervical, es una afección que afecta los discos intervertebrales en la columna cervical.'
 headline: '¿Qué es la protusión discal cervical?'
 date: '2024-04-02T19:00:00'

@@ -177,8 +177,8 @@ export default defineNuxtConfig({
       'politica-de-privacidad': {
         en: '/privacy-policy'
       },
-      'reserva-cita-centro-quiropractico-valencia': {
-        en: '/book-appointment-chiropractic-valencia'
+      'reserva-cita': {
+        en: '/book-appointment'
       }
     }
   },

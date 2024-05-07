@@ -13,7 +13,7 @@
           </h3>
           <div class="text-base text-center md:text-start" v-html="t('home.offer.description')" />
           <div class="text-center pt-8">
-            <cq-components-button :to="localePath('/reserva-cita-centro-quiropractico-valencia')" color="secondary">
+            <cq-components-button :to="localePath('/reserva-cita')" color="secondary">
               <v-icon :icon="mdiCalendar" class="mr-2" />
               {{ t('home.offer.button') }}
             </cq-components-button>

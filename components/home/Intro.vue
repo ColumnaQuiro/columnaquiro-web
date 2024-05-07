@@ -13,7 +13,7 @@
           {{ t('home.intro.description') }}
         </div>
         <cq-components-button
-          :to="localePath('/reserva-cita-centro-quiropractico-valencia')"
+          :to="localePath('/reserva-cita')"
           variant="flat"
           color="tertiary"
         >
