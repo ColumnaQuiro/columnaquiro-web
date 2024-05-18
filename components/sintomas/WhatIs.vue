@@ -1,8 +1,8 @@
 <template>
   <cq-layout-section>
-    <h2 class="section-title">
+    <h1 class="section-title">
       {{ t(`symptoms.${symptom}.whatIs.title`) }}
-    </h2>
+    </h1>
     <cq-blocks-sections-paragraph-with-image
       :text="t(`symptoms.${symptom}.whatIs.description`)"
       :image="t(`symptoms.${symptom}.whatIs.image`)"

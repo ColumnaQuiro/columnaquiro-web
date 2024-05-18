@@ -35,5 +35,7 @@ setI18nParams({
   es: { symptom: symptomsI18n[symptom as keyof typeof symptomsI18n].es }
 })
 useSeo.setI18nTags()
+useSeo.setLocalBusinessSchemaOrgTag()
+useSeo.setSeoTags(t(`symptoms.${symptom}.seo.title`), t(`symptoms.${symptom}.seo.description`))
 
 </script>

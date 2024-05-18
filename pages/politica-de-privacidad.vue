@@ -19,18 +19,18 @@
     <div class="text-xl font-medium pb-3">
       Identidad del responsable del tratamiento de los datos personales
     </div>
-    El responsable del tratamiento de los datos personales recogidos en Columnaquiro es: Léa Guido, con NIF: Y7115191V (en adelante, Responsable del tratamiento).
+    El responsable del tratamiento de los datos personales recogidos en Columnaquiro es: ColumnaQuiro SL con CIF B16365504 (en adelante, Responsable del tratamiento).
     Sus datos de contacto son los siguientes:
     <ul class="list-disc">
-      <li>Dirección: Calle dels Vivons 29, bajo izquierda, 46004 Valencia</li>
-      <li>Teléfono de contacto: 744735362</li>
-      <li>Email de contacto: lea@columnaquiro.com</li>
+      <li>Dirección: Calle dels Vivons 29, bajo izquierda, 46006 Valencia</li>
+      <li>Teléfono de contacto: 744735363</li>
+      <li>Email de contacto: hola@columnaquiro.com</li>
     </ul>
     <br>
     <div class="text-xl font-medium pb-3">
       Registro de Datos de Carácter Personal
     </div>
-    En cumplimiento de lo establecido en el RGPD y la LOPD-GDD, le informamos que los datos personales recabados por Columnaquiro, mediante los formularios extendidos en sus páginas quedarán incorporados y serán tratados en nuestro fichero con el fin de poder facilitar, agilizar y cumplir los compromisos establecidos entre Columnaquiro y el Usuario o el mantenimiento de la relación que se establezca en los formularios que este rellene, o para atender una solicitud o consulta del mismo. Asimismo, de conformidad con lo previsto en el RGPD y la LOPD-GDD, salvo que sea de aplicación la excepción prevista en el artículo 30.5 del RGPD, se mantiene un registro de actividades de tratamiento que especifica, según sus finalidades, las actividades de tratamiento llevadas a cabo y las demás circunstancias establecidas en el RGPD.
+    En cumplimiento de lo establecido en el RGPD y la LOPD-GDD, le informamos que los datos personales recabados por Columnaquiro, mediante los formularios extendidos en sus páginas quedarán incorporados y serán tratados en nuestro fichero con el fin de poder facilitar, agilizar y cumplir los compromisos establecidos entre Columnaquiro y el Usuario o el mantenimiento de la relación que se establezca en los formularios que este rellene, o para atender una solicitud o consulta del mismo. Asimismo, de conformidad con lo previsto en el RGPD y la LOPD-GDD, salvo que sea de aplicación la excepción prevista en el artículo 30.5 del RGPD, se mantiene un registro de actividades de cuidado que especifica, según sus finalidades, las actividades de cuidados llevadas a cabo y las demás circunstancias establecidas en el RGPD.
     <br><br>
     <div class="text-xl font-medium pb-3">
       Principios aplicables al tratamiento de los datos personales
@@ -127,8 +127,8 @@
       <br>
       Esta solicitud y todo otro documento adjunto podrá enviarse a la siguiente dirección y/o correo electrónico:
       <ul class="list-disc">
-        <li>Dirección postal: Calle dels Vivons 29, bajo izquierda, 46004 Valencia</li>
-        <li>Correo electrónico: lea@columnaquiro.com</li>
+        <li>Dirección postal: Calle dels Vivons 29, bajo izquierda, 46006 Valencia</li>
+        <li>Correo electrónico: hola@columnaquiro.com</li>
       </ul>
       <br>
       <div class="text-xl font-medium pb-3">

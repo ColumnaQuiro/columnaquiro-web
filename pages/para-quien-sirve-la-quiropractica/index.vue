@@ -1,13 +1,11 @@
 <template>
   <div>
-    <cq-layout-section class="bg-brand-light-secondary">
-      <h1 class="section-title">
-        {{ t('chiropracticForWhom.title') }}
-      </h1>
+    <cq-blocks-sections-intro-section :title="t('chiropracticForWhom.title')" :description="t('chiropracticForWhom.subtitle')" background-image-url="https://res.cloudinary.com/dqrtj7gca/image/upload/f_auto,q_auto/v1/website/para-quien-sirve-la-quiropractica/intro" />
+    <cq-layout-section>
       <div class="text-base" v-html="t('chiropracticForWhom.description')" />
       <cq-blocks-to-who />
+      <cq-blocks-order-appointment-section />
     </cq-layout-section>
-    <cq-blocks-order-appointment-section />
   </div>
 </template>
 

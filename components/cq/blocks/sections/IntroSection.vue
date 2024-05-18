@@ -4,7 +4,7 @@
       <h1 class="relative text-white z-10 text-center">
         {{ title }}
       </h1>
-      <div v-if="description" class="relative text-base text-white z-10">
+      <div v-if="description" class="relative text-base text-center text-white z-10">
         {{ description }}
       </div>
     </cq-layout-section>

@@ -1,8 +1,5 @@
 <template>
   <cq-layout-section>
-    <h1 class="section-title">
-      {{ t(`chiropracticForWhom.types.intro.title.${personType}`) }}
-    </h1>
     <cq-blocks-sections-paragraphWithImage
       :text="t(`chiropracticForWhom.types.intro.description.${personType}`)"
       :image="`website/para-todos/${personType}.webp`"

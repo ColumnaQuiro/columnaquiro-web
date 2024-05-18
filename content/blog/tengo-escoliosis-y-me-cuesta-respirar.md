@@ -54,7 +54,7 @@ La atención quiropráctica no solo busca corregir la alineación de la columna,
 
 ## Experiencias positivas de pacientes con escoliosis tratados por quiroprácticos
 
-Numerosos testimonios respaldan la eficacia de la atención quiropráctica en personas con escoliosis y dificultades respiratorias. Pacientes han informado no solo mejoras en la capacidad pulmonar, sino también en la reducción del dolor y la incomodidad asociados. Estas experiencias positivas subrayan la relevancia de considerar al quiropráctico como parte integral del plan de tratamiento para aquellos que buscan superar los desafíos de la escoliosis y mejorar su capacidad respiratoria.
+Numerosos testimonios respaldan la eficacia de la atención quiropráctica en personas con escoliosis y dificultades respiratorias. Pacientes han informado no solo mejoras en la capacidad pulmonar, sino también en la reducción del dolor y la incomodidad asociados. Estas experiencias positivas subrayan la relevancia de considerar al quiropráctico como parte integral del plan de cuidado para aquellos que buscan superar los desafíos de la escoliosis y mejorar su capacidad respiratoria.
 
 ![Tengo escoliosis y me cuesta respirar](https://res.cloudinary.com/dqrtj7gca/image/upload/f_auto,q_auto/v1/website/blog/escoliosis-y-me-cuesta-respirar)
 
@@ -66,6 +66,6 @@ En este artículo, hemos explorado la estrecha vinculación entre la escoliosis 
 
 La dificultad respiratoria no solo impacta la salud física, sino que también tiene consecuencias significativas en la calidad de vida. Destacamos la importancia de buscar soluciones efectivas que no solo alivien los síntomas, sino que aborden la raíz del problema. La elección de un enfoque de tratamiento integral es fundamental para garantizar resultados positivos a largo plazo.
 
-### Invitación a considerar la visita al quiropráctico como opción de tratamiento
+### Invitación a considerar la visita al quiropráctico como opción de cuidado
 
-Como parte de este enfoque integral, instamos a considerar la visita al quiropráctico como una opción valiosa en el tratamiento de la escoliosis y sus complicaciones respiratorias. La evidencia respalda el impacto positivo de la atención quiropráctica en la alineación espinal y la mejora de la capacidad respiratoria. Al tomar esta medida, se puede trabajar hacia una vida más saludable y libre de las limitaciones impuestas por la escoliosis y sus efectos en la respiración.
+Como parte de este enfoque integral, instamos a considerar la visita al quiropráctico como una opción valiosa en el cuidado de la escoliosis y sus complicaciones respiratorias. La evidencia respalda el impacto positivo de la atención quiropráctica en la alineación espinal y la mejora de la capacidad respiratoria. Al tomar esta medida, se puede trabajar hacia una vida más saludable y libre de las limitaciones impuestas por la escoliosis y sus efectos en la respiración.

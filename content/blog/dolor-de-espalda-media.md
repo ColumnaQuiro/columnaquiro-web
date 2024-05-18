@@ -1,6 +1,6 @@
 ---
 title: 'Causas, síntomas y cuidado del dolor de espalda media derecha'
-description: 'En este artículo, exploraremos en detalle el dolor de espalda media en el lado derecho, sumergiéndonos en sus causas, síntomas y tratamientos.'
+description: 'En este artículo, exploraremos en detalle el dolor de espalda media en el lado derecho, sumergiéndonos en sus causas, síntomas y cuidado.'
 headline: 'Dolor espalda media derecha: causas, síntomas y cuidado'
 date: '2024-01-07T12:00:00'
 cover: https://res.cloudinary.com/dqrtj7gca/image/upload/f_auto,q_auto/v1/website/blog/dolor-de-espalda-2
@@ -8,7 +8,7 @@ cover: https://res.cloudinary.com/dqrtj7gca/image/upload/f_auto,q_auto/v1/websit
 
 El dolor de espalda media, en especial cuando se manifiesta en el lado derecho, es una experiencia común que afecta a muchas personas en algún momento de sus vidas. Este malestar, aunque a menudo se percibe como algo trivial, puede ser un indicador crucial de diversos problemas de salud que van más allá de la incomodidad física.
 
-En este artículo, exploraremos en detalle el [dolor de espalda](https://columnaquiro.com/blog/dolor-de-espalda) media en el lado derecho, sumergiéndonos en sus causas, síntomas y tratamientos. La espalda es una estructura fundamental que sostiene y facilita la movilidad de nuestro cuerpo, y comprender las complejidades del dolor en el lado derecho es esencial para abordar cualquier problema subyacente.
+En este artículo, exploraremos en detalle el [dolor de espalda](https://columnaquiro.com/blog/dolor-de-espalda) media en el lado derecho, sumergiéndonos en sus causas, síntomas y cuidado. La espalda es una estructura fundamental que sostiene y facilita la movilidad de nuestro cuerpo, y comprender las complejidades del dolor en el lado derecho es esencial para abordar cualquier problema subyacente.
 
 A medida que nos adentramos en las secciones siguientes, descubriremos cómo diversos factores, desde malas posturas hasta condiciones médicas más serias, pueden contribuir al dolor de espalda. Además, destacaremos la importancia de reconocer las señales de advertencia y buscar atención médica cuando sea necesario.
 
