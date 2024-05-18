@@ -49,7 +49,7 @@ export const useSEO = () => {
               addressCountry: 'ES',
               addressLocality: 'Valencia',
               addressRegion: 'Valencia',
-              postalCode: '46004',
+              postalCode: '46006',
               streetAddress: 'Calle del Vivons 29'
             },
             name: 'Centro Quiropráctico Columnaquiro',

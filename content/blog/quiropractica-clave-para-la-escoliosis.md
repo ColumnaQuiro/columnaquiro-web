@@ -50,4 +50,4 @@ Ajustes quiroprácticos y fortalecimiento muscular contribuyen a mejorar la movi
 ### Enfoque holístico
 La quiropráctica no solo aborda los síntomas sino también las causas subyacentes de la escoliosis, buscando mejorar la salud general y el bienestar.
 
-En el centro quiropractico [ColumnaQuiro](https://columnaquiro.com) podemos ayudarte con la escoliosis, nuestro equipo de quiroprácticos realizará un tratamiento personalizo para ti.
+En el centro quiropractico [ColumnaQuiro](https://columnaquiro.com) podemos ayudarte con la escoliosis, nuestro equipo de quiroprácticos realizará un cuidado personalizo para ti.

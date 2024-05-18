@@ -1,5 +1,3 @@
-import type { TypeOfPersonLocales } from '~/types/Person'
-
 export const typeOfPersonToKey = new Map<string, string>([
   ['discapacidades-motoras-intelectuales', 'disabled'],
   ['disabled-people', 'disabled'],

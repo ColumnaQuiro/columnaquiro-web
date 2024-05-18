@@ -8,7 +8,7 @@
       "items": [
         {
           "author": "Miriam",
-          "description": "La verdad que me ha cambiado la vida y mi diario vivir; en cuanto escuché de este tipo de tratamiento quise probarlo y la verdad no me arrepiento en lo absoluto, por que el seguimiento que me hace la dra. Lea es fantástico, pocas personas se preocupan por la evolución  después del tratamiento... mil y mil gracias eres la mejor"
+          "description": "La verdad que me ha cambiado la vida y mi diario vivir; en cuanto escuché de este tipo de cuidados quise probarlo y la verdad no me arrepiento en lo absoluto, por que el seguimiento que me hace la dra. Lea es fantástico, pocas personas se preocupan por la evolución  después del cuidado... mil y mil gracias eres la mejor"
         },
         {
           "author": "Miguel",
@@ -36,7 +36,7 @@
         },
         {
           "author": "Karen",
-          "description": "Estoy muy contenta con el servicio de Columnaquiro y con la Dra. Lea. Son un gran equipo que cuando entras te sientes cómo en casa. El tratamiento propuesto por la Dra. Lea me está ayudando mucho con mi problema de cervicales y espalda. Y que decir de ella es muy amable y siempre muy profesional. Estoy muy agradecida. Recomiendo sin duda a éste centro y sus profesionales."
+          "description": "Estoy muy contenta con el servicio de Columnaquiro y con la Dra. Lea. Son un gran equipo que cuando entras te sientes cómo en casa. El plan de cuidado propuesto por la Dra. Lea me está ayudando mucho con mi problema de cervicales y espalda. Y que decir de ella es muy amable y siempre muy profesional. Estoy muy agradecida. Recomiendo sin duda a éste centro y sus profesionales."
         },
         {
           "author": "Rosario",
@@ -92,37 +92,37 @@
         {
           "key": "workers",
           "title": "Trabajadores",
-          "description": "Aumenta la actividad de tu corteza prefrontal y mejora tu rendimiento laboral a corto o largo plazo , reduciendo el estres y la ausencia por motivos de salud.",
+          "description": "Cuida las dolencias ocasionadas por malas posturas en el trabajo. Mejora tu rendimiento laboral: los ajustes afectan positivamente a la toma de decisiones, cognición... reduciendo ausencias por salud.",
           "urlParam": "trabajadores"
         },
         {
           "key": "kids",
           "title": "Niños",
-          "description": "El desarrollo de un niño  incluye diferentes  etapas sensoriales y motoras y un sistema nervioso saludable es vital  en su superación y mejora de su coordinación y sentidos.",
+          "description": "Prevé disfunciones en el sistema nervioso de tu bebé: cómo un sistema nervioso óptimo mejora su desarrollo sensorial y motor, coordinación y sentidos.",
           "urlParam": "bebes-y-ninos"
         },
         {
           "key": "pregnant",
           "title": "Embarazadas",
-          "description": "Prepara tu  cuerpo para los cambios del embarazo y mejorar tu  recuperación postparto, optimizando la función del sistema nervioso y la salud en esta nueva etapa de vida.",
+          "description": "Prepara tu  cuerpo para los cambios físicos, químicos y emocionales del embarazo y mejorar tu  recuperación postparto, optimizando la función del sistema nervioso y la salud.",
           "urlParam": "embarazadas"
         },
         {
           "key": "sport",
           "title": "Deportistas",
-          "description": "Optimiza tu rendimiento fisico y tu recuperación post-entrenamiento.",
+          "description": "Mejora tu rendimiento deportivo. Los ajustes aumentan la fuerza, el tiempo de reacción, la movilidad, el equilibrio y la recuperación.",
           "urlParam": "deportistas"
         },
         {
           "key": "elder",
           "title": "Tercera edad",
-          "description": "Cuida tu  cuerpo para disfrutar al máximo de la vida y mejora tu  movilidad, equilibrio y estilo de vida de manera holística y vitalista.",
+          "description": "Mejora tu movilidad, equilibrio y calidad de vida: disfruta de un estilo de vida y saludable.",
           "urlParam": "personas-mayores"
         },
         {
           "key": "disabled",
           "title": "Discapacidades motoras o intelectuales",
-          "description": "Mejora la movilidad, equilibrio, sensacion corporal y tu funcionamento general para fortalecer tu desarollo y tu independencia.",
+          "description": "La quiropráxia mejora la movilidad, equilibrio y coordinación en personas con discapacidades. También mejora el desarrollo en trastornos neuroconductuales.",
           "urlParam": "discapacidades-motoras-intelectuales"
         }
       ]
@@ -423,7 +423,7 @@
         },
         {
           "title": "¿Cómo sé si la quiropráctica es adecuada para mí?",
-          "body": "La quiropráctica es segura para la mayoría de las personas, al no ser un tratamiento intrusivo. Antes de empezar el plan de cuidado, evaluamos a cada paciente de manera individual y personalizada para adaptar el plan a tus necesidades."
+          "body": "La quiropráctica es segura para la mayoría de las personas, al no ser un cuidado intrusivo. Antes de empezar el plan de cuidado, evaluamos a cada paciente de manera individual y personalizada para adaptar el plan a tus necesidades."
         },
         {
           "title": "¿Cómo es una sesión típica de quiropráctica?",
@@ -443,7 +443,7 @@
         },
         {
           "title": "¿La quiropráctica es un cuidado a largo plazo?",
-          "body": "Si, a diferencia de otros tratamientos temporales, la quiropráctica no solo se enfoca en aliviar síntomas o dolores, sino que trabaja en prevenir problemas futuros."
+          "body": "Si, a diferencia de otros cuidados temporales, la quiropráctica no solo se enfoca en aliviar síntomas o dolores, sino que trabaja en prevenir problemas futuros."
         }
       ]
     },
@@ -475,6 +475,10 @@
   },
   "symptoms": {
     "escoliosis": {
+      "seo": {
+        "title": "Cuidado quiropráctico para la escoliosis | ColumnaQuiro",
+        "description": "En ColumnaQuiro te ayudamos con la escoliosis, un trastorno médico distintivo, se manifiesta mediante una curvatura anormal de la columna vertebral."
+      },
       "appointmentSection": {
         "title": "¿Quieres que te ayudemos a mejorar la escoliosis?",
         "description": "Pide cita para que nuestros quiroprácticos te ayuden. <br>Nuestros pacientes han mejorado gracias a nuestros ajustes quiroprácticos."
@@ -532,6 +536,10 @@
       }
     },
     "dolor-de-cervicales-y-cabeza": {
+      "seo": {
+        "title": "Cuidado quiropráctico para dolor de cervicales y cabeza",
+        "description": "En ColumnaQuiro te ayudamos con el dolor de cervicales y cabeza, una condición que afecta la región del cuello y la cabeza, generando molestias."
+      },
       "appointmentSection": {
         "title": "¿Quieres que te ayudemos a mejorar los dolores de cervicales y cabeza?",
         "description": "Pide cita para que nuestros quiroprácticos te ayuden. <br>Nuestros pacientes han mejorado gracias a nuestros ajustes quiroprácticos."
@@ -577,6 +585,10 @@
       }
     },
     "ciatica": {
+      "seo": {
+        "title": "Cuidado quiropráctico para la ciática",
+        "description": "En ColumnaQuiro te ayudamos con la ciática, una condición médica que afecta el nervio ciático, el cual es el nervio más largo del cuerpo humano."
+      },
       "appointmentSection": {
         "title": "¿Quieres que te ayudemos a mejorar la ciática?",
         "description": "Pide cita para que nuestros quiroprácticos te ayuden. <br>Nuestros pacientes han mejorado gracias a nuestros ajustes quiroprácticos."
@@ -659,26 +671,27 @@
   },
   "chiropracticForWhom": {
     "seo": {
-      "title": "¿Quiropráctica para todos? - Enfoque integral - ColumnaQuiro",
-      "description": "Descubre si la quiropráctica es adecuada para ti. Nuestro enfoque mejora la salud de atletas, personas activas y aquellos que buscan alivio del dolor crónico."
+      "title": "Descubre si la quiropráctica es apta para ti",
+      "description": "La quiropráctica es adecuada para todas las edades y personas. Ya tengas dolencias por tu trabajo, estes embarazada, seas deportista, un niño o un anciano."
     },
-    "title": "Para todos",
-    "description": "En  Columna Quiro, nuestro objetivo es ayudar a las familias a vivir una vida plena y saludable. Sabemos con certeza que cuando el cuerpo está bien conectado, tanto tú como tu familia estaréis mejor preparados para enfrentar cualquier desafío que la vida les presente, desde el estrés diario hasta alcanzar una salud óptima.<br><br>Nuestros ajustes quiroprácticos seguros y efectivos se enfocan en mejorar la salud y el bienestar de toda la familia. Desde bebés hasta adultos mayores, ofrecemos soluciones personalizadas y adaptadas a las necesidades individuales de cada paciente.<br><br>En Columna Quiro, nos dedicamos a proporcionar la mejor atención quiropráctica para ayudar a las familias a disfrutar de una vida más activa, feliz y saludable. ¡Únete a nosotros en este viaje hacia la salud y el bienestar!",
+    "title": "La quiropráctica es para ti",
+    "subtitle": "Descubre lo que la quiropráctica puede hacer por ti",
+    "description": "En ColumnaQuiro nuestro objetivo es ayudar a todas las personas independientemente de su edad o situación. Descubre lo que la quiropráctica puede hacer por ti, y empieza a notar sus beneficios ya. En nuestro centro hacemos un estudio personalizado que se adapta al tipo de persona y edad. Deslízate encima de cada grupo de personas para tener más información.",
     "types": {
       "seo": {
-        "title": "La quiropráctica es para tí - {personTitle} - ColumnaQuiro",
+        "title": "Beneficios de la quiropráctica para {personTitle}",
         "description": {
-          "disabled": "La quiropráctica mejora la movilidad, equilibrio y coordinación en personas con discapacidades. También mejora el desarrollo en trastornos neuroconductuales.",
-          "kids": "Preven disfunciones en el sistema nervioso de tu bebé: cómo un sistema nervioso óptimo mejora su desarrollo sensorial y motor, coordinación y sentidos.",
-          "elder": "Mejora tu movilidad, equilibrio y calidad de vida en la tercera edad con la Quiropráctica: disfruta de un estilo de vida y saludable gracias a su enfoque.",
-          "pregnant": "Optimiza tu salud durante y después del embarazo con la quiropráctica. Prepara tu cuerpo para los cambios físicos, químicos y emocionales del embarazo.",
-          "workers": "Mejora tu rendimiento laboral con Quiropraxia: los ajustes afectan positivamente a la toma de decisiones, cognición... reduciendo ausencias por salud.",
-          "sport": "Mejora el rendimiento deportivo con quiropráctica. Los ajustes aumentan la fuerza, el tiempo de reacción, la movilidad, el equilibrio y la recuperación."
+          "disabled": "La quiropráxia mejora la movilidad, equilibrio y coordinación en personas con discapacidades. También mejora el desarrollo en trastornos neuroconductuales.",
+          "kids": "Prevé disfunciones en el sistema nervioso de tu bebé: cómo un sistema nervioso óptimo mejora su desarrollo sensorial y motor, coordinación y sentidos.",
+          "elder": "Mejora tu movilidad, equilibrio y calidad de vida: disfruta de un estilo de vida y saludable.",
+          "pregnant": "Prepara tu  cuerpo para los cambios físicos, químicos y emocionales del embarazo y mejorar tu  recuperación postparto, optimizando la función del sistema nervioso y la salud.",
+          "workers": "Cuida las dolencias ocasionadas por malas posturas en el trabajo. Mejora tu rendimiento laboral: los ajustes afectan positivamente a la toma de decisiones, cognición... reduciendo ausencias por salud.",
+          "sport": "Mejora tu rendimiento deportivo. Los ajustes aumentan la fuerza, el tiempo de reacción, la movilidad, el equilibrio y la recuperación."
         }
       },
       "personTitle": {
         "disabled": "Discapacidades",
-        "kids": "Bebes / Niños",
+        "kids": "Bebés / Niños",
         "elder": "Personas mayores",
         "pregnant": "Embarazadas",
         "workers": "Trabajadores",
@@ -687,7 +700,7 @@
       "intro": {
         "title": {
           "disabled": "Discapacidades motoras o intelectuales",
-          "kids": "Bebes / Niños",
+          "kids": "Bebés / Niños",
           "elder": "Personas mayores",
           "pregnant": "Embarazadas",
           "workers": "Trabajadores",
@@ -696,34 +709,192 @@
         "description": {
           "disabled": "Las personas con discapacidades motoras o intelectuales a menudo tienen acceso limitado a terapias. La quiropráctica, al trabajar de manera holística en el cuerpo entero, puede mejorar la sensación corporal, movilidad, funcionalidad, equilibrio y coordinación. Además, numerosos estudios sobre la quiropráctica y el cerebro han demostrado su potencial para producir cambios en la plasticidad cerebral. En particular, los ajustes quiroprácticos pueden equilibrar diferentes áreas del cerebro y mejorar el desarrollo en personas con trastornos neuroconductuales.",
           "kids": "Durante el nacimiento, el bebé experimenta estrés, desde su descenso en el canal de parto hasta su salida al mundo externo desconocido. Durante este proceso, el bebé puede quedarse atrapado en una posición o encontrar obstáculos que dificulten su salida. Esto se puede reflejar en la forma poco común de su cabeza al nacer o en un lado preferido para mamar durante la lactancia. Estos esfuerzos pueden causar disfunciones en su sistema nervioso.<br><br>Desde su nacimiento hasta su desarrollo, el bebé debe pasar por diferentes etapas en un orden específico. Estas etapas son sinónimo de un buen desarrollo sensorial y motor: el desarrollo motor le permitirá tener una musculatura adecuada y una coordinación corporal, mientras que el desarrollo sensorial le permitirá desarrollar todos sus sentidos (visión, olfato, tacto, etc.).<br><br>Un sistema nervioso que funcione al 100% ayudará al bebé a superar estas etapas, mejorando su coordinación, equilibrio y todos sus sentidos.",
-          "elder": "En nuestra sociedad, aunque es común, no es normal que la tercera edad se asocie con debilidad, lentitud, enfermedad y dependencia. Es importante tener en cuenta que con la edad, nuestro cuerpo experimenta cambios, como la pérdida de calidad en huesos, colágeno y fibras musculares, y que nuestra calidad de vida puede verse afectada. Sin embargo, esta etapa es tan importante como cualquier otra y es esencial cuidar nuestro cuerpo para disfrutar al máximo de la vida. La quiropráctica puede ayudarte a mejorar tu movilidad, equilibrio y estilo de vida de manera holística y vitalista, fomentando un estilo de vida activo y saludable.",
-          "pregnant": "<h2 class='text-lg'>Antes y durante el embarazo</h2>Es importante preparar el cuerpo para los cambios que se producirán durante el embarazo:<ul class='list-disc'><li>Cambios físicos: la alteración del centro de gravedad afecta la postura y la tensión muscular.</li><li>Cambios químicos: los cambios hormonales aumentan la laxitud de los ligamentos y las articulaciones.</li><li>Cambios emocionales: ser madre es un paso importante que puede generar estrés y preguntas para la futura madre.</li></ul><br>Estos cambios pueden interferir en el sistema nervioso, que controla todos los demás sistemas del cuerpo, incluidos los músculos, ligamentos y articulaciones, como los músculos y ligamentos del suelo pélvico, la articulación sacroilíaca y el coxis. La quiropráctica puede ayudar a alinear la pelvis y la columna vertebral para que el bebé tenga suficiente espacio y la madre pueda vivir un embarazo más efectivo. Por lo tanto, entendemos que la salud de una mujer embarazada es muy importante para ella y para el bebé.<br><br>Estamos certificados en la técnica Webster, una técnica quiropráctica que se centra en el análisis y la alineación de la pelvis y sus músculos y ligamentos para optimizar la función pélvica de la madre durante el embarazo y el parto, reduciendo la necesidad de medicamentos o intervenciones quirúrgicas durante el parto.<br><br><h2 class='text-lg'>Después del parto</h2>El parto es un evento estresante a nivel físico (horas de contracciones, salida del bebé), químico (cambios hormonales con aumento de la leche) y emocional (llegada del bebé, ser madre, posparto). La quiropráctica puede ayudar a mejorar la recuperación postparto, permitiendo que el cuerpo funcione mejor para que puedas disfrutar al máximo de este nuevo capítulo en tu vida.",
-          "workers": "La quiropráctica y su impacto en el cerebro han sido objeto de numerosos estudios, demostrando la capacidad de los ajustes para influir en la plasticidad cerebral. En concreto, los ajustes quiropácticos aumentan la actividad en la corteza prefrontal.<br><br>La corteza prefrontal está involucrada en cuatro aspectos clave: toma de decisiones, cognición (procesamiento de información), comportamiento social y expresión de la personalidad. Estos aspectos, mejorados por los ajustes quiropácticos, contribuyen a un mejor rendimiento laboral, incluyendo: mayor eficiencia, tiempo de reacción más rápido, desempeño social óptimo y un nivel de estrés reducido.<br><br>A largo plazo, la quiropractica en el entorno laboral trae consigo una serie de beneficensos en las ausencias por motivos de salud, como la depresión, dolor de espalda y dolor de cabeza. Además, mejora la retención de personal al permitir que los trabajadores manejen mejor el estrés y otros síntomas, y conduce a un mejor rendimiento laboral en general.",
-          "sport": "Cuando se trata de deportistas regulares o de élite, a menudo pensamos en posibles lesiones o síntomas relacionados con sus actividades, pero no en su rendimiento deportivo. La quiropráctica ha sido utilizada por muchos atletas profesionales y es reconocida como una forma complementaria de atención médica para los atletas. Por ejemplo, Usain Bolt se ha ajustado antes de sus competiciones.<br><br>A pesar de ser poco conocida en el mundo del deporte, la quiropráctica ha sido objeto de muchos estudios que han demostrado que los ajustes regulares pueden mejorar:<ul class='list-disc'><li>La fuerza</li><li>El tiempo de reacción</li><li>La movilidad</li><li>El equilibrio</li><li>La recuperación post-entrenamiento</li></ul><br>Estos parámetros son cruciales para aumentar las habilidades atléticas."
-        },
-        "faqs": {
-          "pregnant": [
+          "elder": "En nuestra sociedad, aunque es común, no es normal que la tercera edad se asocie con debilidad, lentitud, enfermedad y dependencia. Es importante tener en cuenta que con el envejecimiento, nuestro cuerpo experimenta cambios, como la <span class='font-medium'>pérdida de calidad en huesos, colágeno y fibras musculares</span>, lo que puede afectar nuestra calidad de vida. Sin embargo, esta etapa es tan importante como cualquier otra, y es esencial cuidar nuestro cuerpo para disfrutar al máximo de la vida.<br><br><span class='font-medium'>Las enfermedades osteoarticulares</span> son la causa más común de discapacidad en personas de edad avanzada, lo que compromete seriamente la calidad de vida. La aparición de trastornos musculoesqueléticos aumenta significativamente con la edad y, si no se tratan, pueden <span class='font-medium'>reducir considerablemente el bienestar y la salud.</span><br><br>En ColumnaQuiro, mediante la quiropráctica ayudamos a mejorar la movilidad, el equilibrio y el estilo de vida de manera holística en la tercera edad, <span class='font-medium'>fomentando un estilo de vida activo y saludable</span>. Al restaurar la función adecuada de la columna vertebral, podemos abordar los problemas asociados con las personas mayores de 65 años. Muchos pacientes mayores nos informan de que experimentan menos síntomas de sus enfermedades crónicas después de recibir ajustes quiroprácticos adaptados para su situación específica, lo que contribuye a mejorar su calidad de vida de manera significativa.",
+          "pregnant": "<h2 class='section-title'>Antes y durante el embarazo</h2>Es importante preparar el cuerpo para los cambios que se producirán durante el embarazo:<ul class='list-disc'><li><span class='font-medium'>Cambios físicos:</span> la alteración del centro de gravedad afecta la postura y la tensión muscular. Puede dar lugar a dolores de espalda y lumbares, dolencias muy comunes durante el embarazo.</li><li><span class='font-medium'>Cambios químicos</span>: los cambios hormonales aumentan la laxidad de los ligamentos y las articulaciones.</li><li><span class='font-medium'>Cambios emocionales:</span> ser madre es un paso importante que puede generar estrés y preguntas para la futura madre.</li></ul><br>Estos cambios pueden interferir en el sistema nervioso, que controla todos los demás sistemas del cuerpo, como los músculos y ligamentos del suelo pélvico, la articulación sacroilíaca y el coxis. <br><br>En ColumnaQuiro ayudamos a <span class='font-medium'>alinear la pelvis y la columna vertebral</span> para que el bebé tenga <span class='font-medium'>suficiente espacio</span> y la madre pueda vivir un embarazo más llevadero. <br><br>Estamos certificados en la <span class='font-medium'>técnica Webster</span>, una técnica quiropráctica que se centra en el <span class='font-medium'>análisis y la alineación de la pelvis y sus músculos y ligamentos</span> para optimizar la función pélvica de la madre durante el embarazo y el parto, <span class='font-medium'>reduciendo la necesidad de medicamentos o intervenciones quirúrgicas</span>. Además disponemos de un cojín especial para embarazadas, para que puedas tener ayuda quiropráctica sin interrupciones durante todo el embarazado. Por último, los ajustes quiroprácticos durante el embarazo son suaves y seguros.<br><br><h2 class='section-title'>Después del parto</h2>El parto es un evento que genera estrés a nivel físico, químico y emocional. A nivel físico, implica horas de contracciones y esfuerzo en la salida del bebé. Químicamente, se producen cambios hormonales, como el aumento de la leche. Emocionalmente, implica la llegada del bebé, la adaptación a la maternidad y el posparto. En ColumnaQuiro te podemos contribuir significativamente a una recuperación del postparto más efectiva, optimizando el funcionamiento del cuerpo y permitiéndote disfrutar plenamente de este nuevo y emocionante capítulo en tu vida.",
+          "workers": "El dolor en la columna ya sea <span class='font-medium'> dolor de espalda o lumbar es la principal causa de ausencia </span> y baja entre los trabajadores. De estos, <span class='font-medium'>más de un 70% </span> han ido al medico por problemas musculoesqueléticos.<br><br>A la larga, un dolor de espalda no tratado <span class='font-medium'>puede llevar a enfermedades crónicas</span>, lo que reduce el rendimiento y eficacia en el trabajo, dando como resultado problemas de animo, estrés y más dolencias.<br><br>En ColumnaQuiro, <span class='font-medium'>atendemos a muchas personas</span> con dolencias en la espalda, en las cervicales y los hombros ya sea debido a una mala postura, a largas horas de trabajo, al estrés laboral, pequeños accidentes o levantamiento de peso o maquinaria.",
+          "sport": "Cuando hablamos de deportistas, es común pensar en posibles lesiones o síntomas relacionados con sus actividades, pero rara vez consideramos cómo <span class='font-medium'>la quiropráctica puede influir en su rendimiento deportivo</span>. Sin embargo, esta disciplina ha sido adoptada por muchos atletas profesionales y es reconocida como una forma complementaria de atención médica en el ámbito deportivo.<br><br>En países con una quiropráctica más desarrollada, es habitual que <span class='font-medium'>atletas de alto nivel reciban ajustes quiroprácticos con frecuencia.</span> En América, por ejemplo, el fútbol americano, es uno de los deportes donde la quiropráctica tiene mayor presencia, donde les ayuda a a jugar sin dolores ni molestias.<br><br>El cuidado quiropráctico deportivo <span class='font-medium'>ayuda al cuerpo a recuperarse de lesiones más rápidamente, previene nuevas lesiones y optimiza las diferentes funciones fisiológicas del cuerpo.</span> Por eso, cada vez más atletas profesionales de todos los deportes recurren a la atención quiropráctica para mantenerse en óptimas condiciones físicas y realizar sus actividades al más alto nivel.En nuestro centro quiropráctico los deportistas usan nuestro servicio por cuatro razones:<br><br><ol><li><span class='font-medium'>Quieren mejorar su rendimiento:</span> A través de los ajustes quiroprácticos se optimiza el funcionamiento de la columna vertebral, lo que conlleva a un mejor rendimiento y recuperación.</li><li><span class='font-medium'>Quieren prevenir las lesiones:</span> Si su cuerpo funciona óptimamente, sus músculos trabajan mejor y por lo tanto se reduce de manera significativa la aparición de las lesiones.</li><li><span class='font-medium'>Quieren recuperarse de lesiones:</span> En general son deportistas que han sufrido una o varias lesiones y que se han recuperado parcialmente.</li><li><span class='font-medium'>Recuperación post-entrenamiento:</span> a través de la quiropráctica se mejora el sistema nervioso lo que ayuda a tener una mejor recuperación después del entrenamiento.</li></ol>"
+        }
+      },
+      "symptoms": {
+        "title": "Síntomas asociados",
+        "items": {
+          "disabled": [
             {
-              "title": "¿La quiropráctica es segura durante el embarazo?",
-              "body": "Sí, la quiropráctica puede ser segura y beneficiosa durante el embarazo. Los ajustes se adaptan para garantizar la comodidad y seguridad de la madre y el bebé."
+              "title": "Espectro autístico",
+              "icon": "autism"
+            },
+            {
+              "title": "Dislexia",
+              "icon": "dyslexia"
+            },
+            {
+              "title": "Retraso motor",
+              "icon": "intellectual-disability"
+            },
+            {
+              "title": "Deficit de atención",
+              "icon": "attention-deficit"
             }
           ],
           "kids": [
             {
-              "title": "¿La quiropráctica es adecuada para niños?",
-              "body": "Sí, la quiropráctica puede ser beneficiosa para niños. Los ajustes son suaves y adaptados a la edad del niño, ayudando con problemas como el cólico, la escoliosis y las lesiones deportivas."
+              "title": "Escoliosis",
+              "icon": "scoliosis"
+            },
+            {
+              "title": "Reflujos",
+              "icon": "reflux"
+
+            },
+            {
+              "title": "Braquicefalea",
+              "icon": "brachycephaly"
+            },
+            {
+              "title": "Cólicos",
+              "icon": "colic"
+            },
+            {
+              "title": "Extreñimiento",
+              "icon": "constipated"
+            }
+          ],
+          "elder": [
+            {
+              "title": "Artrosis",
+              "icon": "osteoarthritis"
+            },
+            {
+              "title": "Dolor de espalda",
+              "icon": "back-pain"
+            },
+            {
+              "title": "Dolor de cuello",
+              "icon": "neck-pain"
+            },
+            {
+              "title": "Hernia discal",
+              "icon": "herniated-disc"
+            },
+            {
+              "title": "Escoliosis",
+              "icon": "scoliosis"
+            }
+          ],
+          "pregnant": [
+            {
+              "title": "Ciática",
+              "icon": "sciatica"
+            },
+            {
+              "title": "Fibromialgia",
+              "icon": "fibromyalgia"
+            },
+            {
+              "title": "Dolor de espalda",
+              "icon": "back-pain"
+            },
+            {
+              "title": "Lumbalgia",
+              "icon": "lower-back-pain"
+            }
+          ],
+          "workers": [
+            {
+              "title": "Dolor de espalda",
+              "icon": "back-pain"
+            },
+            {
+              "title": "Lumbalgia",
+              "icon": "lower-back-pain"
+            },
+            {
+              "title": "Hernia discal",
+              "icon": "herniated-disc"
+            },
+            {
+              "title": "Escoliosis",
+              "icon": "scoliosis"
+            },
+            {
+              "title": "Dolor de cabeza",
+              "icon": "head-pain"
+            },
+            {
+              "title": "Túnel carpiano",
+              "icon": "tunel-carpiano"
+            },
+            {
+              "title": "Estrés y depresión",
+              "icon": "stress"
+            },
+            {
+              "title": "Dolor de cuello",
+              "icon": "neck-pain"
+            }
+          ],
+          "sport": [
+            {
+              "title": "Hernia discal",
+              "icon": "herniated-disc"
+            },
+            {
+              "title": "Bajo rendimiento",
+              "icon": "low-performance"
             }
           ]
         }
+      },
+      "faqs": {
+        "pregnant": [
+          {
+            "title": "¿La quiropráctica es segura durante el embarazo?",
+            "body": "Sí, la quiropráctica puede ser segura y beneficiosa durante el embarazo. Los ajustes se adaptan para garantizar la comodidad y seguridad de la madre y el bebé."
+          }
+        ],
+        "kids": [
+          {
+            "title": "¿La quiropráctica es adecuada para niños?",
+            "body": "Sí, la quiropráctica puede ser beneficiosa para niños. Los ajustes son suaves y adaptados a la edad del niño, ayudando con problemas como el cólico, la escoliosis y las lesiones deportivas."
+          },
+          {
+            "title": "Mi bebé tiene muchos gases y no puede dormir",
+            "body": "Para aliviar los gases del bebé, se pueden realizar masajes abdominales ejerciendo presión, para que el bebé libere posteriormente los gases. Además la quiropráctica puede ayudar al bebé a liberar tensión y por consecuencia la reducción de gases."
+          },
+          {
+            "title": "¿Cómo aliviar el cólico del lactante?",
+            "body": "Ajustando las primeras cervicales con movimientos suaves se consigue una mejoría en los cólicos. Además de esto es recomendable que la madre lleve una dieta baja en alérgenos, y rica en vitaminas y minerales. También se puede probar alimentar al bebé con el biberón. La leche de fórmula es tratada con calor, descomponiendo la proteína de la lecha, ayudando a la digestión del bebé."
+          },
+          {
+            "title": "Mi bebé tiene dolor de dientes",
+            "body": ""
+          },
+          {
+            "title": "Mi bebé no camina, ¿que puedo hacer?",
+            "body": ""
+          }
+        ],
+        "sport": [
+        ],
+        "elder": [
+        ],
+        "workers": [
+          {
+            "title": "¿Cómo puedo evitar el dolor de espalda en el trabajo?",
+            "body": ""
+          }
+        ],
+        "disabled": [
+        ]
       }
     }
   },
   "faqs": {
     "seo": {
-      "title": "Preguntas frecuentes sobre la Quiropráctica | ColumnaQuiro",
+      "title": "Preguntas y respuestas frecuentes sobre la Quiropráctica",
       "description": "Respuestas a tus preguntas sobre la Quiropráctica, los ajustes Quiroprácticos y nuestro Centro Quiropráctico en Valencia."
     },
-    "title": "Preguntas frecuentes sobre la quiropráctica",
+    "title": "Resuelve tus dudas sobre nuestro cuidado quiropráctico",
     "sections": [
       {
         "title": "La Quiropráctica",

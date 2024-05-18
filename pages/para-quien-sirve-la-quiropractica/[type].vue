@@ -1,6 +1,8 @@
 <template>
-  <div>
-    <para-quien-sirve-la-quiropractica-intro v-if="personType" :person-type="personType" class="bg-brand-light-tertiary" />
+  <div v-if="personType">
+    <cq-blocks-sections-intro-section :title="t(`chiropracticForWhom.types.intro.title.${personType}`)" :background-image-url="`https://res.cloudinary.com/dqrtj7gca/image/upload/f_auto,q_auto/v1/website/para-todos/${personType}`" />
+    <para-quien-sirve-la-quiropractica-intro :person-type="personType" />
+    <para-quien-sirve-la-quiropractica-symptoms :person-type="personType" />
     <cq-blocks-order-appointment-section />
   </div>
 </template>

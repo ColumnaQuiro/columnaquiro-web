@@ -372,7 +372,7 @@
           "body": "We complete the picture by knowing your medical history and lifestyle habits, allowing us to further customize your care."
         }
       ],
-      "footer": "🎓 Additionally, we not only provide treatment but <span class='font-medium'>accompany you throughout the improvement process with ongoing education about a healthy lifestyle.</span>"
+      "footer": "🎓 Additionally, we not only provide chiropractor care but <span class='font-medium'>accompany you throughout the improvement process with ongoing education about a healthy lifestyle.</span>"
     },
     "interferencesSchema": {
       "description": "It is essential to highlight that the nervous system is the first to develop in vitro during the third gestation and acts as the main conductor of information between different parts of the body. In fact, the development of all other parts of the body depends on a healthy nervous system. <br><br>Our goal is to <span class='font-medium'>optimize and rebalance the function of the nervous system to improve your health, reduce your ailments, and enhance your quality of life and sense of well-being.</span><br><br>Regardless of your age, the spine is the root of our health and requires attention throughout life. Therefore, people of all ages come to our chiropractic center in Ruzafa in search of better health.<br><br><span class='font-medium'>"
@@ -383,7 +383,7 @@
     },
     "science": {
       "title": "Chiropractic under Science",
-      "body": "A study of 2,818 patients who received chiropractic treatment in the United States and worldwide showed that chiropractic care is associated with a profound and statistically significant improvement in areas of well-being. Patients report changes in: physical well-being, decreased perceived stress levels, enjoyment of life, lifestyle changes, emotional well-being, psychological well-being, and quality of life.<br><br>Blanks, RH; Boone, WR; Schmidt, S; Dobson, M; Network Care: A retrospective outcomes assessment. 1996 Dobson, M; Boone WR; Blanks, RH; Women and Alternative Health Care: A retrospective study of recipients of Network Care. 1996",
+      "body": "A study of 2,818 patients who received chiropractic care in the United States and worldwide showed that chiropractic care is associated with a profound and statistically significant improvement in areas of well-being. Patients report changes in: physical well-being, decreased perceived stress levels, enjoyment of life, lifestyle changes, emotional well-being, psychological well-being, and quality of life.<br><br>Blanks, RH; Boone, WR; Schmidt, S; Dobson, M; Network Care: A retrospective outcomes assessment. 1996 Dobson, M; Boone WR; Blanks, RH; Women and Alternative Health Care: A retrospective study of recipients of Network Care. 1996",
       "graph": {
         "title": "Chiropractic adjustments have been shown to improve:",
         "bars": [
@@ -419,7 +419,7 @@
         },
         {
           "title": "How do I know if chiropractic is right for me?",
-          "body": "Chiropractic is safe for most people, as it is a non-invasive treatment. Additionally, before starting the care plan, we conduct an assessment of each patient individually and tailor the care plan to each individual."
+          "body": "Chiropractic is safe for most people, as it is a non-invasive care. Additionally, before starting the care plan, we conduct an assessment of each patient individually and tailor the care plan to each individual."
         },
         {
           "title": "What is a typical chiropractic session like?",
@@ -471,6 +471,10 @@
   },
   "symptoms": {
     "scoliosis": {
+      "seo": {
+        "title": "Chiropractic care for scoliosis",
+        "description": "At ColumnaQuiro, we help you with scoliosis, a distinctive medical disorder manifested by an abnormal curvature of the spine."
+      },
       "appointmentSection": {
         "title": "Do you want us to help you improve scoliosis?",
         "description": "Schedule an appointment for our chiropractors to assist you. <br>Our patients have improved thanks to our chiropractic adjustments."
@@ -483,25 +487,25 @@
       },
       "symptoms": {
         "title": "Scoliosis Symptoms",
-        "description": "<p>Early detection of scoliosis is crucial for effective treatment. Some common indicators of this condition include: </p><ol><li><span class='font-medium'>Uneven shoulder height:</span> One visible symptom is the discrepancy in shoulder height, as the spine may lean laterally.</li><li><span class='font-medium'>Asymmetry of the shoulder blades:</span> The shoulder blades may exhibit an irregular arrangement, with one being more prominent or displaced compared to the other.</li><li><span class='font-medium'>Uneven waist:</span> The formation of an abnormal curve in the spine can lead to asymmetry in the waist, visible when observing body alignment.</li><li><span class='font-medium'>Deviation of the spine:</span> As scoliosis progresses, the spine deviates to one side, adopting the characteristic \"S\" or \"C\" shape.</li><li><span class='font-medium'>Muscle discomfort:</span> Some individuals may experience muscle discomfort in the back due to the strain exerted by the abnormal curvature."
+        "description": "<p>Early detection of scoliosis is crucial for effective care. Some common indicators of this condition include: </p><ol><li><span class='font-medium'>Uneven shoulder height:</span> One visible symptom is the discrepancy in shoulder height, as the spine may lean laterally.</li><li><span class='font-medium'>Asymmetry of the shoulder blades:</span> The shoulder blades may exhibit an irregular arrangement, with one being more prominent or displaced compared to the other.</li><li><span class='font-medium'>Uneven waist:</span> The formation of an abnormal curve in the spine can lead to asymmetry in the waist, visible when observing body alignment.</li><li><span class='font-medium'>Deviation of the spine:</span> As scoliosis progresses, the spine deviates to one side, adopting the characteristic \"S\" or \"C\" shape.</li><li><span class='font-medium'>Muscle discomfort:</span> Some individuals may experience muscle discomfort in the back due to the strain exerted by the abnormal curvature."
       },
       "types": {
         "title": "Types of Scoliosis and Their Variants",
         "description": "<h3>1. Idiopathic Scoliosis</h3><p><span class='font-medium'>Mysterious and pervasive:</span> This type, constituting the majority of cases, still challenges a complete understanding of its causes. It mainly manifests during adolescence and is subdivided into adolescent idiopathic scoliosis and adult idiopathic scoliosis.</p><h3>2. Congenital Scoliosis</h3><p><span class='font-medium'>From the beginning:</span> Present from birth, this variant originates due to vertebral malformations during fetal development. Early detection is crucial for effective interventions.</p><h3>3. Neuromuscular Scoliosis</h3><p><span class='font-medium'>Intricate connections:</span> Results from neuromuscular disorders such as cerebral palsy or muscular dystrophy, where the complex interaction between the nervous system and muscles plays a central role in curvature progression.</p><h3>4. Degenerative Scoliosis</h3><p><span class='font-medium'>Wear and challenges:</span> Primarily affecting adults, it develops as a result of the natural wear and tear of the spinal joints. Over time, it can lead to significant curvatures.</p><h3>5. Functional Scoliosis</h3><p><span class='font-medium'>Compensation and adaptation:</span> Often associated with muscular imbalances or asymmetries in the legs, functional scoliosis develops as the body's response to certain biomechanical challenges.</p><h3>6. Neurovascular Scoliosis</h3><p><span class='font-medium'>Exploring vascular connections:</span> This type of scoliosis is linked to alterations in the vascular system, where the relationship between blood circulation and the spine can influence curvature.</p><h3>7. Myofascial Scoliosis</h3><p><span class='font-medium'>Considering tissues:</span> Myofascial scoliosis is characterized by imbalances in the connective tissues and muscles surrounding the spine, influencing its alignment.</p><h3>Specific Variants of Scoliosis</h3><p>Within scoliosis variants, we can find:</p><ol><li><a target='_blank' href='https://columnaquiro.com/blog/esclerosis-multiple-agresiva'><span class='font-medium'>Multiple Scoliosis:</span></a> Some individuals may experience curvatures in multiple sections of the spine, creating unique challenges in treatment.</li><li><span class='font-medium'>Dorsal Scoliosis:</span> The curvature is located in the dorsal region of the spine, presenting specific characteristics that require specialized attention.</li><li><span class='font-medium'>Lumbosacral Scoliosis:</span> When the curvature spans the lumbar region and extends to the sacrum, it is classified as lumbosacral scoliosis, presenting particular considerations in treatment.</li><li><span class='font-medium'>Dorsolumbar Scoliosis:</span> This variant affects the dorsal and lumbar regions of the spine, generating unique challenges that must be addressed comprehensively.</li><li><span class='font-medium'>Cervical Scoliosis:</span> The curvature is located in the cervical region of the spine, requiring specific approaches to maintain mobility and relieve tension in this delicate area.</li></ol><p>Understanding the variety of scoliosis types, including these specific variants, is essential for accurate diagnosis and treatment tailored to individual needs. In the following sections, we will explore how chiropractic addresses each type of scoliosis, providing personalized and improvement-oriented approaches to enhance quality of life.</p>"
       },
       "chiropracticBenefits": {
-        "title": "Discovering the Benefits of Chiropractic in Scoliosis Treatment",
-        "description": "<h3>1. Spinal Alignment and Postural Correction:</h3><ul><li>Chiropractic adjustments aim to correct vertebral subluxations, promoting proper alignment of the spine.</li><li>Improving posture is essential in scoliosis treatment, and chiropractic focuses on aligning the spine to reduce abnormal curvature.</li></ul><h3>2. Reduction of Muscle Tension:</h3><ul><li>Chiropractic addresses uneven muscle tension associated with scoliosis, helping to reduce fatigue and discomfort.</li><li>Using specific techniques, chiropractors alleviate the burden on affected muscles, providing relief and improving mobility.</li></ul><h3>3. Stimulation of the Nervous System:</h3><ul><li>Chiropractic adjustments positively impact the nervous system, enhancing communication between the brain and body.</li><li>A healthier nervous system facilitates the body's adaptation to vertebral curvature, optimizing overall function.</li></ul><h3>4. Customized Approach to Each Type of Scoliosis:</h3><ul><li>In our <a href='https://columnaquiro.com'>Chiropractic Center</a>, we adapt chiropractic adjustments to the specific characteristics of each type of scoliosis, offering personalized treatments.</li><li>The versatility of chiropractic allows addressing variants, including multiple, dorsal, lumbosacral, dorsolumbar, and cervical scoliosis.</li></ul><h3>5. Improvement of Mobility and Flexibility:</h3><ul><li>Chiropractic aims to improve spinal mobility, counteracting stiffness associated with scoliosis.</li><li>Through specific techniques, flexibility is promoted, allowing greater adaptability of the spine to postural changes.</li></ul><h3>6. Holistic Focus on General Well-being:</h3><ul><li>Beyond physical correction, chiropractic adopts a holistic approach considering the individual's overall health.</li><li>Factors such as nutrition, lifestyle, and emotional well-being are addressed to complement scoliosis treatment.</li></ul><h3>7. Pain Reduction and Improvement in Quality of Life:</h3><ul><li>Many of our patients experience a significant reduction in scoliosis-related pain after receiving chiropractic adjustments.</li><li>By improving spinal function and reducing muscle strain, chiropractic contributes to an overall enhancement in quality of life.</li></ul>"
+        "title": "Discovering the Benefits of Chiropractic in Scoliosis Care",
+        "description": "<h3>1. Spinal Alignment and Postural Correction:</h3><ul><li>Chiropractic adjustments aim to correct vertebral subluxations, promoting proper alignment of the spine.</li><li>Improving posture is essential in scoliosis care, and chiropractic focuses on aligning the spine to reduce abnormal curvature.</li></ul><h3>2. Reduction of Muscle Tension:</h3><ul><li>Chiropractic addresses uneven muscle tension associated with scoliosis, helping to reduce fatigue and discomfort.</li><li>Using specific techniques, chiropractors alleviate the burden on affected muscles, providing relief and improving mobility.</li></ul><h3>3. Stimulation of the Nervous System:</h3><ul><li>Chiropractic adjustments positively impact the nervous system, enhancing communication between the brain and body.</li><li>A healthier nervous system facilitates the body's adaptation to vertebral curvature, optimizing overall function.</li></ul><h3>4. Customized Approach to Each Type of Scoliosis:</h3><ul><li>In our <a href='https://columnaquiro.com'>Chiropractic Center</a>, we adapt chiropractic adjustments to the specific characteristics of each type of scoliosis, offering personalized treatments.</li><li>The versatility of chiropractic allows addressing variants, including multiple, dorsal, lumbosacral, dorsolumbar, and cervical scoliosis.</li></ul><h3>5. Improvement of Mobility and Flexibility:</h3><ul><li>Chiropractic aims to improve spinal mobility, counteracting stiffness associated with scoliosis.</li><li>Through specific techniques, flexibility is promoted, allowing greater adaptability of the spine to postural changes.</li></ul><h3>6. Holistic Focus on General Well-being:</h3><ul><li>Beyond physical correction, chiropractic adopts a holistic approach considering the individual's overall health.</li><li>Factors such as nutrition, lifestyle, and emotional well-being are addressed to complement scoliosis treatment.</li></ul><h3>7. Pain Reduction and Improvement in Quality of Life:</h3><ul><li>Many of our patients experience a significant reduction in scoliosis-related pain after receiving chiropractic adjustments.</li><li>By improving spinal function and reducing muscle strain, chiropractic contributes to an overall enhancement in quality of life.</li></ul>"
       },
       "faqs": {
         "title": "Frequently Asked Questions about Scoliosis",
         "items": [
           {
-            "title": "Is Chiropractic Effective for the Treatment of Scoliosis in Adults?",
+            "title": "Is Chiropractic Effective for the Care of Scoliosis in Adults?",
             "body": "Yes, chiropractic can be effective in adults with scoliosis. Chiropractic adjustments can help improve vertebral alignment and reduce muscle tension, providing relief and promoting mobility."
           },
           {
-            "title": "How Can Chiropractic Help in the Treatment of Scoliosis?",
+            "title": "How can Chiropractic help in the care of Scoliosis?",
             "body": "Chiropractic addresses scoliosis through adjustments that aim to correct vertebral subluxations, improve posture, and reduce the load on affected muscles. This contributes to better alignment and function of the spine."
           },
           {
@@ -518,16 +522,20 @@
           },
           {
             "title": "Are There Complementary Exercises Recommended with Chiropractic for Scoliosis?",
-            "body": "Yes, some chiropractors may suggest specific exercises to strengthen and improve the flexibility of the muscles surrounding the spine. These exercises can be part of a comprehensive treatment plan."
+            "body": "Yes, some chiropractors may suggest specific exercises to strengthen and improve the flexibility of the muscles surrounding the spine. These exercises can be part of a comprehensive care plan."
           },
           {
-            "title": "What is the First Step to Initiate Chiropractic Treatment for Scoliosis?",
-            "body": "The first step is to schedule a consultation with a chiropractor specialized in scoliosis treatment. During the consultation, your condition will be assessed, and a personalized treatment plan will be discussed based on your needs."
+            "title": "What is the first step to initiate Chiropractic care for scoliosis?",
+            "body": "The first step is to schedule a consultation with a chiropractor specialized in scoliosis care. During the consultation, your condition will be assessed, and a personalized care plan will be discussed based on your needs."
           }
         ]
       }
     },
     "neck-and-headache-pain": {
+      "seo": {
+        "title": "Chiropractic care for neck and head pain",
+        "description": "At ColumnaQuiro, we help you with neck and head pain, a condition that affects the neck and head region, causing discomfort."
+      },
       "appointmentSection": {
         "title": "Do you want us to help you improve neck and head pain?",
         "description": "Make an appointment for our chiropractors to assist you. <br>Our patients have improved thanks to our chiropractic adjustments."
@@ -573,6 +581,10 @@
       }
     },
     "sciatica": {
+      "seo": {
+        "title": "Chiropractic care for sciatica",
+        "description": "At ColumnaQuiro, we help you with sciatica, a medical condition that affects the sciatic nerve, which is the longest nerve in the human body."
+      },
       "appointmentSection": {
         "title": "Do you want us to help you improve sciatica?",
         "description": "Make an appointment for our chiropractors to help you. <br>Our patients have improved thanks to our chiropractic adjustments."
@@ -585,7 +597,7 @@
       },
       "symptoms": {
         "title": "Symptoms of Sciatica",
-        "description": "<h3>Pain</h3><p>It can range from mild to severe and may manifest as a sharp, burning pain, or as an electric shock-like sensation.</p><h3>Numbness</h3><p>Feeling of numbness or tingling radiating from the lower back to the affected leg.</p><h3>Muscle weakness</h3><p>Difficulty moving the affected leg or lifting the foot.</p><p>It is important to note that sciatica can vary in intensity and duration, and can be intermittent or constant. Additionally, factors such as age, lifestyle, physical activity, and overall health can influence the likelihood of developing this condition. If you experience symptoms of sciatica, it is essential to seek medical attention for an accurate diagnosis and appropriate treatment plan.</p>"
+        "description": "<h3>Pain</h3><p>It can range from mild to severe and may manifest as a sharp, burning pain, or as an electric shock-like sensation.</p><h3>Numbness</h3><p>Feeling of numbness or tingling radiating from the lower back to the affected leg.</p><h3>Muscle weakness</h3><p>Difficulty moving the affected leg or lifting the foot.</p><p>It is important to note that sciatica can vary in intensity and duration, and can be intermittent or constant. Additionally, factors such as age, lifestyle, physical activity, and overall health can influence the likelihood of developing this condition. If you experience symptoms of sciatica, it is essential to seek medical attention for an accurate diagnosis and appropriate care plan.</p>"
       },
       "types": {
         "title": "Types of Sciatica and Their Variants",
@@ -593,7 +605,7 @@
       },
       "chiropracticBenefits": {
         "title": "Discovering the Benefits of Chiropractic Care for Sciatica",
-        "description": " <ol><li><h3>Pain Relief:</h3><p>Chiropractic adjustments can help alleviate pressure on the sciatic nerve, thus reducing pain associated with this condition.</p></li><li><h3>Improved Mobility:</h3><p>Chiropractic treatments can help improve spinal and joint mobility, which can reduce stiffness and enhance movement capability.</p></li><li><h3>Inflammation Reduction:</h3><p>Chiropractic care may help reduce inflammation in the tissues surrounding the sciatic nerve, which can contribute to quicker recovery.</p></li><li><h3>Holistic Approach:</h3><p>Chiropractors focus on addressing the underlying cause of sciatica rather than just treating symptoms, which may lead to long-term improvement and prevention of future episodes.</p></li><li><h3>Personalized Treatment:</h3><p>Chiropractors conduct detailed assessments to develop an individualized treatment plan tailored to each patient's specific needs, which can maximize results.</p></li></ol><p>It is important to note that the benefits of chiropractic care may vary for each individual, and it is essential to consult with a qualified chiropractor to determine if this approach is suitable for treating sciatica.</p>"
+        "description": " <ol><li><h3>Pain Relief:</h3><p>Chiropractic adjustments can help alleviate pressure on the sciatic nerve, thus reducing pain associated with this condition.</p></li><li><h3>Improved Mobility:</h3><p>Chiropractic care can help improve spinal and joint mobility, which can reduce stiffness and enhance movement capability.</p></li><li><h3>Inflammation Reduction:</h3><p>Chiropractic care may help reduce inflammation in the tissues surrounding the sciatic nerve, which can contribute to quicker recovery.</p></li><li><h3>Holistic Approach:</h3><p>Chiropractors focus on addressing the underlying cause of sciatica rather than just treating symptoms, which may lead to long-term improvement and prevention of future episodes.</p></li><li><h3>Personalized Treatment:</h3><p>Chiropractors conduct detailed assessments to develop an individualized treatment plan tailored to each patient's specific needs, which can maximize results.</p></li></ol><p>It is important to note that the benefits of chiropractic care may vary for each individual, and it is essential to consult with a qualified chiropractor to determine if this approach is suitable for treating sciatica.</p>"
       },
       "faqs": {
         "title": "Frequently Asked Questions About Sciatica",
@@ -603,12 +615,12 @@
             "body": "Yes, chiropractic care can be effective in treating sciatica. Chiropractors perform manual adjustments of the spine and other joints to relieve pressure on the sciatic nerve, which can reduce pain and improve function."
           },
           {
-            "title": "Is it safe to receive chiropractic treatment for sciatica?",
-            "body": "In general, chiropractic care is considered a safe treatment option for sciatica, especially when performed by a qualified and licensed chiropractor. However, like with any medical treatment, there are certain risks and potential side effects, so it is important to discuss any concerns with your chiropractor before starting treatment."
+            "title": "Is it safe to receive chiropractic care for sciatica?",
+            "body": "In general, chiropractic care is considered a safe care option for sciatica, especially when performed by a qualified and licensed chiropractor. However, like with any medical care, there are certain risks and potential side effects, so it is important to discuss any concerns with your chiropractor before starting care."
           },
           {
             "title": "How long does it take to see results with chiropractic care for sciatica?",
-            "body": "The amount of time needed to see results with chiropractic care can vary for each individual and the severity of sciatica. Some people experience immediate relief after a single treatment, while others may require multiple sessions to achieve significant results. Your chiropractor will be able to provide a more accurate estimate after evaluating your specific situation."
+            "body": "The amount of time needed to see results with chiropractic care can vary for each individual and the severity of sciatica. Some people experience immediate relief after a single care, while others may require multiple sessions to achieve significant results. Your chiropractor will be able to provide a more accurate estimate after evaluating your specific situation."
           },
           {
             "title": "What are the most common causes of sciatica?",
@@ -655,14 +667,15 @@
   },
   "chiropracticForWhom": {
     "seo": {
-      "title": "Chiropractic for Everyone? - Comprehensive Approach - ColumnaQuiro",
+      "title": "Chiropractic for Everyone? - Comprehensive Approach",
       "description": "Discover if chiropractic is right for you. Our approach improves the health of athletes, active individuals, and those seeking relief from chronic pain."
     },
     "title": "For Everyone",
-    "description": "At Columna Quiro, our goal is to help families live a full and healthy life. We are confident that when the body is well connected, both you and your family will be better prepared to face any challenges life presents, from daily stress to achieving optimal health.<br><br>Our safe and effective chiropractic adjustments focus on improving the health and well-being of the entire family. From infants to seniors, we offer personalized solutions tailored to the individual needs of each patient.<br><br>At Columna Quiro, we are dedicated to providing the best chiropractic care to help families enjoy a more active, happy, and healthy life. Join us on this journey to health and well-being!",
+    "subtitle": "Discover what chiropractic can do for you",
+    "description": "At ColumnaQuiro, our goal is to help families live a full and healthy life. We are confident that when the body is well connected, both you and your family will be better prepared to face any challenges life presents, from daily stress to achieving optimal health.<br><br>Our safe and effective chiropractic adjustments focus on improving the health and well-being of the entire family. From infants to seniors, we offer personalized solutions tailored to the individual needs of each patient.<br><br>At Columna Quiro, we are dedicated to providing the best chiropractic care to help families enjoy a more active, happy, and healthy life. Join us on this journey to health and well-being!",
     "types": {
       "seo": {
-        "title": "Chiropractic is for You - {personTitle} - ColumnaQuiro",
+        "title": "Chiropractic is for You - {personTitle}",
         "description": {
           "disabled": "Chiropractic improves mobility, balance, and coordination in people with disabilities. It also enhances development in neurobehavioral disorders.",
           "kids": "Prevent dysfunction in your baby's nervous system: how an optimal nervous system improves sensory and motor development, coordination, and senses.",
@@ -697,15 +710,183 @@
           "workers": "Chiropractic and its impact on the brain have been the subject of numerous studies, demonstrating the ability of adjustments to influence brain plasticity. Specifically, chiropractic adjustments increase activity in the prefrontal cortex.<br><br>The prefrontal cortex is involved in four key aspects: decision-making, cognition (information processing), social behavior, and personality expression. These aspects, improved by chiropractic adjustments, contribute to better work performance, including: greater efficiency, faster reaction time, optimal social performance, and reduced stress level.<br><br>In the long term, chiropractic in the workplace brings a series of benefits in absences due to health reasons, such as depression, back pain, and headaches. It also improves employee retention by allowing workers to better manage stress and other symptoms, leading to overall better work performance.",
           "sport": "When it comes to regular or elite athletes, we often think of possible injuries or symptoms related to their activities, but not their athletic performance. Chiropractic has been used by many professional athletes and is recognized as a complementary form of healthcare for athletes. For example, Usain Bolt has been adjusted before his competitions.<br><br>Despite being little known in the sports world, chiropractic has been the subject of many studies that have shown that regular adjustments can improve:<ul class='list-disc'><li>Strength</li><li>Reaction time</li><li>Mobility</li><li>Balance</li><li>Post-training recovery</li></ul><br>These parameters are crucial for enhancing athletic abilities."
         }
+      },
+      "symptoms": {
+        "title": "Associated Symptoms",
+        "items": {
+          "disabled": [
+            {
+              "title": "Autism Spectrum",
+              "icon": "autism"
+            },
+            {
+              "title": "Dyslexia",
+              "icon": "dyslexia"
+            },
+            {
+              "title": "Motor Delay",
+              "icon": "intellectual-disability"
+            },
+            {
+              "title": "Attention Deficit",
+              "icon": "attention-deficit"
+            }
+          ],
+          "kids": [
+            {
+              "title": "Scoliosis",
+              "icon": "scoliosis"
+            },
+            {
+              "title": "Reflux",
+              "icon": "reflux"
+            },
+            {
+              "title": "Brachycephaly",
+              "icon": "brachycephaly"
+            },
+            {
+              "title": "Colic",
+              "icon": "colic"
+            },
+            {
+              "title": "Constipation",
+              "icon": "constipated"
+            }
+          ],
+          "elder": [
+            {
+              "title": "Osteoarthritis",
+              "icon": "osteoarthritis"
+            },
+            {
+              "title": "Back Pain",
+              "icon": "back-pain"
+            },
+            {
+              "title": "Neck Pain",
+              "icon": "neck-pain"
+            },
+            {
+              "title": "Herniated Disc",
+              "icon": "herniated-disc"
+            },
+            {
+              "title": "Scoliosis",
+              "icon": "scoliosis"
+            }
+          ],
+          "pregnant": [
+            {
+              "title": "Sciatica",
+              "icon": "sciatica"
+            },
+            {
+              "title": "Fibromyalgia",
+              "icon": "fibromyalgia"
+            },
+            {
+              "title": "Back Pain",
+              "icon": "back-pain"
+            },
+            {
+              "title": "Lower Back Pain",
+              "icon": "lower-back-pain"
+            }
+          ],
+          "workers": [
+            {
+              "title": "Back Pain",
+              "icon": "back-pain"
+            },
+            {
+              "title": "Lower Back Pain",
+              "icon": "lower-back-pain"
+            },
+            {
+              "title": "Herniated Disc",
+              "icon": "herniated-disc"
+            },
+            {
+              "title": "Scoliosis",
+              "icon": "scoliosis"
+            },
+            {
+              "title": "Head Pain",
+              "icon": "head-pain"
+            },
+            {
+              "title": "Carpal Tunnel",
+              "icon": "tunel-carpiano"
+            },
+            {
+              "title": "Stress and Depression",
+              "icon": "stress"
+            },
+            {
+              "title": "Neck Pain",
+              "icon": "neck-pain"
+            }
+          ],
+          "sport": [
+            {
+              "title": "Herniated Disc",
+              "icon": "herniated-disc"
+            },
+            {
+              "title": "Low Performance",
+              "icon": "low-performance"
+            }
+          ]
+        }
+      },
+      "faqs": {
+        "pregnant": [
+          {
+            "title": "Is chiropractic safe during pregnancy?",
+            "body": "Yes, chiropractic care can be safe and beneficial during pregnancy. Adjustments are adapted to ensure the comfort and safety of both the mother and the baby."
+          }
+        ],
+        "kids": [
+          {
+            "title": "Is chiropractic care suitable for children?",
+            "body": "Yes, chiropractic care can be beneficial for children. Adjustments are gentle and tailored to the child's age, helping with issues such as colic, scoliosis, and sports injuries."
+          },
+          {
+            "title": "My baby has a lot of gas and cannot sleep",
+            "body": "To relieve a baby's gas, abdominal massages can be performed by applying pressure to help the baby release gas. Additionally, chiropractic care can help the baby release tension, which in turn reduces gas."
+          },
+          {
+            "title": "How can I relieve infant colic?",
+            "body": "Adjusting the upper cervical spine with gentle movements can improve colic. Additionally, it is recommended that the mother follow a diet low in allergens and rich in vitamins and minerals. Trying to feed the baby with a bottle can also help, as formula milk is heat-treated to break down milk protein, aiding the baby's digestion."
+          },
+          {
+            "title": "My baby has teething pain",
+            "body": ""
+          },
+          {
+            "title": "My baby is not walking, what can I do?",
+            "body": ""
+          }
+        ],
+        "sport": [],
+        "elder": [],
+        "workers": [
+          {
+            "title": "How can I prevent back pain at work?",
+            "body": ""
+          }
+        ],
+        "disabled": []
       }
     }
   },
   "faqs": {
     "seo": {
-      "title": "Frequently asked questions about Chiropractic | ColumnaQuiro",
+      "title": "Frequently asked questions and answers about Chiropractic",
       "description": "Answers to Your Questions about Chiropractic and Our Chiropractic Center in Valencia: Services, Comprehensive Approach, and How to Improve Your Health."
     },
-    "title": "Frequently asked questions about Chiropractic",
+    "title": "Address your questions about our chiropractic services",
     "sections": [
       {
         "title": "Chiropractic",
@@ -721,7 +902,7 @@
           },
           {
             "title": "What is chiropractic, and why should I consider chiropractic maintenance?",
-            "body": "Chiropractic is a health profession that focuses on promoting the proper functioning of the nervous system and the body as a whole. Its goal is not just to relieve symptoms but to achieve a healthy body free of nerve interference. Chiropractic maintenance is recommended to preserve and improve current health, prevent relapses, and address stress factors that may affect the nervous system and the body in general. Regular chiropractic treatments aim to maintain proper spinal alignment and strengthen the body to prevent future complications."
+            "body": "Chiropractic is a health profession that focuses on promoting the proper functioning of the nervous system and the body as a whole. Its goal is not just to relieve symptoms but to achieve a healthy body free of nerve interference. Chiropractic maintenance is recommended to preserve and improve current health, prevent relapses, and address stress factors that may affect the nervous system and the body in general. Regular chiropractic care aim to maintain proper spinal alignment and strengthen the body to prevent future complications."
           },
           {
             "title": "Recognition of chiropractic and its development in Spain",
@@ -743,15 +924,15 @@
         "faqs": [
           {
             "title": "How long will it take to see results and improvements in my health?",
-            "body": "The perception of changes can vary from person to person, as each body has its own capacity for expression and recovery. As chiropractors, our goal is to establish a care plan tailored to the individual needs of each patient, including analyzing different tests during the first visit. Some symptoms or conditions may improve after a few sessions, while more chronic conditions may require more time. It's important to collaborate in your own health by following the recommended care plan for excellent and lasting results. We will also conduct regular reviews to monitor your progress and adjust the care plan as needed to ensure you feel your best and experience health improvements. Remember that each case is unique, and results may vary. Our commitment is to provide you with the best care and work together to help you achieve your health goals. If you have any questions or concerns about your progress during chiropractic treatment, feel free to contact our team. We are here to support you on your journey to better health."
+            "body": "The perception of changes can vary from person to person, as each body has its own capacity for expression and recovery. As chiropractors, our goal is to establish a care plan tailored to the individual needs of each patient, including analyzing different tests during the first visit. Some symptoms or conditions may improve after a few sessions, while more chronic conditions may require more time. It's important to collaborate in your own health by following the recommended care plan for excellent and lasting results. We will also conduct regular reviews to monitor your progress and adjust the care plan as needed to ensure you feel your best and experience health improvements. Remember that each case is unique, and results may vary. Our commitment is to provide you with the best care and work together to help you achieve your health goals. If you have any questions or concerns about your progress during chiropractic care, feel free to contact our team. We are here to support you on your journey to better health."
           },
           {
             "title": "Is it safe to visit the chiropractor during pregnancy and for children?",
             "body": "Yes, it is safe to visit the chiropractor during pregnancy and for children. In our center, we have specialized training and courses in pediatrics to attend to children, as well as certification in the Webster Technique for pregnant women. Each adjustment technique we apply is extremely gentle and adapted to the spinal column of people of different ages, including children. We also consider the changes that occur in the body during pregnancy, ensuring a safe approach tailored to the needs of pregnant women. Many parents choose to bring their children to the chiropractor to correct any back or cranial dysfunction and improve overall health. Identifying and addressing these dysfunctions at an early age can contribute to the proper development of the child in later stages of life. In the case of pregnancy, chiropractic care can provide many benefits in preparing for childbirth and the proper development of pregnancy, helping to maintain good health and reduce dysfunction in the mother. If you have more questions or want more information about chiropractic care during pregnancy or for children, feel free to consult with our chiropractic team. We are here to provide the right care and support during these special stages of life."
           },
           {
-            "title": "What reactions might I experience after receiving chiropractic treatment?",
-            "body": "After receiving chiropractic treatment, you may experience different reactions in your body. These reactions are normal and part of the healing and adjustment process of the nervous system. Some possible responses you could experience include a sense of relief, internal changes, and temporary fatigue or discomfort. Each person may have a different experience after chiropractic treatment, as each body reacts uniquely. If you have specific concerns or questions about the reactions you are experiencing, we recommend consulting with your chiropractor, who can provide additional guidance and support. Remember that these changes and reactions are part of your recovery process, and your chiropractor is there to help you at each stage of the journey toward better health and well-being."
+            "title": "What reactions might I experience after receiving chiropractic care?",
+            "body": "After receiving chiropractic care, you may experience different reactions in your body. These reactions are normal and part of the healing and adjustment process of the nervous system. Some possible responses you could experience include a sense of relief, internal changes, and temporary fatigue or discomfort. Each person may have a different experience after chiropractic care, as each body reacts uniquely. If you have specific concerns or questions about the reactions you are experiencing, we recommend consulting with your chiropractor, who can provide additional guidance and support. Remember that these changes and reactions are part of your recovery process, and your chiropractor is there to help you at each stage of the journey toward better health and well-being."
           },
           {
             "title": "Are chiropractic adjustments painful?",
@@ -769,7 +950,7 @@
         "faqs": [
           {
             "title": "How long will my first visit and regular adjustments take?",
-            "body": "During your first visit, we will dedicate all the necessary time to collect the information we need and perform examination tests. We will focus on your first visit results to get a precise idea of your case and spinal dysfunctions. This visit usually lasts about 60 minutes. During this time, we will make sure to listen to your concerns, gather your medical history, and perform the necessary assessments to design a personalized care plan. As for regular adjustments, they are performed in a closed room and tailored to the specific needs of your body. Their duration typically ranges between 15 and 20 minutes. Throughout the treatment process, we will conduct reviews by comparing your initial test results with current ones to assess your improvements and adjust your care plan as needed. These reviews allow us to monitor your progress and ensure you are receiving the most suitable care at each stage of your treatment. Our goal is to provide you with quality and personalized care tailored to your individual needs. If you have additional questions about the duration of visits or the process of treatment, feel free to contact our team. We are here to provide you with the best chiropractic care possible."
+            "body": "During your first visit, we will dedicate all the necessary time to collect the information we need and perform examination tests. We will focus on your first visit results to get a precise idea of your case and spinal dysfunctions. This visit usually lasts about 60 minutes. During this time, we will make sure to listen to your concerns, gather your medical history, and perform the necessary assessments to design a personalized care plan. As for regular adjustments, they are performed in a closed room and tailored to the specific needs of your body. Their duration typically ranges between 15 and 20 minutes. Throughout the care process, we will conduct reviews by comparing your initial test results with current ones to assess your improvements and adjust your care plan as needed. These reviews allow us to monitor your progress and ensure you are receiving the most suitable care at each stage of your care. Our goal is to provide you with quality and personalized care tailored to your individual needs. If you have additional questions about the duration of visits or the process of care, feel free to contact our team. We are here to provide you with the best chiropractic care possible."
           },
           {
             "title": "Can I bring my child to the chiropractic consultation?",
@@ -929,7 +1110,7 @@
         },
         {
           "title": "Why is a health history necessary?",
-          "body": "The information from your health history is important to provide you with better care. It also helps us identify possible issues that may affect the treatment we provide."
+          "body": "The information from your health history is important to provide you with better care. It also helps us identify possible issues that may affect the care we provide."
         },
         {
           "title": "How long does the care plan last?",
@@ -964,7 +1145,7 @@
           "text": "Specific palpation on your skull and vertebral segments."
         }
       ],
-      "footer": "Based on the information gathered, we will create a personalized care plan tailored to your needs, including my best recommendations. In some cases, X-rays may be required for a more comprehensive understanding of your condition.<br><br> In the first chiropractic session, we will begin implementing the specific care plan for you, so you can start experiencing positive changes in your health from the outset. After your initial consultation, we will schedule another appointment to review the results of your study and provide you with a comprehensive Digital Report.<br><br> At ColumnaQuiro, we focus on results. That's why we conduct periodic reviews to assess the objective changes you have experienced under our chiropractic care. These reviews also allow us to ensure that you are satisfied with the treatment you have received at all times.<br><br> During each review, we will discuss with you the appropriate strategies to achieve all your health and lifestyle goals. Our goal is to help you achieve optimal long-term health so you can enjoy a fuller and more active life. We are here to assist you on your journey to health and well-being!"
+      "footer": "Based on the information gathered, we will create a personalized care plan tailored to your needs, including my best recommendations. In some cases, X-rays may be required for a more comprehensive understanding of your condition.<br><br> In the first chiropractic session, we will begin implementing the specific care plan for you, so you can start experiencing positive changes in your health from the outset. After your initial consultation, we will schedule another appointment to review the results of your study and provide you with a comprehensive Digital Report.<br><br> At ColumnaQuiro, we focus on results. That's why we conduct periodic reviews to assess the objective changes you have experienced under our chiropractic care. These reviews also allow us to ensure that you are satisfied with the care you have received at all times.<br><br> During each review, we will discuss with you the appropriate strategies to achieve all your health and lifestyle goals. Our goal is to help you achieve optimal long-term health so you can enjoy a fuller and more active life. We are here to assist you on your journey to health and well-being!"
     }
   },
   "ourCenter": {
