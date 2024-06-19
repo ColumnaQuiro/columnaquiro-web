@@ -1,7 +1,10 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 
 export default defineNuxtConfig({
-  devtools: { enabled: true },
+  devtools: { enabled: false },
+  future: {
+    compatibilityVersion: 4
+  },
   ssr: true,
   site: {
     url: 'https://columnaquiro.com'
