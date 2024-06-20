@@ -260,6 +260,30 @@
           "to": "/sintomas/ciatica"
         },
         {
+          "title": "Fibromialgia",
+          "to": "/sintomas/fibromialgia"
+        },
+        {
+          "title": "Lumbalgia",
+          "to": "/sintomas/lumbalgia"
+        },
+        {
+          "title": "Hernia discal",
+          "to": "/sintomas/hernia-discal"
+        },
+        {
+          "title": "Dolor de cuello",
+          "to": "/sintomas/dolor-de-cuello"
+        },
+        {
+          "title": "Estrés y depresión",
+          "to": "/sintomas/estres-y-depresion"
+        },
+        {
+          "title": "Sindrome del tunel carpiano",
+          "to": "/sintomas/sindrome-del-tunel-carpiano"
+        },
+        {
           "title": "Dolor de cervicales y cabeza",
           "to": "/sintomas/dolor-de-cervicales-y-cabeza"
         }
@@ -474,6 +498,324 @@
     }
   },
   "symptoms": {
+    "estres-y-depresion": {
+      "seo": {
+        "title": "Cuidado quiropráctico para el estrés y la depresión",
+        "description": "En ColumnaQuiro te ayudamos con el estrés y la depresión, una respuesta natural del cuerpo ante situaciones percibidas como amenazantes o desafiantes."
+      },
+      "appointmentSection": {
+        "title": "¿Padeces de estrés y/o depresión?",
+        "description": "Pide cita para que nuestros quiroprácticos te ayuden. <br>Nuestros pacientes han mejorado gracias a nuestros ajustes quiroprácticos."
+      },
+      "whatIs": {
+        "title": "¿Qué es el estrés y la depresión?",
+        "description": "<h3>Estrés</h3><p>El estrés es una respuesta natural del cuerpo ante situaciones percibidas como amenazantes o desafiantes. Esta respuesta puede ser útil en pequeñas dosis, ya que nos prepara para enfrentar desafíos y situaciones peligrosas. Sin embargo, cuando el estrés se convierte en una constante en nuestra vida, puede tener efectos negativos en nuestra salud física y mental.</p><p>El estrés puede ser agudo, cuando se produce por un evento específico y dura un corto período de tiempo, o crónico, cuando persiste durante un período prolongado debido a factores continuos como problemas laborales, conflictos en las relaciones o dificultades económicas.</p><h3>Depresión</h3><p>La depresión, por otro lado, es un trastorno del estado de ánimo que afecta profundamente la forma en que una persona se siente, piensa y maneja las actividades diarias. No es simplemente estar triste o tener un mal día; es una condición seria que puede durar semanas, meses o incluso años si no se trata adecuadamente.</p><p>La depresión puede ser desencadenada por una variedad de factores, incluidos los eventos traumáticos, desequilibrios químicos en el cerebro, predisposición genética y otros problemas de salud mental como la ansiedad o el estrés crónico.</p>",
+        "image": "f_auto,q_auto/v1/website/sintomas/estres-y-depresion",
+        "imageAlt": "Que es el estrés y la depresión"
+      },
+      "symptoms": {
+        "title": "Síntomas del estrés y depresión",
+        "description": "<h3>Síntomas del Estrés</h3><ul><li><strong>Tensión muscular:</strong> El cuerpo se prepara para la \"lucha o huida\", lo que puede causar dolor y rigidez.</li><li><strong>Dolores de cabeza:</strong> La tensión y el estrés pueden desencadenar dolores de cabeza, incluyendo migrañas.</li><li><strong>Fatiga:</strong> Sentirse constantemente cansado o agotado, incluso después de dormir.</li><li><strong>Problemas de sueño:</strong> Insomnio, sueño interrumpido o sueño no reparador.</li><li><strong>Irritabilidad:</strong> Estar fácilmente irritable o de mal humor.</li><li><strong>Ansiedad:</strong> Sentimientos de nerviosismo, inquietud o preocupación constante.</li></ul><h3>Síntomas de la depresión</h3><ul><li><strong>Tristeza persistente:</strong> Sentirse triste o vacío la mayor parte del día.</li><li><strong>Pérdida de interés:</strong> Falta de interés en actividades que antes se disfrutaban.</li><li><strong>Cambios en el apetito:</strong> Comer en exceso o perder el apetito, lo que lleva a cambios en el peso.</li><li><strong>Problemas para dormir:</strong> Insomnio o dormir demasiado.</li><li><strong>Fatiga extrema:</strong> Sentirse cansado todo el tiempo, incluso sin haber realizado esfuerzos.</li><li><strong>Sentimientos de inutilidad o culpa:</strong> Pensamientos negativos sobre uno mismo.</li><li><strong>Dificultad para concentrarse:</strong> Problemas para tomar decisiones o concentrarse en tareas.</li><li><strong>Pensamientos de muerte o suicidio:</strong> En casos severos, puede haber pensamientos recurrentes de muerte o suicidio.</li></ul>"
+      },
+      "types": {
+        "title": "Tipos de estrés y depresión",
+        "description": "<h3>Tipos de Estrés</h3><ul><li><strong>Estrés agudo:</strong> Es el tipo más común de estrés y se produce como respuesta a eventos específicos y recientes. Aunque puede ser intenso, generalmente es de corta duración.</li><li><strong>Estrés crónico:</strong> Es el resultado de situaciones estresantes prolongadas, como problemas financieros, problemas en las relaciones o una situación laboral difícil. Este tipo de estrés puede tener efectos graves en la salud.</li></ul><h3>Tipos de depresión</h3><ul><li><strong>Depresión mayor:</strong> Es una forma severa de depresión que afecta significativamente la vida diaria. Puede durar semanas, meses o más.</li><li><strong>Distimia (Trastorno depresivo persistente):</strong> Es una forma crónica de depresión menos severa, pero de larga duración, que puede durar años.</li><li><strong>Trastorno afectivo estacional:</strong> Este tipo de depresión ocurre en ciertas épocas del año, generalmente en invierno, cuando hay menos luz solar.</li><li><strong>Depresión postparto:</strong> Ocurre después del parto y puede afectar la capacidad de la madre para cuidar de sí misma y de su bebé.</li></ul>"
+      },
+      "chiropracticBenefits": {
+        "title": "Descubriendo los beneficios de la quiropráctica en el cuidado del estrés y la depresión",
+        "description": "<h3>Reducción del dolor</h3><p>Uno de los principales beneficios de la quiropráctica es la reducción del dolor. Muchas personas que sufren de estrés y depresión también experimentan dolor crónico, ya sea en la espalda, el cuello o las extremidades. Los ajustes quiroprácticos pueden aliviar este dolor al corregir desalineaciones en la columna vertebral y mejorar la función nerviosa.</p><h3>Mejora de la función nerviosa</h3><p>La columna vertebral alberga el sistema nervioso central, que controla todas las funciones del cuerpo. Cuando las vértebras están desalineadas, pueden interferir con la comunicación entre el cerebro y el cuerpo. Los ajustes quiroprácticos pueden restaurar esta comunicación, permitiendo que el cuerpo funcione de manera más eficiente y responda mejor al estrés.</p><h3>Aumento de la relajación</h3><p>Las técnicas de manipulación quiropráctica no sólo alivian el dolor, sino que también reducen la tensión muscular y promueven la relajación. Esto puede ayudar a las personas a sentirse más relajadas y menos ansiosas.</p><h3>Mejor calidad del sueño</h3><p>El estrés y el dolor crónico a menudo afectan la calidad del sueño. La quiropráctica puede ayudar a mejorar el sueño al aliviar el dolor y reducir el estrés, permitiendo un descanso más reparador.</p>"
+      },
+      "faqs": {
+        "title": "Preguntas frecuentes sobre el estrés y la depresión",
+        "items": [
+          {
+            "title": "¿La quiropráctica puede cuidar la depresión?",
+            "body": "Puede ser una parte útil de un plan de cuidado integral para la depresión, ayudando a aliviar algunos de los síntomas físicos y mejorar el bienestar general"
+          },
+          {
+            "title": "¿Cuánto tiempo se tarda en ver los beneficios de la quiropráctica?",
+            "body": "El tiempo para ver los beneficios de la quiropráctica puede variar dependiendo del individuo y de la gravedad de sus síntomas. Algunas personas pueden notar mejoras después de unas pocas sesiones, mientras que otras pueden necesitar varias semanas o meses de tratamiento regular."
+          },
+          {
+            "title": "¿Es seguro combinar la quiropráctica con otros cuidados para la depresión?",
+            "body": "Sí, generalmente es seguro combinar la quiropráctica con otros cuidados para la depresión. Es importante consultar con un profesional de la salud antes de comenzar cualquier nuevo cuidado para asegurarse de que sea adecuado para sus necesidades específicas."
+          }
+        ]
+      }
+    },
+    "hernia-discal": {
+      "seo": {
+        "title": "Cuidado Quiropráctico para la dernia discal",
+        "description": "En ColumnaQuiro, te ayudamos a tratar la hernia discal, una afección en la cual el núcleo de un disco intervertebral se desplaza a través de una parte debilitada del disco."
+      },
+      "appointmentSection": {
+        "title": "¿Sufres de dernia discal?",
+        "description": "Haz una cita para que nuestros quiroprácticos puedan ayudarte. <br>Nuestros pacientes han mejorado gracias a nuestros ajustes quiroprácticos."
+      },
+      "whatIs": {
+        "title": "¿Qué es una dernia discal?",
+        "description": "<p>La hernia discal ocurre cuando todo o parte de un disco de la columna es forzado a pasar a través de una parte debilitada del disco. Esto puede ejercer presión sobre los nervios cercanos o la médula espinal. Un disco intervertebral contiene una sustancia suave y gelatinosa en el centro (núcleo) contenida en una cubierta más resistente y elástica (anillo). La hernia de disco ocurre cuando una parte del núcleo sale a través de una grieta en el anillo.</p>",
+        "image": "f_auto,q_auto/v1/website/sintomas/hernia-discal",
+        "imageAlt": "¿Qué es una Hernia Discal?"
+      },
+      "symptoms": {
+        "title": "Síntomas de la dernia discal",
+        "description": "<ul><li><strong>Dolor en un lado del cuerpo:</strong> El dolor puede irradiar desde la zona afectada hacia otras partes del cuerpo.</li><li><strong>Dolor punzante:</strong> En la región lumbar, el dolor puede irradiarse hacia la pierna, la cadera o los glúteos.</li><li><strong>Entumecimiento y hormigueo:</strong> Puede sentirse en áreas específicas del cuerpo, dependiendo de la ubicación de la hernia.</li><li><strong>Debilidad muscular:</strong> Puede haber debilidad en los músculos que están inervados por los nervios afectados.</li><li><strong>Dolor en el cuello y extremidades superiores:</strong> Si la hernia está en la región cervical, el dolor puede irradiarse hacia el hombro, el brazo y los dedos.</li><li><strong>Dificultad para moverse:</strong> Los movimientos pueden ser dolorosos, especialmente después de estar sentado o de pie durante largos períodos.</li></ul>"
+      },
+      "types": {
+        "title": "Tipos de dernia discal",
+        "description": "<ul><li><strong>Protrusión discal:</strong> Deformación del anillo fibroso por el impacto del núcleo pulposo contra éste. En esta etapa, el anillo fibroso aún no se ha roto.</li><li><strong>Prolapso:</strong> Ruptura del núcleo pulposo a través del anillo fibroso, pero sin atravesar el ligamento longitudinal anterior o posterior.</li><li><strong>Extrusión:</strong> El núcleo pulposo atraviesa completamente el anillo fibroso y el ligamento longitudinal, generalmente el posterior.</li><li><strong>Secuestro:</strong> Ruptura del segmento extruido, con desplazamiento del fragmento libre al canal espinal.</li></ul>"
+      },
+      "chiropracticBenefits": {
+        "title": "Descubre los beneficios del cuidado quiropráctico para la hernia discal",
+        "description": "<h3>Alivio del dolor</h3><p>La manipulación espinal puede reducir la presión sobre los nervios afectados, aliviando el dolor y mejorando la función.</p><h3>Mejora de la movilidad</h3><p>Las técnicas quiroprácticas pueden ayudar a restaurar el rango de movimiento de la columna y las extremidades.</p><h3>Reducción de la inflamación</h3><p>Las terapias quiroprácticas pueden ayudar a disminuir la inflamación en la zona afectada.</p><h3>Prevención de futuras lesiones</h3><p>Los quiroprácticos pueden enseñar técnicas de postura y movimiento para evitar lesiones recurrentes.</p><h3>Mejora de la calidad de vida</h3><p>Al reducir el dolor y mejorar la movilidad, la quiropráctica puede ayudar a los pacientes a retomar sus actividades diarias y mejorar su bienestar general.</p>"
+      },
+      "faqs": {
+        "title": "Preguntas frecuentes sobre la hernia discal",
+        "items": [
+          {
+            "title": "¿Qué causa una hernia discal?",
+            "body": "La hernia discal es generalmente causada por el desgaste natural y el envejecimiento de los discos. Este proceso se conoce como degeneración discal. También puede ser provocada por lesiones o esfuerzos repentinos, como levantar objetos pesados de manera incorrecta."
+          },
+          {
+            "title": "¿Cuánto tiempo tarda en recuperarse de una hernia discal?",
+            "body": "El tiempo de recuperación varía dependiendo de la severidad de la hernia y del tratamiento. Muchas personas mejoran en semanas a meses con tratamiento conservador. En casos más severos, puede ser necesaria la cirugía."
+          },
+          {
+            "title": "¿Es necesaria la cirugía para tratar una hernia discal?",
+            "body": "La cirugía es necesaria solo en casos severos donde el tratamiento conservador no ha tenido éxito o si hay síntomas graves como pérdida del control de la vejiga o los intestinos, debilidad significativa en los músculos afectados o dolor severo que no se alivia con otros tratamientos."
+          },
+          {
+            "title": "¿Qué tratamientos están disponibles?",
+            "body": "Los tratamientos incluyen medicamentos, fisioterapia, inyecciones epidurales de esteroides y modificación de la actividad. En casos más severos, puede ser necesaria la cirugía."
+          },
+          {
+            "title": "¿Cómo se diagnostica una hernia discal?",
+            "body": "Se diagnostica mediante un examen físico, revisión de la historia clínica y pruebas de diagnóstico por imágenes como radiografías, resonancia magnética (RM), tomografía computarizada (TC), electromiografía (EMG) y mielografía."
+          },
+          {
+            "title": "¿Qué puedo hacer para prevenir una hernia discal?",
+            "body": "Para ayudar a prevenir una hernia discal, es importante mantener un estilo de vida saludable, hacer ejercicio regularmente, mantener una buena postura, evitar levantar objetos pesados de manera incorrecta y mantener un peso saludable."
+          }
+        ]
+      }
+    },
+    "fibromialgia": {
+      "seo": {
+        "title": "Cuidado quiropráctico para la fibromialgia",
+        "description": "En ColumnaQuiro, te ayudamos a manejar la fibromialgia, un trastorno crónico caracterizado por dolor musculoesquelético generalizado y fatiga."
+      },
+      "appointmentSection": {
+        "title": "¿Sufres de fibromialgia?",
+        "description": "Haz una cita para que nuestros quiroprácticos puedan ayudarte. <br>Nuestros pacientes han mejorado gracias a nuestros ajustes quiroprácticos."
+      },
+      "whatIs": {
+        "title": "¿Qué es la fibromialgia?",
+        "description": "<p>La fibromialgia es un trastorno crónico y complejo caracterizado por dolor musculoesquelético generalizado, fatiga y una variedad de otros síntomas. Afecta principalmente a los tejidos blandos del cuerpo y no causa inflamación de las articulaciones. Es una condición debilitante que puede dificultar las actividades diarias.</p>",
+        "image": "f_auto,q_auto/v1/website/sintomas/fibromialgia",
+        "imageAlt": "¿Qué es la fibromialgia?"
+      },
+      "symptoms": {
+        "title": "Síntomas de la fibromialgia",
+        "description": "<ul><li><strong>Dolor generalizado:</strong> A menudo descrito como un dolor constante y profundo que afecta a ambos lados del cuerpo, por encima y por debajo de la cintura.</li><li><strong>Fatiga:</strong> Sensación de agotamiento extremo que no mejora con el descanso.</li><li><strong>Trastornos del sueño:</strong> Problemas para conciliar el sueño o permanecer dormido, y despertar sintiéndose cansado.</li><li><strong>Rigidez:</strong> Especialmente por la mañana.</li><li><strong>Dolores de cabeza:</strong> Incluyendo migrañas.</li><li><strong>Problemas cognitivos:</strong> Dificultades para concentrarse, conocidas como 'fibroniebla'.</li><li><strong>Problemas digestivos:</strong> Síndrome del intestino irritable, dolores abdominales, entre otros.</li><li><strong>Hipersensibilidad:</strong> A la luz, ruido, olores y temperaturas.</li><li><strong>Ansiedad y depresión:</strong> A menudo presentes en pacientes con fibromialgia.</li></ul>"
+      },
+      "types": {
+        "title": "Tipos de fibromialgia",
+        "description": "No existen subtipos formalmente reconocidos de fibromialgia, pero la condición puede variar ampliamente en severidad y síntomas. Algunos estudios sugieren la existencia de subgrupos basados en la respuesta al dolor, la presencia de trastornos del estado de ánimo, y otros factores clínicos."
+      },
+      "chiropracticBenefits": {
+        "title": "Descubre los beneficios del cuidado quiropráctico para la fibromialgia",
+        "description": "<ul><li><strong>Alivio del dolor</strong>Ajustes quiroprácticos pueden reducir la presión sobre los nervios y mejorar la alineación espinal, lo que puede disminuir el dolor. </li><li><strong>Mejora de la movilidad:</strong>Aumentar la flexibilidad y reducir la rigidez.</li><li><strong>Reducción del Estrés:</strong>Las técnicas de quiropráctica pueden ayudar a aliviar la tensión muscular y reducir el estrés.Mejora del SueñoAl aliviar el dolor y la tensión, los pacientes pueden experimentar una mejora en la calidad del sueño.</li><li><strong>Terapias complementarias:</strong>Los quiroprácticos a menudo utilizan terapias adicionales como masajes y ejercicios de estiramiento que pueden ser beneficiosos.</li></ul>"
+      },
+      "faqs": {
+        "title": "Preguntas frecuentes sobre la fibromialgia",
+        "items": [
+          {
+            "title": "¿Qué causa la fibromialgia?",
+            "body": "No se conoce una causa exacta, pero factores como el estrés, infecciones, y genética pueden jugar un papel importante."
+          },
+          {
+            "title": "¿Cómo se diagnostica la fibromialgia?",
+            "body": "El diagnóstico se basa en los síntomas del paciente y en la exclusión de otras enfermedades. No existe una prueba específica para diagnosticarla."
+          },
+          {
+            "title": "¿Es la fibromialgia una enfermedad mental?",
+            "body": "Aunque los síntomas de ansiedad y depresión son comunes, la fibromialgia es una condición física con una base neurológica."
+          },
+          {
+            "title": "¿Qué tratamientos están disponibles?",
+            "body": "No existe una cura, pero los tratamientos incluyen medicamentos, terapia física, ejercicio regular, y técnicas de manejo del estrés."
+          },
+          {
+            "title": "¿La fibromialgia es hereditaria?",
+            "body": "Hay evidencia que sugiere que puede haber un componente genético, pero no es puramente hereditaria."
+          },
+          {
+            "title": "¿Puede la dieta afectar la fibromialgia?",
+            "body": "Algunos pacientes encuentran alivio al seguir una dieta antiinflamatoria o eliminando ciertos alimentos, pero las respuestas pueden variar."
+          },
+          {
+            "title": "¿El ejercicio puede empeorar los síntomas?",
+            "body": "El ejercicio adecuado y regular puede ayudar a aliviar los síntomas, pero es importante comenzar lentamente y aumentar la intensidad gradualmente."
+          }
+        ]
+      }
+    },
+    "sindrome-del-tunel-carpiano": {
+      "seo": {
+        "title": "Cuidado quiropráctico para el síndrome del túnel carpiano",
+        "description": "En ColumnaQuiro, te ayudamos a manejar el síndrome del túnel carpiano, una afección que causa dolor, entumecimiento y debilidad en la mano y los dedos."
+      },
+      "appointmentSection": {
+        "title": "¿Sufres del síndrome del túnel carpiano?",
+        "description": "Haz una cita para que nuestros quiroprácticos puedan ayudarte. <br>Nuestros pacientes han mejorado gracias a nuestros ajustes quiroprácticos."
+      },
+      "whatIs": {
+        "title": "¿Qué es el síndrome del túnel carpiano?",
+        "description": "<p>El túnel carpiano es un canal estrecho en la muñeca, rodeado por huesos y ligamentos, que permite el paso del nervio mediano y los tendones flexores de los dedos. El síndrome del túnel carpiano ocurre cuando el nervio mediano se comprime debido a la inflamación o al estrechamiento del túnel, lo que provoca dolor y otros síntomas en la mano y los dedos.</p>",
+        "image": "f_auto,q_auto/v1/website/sintomas/tunel-carpiano",
+        "imageAlt": "¿Qué es el síndrome del túnel carpiano?"
+      },
+      "symptoms": {
+        "title": "Síntomas del síndrome del túnel carpiano",
+        "description": "<ul><li><strong>Dolor en la muñeca y el antebrazo:</strong> El dolor puede irradiarse desde la muñeca hacia el brazo.</li><li><strong>Entumecimiento y hormigueo:</strong> En los dedos pulgar, índice, medio y anular.</li><li><strong>Debilidad muscular:</strong> Debilidad en la mano, lo que puede llevar a la torpeza al manipular objetos.</li><li><strong>Calambres y sensación de acorchamiento:</strong> Especialmente durante la noche o al realizar ciertas actividades.</li></ul>"
+      },
+      "types": {
+        "title": "Tipos de síndrome del túnel carpiano",
+        "description": "<ul><li><strong>Leve:</strong> Los síntomas son intermitentes y suelen presentarse por la noche o al realizar actividades específicas.</li><li><strong>Moderado:</strong> Los síntomas son más persistentes y pueden afectar la capacidad para realizar tareas cotidianas.</li><li><strong>Severo:</strong> Los síntomas son constantes y pueden incluir debilidad significativa y atrofia muscular.</li></ul>"
+      },
+      "chiropracticBenefits": {
+        "title": "Descubre los beneficios del cuidado quiropráctico para el síndrome del túnel carpiano",
+        "description": "<h3>Reducción del dolor</h3><p>Las técnicas quiroprácticas pueden ayudar a aliviar el dolor mediante la manipulación de las articulaciones y los tejidos blandos.</p><h3>Mejora de la Función nerviosa</h3><p>Al realinear la estructura ósea y liberar la presión sobre el nervio mediano, se puede mejorar la función nerviosa y reducir los síntomas.</p><h3>Aumento de la movilidad</h3><p>Las técnicas de ajuste quiropráctico pueden aumentar la movilidad y flexibilidad de la muñeca y la mano.</p><h3>Prevención de la cirugía</h3><p>En muchos casos, la quiropráctica puede ayudar a manejar los síntomas de manera efectiva, reduciendo la necesidad de procedimientos quirúrgicos.</p>"
+      },
+      "faqs": {
+        "title": "Preguntas frecuentes sobre el síndrome del túnel carpiano",
+        "items": [
+          {
+            "title": "¿Cuál es la principal causa del síndrome del túnel carpiano?",
+            "body": "El síndrome del túnel carpiano se debe a la compresión del nervio mediano, que puede ser causada por diversas razones, incluyendo movimientos repetitivos de la muñeca, inflamación de los tendones, fracturas o condiciones médicas como la diabetes y la artritis reumatoide."
+          },
+          {
+            "title": "¿Cómo se diagnostica el síndrome del túnel carpiano?",
+            "body": "El diagnóstico se realiza mediante una combinación de historia clínica, examen físico y pruebas específicas como el electromiograma (EMG) y estudios de conducción nerviosa."
+          },
+          {
+            "title": "¿Es necesaria la cirugía para tratar el síndrome del túnel carpiano?",
+            "body": "La cirugía es necesaria en casos severos donde los tratamientos conservadores no han sido efectivos. Sin embargo, muchas personas con síntomas leves a moderados pueden encontrar alivio con tratamientos no quirúrgicos como la quiropráctica, el uso de férulas y medicamentos antiinflamatorios."
+          },
+          {
+            "title": "¿Qué puedo hacer para prevenir el síndrome del túnel carpiano?",
+            "body": "Para prevenir el síndrome del túnel carpiano, es importante mantener una buena postura, tomar descansos regulares si se realizan movimientos repetitivos con las manos, usar herramientas ergonómicas y fortalecer los músculos de la mano y la muñeca mediante ejercicios específicos."
+          }
+        ]
+      }
+    },
+    "dolor-de-cuello": {
+      "seo": {
+        "title": "Cuidado quiropráctico para el dolor de cuello",
+        "description": "En ColumnaQuiro, te ayudamos a manejar el dolor de cuello, una molestia común que puede afectar la calidad de vida de muchas personas."
+      },
+      "appointmentSection": {
+        "title": "¿Sufres de dolor de cuello?",
+        "description": "Haz una cita para que nuestros quiroprácticos puedan ayudarte. <br>Nuestros pacientes han mejorado gracias a nuestros ajustes quiroprácticos."
+      },
+      "whatIs": {
+        "title": "¿Qué es el dolor de cuello?",
+        "description": "<p>El dolor de cuello se refiere a cualquier tipo de molestia o dolor que se experimenta en la región cervical de la columna vertebral. Esta región abarca desde la base del cráneo hasta la parte superior de los hombros. La columna cervical es flexible y permite una amplia gama de movimientos, lo que la hace susceptible a lesiones y dolor.</p>",
+        "image": "f_auto,q_auto/v1/website/sintomas/dolor-de-cuello",
+        "imageAlt": "¿Qué es el dolor de cuello?"
+      },
+      "symptoms": {
+        "title": "Síntomas del dolor de cuello",
+        "description": "<ul><li><strong>Dolor localizado:</strong> Sensación de dolor en una zona específica del cuello.</li><li><strong>Rigidez y espasmos musculares:</strong> Dificultad para mover el cuello y sensación de rigidez.</li><li><strong>Dolor irradiado:</strong> Dolor que se extiende hacia los hombros, brazos o incluso la cabeza.</li><li><strong>Dolor de cabeza:</strong> Frecuentemente, el dolor de cuello puede estar asociado con dolores de cabeza.</li><li><strong>Entumecimiento o debilidad:</strong> Sensación de entumecimiento, hormigueo o debilidad en los brazos o manos.</li></ul>"
+      },
+      "types": {
+        "title": "Tipos de dolor de cuello",
+        "description": "<ul><li><strong>Dolor axial:</strong> Dolor localizado en una región del cuello, comúnmente debido a tensiones musculares o problemas en las articulaciones cervicales.</li><li><strong>Dolor radicular:</strong> Dolor que se irradia desde el cuello hacia los brazos, generalmente causado por la compresión de una raíz nerviosa.</li><li><strong>Dolor referido:</strong> Dolor que se siente en una parte del cuerpo diferente de la zona afectada, como el dolor de cuello que provoca dolor de cabeza.</li><li><strong>Dolor mielopático:</strong> Dolor relacionado con la compresión de la médula espinal, que puede causar síntomas en las extremidades inferiores además del cuello.</li></ul>"
+      },
+      "chiropracticBenefits": {
+        "title": "Descubre los beneficios del cuidado quiropráctico para el dolor de cuello",
+        "description": "<h3>Reducción del dolor</h3><p>Los ajustes quiroprácticos pueden aliviar el dolor al mejorar la alineación de las vértebras cervicales.</p><h3>Mejora de la Movilidad</h3><p>Los tratamientos pueden ayudar a restaurar la movilidad del cuello y reducir la rigidez.</p><h3>Reducción de la inflamación</h3><p>Las técnicas quiroprácticas pueden disminuir la inflamación en las áreas afectadas.</p><h3>Prevención de futuros problemas</h3><p>El cuidado quiropráctico regular puede prevenir el desarrollo de problemas crónicos de cuello.</p>"
+      },
+      "faqs": {
+        "title": "Preguntas frecuentes sobre el dolor de cuello",
+        "items": [
+          {
+            "title": "¿Qué puedo hacer en casa para aliviar el dolor de cuello?",
+            "body": "Aplicar calor o frío en la zona afectada, realizar ejercicios de estiramiento suaves y mantener una buena postura son algunas de las medidas que pueden ayudar a aliviar el dolor de cuello en casa."
+          },
+          {
+            "title": "¿Cuándo debo consultar a un médico?",
+            "body": "Debes consultar a un médico si el dolor es severo, no mejora con el tiempo, se asocia con otros síntomas preocupantes como fiebre o pérdida de peso, o si el dolor sigue a una lesión traumática."
+          },
+          {
+            "title": "¿La quiropráctica es segura para tratar el dolor de cuello?",
+            "body": "La quiropráctica es generalmente segura cuando es realizada por un profesional licenciado. Sin embargo, siempre es recomendable discutir cualquier,tratamiento con tu médico de cabecera antes de comenzar."
+          },
+          {
+            "title": "¿Cuáles son las causas más comunes del dolor de cuello?",
+            "body": "Las causas comunes incluyen mala postura, lesiones como el latigazo cervical, tensión muscular, y enfermedades degenerativas como la osteoartritis."
+          },
+          {
+            "title": "¿Puedo prevenir el dolor de cuello?",
+            "body": "Sí, mantener una buena postura, realizar ejercicios regulares, evitar cargas pesadas y tomar descansos frecuentes durante actividades prolongadas pueden ayudar a prevenir el dolor de cuello."
+          }
+        ]
+      }
+    },
+    "lumbalgia": {
+      "seo": {
+        "title": "Cuidado quiropráctico para la lumbalgia",
+        "description": "En ColumnaQuiro, te ayudamos a manejar la lumbalgia, una afección común que afecta a un gran porcentaje de la población mundial."
+      },
+      "appointmentSection": {
+        "title": "¿Sufres de lumbalgia?",
+        "description": "Haz una cita para que nuestros quiroprácticos puedan ayudarte. <br>Nuestros pacientes han mejorado gracias a nuestros ajustes quiroprácticos."
+      },
+      "whatIs": {
+        "title": "¿Qué es la lumbalgia?",
+        "description": "<p>La lumbalgia, también conocida como dolor lumbar, se refiere al dolor localizado en la parte inferior de la espalda. Este dolor puede ser resultado de diversos factores que afectan la estructura músculo-esquelética de la columna vertebral, incluyendo los músculos, ligamentos, discos intervertebrales y vértebras. Es una de las principales causas de discapacidad y ausentismo laboral en el mundo.</p>",
+        "image": "f_auto,q_auto/v1/website/sintomas/lumbalgia",
+        "imageAlt": "¿Qué es la lumbalgia?"
+      },
+      "symptoms": {
+        "title": "Síntomas de la lumbalgia",
+        "description": "<ul><li><strong>Dolor localizado en la zona lumbar:</strong> Puede ser constante o intermitente.</li><li><strong>Rigidez en la espalda:</strong> Especialmente después de periodos de inactividad.</li><li><strong>Dificultad para moverse o mantenerse erguido:</strong> Puede ser doloroso moverse.</li><li><strong>Dolor irradiado:</strong> El dolor puede irradiarse a las nalgas, muslos o incluso hasta los pies.</li><li><strong>Espasmos musculares:</strong> Contracciones involuntarias de los músculos.</li><li><strong>Debilidad en las piernas:</strong> En casos severos, puede haber debilidad en las piernas.</li></ul>"
+      },
+      "types": {
+        "title": "Tipos de lumbalgia",
+        "description": "<ul><li><strong>Lumbalgia específica:</strong> Incluye diagnósticos con causas conocidas, como hernias discales, fracturas vertebrales o infecciones.</li><li><strong>Lumbalgia inespecífica:</strong> Constituye aproximadamente el 80-90% de los casos y no tiene una causa específica identificable.</li></ul>"
+      },
+      "chiropracticBenefits": {
+        "title": "Descubre los beneficios del cuidado quiropráctico para la lumbalgia",
+        "description": "<h3>Alivio del dolor</h3><p>Las manipulaciones quiroprácticas pueden reducir significativamente el dolor lumbar.</p><h3>Mejora de la movilidad</h3><p>Las técnicas quiroprácticas pueden ayudar a mejorar la flexibilidad y la movilidad de la columna.</p><h3>Reducción de la inflamación</h3><p>Los ajustes quiroprácticos pueden disminuir la inflamación alrededor de las articulaciones y los tejidos.</p><h3>Prevención de recurrencias</h3><p>La quiropráctica puede ayudar a prevenir futuros episodios de lumbalgia mediante la corrección de desalineaciones vertebrales y la promoción de una postura adecuada.</p>"
+      },
+      "faqs": {
+        "title": "Preguntas frecuentes sobre la lumbalgia",
+        "items": [
+          {
+            "title": "¿Qué puedo hacer para prevenir la lumbalgia?",
+            "body": "Para prevenir la lumbalgia, es importante mantener una buena postura, realizar ejercicios regularmente, evitar levantar objetos pesados de manera incorrecta y mantener un peso saludable."
+          },
+          {
+            "title": "¿Cuándo debo consultar a un médico?",
+            "body": "Debe consultar a un médico si el dolor lumbar es severo, persiste por más de unas pocas semanas, se irradia a las piernas, o si presenta debilidad, entumecimiento o problemas para controlar la vejiga o los intestinos."
+          },
+          {
+            "title": "¿Es la quiropráctica segura?",
+            "body": "Sí, la quiropráctica es generalmente segura cuando es realizada por un profesional licenciado. Siempre es importante comunicar cualquier condición médica preexistente al quiropráctico antes de iniciar el tratamiento."
+          },
+          {
+            "title": "¿Cuánto tiempo dura el tratamiento quiropráctico?",
+            "body": "La duración del tratamiento varía según la severidad de la lumbalgia y la respuesta individual al tratamiento. Algunos pacientes experimentan alivio después de unas pocas sesiones, mientras que otros pueden requerir un tratamiento más prolongado."
+          },
+          {
+            "title": "¿Necesito una referencia médica para ver un quiropráctico?",
+            "body": "No, generalmente no se necesita una referencia médica para consultar a un quiropráctico. Sin embargo, es recomendable hablar con su médico de atención primaria antes de comenzar cualquier nuevo tratamiento."
+          }
+        ]
+      }
+    },
     "escoliosis": {
       "seo": {
         "title": "Cuidado quiropráctico para la escoliosis | ColumnaQuiro",
@@ -747,7 +1089,7 @@
 
             },
             {
-              "title": "Braquicefalea",
+              "title": "Braquicefalia",
               "icon": "brachycephaly"
             },
             {
@@ -755,7 +1097,7 @@
               "icon": "colic"
             },
             {
-              "title": "Extreñimiento",
+              "title": "Estreñimiento",
               "icon": "constipated"
             }
           ],

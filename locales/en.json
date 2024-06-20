@@ -260,6 +260,30 @@
           "to": "/en/symptoms/sciatica"
         },
         {
+          "title": "Neck Pain",
+          "to": "/en/symptoms/neck-pain"
+        },
+        {
+          "title": "Fibromyalgia",
+          "to": "/en/symptoms/fibromyalgia"
+        },
+        {
+          "title": "Low Back Pain",
+          "to": "/en/symptoms/low-back-pain"
+        },
+        {
+          "title": "Herniated Disc",
+          "to": "/en/symptoms/herniated-disc"
+        },
+        {
+          "title": "Stress and Depression",
+          "to": "/en/symptoms/stress-and-depression"
+        },
+        {
+          "title": "Carpal Tunnel Syndrome",
+          "to": "/en/symptoms/carpal-tunnel-syndrome"
+        },
+        {
           "title": "Neck an headache pain",
           "to": "/en/symptoms/neck-and-headache-pain"
         }
@@ -470,6 +494,324 @@
     }
   },
   "symptoms": {
+    "stress-and-depression": {
+      "seo": {
+        "title": "Chiropractic care for stress and depression",
+        "description": "At ColumnaQuiro, we help you with stress and depression, a natural response of the body to perceived threatening or challenging situations."
+      },
+      "appointmentSection": {
+        "title": "Do you Suffer from stress and/or depression?",
+        "description": "Make an appointment so our chiropractors can help you. <br>Our patients have improved thanks to our chiropractic adjustments."
+      },
+      "whatIs": {
+        "title": "What are stress and depression?",
+        "description": "<h3>Stress</h3><p>Stress is the body's natural response to perceived threatening or challenging situations. This response can be helpful in small doses, as it prepares us to face challenges and dangerous situations. However, when stress becomes constant in our lives, it can have negative effects on our physical and mental health.</p><p>Stress can be acute, occurring due to a specific event and lasting a short period, or chronic, persisting over a prolonged period due to ongoing factors such as work problems, relationship conflicts, or financial difficulties.</p><h3>Depression</h3><p>Depression, on the other hand, is a mood disorder that deeply affects how a person feels, thinks, and handles daily activities. It is not just about feeling sad or having a bad day; it is a serious condition that can last for weeks, months, or even years if not properly treated.</p><p>Depression can be triggered by a variety of factors, including traumatic events, chemical imbalances in the brain, genetic predisposition, and other mental health issues such as anxiety or chronic stress.</p>",
+        "image": "f_auto,q_auto/v1/website/sintomas/estres-y-depresion",
+        "imageAlt": "What are stress and depression"
+      },
+      "symptoms": {
+        "title": "Symptoms of stress and depression",
+        "description": "<h3>Symptoms of stress</h3><ul><li><strong>Muscle tension:</strong> The body prepares for 'fight or flight,' which can cause pain and stiffness.</li><li><strong>Headaches:</strong> Tension and stress can trigger headaches, including migraines.</li><li><strong>Fatigue:</strong> Feeling constantly tired or exhausted, even after sleeping.</li><li><strong>Sleep problems:</strong> Insomnia, interrupted sleep, or non-restorative sleep.</li><li><strong>Irritability:</strong> Being easily irritable or in a bad mood.</li><li><strong>Anxiety:</strong> Feelings of nervousness, restlessness, or constant worry.</li></ul><h3>Symptoms of Depression</h3><ul><li><strong>Persistent sadness:</strong> Feeling sad or empty most of the day.</li><li><strong>Loss of interest:</strong> Lack of interest in activities once enjoyed.</li><li><strong>Changes in appetite:</strong> Overeating or loss of appetite, leading to weight changes.</li><li><strong>Sleep problems:</strong> Insomnia or excessive sleeping.</li><li><strong>Extreme fatigue:</strong> Feeling tired all the time, even without exertion.</li><li><strong>Feelings of worthlessness or guilt:</strong> Negative thoughts about oneself.</li><li><strong>Difficulty concentrating:</strong> Problems making decisions or focusing on tasks.</li><li><strong>Thoughts of death or suicide:</strong> In severe cases, there may be recurrent thoughts of death or suicide.</li></ul>"
+      },
+      "types": {
+        "title": "Types of stress and depression",
+        "description": "<h3>Types of stress</h3><ul><li><strong>Acute stress:</strong> The most common type of stress, occurring in response to specific and recent events. Although it can be intense, it is generally short-lived.</li><li><strong>Chronic stress:</strong> The result of prolonged stressful situations such as financial problems, relationship issues, or a difficult work situation. This type of stress can have serious health effects.</li></ul><h3>Types of Depression</h3><ul><li><strong>Major depression:</strong> A severe form of depression that significantly affects daily life. It can last for weeks, months, or longer.</li><li><strong>Dysthymia (Persistent depressive disorder):</strong> A chronic, less severe form of depression that can last for years.</li><li><strong>Seasonal affective disorder:</strong> This type of depression occurs at certain times of the year, usually in winter, when there is less sunlight.</li><li><strong>Postpartum depression:</strong> Occurs after childbirth and can affect a mother's ability to care for herself and her baby.</li></ul>"
+      },
+      "chiropracticBenefits": {
+        "title": "Discovering the benefits of chiropractic care for stress and depression",
+        "description": "<h3>Pain reduction</h3><p>One of the main benefits of chiropractic care is pain reduction. Many people suffering from stress and depression also experience chronic pain, whether in the back, neck, or limbs. Chiropractic adjustments can relieve this pain by correcting spinal misalignments and improving nervous system function.</p><h3>Improved nervous system function</h3><p>The spine houses the central nervous system, which controls all body functions. When vertebrae are misaligned, they can interfere with communication between the brain and body. Chiropractic adjustments can restore this communication, allowing the body to function more efficiently and respond better to stress.</p><h3>Increased relaxation</h3><p>Chiropractic manipulation techniques not only relieve pain but also reduce muscle tension and promote relaxation. This can help people feel more relaxed and less anxious.</p><h3>Better sleep quality</h3><p>Stress and chronic pain often affect sleep quality. Chiropractic care can help improve sleep by relieving pain and reducing stress, allowing for more restful sleep.</p>"
+      },
+      "faqs": {
+        "title": "Frequently asked questions about stress and depression",
+        "items": [
+          {
+            "title": "Can chiropractic care help with depression?",
+            "body": "It can be a useful part of a comprehensive care plan for depression, helping to relieve some physical symptoms and improve overall well-being."
+          },
+          {
+            "title": "How long does it take to see the benefits of chiropractic care?",
+            "body": "The time to see the benefits of chiropractic care can vary depending on the individual and the severity of their symptoms. Some people may notice improvements after a few sessions, while others may need several weeks or months of regular treatment."
+          },
+          {
+            "title": "Is it safe to combine chiropractic care with other treatments for depression?",
+            "body": "Yes, it is generally safe to combine chiropractic care with other treatments for depression. It is important to consult with a healthcare professional before starting any new treatment to ensure it is appropriate for your specific needs."
+          }
+        ]
+      }
+    },
+    "herniated-disc": {
+      "seo": {
+        "title": "Chiropractic care for herniated disc",
+        "description": "At ColumnaQuiro, we help you treat herniated discs, a condition where the nucleus of an intervertebral disc protrudes through a weakened part of the disc."
+      },
+      "appointmentSection": {
+        "title": "Do you suffer from a herniated disc?",
+        "description": "Make an appointment so our chiropractors can help you. <br>Our patients have improved thanks to our chiropractic adjustments."
+      },
+      "whatIs": {
+        "title": "What is a herniated disc?",
+        "description": "<p>A herniated disc occurs when all or part of a disc in the spine is forced through a weakened part of the disc. This can put pressure on nearby nerves or the spinal cord. An intervertebral disc contains a soft, gelatinous substance in the center (nucleus) contained in a tougher, elastic outer layer (annulus). A herniated disc occurs when part of the nucleus pushes through a crack in the annulus.</p>",
+        "image": "f_auto,q_auto/v1/website/sintomas/hernia-discal",
+        "imageAlt": "What is a herniated disc?"
+      },
+      "symptoms": {
+        "title": "Symptoms of a herniated disc",
+        "description": "<ul><li><strong>Pain on one side of the body:</strong> Pain may radiate from the affected area to other parts of the body.</li><li><strong>Sharp pain:</strong> In the lumbar region, pain can radiate to the leg, hip, or buttocks.</li><li><strong>Numbness and tingling:</strong> These sensations may be felt in specific areas of the body, depending on the location of the hernia.</li><li><strong>Muscle weakness:</strong> There may be weakness in the muscles innervated by the affected nerves.</li><li><strong>Neck and upper extremity pain:</strong> If the hernia is in the cervical region, pain may radiate to the shoulder, arm, and fingers.</li><li><strong>Difficulty moving:</strong> Movements can be painful, especially after sitting or standing for long periods.</li></ul>"
+      },
+      "types": {
+        "title": "Types of herniated disc",
+        "description": "<ul><li><strong>Disc protrusion:</strong> Deformation of the annulus fibrosus due to the impact of the nucleus pulposus against it. At this stage, the annulus fibrosus has not yet ruptured.</li><li><strong>Prolapse:</strong> Rupture of the nucleus pulposus through the annulus fibrosus but without breaking through the anterior or posterior longitudinal ligament.</li><li><strong>Extrusion:</strong> The nucleus pulposus completely passes through the annulus fibrosus and the longitudinal ligament, usually the posterior one.</li><li><strong>Sequestration:</strong> Rupture of the extruded segment, with displacement of the free fragment into the spinal canal.</li></ul>"
+      },
+      "chiropracticBenefits": {
+        "title": "Discover the benefits of chiropractic care for herniated disc",
+        "description": "<h3>Pain relief</h3><p>Spinal manipulation can reduce pressure on the affected nerves, alleviating pain and improving function.</p><h3>Improved mobility</h3><p>Chiropractic techniques can help restore the range of motion of the spine and limbs.</p><h3>Reduction of inflammation</h3><p>Chiropractic therapies can help decrease inflammation in the affected area.</p><h3>Prevention of future injuries</h3><p>Chiropractors can teach posture and movement techniques to prevent recurring injuries.</p><h3>Improved quality of life</h3><p>By reducing pain and improving mobility, chiropractic care can help patients resume their daily activities and enhance their overall well-being.</p>"
+      },
+      "faqs": {
+        "title": "Frequently asked questions about herniated disc",
+        "items": [
+          {
+            "title": "What causes a herniated disc?",
+            "body": "A herniated disc is generally caused by the natural wear and aging of the discs. This process is known as disc degeneration. It can also be triggered by injuries or sudden strains, such as lifting heavy objects incorrectly."
+          },
+          {
+            "title": "How long does it take to recover from a herniated disc?",
+            "body": "The recovery time varies depending on the severity of the hernia and the treatment. Many people improve within weeks to months with conservative treatment. In more severe cases, surgery may be necessary."
+          },
+          {
+            "title": "Is surgery necessary to treat a herniated disc?",
+            "body": "Surgery is only necessary in severe cases where conservative treatment has not been successful or if there are severe symptoms such as loss of bladder or bowel control, significant muscle weakness, or severe pain that does not improve with other treatments."
+          },
+          {
+            "title": "What treatments are available?",
+            "body": "Treatments include medications, physical therapy, epidural steroid injections, and activity modification. In more severe cases, surgery may be necessary."
+          },
+          {
+            "title": "How is a herniated disc diagnosed?",
+            "body": "It is diagnosed through a physical examination, review of medical history, and diagnostic imaging tests such as X-rays, magnetic resonance imaging (MRI), computed tomography (CT), electromyography (EMG), and myelography."
+          },
+          {
+            "title": "What can I do to prevent a herniated disc?",
+            "body": "To help prevent a herniated disc, it is important to maintain a healthy lifestyle, exercise regularly, maintain good posture, avoid lifting heavy objects incorrectly, and maintain a healthy weight."
+          }
+        ]
+      }
+    },
+    "fibromyalgia": {
+      "seo": {
+        "title": "Chiropractic care for fibromyalgia",
+        "description": "At ColumnaQuiro, we help you manage fibromyalgia, a chronic disorder characterized by widespread musculoskeletal pain and fatigue."
+      },
+      "appointmentSection": {
+        "title": "Do you suffer from fibromyalgia?",
+        "description": "Make an appointment so our chiropractors can help you. <br>Our patients have improved thanks to our chiropractic adjustments."
+      },
+      "whatIs": {
+        "title": "What is fibromyalgia?",
+        "description": "<p>Fibromyalgia is a chronic and complex disorder characterized by widespread musculoskeletal pain, fatigue, and a variety of other symptoms. It mainly affects the soft tissues of the body and does not cause joint inflammation. It is a debilitating condition that can make daily activities difficult.</p>",
+        "image": "f_auto,q_auto/v1/website/sintomas/fibromialgia",
+        "imageAlt": "What is fibromyalgia?"
+      },
+      "symptoms": {
+        "title": "Symptoms of fibromyalgia",
+        "description": "<ul><li><strong>Widespread pain:</strong> Often described as a constant, deep pain affecting both sides of the body, above and below the waist.</li><li><strong>Fatigue:</strong> Feeling of extreme exhaustion that does not improve with rest.</li><li><strong>Sleep disturbances:</strong> Problems falling asleep or staying asleep, and waking up feeling tired.</li><li><strong>Stiffness:</strong> Especially in the morning.</li><li><strong>Headaches:</strong> Including migraines.</li><li><strong>Cognitive problems:</strong> Difficulty concentrating, known as 'fibro fog'.</li><li><strong>Digestive problems:</strong> Irritable bowel syndrome, abdominal pain, among others.</li><li><strong>Hypersensitivity:</strong> To light, noise, smells, and temperatures.</li><li><strong>Anxiety and depression:</strong> Often present in patients with fibromyalgia.</li></ul>"
+      },
+      "types": {
+        "title": "Types of fibromyalgia",
+        "description": "There are no formally recognized subtypes of fibromyalgia, but the condition can vary widely in severity and symptoms. Some studies suggest the existence of subgroups based on pain response, the presence of mood disorders, and other clinical factors."
+      },
+      "chiropracticBenefits": {
+        "title": "Discover the benefits of chiropractic care for fibromyalgia",
+        "description": "<h3>Pain relief</h3><p>Chiropractic adjustments can reduce pressure on nerves and improve spinal alignment, which can decrease pain.</p><h3>Improved mobility</h3><p>Increase flexibility and reduce stiffness.</p><h3>Stress reduction</h3><p>Chiropractic techniques can help relieve muscle tension and reduce stress.</p><h3>Improved sleep</h3><p>By alleviating pain and tension, patients may experience improved sleep quality.</p><h3>Complementary therapies</h3><p>Chiropractors often use additional therapies such as massages and stretching exercises that can be beneficial.</p>"
+      },
+      "faqs": {
+        "title": "Frequently asked questions about fibromyalgia",
+        "items": [
+          {
+            "title": "What causes fibromyalgia?",
+            "body": "The exact cause is unknown, but factors such as stress, infections, and genetics may play a significant role."
+          },
+          {
+            "title": "How is fibromyalgia diagnosed?",
+            "body": "Diagnosis is based on the patient's symptoms and the exclusion of other diseases. There is no specific test to diagnose it."
+          },
+          {
+            "title": "Is fibromyalgia a mental illness?",
+            "body": "Although symptoms of anxiety and depression are common, fibromyalgia is a physical condition with a neurological basis."
+          },
+          {
+            "title": "What treatments are available?",
+            "body": "There is no cure, but treatments include medications, physical therapy, regular exercise, and stress management techniques."
+          },
+          {
+            "title": "Is fibromyalgia hereditary?",
+            "body": "There is evidence suggesting a genetic component, but it is not purely hereditary."
+          },
+          {
+            "title": "Can diet affect fibromyalgia?",
+            "body": "Some patients find relief by following an anti-inflammatory diet or eliminating certain foods, but responses can vary."
+          },
+          {
+            "title": "Can exercise worsen symptoms?",
+            "body": "Appropriate and regular exercise can help alleviate symptoms, but it is important to start slowly and gradually increase intensity."
+          }
+        ]
+      }
+    },
+    "carpal-tunnel-syndrome": {
+      "seo": {
+        "title": "Chiropractic care for carpal tunnel syndrome",
+        "description": "At ColumnaQuiro, we help you manage carpal tunnel syndrome, a condition that causes pain, numbness, and weakness in the hand and fingers."
+      },
+      "appointmentSection": {
+        "title": "Do you suffer from carpal tunnel syndrome?",
+        "description": "Make an appointment so our chiropractors can help you. <br>Our patients have improved thanks to our chiropractic adjustments."
+      },
+      "whatIs": {
+        "title": "What is carpal tunnel syndrome?",
+        "description": "<p>The carpal tunnel is a narrow canal in the wrist, surrounded by bones and ligaments, that allows the median nerve and flexor tendons of the fingers to pass through. Carpal tunnel syndrome occurs when the median nerve is compressed due to inflammation or narrowing of the tunnel, causing pain and other symptoms in the hand and fingers.</p>",
+        "image": "f_auto,q_auto/v1/website/sintomas/tunel-carpiano",
+        "imageAlt": "What is carpal tunnel syndrome?"
+      },
+      "symptoms": {
+        "title": "Symptoms of carpal tunnel syndrome",
+        "description": "<ul><li><strong>Pain in the wrist and forearm:</strong> The pain may radiate from the wrist to the arm.</li><li><strong>Numbness and tingling:</strong> In the thumb, index, middle, and ring fingers.</li><li><strong>Muscle weakness:</strong> Weakness in the hand, which can lead to clumsiness when handling objects.</li><li><strong>Cramps and tingling sensation:</strong> Especially at night or during certain activities.</li></ul>"
+      },
+      "types": {
+        "title": "Types of carpal tunnel syndrome",
+        "description": "<ul><li><strong>Mild:</strong> Symptoms are intermittent and usually occur at night or during specific activities.</li><li><strong>Moderate:</strong> Symptoms are more persistent and can affect the ability to perform daily tasks.</li><li><strong>Severe:</strong> Symptoms are constant and may include significant weakness and muscle atrophy.</li></ul>"
+      },
+      "chiropracticBenefits": {
+        "title": "Discover the benefits of chiropractic care for carpal tunnel syndrome",
+        "description": "<h3>Pain reduction</h3><p>Chiropractic techniques can help relieve pain by manipulating the joints and soft tissues.</p><h3>Improved nerve function</h3><p>By realigning the bone structure and relieving pressure on the median nerve, nerve function can be improved and symptoms reduced.</p><h3>Increased mobility</h3><p>Chiropractic adjustments can increase mobility and flexibility of the wrist and hand.</p><h3>Prevention of surgery</h3><p>In many cases, chiropractic care can help manage symptoms effectively, reducing the need for surgical procedures.</p>"
+      },
+      "faqs": {
+        "title": "Frequently asked questions about carpal tunnel syndrome",
+        "items": [
+          {
+            "title": "What is the main cause of carpal tunnel syndrome?",
+            "body": "Carpal tunnel syndrome is caused by compression of the median nerve, which can be due to various reasons, including repetitive wrist movements, tendon inflammation, fractures, or medical conditions such as diabetes and rheumatoid arthritis."
+          },
+          {
+            "title": "How is carpal tunnel syndrome diagnosed?",
+            "body": "Diagnosis is made through a combination of medical history, physical examination, and specific tests such as electromyography (EMG) and nerve conduction studies."
+          },
+          {
+            "title": "Is surgery necessary to treat carpal tunnel syndrome?",
+            "body": "Surgery is necessary in severe cases where conservative treatments have not been effective. However, many people with mild to moderate symptoms can find relief with non-surgical treatments such as chiropractic care, the use of splints, and anti-inflammatory medications."
+          },
+          {
+            "title": "What can I do to prevent carpal tunnel syndrome?",
+            "body": "To prevent carpal tunnel syndrome, it is important to maintain good posture, take regular breaks if performing repetitive hand movements, use ergonomic tools, and strengthen the muscles of the hand and wrist with specific exercises."
+          }
+        ]
+      }
+    },
+    "neck-pain": {
+      "seo": {
+        "title": "Chiropractic care for neck pain",
+        "description": "At ColumnaQuiro, we help you manage neck pain, a common discomfort that can affect the quality of life for many people."
+      },
+      "appointmentSection": {
+        "title": "Do you suffer from neck pain?",
+        "description": "Make an appointment so our chiropractors can help you. <br>Our patients have improved thanks to our chiropractic adjustments."
+      },
+      "whatIs": {
+        "title": "What is neck pain?",
+        "description": "<p>Neck pain refers to any type of discomfort or pain experienced in the cervical region of the spine. This region extends from the base of the skull to the top of the shoulders. The cervical spine is flexible and allows for a wide range of movements, making it susceptible to injuries and pain.</p>",
+        "image": "f_auto,q_auto/v1/website/sintomas/dolor-de-cuello",
+        "imageAlt": "What is neck pain?"
+      },
+      "symptoms": {
+        "title": "Symptoms of neck pain",
+        "description": "<ul><li><strong>Localized pain:</strong> Sensation of pain in a specific area of the neck.</li><li><strong>Stiffness and muscle spasms:</strong> Difficulty moving the neck and a feeling of stiffness.</li><li><strong>Radiating pain:</strong> Pain that extends to the shoulders, arms, or even the head.</li><li><strong>Headaches:</strong> Neck pain can often be associated with headaches.</li><li><strong>Numbness or weakness:</strong> A feeling of numbness, tingling, or weakness in the arms or hands.</li></ul>"
+      },
+      "types": {
+        "title": "Types of neck pain",
+        "description": "<ul><li><strong>Axial pain:</strong> Pain localized to a region of the neck, commonly due to muscle strains or problems in the cervical joints.</li><li><strong>Radicular pain:</strong> Pain that radiates from the neck to the arms, usually caused by compression of a nerve root.</li><li><strong>Referred pain:</strong> Pain felt in a different part of the body than the affected area, such as neck pain causing a headache.</li><li><strong>Myelopathic pain:</strong> Pain related to spinal cord compression, which can cause symptoms in the lower extremities as well as the neck.</li></ul>"
+      },
+      "chiropracticBenefits": {
+        "title": "Discover the benefits of chiropractic care for neck pain",
+        "description": "<h3>Pain reduction</h3><p>Chiropractic adjustments can relieve pain by improving the alignment of the cervical vertebrae.</p><h3>Improved mobility</h3><p>Treatments can help restore neck mobility and reduce stiffness.</p><h3>Inflammation reduction</h3><p>Chiropractic techniques can decrease inflammation in the affected areas.</p><h3>Prevention of future problems</h3><p>Regular chiropractic care can prevent the development of chronic neck problems.</p>"
+      },
+      "faqs": {
+        "title": "Frequently asked questions about neck pain",
+        "items": [
+          {
+            "title": "What can I do at home to relieve neck pain?",
+            "body": "Applying heat or cold to the affected area, performing gentle stretching exercises, and maintaining good posture are some measures that can help relieve neck pain at home."
+          },
+          {
+            "title": "When should I see a doctor?",
+            "body": "You should see a doctor if the pain is severe, does not improve over time, is associated with other concerning symptoms such as fever or weight loss, or follows a traumatic injury."
+          },
+          {
+            "title": "Is chiropractic care safe for treating neck pain?",
+            "body": "Chiropractic care is generally safe when performed by a licensed professional. However, it is always advisable to discuss any treatment with your primary care physician before starting."
+          },
+          {
+            "title": "What are the most common causes of neck pain?",
+            "body": "Common causes include poor posture, injuries such as whiplash, muscle tension, and degenerative diseases like osteoarthritis."
+          },
+          {
+            "title": "Can neck pain be prevented?",
+            "body": "Yes, maintaining good posture, performing regular exercises, avoiding heavy loads, and taking frequent breaks during prolonged activities can help prevent neck pain."
+          }
+        ]
+      }
+    },
+    "low-back-pain": {
+      "seo": {
+        "title": "Chiropractic care for Low back pain",
+        "description": "At ColumnaQuiro, we help you manage low back pain, a common condition that affects a large percentage of the global population."
+      },
+      "appointmentSection": {
+        "title": "Do you suffer from low back pain?",
+        "description": "Make an appointment so our chiropractors can help you. <br>Our patients have improved thanks to our chiropractic adjustments."
+      },
+      "whatIs": {
+        "title": "What is low back pain?",
+        "description": "<p>Low back pain, also known as lumbar pain, refers to pain localized in the lower part of the back. This pain can result from various factors affecting the musculoskeletal structure of the spine, including muscles, ligaments, intervertebral discs, and vertebrae. It is one of the leading causes of disability and work absenteeism worldwide.</p>",
+        "image": "f_auto,q_auto/v1/website/sintomas/lumbalgia",
+        "imageAlt": "What is Low Back Pain?"
+      },
+      "symptoms": {
+        "title": "Symptoms of low back pain",
+        "description": "<ul><li><strong>Localized pain in the lumbar area:</strong> It can be constant or intermittent.</li><li><strong>Back stiffness:</strong> Especially after periods of inactivity.</li><li><strong>Difficulty moving or standing upright:</strong> Movement can be painful.</li><li><strong>Radiating pain:</strong> Pain may radiate to the buttocks, thighs, or even down to the feet.</li><li><strong>Muscle spasms:</strong> Involuntary muscle contractions.</li><li><strong>Leg weakness:</strong> In severe cases, there may be weakness in the legs.</li></ul>"
+      },
+      "types": {
+        "title": "Types of low back pain",
+        "description": "<ul><li><strong>Specific low back pain:</strong> Includes diagnoses with known causes, such as herniated discs, vertebral fractures, or infections.</li><li><strong>Nonspecific low back pain:</strong> Constitutes approximately 80-90% of cases and does not have a specific identifiable cause.</li></ul>"
+      },
+      "chiropracticBenefits": {
+        "title": "Discover the benefits of chiropractic care for low back pain",
+        "description": "<h3>Pain relief</h3><p>Chiropractic manipulations can significantly reduce lumbar pain.</p><h3>Improved mobility</h3><p>Chiropractic techniques can help improve spinal flexibility and mobility.</p><h3>Inflammation reduction</h3><p>Chiropractic adjustments can decrease inflammation around joints and tissues.</p><h3>Prevention of recurrences</h3><p>Chiropractic care can help prevent future episodes of low back pain by correcting vertebral misalignments and promoting proper posture.</p>"
+      },
+      "faqs": {
+        "title": "Frequently asked questions about low back pain",
+        "items": [
+          {
+            "title": "What can I do to prevent low back pain?",
+            "body": "To prevent low back pain, it is important to maintain good posture, exercise regularly, avoid lifting heavy objects incorrectly, and maintain a healthy weight."
+          },
+          {
+            "title": "When should I see a doctor?",
+            "body": "You should see a doctor if the lumbar pain is severe, persists for more than a few weeks, radiates to the legs, or if you experience weakness, numbness, or problems controlling your bladder or bowels."
+          },
+          {
+            "title": "Is chiropractic care safe?",
+            "body": "Yes, chiropractic care is generally safe when performed by a licensed professional. It is always important to communicate any pre-existing medical conditions to the chiropractor before starting treatment."
+          },
+          {
+            "title": "How long does chiropractic treatment last?",
+            "body": "The duration of treatment varies depending on the severity of the low back pain and the individual's response to treatment. Some patients experience relief after a few sessions, while others may require longer treatment."
+          },
+          {
+            "title": "Do I need a medical referral to see a chiropractor?",
+            "body": "No, a medical referral is generally not needed to consult a chiropractor. However, it is advisable to talk to your primary care physician before starting any new treatment."
+          }
+        ]
+      }
+    },
     "scoliosis": {
       "seo": {
         "title": "Chiropractic care for scoliosis",
