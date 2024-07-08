@@ -1,6 +1,6 @@
 ---
 title: 'El crujido de espalda: síntomas, tipos y cuidado quiropráctico'
-description: 'La práctica de crujirse la espalda puede proporcionar una sensación de alivio temporal, pero puede ser perjudicial para la salud de la columna vertebral.'
+description: 'Crujido de espalda puede proporcionar una sensación de alivio temporal, pero puede ser perjudicial para la salud de la columna vertebral. Consulta a nuestros Quiroprácticos.'
 headline: '¿Es bueno crujirse la espalda?'
 date: '2024-04-02T18:00:00'
 cover: https://res.cloudinary.com/dqrtj7gca/image/upload/f_auto,q_auto/v1/website/blog/es-bueno-crujirse-la-espalda

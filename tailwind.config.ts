@@ -58,6 +58,13 @@ module.exports = {
       black: '#000000',
       'light-grey': '#F9F9F9',
       'light-background': '#F1F1F1',
+      luxury: {
+        black: '#031926',
+        blue: '#468189',
+        green: '#77ACA2',
+        yellow: '#E6D8B6',
+        grey: '#7F9A9D'
+      },
       brand: {
         primary: '#8D5B4C',
         secondary: '#69A297',
