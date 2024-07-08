@@ -1,6 +1,6 @@
 ---
-title: 'Causas, síntomas y cuidado del dolor de espalda media derecha'
-description: 'En este artículo, exploraremos en detalle el dolor de espalda media en el lado derecho, sumergiéndonos en sus causas, síntomas y cuidado.'
+title: 'Causas, síntomas y cuidado del dolor de espalda media lado derecho'
+description: 'Dolor de espalda media en el lado derecho, consulta sus causas , síntomas y cuidado. Especialistas en Quiropraxia en Valencia. Centro Columnaquiro'
 headline: 'Dolor espalda media derecha: causas, síntomas y cuidado'
 date: '2024-01-07T12:00:00'
 cover: https://res.cloudinary.com/dqrtj7gca/image/upload/f_auto,q_auto/v1/website/blog/dolor-de-espalda-2

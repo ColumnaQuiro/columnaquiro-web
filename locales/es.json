@@ -220,7 +220,7 @@
           }
         ],
         "appointmentButton": {
-          "text": "Pedir cita",
+          "text": "Reserva tu visita",
           "to": "/reserva-cita"
         }
       },
@@ -292,8 +292,8 @@
   },
   "home": {
     "seo": {
-      "title": "Centro Quiropráctico Valencia",
-      "description": "Descubre que es la quiropráctica en nuestro Centro Quiropráctico en Valencia. Tratamos diferentes síntomas, ayudamos a embarazadas, deportistas, accidentes."
+      "title": "Quiropráctico Valencia - Centro ColumnaQuiro",
+      "description": "Quiropráctico en Valencia. Descubre nuestro centro Quiropráctico. Cuidamos diferentes síntomas, ayudamos a embarazadas, deportistas, trabajadores."
     },
     "intro": {
       "title": "El centro quiropráctico en Valencia que se adapta a ti",
@@ -308,7 +308,7 @@
       "title": "Tu Centro Quiropráctico en Valencia"
     },
     "yourCenter": {
-      "title": "Somos tu Centro Quiropraxia de confianza"
+      "title": "Somos tu Centro Quiropràctic de confianza"
     },
     "mission": {
       "title": "Descubre cómo la quiropraxia potencia el bienestar de tu columna vertebral y favorece la salud integral de tu organismo",
