@@ -5,5 +5,7 @@
 </template>
 
 <script setup lang="ts">
-window.setTimeout(() => window.open('https://columnaquiro.com/test', '_self'), 2000)
+onMounted(() => {
+  window.setTimeout(() => window.open('https://columnaquiro.com/test', '_self'), 2000)
+})
 </script>
