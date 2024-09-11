@@ -15,7 +15,7 @@
           />
         </a>
       </div>
-      <cq-layout-footer-timetable class="mt-8" />
+      <cq-layout-footer-timetable class="p-4 mt-8 bg-luxury-grey rounded-xl" />
     </div>
   </cq-layout-section>
 </template>

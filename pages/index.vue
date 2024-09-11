@@ -1,14 +1,17 @@
 <template>
   <div>
     <home-intro />
-    <home-your-center-title />
-    <lazy-home-pains />
+    <home-solution />
+    <lazy-home-quiro-logos />
+    <lazy-home-your-body />
+    <lazy-home-lea />
+    <lazy-home-situation-identification />
+    <lazy-home-holistic-vision />
+    <lazy-home-video-testimonials />
     <lazy-cq-blocks-testimonials />
-    <lazy-home-mission />
     <lazy-home-how-care-your-back />
     <lazy-home-why-choose-us />
     <lazy-cq-blocks-sections-faqs :title="t('home.faqs.title')" :faqs="tm('home.faqs.items')" />
-    <lazy-home-quiro-logos />
   </div>
 </template>
 <script setup lang="ts">

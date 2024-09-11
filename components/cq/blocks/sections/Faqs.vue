@@ -1,17 +1,27 @@
 <template>
   <cq-layout-section>
-    <h2 class="section-title pb-10">
-      {{ title }}
-    </h2>
-    <div>
-      <cq-components-expansion-panel
-        v-for="faq in faqs"
-        :key="faq.title"
-        :title="rt(faq.title)"
-        :answer="rt(faq.body)"
-        class="mb-4"
-      />
-    </div>
+    <cq-blocks-sections-paragraph-with-image
+      provider="cloudinary"
+      image="website/home/preguntas-frecuentes.webp"
+      :image-alt="title"
+      :image-width="450"
+      image-position="left"
+    >
+      <template #text>
+        <h2 class="section-title pb-10">
+          {{ title }}
+        </h2>
+        <div>
+          <cq-components-expansion-panel
+            v-for="faq in faqs"
+            :key="faq.title"
+            :title="rt(faq.title)"
+            :answer="rt(faq.body)"
+            class="mb-4"
+          />
+        </div>
+      </template>
+    </cq-blocks-sections-paragraph-with-image>
   </cq-layout-section>
 </template>
 

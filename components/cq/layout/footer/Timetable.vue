@@ -1,14 +1,14 @@
 <template>
-  <div>
-    <h3 class="text-base font-medium text-center pb-4">
+  <div class="text-white">
+    <h3 class="text-base font-medium pb-4">
       {{ t('general.timetable.title') }}
     </h3>
-    <div class="flex flex-row justify-center align-bottom text-center lg:text-start flex-wrap">
-      <div v-for="timetable in timetableItems" :key="rt(timetable.day)" class="mr-4 mb-4">
-        <div class="text-sm font-medium">
+    <div class="flex flex-col justify-center lg:text-start">
+      <div v-for="timetable in timetableItems" :key="rt(timetable.day)" class="flex justify-between mb-4">
+        <div class="text-sm font-medium lg:pr-10">
           {{ rt(timetable.day) }}
         </div>
-        <div class="text-sm">
+        <div class="text-sm text-luxury-yellow">
           {{ rt(timetable.schedule) }}
         </div>
       </div>

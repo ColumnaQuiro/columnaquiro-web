@@ -18,6 +18,7 @@
         :image-position=" i % 2 === 0 ? 'right' : 'left'"
         :image-width="400"
         :image-alt="rt(person.name)"
+        provider="cloudinary"
       />
     </cq-layout-section>
   </div>

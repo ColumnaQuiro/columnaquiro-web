@@ -3,7 +3,8 @@
     <div
       :class="{
         'lg:order-first': isImagePositionRight,
-        'lg:order-last': isImagePositionLeft
+        'lg:order-last': isImagePositionLeft,
+        'order-last': mobileImagePosition === 'first'
       }"
     >
       <slot name="text">
@@ -37,6 +38,7 @@
 import { computed, type PropType } from 'vue'
 
 type ImagePosition = 'left' | 'right'
+type MobileImagePosition = 'first' | 'last'
 
 const props = defineProps({
   text: {
@@ -54,6 +56,10 @@ const props = defineProps({
   imagePosition: {
     type: String as PropType<ImagePosition>,
     default: 'right'
+  },
+  mobileImagePosition: {
+    type: String as PropType<MobileImagePosition>,
+    default: 'last'
   },
   imageAlt: {
     type: String,

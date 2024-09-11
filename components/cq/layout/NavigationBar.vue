@@ -34,14 +34,6 @@
           </client-only>
         </nav>
         <div class="flex items-center lg:hidden">
-          <cq-components-button
-            :href="t('general.layout.navigationBar.appointmentButton.to')"
-            variant="flat"
-            color="tertiary"
-          >
-            <v-icon :icon="mdiCalendar" class="mr-2" />
-            {{ t('general.layout.navigationBar.appointmentButton.text') }}
-          </cq-components-button>
           <client-only>
             <cq-layout-language-selector
               v-if="!isBlogContentUrl"
@@ -111,6 +103,5 @@ const closeBurgerMenu = () => {
 .navigation-bar {
   @apply fixed z-20 w-full h-14 bg-white;
   @apply md:h-16 flex lg:flex-col lg:justify-center;
-  box-shadow: 0 -5px 13px 0 rgba(71, 71, 71, 0.47) !important;
 }
 </style>

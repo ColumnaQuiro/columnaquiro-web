@@ -61,24 +61,16 @@
       "title": "Our Opening Hours",
       "items": [
         {
-          "day": "Monday",
+          "day": "Monday, Wednesday, Thursday:",
           "schedule": "15:00 - 21:00"
         },
         {
-          "day": "Tuesday",
+          "day": "Tuesday, Friday:",
           "schedule": "09:00 - 14:00"
         },
         {
-          "day": "Wednesday",
-          "schedule": "15:00 - 21:00"
-        },
-        {
-          "day": "Thursday",
-          "schedule": "15:00 - 21:00"
-        },
-        {
-          "day": "Friday",
-          "schedule": "09:00 - 14:00"
+          "day": "Saturday, Sunday:",
+          "schedule": "Closed"
         }
       ]
     },
@@ -296,9 +288,58 @@
       "description": "Explore chiropractic care at our Chiropractic Center in Valencia. We address various symptoms, provide assistance for pregnant women, athletes, and accident cases."
     },
     "intro": {
-      "title": "Discover the chiropractic center in Valencia that will change your life",
-      "description": "Eliminate your ailments, regain your health, improve your performance, and vitality naturally with our personalized chiropractic adjustments at our center in Ruzafa.",
-      "button": "Book your visit"
+      "title": "Your trusted chiropractic center in Valencia",
+      "subtitle": "From pain to enhancing your performance naturally, without risks and in less than 3 months",
+      "description": "Improve your health and vitality with our chiropractic adjustments tailored to you at our chiropractic center in Valencia.",
+      "button": "Book your visit",
+      "titleImageAlt": "Well-being"
+    },
+    "solution": {
+      "title": "Imagine your body free from stress, musculoskeletal pain, and automatisms",
+      "bodyLeft": "Sounds good, right?<br><br>It might seem impossible now, because you see it as a long or unattainable process.<br><br>But…<br><br>What if I told you that you can achieve long-term care in your life and avoid any future health problems?",
+      "bodyRight": "To get rid of chronic pain or problems that seem unsolvable, you need to avoid:<ul><li>More serious long-term issues.</li><li>Unnecessary surgical interventions.</li><li>Physical, chemical, and mental stress.</li></ul><br>And the key is to understand how your body works."
+    },
+    "yourBody": {
+      "title": "Start by discovering what happens in your body.",
+      "subtitle": "Only then can you enhance your performance, mobility, and sense of well-being.",
+      "body": "Pain is common in our daily lives. Our body experiences stress from work, poor posture, and concerns with family and friends.<br><br>At our center, not only do you free yourself from pain, but we also improve your quality of life with our comprehensive and personalized approach.",
+      "alt": "Your body"
+    },
+    "lea": {
+      "title": "Hello, I’m Léa Guido, chiropractor",
+      "body": "And I’m here to help you enhance your quality of life through chiropractic care.<br><br>With over 10 years of professional training and dedication in the field of chiropractic, I have continued to expand my knowledge and skills since my graduation to provide the best care for my patients.<br><br>For me, ColumnaQuiro is more than just a chiropractic center. It is a humanistic project that empowers the health of individuals from the inside out.<br><br>That’s why my mission is to support you in improving your lifestyle, health, and body awareness.",
+      "button": "Let me tell you more here"
+    },
+    "situationIdentification": {
+      "title": "Tell us, which of these situations do you identify with?",
+      "items": [
+        "“I feel like I can't keep up and I'm alone; without effective answers or solutions.”",
+        "“I feel ignorant and afraid because I don't fully understand what chiropractic is.”",
+        "“I'm always very busy and have no time to dedicate to my health.”"
+      ]
+    },
+    "holisticVision": {
+      "title": "We invite you to explore health in a more holistic and natural way",
+      "alt": "Holistic vision",
+      "subtitle": "Discover how chiropractic enhances the well-being of your spine and promotes the overall health of your body",
+      "body": "Chiropractic is for you, regardless of your age or situation.<br><br>Chiropractic can improve your life and health. It can help babies, children, pregnant women, people with neck or back discomfort from work, seniors, and athletes."
+    },
+    "videoTestimonials": {
+      "title": "What They Say About Us",
+      "people": [
+        {
+          "name": "Carolina Cañamas",
+          "testimonial": "I went to Léa because I got pregnant and started having a lot of problems, especially with sciatica. It was gradual because I had quite a bit of sciatica. I also had nausea, and she performed an organ adjustment to make it go away. Now that I've had the baby, I came for postpartum care, and it has been fantastic. It worked out great for me.",
+          "video": "H1pWZhqtvPk",
+          "avatar": "avatar-carolina"
+        },
+        {
+          "name": "Pablo Saborit",
+          "testimonial": "I came because I had a herniated disc that was affecting a nerve; I was dragging myself around with crutches. I decided I needed to find a solution, and my son saw many good reviews of Léa. The professionalism and the results obtained were excellent. Léa is a very humane, very kind person. The results were immediate for the pain and the situation I was in. She helps you get to know your body. The situation is much better now, even better than before the problem.",
+          "video": "CdbkIermhgg",
+          "avatar": "avatar-pablo"
+        }
+      ]
     },
     "headerVideo": {
       "title": "Your Chiropractic center in Valencia"
@@ -1339,7 +1380,7 @@
   },
   "team": {
     "seo": {
-      "title": "Team Chiropractic Center in Valencia | ColumnaQuiro",
+      "title": "Lea Guido - Doctor of Chiropractic - ColumnaQuiro Team",
       "description": "Meet our team of highly trained professionals dedicated to improving your health and well-being. Start your journey to a healthier life today."
     },
     "peopleList": {
@@ -1348,7 +1389,13 @@
         {
           "name": "Léa Guido",
           "description": "I was born in the Côte d'Azur, in the south of France, and have always felt a great passion for the human body and its incredible healing power through natural processes. I am a sports enthusiast and have always been very active in my life, so I understand the importance of having a healthy, adaptable body that functions at its maximum potential.<br><br>Since birth, I have had various health problems related to the musculoskeletal system, which prevented me from playing sports and climbing stairs at the age of 13. By chance, I ended up in a manual therapy center in France where I noticed significant improvements in my health and overall well-being.<br><br>That's when I decided to study a profession related to manual therapies, and upon discovering the philosophy of chiropractic, I knew that helping create a healthier, sustainable, and happier humanity through chiropractic care would be my calling.<br><br>After six years of studies between France (two years) and Barcelona (four years), I graduated in 2021 from the Barcelona College of Chiropractic. Since then, I have collaborated in different clinics, learning from the masters of the profession and practicing with different techniques and approaches in Barcelona and the province of Barcelona (Terrassa). I have also been an assistant teacher in different technique classes and a supervisor at the clinic of the Barcelona College of Chiropractic, as I have always enjoyed teaching and helping as many people as possible.<br><br>Since my graduation, I have continued to educate myself to expand my knowledge and skills to offer the best care to my patients. Recently, I have specialized in a holistic approach for pregnant women and children, allowing me to provide more comprehensive and personalized care to these populations.<br><br>For me, ColumnaQuiro goes beyond being a chiropractic center. It is a humanistic project that empowers the population from the inside out, helping each individual understand that health comes from within and its importance.<br><br>I am excited to welcome everyone seeking a natural and effective way to improve their health at ColumnaQuiro, and I look forward to helping them with open arms!",
-          "imagePath": "website/team/lea.webp",
+          "imagePath": "website/nuestro-equipo/lea.webp",
+          "role": "Doctor of Chiropractic"
+        },
+        {
+          "name": "Sarah Bonhomme",
+          "description": "I was born in the south of France and grew up in a village near Aix-en-Provence. With an active and sporty family, I had the opportunity to grow up in an environment close to nature, from holidays in the mountains to eating as healthily as possible.<br>Diagnosed with scoliosis at the age of ten, I started physiotherapy and osteopathy, becoming familiar with body care and health.<br><br>When it came time to choose between the various alternative or paramedical therapies that interested me, I visited several professionals, and to me, chiropractors were the most passionate. They inspired me to dedicate myself to this profession because I felt it was a perfect fit.<br><br>I started my studies in Toulouse, France, and completed my degree at the Barcelona College of Chiropractic in 2022. I worked in both Barcelona and Sant Feliu de Guíxols.<br><br>What I love most about Chiropractic is helping people become more aware of their bodies and their natural healing abilities. In many cases, someone comes for a particular issue, and we end up resolving other health problems (for example, they come for cervical issues and realize they have much less anxiety).<br>The knowledge of the human body and mind fascinates me, and by choosing this career, I knew I would always have the opportunity to learn and develop further.",
+          "imagePath": "website/nuestro-equipo/sarah.webp",
           "role": "Doctor of Chiropractic"
         }
       ]

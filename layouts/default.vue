@@ -1,6 +1,23 @@
 <template>
   <div>
     <cq-layout-navigation-bar />
+    <div v-if="isIndex">
+      <NuxtImg
+        class="degradade-yellow"
+        :width="400"
+        src="website/home/degradado-amarillo.webp"
+        provider="cloudinary"
+        alt="degradado"
+      />
+      <NuxtImg
+        v-if="isIndex"
+        class="degradade-green"
+        :width="400"
+        src="website/home/degradado-verde.webp"
+        provider="cloudinary"
+        alt="degradado"
+      />
+    </div>
     <main class="pt-14 lg:pt-16">
       <slot />
     </main>
@@ -32,6 +49,7 @@ import { STATICS_CDN } from '~/constants/urls'
 
 const { t } = useI18n()
 const { grantConsent } = useGtag()
+const { path } = useRoute()
 
 const preferences = [
   {
@@ -52,6 +70,8 @@ const preferences = [
     ]
   }
 ]
+
+const isIndex = computed(() => path === '/')
 
 const onAccept = () => {
   grantConsent('G-7RZ1YECNKZ')
@@ -112,5 +132,14 @@ onMounted(() => {
       background-color: #8D5B4C;
     }
   }
+}
+</style>
+<style lang="scss" scoped>
+.degradade-yellow {
+  @apply hidden md:block absolute top-16 right-0;
+}
+
+.degradade-green {
+  @apply hidden md:block absolute inset-y-1/4 left-0;
 }
 </style>
