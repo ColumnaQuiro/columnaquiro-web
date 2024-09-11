@@ -7,6 +7,7 @@
     :block="block"
     :icon="icon"
     :variant="variant"
+    rounded
     :size="size"
     :to="to"
     :href="href"

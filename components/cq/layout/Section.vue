@@ -19,7 +19,7 @@
     <div
       class="container relative"
       :class="{
-        'lg:py-16 md:py-10 py-8': !removeInnerSpace
+        'lg:py-32 md:py-20 py-12': !removeInnerSpace
       }"
     >
       <slot />

@@ -1,7 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 
 export default defineNuxtConfig({
-  devtools: { enabled: false },
+  devtools: { enabled: true },
   future: {
     compatibilityVersion: 4
   },
@@ -16,7 +16,7 @@ export default defineNuxtConfig({
       link: [
         { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
         { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: 'anonymous' },
-        { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Montserrat:wght@400..700&display=swap' },
+        { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Inter:wght@300..700&display=swap' },
         { rel: 'preconnect', href: 'https://maxcdn.bootstrapcdn.com' },
         { rel: 'preconnect', href: 'https://statics.columnaquiro.com' },
         { rel: 'preconnect', href: 'https://res.cloudinary.com' },
@@ -69,7 +69,9 @@ export default defineNuxtConfig({
     '@nuxtjs/sitemap',
     'vuetify-nuxt-module',
     '@nuxt/image',
-    '@nuxtjs/robots'
+    '@nuxtjs/robots',
+    '@nuxt/scripts',
+    'vue3-carousel-nuxt'
   ],
   image: {
     formats: {

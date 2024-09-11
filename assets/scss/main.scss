@@ -18,7 +18,7 @@ html {
 body {
   color: #474747;
   @apply text-base;
-  letter-spacing: 0.06rem;
+  //letter-spacing: 0.05rem;
   line-height: calc(1 + .4 / var(--font-body-scale));
 }
 
@@ -47,11 +47,11 @@ ul {
 }
 
 h1 {
-  @apply text-h1_sm leading-h1_sm mb-10 font-light uppercase;
+  @apply text-h1_sm leading-h1_sm font-light uppercase;
   letter-spacing: calc(var(--font-heading-scale) * 0.06rem);
 }
 h2 {
-  @apply text-h2_sm leading-h2_sm mb-4 font-light;
+  @apply text-h2_sm leading-h2_sm font-light;
   letter-spacing: calc(var(--font-heading-scale) * 0.06rem);
 }
 h3 {

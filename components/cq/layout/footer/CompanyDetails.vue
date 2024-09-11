@@ -1,5 +1,5 @@
 <template>
-  <div class="text-center md:text-start">
+  <div class="text-center md:text-start text-white">
     <h3 class="text-base font-medium pb-4">
       {{ t('general.layout.footer.details.title') }}
     </h3>
@@ -7,23 +7,22 @@
       {{ t('general.layout.footer.details.street') }}
     </a>
     <div>
-      <nuxt-link :href="`mailto:${t('general.layout.footer.details.email')}`" class="text-sm pb-2 text-brand-black no-underline">
+      <nuxt-link :href="`mailto:${t('general.layout.footer.details.email')}`" class="text-sm pb-2 no-underline">
         {{ t('general.layout.footer.details.email') }}
       </nuxt-link>
     </div>
     <div>
-      <nuxt-link :href="`tel:${t('general.layout.footer.details.phone')}`" class="text-sm pb-2 text-brand-black no-underline">
+      <nuxt-link :href="`tel:${t('general.layout.footer.details.phone')}`" class="text-sm pb-2 no-underline">
         {{ t('general.layout.footer.details.phone') }}
       </nuxt-link>
     </div>
-    <div class="flex justify-center md:justify-start pt-4">
+    <div class="flex justify-center md:justify-start pt-2">
       <cq-components-button
         icon
         :href="INSTAGRAM_URL"
-        size="small"
-        variant="tonal"
+        variant="text"
         aria-label="Instagram"
-        color="#fbad50"
+        color="#E6D8B6"
         @click="onSocialIconClicked('instagram')"
       >
         <v-icon :icon="mdiInstagram" />
@@ -32,10 +31,9 @@
         class="ml-3"
         icon
         :href="FACEBOOK_URL"
-        size="small"
-        variant="tonal"
+        variant="text"
         aria-label="Facebook"
-        color="#1877F2"
+        color="#E6D8B6"
         @click="onSocialIconClicked('facebook')"
       >
         <v-icon :icon="mdiFacebook" />
@@ -44,10 +42,9 @@
         class="ml-3"
         icon
         :href="WHATSAPP_URL"
-        size="small"
-        variant="tonal"
+        variant="text"
         aria-label="Whatsapp"
-        color="#25D366"
+        color="#E6D8B6"
         @click="onSocialIconClicked('whatsapp')"
       >
         <v-icon :icon="mdiWhatsapp" />

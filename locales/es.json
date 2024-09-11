@@ -61,24 +61,16 @@
       "title": "Nuestros horarios",
       "items": [
         {
-          "day": "Lunes",
-          "schedule": "15:00-21:00"
+          "day": "Lunes, Miércoles, Jueves:",
+          "schedule": "15:00 - 21:00"
         },
         {
-          "day": "Martes",
-          "schedule": "09:00-14:00"
+          "day": "Martes y Viernes:",
+          "schedule": "09:00 - 14:00"
         },
         {
-          "day": "Miércoles",
-          "schedule": "15:00-21:00"
-        },
-        {
-          "day": "Jueves",
-          "schedule": "15:00-21:00"
-        },
-        {
-          "day": "Viernes",
-          "schedule": "09:00-14:00"
+          "day": "Sábados y Domingos:",
+          "schedule": "Cerrado"
         }
       ]
     },
@@ -296,9 +288,58 @@
       "description": "Quiropráctico en Valencia. Descubre nuestro centro Quiropráctico. Cuidamos diferentes síntomas, ayudamos a embarazadas, deportistas, trabajadores."
     },
     "intro": {
-      "title": "El centro quiropráctico en Valencia que se adapta a ti",
-      "description": "Mejora tu salud y vitalidad con nuestros ajustes quiroprácticos adaptados a ti en nuestro centro en Ruzafa. Elimina dolencias y mejora tu rendimiento de forma natural.",
-      "button": "Reserva tu visita"
+      "title": "Tu centro quiropráctico en valencia de confianza",
+      "subtitle": "Del dolor a mejorar tu rendimiento de forma natural, sin riesgos y en menos de 3 meses",
+      "description": "Mejora tu salud y vitalidad con nuestros ajustes quiroprácticos adaptados a ti en nuestro centro quiropráctico en Valencia.",
+      "button": "Reserva tu visita",
+      "titleImageAlt": "Bienestar"
+    },
+    "solution": {
+      "title": "Imagina tu cuerpo libre de estrés, dolencias musculoesqueléticas y automatismos",
+      "bodyLeft": "Suena bien, ¿verdad?<br><br>Puede que ahora te parezca imposible, porque lo ves como un proceso largo o inalcanzable.<br><br>Pero…<br><br>¿Y si te digo que puedes conseguir un cuidado a largo plazo en tu vida y evitar cualquier problema de salud en el futuro?",
+      "bodyRight": "Para librarte de un dolor crónico o problema que no tenga solución necesitas evitar:<ul><li>Problemas más graves a largo plazo.</li><li>Intervenciones quirúrgicas innecesarias.</li><li>Estrés físico, químico y mental.</li></ul><br>Y la clave está en conocer cómo funciona tu cuerpo."
+    },
+    "yourBody": {
+      "title": "Empieza por descubrir qué ocurre en tu cuerpo.",
+      "subtitle": "Solo así puedes aumentar tu rendimiento, movilidad y sensación de bienestar.",
+      "body": "El dolor es común en nuestra vida diaria. Nuestro cuerpo sufre estrés por el trabajo, malas posturas, relaciones e inquietudes con familiares y amigos.<br><br>En nuestro centro, no solo te liberas del dolor, sino que también mejoramos tu calidad de vida con nuestro enfoque integral y adaptado a ti.",
+      "alt": "Tu cuerpo"
+    },
+    "lea": {
+      "title": "Hola, soy Léa Guido, quiropráctica",
+      "body": "Y voy a ayudarte a aumentar tu calidad de vida a través del cuidado quiropráctico.<br><br>Ya son más de 10 años de formación y dedicación profesional en el mundo de la quiropráctica. Desde mi graduación, he seguido formándome para ampliar mis conocimientos y habilidades con el fin de poder ofrecer el mejor cuidado a mis pacientes.<br><br>Para mí, ColumnaQuiro va más allá de ser un centro quiropráctico. Es un proyecto humanista que permite empoderar la salud de la población desde dentro hacia fuera.<br><br>Por eso mi misión es acompañarte a mejorar tu estilo de vida, tu salud y tu conciencia corporal.",
+      "button": "Te lo cuento mejor por aquí"
+    },
+    "situationIdentification": {
+      "title": "Dime, ¿con cuál de estas situaciones te identificas?",
+      "items": [
+        "“Siento que no llego a todo y en soledad; sin respuestas o soluciones eficaces.”",
+        "“Me siento ignorante y con miedo por no entender bien qué es la quiropráctica.”",
+        "“Estoy siempre con mucho lío y sin tiempo que dedicarle a la salud.”"
+      ]
+    },
+    "holisticVision": {
+      "title": "Te invitamos a explorar la salud de manera más holística y natural",
+      "alt": "Visión holística",
+      "subtitle": "Descubre cómo la quiropráctica potencia el bienestar de tu columna vertebral y favorece la salud integral de tu organismo",
+      "body": "La quiropraxia es para ti, sin importar tu edad o situación.<br><br>La quiropráctica puede mejorar tu vida y salud. Puede ayudar a bebés, niños, mujeres embarazadas, personas con molestias en el cuello o la espalda por el trabajo, adultos mayores y deportistas."
+    },
+    "videoTestimonials": {
+      "title": "Lo que dicen de nosotros",
+      "people": [
+        {
+          "name": "Carolina Cañamas",
+          "testimonial": "Acudí a Léa porque me quedé embarazada y empecé a tener un montón de problemas, de ciática sobre todo. Fue paulatinamente porque tenía bastante ciática. También tenía náuseas y me hacía un ajuste de órganos para que se me fueran. Ahora ya he tenido el bebé, he venido para el postparto y me ha sentado genial. Me ha ido fenomenal.",
+          "video": "H1pWZhqtvPk",
+          "avatar": "avatar-carolina"
+        },
+        {
+          "name": "Pablo Saborit",
+          "testimonial": "Vine porque tenía una hernia discal que me tocaba el nervio, venía arrastrándome con muletas. Decidí que tenía que buscar un remedia y me hijo vio muchas reseñas buenas de Léa. La profesionalidad y los resultados obtenidos. Léa es una persona muy humana, muy amable. Los resultados fueron inmediatos para el dolor y la situación que tenía. Te ayuda a conocer tu cuerpo. La situación es mucho mejor incluso que antes de estar con el problema.",
+          "video": "CdbkIermhgg",
+          "avatar": "avatar-pablo"
+        }
+      ]
     },
     "pain": {
       "title": "¿Cansado de vivir con dolor o buscas mejorar tu energía y rendimiento?",
@@ -435,7 +476,7 @@
       }
     },
     "faqs": {
-      "title": "Preguntas frecuentes",
+      "title": "¿Alguna pregunta?",
       "items": [
         {
           "title": "¿Qué es la quiropráctica y cómo puede beneficiar mi salud?",
@@ -818,7 +859,7 @@
     },
     "escoliosis": {
       "seo": {
-        "title": "Cuidado quiropráctico para la escoliosis | ColumnaQuiro",
+        "title": "¿Qué es la escoliosis? - Quiropráctico escoliosis",
         "description": "En ColumnaQuiro te ayudamos con la escoliosis, un trastorno médico distintivo, se manifiesta mediante una curvatura anormal de la columna vertebral."
       },
       "appointmentSection": {
@@ -1347,7 +1388,7 @@
   },
   "team": {
     "seo": {
-      "title": "Equipo del Centro Quiropráctico en Valencia | ColumnaQuiro",
+      "title": "Lea Guido - Doctora Quiropráctica - Equipo ColumnaQuiro",
       "description": "Conoce a nuestro equipo de profesionales altamente capacitados dedicados a mejorar tu salud y bienestar. Comienza tu camino hacia una vida más saludable hoy."
     },
     "peopleList": {
@@ -1355,8 +1396,14 @@
       "items": [
         {
           "name": "Léa Guido",
-          "description": "Nací en la Côte d'Azur, en el sur de Francia, y siempre he sentido una gran pasión por el cuerpo humano y su increíble poder de sanación a través de procesos naturales. Soy aficionada a los deportes y siempre he sido muy activa en mi vida, por lo que entiendo muy bien la importancia de tener un cuerpo sano, adaptable y que funcione al máximo potencial.<br><br>Desde mi nacimiento, he tenido varios problemas de salud relacionados con el sistema musculoesquelético, lo que me impidió hacer deporte y subir escaleras a los 13 años. Por casualidad, acabé en un centro de terapias manuales en Francia donde noté enormes mejoras en mi salud y bienestar general.<br><br>Fue entonces cuando decidí estudiar una profesión relacionada con las terapias manuales, y al descubrir la filosofía de la quiropráctica, supe que sería mi vocación ayudar a crear una humanidad más saludable, sostenible y feliz a través del enfoque y cuidado quiropráctico.<br><br>Después de seis años de estudios entre Francia (dos años) y Barcelona (cuatro años), me gradué en 2021 del Barcelona College of Chiropractic. Desde entonces, he colaborado en diferentes clínicas, aprendiendo de los maestros de la profesión y practicando con diferentes técnicas y enfoques en Barcelona y en la provincia de Barcelona (Terrassa). También he sido profesora asistente en diferentes clases de técnicas y supervisora en la clínica de la escuela Barcelona College of Chiropractic, ya que siempre me ha gustado enseñar y ayudar a más personas posibles.<br><br>Desde mi graduación, he seguido formándome para ampliar mis conocimientos y habilidades con el fin de poder ofrecer el mejor cuidado a mis pacientes. Recientemente, me he especializado en un enfoque holístico para mujeres embarazadas y niños, lo que me permite brindar una atención más completa y personalizada a estas poblaciones.<br><br>Para mí, ColumnaQuiro va más allá de ser un centro quiropráctico. Es un proyecto humanista que permite empoderar a la población desde dentro hacia fuera, ayudando a cada individuo a entender que la salud viene de dentro y su importancia.<br><br>Estoy emocionada de dar la bienvenida a todos los que buscan una forma natural y efectiva de mejorar su salud en ColumnaQuiro, ¡y espero poder ayudarlos con los brazos abiertos!",
-          "imagePath": "website/team/lea.webp",
+          "description": "Nací en la Côte d'Azur, en el sur de Francia, y siempre he sentido una gran pasión por el cuerpo humano y su increíble poder de sanación a través de procesos naturales. Soy aficionada a los deportes y siempre he sido muy activa en mi vida, por lo que entiendo muy bien la importancia de tener un cuerpo sano, adaptable y que funcione al máximo potencial.<br><br>Desde mi nacimiento, he tenido varios problemas de salud relacionados con el sistema musculoesquelético, lo que me impidió hacer deporte y subir escaleras a los 13 años. Por casualidad, acabé en un centro de terapias manuales en Francia donde noté enormes mejoras en mi salud y bienestar general.<br><br>Fue entonces cuando decidí estudiar una profesión relacionada con las terapias manuales, y al descubrir la filosofía de la <a class='underline' href='/que-es-la-quiropractica'>quiropráctica</a>, supe que sería mi vocación ayudar a crear una humanidad más saludable, sostenible y feliz a través del enfoque y <a class='underline' href='/como-funciona'>cuidado quiropráctico</a>.<br><br>Después de seis años de estudios entre Francia (dos años) y Barcelona (cuatro años), me gradué en 2021 del Barcelona College of Chiropractic. Desde entonces, he colaborado en diferentes clínicas, aprendiendo de los maestros de la profesión y practicando con diferentes técnicas y enfoques en Barcelona y en la provincia de Barcelona (Terrassa). También he sido profesora asistente en diferentes clases de técnicas y supervisora en la clínica de la escuela Barcelona College of Chiropractic, ya que siempre me ha gustado enseñar y ayudar a más personas posibles.<br><br>Desde mi graduación, he seguido formándome para ampliar mis conocimientos y habilidades con el fin de poder ofrecer el mejor cuidado a mis pacientes. Recientemente, me he especializado en un enfoque holístico para mujeres embarazadas y niños, lo que me permite brindar una atención más completa y personalizada a estas poblaciones.<br><br>Para mí, ColumnaQuiro va más allá de ser un <a class='underline' href='/'>centro quiropráctico</a>. Es un proyecto humanista que permite empoderar a la población desde dentro hacia fuera, ayudando a cada individuo a entender que la salud viene de dentro y su importancia.<br><br>Estoy emocionada de dar la bienvenida a todos los que buscan una forma natural y efectiva de mejorar su salud en ColumnaQuiro, ¡y espero poder ayudarlos con los brazos abiertos!",
+          "imagePath": "website/nuestro-equipo/lea.webp",
+          "role": "Doctora en Quiropráctica"
+        },
+        {
+          "name": "Sarah Bonhomme",
+          "description": "Nací en el sur de Francía y creció en un pueblo cerca de Aix-en-Provence. Con una familia activa y deportista he tenido la oportunidad de crecer en un entorno cerca de la naturaleza, desde las vacaciones a la montaña a comer de manera la más sana posible.<br>Diagnósticada con escoliosis a los diez años, empezé fisioterapia y osteopatía, así familiarizándome con el cuidado de su cuerpo  y salud. <br><br>Al momento de elegir entre todas las terapias alternativas o paramédical que me interesaban, visité a varios profesionales y los quiroprácticos eran a mis ojos los más apasionados, me transmitieron la motivación a dedicarme por esta profesión porque sentí que me correspondía totalmente. <br><br>Empezó los estudios a Francía en Toulouse, y acabé la carrera en el Barcelona College of  Chiropractic en 2022. Trabajé en el centro de Barcelona y en Sant Feliu de Guíxols.<br><br>Lo que más me gusta con la Quiropráctica es de ayudar cada uno a ser más consciente de su cuerpo et de sus habilidades naturales a sanar.  En muchos casos, la persona empieza por una razón particular y acabamos resolviendo otros temas de salud (por ejemplo viene por problemas de cervicales y se da cuenta que tiene mucho menos ansiedad). <br>El conocimiento del cuerpo y mente humana me apasiona y eligiendo esta carrera supe que siempre tendré la oportunidad de aprender y formarme más.",
+          "imagePath": "website/nuestro-equipo/sarah.webp",
           "role": "Doctora en Quiropráctica"
         }
       ]
@@ -1499,10 +1546,10 @@
   "ourCenter": {
     "seo": {
       "title": "Descubre nuestro centro",
-      "description": "Tratamos síntomas como el dolor de espalda, dolor cuello, migrañas, mejoramos tu embarazo. Deja que cuidemos de ti en nuestro Centro Quiropráctico en Valencia."
+      "description": "Tratamos síntomas como el dolor de espalda, dolor cuello, migrañas, mejoramos tu embarazo. Deja que cuidemos de ti en nuestro Centro Quiropráctico."
     },
     "title": "Conoce nuestro Centro ColumnaQuiro",
-    "description": "En nuestro centro quiropráctico en Valencia Ruzafa, entendemos que cada persona es única, y tus necesidades de salud también lo son. Estamos aquí para guiarte en tu viaje hacia el bienestar y ayudarte a alcanzar tu máximo potencial de salud. Si estás buscando una solución natural y efectiva para tus problemas de salud, ¡has venido al lugar correcto!",
+    "description": "En nuestro centro, entendemos que cada persona es única, y tus necesidades de salud también lo son. Estamos aquí para guiarte en tu viaje hacia el bienestar y ayudarte a alcanzar tu máximo potencial de salud. Si estás buscando una solución natural y efectiva para tus problemas de salud, ¡has venido al lugar correcto!",
     "waitingRoom": {
       "title": "Sala de espera",
       "description": "Bienvenido a nuestro tranquilo oasis en la sala de espera. Nuestra amable secretaria está siempre dispuesta a charlar contigo y hacer que te sientas como en casa.<br><br>Puedes disfrutar de un refrescante vaso de agua y sumergirte en nuestra selección de libros de salud mientras esperas tu consulta. Aquí, tu bienestar es nuestra prioridad absoluta. <br><br>Estamos comprometidos en hacer que tu experiencia sea lo más cómoda y relajante posible. <br><br>¡Gracias por confiar en nosotros para cuidar de ti!"

@@ -42,13 +42,15 @@ module.exports = {
       padding: {
         DEFAULT: '1rem',
         sm: '2rem',
-        lg: '4rem',
-        xl: '5rem',
+        md: '1rem',
+        lg: '1rem',
+        xl: '2rem',
         '2xl': '6rem'
       }
     },
     fontFamily: {
-      sans: ['Montserrat', 'sans-serif']
+      sans: ['Inter', 'sans-serif'],
+      times: ['Times New Roman', 'serif']
     },
     transitionProperty: {
       height: 'height'
@@ -58,6 +60,7 @@ module.exports = {
       black: '#000000',
       'light-grey': '#F9F9F9',
       'light-background': '#F1F1F1',
+      grey: '#E3E3E3',
       luxury: {
         black: '#031926',
         blue: '#468189',

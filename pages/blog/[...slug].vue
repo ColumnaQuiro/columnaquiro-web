@@ -1,7 +1,9 @@
 <template>
   <cq-layout-section class="article">
     <ContentRenderer :value="data">
-      <h1 class="mb-4">{{ data.headline }}</h1>
+      <h1 class="mb-4">
+        {{ data.headline }}
+      </h1>
       <div class="mb-6">
         {{ $formatDate(data.date) }}
       </div>
@@ -39,7 +41,7 @@ useSeo.setSeoTags(data.value.title, data.value.description)
     }
   }
   img {
-    @apply md:max-w-[400px] mb-6;
+    @apply md:max-w-[500px] mb-6;
   }
 }
 </style>

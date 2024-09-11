@@ -1,5 +1,5 @@
 <template>
-  <footer class="footer">
+  <footer class="footer bg-luxury-black">
     <div class="!container p-0 md:pb-4 md:pt-20">
       <NuxtImg
         src="logo/logo-color.webp"
@@ -23,8 +23,6 @@
 <style lang="scss">
 .footer {
   display: block !important;
-  background: url('https://statics.columnaquiro.com/website/shapes/footer-shape.webp') !important;
-  background-size: cover !important;
   @apply pt-12;
   @apply md:pt-0;
 }
