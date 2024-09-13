@@ -1,182 +1,65 @@
 <template>
   <cq-layout-section>
     <h1 class="section-title">
-      Aviso Legal
+      AVISO LEGAL Y CONDICIONES GENERALES DE USO
     </h1>
-    <div class="text-xl font-medium pb-3">
-      ColumnaQuiro SL
-    </div>
-    El uso de este sitio web, www.columnaquiro.com, implica la aceptación de estos términos. Si no está de acuerdo con ellos, le rogamos que no utilice este sitio web.
-    <br><br>
-    El presente Aviso Legal regula el uso del sitio web www.columnaquiro.com siendo su titular ColumnaQuiro SL con CIF B16365504.
-    <br><br>
-    <div class="text-xl font-medium pb-3">
-      Responsable del tratamiento de tus datos personales
-    </div>
-    <ul class="list-disc">
-      <li>
-        Identidad del Responsable: ColumnaQuiro SL
-      </li>
-      <li>
-        CIF: B16365504
-      </li>
-      <li>
-        Correo electrónico: hola@columnaquiro.com
-      </li>
-      <li>
-        Dirección: Calle dels Vivons 29, bajo izquierda, 46006 Valencia
-      </li>
-      <li>
-        Teléfono: 744735363
-      </li>
-    </ul>
-    ColumnaQuiro SL en relación a la protección de datos de acuerdo con los requisitos de la legislación vigente:
-    <br><br>
-    <ul class="list-disc">
-      <li>
-        Normativa Europea RGPD 2016/679 respecto al tratamiento de Datos Personales.
-      </li>
-      <li>
-        Ley Orgánica 3/2018 LOPD-GDD de Protección de Datos Personales y garantía de Derechos Digitales.
-      </li>
-      <li>
-        Ley de Servicios de la Sociedad de la Información y Comercio Electrónico, LSSICE.
-      </li>
+
+    <h2>
+      1. INFORMACIÓN GENERAL
+    </h2>
+    <p>En cumplimiento con el deber de información dispuesto en la Ley 34/2002 de Servicios de la Sociedad de la Información y el Comercio Electrónico (LSSI-CE) de 11 de julio, se facilitan a continuación los siguientes datos de información general de este sitio web:</p>
+    <ul>
+      <li>Identidad: COLUMNAQUIRO S.L. con NIF B16365504 en adelante “el Titular”</li>
+      <li>Dirección: Calle dels vivons, 29 - 0 iz, 46006, Valencia</li>
+      <li>Teléfono: 744735363</li>
+      <li>Email de contacto: hola@columnaquiro.com</li>
+      <li>La empresa se encuentra inscrita en el Registro Mercantil de _______: Tomo _____, Libro __, Folio ___, Sección _, Hoja ___.</li>
     </ul>
 
-    En cumplimiento de lo dispuesto en el Reglamento Europeo 2016/679 de Protección de Datos de Carácter Personal, RGPD, y la Ley Orgánica 3/2018, LOPD-GDD, ColumnaQuiro SL, le informa que, los datos de carácter personal que nos proporcione a través de nuestro formulario de Contacto en nuestra página web, se recogerán en nuestras bases de datos siendo responsable ColumnaQuiro SL.
-    <br><br>
-    Podrá ejercer sus derechos de acceso, rectificación, portabilidad y supresión de sus datos y los de limitación y oposición a su tratamiento en los términos y en las condiciones previstas en la normativa legal vigente, dirigiéndose por escrito a ColumnaQuiro SL situada en Calle dels Vivons 29, bajo izquierda, 46006 Valencia si lo prefiere con un e-mail a hola@columnaquiro.com.
-    <br><br>
-    De conformidad con el artículo 32 del RGPD y con el marco normativo general de protección de datos, ColumnaQuiro SL ha adoptado las medidas de seguridad, técnicas, organizativas y de control proactivo necesarias. Todo ello, en función del análisis previo del riesgo de las operaciones de tratamiento realizadas.
-    <br><br>
-    ColumnaQuiro SL se compromete a llevar un registro de las actividades de tratamiento tal como se dispone en el artículo 30.2 del RGPD.
-    <br><br>
-    Le rogamos que comunique inmediatamente a ColumnaQuiro SL cualquier modificación de sus datos de carácter personal para que la información que contienen nuestros ficheros esté siempre actualizada y no contenga errores.
-    <br><br>
-    Asimismo, con la aceptación de este Aviso Legal reconoce que la información y los datos personales recogidos son exactos y veraces. La recogida de sus datos de carácter personal se realiza con el fin de prestar los servicios solicitados y remitirle información sobre la entidad u ofertas comerciales de otros productos y servicios, avisos y, en general, información de ColumnaQuiro SL que pueda ser de su interés. De conformidad con lo previsto en la normativa actual vigente, en rellenar cualquiera de los formularios que aparecen en nuestra página web, da su consentimiento para que sus datos sean tratados, con el fin de dirigir información, siempre en el ámbito de las funciones legítimas de cedente y cesionario.
-    <br><br>
-    También autoriza a ColumnaQuiro SL para que puedan remitirle comunicaciones comerciales a través del correo electrónico o de cualquier otro medio de comunicación electrónica equivalente. Las autorizaciones para el envío de información comercial, cesión de datos y envío de comunicaciones comerciales por medios electrónicos serán revocables, en cualquier momento, mediante comunicación escrita dirigida a ColumnaQuiro SL a la dirección antes mencionada, en la que deberá indicar los siguientes datos para su identificación: nombre y dirección.
-    <br><br>
-    ColumnaQuiro SL se compromete a tratar de forma absolutamente confidencial sus datos de carácter personal y utilizarlo sólo para las finalidades indicadas.
-    <br><br>
-    ColumnaQuiro SL informa que procederá a tratar los datos de manera lícita, leal, transparente, adecuada, pertinente, limitada, exacta y actualizada. Es por ello que ColumnaQuiro SL se compromete a adoptar todas las medidas razonables para que estos se supriman o rectifiquen sin dilación cuando sean inexactos.
-    <br><br>
-    Asimismo, le informamos que ColumnaQuiro SL tiene implantadas las medidas técnicas y organizativas necesarias para garantizar la seguridad de sus datos de carácter personal y evitar su alteración, pérdida y tratamiento y / o acceso no autorizado, habida cuenta del estado de la tecnología, la naturaleza de los datos almacenados y los riesgos, provenientes de la acción humana o del medio físico y natural, a la que están expuestos.
-    <br><br>
-    <div class="text-xl font-medium pb-3">
-      Contenido, términos legales y responsabilidades.
-    </div>
-    El sitio web incluye contenidos elaborados por el titular del mismo y sus colaboradores, los cuales tienen fines meramente informativos, ya que en alguna ocasión, éstos podrían no reflejar la actualidad más reciente, por lo que en cualquier momento dichos contenidos podrán ser modificados y/o sustituidos por unos nuevos, sin notificación previa, ni responsabilidad.
-    <br><br>
-    Los contenidos del sitio web no pueden ser considerados, en ningún caso, como sustitutivos de cualquier tipo de asesoramiento. No existirá ningún tipo de relación comercial, profesional, ni ningún tipo de relación de otra índole con los profesionales que integran el sitio web por el mero hecho del acceso a ella por parte de los usuarios.
-    <br><br>
-    Para el caso de existir enlaces con diferentes sitios web, ColumnaQuiro SL, no se hará responsable de su contenido al carecer de control sobre los mismos.
-    <br><br>
-    El usuario cuando accede al sitio web, lo hace por su propia cuenta y riesgo. ColumnaQuiro SL no garantiza ni la rapidez, ni la interrupción, ni la ausencia de virus en el sitio web. Asimismo, el titular del sitio web, los colaboradores, sus socios, empleados y representantes tampoco podrán ser considerados responsables por cualquier daño derivado de la utilización de este sitio web, ni por cualquier actuación realizada sobre la base de la información que en él se facilita
-    <br><br>
-    No se garantiza la ausencia de virus u otros elementos lesivos que pudieran causar daños o alteraciones en el sistema informático, en los documentos electrónicos o en los ficheros del usuario de este sitio web. En consecuencia, no se responde por los daños y perjuicios que tales elementos pudieran ocasionar al usuario o terceros.
-    <br><br>
-    <div class="text-xl font-medium pb-3">
-      Modificaciones
-    </div>
-    ColumnaQuiro SL se reserva el derecho a realizar las modificaciones que considere oportunas, sin aviso previo, en el contenido de su sitio web. Tanto en lo referente a los contenidos del sitio web, como en las condiciones de uso del mismo. Dichas modificaciones podrán realizarse a través de su sitio web por cualquier forma admisible en derecho y serán de obligado cumplimiento durante el tiempo en que se encuentren publicadas en la web y hasta que no sean modificadas válidamente por otras posteriores.
-    <br><br>
-    <div class="text-xl font-medium pb-3">
-      Marcas
-    </div>
-    En ColumnaQuiro SL puede que se mencionen de forma indirecta y a nivel informativo algunos términos y logotipos, que constituyen marcas registradas por sus respectivos propietarios, no haciéndonos responsable de la utilización inadecuada que pudieran hacer terceras personas respecto a dichas marcas.
-    <br><br>
-    <div class="text-xl font-medium pb-3">
-      Usuario y Régimen de Responsabilidades
-    </div>
-    La utilización de esta página Web le atribuye la condición de usuario de la misma. Se recomienda al usuario que lea atentamente y detenidamente las condiciones e instrucciones publicadas cada vez que acceda a esta página web, dado que el acceso implica su lectura y aceptación. Mediante el acceso y uso a www.columnaquiro.com o cualquiera de sus páginas y subdominios, el usuario manifiesta su acuerdo de forma expresa, plena y sin reservas a las condiciones e instrucciones publicadas en el aviso legal en el momento del acceso sin perjuicio de la aplicación de la correspondiente normativa de obligado cumplimiento legal según el caso.
-    <br><br>
-    El sitio web de ColumnaQuiro SL proporciona gran diversidad de información, servicios y datos. El usuario asume su responsabilidad en el uso correcto del sitio web. Esta responsabilidad se extenderá a:
-    <br><br>
-    <ul class="list-disc">
-      <li>
-        La veracidad y licitud de las informaciones aportadas por el usuario en los formularios extendidos por ColumnaQuiro SL para el acceso a ciertos contenidos o servicios ofrecidos por el web.
-      </li>
-      <li>
-        El uso de la información, servicios y datos ofrecidos por ColumnaQuiro SL contrariamente a lo dispuesto por las presentes condiciones, la Ley, la moral, las buenas costumbres o el orden público, o que de cualquier otro modo puedan suponer lesión de los derechos de terceros o del mismo funcionamiento del sitio web.
-      </li>
-      <li>
-        Cualquier utilización distinta a la autorizada está expresamente prohibida, quedando ColumnaQuiro SL facultado para denegar o retirar el acceso y uso de la Web, en cualquier momento, y sin previo aviso, a aquellos usuarios que incumplan estas condiciones generales.
-      </li>
+    <h2>
+      2. TÉRMINOS Y CONDICIONES GENERALES DE USO
+    </h2>
+    <p>El objeto de las condiciones: El Sitio Web</p>
+    <p>El objeto de las presentes Condiciones Generales de Uso (en adelante, Condiciones) es regular el acceso y la utilización del Sitio Web. A los efectos de las presentes Condiciones se entenderá como Sitio Web: la apariencia externa de los interfaces de pantalla, tanto de forma estática como de forma dinámica, es decir, el árbol de navegación; y todos los elementos integrados tanto en los interfaces de pantalla como en el árbol de navegación (en adelante, Contenidos) y todos aquellos servicios o recursos en línea que en su caso ofrezca a los Usuarios (en adelante, Servicios).</p>
+    <p>El Titular se reserva la facultad de modificar, en cualquier momento, y sin aviso previo, la presentación y configuración del Sitio Web y de los Contenidos y Servicios que en él pudieran estar incorporados. El Usuario reconoce y acepta que en cualquier momento el Titular pueda interrumpir, desactivar y/o cancelar cualquiera de estos elementos que se integran en el Sitio Web o el acceso a los mismos.</p>
+    <p>El acceso al Sitio Web por el Usuario tiene carácter libre y, por regla general, es gratuito sin que el Usuario tenga que proporcionar una contraprestación para poder disfrutar de ello, salvo en lo relativo al coste de conexión a través de la red de telecomunicaciones suministrada por el proveedor de acceso que hubiere contratado el Usuario.</p>
+    <p>La utilización de alguno de los Contenidos o Servicios del Sitio Web podrá hacerse mediante la suscripción o registro previo del Usuario.</p>
+
+    <h3>
+      El Usuario
+    </h3>
+    <p>El acceso, la navegación y uso del Sitio Web confiere la condición de Usuario, por lo que se aceptan, desde que se inicia la navegación por el Sitio Web, todas las Condiciones aquí establecidas, así como sus ulteriores modificaciones, sin perjuicio de la aplicación de la correspondiente normativa legal de obligado cumplimiento según el caso. Dada la relevancia de lo anterior, se recomienda al Usuario leerlas cada vez que visite el Sitio Web.</p>
+    <p>El Usuario asume su responsabilidad para realizar un uso correcto del Sitio Web. Esta responsabilidad se extenderá a:</p>
+    <ul>
+      <li>Un uso de la información, Contenidos y/o Servicios y datos ofrecidos por el Titular sin que sea contrario a lo dispuesto por las presentes Condiciones, la Ley, la moral o el orden público, o que de cualquier otro modo puedan suponer lesión de los derechos de terceros o del mismo funcionamiento del Sitio Web.</li>
+      <li>La veracidad y licitud de las informaciones aportadas por el Usuario en los formularios extendidos por el Titular para el acceso a ciertos Contenidos o Servicios ofrecidos por el Sitio Web.</li>
     </ul>
-    Podrá dirigirse a la Autoridad de Control competente para presentar la reclamación que considere oportuna.
-    <br><br>
-    <div class="text-xl font-medium pb-3">
-      Menores de edad.
-    </div>
-    Para el uso de los servicios, los menores de edad deben obtener siempre previamente el consentimiento de los padres, tutores o representantes legales, responsables últimos de todos los actos realizados por los menores a su cargo. La responsabilidad en la determinación de contenidos concretos a los que acceden los menores corresponde a aquellos, es por eso que, si acceden a contenidos no apropiados para Internet, se deberán establecer en sus ordenadores mecanismos, en particular programas informáticos, filtros y bloqueos, que permitan limitar los contenidos disponibles y, aunque no sean infalibles, son de especial utilidad para controlar y restringir los materiales a los que pueden acceder los menores.
-    <br><br>
-    <div class="text-xl font-medium pb-3">
-      Propiedad Intelectual, Normativa y Foro
-    </div>
-    El sitio web, incluyendo a título enunciativo pero no limitativo su programación, edición, compilación y demás elementos necesarios para su funcionamiento, los diseños, logotipos, texto y/o gráficos, son propiedad de ColumnaQuiro SL o en su caso dispone de licencia o autorización expresa por parte de los autores.
-    <br><br>
-    Todos los contenidos del sitio web se encuentran debidamente protegidos por la normativa de propiedad intelectual e industrial, así como los inscritos en los registros públicos correspondientes, y no se permite la reproducción y / o publicación, total o parcial, del sitio web, ni su tratamiento informático, su distribución, difusión, modificación o transformación, sin el permiso previo y por escrito del mismo.
-    <br><br>
-    Los diseños, logotipos, texto y / o gráficos ajenos a ColumnaQuiro SL y que pudieran aparecer en el sitio web, pertenecen a sus respectivos propietarios, siendo ellos mismos responsables de cualquier posible controversia que pudiera suscitarse respecto a estos. En todo caso ColumnaQuiro SL cuenta con la autorización expresa y previa por parte de los mismos. ColumnaQuiro SL reconoce a favor de sus titulares los correspondientes derechos de propiedad intelectual, no implicando su sola mención o aparición en el sitio web la existencia de derechos o responsabilidad alguna de prestador sobre los mismos, como tampoco respaldo, patrocinio o recomendación por éste.
-    <br><br>
-    El usuario puede utilizar el material que aparezca en este sitio web para su uso personal y privado, quedando prohibido su uso con fines comerciales. ColumnaQuiro SL velará por el cumplimiento de las anteriores condiciones, como por la debida utilización de los contenidos presentados en sus páginas web, ejercitando todas las acciones civiles y penales que le corresponderán en el caos de infracción o incumplimiento de estos derechos por parte del usuario.
-    <br><br>
-    <div class="text-xl font-medium pb-3">
-      Acciones legales, legislación aplicable y jurisdicción
-    </div>
-    Las presentes condiciones de uso se rigen por la legislación española, siendo competentes los Juzgados y Tribunales de la ciudad de ColumnaQuiro SL para conocer de cuantas cuestiones se susciten sobre la interpretación, aplicación y cumplimiento de las mismas. Los usuarios, por virtud de su aceptación a las condiciones generales recogidas en este Aviso Legal, renuncian expresamente a cualquier fuero que, por aplicación de la Ley de Enjuiciamiento Civil vigente, pudiera corresponderles.
-    <br><br>
-    ColumnaQuiro SL se reserva, asimismo, la facultad de presentar las acciones civiles o penales que considere oportunas por la utilización indebida de su sitio web y contenidos, o por el incumplimiento de las presentes condiciones.
-    <br><br>
-    La relación entre el usuario y el prestador se regirá por la normativa vigente y de aplicación en el territorio español. De surgir cualquier controversia las partes podrán someter sus conflictos a arbitraje o acudir a la jurisdicción ordinaria cumpliendo con las normas sobre jurisdicción y competencia al respecto. ColumnaQuiro SL tiene su domicilio en Barcelona, España.
-    <br><br>
-    Los datos de carácter personal que nos has facilitado de forma voluntaria serán incorporados a un fichero del que es titular ColumnaQuiro SL que se utilizará para gestionar tu suscripción a nuestro boletín a través del que te mantendremos informado de los productos, novedades, sorteos, servicios, eventos y promociones de la empresa ColumnaQuiro SL con CIF B16365504, domicilio en Calle dels Vivons 29, bajo izquierda, 46006 Valencia y e-mail hola@columnaquiro.com, así como la gestión de su inscripción y participación en sorteos, concursos o eventos que solicite participar.
-    <br><br>
-    <div class="text-xl font-medium pb-3">
-      Suscripciones al boletín de noticias
-    </div>
-    Solo podrán prestar su consentimiento personas mayores de 16 años.
-    <br><br>
-    Los datos personales proporcionados se conservarán hasta que se solicite su supresión o revoque su consentimiento el interesado.
-    <br><br>
-    La base legal para el tratamiento de sus datos para la finalidad de poder informarle por vía electrónica sobre los productos, novedades, sorteos, servicios, eventos y promociones de ColumnaQuiro SL así como la gestión de su inscripción y participación a sorteos, concursos o eventos que solicite, es la aportación del consentimiento. El consentimiento será válido hasta que decida revocarlo.
-    <br><br>
-    Cualquier persona tiene derecho a obtener confirmación sobre si ColumnaQuiro SL está tratando datos personales que les conciernan o no.
-    <br><br>
-    Como responsable del fichero, la empresa se compromete a respetar la confidencialidad de tu información de carácter personal. Para ejercitar tus derechos de acceso, rectificación, cancelación y oposición deberás de remitir una comunicación desde la cuenta de correo electrónico que utilizaste para tramitar el alta a hola@columnaquiro.com con el asunto BAJA. Tramitar la suscripción al boletín presumirá tu consentimiento para tratar los datos en los términos indicados.
-    <br><br>
-    En el momento de la cancelación de los datos, únicamente los conservaremos bloqueados en cumplimiento de obligaciones legales.
-    <br><br>
-    <div class="text-xl font-medium pb-3">
-      Servicios de Contratación por Internet
-    </div>
-    Ciertos contenidos de la website de Calle dels Vivons 29, bajo izquierda, 46006 Valencia contienen la posibilidad de contratación por Internet. El uso de los mismos requerirá la lectura y aceptación obligatoria de las condiciones generales de contratación establecidas al efecto por ColumnaQuiro SL.
-    <br><br>
-    <div class="text-xl font-medium pb-3">
-      Información básica
-    </div>
-    <ul class="list-disc">
-      <li>
-        Responsable del tratamiento: ColumnaQuiro SL
-      </li>
-      <li>
-        Finalidad del tratamiento: gestionar las consultas de los usuarios y atender las solicitudes.
-      </li>
-      <li>
-        Base legal para el tratamiento: el consentimiento otorgado con la aceptación de la presente Política de Protección de datos.
-      </li>
-      <li>
-        Destinatarios de los datos: no serán comunicados a terceras personas excepto por obligación legal.
-      </li>
-      <li>
-        Derechos: para ejercer los derechos de acceso, rectificación, portabilidad y supresión de sus datos y los de limitación y oposición a su tratamiento reconocidos por la normativa, puede enviar un correo a hola@columnaquiro.com.
-      </li>
-      <li>
-        Para más información sobre este tratamiento y como ejercer sus derechos puede consultar nuestra política completa de protección de datos en: https://columnaquiro.com.
-      </li>
-    </ul>
+
+    <h2>
+      3. ACCESO Y NAVEGACIÓN EN EL SITIO WEB: EXCLUSIÓN DE GARANTÍAS Y RESPONSABILIDAD
+    </h2>
+    <p>El Titular no garantiza la continuidad, disponibilidad y utilidad del Sitio Web, ni de los Contenidos o Servicios. El Titular hará todo lo posible por el buen funcionamiento del Sitio Web, sin embargo, no se responsabiliza ni garantiza que el acceso a este Sitio Web no vaya a ser ininterrumpido o que esté libre de error.</p>
+    <p>Tampoco se responsabiliza o garantiza que el contenido o software al que pueda accederse a través de este Sitio Web esté libre de error o cause un daño al sistema informático (software y hardware) del Usuario.</p>
+
+    <h2>
+      4. POLÍTICA DE ENLACES
+    </h2>
+    <p>Se informa que el Sitio Web del Titular pone o puede poner a disposición de los Usuarios medios de enlace (como, entre otros, links, banners, botones), directorios y motores de búsqueda que permiten a los Usuarios acceder a sitios web pertenecientes y/o gestionados por terceros.</p>
+
+    <h2>
+      5. COMUNICACIONES COMERCIALES POR VÍA ELECTRÓNICA
+    </h2>
+    <p>Al dejarnos sus datos de contacto, previo consentimiento otorgado por el Usuario, remitiremos información sobre nuestros servicios. El envío de dichas comunicaciones comerciales sobre actividades, servicios, ofertas, promociones especiales, etc. podrá efectuarse por cualquier medio, incluyendo correo electrónico.</p>
+
+    <h2>
+      6. PROPIEDAD INTELECTUAL E INDUSTRIAL
+    </h2>
+    <p>El Titular por sí o como parte cesionaria, es titular de todos los derechos de propiedad intelectual e industrial del Sitio Web, así como de los elementos contenidos en el mismo.</p>
+
+    <h2>
+      7. ACCIONES LEGALES, LEGISLACIÓN APLICABLE Y JURISDICCIÓN
+    </h2>
+    <p>El Titular se reserva la facultad de presentar las acciones civiles o penales que considere necesarias por la utilización indebida del Sitio Web y Contenidos, o por el incumplimiento de las presentes Condiciones.</p>
   </cq-layout-section>
 </template>
 <script setup lang="ts">
