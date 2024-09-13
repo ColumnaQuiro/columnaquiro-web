@@ -1,120 +1,49 @@
 <template>
   <cq-layout-section>
     <h1 class="section-title">
-      Política de Cookies
+      POLÍTICA DE COOKIES
     </h1>
 
-    Este sitio web, al igual que la mayoría de sitios web en Internet, utiliza cookies para mejorar la experiencia del usuario. A continuación, encontrará información sobre qué son las cookies, qué tipo de cookies utiliza este portal, como puede desactivar las cookies en su navegador y como desactivar específicamente la instalación de las cookies de terceros.
-    <br><br>
-    <div class="text-xl font-medium pb-3">
-      ¿Qué son las cookies?
-    </div>
+    <h2>¿QUÉ SON LAS COOKIES?</h2>
+    <p>
+      Las Cookies son archivos de datos que se almacenan en su navegador y en su equipo cuando visita cualquier página web. Las cookies pueden tener diversas utilidades como, por ejemplo, reconocer al usuario, almacenamiento y recuperación de información sobre los hábitos de navegación de un usuario o personalizar la forma en que se muestra el contenido.
+    </p>
 
-    Las cookies son pequeños archivos que algunas plataformas, como las páginas web, pueden instalar en su ordenador, teléfono inteligente, tableta o televisión conectada. Sus funciones pueden ser muy variadas: almacenar sus preferencias de navegación, recopilar información estadística, permitir ciertas funcionalidades técnicas, etcétera. A veces, las galletas se utilizan para almacenar información básica sobre los hábitos de navegación del usuario o de su equipo, hasta el punto, según los casos, de poder reconocerlo.
-    <br><br>
-    <div class="text-xl font-medium pb-3">
-      ¿Por qué son importantes?
-    </div>
+    <h2>¿QUÉ INFORMACIÓN ALMACENAN LAS COOKIES?</h2>
+    <p>
+      Las cookies almacenan información de carácter técnico, preferencias personales, personalización de contenidos. Las cookies normalmente no contienen ninguna información personal.
+    </p>
+    <p>
+      Toda la información personal que puedan contener es únicamente la que el usuario haya introducido en un formulario del sitio. La mayor parte del tiempo, cuando una cookie contiene información personal, ésta está codificada de forma que es ilegible para cualquier tercera parte que pudiera tener acceso a su archivo de cookies.
+    </p>
 
-    Las cookies son útiles para diversos motivos. Desde un punto de vista técnico, permiten que las páginas web funcionen de forma más ágil y adaptada a sus preferencias, tales como almacenar su idioma o la moneda de su país. Además, ayudan a los responsables de los sitios web a mejorar los servicios que ofrecen, gracias a la información estadística que recogen a través de ellas.
-    <br><br>
-    <div class="text-xl font-medium pb-3">
-      Tipología, Finalidad y Funcionamiento de los Cookies
-    </div>
-
-    Las cookies, en función de su permanencia, pueden dividirse en cookies de sesión o permanentes. Las primeras expiran cuando el usuario cierra el navegador. Las segundas expiran en función cuando se cumpla el objetivo para el que sirven (por ejemplo, para que el usuario se mantenga identificado en las páginas de www.columnaquiro.com) o bien cuando se borran manualmente.
-    <br><br>
-    Adicionalmente, en función de su objetivo, las cookies puedes clasificarse de la siguiente manera:
-    <br><br>
-    <b>Cookies de Rendimiento:</b> Este tipo de cookie recuerda tus preferencias para las herramientas que se encuentran en las páginas, por lo que no hay que volver a configurar cada vez que la visitas. A modo de ejemplo, en esta tipología se incluyen:
-    <br><br>
-    Ajustes de volumen de reproductores de vídeo o sonido.
-    Las velocidades de transmisión de vídeo compatibles con su navegador.
-    <b>Cookies de Geolocalización:</b> Estas cookies son utilizadas para averiguar en qué país te encuentras cuando se navega por la web. Esta cookie es totalmente anónima, y sólo se utiliza para ayudar a orientar el contenido a tu ubicación.
-    <br><br>
-    <b>Cookies de Registro:</b>
-    Las cookies de registro se generan una vez que el usuario se ha registrado o posteriormente comenzó la sesión, y se utilizan para identificarlo en las páginas con los siguientes objetivos:
-    <ul class="list-disc">
-      <li>Mantener el usuario identificado de manera que, si cierra una página, el navegador o el ordenador y en otro momento u otro día vuelve a entrar en esta página, seguirá identificado, facilitando así su navegación sin tener que volver a identificarse. Esta funcionalidad se puede suprimir si el usuario pulsa la funcionalidad «cerrar sesión», por lo que esta cookie se elimina y la próxima vez que entre en la página el usuario deberá iniciar sesión para estar identificado.</li>
-      <li>Comprobar si el usuario está autorizado para acceder a ciertas páginas, por ejemplo, para participar en un concurso.</li>
-      <li>Adicionalmente, algunas páginas pueden utilizar conectores con redes sociales como Facebook, Instagram, Youtube o Twitter. Cuando el usuario se registra en una página con credenciales de una red social, autoriza a la red social a guardar una cookie persistente que recuerda su identidad y le garantiza acceso a las páginas hasta que expira. El usuario puede borrar esta cookie y revocar el acceso a las páginas a través de redes sociales actualizando sus preferencias en la red social que específica.</li>
+    <h2>¿QUÉ TIPO DE COOKIES EXISTEN?</h2>
+    <ul>
+      <li><strong>Cookies propias</strong>: se envían al equipo terminal del usuario desde un equipo o dominio gestionado por el propio editor y desde el que se presta el servicio solicitado por el usuario.</li>
+      <li><strong>Cookies de terceros</strong>: se envían al equipo terminal del usuario desde un equipo o dominio que no es gestionado por el editor, sino por otra entidad que trata los datos obtenidos través de las cookies.</li>
     </ul>
-    <br>
-    <b>Cookies de Analíticas:</b>
-    Cada vez que un usuario visita una página, una herramienta de un proveedor externo (en nuestro caso Google Analytics) genera una cookie analítica en el ordenador del usuario. Esta cookie que sólo se genera en la visita, servirá en futuras visitas a las páginas de www.columnaquiro.com para identificar de forma anónima al visitante. Los objetivos principales que se persiguen son:
-    <ul class="list-disc">
-      <li>Permitir la identificación anónima de los usuarios navegantes a través de la «cookie» (identifica navegadores y dispositivos, no personas) y por tanto la contabilización aproximada del número de visitantes y su tendencia en el tiempo.</li>
-      <li>Identificar de forma anónima los contenidos más visitados y por lo tanto más atractivos para los usuarios.</li>
-      <li>Saber si el usuario que está accediendo es nuevo o repite visita.</li>
+
+    <h3>Según el plazo de tiempo que permanecen almacenadas en el navegador del usuario:</h3>
+    <ul>
+      <li><strong>Cookies de sesión</strong>: recaban y almacenan datos mientras el usuario accede a una página web. Se suelen emplear para almacenar información que solo interesa conservar para la prestación del servicio solicitado por el usuario en una sola ocasión.</li>
+      <li><strong>Cookies persistentes</strong>: Los datos siguen almacenados en el terminal y pueden ser accedidos y tratados durante un periodo definido por el responsable de la cookie, y que puede ir de unos minutos a varios años.</li>
     </ul>
-    <br>
-    <b>Importante:</b> A menos que el usuario decida registrarse en la web de www.columnaquiro.com, la «cookie» nunca irá asociada a ningún dato de carácter personal que pueda identificarlo. Estas cookies sólo serán utilizadas con propósitos estadísticos que ayuden a la optimización de la experiencia de los usuarios en el sitio.
-    <br><br>
-    <div class="text-xl font-medium pb-3">
-      Otras cookies de terceros
-    </div>
 
-    En algunas de nuestras páginas se pueden instalar cookies de terceros que permitan gestionar y mejorar los servicios que éstos ofrecen. Un ejemplo de este uso son los enlaces a las redes sociales que permiten compartir nuestros contenidos.
-    <br><br>
-    <div class="text-xl font-medium pb-3">
-      ¿Cómo puedo configurar mis preferencias?
-    </div>
-    Puede permitir, bloquear o eliminar las cookies instaladas en su equipo mediante la configuración de las opciones de su navegador de internet. En el caso en que las bloquee, es posible que ciertos servicios que necesitan su uso no estén disponibles para usted.
-    <br><br>
-    <div class="text-xl font-medium pb-3">
-      Utilización de Cookies
-    </div>
+    <h3>Según la finalidad para la que se traten los datos obtenidos:</h3>
+    <ul>
+      <li><strong>Cookies técnicas</strong>: permiten al usuario la navegación a través de una página web, plataforma o aplicación y la utilización de las diferentes opciones o servicios que en ella existan.</li>
+      <li><strong>Cookies de personalización</strong>: permiten al usuario acceder al servicio con algunas características predefinidas como el idioma, el tipo de navegador o la configuración regional.</li>
+      <li><strong>Cookies de análisis</strong>: permiten el seguimiento y análisis del comportamiento de los usuarios en los sitios web.</li>
+      <li><strong>Cookies publicitarias</strong>: permiten la gestión eficaz de los espacios publicitarios.</li>
+      <li><strong>Cookies de publicidad comportamental</strong>: almacenan información del comportamiento de los usuarios obtenida a través de la observación continuada de sus hábitos de navegación.</li>
+      <li><strong>Cookies de redes sociales externas</strong>: se utilizan para que los visitantes puedan interactuar con el contenido de diferentes plataformas sociales.</li>
+    </ul>
 
-    Las cookies son ficheros enviados a un navegador por medio de un servidor web para registrar las actividades del usuario en una web determinada. La primera finalidad de las cookies es la de facilitar al usuario un acceso más rápido a las páginas seleccionadas.
-    <br><br>
-    La web www.columnaquiro.com utiliza cookies para personalizar y facilitar al máximo la navegación del usuario. Las cookies se asocian únicamente a un usuario anónimo y su ordenador y no proporcionan referencias que permitan deducir datos personales del usuario. El usuario podrá configurar su navegador para que notifique y rechace la instalación de las cookies enviadas por la web de www.columnaquiro.com, sin que ello perjudique la posibilidad del usuario de acceder a los contenidos. Sin embargo, te hacemos notar que, en todo caso, la calidad de funcionamiento de la página web puede disminuir.
-    <br><br>
-    Asimismo, la web de www.columnaquiro.com podrá saber todas las páginas visitas por los usuarios, por lo que podrá facilitar u ofrecer información adecuada a los gustos y preferencias de cada usuario.
-    <br><br>
-    <div class="text-xl font-medium pb-3">
-      Como desactivar las Cookies los principales navegadores
-    </div>
-
-    Normalmente es posible dejar de aceptar las cookies del navegador, o dejar de aceptar las cookies de una página en particular. Todos los navegadores modernos permiten cambiar la configuración de cookies. Este ajuste normalmente se encuentra en las «Opciones» o «Preferencias» del menú de su navegador.
-    <br><br>
-    La web de www.columnaquiro.com ofrecen orientación al usuario sobre los pasos para acceder al menú de configuración de las cookies y, si procede, de la navegación privada en cada uno de los navegadores principales:
-    <ul class="list-disc">
-      <br><br>
+    <h2>¿QUÉ COOKIES SE UTILIZAN EN LA PÁGINA WEB?</h2>
+    <ul>
       <li>
-        Internet Explorer: Herramientas -> Opciones de Internet -> Privacidad -> Configuración.<br>
-        Para más información, puede consultar el apoyo de Microsoft o la Ayuda del navegador.
-      </li>
-      <br>
-      <li>
-        Firefox: Herramientas -> Opciones -> Privacidad -> Histórico -> Configuración Personalizada.<br>
-        Para más información, puede consultar el apoyo de Mozilla o la Ayuda del navegador.
-      </li>
-      <br>
-      <li>
-        Chrome: Configuración -> Mostrar opciones avanzadas -> Privacidad -> Configuración de contenido.<br>
-        Para más información, puede consultar el apoyo de Google o la Ayuda del navegador.
-      </li>
-      <br>
-      <li>
-        Safari: Preferencias -> Seguridad.<br>
-        Para más información, puede consultar el apoyo de Apple o la Ayuda del navegador.
+        <strong>Cookies de Google Analytics:</strong> Se utilizan para generar un identificador de usuario único, utilizado para hacer recuento de cuántas veces visita el sitio un usuario, así como la fecha de la primera y la última vez que visitó la web. Registran la fecha y hora de acceso a cualquiera de las páginas del portal. Comprueban la necesidad de mantener la sesión de un usuario abierta o crear una nueva. Identifican la sesión del usuario, para recoger la ubicación geográfica aproximada del ordenador que accede al portal.
       </li>
     </ul>
-    <br>
-    <div class="text-xl font-medium pb-3">
-      Qué pasa si se desactivan las cookies
-    </div>
-
-    Algunas funcionalidades de las páginas quedarán desactivadas como, por ejemplo, permanecer identificado, recibir información dirigida a su localización o la visualización de algunos vídeos.
-    <br><br>
-    <div class="text-xl font-medium pb-3">
-      Actualización y cambios en la política de Cookies
-    </div>
-
-    La web de www.columnaquiro.com puede modificar esta Política de Cookies en función de exigencias legislativas, reglamentarias, o con el fin de adaptar esta política a las instrucciones dictadas por la Agencia Española de Protección de Datos, por ello se aconseja a los usuarios que la visiten periódicamente.
-    <br><br>
-    Cuando se produzcan cambios significativos en esta Política de Cookies, se comunicarán a los usuarios mediante la web.
-    <br><br>
-    Respecto de las cookies de terceros, es decir aquellas que son ajenas a nuestro sitio web, no podemos hacernos responsables del contenido y veracidad de las políticas de privacidad que ellos incluyen por lo que la información que le ofrecemos es siempre con referencia a la fuente.
   </cq-layout-section>
 </template>

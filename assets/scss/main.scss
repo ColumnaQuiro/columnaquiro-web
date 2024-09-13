@@ -18,7 +18,6 @@ html {
 body {
   color: #474747;
   @apply text-base;
-  //letter-spacing: 0.05rem;
   line-height: calc(1 + .4 / var(--font-body-scale));
 }
 

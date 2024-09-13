@@ -10,7 +10,7 @@
         size="x-small"
         variant="text"
         :to="rt(link.to)"
-        color="blackBranded"
+        color="white"
       >
         {{ rt(link.text) }}
       </cq-components-button>
