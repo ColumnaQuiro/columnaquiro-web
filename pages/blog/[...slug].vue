@@ -24,15 +24,57 @@ const { data } = await useAsyncData(localePath('/blog'), async () => {
 
 useSeo.setLocalBusinessSchemaOrgTag()
 useSeo.setSeoTags(data.value.title, data.value.description)
+useHead({
+  script: [
+    {
+      type: 'application/ld+json',
+      innerHTML: {
+        '@context': 'https://schema.org',
+        '@type': 'Article',
+        mainEntityOfPage: {
+          '@type': 'WebPage',
+          '@id': `https://columnaquiro.com${localePath(data.value._path)}`
+        },
+        headline: data.value.headline,
+        description: data.value.articleDescription ?? data.value.description,
+        image: {
+          '@type': 'ImageObject',
+          url:
+              data.value.cover,
+          width: '',
+          height: ''
+        },
+        author: {
+          '@type': 'Organization',
+          name: 'columnaquiro'
+        },
+        publisher: {
+          '@type': 'Organization',
+          name: 'columnaquiro',
+          logo: {
+            '@type': 'ImageObject',
+            url: 'https://statics.columnaquiro.com/logo/logo-color.webp?width=90',
+            width: '',
+            height: ''
+          }
+        },
+        datePublished: data.value.date,
+        dateModified: data.value.date
+      }
+    }
+  ]
+})
 </script>
 <style lang="scss">
 .article {
   strong {
     @apply font-medium;
   }
+
   ul {
     @apply list-disc mb-3;
   }
+
   ol {
     @apply list-decimal mb-3 pl-4;
 
@@ -40,6 +82,7 @@ useSeo.setSeoTags(data.value.title, data.value.description)
       @apply font-medium;
     }
   }
+
   img {
     @apply md:max-w-[500px] mb-6;
   }

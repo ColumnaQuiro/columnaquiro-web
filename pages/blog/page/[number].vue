@@ -17,8 +17,8 @@
       v-if="numPages > 1"
       class="mt-8"
       :current-page="getPageNumber()"
-      :total-pages="getPageLimit(numPages)"
-      :next-page="getPageNumber() < getPageLimit(numPages)"
+      :total-pages="numPages"
+      :next-page="getPageNumber() < numPages"
       base-url="/blog/"
       page-url="/blog/page/"
     />
@@ -33,10 +33,6 @@ const localePath = useLocalePath()
 const { params } = useRoute()
 const useSeo = useSEO()
 const blogCountLimit = 6
-
-const getPageLimit = (totalPosts) => {
-  return Math.ceil(totalPosts / blogCountLimit)
-}
 
 const getPageNumber = () => {
   return Number(params.number)

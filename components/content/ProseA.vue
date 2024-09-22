@@ -2,7 +2,7 @@
   <NuxtLink
     :href="href"
     :target="target"
-    rel="follow"
+    rel="no-follow"
   >
     <slot />
   </NuxtLink>
