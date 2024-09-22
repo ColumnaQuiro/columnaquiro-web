@@ -4,6 +4,7 @@ description: 'Las contracturas musculares lumbares se caracterizan por ser situa
 headline: 'Contracturas musculares lumbares: síntomas y cuidado'
 date: '2024-04-02T17:00:00'
 cover: https://res.cloudinary.com/dqrtj7gca/image/upload/f_auto,q_auto/v1/website/blog/contractura-lumbosacra
+articleDescription: 'Las contracturas musculares lumbares se caracterizan por ser situaciones disfuncionales en las fibras musculares de la región lumbar, donde los músculos experimentan una contracción continuada e involuntaria. Esta contracción sostenida conlleva dificultades en el suministro de sangre oxigenada y nutrientes a las fibras musculares, al mismo tiempo que dificulta la eliminación de sustancias de desecho.'
 ---
 ![Contracturas musculares lumbares](https://res.cloudinary.com/dqrtj7gca/image/upload/f_auto,q_auto/v1/website/blog/contractura-lumbosacra)
 

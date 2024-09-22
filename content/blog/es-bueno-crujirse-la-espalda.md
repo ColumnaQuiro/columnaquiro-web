@@ -4,6 +4,7 @@ description: 'Crujido de espalda puede proporcionar una sensación de alivio tem
 headline: '¿Es bueno crujirse la espalda?'
 date: '2024-04-02T18:00:00'
 cover: https://res.cloudinary.com/dqrtj7gca/image/upload/f_auto,q_auto/v1/website/blog/es-bueno-crujirse-la-espalda
+articleDescription: 'Crujirse la espalda es un fenómeno en el cual se produce un sonido de crujido o chasquido al mover la columna vertebral. Este sonido puede ocurrir de forma espontánea durante ciertos movimientos o posturas, como al estirarse después de estar mucho tiempo en la misma posición, o puede ser provocado de manera deliberada mediante técnicas de manipulación.'
 ---
 ![¿Es bueno crujirse la espalda?](https://res.cloudinary.com/dqrtj7gca/image/upload/f_auto,q_auto/v1/website/blog/es-bueno-crujirse-la-espalda)
 
