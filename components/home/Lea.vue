@@ -5,7 +5,7 @@
         <h2 class="text-center section-title text-white pb-6 xl:text-start">
           {{ t('home.lea.title') }}
         </h2>
-        <div class="text-base text-white text-center pb-6 xl:text-start" v-html="t('home.lea.body')" />
+        <p class="text-base text-white text-center pb-6 xl:text-start" v-html="t('home.lea.body')" />
         <div class="text-center xl:text-start">
           <cq-components-button :to="localePath('/sobre-nosotros/equipo')" class="mx-auto" color="tertiary">
             {{ t('home.lea.button') }}

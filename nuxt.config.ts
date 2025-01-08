@@ -14,9 +14,6 @@ export default defineNuxtConfig({
       charset: 'utf-8',
       viewport: 'width=device-width, initial-scale=1.0',
       link: [
-        { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
-        { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: 'anonymous' },
-        { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Inter:wght@300..700&display=swap' },
         { rel: 'preconnect', href: 'https://maxcdn.bootstrapcdn.com' },
         { rel: 'preconnect', href: 'https://statics.columnaquiro.com' },
         { rel: 'preconnect', href: 'https://res.cloudinary.com' },
@@ -63,6 +60,7 @@ export default defineNuxtConfig({
     }
   },
   modules: [
+    '@nuxt/fonts',
     '@nuxtjs/i18n',
     'nuxt-gtag',
     '@nuxt/content',
@@ -90,6 +88,17 @@ export default defineNuxtConfig({
         }
       }
     }
+  },
+  fonts: {
+    provider: 'google',
+    defaults: {
+      weights: [300, 400, 500, 600],
+      styles: ['normal', 'italic']
+    },
+    families: [
+      { name: 'Inter', provider: 'google' }
+    ],
+    devtools: false
   },
   sitemap: {
     autoI18n: false,
@@ -191,6 +200,7 @@ export default defineNuxtConfig({
     moduleOptions: {
       importComposables: false,
       styles: { configFile: '/assets/scss/settings.scss' },
+      disableVuetifyStyles: true,
       ssrClientHints: {
         viewportSize: true,
         prefersColorSchemeOptions: {},

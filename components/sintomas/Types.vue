@@ -3,7 +3,7 @@
     <h2 class="section-title">
       {{ t(`symptoms.${symptom}.types.title`) }}
     </h2>
-    <div v-html="t(`symptoms.${symptom}.types.description`)" />
+    <p v-html="t(`symptoms.${symptom}.types.description`)" />
   </cq-layout-section>
 </template>
 

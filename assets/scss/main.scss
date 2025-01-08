@@ -49,14 +49,17 @@ h1 {
   @apply text-h1_sm leading-h1_sm font-light uppercase;
   letter-spacing: calc(var(--font-heading-scale) * 0.06rem);
 }
+
 h2 {
-  @apply text-h2_sm leading-h2_sm font-light;
-  letter-spacing: calc(var(--font-heading-scale) * 0.06rem);
+  @apply text-h2_sm leading-h2_sm font-medium pb-4;
+  letter-spacing: calc(var(--font-heading-scale) * 0.03rem);
 }
+
 h3 {
-  @apply text-h3_sm leading-h3_sm font-medium;
-  letter-spacing: calc(var(--font-heading-scale) * 0.06rem);
+  @apply text-h3_sm leading-h3_sm font-semibold;
+  letter-spacing: calc(var(--font-heading-scale) * 0.02rem);
 }
+
 h4 {
   @apply text-h4_sm leading-h4_sm mb-2;
   letter-spacing: calc(var(--font-heading-scale) * 0.06rem);
@@ -66,19 +69,22 @@ h4 {
   h1 {
     @apply text-h1 leading-h1;
   }
+
   h2 {
     @apply text-h2 leading-h2;
   }
+
   h3 {
     @apply text-h3 leading-h3;
   }
+
   h4 {
     @apply text-h4 leading-h4;
   }
 }
 
 p {
-  @apply text-base mt-3 mb-5;
+  @apply text-base;
 
   a {
     @apply text-brand-secondary;
@@ -87,4 +93,18 @@ p {
 
 strong {
   @apply font-medium;
+}
+
+.article {
+  h2 {
+    @apply pt-8;
+  }
+
+  h3 {
+    @apply pt-4 pb-1;
+  }
+
+  img {
+    @apply mt-4;
+  }
 }

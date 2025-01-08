@@ -34,9 +34,9 @@
           'hidden': i !== personActive
         }"
       >
-        <div class="text-base text-center font-italic lg:pb-14 lg:max-w-[640px]">
+        <p class="text-base text-center font-italic lg:pb-14 lg:max-w-[640px]">
           "{{ rt(person.testimonial) }}"
-        </div>
+        </p>
         <ScriptYouTubePlayer :video-id="rt(person.video)" class="mx-auto" :width="640" trigger="immediate" />
       </div>
     </div>
@@ -59,9 +59,9 @@
             {{ rt(person.name) }}
           </div>
         </div>
-        <div class="text-base text-center font-italic pt-4 pb-10 flex-grow">
+        <p class="text-base text-center font-italic pt-4 pb-10 flex-grow">
           "{{ rt(person.testimonial) }}"
-        </div>
+        </p>
         <ScriptYouTubePlayer :video-id="rt(person.video)" class="md:hidden mx-auto" trigger="immediate" />
       </slide>
       <template #addons>

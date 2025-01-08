@@ -4,9 +4,9 @@
       <h1 class="relative text-white z-10 text-center">
         {{ title }}
       </h1>
-      <div v-if="description" class="relative text-base text-center text-white z-10">
+      <p v-if="description" class="relative text-base text-center text-white z-10">
         {{ description }}
-      </div>
+      </p>
     </cq-layout-section>
     <div class="intro-section__overlay" />
   </div>

@@ -8,7 +8,7 @@
       }"
     >
       <slot name="text">
-        <div
+        <p
           class="text-base"
           :class="{
             'w-full': !textNarrow,

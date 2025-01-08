@@ -4,9 +4,9 @@
       {{ t('home.situationIdentification.title') }}
     </h2>
     <div class="flex flex-col lg:flex-row gap-5">
-      <div v-for="item in items" :key="item" class="pt-6 border-t-2 border-luxury-green">
+      <p v-for="item in items" :key="item" class="pt-6 border-t-2 border-luxury-green">
         {{ rt(item) }}
-      </div>
+      </p>
     </div>
   </cq-layout-section>
 </template>
