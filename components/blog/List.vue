@@ -7,26 +7,26 @@
     >
       <a :href="localePath(article._path)">
         <div class="wrapper">
-          <header class="flex">
+          <div class="flex flex-col md:flex-row gap-2 md:gap-5">
             <img
               :src="article.cover"
-              class="rounded object-cover min-w-[150px] min-h-[150px] max-w-[150px] max-h-[150px] md:min-w-[180px] md:min-h-[180px] md:max-w-[180px] md:max-h-[180px]"
+              class="rounded object-cover  md:min-w-[180px] md:min-h-[180px] md:max-w-[180px] md:max-h-[180px]"
               :alt="article.headline"
               loading="lazy"
             >
-            <div class="pl-5">
+            <div>
               <h2
-                class="blog-list__item-title text-lg font-medium mb-1 group-hover:text-brand-secondary"
+                class="blog-list__item-title text-lg leading-6 font-medium group-hover:text-brand-secondary pb-2"
               >
                 {{ article.headline }}
               </h2>
               <client-only>
-                <p class="text-sm leading-sm mb-4 text-brand-black/75 dark:text-brand-black/75">
-                  {{ $formatDate(article.date) }}
+                <p class="text-sm leading-sm text-brand-black/75 dark:text-brand-black/75">
+                  {{ date.formatDateInSpanish(article.date) }}
                 </p>
               </client-only>
             </div>
-          </header>
+          </div>
         </div>
       </a>
     </li>
@@ -38,6 +38,7 @@
 
 <script setup>
 import { useLocalePath } from '#i18n'
+import { useDate } from '~/composables/date'
 
 defineProps({
   data: {
@@ -50,7 +51,7 @@ defineProps({
   }
 })
 
-const { $formatDate } = useNuxtApp()
+const date = useDate()
 const localePath = useLocalePath()
 </script>
 <style lang="scss" scoped>

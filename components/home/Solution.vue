@@ -5,8 +5,8 @@
         {{ t('home.solution.title') }}
       </h2>
       <div class="grid grid-cols-2 lg:grid-cols-3 gap-8 text-white">
-        <div class="text-base lg:col-start-2" v-html="t('home.solution.bodyLeft')" />
-        <div v-html="t('home.solution.bodyRight')" />
+        <p class="text-base lg:col-start-2" v-html="t('home.solution.bodyLeft')" />
+        <p v-html="t('home.solution.bodyRight')" />
       </div>
       <NuxtImg
         src="website/home/mujer-espaldas.webp"

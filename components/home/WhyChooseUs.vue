@@ -18,9 +18,9 @@
           <h3 class="text-2xl font-normal pb-2">
             {{ rt(item.title) }}
           </h3>
-          <div>
+          <p>
             {{ rt(item.description) }}
-          </div>
+          </p>
         </div>
       </div>
     </div>

@@ -12,9 +12,9 @@
         <h2 class="section-title pb-6">
           {{ t('home.holisticVision.title') }}
         </h2>
-        <div class="text-base font-bold pb-6">
+        <h3 class="text-base font-bold pb-6">
           {{ t('home.holisticVision.subtitle') }}
-        </div>
+        </h3>
         <div class="text-base" v-html="t('home.holisticVision.body')" />
       </template>
     </cq-blocks-sections-paragraph-with-image>

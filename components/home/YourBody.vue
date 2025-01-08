@@ -12,10 +12,10 @@
         <h2 class="section-title pb-6">
           {{ t('home.yourBody.title') }}
         </h2>
-        <div class="text-base font-semibold pb-8 lg:pb-12">
+        <p class="text-base font-semibold pb-8 lg:pb-12">
           {{ t('home.yourBody.subtitle') }}
-        </div>
-        <div v-html="t('home.yourBody.body')" />
+        </p>
+        <p v-html="t('home.yourBody.body')" />
       </template>
     </cq-blocks-sections-paragraph-with-image>
   </cq-layout-section>

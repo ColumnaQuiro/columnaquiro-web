@@ -15,7 +15,7 @@
         <h3 class="text-lg font-medium pt-4 pb-2">
           {{ rt(item.title) }}
         </h3>
-        <div class="text-base" v-html="rt(item.description)" />
+        <p class="text-base" v-html="rt(item.description)" />
       </div>
     </div>
     <div class="text-center pt-10">

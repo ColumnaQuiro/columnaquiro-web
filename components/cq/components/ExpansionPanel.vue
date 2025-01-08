@@ -56,7 +56,7 @@
       >
         <div class="text-base mt-4">
           <slot name="answer">
-            <div v-html="answer" />
+            <p v-html="answer" />
           </slot>
         </div>
       </div>

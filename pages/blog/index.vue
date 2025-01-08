@@ -1,6 +1,5 @@
 <template>
   <cq-layout-section>
-    <BlogHero />
     <ContentQuery
       v-slot="{ data }"
       :path="localePath('/blog')"
@@ -30,7 +29,7 @@ import { useI18n } from 'vue-i18n'
 const { t } = useI18n()
 const localePath = useLocalePath()
 const useSeo = useSEO()
-const blogCountLimit = 6
+const blogCountLimit = 8
 const { data: numberOfPosts } = await useAsyncData('content-/blog', async () => {
   const _posts = await queryContent(localePath('/blog')).only('headline').find()
   return Math.ceil(_posts.length / blogCountLimit)

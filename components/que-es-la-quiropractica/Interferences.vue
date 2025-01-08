@@ -16,12 +16,12 @@
           class="mx-auto"
           loading="lazy"
         />
-        <div class="text-xl pt-4">
+        <h3 class="text-xl pt-4 font-medium">
           {{ rt(item.title) }}
-        </div>
-        <div class="pt-2">
+        </h3>
+        <p class="pt-2">
           {{ rt(item.body ) }}
-        </div>
+        </p>
       </div>
     </div>
   </cq-layout-section>
