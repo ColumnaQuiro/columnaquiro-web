@@ -84,7 +84,7 @@ useHead({
   }
 
   img {
-    @apply md:max-w-[500px] mb-6;
+    @apply md:max-w-[500px] md:max-h-[500px] mb-6;
   }
 }
 </style>
