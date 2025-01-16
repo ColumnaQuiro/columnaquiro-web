@@ -2,13 +2,17 @@
 
 export default defineNuxtConfig({
   devtools: { enabled: true },
+
   future: {
     compatibilityVersion: 4
   },
+
   ssr: true,
+
   site: {
     url: 'https://columnaquiro.com'
   },
+
   app: {
     head: {
       charset: 'utf-8',
@@ -21,7 +25,9 @@ export default defineNuxtConfig({
       ]
     }
   },
+
   css: ['~/assets/scss/main.scss'],
+
   vite: {
     optimizeDeps: {
       exclude: [
@@ -29,36 +35,44 @@ export default defineNuxtConfig({
       ]
     }
   },
+
   sourcemap: {
     server: false,
-    client: false
+    client: true
   },
+
   experimental: {
     payloadExtraction: false
   },
+
   features: {
     inlineStyles: false
   },
+
   runtimeConfig: {
     googleMapsApiKey: ''
   },
+
   postcss: {
     plugins: {
       tailwindcss: {},
       autoprefixer: {}
     }
   },
+
   nitro: {
     preset: 'netlify',
     prerender: {
       crawlLinks: true
     }
   },
+
   router: {
     options: {
       strict: false
     }
   },
+
   modules: [
     '@nuxt/fonts',
     '@nuxtjs/i18n',
@@ -71,6 +85,7 @@ export default defineNuxtConfig({
     '@nuxt/scripts',
     'vue3-carousel-nuxt'
   ],
+
   image: {
     formats: {
       webp: {
@@ -89,6 +104,7 @@ export default defineNuxtConfig({
       }
     }
   },
+
   fonts: {
     provider: 'google',
     defaults: {
@@ -100,6 +116,7 @@ export default defineNuxtConfig({
     ],
     devtools: false
   },
+
   sitemap: {
     autoI18n: false,
     strictNuxtContentPaths: true,
@@ -112,6 +129,7 @@ export default defineNuxtConfig({
       'en/legal-notice'
     ]
   },
+
   robots: {
     rules: {
       UserAgent: '*',
@@ -119,7 +137,7 @@ export default defineNuxtConfig({
         '/aviso-legal',
         '/politica-de-cookies',
         '/politica-de-privacidad',
-        '/en/lega-notice',
+        '/en/legal-notice',
         '/en/privacy-policy',
         '/en/cookies-policy',
         '/apple-app-site-association',
@@ -128,6 +146,7 @@ export default defineNuxtConfig({
       Sitemap: 'https://columnaquiro.com/sitemap.xml'
     }
   },
+
   i18n: {
     langDir: 'locales',
     lazy: true,
@@ -196,6 +215,7 @@ export default defineNuxtConfig({
       }
     }
   },
+
   vuetify: {
     moduleOptions: {
       importComposables: false,
@@ -208,6 +228,7 @@ export default defineNuxtConfig({
       }
     }
   },
+
   gtag: {
     id: 'G-7RZ1YECNKZ',
     config: {
@@ -215,6 +236,7 @@ export default defineNuxtConfig({
     },
     initialConsent: process.env.NODE_ENV !== 'development'
   },
+
   content: {
     // https://content.nuxtjs.org/api/configuration
     highlight: {
@@ -235,5 +257,7 @@ export default defineNuxtConfig({
         'rehype-external-links': false
       }
     }
-  }
+  },
+
+  compatibilityDate: '2025-01-13'
 })

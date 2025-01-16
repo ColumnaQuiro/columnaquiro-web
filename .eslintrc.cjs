@@ -5,9 +5,6 @@ module.exports = {
     node: true
   },
   plugins: ['eslint-plugin-unused-imports'],
-  extends: [
-    '@nuxtjs/eslint-config-typescript'
-  ],
   // add your custom rules here
   rules: {
     'vue/no-v-html': 'off',
