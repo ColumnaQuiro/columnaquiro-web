@@ -75,4 +75,4 @@ Visitar regularmente a un [quiropráctico](https://columnaquiro.com/blog/los-mej
 - Mejora del rendimiento físico
 - Reducción del estrés
 
-La [quiropráctica](https://columnaquiro.com/blog/que-es-la-quiropractica){:target="_blank"} es una adición valiosa a tu rutina de cuidado personal. Considera seriamente hacer de las visitas quiroprácticas una parte regular de tu vida y verás los beneficios en cuestión de días.
+La [quiropráctica](https://columnaquiro.com/que-es-la-quiropractica){:target="_blank"} es una adición valiosa a tu rutina de cuidado personal. Considera seriamente hacer de las visitas quiroprácticas una parte regular de tu vida y verás los beneficios en cuestión de días.
