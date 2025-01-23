@@ -23,7 +23,7 @@ const { data } = await useAsyncData(localePath('/blog'), async () => {
 })
 
 useSeo.setLocalBusinessSchemaOrgTag()
-useSeo.setSeoTags(data.value.title, data.value.description)
+useSeo.setSeoTags(data.value?.title, data.value?.description)
 useHead({
   script: [
     {
@@ -59,7 +59,7 @@ useHead({
           }
         },
         datePublished: data.value.date,
-        dateModified: data.value.date
+        dateModified: data.value.modifiedDate || data.value.date
       }
     }
   ]
