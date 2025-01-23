@@ -38,7 +38,7 @@ export default defineNuxtConfig({
 
   sourcemap: {
     server: false,
-    client: true
+    client: false
   },
 
   experimental: {
@@ -62,9 +62,6 @@ export default defineNuxtConfig({
 
   nitro: {
     preset: 'netlify',
-    prerender: {
-      crawlLinks: true
-    }
   },
 
   router: {
