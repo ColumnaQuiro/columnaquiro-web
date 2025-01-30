@@ -65,10 +65,7 @@ export default defineNuxtConfig({
   },
 
   nitro: {
-    preset: 'netlify-edge',
-    prerender: {
-      crawlLinks: true
-    }
+    preset: 'netlify-static'
   },
 
   router: {
