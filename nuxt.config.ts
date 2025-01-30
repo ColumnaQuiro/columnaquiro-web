@@ -7,7 +7,7 @@ export default defineNuxtConfig({
     compatibilityVersion: 4
   },
 
-  ssr: true,
+  ssr: false,
 
   site: {
     url: 'https://columnaquiro.com'
@@ -245,9 +245,6 @@ export default defineNuxtConfig({
   },
 
   content: {
-    experimental: {
-      clientDB: true
-    },
     preview: {
       api: 'https://api.nuxt.studio'
     },
