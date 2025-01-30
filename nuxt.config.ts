@@ -65,7 +65,10 @@ export default defineNuxtConfig({
   },
 
   nitro: {
-    preset: 'netlify-static'
+    preset: 'netlify',
+    prerender: {
+      crawlLinks: true
+    }
   },
 
   router: {
@@ -242,6 +245,9 @@ export default defineNuxtConfig({
   },
 
   content: {
+    experimental: {
+      clientDB: true
+    },
     preview: {
       api: 'https://api.nuxt.studio'
     },
