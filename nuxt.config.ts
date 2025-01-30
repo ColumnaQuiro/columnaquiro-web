@@ -65,7 +65,7 @@ export default defineNuxtConfig({
   },
 
   nitro: {
-    preset: 'netlify',
+    preset: 'netlify-edge',
     prerender: {
       crawlLinks: true
     }
@@ -73,7 +73,7 @@ export default defineNuxtConfig({
 
   router: {
     options: {
-      strict: false
+      strict: true
     }
   },
 
@@ -247,30 +247,26 @@ export default defineNuxtConfig({
   content: {
     preview: {
       api: 'https://api.nuxt.studio'
+    },
+    build: {
+      markdown: {
+        highlight: {
+          theme: {
+            default: 'github-light',
+            dark: 'github-dark'
+          }
+        },
+        toc: {
+          depth: 5,
+          searchDepth: 5
+        },
+        rehypePlugins: {
+          // remove the no-follow in the external links
+          'rehype-external-links': false
+        }
+      },
     }
   },
-
-  // content: {
-  //   // https://content.nuxtjs.org/api/configuration
-  //   highlight: {
-  //     theme: {
-  //       // Default theme (same as single string)
-  //       default: 'material-theme-palenight',
-  //       // Theme used if `html.dark`
-  //       dark: 'github-dark'
-  //     }
-  //   },
-  //   markdown: {
-  //     toc: {
-  //       depth: 5,
-  //       searchDepth: 5
-  //     },
-  //     rehypePlugins: {
-  //       // remove the no-follow in the external links
-  //       'rehype-external-links': false
-  //     }
-  //   }
-  // },
 
   compatibilityDate: '2025-01-13'
 })
