@@ -7,7 +7,7 @@ export default defineNuxtConfig({
     compatibilityVersion: 4
   },
 
-  ssr: true,
+  ssr: false,
 
   site: {
     url: 'https://columnaquiro.com'
@@ -18,23 +18,27 @@ export default defineNuxtConfig({
       charset: 'utf-8',
       viewport: 'width=device-width, initial-scale=1.0',
       link: [
-        { rel: 'preconnect', href: 'https://maxcdn.bootstrapcdn.com' },
-        { rel: 'preconnect', href: 'https://statics.columnaquiro.com' },
-        { rel: 'preconnect', href: 'https://res.cloudinary.com' },
-        { rel: 'preconnect', href: 'https://lh3.googleusercontent.com' }
+        {
+          rel: 'preconnect',
+          href: 'https://maxcdn.bootstrapcdn.com'
+        },
+        {
+          rel: 'preconnect',
+          href: 'https://statics.columnaquiro.com'
+        },
+        {
+          rel: 'preconnect',
+          href: 'https://res.cloudinary.com'
+        },
+        {
+          rel: 'preconnect',
+          href: 'https://lh3.googleusercontent.com'
+        }
       ]
     }
   },
 
   css: ['~/assets/scss/main.scss'],
-
-  vite: {
-    optimizeDeps: {
-      exclude: [
-        'fsevents'
-      ]
-    }
-  },
 
   sourcemap: {
     server: false,
@@ -69,7 +73,7 @@ export default defineNuxtConfig({
 
   router: {
     options: {
-      strict: false
+      strict: true
     }
   },
 
@@ -77,13 +81,14 @@ export default defineNuxtConfig({
     '@nuxt/fonts',
     '@nuxtjs/i18n',
     'nuxt-gtag',
-    '@nuxt/content',
     '@nuxtjs/sitemap',
     'vuetify-nuxt-module',
     '@nuxt/image',
     '@nuxtjs/robots',
     '@nuxt/scripts',
-    'vue3-carousel-nuxt'
+    'vue3-carousel-nuxt',
+    '@nuxt/content',
+    '@nuxt/eslint'
   ],
 
   image: {
@@ -112,14 +117,16 @@ export default defineNuxtConfig({
       styles: ['normal', 'italic']
     },
     families: [
-      { name: 'Inter', provider: 'google' }
+      {
+        name: 'Inter',
+        provider: 'google'
+      }
     ],
     devtools: false
   },
 
   sitemap: {
     autoI18n: false,
-    strictNuxtContentPaths: true,
     exclude: [
       'aviso-legal',
       'politica-de-cookies',
@@ -238,24 +245,26 @@ export default defineNuxtConfig({
   },
 
   content: {
-    // https://content.nuxtjs.org/api/configuration
-    highlight: {
-      theme: {
-        // Default theme (same as single string)
-        default: 'material-theme-palenight',
-        // Theme used if `html.dark`
-        dark: 'github-dark'
-      }
+    preview: {
+      api: 'https://api.nuxt.studio'
     },
-    markdown: {
-      toc: {
-        depth: 5,
-        searchDepth: 5
+    build: {
+      markdown: {
+        highlight: {
+          theme: {
+            default: 'github-light',
+            dark: 'github-dark'
+          }
+        },
+        toc: {
+          depth: 5,
+          searchDepth: 5
+        },
+        rehypePlugins: {
+          // remove the no-follow in the external links
+          'rehype-external-links': false
+        }
       },
-      rehypePlugins: {
-        // remove the no-follow in the external links
-        'rehype-external-links': false
-      }
     }
   },
 

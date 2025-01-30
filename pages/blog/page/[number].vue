@@ -1,24 +1,13 @@
 <template>
   <cq-layout-section>
     <BlogHero />
-    <ContentQuery
-      v-slot="{ data }"
-      :path="localePath('/blog')"
-      :only="['headline', 'description', 'date', 'tags', '_path', 'image', 'cover']"
-      :sort="{
-        date: -1
-      }"
-      :skip="blogCountLimit * (getPageNumber() - 1)"
-      :limit="blogCountLimit"
-    >
-      <BlogList :data="data" />
-    </ContentQuery>
+    <BlogList :data="posts" />
     <BlogPagination
-      v-if="numPages > 1"
+      v-if="totalPages > 1"
       class="mt-8"
       :current-page="getPageNumber()"
-      :total-pages="numPages"
-      :next-page="getPageNumber() < numPages"
+      :total-pages="totalPages"
+      :next-page="getPageNumber() < totalPages"
       base-url="/blog/"
       page-url="/blog/page/"
     />
@@ -28,20 +17,17 @@
 <script setup>
 import { useI18n } from 'vue-i18n'
 
-const { t } = useI18n()
-const localePath = useLocalePath()
+const { t, locale } = useI18n()
 const { params } = useRoute()
 const useSeo = useSEO()
-const blogCountLimit = 6
+const blogCountLimit = 8
 
 const getPageNumber = () => {
   return Number(params.number)
 }
-
-const { data: numPages } = await useAsyncData('content-/blog', async () => {
-  const _posts = await queryContent(localePath('/blog')).only('headline').find()
-  return Math.ceil(_posts.length / blogCountLimit)
-})
+const totalPages = computed(() => totalPosts.value / blogCountLimit)
+const { data: totalPosts } = await useAsyncData('articles', () => queryCollection(`blog${locale.value.toUpperCase()}`).count())
+const { data: posts } = await useAsyncData('blog', () => queryCollection(`blog${locale.value.toUpperCase()}`).skip(blogCountLimit * (getPageNumber() - 1)).limit(blogCountLimit).all())
 
 useSeo.setI18nTags()
 useSeo.setLocalBusinessSchemaOrgTag()
