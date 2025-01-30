@@ -7,7 +7,7 @@ export default defineNuxtConfig({
     compatibilityVersion: 4
   },
 
-  ssr: false,
+  ssr: true,
 
   site: {
     url: 'https://columnaquiro.com'
@@ -65,7 +65,7 @@ export default defineNuxtConfig({
   },
 
   nitro: {
-    preset: 'netlify',
+    preset: 'netlify_edge',
     prerender: {
       crawlLinks: true
     }
