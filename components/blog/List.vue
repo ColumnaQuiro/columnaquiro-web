@@ -2,27 +2,27 @@
   <ul class="blog-list grid lg:grid-cols-2 gap-4 text-brand-black pt-10">
     <li
       v-for="article in data"
-      :key="article._path"
+      :key="article.path"
       class="blog-list__item relative rounded-md m-0 overflow-hidden"
     >
-      <a :href="localePath(article._path)">
+      <a :href="localePath(article.path)">
         <div class="wrapper">
           <div class="flex flex-col md:flex-row gap-2 md:gap-5">
             <img
-              :src="article.cover"
+              :src="article.meta.cover"
               class="rounded object-cover  md:min-w-[180px] md:min-h-[180px] md:max-w-[180px] md:max-h-[180px]"
-              :alt="article.headline"
+              :alt="article.meta.headline"
               loading="lazy"
             >
             <div>
               <h2
                 class="blog-list__item-title text-lg leading-6 font-medium group-hover:text-brand-secondary pb-2"
               >
-                {{ article.headline }}
+                {{ article.meta.headline }}
               </h2>
               <client-only>
                 <p class="text-sm leading-sm text-brand-black/75 dark:text-brand-black/75">
-                  {{ date.formatDateInSpanish(article.date) }}
+                  {{ date.formatDateInSpanish(article.meta.date) }}
                 </p>
               </client-only>
             </div>

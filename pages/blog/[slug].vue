@@ -1,29 +1,30 @@
 <template>
   <cq-layout-section class="article">
-    <ContentRenderer :value="data">
-      <h1 class="mb-4">
-        {{ data.headline }}
-      </h1>
-      <div class="mb-6">
-        {{ $formatDate(data.date) }}
-      </div>
-      <ContentRendererMarkdown :value="data" />
-    </ContentRenderer>
+    <h1 class="mb-4">
+      {{ page.meta.headline }}
+    </h1>
+    <div class="mb-6">
+      {{ $formatDate(page.meta.date) }}
+    </div>
+    <ContentRenderer v-if="page" :value="page"/>
   </cq-layout-section>
 </template>
 <script setup>
 import { useSEO } from '~/composables/seo'
+import { useI18n } from 'vue-i18n'
 
+const { locale } = useI18n()
 const { $formatDate } = useNuxtApp()
-const localePath = useLocalePath()
+const localePath = useLocaleRoute()
 const useSeo = useSEO()
-const { params } = useRoute()
-const { data } = await useAsyncData(localePath('/blog'), async () => {
-  return await queryContent(`${localePath('/blog')}/${params.slug}`).findOne()
+const route = useRoute()
+const { data: page } = await useAsyncData(route.path, () => {
+  return queryCollection(`blog${locale.value.toUpperCase()}`).path(route.path).first()
 })
 
 useSeo.setLocalBusinessSchemaOrgTag()
-useSeo.setSeoTags(data.value.title, data.value.description)
+useSeo.setSeoTags(page.value.seo.title, page.value.seo.description)
+
 useHead({
   script: [
     {
@@ -33,14 +34,13 @@ useHead({
         '@type': 'Article',
         mainEntityOfPage: {
           '@type': 'WebPage',
-          '@id': `https://columnaquiro.com${localePath(data.value._path)}`
+          '@id': `https://columnaquiro.com${localePath(page.value.path)}`
         },
-        headline: data.value.headline,
-        description: data.value.articleDescription ?? data.value.description,
+        headline: page.value.meta.headline,
+        description: page.value.meta.articleDescription ?? page.value.seo.description,
         image: {
           '@type': 'ImageObject',
-          url:
-              data.value.cover,
+          url: page.value.meta.cover,
           width: '',
           height: ''
         },
@@ -58,8 +58,8 @@ useHead({
             height: ''
           }
         },
-        datePublished: data.value.date,
-        dateModified: data.value.date
+        datePublished: page.value.meta.date,
+        dateModified: page.value.meta.modifiedDate || page.value.meta.date
       }
     }
   ]
