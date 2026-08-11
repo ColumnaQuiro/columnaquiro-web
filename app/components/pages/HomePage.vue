@@ -448,10 +448,10 @@ useHead({
   </section>
 
   <!-- Reviews -->
-  <section class="bg-gray-light px-6 py-24 text-center">
+  <section class="overflow-x-hidden bg-gray-light px-6 py-24 text-center">
     <h2 class="section-title">{{ c.reviewsTitle }}</h2>
     <div
-      class="sk-ww-google-reviews mx-auto mt-10 max-w-[1280px]"
+      class="sk-ww-google-reviews mx-auto mt-10 w-full max-w-[1280px]"
       data-embed-id="236880"
       style="min-height: 480px"
     ></div>
@@ -553,7 +553,7 @@ useHead({
         <div
           v-for="(tile, i) in c.whyChooseUs"
           :key="tile.title"
-          class="flex flex-col items-center justify-center rounded-3xl px-8 py-[88px] text-center"
+          class="flex aspect-square flex-col items-center justify-center rounded-3xl px-8 text-center"
           :class="i === 3 ? 'bg-forest text-white' : 'bg-taupe text-forest'"
         >
           <svg
