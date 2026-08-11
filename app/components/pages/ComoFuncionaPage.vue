@@ -172,8 +172,8 @@ const c = computed(() => content[locale.value])
 </script>
 
 <template>
-  <section class="mx-auto max-w-4xl px-6 py-24 text-center">
-    <h1 class="text-4xl font-semibold text-forest sm:text-5xl">{{ c.title }}</h1>
+  <section class="bg-cream px-6 py-24 text-center">
+    <h1 class="mx-auto max-w-4xl text-4xl font-semibold text-forest sm:text-5xl">{{ c.title }}</h1>
   </section>
 
   <img
@@ -208,7 +208,7 @@ const c = computed(() => content[locale.value])
     </div>
   </section>
 
-  <section class="bg-cream/60 px-6 py-24">
+  <section class="px-6 py-24">
     <div class="mx-auto max-w-4xl text-center">
       <h2 class="text-3xl font-semibold text-forest">{{ c.pathTitle }}</h2>
       <p class="mx-auto mt-4 max-w-2xl text-body/80">{{ c.pathIntro }}</p>

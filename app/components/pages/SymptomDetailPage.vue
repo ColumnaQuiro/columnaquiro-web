@@ -53,7 +53,16 @@ useSeo({
     <img v-if="image" :src="image" :alt="c.title" class="mx-auto h-20 w-20 object-contain" />
     <h1 class="mt-6 text-center text-4xl font-semibold text-forest sm:text-5xl">{{ c.title }}</h1>
 
-    <div class="mt-8 space-y-4 text-body/80">
+    <nav class="mt-6 flex items-center justify-center gap-2 text-sm text-body/60">
+      <span>{{ locale === 'es' ? 'Síntomas' : 'Symptoms' }}</span>
+      <span>›</span>
+      <span class="text-body/80">{{ c.title }}</span>
+    </nav>
+
+    <h2 class="mt-10 text-xl font-semibold text-forest">
+      {{ locale === 'es' ? '¿Qué es?' : 'What is it?' }}
+    </h2>
+    <div class="mt-4 space-y-4 text-body/80">
       <p v-for="(paragraph, i) in c.intro" :key="i">{{ paragraph }}</p>
     </div>
 

@@ -110,20 +110,22 @@ const categories = computed(() =>
 </script>
 
 <template>
-  <section class="mx-auto grid max-w-[1280px] items-center gap-12 px-6 py-24 md:grid-cols-2">
-    <div>
-      <p class="text-sm font-semibold uppercase tracking-wide text-gold-dark">{{ c.eyebrow }}</p>
-      <h1 class="mt-4 text-4xl font-semibold text-forest sm:text-5xl">{{ c.title }}</h1>
-      <p class="mt-6 text-lg text-body/80">{{ c.body }}</p>
-      <BaseButton :to="locale === 'es' ? '/reserva-cita' : '/en/book-appointment'" class="mt-8">{{
-        c.button
-      }}</BaseButton>
+  <section class="bg-cream px-6">
+    <div class="mx-auto grid max-w-[1280px] items-center gap-12 py-24 md:grid-cols-2">
+      <div>
+        <p class="text-sm font-semibold uppercase tracking-wide text-gold-dark">{{ c.eyebrow }}</p>
+        <h1 class="mt-4 text-4xl font-semibold text-forest sm:text-5xl">{{ c.title }}</h1>
+        <p class="mt-6 text-lg text-body/80">{{ c.body }}</p>
+        <BaseButton :to="locale === 'es' ? '/reserva-cita' : '/en/book-appointment'" class="mt-8">{{
+          c.button
+        }}</BaseButton>
+      </div>
+      <img
+        src="/assets/images/para-todos-header.webp"
+        alt="chiropractic for everyone"
+        class="w-full rounded-3xl"
+      />
     </div>
-    <img
-      src="/assets/images/para-todos-header.webp"
-      alt="chiropractic for everyone"
-      class="w-full rounded-3xl"
-    />
   </section>
 
   <section class="mx-auto max-w-[1280px] px-6 pb-24">

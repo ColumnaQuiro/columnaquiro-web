@@ -27,7 +27,7 @@ useSeo({
 const content = {
   es: {
     eyebrow: 'Descubre nuestro centro quiropráctico',
-    title: 'Visita el interior de nuestro centro',
+    title: 'Descubre nuestras salas',
     intro:
       'En nuestro centro, entendemos que cada persona es única, y tus necesidades de salud también lo son. Estamos aquí para guiarte en tu viaje hacia el bienestar y ayudarte a alcanzar tu máximo potencial de salud. Si estás buscando una solución natural y efectiva para tus problemas de salud, ¡has venido al lugar correcto!',
     button: 'Reserva tu visita',
@@ -77,7 +77,7 @@ const content = {
   },
   en: {
     eyebrow: 'Discover our chiropractic center',
-    title: 'Visit the inside of our clinic',
+    title: 'Discover our rooms',
     intro:
       "At our center, we understand that each person is unique, and so are your health needs. We're here to guide you on your journey to wellness and help you achieve your maximum health potential. If you're looking for a natural and effective solution to your health problems, you've come to the right place!",
     button: 'Book your visit',
@@ -131,22 +131,25 @@ const c = computed(() => content[locale.value])
 </script>
 
 <template>
-  <section class="mx-auto max-w-5xl px-6 py-24 text-center">
-    <p class="text-sm font-semibold uppercase tracking-wide text-gold-dark">{{ c.eyebrow }}</p>
-    <h1 class="mx-auto mt-4 max-w-3xl text-4xl font-semibold text-forest sm:text-5xl">
-      {{ c.title }}
-    </h1>
-    <p class="mx-auto mt-6 max-w-2xl text-lg text-body/80">{{ c.intro }}</p>
-    <BaseButton :to="locale === 'es' ? '/reserva-cita' : '/en/book-appointment'" class="mt-8">{{
-      c.button
-    }}</BaseButton>
+  <section class="bg-cream px-6">
+    <div class="mx-auto grid max-w-[1280px] items-start gap-12 py-24 md:grid-cols-2">
+      <div>
+        <p class="text-sm font-medium text-gold-dark">{{ c.eyebrow }}</p>
+        <h1 class="mt-4 text-4xl font-semibold leading-[1.05] text-forest sm:text-5xl lg:text-6xl">
+          {{ c.title }}
+        </h1>
+        <p class="mt-6 text-lg text-body/80">{{ c.intro }}</p>
+        <BaseButton :to="locale === 'es' ? '/reserva-cita' : '/en/book-appointment'" class="mt-8">{{
+          c.button
+        }}</BaseButton>
+      </div>
+      <img
+        src="/assets/images/centro-sala-ajuste-2.webp"
+        alt="chiropractic adjustment room"
+        class="w-full rounded-3xl object-cover"
+      />
+    </div>
   </section>
-
-  <img
-    src="/assets/images/centro-sala-ajuste-2.webp"
-    alt="chiropractic adjustment room"
-    class="mx-auto max-w-5xl rounded-3xl px-6"
-  />
 
   <section class="mx-auto max-w-5xl space-y-20 px-6 py-24">
     <div

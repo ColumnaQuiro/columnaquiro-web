@@ -54,7 +54,14 @@ function formatDate(iso: string) {
 
 <template>
   <article v-if="post" class="mx-auto max-w-3xl px-6 py-24">
-    <p class="text-sm uppercase tracking-wide text-gold-dark">{{ formatDate(post.date) }}</p>
+    <nav class="flex items-center gap-2 text-sm text-body/60">
+      <NuxtLink :to="locale === 'es' ? '/blog' : '/en/blog'" class="hover:text-forest">{{
+        t('nav.blog')
+      }}</NuxtLink>
+      <span>›</span>
+      <span class="text-body/80">{{ post.title }}</span>
+    </nav>
+    <p class="mt-4 text-sm uppercase tracking-wide text-gold-dark">{{ formatDate(post.date) }}</p>
     <h1 class="mt-4 text-3xl font-semibold text-forest sm:text-4xl">{{ post.title }}</h1>
     <div class="mt-4 flex items-center gap-2">
       <img
