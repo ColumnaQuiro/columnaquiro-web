@@ -1,0 +1,47 @@
+export default {
+  nav: {
+    paraTi: 'Para ti',
+    queEs: 'Qué es la quiropráctica',
+    comoFunciona: 'Cómo funciona',
+    faq: 'Preguntas frecuentes',
+    paraTodos: 'Para todos',
+    sobreNosotros: 'Sobre nosotros',
+    equipo: 'Nuestro equipo',
+    centro: 'Nuestro centro',
+    contacto: 'Contacto',
+    blog: 'Blog',
+    reserva: 'Reserva tu visita',
+    openMenu: 'Abrir menú',
+  },
+  footer: {
+    tagline: 'Tu Centro Quiropráctico en Valencia',
+    sintomas: 'Síntomas',
+    horarios: 'Nuestros horarios',
+    days: {
+      lunes: 'Lunes',
+      martes: 'Martes',
+      miercoles: 'Miércoles',
+      jueves: 'Jueves',
+      viernes: 'Viernes',
+      finde: 'Sábados y domingos',
+    },
+    closed: 'Cerrado',
+    legal: {
+      privacidad: 'Política de Privacidad',
+      aviso: 'Aviso Legal',
+      cookies: 'Política de Cookies',
+    },
+  },
+  cta: {
+    heading: '¿Quieres empezar a sentirte mejor?',
+    body: 'Ya tengas una dolencia o quieras potenciar tu salud deja que te ayudemos de forma natural. ¡Nuestros pacientes han conseguido mejorar su salud y tú puedes ser el próximo!',
+    button: 'Reserva tu visita',
+  },
+  common: {
+    volverBlog: '← Volver al blog',
+    sintomasAsociados: 'Síntomas asociados',
+    preguntasFrecuentes: 'Preguntas frecuentes',
+    notFoundTitle: 'Página no encontrada',
+    notFoundLink: 'Volver al inicio',
+  },
+}

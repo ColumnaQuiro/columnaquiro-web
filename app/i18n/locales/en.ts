@@ -1,0 +1,47 @@
+export default {
+  nav: {
+    paraTi: 'For you',
+    queEs: 'What is chiropractic?',
+    comoFunciona: 'How does it work?',
+    faq: 'FAQs',
+    paraTodos: 'For everyone',
+    sobreNosotros: 'About us',
+    equipo: 'Our Team',
+    centro: 'Our Center',
+    contacto: 'Contact',
+    blog: 'Blog',
+    reserva: 'Book appointment',
+    openMenu: 'Open menu',
+  },
+  footer: {
+    tagline: 'Your Chiropractic Center in Valencia',
+    sintomas: 'Symptoms',
+    horarios: 'Our hours',
+    days: {
+      lunes: 'Monday',
+      martes: 'Tuesday',
+      miercoles: 'Wednesday',
+      jueves: 'Thursday',
+      viernes: 'Friday',
+      finde: 'Saturday and Sunday',
+    },
+    closed: 'Closed',
+    legal: {
+      privacidad: 'Privacy Policy',
+      aviso: 'Legal Notice',
+      cookies: 'Cookie Policy',
+    },
+  },
+  cta: {
+    heading: 'Do you want to start feeling better?',
+    body: 'Whether you have an illness or want to boost your health, let us help you naturally. Our patients have improved their health and you can be next!',
+    button: 'Book your visit',
+  },
+  common: {
+    volverBlog: '← Back to blog',
+    sintomasAsociados: 'Related symptoms',
+    preguntasFrecuentes: 'Frequently asked questions',
+    notFoundTitle: 'Page not found',
+    notFoundLink: 'Back to home',
+  },
+}

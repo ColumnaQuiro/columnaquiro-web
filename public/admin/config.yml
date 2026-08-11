@@ -1,0 +1,30 @@
+backend:
+  name: git-gateway
+  branch: main
+
+publish_mode: simple
+
+media_folder: "public/assets/images/blog"
+public_folder: "/assets/images/blog"
+
+i18n:
+  structure: multiple_folders
+  locales: ["es", "en"]
+  default_locale: "es"
+
+collections:
+  - name: "blog"
+    label: "Blog"
+    folder: "content/blog"
+    create: true
+    slug: "{{slug}}"
+    extension: "md"
+    i18n: true
+    fields:
+      - { label: "Título", name: "title", widget: "string", i18n: true }
+      - { label: "Slug (URL)", name: "slug", widget: "string", i18n: "duplicate", hint: "Usado en la URL: /blog/tu-slug. Debe ser el mismo en ambos idiomas." }
+      - { label: "Fecha", name: "date", widget: "datetime", format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false, i18n: "duplicate" }
+      - { label: "Resumen", name: "excerpt", widget: "text", i18n: true, hint: "Se muestra en la lista del blog, 1-2 frases." }
+      - { label: "Imagen de portada", name: "cover", widget: "image", i18n: "duplicate" }
+      - { label: "Autor/a", name: "author", widget: "string", default: "Léa Guido", i18n: "duplicate" }
+      - { label: "Contenido", name: "body", widget: "markdown", i18n: true }
