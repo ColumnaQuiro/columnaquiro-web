@@ -22,7 +22,7 @@ collections:
     i18n: true
     fields:
       - { label: "Título", name: "title", widget: "string", i18n: true }
-      - { label: "Slug (URL)", name: "slug", widget: "string", i18n: "duplicate", hint: "Usado en la URL: /blog/tu-slug. Debe ser el mismo en ambos idiomas." }
+      - { label: "Slug (URL)", name: "slug", widget: "string", i18n: true, hint: "Usado en la URL: /blog/tu-slug. Puede ser distinto en cada idioma." }
       - { label: "Fecha", name: "date", widget: "datetime", format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false, i18n: "duplicate" }
       - { label: "Resumen", name: "excerpt", widget: "text", i18n: true, hint: "Se muestra en la lista del blog, 1-2 frases." }
       - { label: "Imagen de portada", name: "cover", widget: "image", i18n: "duplicate" }
