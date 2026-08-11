@@ -2,9 +2,10 @@
 title: "Túnel Carpiano: Dolor hasta el Hombro - Causas y Soluciones"
 slug: tunel-carpiano-causas-y-soluciones
 date: 2025-11-19
-excerpt: Conoce las causas, síntomas y tratamientos del túnel carpiano. Descubre cómo la quiropráctica puede ayudarte de manera efectiva.
+excerpt: "Conoce las causas, síntomas y tratamientos del túnel carpiano. Descubre cómo la quiropráctica puede ayudarte de manera efectiva."
 cover: /assets/images/blog-tunel-carpiano.jpg
 author: Léa Guido
+
 ---
 
 ## ¿Qué es el síndrome del túnel carpiano?

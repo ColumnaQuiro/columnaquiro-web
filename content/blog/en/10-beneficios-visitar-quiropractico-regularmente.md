@@ -1,10 +1,11 @@
 ---
-title: 10 Benefits of Visiting a Chiropractor Regularly
+title: "10 Benefits of Visiting a Chiropractor Regularly"
 slug: 10-benefits-of-visiting-chiropractor-regularly
 date: 2025-10-01
-excerpt: From better posture to deeper sleep, discover why regular chiropractic visits are a smart part of preventive health care at ColumnaQuiro Valencia.
+excerpt: "From better posture to deeper sleep, discover why regular chiropractic visits are a smart part of preventive health care at ColumnaQuiro Valencia."
 cover: /assets/images/home-ajuste.jpg
 author: Léa Guido
+
 ---
 
 ## More than a fix for occasional pain

@@ -1,10 +1,11 @@
 ---
-title: ¿Es bueno el calor para las hernias discales?
+title: "¿Es bueno el calor para las hernias discales?"
 slug: es-bueno-el-calor-para-las-hernias-discales
 date: 2025-11-03
-excerpt: ¿Calor o frío para una hernia discal? Descubre cuándo ayuda cada uno, qué fase de la lesión importa y cómo se complementa con el cuidado quiropráctico.
+excerpt: "¿Calor o frío para una hernia discal? Descubre cuándo ayuda cada uno, qué fase de la lesión importa y cómo se complementa con el cuidado quiropráctico."
 cover: /assets/images/centro-sala-ajuste-2.webp
 author: Léa Guido
+
 ---
 
 ## ¿Qué es una hernia discal?

@@ -1,10 +1,11 @@
 ---
-title: Can Neck Problems Affect the Ear? Here's How and Why
+title: "Can Neck Problems Affect the Ear? Here's How and Why"
 slug: can-the-cervical-affect-the-ear
 date: 2025-10-09
-excerpt: Dizziness, a feeling of ear pressure, or ringing can sometimes be linked to the neck. Learn the connection and how chiropractic care addresses cervical dysfunction.
+excerpt: "Dizziness, a feeling of ear pressure, or ringing can sometimes be linked to the neck. Learn the connection and how chiropractic care addresses cervical dysfunction."
 cover: /assets/images/quees-intro.webp
 author: Léa Guido
+
 ---
 
 ## The connection between the neck and the ear

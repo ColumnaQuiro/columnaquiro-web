@@ -1,10 +1,11 @@
 ---
-title: Contracturas musculares lumbares: causas y alivio
+title: "Contracturas musculares lumbares: causas y alivio"
 slug: contracturas-musculares-lumbares
 date: 2025-10-24
-excerpt: Por qué aparecen las contracturas en la zona lumbar, cómo reconocerlas y qué hacer para aliviarlas con apoyo quiropráctico.
+excerpt: "Por qué aparecen las contracturas en la zona lumbar, cómo reconocerlas y qué hacer para aliviarlas con apoyo quiropráctico."
 cover: /assets/images/home-hero.jpg
 author: Léa Guido
+
 ---
 
 ## ¿Qué es una contractura lumbar?

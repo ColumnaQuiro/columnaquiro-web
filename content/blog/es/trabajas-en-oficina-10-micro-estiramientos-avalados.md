@@ -2,9 +2,10 @@
 title: "Trabajas en oficina: 10 micro estiramientos avalados por quiroprácticos que puedes hacer en tu mesa"
 slug: trabajas-en-oficina-10-micro-estiramientos-avalados
 date: 2025-11-12
-excerpt: Descubre cómo los micro estiramientos de oficina, avalados por quiroprácticos, pueden ayudarte a aliviar la tensión muscular y mejorar tu postura mientras trabajas.
+excerpt: "Descubre cómo los micro estiramientos de oficina, avalados por quiroprácticos, pueden ayudarte a aliviar la tensión muscular y mejorar tu postura mientras trabajas."
 cover: /assets/images/blog-estiramientos-oficina.jpg
 author: Léa Guido
+
 ---
 
 ## ¿Qué son los micro estiramientos?

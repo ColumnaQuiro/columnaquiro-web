@@ -1,10 +1,11 @@
 ---
-title: Pros y contras de la quiropráctica: una visión honesta
+title: "Pros y contras de la quiropráctica: una visión honesta"
 slug: pros-y-contras-de-la-quiropractica
 date: 2025-10-15
-excerpt: Un repaso honesto y equilibrado a los beneficios reales de la quiropráctica y también a sus límites, para que decidas con información. ColumnaQuiro Valencia.
+excerpt: "Un repaso honesto y equilibrado a los beneficios reales de la quiropráctica y también a sus límites, para que decidas con información. ColumnaQuiro Valencia."
 cover: /assets/images/home-hero.jpg
 author: Léa Guido
+
 ---
 
 ## Por qué escribo este artículo

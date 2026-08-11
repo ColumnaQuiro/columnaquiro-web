@@ -1,10 +1,11 @@
 ---
-title: Coxarthrosis: symptoms and benefits of chiropractic care
+title: "Coxarthrosis: symptoms and benefits of chiropractic care"
 slug: coxarthrosis-symptoms-and-benefits-of-chiropractic
 date: 2025-10-25
-excerpt: What coxarthrosis is, how to recognize its symptoms, and how chiropractic care can help improve hip mobility and comfort.
+excerpt: "What coxarthrosis is, how to recognize its symptoms, and how chiropractic care can help improve hip mobility and comfort."
 cover: /assets/images/category-tercera-edad.webp
 author: Léa Guido
+
 ---
 
 ## What is coxarthrosis?

@@ -1,10 +1,11 @@
 ---
-title: Differences between arthritis and osteoarthritis
+title: "Differences between arthritis and osteoarthritis"
 slug: differences-between-arthritis-and-osteoarthritis
 date: 2025-11-12
-excerpt: Discover the differences between arthritis and osteoarthritis, along with their symptoms and treatments.
+excerpt: "Discover the differences between arthritis and osteoarthritis, along with their symptoms and treatments."
 cover: /assets/images/blog-artritis-artrosis.jpg
 author: Léa Guido
+
 ---
 
 ## What is arthritis?

@@ -1,10 +1,11 @@
 ---
-title: Cómo elegir un buen quiropráctico en Valencia
+title: "Cómo elegir un buen quiropráctico en Valencia"
 slug: los-mejores-quiropracticos-valencia
 date: 2025-10-06
-excerpt: Guía práctica para elegir un buen quiropráctico en Valencia: qué formación exigir, qué preguntas hacer y qué señales de alarma evitar antes de tu primera visita.
+excerpt: "Guía práctica para elegir un buen quiropráctico en Valencia: qué formación exigir, qué preguntas hacer y qué señales de alarma evitar antes de tu primera visita."
 cover: /assets/images/comofunciona-header.webp
 author: Léa Guido
+
 ---
 
 ## Por qué la elección del profesional importa

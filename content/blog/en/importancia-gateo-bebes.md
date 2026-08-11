@@ -1,10 +1,11 @@
 ---
-title: The importance of crawling in infant development
+title: "The importance of crawling in infant development"
 slug: importance-crawling-infants
 date: 2025-11-05
-excerpt: Crawling is a key stage in a baby's motor and sensory development. Discover why it matters so much and how to encourage it at home, from ColumnaQuiro Valencia.
+excerpt: "Crawling is a key stage in a baby's motor and sensory development. Discover why it matters so much and how to encourage it at home, from ColumnaQuiro Valencia."
 cover: /assets/images/category-ninos.webp
 author: Léa Guido
+
 ---
 
 ## Why is crawling so important?

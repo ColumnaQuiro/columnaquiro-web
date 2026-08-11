@@ -1,10 +1,11 @@
 ---
-title: Quiropráctica para el vértigo: una opción de apoyo natural
+title: "Quiropráctica para el vértigo: una opción de apoyo natural"
 slug: quiropractica-para-vertigo-solucion-natural-y-efectiva
 date: 2025-10-14
-excerpt: El vértigo puede tener muchas causas. Descubre cuándo el origen es cervical y cómo la quiropráctica puede ayudarte como apoyo natural. ColumnaQuiro Valencia.
+excerpt: "El vértigo puede tener muchas causas. Descubre cuándo el origen es cervical y cómo la quiropráctica puede ayudarte como apoyo natural. ColumnaQuiro Valencia."
 cover: /assets/images/quees-intro.webp
 author: Léa Guido
+
 ---
 
 ## El vértigo puede tener muchas causas

@@ -1,10 +1,11 @@
 ---
-title: Respiración nasal vs. respiración bucal: por qué importa tanto
+title: "Respiración nasal vs. respiración bucal: por qué importa tanto"
 slug: respiracion-nasal-vs-respiracion-bucal
 date: 2025-11-05
-excerpt: ¿Respiras por la boca sin darte cuenta? Descubre por qué la respiración nasal es tan importante para tu descanso, tu postura y el desarrollo facial, según ColumnaQuiro Valencia.
+excerpt: "¿Respiras por la boca sin darte cuenta? Descubre por qué la respiración nasal es tan importante para tu descanso, tu postura y el desarrollo facial, según ColumnaQuiro Valencia."
 cover: /assets/images/comofunciona-header.webp
 author: Léa Guido
+
 ---
 
 ## Respiración nasal vs. respiración bucal: ¿por qué importa?

@@ -1,10 +1,11 @@
 ---
-title: Is heat good for herniated discs?
+title: "Is heat good for herniated discs?"
 slug: is-heat-good-for-herniated-discs
 date: 2025-11-03
-excerpt: Heat or cold for a herniated disc? Find out when each one helps, why the stage of the injury matters, and how it fits together with chiropractic care.
+excerpt: "Heat or cold for a herniated disc? Find out when each one helps, why the stage of the injury matters, and how it fits together with chiropractic care."
 cover: /assets/images/centro-sala-ajuste-2.webp
 author: Léa Guido
+
 ---
 
 ## What is a herniated disc?

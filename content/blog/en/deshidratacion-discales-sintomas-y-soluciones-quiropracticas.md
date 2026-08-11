@@ -1,10 +1,11 @@
 ---
-title: Disc dehydration: symptoms and chiropractic solutions
+title: "Disc dehydration: symptoms and chiropractic solutions"
 slug: disc-dehydration-symptoms-and-chiropractic-solutions
 date: 2025-10-28
-excerpt: What disc dehydration is, why it happens with age, and how chiropractic care can help relieve symptoms and improve mobility.
+excerpt: "What disc dehydration is, why it happens with age, and how chiropractic care can help relieve symptoms and improve mobility."
 cover: /assets/images/centro-sala-ajuste-2.webp
 author: Léa Guido
+
 ---
 
 ## What is disc dehydration?

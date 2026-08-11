@@ -1,10 +1,11 @@
 ---
-title: Neck contracture: causes, symptoms, and solutions
+title: "Neck contracture: causes, symptoms, and solutions"
 slug: neck-contracture
 date: 2025-10-23
-excerpt: What a neck contracture is, why it happens, and how chiropractic care can help relieve it. Practical advice from ColumnaQuiro Valencia.
+excerpt: "What a neck contracture is, why it happens, and how chiropractic care can help relieve it. Practical advice from ColumnaQuiro Valencia."
 cover: /assets/images/centro-sala-ajustes.webp
 author: Léa Guido
+
 ---
 
 ## What is a neck contracture?

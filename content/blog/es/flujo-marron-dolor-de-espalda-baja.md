@@ -1,10 +1,11 @@
 ---
-title: Flujo marrón y dolor de espalda baja en el embarazo: qué debes saber
+title: "Flujo marrón y dolor de espalda baja en el embarazo: qué debes saber"
 slug: flujo-marron-dolor-de-espalda-baja
 date: 2025-10-08
-excerpt: El flujo marrón en el embarazo debe evaluarlo siempre tu médico. Aquí nos centramos en el dolor lumbar del embarazo, sus causas y cómo la quiropráctica puede ayudarte.
+excerpt: "El flujo marrón en el embarazo debe evaluarlo siempre tu médico. Aquí nos centramos en el dolor lumbar del embarazo, sus causas y cómo la quiropráctica puede ayudarte."
 cover: /assets/images/category-embarazadas.webp
 author: Léa Guido
+
 ---
 
 ## Primero, lo más importante: el flujo marrón debe evaluarlo tu médico

@@ -1,10 +1,11 @@
 ---
-title: ¿Es malo que te crujan los huesos? Descubre la verdad
+title: "¿Es malo que te crujan los huesos? Descubre la verdad"
 slug: es-malo-que-te-crujan-los-huesos-descubre-la-verdad
 date: 2025-11-03
-excerpt: ¿Te crujen las articulaciones al moverte? Descubre qué es la crepitación, por qué ocurre y cuándo ese sonido merece la atención de un profesional.
+excerpt: "¿Te crujen las articulaciones al moverte? Descubre qué es la crepitación, por qué ocurre y cuándo ese sonido merece la atención de un profesional."
 cover: /assets/images/comofunciona-header.webp
 author: Léa Guido
+
 ---
 
 ## ¿Qué es la crepitación articular?

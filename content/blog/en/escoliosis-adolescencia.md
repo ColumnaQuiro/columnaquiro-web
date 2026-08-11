@@ -1,10 +1,11 @@
 ---
-title: Adolescent Scoliosis: Signs Parents Should Watch For
+title: "Adolescent Scoliosis: Signs Parents Should Watch For"
 slug: adolescent-scoliosis
 date: 2025-10-02
-excerpt: Scoliosis often becomes noticeable during the teenage growth spurt. Learn the warning signs and how chiropractic care can support posture alongside medical follow-up.
+excerpt: "Scoliosis often becomes noticeable during the teenage growth spurt. Learn the warning signs and how chiropractic care can support posture alongside medical follow-up."
 cover: /assets/images/category-ninos.webp
 author: Léa Guido
+
 ---
 
 ## What is scoliosis, and why does it show up in the teen years?

@@ -1,10 +1,11 @@
 ---
-title: Is it bad when your bones keep crunching?
+title: "Is it bad when your bones keep crunching?"
 slug: is-it-bad-to-have-your-bones-crunching
 date: 2025-11-03
-excerpt: Do your joints crack when you move? Find out what crepitus is, why it happens, and when that sound is worth a professional's attention.
+excerpt: "Do your joints crack when you move? Find out what crepitus is, why it happens, and when that sound is worth a professional's attention."
 cover: /assets/images/comofunciona-header.webp
 author: Léa Guido
+
 ---
 
 ## What is joint crepitus?

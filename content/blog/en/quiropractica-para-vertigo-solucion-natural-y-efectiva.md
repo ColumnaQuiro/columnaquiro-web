@@ -1,10 +1,11 @@
 ---
-title: Chiropractic care for vertigo: a natural support option
+title: "Chiropractic care for vertigo: a natural support option"
 slug: chiropractic-for-vertigo
 date: 2025-10-14
-excerpt: Vertigo can have many causes. Learn when the origin is cervical and how chiropractic care can help as a natural support option. At ColumnaQuiro Valencia.
+excerpt: "Vertigo can have many causes. Learn when the origin is cervical and how chiropractic care can help as a natural support option. At ColumnaQuiro Valencia."
 cover: /assets/images/quees-intro.webp
 author: Léa Guido
+
 ---
 
 ## Vertigo can have many causes

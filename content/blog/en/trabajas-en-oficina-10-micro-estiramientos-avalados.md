@@ -2,9 +2,10 @@
 title: "Work in an office? 10 chiropractor-approved micro-stretches you can do at your desk"
 slug: 10-chiropractor-backed-micro-stretches-you-can-do-on-your-desk
 date: 2025-11-12
-excerpt: Discover how chiropractor-approved office micro-stretches can help relieve muscle tension and improve your posture while you work.
+excerpt: "Discover how chiropractor-approved office micro-stretches can help relieve muscle tension and improve your posture while you work."
 cover: /assets/images/blog-estiramientos-oficina.jpg
 author: Léa Guido
+
 ---
 
 ## What are micro-stretches?

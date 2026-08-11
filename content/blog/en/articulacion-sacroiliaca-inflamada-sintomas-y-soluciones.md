@@ -1,10 +1,11 @@
 ---
-title: Inflamed Sacroiliac Joint: Symptoms and Solutions
+title: "Inflamed Sacroiliac Joint: Symptoms and Solutions"
 slug: solutions-for-inflamed-sacroiliac-joint
 date: 2025-10-04
-excerpt: Learn the symptoms of sacroiliac joint inflammation, its most common causes, and how chiropractic care can help restore mobility and ease the pain.
+excerpt: "Learn the symptoms of sacroiliac joint inflammation, its most common causes, and how chiropractic care can help restore mobility and ease the pain."
 cover: /assets/images/centro-sala-ajuste-2.webp
 author: Léa Guido
+
 ---
 
 ## What is the sacroiliac joint?

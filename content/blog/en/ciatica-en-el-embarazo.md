@@ -1,10 +1,11 @@
 ---
-title: Sciatica in pregnancy
+title: "Sciatica in pregnancy"
 slug: sciatica-in-pregnancy
 date: 2025-11-19
-excerpt: Find out why sciatica shows up during pregnancy, how to ease the pain, and whether walking helps. Safe advice and care at ColumnaQuiro Valencia.
+excerpt: "Find out why sciatica shows up during pregnancy, how to ease the pain, and whether walking helps. Safe advice and care at ColumnaQuiro Valencia."
 cover: /assets/images/blog-ciatica-embarazo.jpg
 author: Léa Guido
+
 ---
 
 ## Why does sciatica appear during pregnancy?

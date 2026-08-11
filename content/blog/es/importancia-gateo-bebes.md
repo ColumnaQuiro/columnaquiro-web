@@ -1,10 +1,11 @@
 ---
-title: La importancia del gateo en el desarrollo del bebé
+title: "La importancia del gateo en el desarrollo del bebé"
 slug: importancia-gateo-bebes
 date: 2025-11-05
-excerpt: El gateo es una etapa clave en el desarrollo motor y sensorial del bebé. Descubre por qué importa tanto y cómo fomentarlo en casa, según ColumnaQuiro Valencia.
+excerpt: "El gateo es una etapa clave en el desarrollo motor y sensorial del bebé. Descubre por qué importa tanto y cómo fomentarlo en casa, según ColumnaQuiro Valencia."
 cover: /assets/images/category-ninos.webp
 author: Léa Guido
+
 ---
 
 ## ¿Por qué es tan importante el gateo?

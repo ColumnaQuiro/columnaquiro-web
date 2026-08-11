@@ -1,10 +1,11 @@
 ---
-title: Cervical rectification: symptoms and chiropractic care
+title: "Cervical rectification: symptoms and chiropractic care"
 slug: cervical-rectification-symptoms-and-chiropractic-care
 date: 2025-10-13
-excerpt: What cervical rectification is, its most common symptoms, and how chiropractic care helps restore the neck's natural curve. At ColumnaQuiro Valencia.
+excerpt: "What cervical rectification is, its most common symptoms, and how chiropractic care helps restore the neck's natural curve. At ColumnaQuiro Valencia."
 cover: /assets/images/centro-sala-ajuste-2.webp
 author: Léa Guido
+
 ---
 
 ## What is cervical rectification?

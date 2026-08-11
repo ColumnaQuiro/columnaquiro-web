@@ -1,10 +1,11 @@
 ---
-title: Miedo a tener esclerosis múltiple: cuando la ansiedad por la salud se apodera de ti
+title: "Miedo a tener esclerosis múltiple: cuando la ansiedad por la salud se apodera de ti"
 slug: hipocondria-esclerosis-multiple
 date: 2025-11-04
-excerpt: ¿Te preocupa poder tener esclerosis múltiple? Te explicamos por qué esta ansiedad es más común de lo que crees, qué solo puede confirmar un neurólogo y el papel real de la quiropráctica.
+excerpt: "¿Te preocupa poder tener esclerosis múltiple? Te explicamos por qué esta ansiedad es más común de lo que crees, qué solo puede confirmar un neurólogo y el papel real de la quiropráctica."
 cover: /assets/images/quees-intro.webp
 author: Léa Guido
+
 ---
 
 ## Cuando el miedo a tener esclerosis múltiple no te deja tranquilo

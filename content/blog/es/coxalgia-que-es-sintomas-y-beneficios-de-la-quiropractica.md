@@ -2,9 +2,10 @@
 title: "Coxalgia: Qué es, síntomas y beneficios de la quiropráctica"
 slug: coxalgia-que-es-sintomas-y-beneficios-de-la-quiropractica
 date: 2025-11-19
-excerpt: Aprende todo sobre la coxalgia, el dolor de cadera, sus causas y cómo la quiropráctica puede ayudarte a aliviar este problema de forma natural y efectiva.
+excerpt: "Aprende todo sobre la coxalgia, el dolor de cadera, sus causas y cómo la quiropráctica puede ayudarte a aliviar este problema de forma natural y efectiva."
 cover: /assets/images/blog-coxalgia.jpg
 author: Léa Guido
+
 ---
 
 ## ¿Qué es la coxalgia?

@@ -1,10 +1,11 @@
 ---
-title: Escoliosis en la adolescencia: señales que no debes ignorar
+title: "Escoliosis en la adolescencia: señales que no debes ignorar"
 slug: escoliosis-adolescencia
 date: 2025-10-02
-excerpt: La escoliosis suele aparecer durante el estirón adolescente. Te explicamos qué señales vigilar y cómo la quiropráctica puede apoyar la postura y el bienestar de tu hijo/a.
+excerpt: "La escoliosis suele aparecer durante el estirón adolescente. Te explicamos qué señales vigilar y cómo la quiropráctica puede apoyar la postura y el bienestar de tu hijo/a."
 cover: /assets/images/category-ninos.webp
 author: Léa Guido
+
 ---
 
 ## ¿Qué es la escoliosis y por qué aparece en la adolescencia?

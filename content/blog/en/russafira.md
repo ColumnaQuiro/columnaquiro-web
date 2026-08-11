@@ -2,9 +2,10 @@
 title: "Russafira: Walking Through Ruzafa as Part of Your Wellbeing"
 slug: russafira
 date: 2025-11-10
-excerpt: Ruzafa is made for walking. Its streets, markets, and squares are the perfect complement to gentle movement after a chiropractic adjustment. Here's why a stroll through this neighborhood adds to your wellbeing.
+excerpt: "Ruzafa is made for walking. Its streets, markets, and squares are the perfect complement to gentle movement after a chiropractic adjustment. Here's why a stroll through this neighborhood adds to your wellbeing."
 cover: /assets/images/home-hero.jpg
 author: Léa Guido
+
 ---
 
 ## A neighborhood made for walking

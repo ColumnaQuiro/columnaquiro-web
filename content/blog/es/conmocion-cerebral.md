@@ -1,10 +1,11 @@
 ---
-title: Conmoción cerebral: qué hacer y cómo cuidar el cuello en la recuperación
+title: "Conmoción cerebral: qué hacer y cómo cuidar el cuello en la recuperación"
 slug: conmocion-cerebral
 date: 2025-10-22
-excerpt: Qué es una conmoción cerebral, cuándo acudir a urgencias y cómo la quiropráctica puede apoyar la recuperación cervical una vez el médico lo autorice.
+excerpt: "Qué es una conmoción cerebral, cuándo acudir a urgencias y cómo la quiropráctica puede apoyar la recuperación cervical una vez el médico lo autorice."
 cover: /assets/images/centro-sala-ajuste-2.webp
 author: Léa Guido
+
 ---
 
 ## Antes de nada: si sospechas una conmoción, busca atención médica

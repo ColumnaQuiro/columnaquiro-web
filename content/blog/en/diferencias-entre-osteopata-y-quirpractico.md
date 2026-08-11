@@ -1,10 +1,11 @@
 ---
-title: Chiropractors vs. osteopaths: what's the difference?
+title: "Chiropractors vs. osteopaths: what's the difference?"
 slug: difference-chiropractors-vs-osteopaths
 date: 2025-10-29
-excerpt: Chiropractor or osteopath? Discover the differences in training, philosophy, and technique between the two disciplines to choose what suits you best.
+excerpt: "Chiropractor or osteopath? Discover the differences in training, philosophy, and technique between the two disciplines to choose what suits you best."
 cover: /assets/images/quees-intro.webp
 author: Léa Guido
+
 ---
 
 ## Two disciplines with a similar goal

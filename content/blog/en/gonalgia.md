@@ -1,10 +1,11 @@
 ---
-title: Gonalgia: understanding knee pain
+title: "Gonalgia: understanding knee pain"
 slug: gonalgia-understanding-knee-pain
 date: 2025-11-04
-excerpt: Gonalgia is the medical term for knee pain. Discover its most common causes and how chiropractic care can help by looking after the whole movement chain.
+excerpt: "Gonalgia is the medical term for knee pain. Discover its most common causes and how chiropractic care can help by looking after the whole movement chain."
 cover: /assets/images/centro-sala-ajustes.webp
 author: Léa Guido
+
 ---
 
 ## What is gonalgia?

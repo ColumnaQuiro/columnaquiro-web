@@ -1,10 +1,11 @@
 ---
-title: Trigger Points in the Back: Symptoms and Chiropractic Solutions
+title: "Trigger Points in the Back: Symptoms and Chiropractic Solutions"
 slug: solutions-trigger-point-on-the-back
 date: 2025-11-08
-excerpt: Trigger points in the back cause localized pain and stubborn muscle knots. Learn how to spot them and how chiropractic care can help release them.
+excerpt: "Trigger points in the back cause localized pain and stubborn muscle knots. Learn how to spot them and how chiropractic care can help release them."
 cover: /assets/images/centro-sala-ajustes.webp
 author: Léa Guido
+
 ---
 
 ## What is a trigger point?

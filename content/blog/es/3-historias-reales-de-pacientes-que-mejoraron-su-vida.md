@@ -1,10 +1,11 @@
 ---
-title: 3 Historias Reales de Pacientes que Mejoraron Su Vida
+title: "3 Historias Reales de Pacientes que Mejoraron Su Vida"
 slug: 3-historias-reales-de-pacientes-que-mejoraron-su-vida
 date: 2025-11-12
-excerpt: A través de experiencias reales de personas que superaron el dolor crónico, comprenderás cómo la atención quiropráctica puede ayudarte a recuperar la movilidad, aliviar tensiones y reconectar con tu entorno y tu vida, todo de forma natural y personalizada.
+excerpt: "A través de experiencias reales de personas que superaron el dolor crónico, comprenderás cómo la atención quiropráctica puede ayudarte a recuperar la movilidad, aliviar tensiones y reconectar con tu entorno y tu vida, todo de forma natural y personalizada."
 cover: /assets/images/blog-historias-pacientes.jpg
 author: Léa Guido
+
 ---
 
 ## Un camino hacia la recuperación

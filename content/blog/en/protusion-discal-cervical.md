@@ -1,10 +1,11 @@
 ---
-title: Cervical Disc Protrusion: What It Is, Symptoms, and How Chiropractic Care Can Help
+title: "Cervical Disc Protrusion: What It Is, Symptoms, and How Chiropractic Care Can Help"
 slug: cervical-disc-protrusion
 date: 2025-10-10
-excerpt: Cervical disc protrusion can cause neck pain and tingling down the arm. Learn the symptoms and how chiropractic care can support your recovery.
+excerpt: "Cervical disc protrusion can cause neck pain and tingling down the arm. Learn the symptoms and how chiropractic care can support your recovery."
 cover: /assets/images/centro-sala-ajustes.webp
 author: Léa Guido
+
 ---
 
 ## What is a cervical disc protrusion?

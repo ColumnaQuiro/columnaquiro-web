@@ -1,10 +1,11 @@
 ---
-title: Quiropráctica como apoyo en la escoliosis
+title: "Quiropráctica como apoyo en la escoliosis"
 slug: quiropractica-clave-para-la-escoliosis
 date: 2025-10-16
-excerpt: La escoliosis requiere seguimiento especializado. Descubre cómo la quiropráctica puede ser un apoyo valioso junto al tratamiento indicado por tu especialista.
+excerpt: "La escoliosis requiere seguimiento especializado. Descubre cómo la quiropráctica puede ser un apoyo valioso junto al tratamiento indicado por tu especialista."
 cover: /assets/images/comofunciona-header.webp
 author: Léa Guido
+
 ---
 
 ## ¿Qué es la escoliosis?

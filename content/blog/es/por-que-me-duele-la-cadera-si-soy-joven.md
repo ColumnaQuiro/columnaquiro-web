@@ -1,10 +1,11 @@
 ---
-title: ¿Por qué me duele la cadera si soy joven?
+title: "¿Por qué me duele la cadera si soy joven?"
 slug: por-que-me-duele-la-cadera-si-soy-joven
 date: 2025-11-07
-excerpt: El dolor de cadera no es solo cosa de mayores. Descubre las causas más comunes en personas jóvenes y activas, y cuándo conviene acudir a un profesional.
+excerpt: "El dolor de cadera no es solo cosa de mayores. Descubre las causas más comunes en personas jóvenes y activas, y cuándo conviene acudir a un profesional."
 cover: /assets/images/quees-intro.webp
 author: Léa Guido
+
 ---
 
 ## El dolor de cadera no es solo "cosa de mayores"

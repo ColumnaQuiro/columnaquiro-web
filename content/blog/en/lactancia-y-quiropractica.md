@@ -1,10 +1,11 @@
 ---
-title: Breastfeeding and Chiropractic Care: Protecting Your Back While Nursing
+title: "Breastfeeding and Chiropractic Care: Protecting Your Back While Nursing"
 slug: breastfeeding-and-chiropractic
 date: 2025-10-07
-excerpt: Hours of breastfeeding take a toll on the neck, shoulders, and back. Learn posture tips and how chiropractic care can support nursing mothers.
+excerpt: "Hours of breastfeeding take a toll on the neck, shoulders, and back. Learn posture tips and how chiropractic care can support nursing mothers."
 cover: /assets/images/category-embarazadas.webp
 author: Léa Guido
+
 ---
 
 ## Why breastfeeding affects the back

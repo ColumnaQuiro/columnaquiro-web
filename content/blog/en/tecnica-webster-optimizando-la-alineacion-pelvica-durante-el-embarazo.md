@@ -2,9 +2,10 @@
 title: "The Webster Technique: Optimizing Pelvic Alignment During Pregnancy"
 slug: webster-technique
 date: 2025-11-11
-excerpt: The Webster Technique is a specific chiropractic method for pregnancy that helps optimize the mother's pelvic function. Here's what it involves.
+excerpt: "The Webster Technique is a specific chiropractic method for pregnancy that helps optimize the mother's pelvic function. Here's what it involves."
 cover: /assets/images/category-embarazadas.webp
 author: Léa Guido
+
 ---
 
 ## What is the Webster Technique?

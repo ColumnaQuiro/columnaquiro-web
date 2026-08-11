@@ -2,9 +2,10 @@
 title: "Preparación quiropráctica para la Maratón de Valencia: cómo evitar lesiones antes, durante y después"
 slug: preparacion-quiropractica-para-la-maraton-de-valencia
 date: 2025-11-12
-excerpt: Descubre cómo la quiropráctica deportiva puede convertirse en tu mejor aliada durante la preparación, ejecución y recuperación de la Maratón de Valencia.
+excerpt: "Descubre cómo la quiropráctica deportiva puede convertirse en tu mejor aliada durante la preparación, ejecución y recuperación de la Maratón de Valencia."
 cover: /assets/images/blog-maraton-valencia.jpeg
 author: Léa Guido
+
 ---
 
 ## Preparación quiropráctica para la maratón

@@ -1,10 +1,11 @@
 ---
-title: Is it good to crack your own back?
+title: "Is it good to crack your own back?"
 slug: is-it-good-to-crunch-your-back
 date: 2025-11-02
-excerpt: Is cracking your own back good or bad? We explain what that popping sound really is, how it differs from a chiropractic adjustment, and when it can hide an underlying problem.
+excerpt: "Is cracking your own back good or bad? We explain what that popping sound really is, how it differs from a chiropractic adjustment, and when it can hide an underlying problem."
 cover: /assets/images/home-ajuste.jpg
 author: Léa Guido
+
 ---
 
 ## What is that "crack" in your back, really?

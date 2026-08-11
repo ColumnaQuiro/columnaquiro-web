@@ -1,10 +1,11 @@
 ---
-title: ¿Puede la cervical afectar al oído? Descubre cómo y por qué
+title: "¿Puede la cervical afectar al oído? Descubre cómo y por qué"
 slug: puede-la-cervical-afectar-el-oido-descubre-como-y-por-que
 date: 2025-10-09
-excerpt: Mareos, sensación de presión o pitidos en el oído pueden tener relación con problemas cervicales. Te explicamos la conexión y cómo puede ayudar la quiropráctica.
+excerpt: "Mareos, sensación de presión o pitidos en el oído pueden tener relación con problemas cervicales. Te explicamos la conexión y cómo puede ayudar la quiropráctica."
 cover: /assets/images/quees-intro.webp
 author: Léa Guido
+
 ---
 
 ## La conexión entre el cuello y el oído

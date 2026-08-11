@@ -1,10 +1,11 @@
 ---
-title: Deshidratación discal: síntomas y soluciones quiroprácticas
+title: "Deshidratación discal: síntomas y soluciones quiroprácticas"
 slug: deshidratacion-discales-sintomas-y-soluciones-quiropracticas
 date: 2025-10-28
-excerpt: Qué es la deshidratación discal, por qué aparece con la edad y cómo la quiropráctica puede ayudar a aliviar sus síntomas y mejorar la movilidad.
+excerpt: "Qué es la deshidratación discal, por qué aparece con la edad y cómo la quiropráctica puede ayudar a aliviar sus síntomas y mejorar la movilidad."
 cover: /assets/images/centro-sala-ajuste-2.webp
 author: Léa Guido
+
 ---
 
 ## ¿Qué es la deshidratación discal?

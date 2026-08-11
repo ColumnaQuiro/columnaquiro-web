@@ -1,10 +1,11 @@
 ---
-title: ¿Qué hace un quiropráctico? Técnicas y beneficios
+title: "¿Qué hace un quiropráctico? Técnicas y beneficios"
 slug: que-hace-un-quiropractico-beneficios-y-tecnicas
 date: 2025-11-09
-excerpt: Descubre qué hace realmente un quiropráctico, qué técnicas utiliza y qué beneficios puede aportar a tu salud musculoesquelética.
+excerpt: "Descubre qué hace realmente un quiropráctico, qué técnicas utiliza y qué beneficios puede aportar a tu salud musculoesquelética."
 cover: /assets/images/comofunciona-header.webp
 author: Léa Guido
+
 ---
 
 ## ¿Qué hace un quiropráctico exactamente?

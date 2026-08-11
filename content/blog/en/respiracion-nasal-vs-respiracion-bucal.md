@@ -1,10 +1,11 @@
 ---
-title: Nasal breathing vs. mouth breathing: why it matters so much
+title: "Nasal breathing vs. mouth breathing: why it matters so much"
 slug: nasal-breathing-vs-mouth-breathing
 date: 2025-11-05
-excerpt: Do you breathe through your mouth without noticing? Discover why nasal breathing matters so much for your rest, posture, and facial development, from ColumnaQuiro Valencia.
+excerpt: "Do you breathe through your mouth without noticing? Discover why nasal breathing matters so much for your rest, posture, and facial development, from ColumnaQuiro Valencia."
 cover: /assets/images/comofunciona-header.webp
 author: Léa Guido
+
 ---
 
 ## Nasal breathing vs. mouth breathing: why does it matter?

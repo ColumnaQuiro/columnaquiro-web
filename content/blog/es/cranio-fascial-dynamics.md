@@ -1,10 +1,11 @@
 ---
-title: Dinámica craneofascial: qué es el sistema fascial y cómo influye en tu movilidad
+title: "Dinámica craneofascial: qué es el sistema fascial y cómo influye en tu movilidad"
 slug: cranio-fascial-dynamics
 date: 2025-10-26
-excerpt: Descubre qué es la fascia, por qué se tensiona y cómo las técnicas craneofasciales usadas en quiropráctica pueden ayudarte a moverte con más libertad.
+excerpt: "Descubre qué es la fascia, por qué se tensiona y cómo las técnicas craneofasciales usadas en quiropráctica pueden ayudarte a moverte con más libertad."
 cover: /assets/images/quees-intro.webp
 author: Léa Guido
+
 ---
 
 ## ¿Qué es la fascia?

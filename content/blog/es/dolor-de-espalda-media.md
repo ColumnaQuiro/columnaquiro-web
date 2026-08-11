@@ -1,10 +1,11 @@
 ---
-title: Dolor en la espalda media: causas y cómo tratarlo
+title: "Dolor en la espalda media: causas y cómo tratarlo"
 slug: dolor-de-espalda-media
 date: 2025-11-01
-excerpt: Descubre las causas más comunes del dolor en la espalda media, cuándo debe preocuparte y cómo la quiropráctica puede ayudarte a recuperar la movilidad en ColumnaQuiro Valencia.
+excerpt: "Descubre las causas más comunes del dolor en la espalda media, cuándo debe preocuparte y cómo la quiropráctica puede ayudarte a recuperar la movilidad en ColumnaQuiro Valencia."
 cover: /assets/images/centro-sala-ajustes.webp
 author: Léa Guido
+
 ---
 
 ## ¿Qué es el dolor de espalda media?

@@ -1,10 +1,11 @@
 ---
-title: Coxartrosis: síntomas y beneficios de la quiropráctica
+title: "Coxartrosis: síntomas y beneficios de la quiropráctica"
 slug: coxartrosis-sintomas-y-beneficios-de-la-quiropractica
 date: 2025-10-25
-excerpt: Qué es la coxartrosis, cómo reconocer sus síntomas y de qué forma la quiropráctica puede ayudar a mejorar la movilidad y el confort de la cadera.
+excerpt: "Qué es la coxartrosis, cómo reconocer sus síntomas y de qué forma la quiropráctica puede ayudar a mejorar la movilidad y el confort de la cadera."
 cover: /assets/images/category-tercera-edad.webp
 author: Léa Guido
+
 ---
 
 ## ¿Qué es la coxartrosis?

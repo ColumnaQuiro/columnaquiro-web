@@ -2,9 +2,10 @@
 title: "Valencia straightens up: why chiropractic is gaining ground against back pain"
 slug: valencia-se-endereza-por-que-la-quiropractica-gana-terreno-frente-al-dolor-de-espalda
 date: 2025-11-19
-excerpt: Learn the causes of back pain, its most common symptoms, and how chiropractic care can help ease discomfort, prevent future injury, and naturally improve your quality of life.
+excerpt: "Learn the causes of back pain, its most common symptoms, and how chiropractic care can help ease discomfort, prevent future injury, and naturally improve your quality of life."
 cover: /assets/images/blog-valencia-endereza.jpg
 author: Léa Guido
+
 ---
 
 ## What is chiropractic care?

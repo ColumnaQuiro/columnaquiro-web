@@ -1,10 +1,11 @@
 ---
-title: Cervical lordosis: what it is and how to care for it
+title: "Cervical lordosis: what it is and how to care for it"
 slug: cervical-lordosis
 date: 2025-10-11
-excerpt: Learn what cervical lordosis is, why the neck's natural curve can flatten or become exaggerated, and how chiropractic care helps restore balance. At ColumnaQuiro Valencia.
+excerpt: "Learn what cervical lordosis is, why the neck's natural curve can flatten or become exaggerated, and how chiropractic care helps restore balance. At ColumnaQuiro Valencia."
 cover: /assets/images/centro-sala-ajustes.webp
 author: Léa Guido
+
 ---
 
 ## What is cervical lordosis?

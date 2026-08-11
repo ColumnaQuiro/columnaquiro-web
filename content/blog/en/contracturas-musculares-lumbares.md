@@ -1,10 +1,11 @@
 ---
-title: Lumbar muscle contractures: causes and relief
+title: "Lumbar muscle contractures: causes and relief"
 slug: lumbar-muscle-contractures
 date: 2025-10-24
-excerpt: Why lumbar muscle contractures happen, how to recognize them, and what to do to relieve them with chiropractic support.
+excerpt: "Why lumbar muscle contractures happen, how to recognize them, and what to do to relieve them with chiropractic support."
 cover: /assets/images/home-hero.jpg
 author: Léa Guido
+
 ---
 
 ## What is a lumbar contracture?

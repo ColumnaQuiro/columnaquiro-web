@@ -1,10 +1,11 @@
 ---
-title: Cervical migraine: what it is and how to relieve it
+title: "Cervical migraine: what it is and how to relieve it"
 slug: cervical-migraine
 date: 2025-10-12
-excerpt: Learn what a cervical (cervicogenic) headache is, why the neck can trigger head pain, and how chiropractic care can help relieve it. At ColumnaQuiro Valencia.
+excerpt: "Learn what a cervical (cervicogenic) headache is, why the neck can trigger head pain, and how chiropractic care can help relieve it. At ColumnaQuiro Valencia."
 cover: /assets/images/home-ajuste.jpg
 author: Léa Guido
+
 ---
 
 ## What is a cervical migraine?

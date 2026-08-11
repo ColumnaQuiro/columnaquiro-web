@@ -1,10 +1,11 @@
 ---
-title: ¿Es bueno crujirse los dedos? Descubre la verdad
+title: "¿Es bueno crujirse los dedos? Descubre la verdad"
 slug: es-bueno-crujirse-los-dedos-descubre-la-verdad-aqui
 date: 2025-11-02
-excerpt: ¿Crujirte los dedos provoca artrosis? Te explicamos qué dice realmente la ciencia sobre este hábito tan común y qué debes tener en cuenta.
+excerpt: "¿Crujirte los dedos provoca artrosis? Te explicamos qué dice realmente la ciencia sobre este hábito tan común y qué debes tener en cuenta."
 cover: /assets/images/quees-intro.webp
 author: Léa Guido
+
 ---
 
 ## ¿Qué produce el sonido al crujir los nudillos?

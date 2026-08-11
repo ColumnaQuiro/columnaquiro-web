@@ -1,10 +1,11 @@
 ---
-title: Why Does My Hip Hurt If I'm Young?
+title: "Why Does My Hip Hurt If I'm Young?"
 slug: why-does-my-hip-hurt-if-im-young
 date: 2025-11-07
-excerpt: Hip pain isn't just something that happens with age. Learn the most common causes in young, active people, and when it's time to see a professional.
+excerpt: "Hip pain isn't just something that happens with age. Learn the most common causes in young, active people, and when it's time to see a professional."
 cover: /assets/images/quees-intro.webp
 author: Léa Guido
+
 ---
 
 ## Hip pain isn't only an "older person's" problem

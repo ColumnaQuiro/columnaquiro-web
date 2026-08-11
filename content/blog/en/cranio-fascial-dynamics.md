@@ -1,10 +1,11 @@
 ---
-title: Craniofascial dynamics: what the fascial system is and how it affects your mobility
+title: "Craniofascial dynamics: what the fascial system is and how it affects your mobility"
 slug: fascial-dynamics
 date: 2025-10-26
-excerpt: Discover what fascia is, why it becomes tense, and how craniofascial techniques used in chiropractic care can help you move more freely.
+excerpt: "Discover what fascia is, why it becomes tense, and how craniofascial techniques used in chiropractic care can help you move more freely."
 cover: /assets/images/quees-intro.webp
 author: Léa Guido
+
 ---
 
 ## What is fascia?

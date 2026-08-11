@@ -1,10 +1,11 @@
 ---
-title: What Does a Chiropractor Do? Techniques and Benefits
+title: "What Does a Chiropractor Do? Techniques and Benefits"
 slug: what-does-a-chiropractor-do
 date: 2025-11-09
-excerpt: Curious what a chiropractor actually does? Here's an overview of the techniques they use and the benefits they can bring to your musculoskeletal health.
+excerpt: "Curious what a chiropractor actually does? Here's an overview of the techniques they use and the benefits they can bring to your musculoskeletal health."
 cover: /assets/images/comofunciona-header.webp
 author: Léa Guido
+
 ---
 
 ## What does a chiropractor actually do?

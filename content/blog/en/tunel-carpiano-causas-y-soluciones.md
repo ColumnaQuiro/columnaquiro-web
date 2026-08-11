@@ -2,9 +2,10 @@
 title: "Carpal tunnel: pain up to the shoulder — causes and solutions"
 slug: carpal-tunnel-causes-and-solutions
 date: 2025-11-19
-excerpt: Learn the causes, symptoms, and treatments for carpal tunnel syndrome, and discover how chiropractic care can help you effectively.
+excerpt: "Learn the causes, symptoms, and treatments for carpal tunnel syndrome, and discover how chiropractic care can help you effectively."
 cover: /assets/images/blog-tunel-carpiano.jpg
 author: Léa Guido
+
 ---
 
 ## What is carpal tunnel syndrome?

@@ -2,9 +2,10 @@
 title: "Russafira: pasear por Ruzafa como parte de tu bienestar"
 slug: russafira
 date: 2025-11-10
-excerpt: Ruzafa invita a moverse; sus calles, mercados y plazas son el complemento perfecto para el movimiento suave tras un ajuste quiropráctico. Descubre por qué pasear por este barrio suma a tu bienestar.
+excerpt: "Ruzafa invita a moverse; sus calles, mercados y plazas son el complemento perfecto para el movimiento suave tras un ajuste quiropráctico. Descubre por qué pasear por este barrio suma a tu bienestar."
 cover: /assets/images/home-hero.jpg
 author: Léa Guido
+
 ---
 
 ## Un barrio que invita a caminar

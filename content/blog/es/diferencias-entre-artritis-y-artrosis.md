@@ -1,10 +1,11 @@
 ---
-title: Diferencias entre artritis y artrosis
+title: "Diferencias entre artritis y artrosis"
 slug: diferencias-entre-artritis-y-artrosis
 date: 2025-11-12
-excerpt: Descubre qué diferencias hay entre artritis y artrosis, sus síntomas y tratamientos.
+excerpt: "Descubre qué diferencias hay entre artritis y artrosis, sus síntomas y tratamientos."
 cover: /assets/images/blog-artritis-artrosis.jpg
 author: Léa Guido
+
 ---
 
 ## ¿Qué es la artritis?

@@ -1,10 +1,11 @@
 ---
-title: Coccyx pain when sitting and standing up: causes and solutions
+title: "Coccyx pain when sitting and standing up: causes and solutions"
 slug: coccyx-pain-when-sitting-and-standing-up
 date: 2025-10-17
-excerpt: Discover the most common causes of tailbone pain when sitting or standing up, and which solutions, including chiropractic care, can help. ColumnaQuiro Valencia.
+excerpt: "Discover the most common causes of tailbone pain when sitting or standing up, and which solutions, including chiropractic care, can help. ColumnaQuiro Valencia."
 cover: /assets/images/centro-sala-ajustes.webp
 author: Léa Guido
+
 ---
 
 ## What is coccydynia?

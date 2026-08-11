@@ -1,10 +1,11 @@
 ---
-title: How to choose the perfect backpack for your child
+title: "How to choose the perfect backpack for your child"
 slug: select-the-perfect-backpack-for-your-child
 date: 2025-10-20
-excerpt: A practical guide to choosing the right school backpack to protect your child's posture and spine. Tips from ColumnaQuiro Valencia.
+excerpt: "A practical guide to choosing the right school backpack to protect your child's posture and spine. Tips from ColumnaQuiro Valencia."
 cover: /assets/images/category-ninos.webp
 author: Léa Guido
+
 ---
 
 ## Why the backpack matters for their back

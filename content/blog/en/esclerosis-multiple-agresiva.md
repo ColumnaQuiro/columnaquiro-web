@@ -1,10 +1,11 @@
 ---
-title: Aggressive Multiple Sclerosis: How Chiropractic Care Can Support Neurology-Led Treatment
+title: "Aggressive Multiple Sclerosis: How Chiropractic Care Can Support Neurology-Led Treatment"
 slug: aggressive-multiple-sclerosis
 date: 2025-10-03
-excerpt: What aggressive multiple sclerosis is, and how gentle, complementary chiropractic care can support comfort and wellbeing alongside a neurologist's treatment plan.
+excerpt: "What aggressive multiple sclerosis is, and how gentle, complementary chiropractic care can support comfort and wellbeing alongside a neurologist's treatment plan."
 cover: /assets/images/centro-sala-ajustes.webp
 author: Léa Guido
+
 ---
 
 ## What is aggressive multiple sclerosis?

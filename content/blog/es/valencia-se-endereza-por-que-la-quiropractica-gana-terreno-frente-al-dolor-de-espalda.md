@@ -2,9 +2,10 @@
 title: "Valencia se endereza: ¿Por qué la quiropráctica gana terreno frente al dolor de espalda?"
 slug: valencia-se-endereza-por-que-la-quiropractica-gana-terreno-frente-al-dolor-de-espalda
 date: 2025-11-19
-excerpt: Conoce las causas del dolor de espalda, sus síntomas más comunes y cómo la quiropráctica puede ayudarte a aliviar el malestar, prevenir futuras lesiones y mejorar tu calidad de vida de forma natural.
+excerpt: "Conoce las causas del dolor de espalda, sus síntomas más comunes y cómo la quiropráctica puede ayudarte a aliviar el malestar, prevenir futuras lesiones y mejorar tu calidad de vida de forma natural."
 cover: /assets/images/blog-valencia-endereza.jpg
 author: Léa Guido
+
 ---
 
 ## ¿Qué es la quiropráctica?

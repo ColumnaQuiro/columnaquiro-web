@@ -1,10 +1,11 @@
 ---
-title: Back Pain: Causes, Warning Signs, and How Chiropractic Care Can Help
+title: "Back Pain: Causes, Warning Signs, and How Chiropractic Care Can Help"
 slug: back-pain
 date: 2025-10-05
-excerpt: Back pain is one of the most common reasons people seek care. Here are its usual causes, when to be concerned, and how chiropractic care can help.
+excerpt: "Back pain is one of the most common reasons people seek care. Here are its usual causes, when to be concerned, and how chiropractic care can help."
 cover: /assets/images/home-hero.jpg
 author: Léa Guido
+
 ---
 
 ## A very common complaint

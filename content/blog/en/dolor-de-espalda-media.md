@@ -1,10 +1,11 @@
 ---
-title: Middle back pain: common causes and how to treat it
+title: "Middle back pain: common causes and how to treat it"
 slug: right-middle-back-pain
 date: 2025-11-01
-excerpt: Learn the most common causes of pain in the middle back, when it's worth paying attention, and how chiropractic care at ColumnaQuiro Valencia can help you move better.
+excerpt: "Learn the most common causes of pain in the middle back, when it's worth paying attention, and how chiropractic care at ColumnaQuiro Valencia can help you move better."
 cover: /assets/images/centro-sala-ajustes.webp
 author: Léa Guido
+
 ---
 
 ## What is middle back pain?

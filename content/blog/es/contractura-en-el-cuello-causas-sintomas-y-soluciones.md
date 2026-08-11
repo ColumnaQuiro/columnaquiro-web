@@ -1,10 +1,11 @@
 ---
-title: Contractura en el cuello: causas, síntomas y soluciones
+title: "Contractura en el cuello: causas, síntomas y soluciones"
 slug: contractura-en-el-cuello-causas-sintomas-y-soluciones
 date: 2025-10-23
-excerpt: Qué es una contractura cervical, por qué se produce y cómo aliviarla con ayuda de la quiropráctica. Consejos prácticos de ColumnaQuiro Valencia.
+excerpt: "Qué es una contractura cervical, por qué se produce y cómo aliviarla con ayuda de la quiropráctica. Consejos prácticos de ColumnaQuiro Valencia."
 cover: /assets/images/centro-sala-ajustes.webp
 author: Léa Guido
+
 ---
 
 ## ¿Qué es una contractura en el cuello?

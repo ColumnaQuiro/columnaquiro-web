@@ -1,10 +1,11 @@
 ---
-title: Brown Discharge and Lower Back Pain in Pregnancy: What You Should Know
+title: "Brown Discharge and Lower Back Pain in Pregnancy: What You Should Know"
 slug: brown-discharge-and-lower-back-pain
 date: 2025-10-08
-excerpt: Brown discharge during pregnancy should always be checked by your doctor. Here we focus separately on pregnancy-related lower back pain and how chiropractic care can help.
+excerpt: "Brown discharge during pregnancy should always be checked by your doctor. Here we focus separately on pregnancy-related lower back pain and how chiropractic care can help."
 cover: /assets/images/category-embarazadas.webp
 author: Léa Guido
+
 ---
 
 ## First and most important: brown discharge needs medical evaluation

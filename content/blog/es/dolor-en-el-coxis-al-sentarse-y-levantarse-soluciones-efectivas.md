@@ -1,10 +1,11 @@
 ---
-title: Dolor en el cóxis al sentarse y levantarse: causas y soluciones
+title: "Dolor en el cóxis al sentarse y levantarse: causas y soluciones"
 slug: dolor-en-el-coxis-al-sentarse-y-levantarse-soluciones-efectivas
 date: 2025-10-17
-excerpt: Descubre las causas más frecuentes del dolor de cóxis al sentarte o levantarte y qué soluciones, incluida la quiropráctica, pueden ayudarte. ColumnaQuiro Valencia.
+excerpt: "Descubre las causas más frecuentes del dolor de cóxis al sentarte o levantarte y qué soluciones, incluida la quiropráctica, pueden ayudarte. ColumnaQuiro Valencia."
 cover: /assets/images/centro-sala-ajustes.webp
 author: Léa Guido
+
 ---
 
 ## ¿Qué es la coccidinia?

@@ -1,10 +1,11 @@
 ---
-title: How much does a chiropractor cost?
+title: "How much does a chiropractor cost?"
 slug: how-much-does-a-chiropractor-cost
 date: 2025-10-27
-excerpt: What factors affect the price of a chiropractic visit, how the first session differs from follow-ups, and how to find out the cost for your case.
+excerpt: "What factors affect the price of a chiropractic visit, how the first session differs from follow-ups, and how to find out the cost for your case."
 cover: /assets/images/comofunciona-header.webp
 author: Léa Guido
+
 ---
 
 ## What determines the price of a chiropractic visit?

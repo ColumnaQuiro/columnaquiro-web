@@ -1,10 +1,11 @@
 ---
-title: 3 real patient stories of getting their lives back
+title: "3 real patient stories of getting their lives back"
 slug: 3-real-stories-of-patients-who-improved-their-lives
 date: 2025-11-12
-excerpt: Through real stories of people who overcame chronic pain, you'll see how chiropractic care can help you regain mobility, ease tension, and reconnect with your surroundings and your life — naturally and personally.
+excerpt: "Through real stories of people who overcame chronic pain, you'll see how chiropractic care can help you regain mobility, ease tension, and reconnect with your surroundings and your life — naturally and personally."
 cover: /assets/images/blog-historias-pacientes.jpg
 author: Léa Guido
+
 ---
 
 ## A path toward recovery

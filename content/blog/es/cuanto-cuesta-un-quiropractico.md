@@ -1,10 +1,11 @@
 ---
-title: ¿Cuánto cuesta un quiropráctico?
+title: "¿Cuánto cuesta un quiropráctico?"
 slug: cuanto-cuesta-un-quiropractico
 date: 2025-10-27
-excerpt: Qué factores influyen en el precio de una consulta quiropráctica, en qué se diferencia la primera visita de las siguientes y cómo saber el coste en tu caso.
+excerpt: "Qué factores influyen en el precio de una consulta quiropráctica, en qué se diferencia la primera visita de las siguientes y cómo saber el coste en tu caso."
 cover: /assets/images/comofunciona-header.webp
 author: Léa Guido
+
 ---
 
 ## ¿De qué depende el precio de una consulta quiropráctica?

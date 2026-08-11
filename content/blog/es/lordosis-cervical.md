@@ -1,10 +1,11 @@
 ---
-title: Lordosis cervical: qué es y cómo cuidarla
+title: "Lordosis cervical: qué es y cómo cuidarla"
 slug: lordosis-cervical
 date: 2025-10-11
-excerpt: Descubre qué es la lordosis cervical, por qué se pierde o se acentúa la curva natural del cuello y cómo la quiropráctica ayuda a recuperar el equilibrio. En ColumnaQuiro Valencia.
+excerpt: "Descubre qué es la lordosis cervical, por qué se pierde o se acentúa la curva natural del cuello y cómo la quiropráctica ayuda a recuperar el equilibrio. En ColumnaQuiro Valencia."
 cover: /assets/images/centro-sala-ajustes.webp
 author: Léa Guido
+
 ---
 
 ## ¿Qué es la lordosis cervical?

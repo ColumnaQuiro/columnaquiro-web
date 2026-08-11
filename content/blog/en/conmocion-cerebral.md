@@ -1,10 +1,11 @@
 ---
-title: Concussion: what to do and how chiropractic care supports neck recovery
+title: "Concussion: what to do and how chiropractic care supports neck recovery"
 slug: concussion
 date: 2025-10-22
-excerpt: What a concussion is, when to seek emergency care, and how chiropractic care can support neck recovery once cleared by a doctor.
+excerpt: "What a concussion is, when to seek emergency care, and how chiropractic care can support neck recovery once cleared by a doctor."
 cover: /assets/images/centro-sala-ajuste-2.webp
 author: Léa Guido
+
 ---
 
 ## First: if you suspect a concussion, seek medical care

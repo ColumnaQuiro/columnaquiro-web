@@ -1,10 +1,11 @@
 ---
-title: Protrusión discal cervical: qué es, síntomas y cómo puede ayudar la quiropráctica
+title: "Protrusión discal cervical: qué es, síntomas y cómo puede ayudar la quiropráctica"
 slug: protusion-discal-cervical
 date: 2025-10-10
-excerpt: La protrusión discal cervical puede causar dolor de cuello y hormigueo en el brazo. Descubre sus síntomas y cómo la quiropráctica puede apoyar tu recuperación.
+excerpt: "La protrusión discal cervical puede causar dolor de cuello y hormigueo en el brazo. Descubre sus síntomas y cómo la quiropráctica puede apoyar tu recuperación."
 cover: /assets/images/centro-sala-ajustes.webp
 author: Léa Guido
+
 ---
 
 ## ¿Qué es una protrusión discal cervical?

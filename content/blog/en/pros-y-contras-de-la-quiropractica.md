@@ -1,10 +1,11 @@
 ---
-title: Chiropractic care benefits and considerations: an honest look
+title: "Chiropractic care benefits and considerations: an honest look"
 slug: chiropractic-in-valencia-benefits-considerations
 date: 2025-10-15
-excerpt: An honest, balanced look at the real benefits of chiropractic care and its limits, so you can make an informed decision. At ColumnaQuiro Valencia.
+excerpt: "An honest, balanced look at the real benefits of chiropractic care and its limits, so you can make an informed decision. At ColumnaQuiro Valencia."
 cover: /assets/images/home-hero.jpg
 author: Léa Guido
+
 ---
 
 ## Why I'm writing this

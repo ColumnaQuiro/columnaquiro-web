@@ -1,10 +1,11 @@
 ---
-title: Chiropractic care as support for scoliosis
+title: "Chiropractic care as support for scoliosis"
 slug: chiropractic-key-to-fighting-scoliosis
 date: 2025-10-16
-excerpt: Scoliosis requires specialized monitoring. Discover how chiropractic care can be a valuable support alongside the treatment set by your specialist.
+excerpt: "Scoliosis requires specialized monitoring. Discover how chiropractic care can be a valuable support alongside the treatment set by your specialist."
 cover: /assets/images/comofunciona-header.webp
 author: Léa Guido
+
 ---
 
 ## What is scoliosis?

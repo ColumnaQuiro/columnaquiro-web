@@ -1,10 +1,11 @@
 ---
-title: How to Choose a Good Chiropractor in Valencia
+title: "How to Choose a Good Chiropractor in Valencia"
 slug: best-chiropractors-in-valencia
 date: 2025-10-06
-excerpt: A practical guide to choosing a chiropractor in Valencia — the credentials to look for, questions worth asking, and red flags to avoid before your first visit.
+excerpt: "A practical guide to choosing a chiropractor in Valencia — the credentials to look for, questions worth asking, and red flags to avoid before your first visit."
 cover: /assets/images/comofunciona-header.webp
 author: Léa Guido
+
 ---
 
 ## Why the right choice matters

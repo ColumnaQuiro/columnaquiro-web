@@ -1,10 +1,11 @@
 ---
-title: Dolor de cadera y piernas: qué es y cómo tratarlo
+title: "Dolor de cadera y piernas: qué es y cómo tratarlo"
 slug: dolor-de-cadera-y-piernas
 date: 2025-10-30
-excerpt: Causas comunes del dolor de cadera y piernas, cuándo puede venir de la columna y cómo la quiropráctica ayuda a tratarlo. Guía de ColumnaQuiro Valencia.
+excerpt: "Causas comunes del dolor de cadera y piernas, cuándo puede venir de la columna y cómo la quiropráctica ayuda a tratarlo. Guía de ColumnaQuiro Valencia."
 cover: /assets/images/category-deportistas.webp
 author: Léa Guido
+
 ---
 
 ## Causas comunes del dolor de cadera y piernas

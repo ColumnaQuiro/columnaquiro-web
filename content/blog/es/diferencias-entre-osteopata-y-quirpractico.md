@@ -1,10 +1,11 @@
 ---
-title: Diferencias entre osteópata y quiropráctico
+title: "Diferencias entre osteópata y quiropráctico"
 slug: diferencias-entre-osteopata-y-quirpractico
 date: 2025-10-29
-excerpt: ¿Osteópata o quiropráctico? Descubre las diferencias en formación, filosofía y técnicas entre ambas disciplinas para elegir la que mejor se adapte a ti.
+excerpt: "¿Osteópata o quiropráctico? Descubre las diferencias en formación, filosofía y técnicas entre ambas disciplinas para elegir la que mejor se adapte a ti."
 cover: /assets/images/quees-intro.webp
 author: Léa Guido
+
 ---
 
 ## Dos disciplinas con un objetivo similar

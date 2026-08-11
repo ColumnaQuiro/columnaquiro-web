@@ -2,9 +2,10 @@
 title: "Chiropractic prep for the Valencia Marathon: how to avoid injury before, during, and after"
 slug: chiropractic-preparation-for-the-valencia-marathon-how-to-avoid-injuries
 date: 2025-11-12
-excerpt: Discover how sports chiropractic can become your best ally while preparing for, running, and recovering from the Valencia Marathon.
+excerpt: "Discover how sports chiropractic can become your best ally while preparing for, running, and recovering from the Valencia Marathon."
 cover: /assets/images/blog-maraton-valencia.jpeg
 author: Léa Guido
+
 ---
 
 ## Chiropractic preparation for the marathon

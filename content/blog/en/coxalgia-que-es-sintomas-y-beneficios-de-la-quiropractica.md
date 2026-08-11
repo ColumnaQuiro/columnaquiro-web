@@ -2,9 +2,10 @@
 title: "Coxalgia: what it is, symptoms, and the benefits of chiropractic care"
 slug: coxalgia
 date: 2025-11-19
-excerpt: Learn all about coxalgia, or hip pain — its causes, and how chiropractic care can help ease it naturally and effectively.
+excerpt: "Learn all about coxalgia, or hip pain — its causes, and how chiropractic care can help ease it naturally and effectively."
 cover: /assets/images/blog-coxalgia.jpg
 author: Léa Guido
+
 ---
 
 ## What is coxalgia?

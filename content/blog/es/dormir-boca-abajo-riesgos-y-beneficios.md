@@ -1,10 +1,11 @@
 ---
-title: Dormir boca abajo: riesgos y mejores alternativas
+title: "Dormir boca abajo: riesgos y mejores alternativas"
 slug: dormir-boca-abajo-riesgos-y-beneficios
 date: 2025-11-01
-excerpt: ¿Duermes boca abajo? Descubre qué efectos tiene esta postura en tu columna y tu cuello, y qué alternativas pueden ayudarte a descansar mejor, según ColumnaQuiro Valencia.
+excerpt: "¿Duermes boca abajo? Descubre qué efectos tiene esta postura en tu columna y tu cuello, y qué alternativas pueden ayudarte a descansar mejor, según ColumnaQuiro Valencia."
 cover: /assets/images/home-hero.jpg
 author: Léa Guido
+
 ---
 
 ## ¿Por qué dormir boca abajo puede ser un problema?

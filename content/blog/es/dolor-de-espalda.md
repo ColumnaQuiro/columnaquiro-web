@@ -1,10 +1,11 @@
 ---
-title: Dolor de espalda: causas, señales de alarma y cómo puede ayudar la quiropráctica
+title: "Dolor de espalda: causas, señales de alarma y cómo puede ayudar la quiropráctica"
 slug: dolor-de-espalda
 date: 2025-10-05
-excerpt: El dolor de espalda es uno de los motivos de consulta más frecuentes. Te explicamos sus causas más habituales, cuándo preocuparse y cómo abordarlo con quiropráctica.
+excerpt: "El dolor de espalda es uno de los motivos de consulta más frecuentes. Te explicamos sus causas más habituales, cuándo preocuparse y cómo abordarlo con quiropráctica."
 cover: /assets/images/home-hero.jpg
 author: Léa Guido
+
 ---
 
 ## Un motivo de consulta muy frecuente

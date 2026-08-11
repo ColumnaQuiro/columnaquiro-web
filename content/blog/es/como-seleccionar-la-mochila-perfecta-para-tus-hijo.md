@@ -1,10 +1,11 @@
 ---
-title: Cómo elegir la mochila perfecta para tu hijo o hija
+title: "Cómo elegir la mochila perfecta para tu hijo o hija"
 slug: como-seleccionar-la-mochila-perfecta-para-tus-hijo
 date: 2025-10-20
-excerpt: Guía práctica para elegir la mochila escolar adecuada y proteger la postura y la espalda de tu hijo o hija. Consejos de ColumnaQuiro Valencia.
+excerpt: "Guía práctica para elegir la mochila escolar adecuada y proteger la postura y la espalda de tu hijo o hija. Consejos de ColumnaQuiro Valencia."
 cover: /assets/images/category-ninos.webp
 author: Léa Guido
+
 ---
 
 ## Por qué la mochila importa para su espalda

@@ -1,10 +1,11 @@
 ---
-title: Punto gatillo en la espalda: síntomas y solución quiropráctica
+title: "Punto gatillo en la espalda: síntomas y solución quiropráctica"
 slug: punto-gatillo-en-la-espalda-sintomas-y-solucion-quiropractica
 date: 2025-11-08
-excerpt: Los puntos gatillo en la espalda causan dolor localizado y contracturas persistentes. Descubre cómo identificarlos y cómo la quiropráctica puede ayudar a liberarlos.
+excerpt: "Los puntos gatillo en la espalda causan dolor localizado y contracturas persistentes. Descubre cómo identificarlos y cómo la quiropráctica puede ayudar a liberarlos."
 cover: /assets/images/centro-sala-ajustes.webp
 author: Léa Guido
+
 ---
 
 ## ¿Qué es un punto gatillo?

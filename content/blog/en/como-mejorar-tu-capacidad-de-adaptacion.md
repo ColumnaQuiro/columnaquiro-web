@@ -1,10 +1,11 @@
 ---
-title: How to improve your body's ability to adapt to stress
+title: "How to improve your body's ability to adapt to stress"
 slug: how-to-improve-your-ability-to-adapt
 date: 2025-10-19
-excerpt: Discover how physical, chemical, and emotional stress affect your nervous system, and which habits, together with chiropractic care, improve your ability to adapt.
+excerpt: "Discover how physical, chemical, and emotional stress affect your nervous system, and which habits, together with chiropractic care, improve your ability to adapt."
 cover: /assets/images/quees-intro.webp
 author: Léa Guido
+
 ---
 
 ## Your body is constantly adapting

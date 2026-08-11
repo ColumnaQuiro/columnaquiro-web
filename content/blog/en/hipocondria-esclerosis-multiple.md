@@ -1,10 +1,11 @@
 ---
-title: Fear of having multiple sclerosis: when health anxiety takes over
+title: "Fear of having multiple sclerosis: when health anxiety takes over"
 slug: hypochondria-multiple-sclerosis
 date: 2025-11-04
-excerpt: Worried you might have multiple sclerosis? We explain why this anxiety is more common than you think, what only a neurologist can confirm, and chiropractic's real, limited role.
+excerpt: "Worried you might have multiple sclerosis? We explain why this anxiety is more common than you think, what only a neurologist can confirm, and chiropractic's real, limited role."
 cover: /assets/images/quees-intro.webp
 author: Léa Guido
+
 ---
 
 ## When the fear of having MS won't let you rest

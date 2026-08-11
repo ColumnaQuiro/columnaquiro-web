@@ -1,10 +1,11 @@
 ---
-title: Lactancia y quiropráctica: cómo cuidar tu espalda mientras amamantas
+title: "Lactancia y quiropráctica: cómo cuidar tu espalda mientras amamantas"
 slug: lactancia-y-quiropractica
 date: 2025-10-07
-excerpt: Las horas de lactancia pasan factura al cuello, los hombros y la espalda. Descubre cómo mejorar tu postura y cómo la quiropráctica puede ayudarte en esta etapa.
+excerpt: "Las horas de lactancia pasan factura al cuello, los hombros y la espalda. Descubre cómo mejorar tu postura y cómo la quiropráctica puede ayudarte en esta etapa."
 cover: /assets/images/category-embarazadas.webp
 author: Léa Guido
+
 ---
 
 ## Por qué la lactancia afecta a la espalda

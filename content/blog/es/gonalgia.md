@@ -1,10 +1,11 @@
 ---
-title: Gonalgia: qué es y cómo se aborda el dolor de rodilla
+title: "Gonalgia: qué es y cómo se aborda el dolor de rodilla"
 slug: gonalgia
 date: 2025-11-04
-excerpt: La gonalgia es el término médico para el dolor de rodilla. Descubre sus causas más frecuentes y cómo la quiropráctica puede ayudarte cuidando toda la cadena articular.
+excerpt: "La gonalgia es el término médico para el dolor de rodilla. Descubre sus causas más frecuentes y cómo la quiropráctica puede ayudarte cuidando toda la cadena articular."
 cover: /assets/images/centro-sala-ajustes.webp
 author: Léa Guido
+
 ---
 
 ## ¿Qué es la gonalgia?

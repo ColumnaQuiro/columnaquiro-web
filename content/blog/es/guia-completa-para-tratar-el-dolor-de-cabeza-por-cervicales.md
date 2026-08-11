@@ -1,10 +1,11 @@
 ---
-title: Guía completa para tratar el dolor de cabeza por cervicales
+title: "Guía completa para tratar el dolor de cabeza por cervicales"
 slug: guia-completa-para-tratar-el-dolor-de-cabeza-por-cervicales
 date: 2025-10-21
-excerpt: Descubre qué es el dolor de cabeza cervicogénico, por qué aparece y cómo la quiropráctica puede ayudarte a reducirlo. Guía completa de ColumnaQuiro Valencia.
+excerpt: "Descubre qué es el dolor de cabeza cervicogénico, por qué aparece y cómo la quiropráctica puede ayudarte a reducirlo. Guía completa de ColumnaQuiro Valencia."
 cover: /assets/images/home-ajuste.jpg
 author: Léa Guido
+
 ---
 
 ## ¿Qué es el dolor de cabeza cervicogénico?

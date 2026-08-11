@@ -1,10 +1,11 @@
 ---
-title: ¿Es bueno crujirse la espalda?
+title: "¿Es bueno crujirse la espalda?"
 slug: es-bueno-crujirse-la-espalda
 date: 2025-11-02
-excerpt: ¿Crujirte la espalda es bueno o malo? Te explicamos qué es realmente ese chasquido, en qué se diferencia de un ajuste quiropráctico y cuándo puede esconder un problema.
+excerpt: "¿Crujirte la espalda es bueno o malo? Te explicamos qué es realmente ese chasquido, en qué se diferencia de un ajuste quiropráctico y cuándo puede esconder un problema."
 cover: /assets/images/home-ajuste.jpg
 author: Léa Guido
+
 ---
 
 ## ¿Qué es en realidad ese "crujido" de la espalda?

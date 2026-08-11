@@ -1,10 +1,11 @@
 ---
-title: Sleeping on your stomach: risks and better alternatives
+title: "Sleeping on your stomach: risks and better alternatives"
 slug: sleeping-on-your-stomach-risks
 date: 2025-11-01
-excerpt: Do you sleep on your stomach? Find out how this position affects your spine and neck, and which alternatives can help you rest better, from ColumnaQuiro Valencia.
+excerpt: "Do you sleep on your stomach? Find out how this position affects your spine and neck, and which alternatives can help you rest better, from ColumnaQuiro Valencia."
 cover: /assets/images/home-hero.jpg
 author: Léa Guido
+
 ---
 
 ## Why can sleeping on your stomach be a problem?

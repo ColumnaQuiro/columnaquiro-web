@@ -2,9 +2,10 @@
 title: "Técnica Webster: optimizando la alineación pélvica durante el embarazo"
 slug: tecnica-webster-optimizando-la-alineacion-pelvica-durante-el-embarazo
 date: 2025-11-11
-excerpt: La técnica Webster es un método quiropráctico específico para el embarazo que ayuda a optimizar la función pélvica de la madre. Te contamos en qué consiste.
+excerpt: "La técnica Webster es un método quiropráctico específico para el embarazo que ayuda a optimizar la función pélvica de la madre. Te contamos en qué consiste."
 cover: /assets/images/category-embarazadas.webp
 author: Léa Guido
+
 ---
 
 ## ¿Qué es la técnica Webster?

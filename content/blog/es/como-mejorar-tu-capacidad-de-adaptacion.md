@@ -1,10 +1,11 @@
 ---
-title: Cómo mejorar tu capacidad de adaptación al estrés
+title: "Cómo mejorar tu capacidad de adaptación al estrés"
 slug: como-mejorar-tu-capacidad-de-adaptacion
 date: 2025-10-19
-excerpt: Descubre cómo el estrés físico, químico y emocional afecta a tu sistema nervioso y qué hábitos, junto con la quiropráctica, mejoran tu capacidad de adaptación.
+excerpt: "Descubre cómo el estrés físico, químico y emocional afecta a tu sistema nervioso y qué hábitos, junto con la quiropráctica, mejoran tu capacidad de adaptación."
 cover: /assets/images/quees-intro.webp
 author: Léa Guido
+
 ---
 
 ## Tu cuerpo se adapta constantemente

@@ -1,10 +1,11 @@
 ---
-title: Esclerosis múltiple agresiva: cómo la quiropráctica puede acompañar el tratamiento neurológico
+title: "Esclerosis múltiple agresiva: cómo la quiropráctica puede acompañar el tratamiento neurológico"
 slug: esclerosis-multiple-agresiva
 date: 2025-10-03
-excerpt: Qué es la esclerosis múltiple agresiva y cómo un cuidado quiropráctico suave puede aportar bienestar y comodidad como apoyo complementario al tratamiento neurológico.
+excerpt: "Qué es la esclerosis múltiple agresiva y cómo un cuidado quiropráctico suave puede aportar bienestar y comodidad como apoyo complementario al tratamiento neurológico."
 cover: /assets/images/centro-sala-ajustes.webp
 author: Léa Guido
+
 ---
 
 ## ¿Qué es la esclerosis múltiple agresiva?

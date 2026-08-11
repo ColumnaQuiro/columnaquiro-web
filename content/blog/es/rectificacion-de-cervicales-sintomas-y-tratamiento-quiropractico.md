@@ -1,10 +1,11 @@
 ---
-title: Rectificación de cervicales: síntomas y tratamiento quiropráctico
+title: "Rectificación de cervicales: síntomas y tratamiento quiropráctico"
 slug: rectificacion-de-cervicales-sintomas-y-tratamiento-quiropractico
 date: 2025-10-13
-excerpt: Qué es la rectificación cervical, sus síntomas más frecuentes y cómo el tratamiento quiropráctico ayuda a recuperar la curva natural del cuello. ColumnaQuiro Valencia.
+excerpt: "Qué es la rectificación cervical, sus síntomas más frecuentes y cómo el tratamiento quiropráctico ayuda a recuperar la curva natural del cuello. ColumnaQuiro Valencia."
 cover: /assets/images/centro-sala-ajuste-2.webp
 author: Léa Guido
+
 ---
 
 ## ¿Qué es la rectificación cervical?

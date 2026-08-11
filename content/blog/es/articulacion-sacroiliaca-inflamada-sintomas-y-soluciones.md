@@ -1,10 +1,11 @@
 ---
-title: Articulación sacroilíaca inflamada: síntomas y soluciones
+title: "Articulación sacroilíaca inflamada: síntomas y soluciones"
 slug: articulacion-sacroiliaca-inflamada-sintomas-y-soluciones
 date: 2025-10-04
-excerpt: Descubre los síntomas de la sacroileítis, sus causas más comunes y cómo la quiropráctica puede ayudarte a recuperar la movilidad y aliviar el dolor.
+excerpt: "Descubre los síntomas de la sacroileítis, sus causas más comunes y cómo la quiropráctica puede ayudarte a recuperar la movilidad y aliviar el dolor."
 cover: /assets/images/centro-sala-ajuste-2.webp
 author: Léa Guido
+
 ---
 
 ## ¿Qué es la articulación sacroilíaca?
