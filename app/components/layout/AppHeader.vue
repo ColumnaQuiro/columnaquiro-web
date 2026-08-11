@@ -28,7 +28,7 @@ function closeMenus() {
     <div class="mx-auto flex h-20 max-w-[1280px] items-center justify-between px-6">
       <div class="flex items-center gap-10">
         <NuxtLink :to="locale === 'es' ? '/' : '/en'" class="flex items-center">
-          <img src="/assets/images/logo-quiro.png" alt="ColumnaQuiro" class="h-8 w-auto" />
+          <img src="/assets/images/logo-quiro.png" alt="ColumnaQuiro" class="h-[39px] w-auto" />
         </NuxtLink>
 
         <nav class="hidden items-center gap-8 md:flex">

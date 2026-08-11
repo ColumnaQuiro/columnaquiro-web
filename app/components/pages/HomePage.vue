@@ -3,9 +3,10 @@ import { computed } from 'vue'
 import { useAppI18n } from '@/composables/useAppI18n'
 import { useSeo } from '@/composables/useSeo'
 import BaseButton from '@/components/ui/BaseButton.vue'
-import CtaBanner from '@/components/ui/CtaBanner.vue'
 
 const { locale } = useAppI18n()
+
+const whyBulletIcons = ['/assets/images/icon-ajuste-primera-visita.svg', '/assets/images/icon-enfoque-holistico.svg']
 
 const whyIcons = [
   'M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z',
@@ -368,7 +369,7 @@ useHead({
     <div class="mx-auto grid max-w-[1280px] items-start gap-12 px-6 py-24 md:grid-cols-2">
       <div>
         <p class="text-sm font-medium text-gold-dark">{{ c.eyebrow }}</p>
-        <h1 class="mt-4 text-4xl font-semibold leading-tight text-forest sm:text-5xl lg:text-6xl">
+        <h1 class="mt-4 text-4xl font-semibold leading-[1.05] text-forest sm:text-5xl lg:text-6xl">
           {{ c.heroTitle }}
         </h1>
         <p v-if="c.heroSubtitle" class="mt-3 text-base font-medium text-forest/80">
@@ -386,7 +387,7 @@ useHead({
   <!-- Trust bar -->
   <section class="bg-beige px-6 py-20">
     <p class="text-center text-lg font-medium text-slate">{{ c.trustBarLabel }}</p>
-    <div class="mx-auto mt-8 flex max-w-[1280px] flex-wrap items-center justify-center gap-24 bg-white py-6">
+    <div class="mx-auto mt-8 flex max-w-[1280px] flex-wrap items-center justify-center gap-24 bg-white">
       <div v-for="item in c.trustBar" :key="item.name" class="flex items-center gap-2">
         <p class="text-base font-bold text-forest">{{ item.name }}</p>
         <p class="text-sm font-semibold text-forest">{{ item.label }}</p>
@@ -396,11 +397,11 @@ useHead({
 
   <!-- Stress-free body -->
   <section class="bg-cream">
-    <div class="mx-auto grid max-w-[1280px] items-center gap-12 px-6 py-24 md:grid-cols-2">
+    <div class="mx-auto grid max-w-[1280px] items-center gap-8 px-6 py-24 md:grid-cols-2">
       <img
         src="/assets/images/home-ajuste.jpg"
         alt="chiropractic spinal adjustment"
-        class="w-full rounded-3xl"
+        class="aspect-[616/600] w-full rounded-2xl object-cover"
       />
       <div>
         <h2 class="section-title">{{ c.stressFreeTitle }}</h2>
@@ -461,7 +462,7 @@ useHead({
     <div class="mx-auto grid max-w-[1280px] items-center gap-12 px-6 py-24 md:grid-cols-2">
       <div>
         <h2 class="section-title text-white">{{ c.leaTitle }}</h2>
-        <p v-for="(paragraph, i) in c.leaParagraphs" :key="i" class="mt-4 text-cream/80">
+        <p v-for="(paragraph, i) in c.leaParagraphs" :key="i" class="mt-4 text-sage-dark">
           {{ paragraph }}
         </p>
         <BaseButton
@@ -471,7 +472,11 @@ useHead({
           >{{ c.leaButton }}</BaseButton
         >
       </div>
-      <img src="/assets/images/home-lea.jpg" alt="Léa Guido" class="w-full rounded-3xl" />
+      <img
+        src="/assets/images/home-lea.jpg"
+        alt="Léa Guido"
+        class="aspect-[4/5] w-full rounded-2xl object-cover"
+      />
     </div>
   </section>
 
@@ -511,12 +516,12 @@ useHead({
       <img
         src="/assets/images/home-natasha.jpg"
         alt="chiropractor examining a vertebra"
-        class="w-full rounded-2xl"
+        class="aspect-square w-full rounded-2xl object-cover"
       />
       <img
         src="/assets/images/home-lea-ajuste.jpg"
         alt="Léa performing a chiropractic adjustment"
-        class="w-full rounded-2xl"
+        class="aspect-square w-full rounded-2xl object-cover"
       />
     </div>
   </section>
@@ -528,9 +533,9 @@ useHead({
       <p class="mt-2 text-slate">{{ c.processSubtitle }}</p>
     </div>
     <div class="mx-auto mt-12 grid max-w-[1280px] gap-6 sm:grid-cols-3 sm:divide-x sm:divide-forest/15">
-      <div v-for="step in c.processSteps" :key="step.number" class="relative px-6 text-center">
-        <p class="pointer-events-none text-6xl font-bold text-forest/10">{{ step.number }}</p>
-        <h3 class="-mt-6 text-lg font-bold text-forest">{{ step.title }}</h3>
+      <div v-for="step in c.processSteps" :key="step.number" class="relative px-6 py-6 text-center">
+        <p class="pointer-events-none text-8xl font-semibold text-[#86531a]/10">{{ step.number }}</p>
+        <h3 class="-mt-8 text-lg font-bold text-forest">{{ step.title }}</h3>
         <p class="mt-2 text-sm text-slate">{{ step.text }}</p>
       </div>
     </div>
@@ -548,7 +553,7 @@ useHead({
         <div
           v-for="(tile, i) in c.whyChooseUs"
           :key="tile.title"
-          class="rounded-3xl p-6 text-center"
+          class="flex flex-col items-center justify-center rounded-3xl px-8 py-[88px] text-center"
           :class="i === 3 ? 'bg-forest text-white' : 'bg-taupe text-forest'"
         >
           <svg
@@ -574,9 +579,9 @@ useHead({
         <h2 class="section-title">{{ c.whyTitle }}</h2>
         <p class="mt-4 text-slate">{{ c.whyBody }}</p>
         <ul class="mt-6 space-y-4">
-          <li v-for="bullet in c.whyBullets" :key="bullet" class="flex items-center gap-3">
+          <li v-for="(bullet, i) in c.whyBullets" :key="bullet" class="flex items-center gap-3">
             <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-badge-apricot">
-              <img src="/assets/images/icon-bullet-check.svg" alt="" class="h-5 w-5" />
+              <img :src="whyBulletIcons[i]" alt="" class="h-5 w-5" />
             </span>
             <span class="font-semibold text-forest">{{ bullet }}</span>
           </li>
@@ -589,7 +594,12 @@ useHead({
   <section class="bg-taupe px-6 py-24">
     <h2 class="section-title text-center">{{ c.faqTitle }}</h2>
     <div class="mx-auto mt-12 max-w-3xl space-y-3">
-      <details v-for="faq in c.faqs" :key="faq.q" class="faq-item rounded-2xl bg-cream p-6">
+      <details
+        v-for="faq in c.faqs"
+        :key="faq.q"
+        name="home-faq"
+        class="faq-item rounded-2xl bg-cream p-6"
+      >
         <summary class="flex cursor-pointer items-center justify-between gap-4 font-bold text-forest">
           {{ faq.q }}
           <span
@@ -601,8 +611,6 @@ useHead({
       </details>
     </div>
   </section>
-
-  <CtaBanner />
 </template>
 
 <style scoped>

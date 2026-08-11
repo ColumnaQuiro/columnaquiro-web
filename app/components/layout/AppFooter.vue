@@ -17,7 +17,7 @@ const symptomsList = computed(() => symptoms[locale.value])
         <img src="/assets/images/logo-quiro-white.png" alt="ColumnaQuiro" class="w-24" />
       </NuxtLink>
 
-      <div class="mt-10 grid gap-10 sm:grid-cols-3">
+      <div class="mt-10 flex flex-col gap-10 sm:flex-row sm:justify-between">
         <div>
           <h3 class="text-base font-medium text-gold-light">{{ t('footer.tagline') }}</h3>
           <div class="mt-4 flex flex-col gap-2 text-sm text-cream/90">
