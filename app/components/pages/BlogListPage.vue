@@ -1,11 +1,29 @@
 <script setup lang="ts">
-import { computed } from 'vue'
+import { computed, ref, watch } from 'vue'
 import { useAppI18n } from '@/composables/useAppI18n'
 import { useSeo } from '@/composables/useSeo'
 import { getBlogPosts } from '@/utils/blog'
 
+const POSTS_PER_PAGE = 9
+
 const { locale } = useAppI18n()
 const posts = computed(() => getBlogPosts(locale.value))
+
+const currentPage = ref(1)
+const totalPages = computed(() => Math.max(1, Math.ceil(posts.value.length / POSTS_PER_PAGE)))
+const paginatedPosts = computed(() => {
+  const start = (currentPage.value - 1) * POSTS_PER_PAGE
+  return posts.value.slice(start, start + POSTS_PER_PAGE)
+})
+
+watch(locale, () => {
+  currentPage.value = 1
+})
+
+function goToPage(page: number) {
+  currentPage.value = page
+  window.scrollTo({ top: 0, behavior: 'smooth' })
+}
 
 const heading = computed(() => (locale.value === 'es' ? 'Blog ColumnaQuiro' : 'ColumnaQuiro Blog'))
 const intro = computed(() =>
@@ -49,7 +67,7 @@ function formatDate(iso: string) {
   <section class="mx-auto max-w-[1280px] px-6 pb-24">
     <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
       <NuxtLink
-        v-for="post in posts"
+        v-for="post in paginatedPosts"
         :key="post.slug"
         :to="`${locale === 'es' ? '/blog' : '/en/blog'}/${post.slug}`"
         class="flex flex-col overflow-hidden rounded-3xl bg-white shadow-sm transition-shadow hover:shadow-md"
@@ -70,5 +88,34 @@ function formatDate(iso: string) {
         </div>
       </NuxtLink>
     </div>
+
+    <nav v-if="totalPages > 1" class="mt-12 flex items-center justify-center gap-2">
+      <button
+        type="button"
+        class="rounded-full px-4 py-2 text-sm font-medium text-forest disabled:opacity-30"
+        :disabled="currentPage === 1"
+        @click="goToPage(currentPage - 1)"
+      >
+        ←
+      </button>
+      <button
+        v-for="page in totalPages"
+        :key="page"
+        type="button"
+        class="h-10 w-10 rounded-full text-sm font-medium transition-colors"
+        :class="page === currentPage ? 'bg-gold text-gold-dark' : 'text-forest hover:bg-cream'"
+        @click="goToPage(page)"
+      >
+        {{ page }}
+      </button>
+      <button
+        type="button"
+        class="rounded-full px-4 py-2 text-sm font-medium text-forest disabled:opacity-30"
+        :disabled="currentPage === totalPages"
+        @click="goToPage(currentPage + 1)"
+      >
+        →
+      </button>
+    </nav>
   </section>
 </template>

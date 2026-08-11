@@ -1,5 +1,5 @@
 import tailwindcss from '@tailwindcss/vite'
-import { SYMPTOM_HUB, SYMPTOM_SLUG_PAIRS } from './app/utils/site-routes'
+import { SYMPTOM_HUB, SYMPTOM_SLUG_PAIRS, BLOG_HUB, BLOG_SLUG_PAIRS } from './app/utils/site-routes'
 
 const SITE_URL = 'https://columnaquiro.com'
 
@@ -7,6 +7,12 @@ const symptomRoutes = SYMPTOM_SLUG_PAIRS.flatMap((pair) => [
   `${SYMPTOM_HUB.es}/${pair.es}`,
   `${SYMPTOM_HUB.en}/${pair.en}`,
 ])
+
+const blogRoutes = BLOG_SLUG_PAIRS.flatMap((pair) =>
+  pair.en
+    ? [`${BLOG_HUB.es}/${pair.es}`, `${BLOG_HUB.en}/${pair.en}`]
+    : [`${BLOG_HUB.es}/${pair.es}`],
+)
 
 export default defineNuxtConfig({
   compatibilityDate: '2026-08-10',
@@ -81,6 +87,7 @@ export default defineNuxtConfig({
         '/sobre-nosotros/equipo/lea-guido',
         '/en/about-us/our-team/lea-guido',
         ...symptomRoutes,
+        ...blogRoutes,
       ],
     },
   },

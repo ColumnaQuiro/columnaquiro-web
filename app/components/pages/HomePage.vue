@@ -1,10 +1,12 @@
 <script setup lang="ts">
-import { computed } from 'vue'
+import { computed, ref } from 'vue'
 import { useAppI18n } from '@/composables/useAppI18n'
 import { useSeo } from '@/composables/useSeo'
 import BaseButton from '@/components/ui/BaseButton.vue'
 
 const { locale } = useAppI18n()
+
+const openFaq = ref<number | null>(null)
 
 const whyBulletIcons = ['/assets/images/icon-ajuste-primera-visita.svg', '/assets/images/icon-enfoque-holistico.svg']
 
@@ -366,7 +368,7 @@ useHead({
 <template>
   <!-- Hero -->
   <section class="bg-cream">
-    <div class="mx-auto grid max-w-[1280px] items-start gap-12 px-6 py-24 md:grid-cols-2">
+    <div class="mx-auto grid max-w-[1280px] items-start gap-12 px-6 py-24 md:grid-cols-[1.8fr_1fr]">
       <div>
         <p class="text-sm font-medium text-gold-dark">{{ c.eyebrow }}</p>
         <h1 class="mt-4 text-4xl font-semibold leading-[1.05] text-forest sm:text-5xl lg:text-6xl">
@@ -380,7 +382,11 @@ useHead({
           c.heroButton
         }}</BaseButton>
       </div>
-      <img src="/assets/images/home-hero.jpg" alt="chiropractic adjustment" class="w-full rounded-3xl" />
+      <img
+        src="/assets/images/home-hero.jpg"
+        alt="chiropractic adjustment"
+        class="aspect-[443/600] w-full rounded-3xl object-cover"
+      />
     </div>
   </section>
 
@@ -594,33 +600,26 @@ useHead({
   <section class="bg-taupe px-6 py-24">
     <h2 class="section-title text-center">{{ c.faqTitle }}</h2>
     <div class="mx-auto mt-12 max-w-3xl space-y-3">
-      <details
-        v-for="faq in c.faqs"
-        :key="faq.q"
-        name="home-faq"
-        class="faq-item rounded-2xl bg-cream p-6"
-      >
-        <summary class="flex cursor-pointer items-center justify-between gap-4 font-bold text-forest">
+      <div v-for="(faq, i) in c.faqs" :key="faq.q" class="rounded-2xl bg-cream p-6">
+        <button
+          type="button"
+          class="flex w-full cursor-pointer items-center justify-between gap-4 text-left font-bold text-forest"
+          @click="openFaq = openFaq === i ? null : i"
+        >
           {{ faq.q }}
           <span
-            class="faq-icon flex h-7 w-7 shrink-0 items-center justify-center rounded-full border border-forest/30 text-forest"
+            class="faq-icon flex h-7 w-7 shrink-0 items-center justify-center rounded-full border border-forest/30 text-forest transition-transform duration-300"
+            :class="{ 'rotate-45': openFaq === i }"
             >+</span
           >
-        </summary>
-        <p class="mt-3 text-sm text-slate">{{ faq.a }}</p>
-      </details>
+        </button>
+        <div
+          class="grid transition-[grid-template-rows] duration-300 ease-in-out"
+          :style="{ gridTemplateRows: openFaq === i ? '1fr' : '0fr' }"
+        >
+          <p class="overflow-hidden pt-3 text-sm text-slate">{{ faq.a }}</p>
+        </div>
+      </div>
     </div>
   </section>
 </template>
-
-<style scoped>
-.faq-item summary {
-  list-style: none;
-}
-.faq-item summary::-webkit-details-marker {
-  display: none;
-}
-.faq-item[open] .faq-icon {
-  transform: rotate(45deg);
-}
-</style>

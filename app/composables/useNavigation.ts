@@ -8,18 +8,48 @@ export function useNavigation() {
   const paraTiDropdown = computed(() => ({
     label: t('nav.paraTi'),
     links: [
-      { label: t('nav.queEs'), to: pathFor('que-es', locale.value) },
-      { label: t('nav.comoFunciona'), to: pathFor('como-funciona', locale.value) },
-      { label: t('nav.faq'), to: pathFor('faq', locale.value) },
+      {
+        label: t('nav.queEs'),
+        description: t('nav.queEsDesc'),
+        icon: 'info',
+        to: pathFor('que-es', locale.value),
+      },
+      {
+        label: t('nav.comoFunciona'),
+        description: t('nav.comoFuncionaDesc'),
+        icon: 'steps',
+        to: pathFor('como-funciona', locale.value),
+      },
+      {
+        label: t('nav.faq'),
+        description: t('nav.faqDesc'),
+        icon: 'question',
+        to: pathFor('faq', locale.value),
+      },
     ],
   }))
 
   const sobreNosotrosDropdown = computed(() => ({
     label: t('nav.sobreNosotros'),
     links: [
-      { label: t('nav.equipo'), to: pathFor('equipo', locale.value) },
-      { label: t('nav.centro'), to: pathFor('centro', locale.value) },
-      { label: t('nav.contacto'), to: pathFor('contacto', locale.value) },
+      {
+        label: t('nav.equipo'),
+        description: t('nav.equipoDesc'),
+        icon: 'team',
+        to: pathFor('equipo', locale.value),
+      },
+      {
+        label: t('nav.centro'),
+        description: t('nav.centroDesc'),
+        icon: 'home',
+        to: pathFor('centro', locale.value),
+      },
+      {
+        label: t('nav.contacto'),
+        description: t('nav.contactoDesc'),
+        icon: 'send',
+        to: pathFor('contacto', locale.value),
+      },
     ],
   }))
 
