@@ -505,7 +505,8 @@ useHead({
   </section>
 
   <!-- Explorar salud holística -->
-  <section class="mx-auto grid max-w-[1280px] items-center gap-12 px-6 py-24 md:grid-cols-2">
+  <section class="bg-[#86531a]/5 px-6">
+    <div class="mx-auto grid max-w-[1280px] items-center gap-12 py-24 md:grid-cols-2">
     <div>
       <h2 class="section-title text-center">{{ c.exploreTitle }}</h2>
       <p v-for="(paragraph, i) in c.exploreParagraphs" :key="i" class="mt-4 text-body/80">
@@ -530,10 +531,11 @@ useHead({
         class="aspect-square w-full rounded-2xl object-cover"
       />
     </div>
+    </div>
   </section>
 
   <!-- 3-step process -->
-  <section class="bg-taupe px-6 py-24">
+  <section class="bg-taupe-dark px-6 py-24">
     <div class="mx-auto max-w-3xl text-center">
       <h2 class="section-title">{{ c.processTitle }}</h2>
       <p class="mt-2 text-slate">{{ c.processSubtitle }}</p>
@@ -553,7 +555,8 @@ useHead({
   </section>
 
   <!-- Why choose us -->
-  <section class="mx-auto max-w-[1280px] px-6 py-24">
+  <section class="bg-cream px-6 py-24">
+    <div class="mx-auto max-w-[1280px]">
     <div class="grid items-center gap-12 md:grid-cols-2">
       <div class="grid grid-cols-2 gap-4">
         <div
@@ -594,10 +597,11 @@ useHead({
         </ul>
       </div>
     </div>
+    </div>
   </section>
 
   <!-- FAQ -->
-  <section class="bg-taupe px-6 py-24">
+  <section class="bg-beige px-6 py-24">
     <h2 class="section-title text-center">{{ c.faqTitle }}</h2>
     <div class="mx-auto mt-12 max-w-3xl space-y-3">
       <div v-for="(faq, i) in c.faqs" :key="faq.q" class="rounded-2xl bg-cream p-6">
