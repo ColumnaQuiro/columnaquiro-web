@@ -7,6 +7,13 @@ import CtaBanner from '@/components/ui/CtaBanner.vue'
 
 const { locale } = useAppI18n()
 
+const whyIcons = [
+  'M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z',
+  'M9 12.75 11.25 15 15 9.75m-3-7.036A11.959 11.959 0 0 1 3.598 6 11.99 11.99 0 0 0 3 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285Z',
+  'M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z',
+  'M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z',
+]
+
 const seoText = {
   es: {
     title: 'ColumnaQuiro · Centro Quiropráctico en Valencia',
@@ -358,7 +365,7 @@ useHead({
 <template>
   <!-- Hero -->
   <section class="bg-cream">
-    <div class="mx-auto grid max-w-6xl items-start gap-12 px-6 py-24 md:grid-cols-2">
+    <div class="mx-auto grid max-w-[1280px] items-start gap-12 px-6 py-24 md:grid-cols-2">
       <div>
         <p class="text-sm font-medium text-gold-dark">{{ c.eyebrow }}</p>
         <h1 class="mt-4 text-4xl font-semibold leading-tight text-forest sm:text-5xl lg:text-6xl">
@@ -379,8 +386,8 @@ useHead({
   <!-- Trust bar -->
   <section class="bg-beige px-6 py-20">
     <p class="text-center text-lg font-medium text-slate">{{ c.trustBarLabel }}</p>
-    <div class="mx-auto mt-8 flex max-w-4xl flex-wrap items-center justify-center gap-8 rounded-2xl bg-white p-8 shadow-sm">
-      <div v-for="item in c.trustBar" :key="item.name" class="flex items-center gap-2 text-center">
+    <div class="mx-auto mt-8 flex max-w-[1280px] flex-wrap items-center justify-center gap-24 bg-white py-6">
+      <div v-for="item in c.trustBar" :key="item.name" class="flex items-center gap-2">
         <p class="text-base font-bold text-forest">{{ item.name }}</p>
         <p class="text-sm font-semibold text-forest">{{ item.label }}</p>
       </div>
@@ -389,14 +396,14 @@ useHead({
 
   <!-- Stress-free body -->
   <section class="bg-cream">
-    <div class="mx-auto grid max-w-6xl items-center gap-12 px-6 py-24 md:grid-cols-2">
+    <div class="mx-auto grid max-w-[1280px] items-center gap-12 px-6 py-24 md:grid-cols-2">
       <img
         src="/assets/images/home-ajuste.jpg"
         alt="chiropractic spinal adjustment"
         class="w-full rounded-3xl"
       />
       <div>
-        <h2 class="text-3xl font-semibold text-forest">{{ c.stressFreeTitle }}</h2>
+        <h2 class="section-title">{{ c.stressFreeTitle }}</h2>
         <p class="mt-4 text-slate">{{ c.stressFreeBody }}</p>
         <ul class="mt-6 space-y-3">
           <li v-for="bullet in c.stressFreeBullets" :key="bullet" class="flex items-start gap-3">
@@ -410,33 +417,40 @@ useHead({
 
   <!-- Methodology -->
   <section class="bg-taupe px-6 py-24">
-    <div class="mx-auto max-w-3xl">
-      <h2 class="text-3xl font-semibold text-forest sm:text-4xl">{{ c.methodologyTitle }}</h2>
-      <p class="mt-4 text-slate">{{ c.methodologyBody }}</p>
-    </div>
-    <div class="mx-auto mt-12 grid max-w-5xl gap-6 sm:grid-cols-3">
-      <div
-        v-for="(item, i) in c.methodology"
-        :key="item.title"
-        class="rounded-3xl bg-white p-10 shadow-sm"
-      >
+    <div class="mx-auto max-w-[1280px]">
+      <div class="max-w-xl">
+        <h2 class="section-title">{{ c.methodologyTitle }}</h2>
+        <p class="mt-4 text-slate">{{ c.methodologyBody }}</p>
+      </div>
+      <div class="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-3">
         <div
-          class="flex h-16 w-16 items-center justify-center rounded-2xl"
-          :class="[i === 0 ? 'bg-badge-mint' : i === 1 ? 'bg-badge-apricot' : 'bg-badge-teal']"
+          v-for="(item, i) in c.methodology"
+          :key="item.title"
+          class="rounded-3xl bg-white p-10 shadow-sm"
+          :class="[
+            i === 0 ? 'sm:col-start-1 sm:row-start-1' : '',
+            i === 1 ? 'sm:col-start-3 sm:row-start-1' : '',
+            i === 2 ? 'sm:col-start-1 sm:row-start-2' : '',
+          ]"
         >
-          <img :src="item.icon" :alt="item.title" class="h-8 w-8" />
+          <div
+            class="flex h-16 w-16 items-center justify-center rounded-2xl"
+            :class="[i === 0 ? 'bg-badge-mint' : i === 1 ? 'bg-badge-apricot' : 'bg-badge-teal']"
+          >
+            <img :src="item.icon" :alt="item.title" class="h-8 w-8" />
+          </div>
+          <h3 class="mt-4 text-xl font-bold text-forest">{{ item.title }}</h3>
+          <p class="mt-2 text-sm text-slate">{{ item.text }}</p>
         </div>
-        <h3 class="mt-4 text-xl font-bold text-forest">{{ item.title }}</h3>
-        <p class="mt-2 text-sm text-slate">{{ item.text }}</p>
       </div>
     </div>
   </section>
 
   <!-- Reviews -->
-  <section class="mx-auto max-w-5xl px-6 py-24 text-center">
-    <h2 class="text-3xl font-semibold text-forest">{{ c.reviewsTitle }}</h2>
+  <section class="bg-gray-light px-6 py-24 text-center">
+    <h2 class="section-title">{{ c.reviewsTitle }}</h2>
     <div
-      class="sk-ww-google-reviews mx-auto mt-10"
+      class="sk-ww-google-reviews mx-auto mt-10 max-w-[1280px]"
       data-embed-id="236880"
       style="min-height: 480px"
     ></div>
@@ -444,9 +458,9 @@ useHead({
 
   <!-- Léa intro -->
   <section class="bg-forest">
-    <div class="mx-auto grid max-w-6xl items-center gap-12 px-6 py-24 md:grid-cols-2">
+    <div class="mx-auto grid max-w-[1280px] items-center gap-12 px-6 py-24 md:grid-cols-2">
       <div>
-        <h2 class="text-3xl font-semibold text-white">{{ c.leaTitle }}</h2>
+        <h2 class="section-title text-white">{{ c.leaTitle }}</h2>
         <p v-for="(paragraph, i) in c.leaParagraphs" :key="i" class="mt-4 text-cream/80">
           {{ paragraph }}
         </p>
@@ -463,16 +477,16 @@ useHead({
 
   <!-- Identificas -->
   <section class="bg-beige px-6 py-24">
-    <h2 class="mx-auto max-w-2xl text-center text-3xl font-semibold text-forest">
+    <h2 class="section-title mx-auto max-w-2xl text-center">
       {{ c.identifyTitle }}
     </h2>
-    <div class="mx-auto mt-12 grid max-w-5xl gap-6 sm:grid-cols-2 lg:grid-cols-4">
+    <div class="mx-auto mt-12 grid max-w-[1280px] gap-6 sm:grid-cols-2 lg:grid-cols-4">
       <div
         v-for="card in c.identifyCards"
         :key="card.title"
-        class="rounded-3xl bg-cream p-8 text-center shadow-sm"
+        class="rounded-3xl bg-cream p-8 shadow-sm"
       >
-        <img :src="card.icon" :alt="card.title" class="mx-auto h-10 w-10" />
+        <img :src="card.icon" :alt="card.title" class="h-10 w-10" />
         <h3 class="mt-4 font-bold text-forest">{{ card.title }}</h3>
         <p class="mt-2 text-sm text-slate">{{ card.text }}</p>
       </div>
@@ -480,83 +494,125 @@ useHead({
   </section>
 
   <!-- Explorar salud holística -->
-  <section class="mx-auto grid max-w-6xl items-center gap-12 px-6 py-24 md:grid-cols-2">
-    <div class="relative">
+  <section class="mx-auto grid max-w-[1280px] items-center gap-12 px-6 py-24 md:grid-cols-2">
+    <div>
+      <h2 class="section-title text-center">{{ c.exploreTitle }}</h2>
+      <p v-for="(paragraph, i) in c.exploreParagraphs" :key="i" class="mt-4 text-body/80">
+        {{ paragraph }}
+      </p>
+      <BaseButton
+        variant="dark"
+        :to="locale === 'es' ? '/reserva-cita' : '/en/book-appointment'"
+        class="mt-6"
+        >{{ c.exploreButton }}</BaseButton
+      >
+    </div>
+    <div class="grid grid-cols-2 gap-4">
       <img
         src="/assets/images/home-natasha.jpg"
         alt="chiropractor examining a vertebra"
-        class="w-2/3 rounded-3xl"
+        class="w-full rounded-2xl"
       />
       <img
         src="/assets/images/home-lea-ajuste.jpg"
         alt="Léa performing a chiropractic adjustment"
-        class="absolute -bottom-8 -right-4 w-2/3 rounded-3xl border-4 border-cream shadow-lg"
+        class="w-full rounded-2xl"
       />
-    </div>
-    <div>
-      <h2 class="text-3xl font-semibold text-forest">{{ c.exploreTitle }}</h2>
-      <p v-for="(paragraph, i) in c.exploreParagraphs" :key="i" class="mt-4 text-body/80">
-        {{ paragraph }}
-      </p>
-      <BaseButton :to="locale === 'es' ? '/reserva-cita' : '/en/book-appointment'" class="mt-6">{{
-        c.exploreButton
-      }}</BaseButton>
     </div>
   </section>
 
   <!-- 3-step process -->
-  <section class="bg-forest px-6 py-24 text-cream">
+  <section class="bg-taupe px-6 py-24">
     <div class="mx-auto max-w-3xl text-center">
-      <h2 class="text-3xl font-semibold text-white">{{ c.processTitle }}</h2>
-      <p class="mt-2 text-cream/80">{{ c.processSubtitle }}</p>
+      <h2 class="section-title">{{ c.processTitle }}</h2>
+      <p class="mt-2 text-slate">{{ c.processSubtitle }}</p>
     </div>
-    <div class="mx-auto mt-12 grid max-w-5xl gap-6 sm:grid-cols-3">
-      <div v-for="step in c.processSteps" :key="step.number" class="rounded-3xl bg-white/10 p-8">
-        <p class="text-3xl font-bold text-gold">{{ step.number }}</p>
-        <h3 class="mt-4 text-lg font-semibold text-white">{{ step.title }}</h3>
-        <p class="mt-2 text-sm text-cream/80">{{ step.text }}</p>
+    <div class="mx-auto mt-12 grid max-w-[1280px] gap-6 sm:grid-cols-3 sm:divide-x sm:divide-forest/15">
+      <div v-for="step in c.processSteps" :key="step.number" class="relative px-6 text-center">
+        <p class="pointer-events-none text-6xl font-bold text-forest/10">{{ step.number }}</p>
+        <h3 class="-mt-6 text-lg font-bold text-forest">{{ step.title }}</h3>
+        <p class="mt-2 text-sm text-slate">{{ step.text }}</p>
       </div>
     </div>
     <div class="mt-12 text-center">
-      <BaseButton :to="locale === 'es' ? '/reserva-cita' : '/en/book-appointment'">{{
+      <BaseButton variant="dark" :to="locale === 'es' ? '/reserva-cita' : '/en/book-appointment'">{{
         c.processButton
       }}</BaseButton>
     </div>
   </section>
 
   <!-- Why choose us -->
-  <section class="mx-auto max-w-6xl px-6 py-24">
-    <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-      <div v-for="tile in c.whyChooseUs" :key="tile.title" class="rounded-3xl bg-white p-6 shadow-sm">
-        <h3 class="font-semibold text-forest">{{ tile.title }}</h3>
-        <p class="mt-2 text-sm text-body/70">{{ tile.text }}</p>
+  <section class="mx-auto max-w-[1280px] px-6 py-24">
+    <div class="grid items-center gap-12 md:grid-cols-2">
+      <div class="grid grid-cols-2 gap-4">
+        <div
+          v-for="(tile, i) in c.whyChooseUs"
+          :key="tile.title"
+          class="rounded-3xl p-6 text-center"
+          :class="i === 3 ? 'bg-forest text-white' : 'bg-taupe text-forest'"
+        >
+          <svg
+            class="mx-auto h-8 w-8"
+            :class="i === 3 ? 'text-badge-apricot' : 'text-gold-dark'"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.5"
+          >
+            <path :d="whyIcons[i]" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+          <h3 class="mt-4 font-bold" :class="i === 3 ? 'text-white' : 'text-forest'">
+            {{ tile.title }}
+          </h3>
+          <p class="mt-2 text-sm" :class="i === 3 ? 'text-cream/80' : 'text-slate'">
+            {{ tile.text }}
+          </p>
+        </div>
       </div>
-    </div>
 
-    <div class="mt-16 grid items-center gap-12 md:grid-cols-2">
       <div>
-        <h2 class="text-3xl font-semibold text-forest">{{ c.whyTitle }}</h2>
-        <p class="mt-4 text-body/80">{{ c.whyBody }}</p>
+        <h2 class="section-title">{{ c.whyTitle }}</h2>
+        <p class="mt-4 text-slate">{{ c.whyBody }}</p>
+        <ul class="mt-6 space-y-4">
+          <li v-for="bullet in c.whyBullets" :key="bullet" class="flex items-center gap-3">
+            <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-badge-apricot">
+              <img src="/assets/images/icon-bullet-check.svg" alt="" class="h-5 w-5" />
+            </span>
+            <span class="font-semibold text-forest">{{ bullet }}</span>
+          </li>
+        </ul>
       </div>
-      <ul class="space-y-3">
-        <li v-for="bullet in c.whyBullets" :key="bullet" class="flex items-start gap-3">
-          <img src="/assets/images/icon-bullet-check.svg" alt="" class="mt-1 h-5 w-5" />
-          <span class="text-body/80">{{ bullet }}</span>
-        </li>
-      </ul>
     </div>
   </section>
 
   <!-- FAQ -->
-  <section class="mx-auto max-w-4xl px-6 py-24">
-    <h2 class="text-center text-3xl font-semibold text-forest">{{ c.faqTitle }}</h2>
-    <div class="mt-12 space-y-6">
-      <details v-for="faq in c.faqs" :key="faq.q" class="rounded-2xl bg-white p-6 shadow-sm">
-        <summary class="cursor-pointer font-semibold text-forest">{{ faq.q }}</summary>
-        <p class="mt-3 text-sm text-body/70">{{ faq.a }}</p>
+  <section class="bg-taupe px-6 py-24">
+    <h2 class="section-title text-center">{{ c.faqTitle }}</h2>
+    <div class="mx-auto mt-12 max-w-3xl space-y-3">
+      <details v-for="faq in c.faqs" :key="faq.q" class="faq-item rounded-2xl bg-cream p-6">
+        <summary class="flex cursor-pointer items-center justify-between gap-4 font-bold text-forest">
+          {{ faq.q }}
+          <span
+            class="faq-icon flex h-7 w-7 shrink-0 items-center justify-center rounded-full border border-forest/30 text-forest"
+            >+</span
+          >
+        </summary>
+        <p class="mt-3 text-sm text-slate">{{ faq.a }}</p>
       </details>
     </div>
   </section>
 
   <CtaBanner />
 </template>
+
+<style scoped>
+.faq-item summary {
+  list-style: none;
+}
+.faq-item summary::-webkit-details-marker {
+  display: none;
+}
+.faq-item[open] .faq-icon {
+  transform: rotate(45deg);
+}
+</style>

@@ -110,7 +110,7 @@ const categories = computed(() =>
 </script>
 
 <template>
-  <section class="mx-auto grid max-w-6xl items-center gap-12 px-6 py-24 md:grid-cols-2">
+  <section class="mx-auto grid max-w-[1280px] items-center gap-12 px-6 py-24 md:grid-cols-2">
     <div>
       <p class="text-sm font-semibold uppercase tracking-wide text-gold-dark">{{ c.eyebrow }}</p>
       <h1 class="mt-4 text-4xl font-semibold text-forest sm:text-5xl">{{ c.title }}</h1>
@@ -126,7 +126,7 @@ const categories = computed(() =>
     />
   </section>
 
-  <section class="mx-auto max-w-6xl px-6 pb-24">
+  <section class="mx-auto max-w-[1280px] px-6 pb-24">
     <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
       <CategoryCard v-for="category in categories" :key="category.title" v-bind="category" />
     </div>

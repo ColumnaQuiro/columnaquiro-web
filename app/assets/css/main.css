@@ -19,6 +19,11 @@
   --color-badge-mint: #bfecda;
   --color-badge-apricot: #fdb976;
   --color-badge-teal: #b3efde;
+
+  --color-gray-light: #f9f9f9;
+  --color-gold-light: #cc8e50;
+  --color-sage: #77aca2;
+  --color-sage-dark: #5a9385;
 }
 
 html {
@@ -28,4 +33,13 @@ html {
 body {
   font-family: var(--font-sans);
   color: var(--color-body);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  line-height: 2.75rem;
+  font-weight: 400;
+  color: var(--color-forest);
 }

@@ -12,14 +12,14 @@ const symptomsList = computed(() => symptoms[locale.value])
 
 <template>
   <footer class="bg-forest text-cream">
-    <div class="mx-auto max-w-6xl px-6 py-16">
+    <div class="mx-auto max-w-[1280px] px-[30px] pb-[15px] pt-[50px]">
       <NuxtLink :to="locale === 'es' ? '/' : '/en'" class="inline-flex items-center">
         <img src="/assets/images/logo-quiro-white.png" alt="ColumnaQuiro" class="w-24" />
       </NuxtLink>
 
       <div class="mt-10 grid gap-10 sm:grid-cols-3">
         <div>
-          <h3 class="text-sm font-semibold text-gold-dark">{{ t('footer.tagline') }}</h3>
+          <h3 class="text-base font-medium text-gold-light">{{ t('footer.tagline') }}</h3>
           <div class="mt-4 flex flex-col gap-2 text-sm text-cream/90">
             <a :href="clinic.mapsUrl" target="_blank" rel="noopener" class="hover:text-white">{{
               clinic.address
@@ -37,7 +37,7 @@ const symptomsList = computed(() => symptoms[locale.value])
               target="_blank"
               rel="noopener"
               :aria-label="social.label"
-              class="text-cream/90 hover:text-white"
+              class="text-sage hover:text-white"
             >
               <SocialIcon :name="social.label as 'Instagram' | 'Facebook' | 'WhatsApp'" />
             </a>
@@ -45,8 +45,8 @@ const symptomsList = computed(() => symptoms[locale.value])
         </div>
 
         <div>
-          <h3 class="text-sm font-semibold text-gold-dark">{{ t('footer.sintomas') }}</h3>
-          <div class="mt-4 flex flex-col gap-2 text-sm text-cream/90">
+          <h3 class="text-base font-medium text-gold-light">{{ t('footer.sintomas') }}</h3>
+          <div class="mt-4 flex flex-col gap-2 text-sm text-sage-dark">
             <NuxtLink
               v-for="symptom in symptomsList"
               :key="symptom.slugEs"
@@ -63,8 +63,8 @@ const symptomsList = computed(() => symptoms[locale.value])
         </div>
 
         <div>
-          <h3 class="text-sm font-semibold text-gold-dark">{{ t('footer.horarios') }}</h3>
-          <div class="mt-4 space-y-2 text-sm text-cream/90">
+          <h3 class="text-base font-medium text-gold-light">{{ t('footer.horarios') }}</h3>
+          <div class="mt-4 space-y-2 text-sm text-sage-dark">
             <div v-for="item in schedule" :key="item.dayKey" class="flex justify-between gap-4">
               <span>{{ t(`footer.days.${item.dayKey}`) }}:</span>
               <span class="text-right">{{ item.hours ?? t('footer.closed') }}</span>
@@ -73,17 +73,19 @@ const symptomsList = computed(() => symptoms[locale.value])
         </div>
       </div>
 
-      <div class="mt-12 border-t border-cream/15 pt-6 text-center text-xs text-cream/70">
-        <p>{{ clinic.name }} © {{ year }}</p>
-        <div class="mt-2 flex flex-wrap items-center justify-center gap-4">
-          <NuxtLink
-            v-for="link in legalLinks"
-            :key="link.key"
-            :to="pathFor(link.routeKey, locale)"
-            class="hover:text-white"
-          >
-            {{ t(`footer.legal.${link.key}`) }}
-          </NuxtLink>
+      <div class="mt-12 border-t border-cream/15 pt-4">
+        <div class="flex flex-wrap items-center justify-between gap-4">
+          <p class="text-xs text-body">{{ clinic.name }} © {{ year }}</p>
+          <div class="flex flex-wrap items-center gap-4 text-xs text-white">
+            <NuxtLink
+              v-for="link in legalLinks"
+              :key="link.key"
+              :to="pathFor(link.routeKey, locale)"
+              class="hover:text-gold"
+            >
+              {{ t(`footer.legal.${link.key}`) }}
+            </NuxtLink>
+          </div>
         </div>
       </div>
     </div>

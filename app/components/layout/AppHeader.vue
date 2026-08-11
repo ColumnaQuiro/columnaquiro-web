@@ -25,7 +25,7 @@ function closeMenus() {
 
 <template>
   <header class="sticky top-0 z-50 bg-tan" @mouseleave="closeMenus">
-    <div class="mx-auto flex h-20 max-w-6xl items-center justify-between px-6">
+    <div class="mx-auto flex h-20 max-w-[1280px] items-center justify-between px-6">
       <div class="flex items-center gap-10">
         <NuxtLink :to="locale === 'es' ? '/' : '/en'" class="flex items-center">
           <img src="/assets/images/logo-quiro.png" alt="ColumnaQuiro" class="h-8 w-auto" />
