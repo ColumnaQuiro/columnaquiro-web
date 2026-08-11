@@ -67,21 +67,6 @@ const content = {
       },
     ],
     reviewsTitle: 'Reseñas de nuestros pacientes',
-    reviewsSubtitle: '4.9 · más de 149 reseñas en Google',
-    reviews: [
-      {
-        name: 'Chelsea Ford',
-        text: 'Lea and Alba are great. Ive been seeing Lea for about 3 months and her adjustments are amazing... I also take my 5 year old daughter there and she LOVES it. Go book your appointment. You wont regret it!!',
-      },
-      {
-        name: 'Emma Gottschalk',
-        text: "I am very happy with the care I received so far! Would recommend for anyone, no matter the age and if you have symptoms or not... it's definitely changed my health for the better 🌟 thank you!",
-      },
-      {
-        name: 'Christie Libin',
-        text: 'I am so happy to have found Lea as my chiropractor during my 3 month stay in Valencia. Lea is amazing. She is very knowledgeable and thorough... She speaks English, French and Spanish fluently.',
-      },
-    ],
     leaTitle: 'Hola, soy Léa Guido, quiropráctica',
     leaParagraphs: [
       'Y voy a ayudarte a aumentar tu calidad de vida a través del cuidado quiropráctico.',
@@ -234,21 +219,6 @@ const content = {
       },
     ],
     reviewsTitle: 'Reviews from our patients',
-    reviewsSubtitle: '4.9 · over 149 reviews on Google',
-    reviews: [
-      {
-        name: 'Chelsea Ford',
-        text: 'Lea and Alba are great. Ive been seeing Lea for about 3 months and her adjustments are amazing... I also take my 5 year old daughter there and she LOVES it. Go book your appointment. You wont regret it!!',
-      },
-      {
-        name: 'Emma Gottschalk',
-        text: "I am very happy with the care I received so far! Would recommend for anyone, no matter the age and if you have symptoms or not... it's definitely changed my health for the better 🌟 thank you!",
-      },
-      {
-        name: 'Christie Libin',
-        text: 'I am so happy to have found Lea as my chiropractor during my 3 month stay in Valencia. Lea is amazing. She is very knowledgeable and thorough... She speaks English, French and Spanish fluently.',
-      },
-    ],
     leaTitle: "Hello, I'm Léa Guido, chiropractor",
     leaParagraphs: [
       "And I'm going to help you improve your quality of life through chiropractic care.",
@@ -377,74 +347,87 @@ useHead({
           })),
         }),
     },
+    {
+      src: 'https://widgets.sociablekit.com/google-reviews/widget.js',
+      defer: true,
+    },
   ],
 })
 </script>
 
 <template>
   <!-- Hero -->
-  <section class="mx-auto grid max-w-6xl items-center gap-12 px-6 py-24 md:grid-cols-2">
-    <div>
-      <p class="text-sm font-semibold uppercase tracking-wide text-gold-dark">{{ c.eyebrow }}</p>
-      <h1 class="mt-4 text-4xl font-bold text-forest sm:text-5xl">
-        {{ c.heroTitle }}
-      </h1>
-      <p v-if="c.heroSubtitle" class="mt-3 text-base font-medium text-forest/80">
-        {{ c.heroSubtitle }}
-      </p>
-      <p class="mt-6 text-lg text-body/80">{{ c.heroBody }}</p>
-      <BaseButton :to="locale === 'es' ? '/reserva-cita' : '/en/book-appointment'" class="mt-8">{{
-        c.heroButton
-      }}</BaseButton>
+  <section class="bg-cream">
+    <div class="mx-auto grid max-w-6xl items-start gap-12 px-6 py-24 md:grid-cols-2">
+      <div>
+        <p class="text-sm font-medium text-gold-dark">{{ c.eyebrow }}</p>
+        <h1 class="mt-4 text-4xl font-semibold leading-tight text-forest sm:text-5xl lg:text-6xl">
+          {{ c.heroTitle }}
+        </h1>
+        <p v-if="c.heroSubtitle" class="mt-3 text-base font-medium text-forest/80">
+          {{ c.heroSubtitle }}
+        </p>
+        <p class="mt-6 text-lg text-forest lg:text-xl">{{ c.heroBody }}</p>
+        <BaseButton :to="locale === 'es' ? '/reserva-cita' : '/en/book-appointment'" class="mt-8">{{
+          c.heroButton
+        }}</BaseButton>
+      </div>
+      <img src="/assets/images/home-hero.jpg" alt="chiropractic adjustment" class="w-full rounded-3xl" />
     </div>
-    <img src="/assets/images/home-hero.jpg" alt="chiropractic adjustment" class="w-full rounded-3xl" />
   </section>
 
   <!-- Trust bar -->
-  <section class="border-y border-forest/10 bg-white/60 px-6 py-10">
-    <p class="text-center text-sm font-medium text-body/60">{{ c.trustBarLabel }}</p>
-    <div class="mx-auto mt-6 flex max-w-3xl flex-wrap items-center justify-center gap-10">
-      <div v-for="item in c.trustBar" :key="item.name" class="text-center">
-        <p class="text-xl font-bold text-forest">{{ item.name }}</p>
-        <p class="text-xs text-body/60">{{ item.label }}</p>
+  <section class="bg-beige px-6 py-20">
+    <p class="text-center text-lg font-medium text-slate">{{ c.trustBarLabel }}</p>
+    <div class="mx-auto mt-8 flex max-w-4xl flex-wrap items-center justify-center gap-8 rounded-2xl bg-white p-8 shadow-sm">
+      <div v-for="item in c.trustBar" :key="item.name" class="flex items-center gap-2 text-center">
+        <p class="text-base font-bold text-forest">{{ item.name }}</p>
+        <p class="text-sm font-semibold text-forest">{{ item.label }}</p>
       </div>
     </div>
   </section>
 
   <!-- Stress-free body -->
-  <section class="mx-auto grid max-w-6xl items-center gap-12 px-6 py-24 md:grid-cols-2">
-    <img
-      src="/assets/images/home-ajuste.jpg"
-      alt="chiropractic spinal adjustment"
-      class="w-full rounded-3xl md:order-2"
-    />
-    <div>
-      <h2 class="text-3xl font-semibold text-forest">{{ c.stressFreeTitle }}</h2>
-      <p class="mt-4 text-body/80">{{ c.stressFreeBody }}</p>
-      <ul class="mt-6 space-y-3">
-        <li v-for="bullet in c.stressFreeBullets" :key="bullet" class="flex items-start gap-3">
-          <img src="/assets/images/icon-bullet-check.svg" alt="" class="mt-1 h-5 w-5" />
-          <span class="text-body/80">{{ bullet }}</span>
-        </li>
-      </ul>
+  <section class="bg-cream">
+    <div class="mx-auto grid max-w-6xl items-center gap-12 px-6 py-24 md:grid-cols-2">
+      <img
+        src="/assets/images/home-ajuste.jpg"
+        alt="chiropractic spinal adjustment"
+        class="w-full rounded-3xl"
+      />
+      <div>
+        <h2 class="text-3xl font-semibold text-forest">{{ c.stressFreeTitle }}</h2>
+        <p class="mt-4 text-slate">{{ c.stressFreeBody }}</p>
+        <ul class="mt-6 space-y-3">
+          <li v-for="bullet in c.stressFreeBullets" :key="bullet" class="flex items-start gap-3">
+            <img src="/assets/images/icon-bullet-check.svg" alt="" class="mt-1 h-5 w-5" />
+            <span class="text-slate">{{ bullet }}</span>
+          </li>
+        </ul>
+      </div>
     </div>
   </section>
 
   <!-- Methodology -->
-  <section class="bg-white/60 px-6 py-24">
-    <div class="mx-auto max-w-3xl text-center">
-      <h2 class="text-3xl font-semibold text-forest">{{ c.methodologyTitle }}</h2>
-      <p class="mt-4 text-body/80">{{ c.methodologyBody }}</p>
+  <section class="bg-taupe px-6 py-24">
+    <div class="mx-auto max-w-3xl">
+      <h2 class="text-3xl font-semibold text-forest sm:text-4xl">{{ c.methodologyTitle }}</h2>
+      <p class="mt-4 text-slate">{{ c.methodologyBody }}</p>
     </div>
     <div class="mx-auto mt-12 grid max-w-5xl gap-6 sm:grid-cols-3">
       <div
-        v-for="item in c.methodology"
+        v-for="(item, i) in c.methodology"
         :key="item.title"
-        class="rounded-3xl bg-cream p-8 text-center"
+        class="rounded-3xl bg-white p-10 shadow-sm"
       >
-        <img :src="item.icon" :alt="item.title" class="mx-auto h-12 w-12" />
-        <h3 class="mt-4 text-lg font-semibold text-forest">{{ item.title }}</h3>
-        <p class="mt-2 text-sm text-body/70">{{ item.text }}</p>
+        <div
+          class="flex h-16 w-16 items-center justify-center rounded-2xl"
+          :class="[i === 0 ? 'bg-badge-mint' : i === 1 ? 'bg-badge-apricot' : 'bg-badge-teal']"
+        >
+          <img :src="item.icon" :alt="item.title" class="h-8 w-8" />
+        </div>
+        <h3 class="mt-4 text-xl font-bold text-forest">{{ item.title }}</h3>
+        <p class="mt-2 text-sm text-slate">{{ item.text }}</p>
       </div>
     </div>
   </section>
@@ -452,31 +435,34 @@ useHead({
   <!-- Reviews -->
   <section class="mx-auto max-w-5xl px-6 py-24 text-center">
     <h2 class="text-3xl font-semibold text-forest">{{ c.reviewsTitle }}</h2>
-    <p class="mt-2 text-body/70">{{ c.reviewsSubtitle }}</p>
-    <div class="mt-10 grid gap-6 text-left sm:grid-cols-3">
-      <div v-for="review in c.reviews" :key="review.name" class="rounded-3xl bg-white p-6 shadow-sm">
-        <p class="text-sm text-body/70">"{{ review.text }}"</p>
-        <p class="mt-4 text-sm font-semibold text-forest">{{ review.name }}</p>
-      </div>
-    </div>
+    <div
+      class="sk-ww-google-reviews mx-auto mt-10"
+      data-embed-id="236880"
+      style="min-height: 480px"
+    ></div>
   </section>
 
   <!-- Léa intro -->
-  <section class="mx-auto grid max-w-6xl items-center gap-12 px-6 py-24 md:grid-cols-2">
-    <img src="/assets/images/home-lea.jpg" alt="Léa Guido" class="w-full rounded-3xl" />
-    <div>
-      <h2 class="text-3xl font-semibold text-forest">{{ c.leaTitle }}</h2>
-      <p v-for="(paragraph, i) in c.leaParagraphs" :key="i" class="mt-4 text-body/80">
-        {{ paragraph }}
-      </p>
-      <BaseButton :to="locale === 'es' ? '/sobre-nosotros/equipo' : '/en/about-us/our-team'" class="mt-6">{{
-        c.leaButton
-      }}</BaseButton>
+  <section class="bg-forest">
+    <div class="mx-auto grid max-w-6xl items-center gap-12 px-6 py-24 md:grid-cols-2">
+      <div>
+        <h2 class="text-3xl font-semibold text-white">{{ c.leaTitle }}</h2>
+        <p v-for="(paragraph, i) in c.leaParagraphs" :key="i" class="mt-4 text-cream/80">
+          {{ paragraph }}
+        </p>
+        <BaseButton
+          variant="secondary"
+          :to="locale === 'es' ? '/sobre-nosotros/equipo/lea-guido' : '/en/about-us/our-team/lea-guido'"
+          class="mt-6"
+          >{{ c.leaButton }}</BaseButton
+        >
+      </div>
+      <img src="/assets/images/home-lea.jpg" alt="Léa Guido" class="w-full rounded-3xl" />
     </div>
   </section>
 
   <!-- Identificas -->
-  <section class="bg-white/60 px-6 py-24">
+  <section class="bg-beige px-6 py-24">
     <h2 class="mx-auto max-w-2xl text-center text-3xl font-semibold text-forest">
       {{ c.identifyTitle }}
     </h2>
@@ -484,11 +470,11 @@ useHead({
       <div
         v-for="card in c.identifyCards"
         :key="card.title"
-        class="rounded-3xl bg-cream p-6 text-center"
+        class="rounded-3xl bg-cream p-8 text-center shadow-sm"
       >
         <img :src="card.icon" :alt="card.title" class="mx-auto h-10 w-10" />
-        <h3 class="mt-4 font-semibold text-forest">{{ card.title }}</h3>
-        <p class="mt-2 text-sm text-body/70">{{ card.text }}</p>
+        <h3 class="mt-4 font-bold text-forest">{{ card.title }}</h3>
+        <p class="mt-2 text-sm text-slate">{{ card.text }}</p>
       </div>
     </div>
   </section>

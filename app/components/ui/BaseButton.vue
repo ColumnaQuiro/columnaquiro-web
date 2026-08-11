@@ -2,7 +2,7 @@
 withDefaults(
   defineProps<{
     to?: string
-    variant?: 'primary' | 'outline'
+    variant?: 'primary' | 'secondary' | 'outline'
   }>(),
   {
     variant: 'primary',
@@ -13,6 +13,7 @@ const base =
   'inline-flex items-center gap-2 rounded-full px-6 py-3 text-sm font-semibold transition-colors'
 const variants = {
   primary: 'bg-gold text-gold-dark hover:bg-gold-dark hover:text-white',
+  secondary: 'bg-gold-dark text-white hover:bg-forest',
   outline: 'border border-forest text-forest hover:bg-forest hover:text-white',
 }
 </script>

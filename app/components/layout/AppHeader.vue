@@ -24,76 +24,77 @@ function closeMenus() {
 </script>
 
 <template>
-  <header class="sticky top-0 z-50 border-b border-forest/10 bg-cream" @mouseleave="closeMenus">
-    <div class="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
-      <NuxtLink :to="locale === 'es' ? '/' : '/en'" class="flex items-center">
-        <img src="/assets/images/logo-quiro.png" alt="ColumnaQuiro" class="h-8 w-auto" />
-      </NuxtLink>
-
-      <nav class="hidden items-center gap-8 md:flex">
-        <div class="relative" @mouseenter="openMenu = 'para-ti'">
-          <button
-            class="flex items-center gap-1 text-sm font-medium text-forest"
-            @click="toggleMenu('para-ti')"
-          >
-            {{ paraTiDropdown.label }}
-            <ChevronIcon :open="openMenu === 'para-ti'" class="h-4 w-4" />
-          </button>
-          <Transition name="dropdown">
-            <div
-              v-if="openMenu === 'para-ti'"
-              class="absolute left-0 top-full w-64 rounded-xl border border-forest/10 bg-white py-2 shadow-lg"
-            >
-              <NuxtLink
-                v-for="link in paraTiDropdown.links"
-                :key="link.to"
-                :to="link.to"
-                class="block px-4 py-2 text-sm text-forest hover:bg-cream"
-                @click="closeMenus"
-              >
-                {{ link.label }}
-              </NuxtLink>
-            </div>
-          </Transition>
-        </div>
-
-        <NuxtLink :to="paraTodosLink.to" class="text-sm font-medium text-forest">
-          {{ paraTodosLink.label }}
+  <header class="sticky top-0 z-50 bg-tan" @mouseleave="closeMenus">
+    <div class="mx-auto flex h-20 max-w-6xl items-center justify-between px-6">
+      <div class="flex items-center gap-10">
+        <NuxtLink :to="locale === 'es' ? '/' : '/en'" class="flex items-center">
+          <img src="/assets/images/logo-quiro.png" alt="ColumnaQuiro" class="h-8 w-auto" />
         </NuxtLink>
 
-        <div class="relative" @mouseenter="openMenu = 'sobre-nosotros'">
-          <button
-            class="flex items-center gap-1 text-sm font-medium text-forest"
-            @click="toggleMenu('sobre-nosotros')"
-          >
-            {{ sobreNosotrosDropdown.label }}
-            <ChevronIcon :open="openMenu === 'sobre-nosotros'" class="h-4 w-4" />
-          </button>
-          <Transition name="dropdown">
-            <div
-              v-if="openMenu === 'sobre-nosotros'"
-              class="absolute left-0 top-full w-56 rounded-xl border border-forest/10 bg-white py-2 shadow-lg"
+        <nav class="hidden items-center gap-8 md:flex">
+          <div class="relative" @mouseenter="openMenu = 'para-ti'">
+            <button
+              class="flex items-center gap-1 text-sm text-body"
+              @click="toggleMenu('para-ti')"
             >
-              <NuxtLink
-                v-for="link in sobreNosotrosDropdown.links"
-                :key="link.to"
-                :to="link.to"
-                class="block px-4 py-2 text-sm text-forest hover:bg-cream"
-                @click="closeMenus"
+              {{ paraTiDropdown.label }}
+              <ChevronIcon :open="openMenu === 'para-ti'" class="h-4 w-4" />
+            </button>
+            <Transition name="dropdown">
+              <div
+                v-if="openMenu === 'para-ti'"
+                class="absolute left-0 top-full w-64 rounded-xl border border-forest/10 bg-white py-2 shadow-lg"
               >
-                {{ link.label }}
-              </NuxtLink>
-            </div>
-          </Transition>
-        </div>
+                <NuxtLink
+                  v-for="link in paraTiDropdown.links"
+                  :key="link.to"
+                  :to="link.to"
+                  class="block px-4 py-2 text-sm text-forest hover:bg-cream"
+                  @click="closeMenus"
+                >
+                  {{ link.label }}
+                </NuxtLink>
+              </div>
+            </Transition>
+          </div>
 
-        <NuxtLink :to="blogLink.to" class="text-sm font-medium text-forest">
+          <NuxtLink :to="paraTodosLink.to" class="text-sm text-body">
+            {{ paraTodosLink.label }}
+          </NuxtLink>
+
+          <div class="relative" @mouseenter="openMenu = 'sobre-nosotros'">
+            <button
+              class="flex items-center gap-1 text-sm text-body"
+              @click="toggleMenu('sobre-nosotros')"
+            >
+              {{ sobreNosotrosDropdown.label }}
+              <ChevronIcon :open="openMenu === 'sobre-nosotros'" class="h-4 w-4" />
+            </button>
+            <Transition name="dropdown">
+              <div
+                v-if="openMenu === 'sobre-nosotros'"
+                class="absolute left-0 top-full w-56 rounded-xl border border-forest/10 bg-white py-2 shadow-lg"
+              >
+                <NuxtLink
+                  v-for="link in sobreNosotrosDropdown.links"
+                  :key="link.to"
+                  :to="link.to"
+                  class="block px-4 py-2 text-sm text-forest hover:bg-cream"
+                  @click="closeMenus"
+                >
+                  {{ link.label }}
+                </NuxtLink>
+              </div>
+            </Transition>
+          </div>
+        </nav>
+      </div>
+
+      <div class="hidden items-center gap-6 md:flex">
+        <NuxtLink :to="blogLink.to" class="text-sm text-body">
           {{ blogLink.label }}
         </NuxtLink>
-      </nav>
-
-      <div class="hidden items-center gap-4 md:flex">
-        <div class="flex items-center gap-1 text-sm font-medium text-forest">
+        <div class="flex items-center gap-1.5 text-sm text-gold-dark">
           <button
             :class="{ 'font-semibold': locale === 'es', 'opacity-50': locale !== 'es' }"
             :disabled="!pathForLocale('es')"
@@ -101,7 +102,7 @@ function closeMenus() {
           >
             ES
           </button>
-          <span>|</span>
+          <span class="text-body/30">|</span>
           <button
             :class="{ 'font-semibold': locale === 'en', 'opacity-50': locale !== 'en' }"
             :disabled="!pathForLocale('en')"

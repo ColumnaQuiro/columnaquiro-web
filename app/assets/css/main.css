@@ -10,6 +10,15 @@
   --color-gold: #f2ba7d;
   --color-gold-dark: #78470e;
   --color-body: #333333;
+  --color-slate: #414845;
+
+  --color-tan: #f3e8dc;
+  --color-beige: #f9f2ed;
+  --color-taupe: #ede7e2;
+
+  --color-badge-mint: #bfecda;
+  --color-badge-apricot: #fdb976;
+  --color-badge-teal: #b3efde;
 }
 
 html {
