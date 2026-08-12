@@ -56,6 +56,24 @@ export default defineNuxtConfig({
         },
       ],
       meta: [{ name: 'theme-color', content: '#0b382c' }],
+      script: [
+        {
+          key: 'gtm',
+          type: 'text/plain',
+          innerHTML: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-NTMKRQV');`,
+        },
+        {
+          key: 'gtag-ads',
+          type: 'text/plain',
+          src: 'https://www.googletagmanager.com/gtag/js?id=AW-17548404792',
+          async: true,
+        },
+        {
+          key: 'gtag-ads-config',
+          type: 'text/plain',
+          innerHTML: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','AW-17548404792');`,
+        },
+      ].map((s) => ({ ...s, 'fs-cc-category': 'analytics' })) as any,
     },
   },
 
