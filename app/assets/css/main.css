@@ -58,3 +58,10 @@ body {
   max-width: 100% !important;
   box-sizing: border-box !important;
 }
+
+/* The widget's default "load more" button (white on #7f9a9d) is
+   3.0:1 contrast, below the 4.5:1 minimum for normal-size text. */
+.sk-load-more-btn {
+  background-color: var(--color-forest) !important;
+  color: #fff !important;
+}

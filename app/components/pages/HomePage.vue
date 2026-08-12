@@ -542,10 +542,7 @@ useHead({
     </div>
     <div class="mx-auto mt-12 grid max-w-[1280px] gap-6 sm:grid-cols-3 sm:divide-x sm:divide-forest/15">
       <div v-for="step in c.processSteps" :key="step.number" class="relative px-6 py-6 text-center">
-        <p aria-hidden="true" class="pointer-events-none text-8xl font-semibold text-[#86531a]/10">
-          {{ step.number }}
-        </p>
-        <h3 class="-mt-8 text-lg font-bold text-forest">{{ step.title }}</h3>
+        <h3 class="text-lg font-bold text-forest">{{ step.title }}</h3>
         <p class="mt-2 text-sm text-slate">{{ step.text }}</p>
       </div>
     </div>
