@@ -4,6 +4,7 @@ import { useAppI18n } from '@/composables/useAppI18n'
 import { useSeo } from '@/composables/useSeo'
 import { faqGroups } from '@/data/faq-groups'
 import FaqAccordion from '@/components/ui/FaqAccordion.vue'
+import PageHero from '@/components/ui/PageHero.vue'
 
 const { locale } = useAppI18n()
 const groups = computed(() => faqGroups[locale.value])
@@ -52,9 +53,7 @@ useHead({
 </script>
 
 <template>
-  <section class="mx-auto max-w-4xl px-6 py-24 text-center">
-    <h1 class="text-4xl font-semibold text-forest sm:text-5xl">{{ title }}</h1>
-  </section>
+  <PageHero :title="title" />
 
   <section class="mx-auto max-w-4xl space-y-16 px-6 pb-24">
     <div v-for="group in groups" :key="group.title">

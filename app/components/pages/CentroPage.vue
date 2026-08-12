@@ -2,8 +2,8 @@
 import { computed } from 'vue'
 import { useAppI18n } from '@/composables/useAppI18n'
 import { useSeo } from '@/composables/useSeo'
-import BaseButton from '@/components/ui/BaseButton.vue'
 import CtaBanner from '@/components/ui/CtaBanner.vue'
+import PageHero from '@/components/ui/PageHero.vue'
 
 const { locale } = useAppI18n()
 
@@ -131,25 +131,15 @@ const c = computed(() => content[locale.value])
 </script>
 
 <template>
-  <section class="bg-cream px-6">
-    <div class="mx-auto grid max-w-[calc(1280px+3rem)] items-start gap-12 py-24 md:grid-cols-[1.8fr_1fr]">
-      <div>
-        <p class="text-sm font-medium text-gold-dark">{{ c.eyebrow }}</p>
-        <h1 class="mt-4 text-4xl font-semibold leading-[1.05] text-forest sm:text-5xl lg:text-6xl">
-          {{ c.title }}
-        </h1>
-        <p class="mt-6 text-lg text-body/80">{{ c.intro }}</p>
-        <BaseButton :to="locale === 'es' ? '/reserva-cita' : '/en/book-appointment'" class="mt-8">{{
-          c.button
-        }}</BaseButton>
-      </div>
-      <img
-        src="/assets/images/centro-sala-ajuste-2.webp"
-        alt="chiropractic adjustment room"
-        class="aspect-[443/600] w-full rounded-3xl object-cover"
-      />
-    </div>
-  </section>
+  <PageHero
+    :eyebrow="c.eyebrow"
+    :title="c.title"
+    :body="c.intro"
+    :button-label="c.button"
+    :button-to="locale === 'es' ? '/reserva-cita' : '/en/book-appointment'"
+    image="/assets/images/centro-sala-ajuste-2.webp"
+    image-alt="chiropractic adjustment room"
+  />
 
   <section class="mx-auto max-w-5xl space-y-20 px-6 py-24">
     <div

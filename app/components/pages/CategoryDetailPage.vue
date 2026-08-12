@@ -5,6 +5,7 @@ import { findCategoryPage } from '@/data/category-pages'
 import { useSeo } from '@/composables/useSeo'
 import { SITE_URL } from '@/utils/seo'
 import CtaBanner from '@/components/ui/CtaBanner.vue'
+import PageHero from '@/components/ui/PageHero.vue'
 
 const route = useRoute()
 const { locale, t } = useAppI18n()
@@ -46,22 +47,14 @@ useHead({
 </script>
 
 <template>
-  <section v-if="content && page" class="bg-cream px-6">
-    <div class="mx-auto grid max-w-[calc(1280px+3rem)] items-center gap-12 py-24 md:grid-cols-[1.8fr_1fr]">
-      <div>
-        <p class="text-sm font-semibold uppercase tracking-wide text-gold-dark">
-          {{ t('nav.paraTodos') }}
-        </p>
-        <h1 class="mt-4 text-4xl font-semibold text-forest sm:text-5xl">{{ content.title }}</h1>
-        <p class="mt-6 text-lg text-body/80">{{ content.intro[0] }}</p>
-      </div>
-      <img
-        :src="page.heroImage"
-        :alt="content.title"
-        class="aspect-[443/600] w-full rounded-3xl object-cover"
-      />
-    </div>
-  </section>
+  <PageHero
+    v-if="content && page"
+    :eyebrow="t('nav.paraTodos')"
+    :title="content.title"
+    :body="content.intro[0]"
+    :image="page.heroImage"
+    :image-alt="content.title"
+  />
 
   <section v-if="content" class="mx-auto max-w-3xl px-6 py-24">
     <div class="space-y-4 text-body/80">

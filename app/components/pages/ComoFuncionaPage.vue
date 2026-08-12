@@ -2,9 +2,9 @@
 import { computed, onMounted, onUnmounted, ref } from 'vue'
 import { useAppI18n } from '@/composables/useAppI18n'
 import { useSeo } from '@/composables/useSeo'
-import BaseButton from '@/components/ui/BaseButton.vue'
 import CtaBanner from '@/components/ui/CtaBanner.vue'
 import FaqAccordion from '@/components/ui/FaqAccordion.vue'
+import PageHero from '@/components/ui/PageHero.vue'
 import { clinic, socialLinks } from '@/data/clinic'
 
 const whatsappUrl = computed(() => socialLinks.find((link) => link.label === 'WhatsApp')?.href ?? '')
@@ -228,23 +228,15 @@ const c = computed(() => content[locale.value])
 </script>
 
 <template>
-  <section class="bg-cream px-6">
-    <div class="mx-auto grid max-w-[calc(1280px+3rem)] items-center gap-12 py-24 md:grid-cols-[1.8fr_1fr]">
-      <div>
-        <p class="text-sm font-semibold uppercase tracking-wide text-gold-dark">{{ c.title }}</p>
-        <h1 class="mt-4 text-4xl font-semibold text-forest sm:text-5xl">{{ c.planTitle }}</h1>
-        <p class="mt-6 text-lg text-body/80">{{ c.planIntro }}</p>
-        <BaseButton :to="locale === 'es' ? '/reserva-cita' : '/en/book-appointment'" class="mt-8">{{
-          c.heroButton
-        }}</BaseButton>
-      </div>
-      <img
-        src="/assets/images/comofunciona-header.webp"
-        alt="how chiropractic care works"
-        class="aspect-[443/600] w-full rounded-3xl object-cover"
-      />
-    </div>
-  </section>
+  <PageHero
+    :eyebrow="c.title"
+    :title="c.planTitle"
+    :body="c.planIntro"
+    :button-label="c.heroButton"
+    :button-to="locale === 'es' ? '/reserva-cita' : '/en/book-appointment'"
+    image="/assets/images/comofunciona-header.webp"
+    image-alt="how chiropractic care works"
+  />
 
   <section class="mx-auto max-w-3xl px-6 py-24">
     <div>

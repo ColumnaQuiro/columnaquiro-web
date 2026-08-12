@@ -4,6 +4,7 @@ import { useAppI18n } from '@/composables/useAppI18n'
 import { useSeo } from '@/composables/useSeo'
 import CtaBanner from '@/components/ui/CtaBanner.vue'
 import StatTile from '@/components/ui/StatTile.vue'
+import PageHero from '@/components/ui/PageHero.vue'
 
 const { locale } = useAppI18n()
 
@@ -111,16 +112,13 @@ const c = computed(() => content[locale.value])
 </script>
 
 <template>
-  <section class="bg-cream px-6">
-    <div class="mx-auto grid max-w-[1280px] items-center gap-12 py-24 md:grid-cols-2">
-      <div>
-        <p class="text-sm font-semibold uppercase tracking-wide text-gold-dark">{{ c.eyebrow }}</p>
-        <h1 class="mt-4 text-4xl font-semibold text-forest sm:text-5xl">{{ c.heroTitle }}</h1>
-        <p class="mt-6 text-lg text-body/80">{{ c.heroBody }}</p>
-      </div>
-      <img src="/assets/images/quees-intro.webp" alt="chiropractic care" class="w-full rounded-3xl" />
-    </div>
-  </section>
+  <PageHero
+    :eyebrow="c.eyebrow"
+    :title="c.heroTitle"
+    :body="c.heroBody"
+    image="/assets/images/quees-intro.webp"
+    image-alt="chiropractic care"
+  />
 
   <section class="mx-auto max-w-3xl px-6 pb-24 text-body/80">
     <p>{{ c.intro }}</p>
