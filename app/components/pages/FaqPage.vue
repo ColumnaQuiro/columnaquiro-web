@@ -55,12 +55,14 @@ useHead({
 <template>
   <PageHero :title="title" />
 
-  <section class="mx-auto max-w-4xl space-y-16 px-6 pb-24">
-    <div v-for="group in groups" :key="group.title">
-      <h2 class="text-2xl font-semibold text-forest">{{ group.title }}</h2>
-      <p class="mt-1 text-body/70">{{ group.subtitle }}</p>
-      <div class="mt-6">
-        <FaqAccordion :faqs="group.items" />
+  <section class="bg-beige px-6 py-24">
+    <div class="mx-auto max-w-4xl space-y-16">
+      <div v-for="group in groups" :key="group.title">
+        <h2 class="text-2xl font-semibold text-forest">{{ group.title }}</h2>
+        <p class="mt-1 text-body/70">{{ group.subtitle }}</p>
+        <div class="mt-6">
+          <FaqAccordion :faqs="group.items" />
+        </div>
       </div>
     </div>
   </section>
