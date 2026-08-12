@@ -1,5 +1,8 @@
 <script setup lang="ts">
-withDefaults(
+import { computed } from 'vue'
+import { BOOKING_WIDGET_PATHS } from '@/utils/site-routes'
+
+const props = withDefaults(
   defineProps<{
     to?: string
     variant?: 'primary' | 'secondary' | 'dark' | 'outline' | 'light'
@@ -18,10 +21,18 @@ const variants = {
   outline: 'border border-forest text-forest hover:bg-forest hover:text-white',
   light: 'bg-white text-forest hover:bg-cream',
 }
+
+// The PracticeHub booking widget only initializes reliably on a real
+// page load — a client-side SPA transition into these pages leaves it
+// blank. Force a full navigation for them specifically.
+const needsHardNavigation = computed(() => !!props.to && BOOKING_WIDGET_PATHS.includes(props.to))
 </script>
 
 <template>
-  <NuxtLink v-if="to" :to="to" :class="[base, variants[variant]]">
+  <a v-if="to && needsHardNavigation" :href="to" :class="[base, variants[variant]]">
+    <slot />
+  </a>
+  <NuxtLink v-else-if="to" :to="to" :class="[base, variants[variant]]">
     <slot />
   </NuxtLink>
   <button v-else :class="[base, variants[variant]]">

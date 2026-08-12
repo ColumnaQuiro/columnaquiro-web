@@ -271,10 +271,10 @@ const c = computed(() => content[locale.value])
               clinic.phone
             }}</a
             >{{ c.bookingOnlineIntro }}
-            <NuxtLink
-              :to="locale === 'es' ? '/reserva-cita' : '/en/book-appointment'"
+            <a
+              :href="locale === 'es' ? '/reserva-cita' : '/en/book-appointment'"
               class="font-semibold text-gold-dark underline"
-              >{{ c.bookingLink }}</NuxtLink
+              >{{ c.bookingLink }}</a
             >.
           </p>
           <p v-else class="mt-2 text-body/80">{{ stage.text }}</p>
