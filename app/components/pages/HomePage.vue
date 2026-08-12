@@ -383,7 +383,7 @@ useHead({
         }}</BaseButton>
       </div>
       <img
-        src="/assets/images/home-hero.jpg"
+        src="/assets/images/home-hero.avif"
         alt="chiropractic adjustment"
         class="aspect-[443/600] w-full rounded-3xl object-cover"
       />
@@ -405,7 +405,7 @@ useHead({
   <section class="bg-cream">
     <div class="mx-auto grid max-w-[calc(1280px+3rem)] items-center gap-8 px-6 py-24 md:grid-cols-2">
       <img
-        src="/assets/images/home-ajuste.jpg"
+        src="/assets/images/home-ajuste.avif"
         alt="chiropractic spinal adjustment"
         class="aspect-[616/600] w-full rounded-2xl object-cover"
       />
@@ -479,7 +479,7 @@ useHead({
         >
       </div>
       <img
-        src="/assets/images/home-lea.jpg"
+        src="/assets/images/home-lea.avif"
         alt="Léa Guido"
         class="aspect-[4/5] w-full rounded-2xl object-cover md:w-[480px] md:shrink-0"
       />
@@ -521,12 +521,12 @@ useHead({
     </div>
     <div class="grid grid-cols-2 gap-4">
       <img
-        src="/assets/images/home-natasha.jpg"
+        src="/assets/images/home-natasha.avif"
         alt="chiropractor examining a vertebra"
         class="aspect-square w-full rounded-2xl object-cover"
       />
       <img
-        src="/assets/images/home-lea-ajuste.jpg"
+        src="/assets/images/home-lea-ajuste.avif"
         alt="Léa performing a chiropractic adjustment"
         class="aspect-square w-full rounded-2xl object-cover"
       />
