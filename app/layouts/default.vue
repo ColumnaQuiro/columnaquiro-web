@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import AppHeader from '@/components/layout/AppHeader.vue'
 import AppFooter from '@/components/layout/AppFooter.vue'
+import CookieConsent from '@/components/ui/CookieConsent.vue'
 import { clinicSchema, SITE_URL } from '@/utils/seo'
 
 const businessJsonLd = {
@@ -62,5 +63,6 @@ useHead({
       <slot />
     </main>
     <AppFooter />
+    <CookieConsent />
   </div>
 </template>

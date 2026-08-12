@@ -126,7 +126,7 @@ const c = computed(() => content[locale.value])
     <p>{{ c.intro }}</p>
   </section>
 
-  <section class="mx-auto max-w-[1280px] px-6 pb-24 text-center">
+  <section class="mx-auto max-w-[calc(1280px+3rem)] px-6 pb-24 text-center">
     <h2 class="text-3xl font-semibold text-forest">{{ c.stressTitle }}</h2>
     <p class="mx-auto mt-4 max-w-2xl text-body/80">{{ c.stressSubtitle }}</p>
     <div class="mt-12 grid gap-6 sm:grid-cols-3">

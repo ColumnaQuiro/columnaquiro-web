@@ -128,7 +128,7 @@ const categories = computed(() =>
     </div>
   </section>
 
-  <section class="mx-auto max-w-[1280px] px-6 pb-24">
+  <section class="mx-auto max-w-[calc(1280px+3rem)] px-6 pb-24">
     <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
       <CategoryCard v-for="category in categories" :key="category.title" v-bind="category" />
     </div>

@@ -41,9 +41,21 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.section-title {
-  font-size: 2.5rem;
-  line-height: 2.75rem;
-  font-weight: 400;
-  color: var(--color-forest);
+@layer base {
+  .section-title {
+    font-size: 2.5rem;
+    line-height: 2.75rem;
+    font-weight: 400;
+    color: var(--color-forest);
+  }
+}
+
+.sk-ww-google-reviews {
+  overflow: hidden;
+  max-width: 1280px !important;
+  width: 100% !important;
+}
+.sk-ww-google-reviews * {
+  max-width: 100% !important;
+  box-sizing: border-box !important;
 }

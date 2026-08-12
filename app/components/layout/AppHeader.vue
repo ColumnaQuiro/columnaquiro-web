@@ -38,7 +38,7 @@ function closeMenus() {
     class="fixed inset-x-0 top-0 z-50 border-b border-black/5 bg-cream"
     @mouseleave="closeMenus"
   >
-    <div class="mx-auto flex h-20 max-w-[1280px] items-center justify-between px-6">
+    <div class="mx-auto flex h-20 max-w-[calc(1280px+3rem)] items-center justify-between px-6">
       <div class="flex items-center gap-10">
         <NuxtLink :to="locale === 'es' ? '/' : '/en'" class="flex items-center">
           <img src="/assets/images/logo-quiro.png" alt="ColumnaQuiro" class="h-[39px] w-auto" />
@@ -47,7 +47,7 @@ function closeMenus() {
         <nav class="hidden items-center gap-8 md:flex">
           <div class="relative" @mouseenter="openMenu = 'para-ti'">
             <button
-              class="flex items-center gap-1 text-sm text-body"
+              class="flex items-center gap-1 text-base font-medium text-[#101828]"
               @click="toggleMenu('para-ti')"
             >
               {{ paraTiDropdown.label }}
@@ -77,13 +77,13 @@ function closeMenus() {
             </Transition>
           </div>
 
-          <NuxtLink :to="paraTodosLink.to" class="text-sm text-body">
+          <NuxtLink :to="paraTodosLink.to" class="text-base font-medium text-[#101828]">
             {{ paraTodosLink.label }}
           </NuxtLink>
 
           <div class="relative" @mouseenter="openMenu = 'sobre-nosotros'">
             <button
-              class="flex items-center gap-1 text-sm text-body"
+              class="flex items-center gap-1 text-base font-medium text-[#101828]"
               @click="toggleMenu('sobre-nosotros')"
             >
               {{ sobreNosotrosDropdown.label }}
@@ -116,7 +116,7 @@ function closeMenus() {
       </div>
 
       <div class="hidden items-center gap-6 md:flex">
-        <NuxtLink :to="blogLink.to" class="text-sm text-body">
+        <NuxtLink :to="blogLink.to" class="text-base font-medium text-[#101828]">
           {{ blogLink.label }}
         </NuxtLink>
         <div class="flex items-center gap-1.5 text-sm text-gold-dark">

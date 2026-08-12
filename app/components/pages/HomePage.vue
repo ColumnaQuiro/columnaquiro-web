@@ -368,7 +368,7 @@ useHead({
 <template>
   <!-- Hero -->
   <section class="bg-cream">
-    <div class="mx-auto grid max-w-[1280px] items-start gap-12 px-6 py-24 md:grid-cols-[1.8fr_1fr]">
+    <div class="mx-auto grid max-w-[calc(1280px+3rem)] items-start gap-12 px-6 py-24 md:grid-cols-[1.8fr_1fr]">
       <div>
         <p class="text-sm font-medium text-gold-dark">{{ c.eyebrow }}</p>
         <h1 class="mt-4 text-4xl font-semibold leading-[1.05] text-forest sm:text-5xl lg:text-6xl">
@@ -403,7 +403,7 @@ useHead({
 
   <!-- Stress-free body -->
   <section class="bg-cream">
-    <div class="mx-auto grid max-w-[1280px] items-center gap-8 px-6 py-24 md:grid-cols-2">
+    <div class="mx-auto grid max-w-[calc(1280px+3rem)] items-center gap-8 px-6 py-24 md:grid-cols-2">
       <img
         src="/assets/images/home-ajuste.jpg"
         alt="chiropractic spinal adjustment"
@@ -442,12 +442,12 @@ useHead({
         >
           <div
             class="flex h-16 w-16 items-center justify-center rounded-2xl"
-            :class="[i === 0 ? 'bg-badge-mint' : i === 1 ? 'bg-badge-apricot' : 'bg-badge-teal']"
+            :class="[i === 0 ? 'bg-badge-mint/20' : i === 1 ? 'bg-badge-apricot/20' : 'bg-badge-teal/20']"
           >
             <img :src="item.icon" :alt="item.title" class="h-8 w-8" />
           </div>
           <h3 class="mt-4 text-xl font-bold text-forest">{{ item.title }}</h3>
-          <p class="mt-2 text-sm text-slate">{{ item.text }}</p>
+          <p class="mt-2 text-base text-slate">{{ item.text }}</p>
         </div>
       </div>
     </div>
@@ -465,7 +465,7 @@ useHead({
 
   <!-- Léa intro -->
   <section class="bg-forest">
-    <div class="mx-auto grid max-w-[1280px] items-center gap-12 px-6 py-24 md:grid-cols-2">
+    <div class="mx-auto grid max-w-[calc(1280px+3rem)] items-center gap-12 px-6 py-24 md:grid-cols-2">
       <div>
         <h2 class="section-title text-white">{{ c.leaTitle }}</h2>
         <p v-for="(paragraph, i) in c.leaParagraphs" :key="i" class="mt-4 text-sage-dark">

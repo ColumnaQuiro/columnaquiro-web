@@ -59,12 +59,12 @@ function formatDate(iso: string) {
 </script>
 
 <template>
-  <section class="mx-auto max-w-[1280px] px-6 py-24 text-center">
+  <section class="mx-auto max-w-[calc(1280px+3rem)] px-6 py-24 text-center">
     <h1 class="text-4xl font-semibold text-forest sm:text-5xl">{{ heading }}</h1>
     <p class="mx-auto mt-4 max-w-2xl text-lg text-body/80">{{ intro }}</p>
   </section>
 
-  <section class="mx-auto max-w-[1280px] px-6 pb-24">
+  <section class="mx-auto max-w-[calc(1280px+3rem)] px-6 pb-24">
     <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
       <NuxtLink
         v-for="post in paginatedPosts"
