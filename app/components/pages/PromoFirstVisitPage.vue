@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { onMounted, ref } from 'vue'
 import { useSeo } from '@/composables/useSeo'
+import { useBookingWidget } from '@/composables/useBookingWidget'
 
 const props = withDefaults(
   defineProps<{
@@ -38,30 +38,7 @@ const benefits = [
   },
 ]
 
-const bookingContainer = ref<HTMLElement | null>(null)
-
-declare global {
-  interface Window {
-    BookingTrackerConfig?: Record<string, string>
-  }
-}
-
-onMounted(() => {
-  window.BookingTrackerConfig = {
-    domain: 'columnaquiropracticehub.neptune.practicehub.io',
-    appointmentTypeId: '8',
-    ...(props.practitionerId ? { practitionerId: props.practitionerId } : {}),
-    gtmContainerId: 'GTM-NTMKRQV',
-    dataLayerName: 'dataLayer',
-  }
-  const script = document.createElement('script')
-  script.id = 'ph-embed'
-  script.setAttribute('data-ph-embed', '')
-  script.src = `https://columnaquiropracticehub.neptune.practicehub.io/assets/js/booking-form-embed.js?v=${Math.floor(
-    Date.now() / 600000,
-  )}`
-  bookingContainer.value?.appendChild(script)
-})
+useBookingWidget({ appointmentTypeId: '8', practitionerId: props.practitionerId })
 </script>
 
 <template>
@@ -130,6 +107,9 @@ onMounted(() => {
 
   <section id="reservar-cita" class="mx-auto max-w-3xl px-6 py-16">
     <h2 class="section-title text-center">Elige tu fecha y hora</h2>
-    <div ref="bookingContainer" class="mt-8 min-h-[400px] rounded-3xl bg-white p-2 shadow-[0_1px_2px_0_rgba(0,0,0,0.05)]" />
+    <div
+      id="ph_online_bookings_widget"
+      class="mt-8 min-h-[400px] rounded-3xl bg-white p-2 shadow-[0_1px_2px_0_rgba(0,0,0,0.05)]"
+    />
   </section>
 </template>

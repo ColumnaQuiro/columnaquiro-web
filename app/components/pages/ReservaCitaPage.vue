@@ -1,7 +1,8 @@
 <script setup lang="ts">
-import { computed, onBeforeUnmount, onMounted } from 'vue'
+import { computed } from 'vue'
 import { useAppI18n } from '@/composables/useAppI18n'
 import { useSeo } from '@/composables/useSeo'
+import { useBookingWidget } from '@/composables/useBookingWidget'
 
 const { locale } = useAppI18n()
 
@@ -26,35 +27,7 @@ useSeo({
   description: computed(() => c.value.seoDescription),
 })
 
-declare global {
-  interface Window {
-    BookingTrackerConfig?: Record<string, string>
-  }
-}
-
-let script: HTMLScriptElement | null = null
-let container: HTMLElement | null = null
-
-onMounted(() => {
-  window.BookingTrackerConfig = {
-    domain: 'columnaquiropracticehub.neptune.practicehub.io',
-    appointmentTypeId: '8',
-    gtmContainerId: 'GTM-NTMKRQV',
-    dataLayerName: 'dataLayer',
-  }
-  container = document.getElementById('phob__htmx_outer')
-  script = document.createElement('script')
-  script.id = 'ph-embed'
-  script.setAttribute('data-ph-embed', '')
-  script.src = `https://columnaquiropracticehub.neptune.practicehub.io/assets/js/booking-form-embed.js?v=${Math.floor(
-    Date.now() / 600000,
-  )}`
-  container?.appendChild(script)
-})
-
-onBeforeUnmount(() => {
-  script?.remove()
-})
+useBookingWidget()
 </script>
 
 <template>
@@ -67,6 +40,9 @@ onBeforeUnmount(() => {
       <h2 class="mt-2 text-xl text-body/80">{{ c.subtitle }}</h2>
     </div>
 
-    <div id="phob__htmx_outer" class="mt-12 rounded-3xl bg-white p-6 shadow-[0_1px_2px_0_rgba(0,0,0,0.05)]" />
+    <div
+      id="ph_online_bookings_widget"
+      class="mt-12 min-h-[400px] rounded-3xl bg-white p-6 shadow-[0_1px_2px_0_rgba(0,0,0,0.05)]"
+    />
   </section>
 </template>
