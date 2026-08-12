@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 @import 'tailwindcss';
 
 @theme {
@@ -8,7 +7,7 @@
   --color-forest: #0b382c;
   --color-forest-light: #1f4a3c;
   --color-gold: #f2ba7d;
-  --color-gold-dark: #78470e;
+  --color-gold-dark: #684010;
   --color-body: #333333;
   --color-slate: #414845;
 

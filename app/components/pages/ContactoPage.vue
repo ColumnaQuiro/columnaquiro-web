@@ -245,7 +245,7 @@ async function handleSubmit() {
             </span>
             <h3 class="text-base font-semibold text-forest">{{ c.locationTitle }}</h3>
           </div>
-          <div class="mt-4 space-y-3 text-sm text-sage-dark">
+          <div class="mt-4 space-y-3 text-sm text-slate">
             <a :href="clinic.mapsUrl" target="_blank" rel="noopener" class="block hover:text-forest">{{
               clinic.address
             }}</a>

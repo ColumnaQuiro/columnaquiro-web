@@ -20,7 +20,7 @@ const symptomsList = computed(() => symptoms[locale.value])
       <div class="mt-10 flex flex-col gap-10 sm:flex-row sm:justify-between">
         <div>
           <h3 class="text-base font-medium text-gold-light">{{ t('footer.tagline') }}</h3>
-          <div class="mt-4 flex flex-col gap-2 text-sm text-sage-dark">
+          <div class="mt-4 flex flex-col gap-2 text-sm text-sage">
             <a :href="clinic.mapsUrl" target="_blank" rel="noopener" class="hover:text-white">{{
               clinic.address
             }}</a>
@@ -46,7 +46,7 @@ const symptomsList = computed(() => symptoms[locale.value])
 
         <div>
           <h3 class="text-base font-medium text-gold-light">{{ t('footer.sintomas') }}</h3>
-          <div class="mt-4 flex flex-col gap-2 text-sm text-sage-dark">
+          <div class="mt-4 flex flex-col gap-2 text-sm text-sage">
             <NuxtLink
               v-for="symptom in symptomsList"
               :key="symptom.slugEs"
@@ -64,7 +64,7 @@ const symptomsList = computed(() => symptoms[locale.value])
 
         <div>
           <h3 class="text-base font-medium text-gold-light">{{ t('footer.horarios') }}</h3>
-          <div class="mt-4 space-y-2 text-sm text-sage-dark">
+          <div class="mt-4 space-y-2 text-sm text-sage">
             <div v-for="item in schedule" :key="item.dayKey" class="flex justify-between gap-4">
               <span>{{ t(`footer.days.${item.dayKey}`) }}:</span>
               <span class="text-right">{{ item.hours ?? t('footer.closed') }}</span>
@@ -75,7 +75,7 @@ const symptomsList = computed(() => symptoms[locale.value])
 
       <div class="mt-12 border-t border-cream/15 pt-4">
         <div class="flex flex-wrap items-center justify-between gap-4">
-          <p class="text-xs text-body">{{ clinic.name }} © {{ year }}</p>
+          <p class="text-xs text-sage">{{ clinic.name }} © {{ year }}</p>
           <div class="flex flex-wrap items-center gap-4 text-xs text-white">
             <NuxtLink
               v-for="link in legalLinks"

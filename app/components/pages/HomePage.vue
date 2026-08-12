@@ -384,6 +384,7 @@ useHead({
       <img
         src="/assets/images/home-hero.avif"
         alt="chiropractic adjustment"
+        fetchpriority="high"
         class="aspect-[443/600] w-full rounded-3xl object-cover"
       />
     </div>
@@ -467,7 +468,7 @@ useHead({
     <div class="mx-auto flex max-w-[calc(1280px+3rem)] flex-col items-center gap-12 px-6 py-24 md:flex-row">
       <div class="flex-1">
         <h2 class="section-title text-white">{{ c.leaTitle }}</h2>
-        <p v-for="(paragraph, i) in c.leaParagraphs" :key="i" class="mt-4 text-sage-dark">
+        <p v-for="(paragraph, i) in c.leaParagraphs" :key="i" class="mt-4 text-sage">
           {{ paragraph }}
         </p>
         <BaseButton
@@ -541,7 +542,9 @@ useHead({
     </div>
     <div class="mx-auto mt-12 grid max-w-[1280px] gap-6 sm:grid-cols-3 sm:divide-x sm:divide-forest/15">
       <div v-for="step in c.processSteps" :key="step.number" class="relative px-6 py-6 text-center">
-        <p class="pointer-events-none text-8xl font-semibold text-[#86531a]/10">{{ step.number }}</p>
+        <p aria-hidden="true" class="pointer-events-none text-8xl font-semibold text-[#86531a]/10">
+          {{ step.number }}
+        </p>
         <h3 class="-mt-8 text-lg font-bold text-forest">{{ step.title }}</h3>
         <p class="mt-2 text-sm text-slate">{{ step.text }}</p>
       </div>
