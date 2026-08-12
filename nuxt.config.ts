@@ -112,6 +112,7 @@ export default defineNuxtConfig({
         '/en/about-us/our-team/lea-guido',
         '/promocion-especial-primera-visita-quiropractica',
         '/promocion-especial-primera-visita-quiropractica-con-natacha',
+        '/cita-reservada',
         ...symptomRoutes,
         ...blogRoutes,
       ],
