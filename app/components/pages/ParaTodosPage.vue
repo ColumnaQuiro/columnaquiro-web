@@ -101,9 +101,7 @@ const categories = computed(() =>
     title: page[locale.value].title,
     text: c.value.cards[i]!.text,
     linkText: c.value.cards[i]!.linkText,
-    bgImage: `/assets/images/category-${
-      ['trabajadores', 'ninos', 'embarazadas', 'deportistas', 'tercera-edad', 'discapacidades'][i]
-    }.webp`,
+    bgImage: page.heroImage,
     to: `${c.value.hub}/${locale.value === 'es' ? page.slugEs : page.slugEn}`,
   })),
 )

@@ -14,6 +14,7 @@ export interface CategoryContent {
 export interface CategoryPage {
   slugEs: string
   slugEn: string
+  heroImage: string
   es: CategoryContent
   en: CategoryContent
 }
@@ -22,6 +23,7 @@ export const categoryPages: CategoryPage[] = [
   {
     slugEs: 'trabajadores',
     slugEn: 'workers',
+    heroImage: '/assets/images/category-trabajadores.webp',
     es: {
       title: 'Trabajadores',
       intro: [
@@ -62,6 +64,7 @@ export const categoryPages: CategoryPage[] = [
   {
     slugEs: 'bebes-y-ninos',
     slugEn: 'kids',
+    heroImage: '/assets/images/category-ninos.webp',
     es: {
       title: 'Bebés y niños',
       intro: [
@@ -96,6 +99,7 @@ export const categoryPages: CategoryPage[] = [
   {
     slugEs: 'embarazadas',
     slugEn: 'pregnant-women',
+    heroImage: '/assets/images/category-embarazadas.webp',
     es: {
       title: 'Embarazadas',
       intro: ['Es importante preparar el cuerpo para los cambios que se producirán durante el embarazo:'],
@@ -162,6 +166,7 @@ export const categoryPages: CategoryPage[] = [
   {
     slugEs: 'deportistas',
     slugEn: 'athletes',
+    heroImage: '/assets/images/category-deportistas.webp',
     es: {
       title: 'Deportistas',
       intro: [
@@ -228,6 +233,7 @@ export const categoryPages: CategoryPage[] = [
   {
     slugEs: 'personas-mayores',
     slugEn: 'elder-people',
+    heroImage: '/assets/images/category-tercera-edad.webp',
     es: {
       title: 'Personas mayores',
       intro: [
@@ -264,6 +270,7 @@ export const categoryPages: CategoryPage[] = [
   {
     slugEs: 'discapacidades-motoras-intelectuales',
     slugEn: 'disabled-people',
+    heroImage: '/assets/images/category-discapacidades.webp',
     es: {
       title: 'Discapacidades motoras o intelectuales',
       intro: [

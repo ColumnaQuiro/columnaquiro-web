@@ -46,14 +46,26 @@ useHead({
 </script>
 
 <template>
-  <section v-if="content" class="mx-auto max-w-3xl px-6 py-24">
-    <p class="text-sm font-semibold uppercase tracking-wide text-gold-dark">
-      {{ t('nav.paraTodos') }}
-    </p>
-    <h1 class="mt-4 text-4xl font-semibold text-forest sm:text-5xl">{{ content.title }}</h1>
+  <section v-if="content && page" class="bg-cream px-6">
+    <div class="mx-auto grid max-w-[calc(1280px+3rem)] items-center gap-12 py-24 md:grid-cols-[1.8fr_1fr]">
+      <div>
+        <p class="text-sm font-semibold uppercase tracking-wide text-gold-dark">
+          {{ t('nav.paraTodos') }}
+        </p>
+        <h1 class="mt-4 text-4xl font-semibold text-forest sm:text-5xl">{{ content.title }}</h1>
+        <p class="mt-6 text-lg text-body/80">{{ content.intro[0] }}</p>
+      </div>
+      <img
+        :src="page.heroImage"
+        :alt="content.title"
+        class="aspect-[443/600] w-full rounded-3xl object-cover"
+      />
+    </div>
+  </section>
 
-    <div class="mt-8 space-y-4 text-body/80">
-      <p v-for="(paragraph, i) in content.intro" :key="i">{{ paragraph }}</p>
+  <section v-if="content" class="mx-auto max-w-3xl px-6 py-24">
+    <div class="space-y-4 text-body/80">
+      <p v-for="(paragraph, i) in content.intro.slice(1)" :key="i">{{ paragraph }}</p>
     </div>
 
     <ul v-if="content.list" class="mt-6 space-y-3">
