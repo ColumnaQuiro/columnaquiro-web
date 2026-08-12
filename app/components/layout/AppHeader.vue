@@ -121,6 +121,7 @@ function closeMenus() {
         </NuxtLink>
         <div class="flex items-center gap-1.5 text-sm text-gold-dark">
           <button
+            class="cursor-pointer"
             :class="{ 'font-semibold': locale === 'es', 'opacity-50': locale !== 'es' }"
             @click="switchTo('es')"
           >
@@ -128,6 +129,7 @@ function closeMenus() {
           </button>
           <span class="text-body/30">|</span>
           <button
+            class="cursor-pointer"
             :class="{ 'font-semibold': locale === 'en', 'opacity-50': locale !== 'en' }"
             @click="switchTo('en')"
           >
@@ -183,6 +185,7 @@ function closeMenus() {
           </NuxtLink>
           <div class="flex items-center gap-2 text-sm font-medium text-forest">
             <button
+              class="cursor-pointer"
               :class="{ 'font-semibold': locale === 'es', 'opacity-50': locale !== 'es' }"
               @click="switchTo('es')"
             >
@@ -190,6 +193,7 @@ function closeMenus() {
             </button>
             <span>|</span>
             <button
+              class="cursor-pointer"
               :class="{ 'font-semibold': locale === 'en', 'opacity-50': locale !== 'en' }"
               @click="switchTo('en')"
             >
