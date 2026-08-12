@@ -71,7 +71,7 @@ useHead({
       <div
         v-for="symptom in content.symptoms"
         :key="symptom.label"
-        class="rounded-2xl bg-white p-4 text-center shadow-sm"
+        class="rounded-2xl bg-white p-4 text-center shadow-[0_1px_2px_0_rgba(0,0,0,0.05)]"
       >
         <img :src="symptom.image" :alt="symptom.label" class="mx-auto h-12 w-12 object-contain" />
         <p class="mt-3 text-sm font-medium text-forest">{{ symptom.label }}</p>

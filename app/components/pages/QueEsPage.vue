@@ -133,7 +133,7 @@ const c = computed(() => content[locale.value])
       <div
         v-for="type in c.stressTypes"
         :key="type.title"
-        class="rounded-3xl bg-white p-8 shadow-sm"
+        class="rounded-3xl bg-white p-8 shadow-[0_1px_2px_0_rgba(0,0,0,0.05)]"
       >
         <img :src="type.icon" :alt="type.title" class="mx-auto h-14 w-14" />
         <h3 class="mt-4 text-lg font-semibold text-forest">{{ type.title }}</h3>

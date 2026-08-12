@@ -433,7 +433,7 @@ useHead({
         <div
           v-for="(item, i) in c.methodology"
           :key="item.title"
-          class="rounded-3xl bg-white p-10 shadow-sm"
+          class="rounded-3xl bg-white p-10 shadow-[0_1px_2px_0_rgba(0,0,0,0.05)]"
           :class="[
             i === 0 ? 'sm:col-start-1 sm:row-start-1' : '',
             i === 1 ? 'sm:col-start-3 sm:row-start-1' : '',
@@ -465,7 +465,7 @@ useHead({
 
   <!-- Léa intro -->
   <section class="bg-forest">
-    <div class="mx-auto grid max-w-[calc(1280px+3rem)] items-center gap-12 px-6 py-24 md:grid-cols-2">
+    <div class="mx-auto grid max-w-[calc(1280px+3rem)] items-center gap-12 px-6 py-24 md:grid-cols-[1fr_1.45fr]">
       <div>
         <h2 class="section-title text-white">{{ c.leaTitle }}</h2>
         <p v-for="(paragraph, i) in c.leaParagraphs" :key="i" class="mt-4 text-sage-dark">
@@ -495,7 +495,7 @@ useHead({
       <div
         v-for="card in c.identifyCards"
         :key="card.title"
-        class="rounded-3xl bg-cream p-8 shadow-sm"
+        class="rounded-3xl bg-cream p-8 shadow-[0_1px_2px_0_rgba(0,0,0,0.05)]"
       >
         <img :src="card.icon" :alt="card.title" class="h-10 w-10" />
         <h3 class="mt-4 font-bold text-forest">{{ card.title }}</h3>

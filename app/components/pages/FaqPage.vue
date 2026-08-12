@@ -63,7 +63,7 @@ useHead({
         <details
           v-for="item in group.items"
           :key="item.q"
-          class="rounded-2xl bg-white p-6 shadow-sm"
+          class="rounded-2xl bg-white p-6 shadow-[0_1px_2px_0_rgba(0,0,0,0.05)]"
         >
           <summary class="cursor-pointer font-semibold text-forest">{{ item.q }}</summary>
           <p class="mt-3 whitespace-pre-line text-sm text-body/70">{{ item.a }}</p>

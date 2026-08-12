@@ -52,6 +52,6 @@ onBeforeUnmount(() => {
       <h2 class="mt-2 text-xl text-body/80">{{ c.subtitle }}</h2>
     </div>
 
-    <div id="phob__htmx_outer" class="mt-12 rounded-3xl bg-white p-6 shadow-sm" />
+    <div id="phob__htmx_outer" class="mt-12 rounded-3xl bg-white p-6 shadow-[0_1px_2px_0_rgba(0,0,0,0.05)]" />
   </section>
 </template>

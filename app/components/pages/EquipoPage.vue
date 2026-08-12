@@ -77,7 +77,7 @@ useHead({
     <div
       v-for="member in members"
       :key="member.name"
-      class="flex flex-col items-center gap-8 rounded-3xl bg-white p-8 text-center shadow-sm sm:flex-row sm:text-left"
+      class="flex flex-col items-center gap-8 rounded-3xl bg-white p-8 text-center shadow-[0_1px_2px_0_rgba(0,0,0,0.05)] sm:flex-row sm:text-left"
     >
       <img
         :src="member.photo"

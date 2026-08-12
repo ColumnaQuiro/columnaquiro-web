@@ -47,7 +47,7 @@ function closeMenus() {
         <nav class="hidden items-center gap-8 md:flex">
           <div class="relative" @mouseenter="openMenu = 'para-ti'">
             <button
-              class="flex items-center gap-1 text-base font-medium text-[#101828]"
+              class="flex items-center gap-1 text-base font-medium text-forest"
               @click="toggleMenu('para-ti')"
             >
               {{ paraTiDropdown.label }}
@@ -77,13 +77,13 @@ function closeMenus() {
             </Transition>
           </div>
 
-          <NuxtLink :to="paraTodosLink.to" class="text-base font-medium text-[#101828]">
+          <NuxtLink :to="paraTodosLink.to" class="text-base font-medium text-forest">
             {{ paraTodosLink.label }}
           </NuxtLink>
 
           <div class="relative" @mouseenter="openMenu = 'sobre-nosotros'">
             <button
-              class="flex items-center gap-1 text-base font-medium text-[#101828]"
+              class="flex items-center gap-1 text-base font-medium text-forest"
               @click="toggleMenu('sobre-nosotros')"
             >
               {{ sobreNosotrosDropdown.label }}
@@ -116,7 +116,7 @@ function closeMenus() {
       </div>
 
       <div class="hidden items-center gap-6 md:flex">
-        <NuxtLink :to="blogLink.to" class="text-base font-medium text-[#101828]">
+        <NuxtLink :to="blogLink.to" class="text-base font-medium text-body">
           {{ blogLink.label }}
         </NuxtLink>
         <div class="flex items-center gap-1.5 text-sm text-gold-dark">

@@ -70,7 +70,7 @@ function formatDate(iso: string) {
         v-for="post in paginatedPosts"
         :key="post.slug"
         :to="`${locale === 'es' ? '/blog' : '/en/blog'}/${post.slug}`"
-        class="flex flex-col overflow-hidden rounded-3xl bg-white shadow-sm transition-shadow hover:shadow-md"
+        class="flex flex-col overflow-hidden rounded-3xl bg-white shadow-[0_1px_2px_0_rgba(0,0,0,0.05)] transition-shadow hover:shadow-md"
       >
         <img :src="post.cover" :alt="post.title" class="aspect-[16/10] w-full object-cover" />
         <div class="flex flex-1 flex-col p-6">

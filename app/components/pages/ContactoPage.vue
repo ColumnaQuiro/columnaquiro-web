@@ -81,7 +81,7 @@ function handleSubmit() {
     </div>
 
     <div class="mt-16 grid gap-12 md:grid-cols-2">
-      <div class="rounded-3xl bg-white p-8 shadow-sm">
+      <div class="rounded-3xl bg-white p-8 shadow-[0_1px_2px_0_rgba(0,0,0,0.05)]">
         <h2 class="text-xl font-semibold text-forest">{{ c.ourData }}</h2>
         <ul class="mt-6 space-y-4 text-body/80">
           <li>
@@ -154,7 +154,7 @@ function handleSubmit() {
         <BaseButton type="submit">{{ c.labels.submit }}</BaseButton>
       </form>
 
-      <div v-else class="flex items-center justify-center rounded-3xl bg-white p-8 text-center shadow-sm">
+      <div v-else class="flex items-center justify-center rounded-3xl bg-white p-8 text-center shadow-[0_1px_2px_0_rgba(0,0,0,0.05)]">
         <p class="text-lg text-forest">{{ c.thanks(form.name) }}</p>
       </div>
     </div>

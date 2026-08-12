@@ -219,7 +219,7 @@ const c = computed(() => content[locale.value])
       />
     </div>
     <div class="mx-auto mt-12 grid max-w-5xl gap-6 sm:grid-cols-3">
-      <div v-for="phase in c.phases" :key="phase.title" class="rounded-3xl bg-white p-6 shadow-sm">
+      <div v-for="phase in c.phases" :key="phase.title" class="rounded-3xl bg-white p-6 shadow-[0_1px_2px_0_rgba(0,0,0,0.05)]">
         <h3 class="text-lg font-medium text-forest">{{ phase.title }}</h3>
         <p class="mt-2 text-sm text-body/70">{{ phase.text }}</p>
       </div>
@@ -236,7 +236,7 @@ const c = computed(() => content[locale.value])
       />
     </div>
     <div class="mt-12 space-y-6">
-      <details v-for="faq in c.faqs" :key="faq.q" class="rounded-2xl bg-white p-6 shadow-sm">
+      <details v-for="faq in c.faqs" :key="faq.q" class="rounded-2xl bg-white p-6 shadow-[0_1px_2px_0_rgba(0,0,0,0.05)]">
         <summary class="cursor-pointer font-semibold text-forest">{{ faq.q }}</summary>
         <p class="mt-3 text-sm text-body/70">{{ faq.a }}</p>
       </details>

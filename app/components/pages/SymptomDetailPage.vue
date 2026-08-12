@@ -79,7 +79,7 @@ useSeo({
       <p v-for="(paragraph, i) in c.howChiropracticHelps" :key="i">{{ paragraph }}</p>
     </div>
 
-    <p v-if="c.note" class="mt-8 rounded-2xl bg-white p-4 text-sm text-body/70 shadow-sm">
+    <p v-if="c.note" class="mt-8 rounded-2xl bg-white p-4 text-sm text-body/70 shadow-[0_1px_2px_0_rgba(0,0,0,0.05)]">
       {{ c.note }}
     </p>
   </section>
