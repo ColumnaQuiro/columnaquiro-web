@@ -14,7 +14,13 @@ const symptomsList = computed(() => symptoms[locale.value])
   <footer class="bg-forest text-cream">
     <div class="mx-auto max-w-[calc(1280px+3.75rem)] px-[30px] pb-[15px] pt-[50px]">
       <NuxtLink :to="locale === 'es' ? '/' : '/en'" class="inline-flex items-center">
-        <img src="/assets/images/logo-quiro-white.png" alt="ColumnaQuiro" class="w-24" />
+        <img
+          src="/assets/images/logo-quiro-footer.avif"
+          alt="ColumnaQuiro"
+          width="96"
+          height="44"
+          class="w-24"
+        />
       </NuxtLink>
 
       <div class="mt-10 flex flex-col gap-10 sm:flex-row sm:justify-between">
