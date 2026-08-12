@@ -61,7 +61,11 @@ function formatDate(iso: string) {
       <span>›</span>
       <span class="text-body/80">{{ post.title }}</span>
     </nav>
-    <p class="mt-4 text-sm uppercase tracking-wide text-gold-dark">{{ formatDate(post.date) }}</p>
+    <p
+      class="mt-4 inline-flex w-fit items-center rounded-full bg-badge-mint/20 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-forest"
+    >
+      {{ formatDate(post.date) }}
+    </p>
     <h1 class="mt-4 text-3xl font-semibold text-forest sm:text-4xl">{{ post.title }}</h1>
     <div class="mt-4 flex items-center gap-2">
       <img
