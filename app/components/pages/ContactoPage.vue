@@ -44,6 +44,8 @@ const content = {
       phone: 'Teléfono',
       message: 'Mensaje',
       submit: 'Enviar mensaje',
+      submitting: 'Enviando...',
+      error: 'No hemos podido enviar tu mensaje. Inténtalo de nuevo o escríbenos por WhatsApp.',
     },
     thanks: (name: string) => `¡Gracias, ${name}! Hemos recibido tu mensaje y te contactaremos pronto.`,
   },
@@ -66,6 +68,8 @@ const content = {
       phone: 'Phone',
       message: 'Message',
       submit: 'Send message',
+      submitting: 'Sending...',
+      error: "We couldn't send your message. Please try again or message us on WhatsApp.",
     },
     thanks: (name: string) => `Thank you, ${name}! We've received your message and will get back to you soon.`,
   },
@@ -191,7 +195,10 @@ async function handleSubmit() {
               class="mt-1 w-full rounded-xl border border-forest/20 bg-cream/40 px-4 py-3 focus:border-forest focus:outline-none"
             />
           </div>
-          <BaseButton type="submit" variant="dark">{{ c.labels.submit }}</BaseButton>
+          <BaseButton type="submit" variant="dark" :disabled="submitting" class="disabled:opacity-60">{{
+            submitting ? c.labels.submitting : c.labels.submit
+          }}</BaseButton>
+          <p v-if="submitError" class="text-sm text-red-600">{{ c.labels.error }}</p>
         </form>
 
         <div v-else class="flex min-h-[280px] items-center justify-center text-center">
