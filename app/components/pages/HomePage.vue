@@ -618,10 +618,10 @@ useHead({
           >
         </button>
         <div
-          class="grid transition-[grid-template-rows] duration-300 ease-in-out"
+          class="grid overflow-hidden transition-[grid-template-rows] duration-300 ease-in-out"
           :style="{ gridTemplateRows: openFaq === i ? '1fr' : '0fr' }"
         >
-          <p class="overflow-hidden pt-3 text-sm text-slate">{{ faq.a }}</p>
+          <p class="min-h-0 text-sm text-slate" :class="{ 'pt-3': openFaq === i }">{{ faq.a }}</p>
         </div>
       </div>
     </div>

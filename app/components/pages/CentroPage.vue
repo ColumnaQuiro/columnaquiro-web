@@ -132,7 +132,7 @@ const c = computed(() => content[locale.value])
 
 <template>
   <section class="bg-cream px-6">
-    <div class="mx-auto grid max-w-[1280px] items-start gap-12 py-24 md:grid-cols-2">
+    <div class="mx-auto grid max-w-[calc(1280px+3rem)] items-start gap-12 py-24 md:grid-cols-[1.8fr_1fr]">
       <div>
         <p class="text-sm font-medium text-gold-dark">{{ c.eyebrow }}</p>
         <h1 class="mt-4 text-4xl font-semibold leading-[1.05] text-forest sm:text-5xl lg:text-6xl">
@@ -146,7 +146,7 @@ const c = computed(() => content[locale.value])
       <img
         src="/assets/images/centro-sala-ajuste-2.webp"
         alt="chiropractic adjustment room"
-        class="w-full rounded-3xl object-cover"
+        class="aspect-[443/600] w-full rounded-3xl object-cover"
       />
     </div>
   </section>
