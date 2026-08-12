@@ -1,10 +1,56 @@
 <script setup lang="ts">
-import { computed } from 'vue'
+import { computed, onMounted, onUnmounted, ref } from 'vue'
 import { useAppI18n } from '@/composables/useAppI18n'
 import { useSeo } from '@/composables/useSeo'
+import BaseButton from '@/components/ui/BaseButton.vue'
 import CtaBanner from '@/components/ui/CtaBanner.vue'
+import FaqAccordion from '@/components/ui/FaqAccordion.vue'
+import { clinic, socialLinks } from '@/data/clinic'
+
+const whatsappUrl = computed(() => socialLinks.find((link) => link.label === 'WhatsApp')?.href ?? '')
 
 const { locale } = useAppI18n()
+
+const activeStage = ref(0)
+const stageRefs = ref<HTMLElement[]>([])
+let observer: IntersectionObserver | undefined
+
+function setStageRef(el: Element | null, index: number) {
+  if (el instanceof HTMLElement) stageRefs.value[index] = el
+}
+
+function closestStageToCenter() {
+  const viewportCenter = window.innerHeight / 2
+  let closest = 0
+  let closestDistance = Infinity
+  stageRefs.value.forEach((el, i) => {
+    const rect = el.getBoundingClientRect()
+    const distance = Math.abs(rect.top + rect.height / 2 - viewportCenter)
+    if (distance < closestDistance) {
+      closestDistance = distance
+      closest = i
+    }
+  })
+  return closest
+}
+
+onMounted(() => {
+  activeStage.value = closestStageToCenter()
+
+  observer = new IntersectionObserver(
+    (entries) => {
+      for (const entry of entries) {
+        if (entry.isIntersecting) {
+          activeStage.value = stageRefs.value.indexOf(entry.target as HTMLElement)
+        }
+      }
+    },
+    { rootMargin: '-45% 0px -45% 0px', threshold: 0 },
+  )
+  stageRefs.value.forEach((el) => observer?.observe(el))
+})
+
+onUnmounted(() => observer?.disconnect())
 
 const seoText = {
   es: {
@@ -28,15 +74,22 @@ const content = {
     title: '¿Cómo funciona nuestro cuidado quiropráctico?',
     planTitle: 'Así será tu plan de cuidado quiropráctico personalizado',
     planIntro: 'Te explicamos cómo funciona cada etapa del cuidado y en cuantas sesiones se divide.',
-    bookingIntro: 'Para reservar tu visita tienes 3 opciones: escribirnos a través de WhatsApp, por teléfono al',
-    bookingLink: 'página de reservas',
+    heroButton: 'Reserva tu visita',
+    bookingIntro: 'Para reservar tu visita tienes 3 opciones: escribirnos a través de',
+    bookingPhoneIntro: ', por teléfono al',
+    bookingOnlineIntro: ', u online en este',
+    bookingLink: 'link',
     stages: [
+      {
+        title: 'Reserva tu primera visita',
+        isBooking: true,
+      },
       {
         title: 'Primera visita',
         text: 'En la primera visita tomaremos tu historial de salud, para conocer mejor tus necesidades y poder hacer un plan de cuidado personalizado. Además realizaremos unas pruebas de postura para que veas el progreso durante el plan de cuidado. Por último, realizarás la primera sesión del ajuste quiropráctico con Léa, nuestra quiropráctica.',
       },
       {
-        title: 'Segunda visita',
+        title: 'Informe quiropráctico',
         text: 'Empezaremos entregando los resultados de la primera sesión. Aquí podrás preguntar todas las dudas a nuestro equipo quiropráctico. Después pasaremos a realizar un ajuste quiropráctico y te informaremos del plan quiropráctico personalizado para ti.',
       },
       {
@@ -97,12 +150,15 @@ const content = {
     title: 'How does our chiropractic care work?',
     planTitle: 'This will be your personalized chiropractic care plan',
     planIntro: 'We explain how each stage of care works and how many sessions it is divided into.',
-    bookingIntro: 'To book your visit you have 3 options: message us on WhatsApp, call us at',
-    bookingLink: 'booking page',
+    heroButton: 'Book your visit',
+    bookingIntro: 'To book your visit you have 3 options: write to us on',
+    bookingPhoneIntro: ', by phone at',
+    bookingOnlineIntro: ', or online at this',
+    bookingLink: 'link',
     stages: [
       {
         title: 'Book your first visit',
-        text: 'To book your visit you have 3 options: message us on WhatsApp, call us at +34 744 73 53 63, or book online.',
+        isBooking: true,
       },
       {
         title: 'First visit',
@@ -172,38 +228,65 @@ const c = computed(() => content[locale.value])
 </script>
 
 <template>
-  <section class="bg-cream px-6 py-24 text-center">
-    <h1 class="mx-auto max-w-4xl text-4xl font-semibold text-forest sm:text-5xl">{{ c.title }}</h1>
+  <section class="bg-cream px-6">
+    <div class="mx-auto grid max-w-[calc(1280px+3rem)] items-center gap-12 py-24 md:grid-cols-[1.8fr_1fr]">
+      <div>
+        <p class="text-sm font-semibold uppercase tracking-wide text-gold-dark">{{ c.title }}</p>
+        <h1 class="mt-4 text-4xl font-semibold text-forest sm:text-5xl">{{ c.planTitle }}</h1>
+        <p class="mt-6 text-lg text-body/80">{{ c.planIntro }}</p>
+        <BaseButton :to="locale === 'es' ? '/reserva-cita' : '/en/book-appointment'" class="mt-8">{{
+          c.heroButton
+        }}</BaseButton>
+      </div>
+      <img
+        src="/assets/images/comofunciona-header.webp"
+        alt="how chiropractic care works"
+        class="aspect-[443/600] w-full rounded-3xl object-cover"
+      />
+    </div>
   </section>
 
-  <img
-    src="/assets/images/comofunciona-header.webp"
-    alt="how chiropractic care works"
-    class="mx-auto max-w-5xl rounded-3xl px-6"
-  />
-
-  <section class="mx-auto max-w-4xl px-6 py-24">
-    <h2 class="text-3xl font-semibold text-forest">{{ c.planTitle }}</h2>
-    <p class="mt-4 text-body/80">{{ c.planIntro }}</p>
-    <p v-if="locale === 'es'" class="mt-4 text-body/80">
-      {{ c.bookingIntro }} +34 744 73 53 63, u online en nuestra
-      <NuxtLink to="/reserva-cita" class="font-semibold text-gold-dark underline">{{
-        c.bookingLink
-      }}</NuxtLink>
-      .
-    </p>
-    <p v-else class="mt-4 text-body/80">
-      {{ c.bookingIntro }} +34 744 73 53 63, or book online on our
-      <NuxtLink to="/en/book-appointment" class="font-semibold text-gold-dark underline">{{
-        c.bookingLink
-      }}</NuxtLink>
-      .
-    </p>
-
-    <div class="mt-12 space-y-8">
-      <div v-for="stage in c.stages" :key="stage.title">
-        <h3 class="text-lg font-semibold text-forest">{{ stage.title }}</h3>
-        <p class="mt-2 text-body/80">{{ stage.text }}</p>
+  <section class="mx-auto max-w-3xl px-6 py-24">
+    <div>
+      <div
+        v-for="(stage, i) in c.stages"
+        :key="stage.title"
+        :ref="(el) => setStageRef(el as Element | null, i)"
+        class="flex gap-6 rounded-3xl p-6 transition-all duration-300 md:min-h-[50vh] md:items-center"
+        :class="activeStage === i ? 'bg-white shadow-[0_1px_2px_0_rgba(0,0,0,0.05)]' : 'opacity-50'"
+      >
+        <div class="flex shrink-0 flex-col items-center">
+          <span
+            class="flex h-12 w-12 shrink-0 items-center justify-center rounded-full text-lg font-semibold transition-colors duration-300"
+            :class="activeStage === i ? 'bg-gold text-gold-dark' : 'bg-taupe text-body/50'"
+          >
+            {{ String(i + 1).padStart(2, '0') }}
+          </span>
+          <span v-if="i < c.stages.length - 1" class="mt-2 w-px flex-1 bg-taupe" />
+        </div>
+        <div>
+          <h3 class="text-lg font-semibold text-forest">{{ stage.title }}</h3>
+          <p v-if="stage.isBooking" class="mt-2 text-body/80">
+            {{ c.bookingIntro }}
+            <a
+              :href="whatsappUrl"
+              target="_blank"
+              rel="noopener"
+              class="font-semibold text-gold-dark underline"
+              >WhatsApp</a
+            >{{ c.bookingPhoneIntro }}
+            <a :href="`tel:${clinic.phone.replace(/\\s/g, '')}`" class="font-semibold text-gold-dark underline">{{
+              clinic.phone
+            }}</a
+            >{{ c.bookingOnlineIntro }}
+            <NuxtLink
+              :to="locale === 'es' ? '/reserva-cita' : '/en/book-appointment'"
+              class="font-semibold text-gold-dark underline"
+              >{{ c.bookingLink }}</NuxtLink
+            >.
+          </p>
+          <p v-else class="mt-2 text-body/80">{{ stage.text }}</p>
+        </div>
       </div>
     </div>
   </section>
@@ -235,11 +318,8 @@ const c = computed(() => content[locale.value])
         class="mx-auto mt-6 max-w-md"
       />
     </div>
-    <div class="mt-12 space-y-6">
-      <details v-for="faq in c.faqs" :key="faq.q" class="rounded-2xl bg-white p-6 shadow-[0_1px_2px_0_rgba(0,0,0,0.05)]">
-        <summary class="cursor-pointer font-semibold text-forest">{{ faq.q }}</summary>
-        <p class="mt-3 text-sm text-body/70">{{ faq.a }}</p>
-      </details>
+    <div class="mx-auto mt-12 max-w-3xl">
+      <FaqAccordion :faqs="c.faqs" />
     </div>
   </section>
 

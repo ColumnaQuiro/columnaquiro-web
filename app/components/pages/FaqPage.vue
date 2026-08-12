@@ -3,6 +3,7 @@ import { computed } from 'vue'
 import { useAppI18n } from '@/composables/useAppI18n'
 import { useSeo } from '@/composables/useSeo'
 import { faqGroups } from '@/data/faq-groups'
+import FaqAccordion from '@/components/ui/FaqAccordion.vue'
 
 const { locale } = useAppI18n()
 const groups = computed(() => faqGroups[locale.value])
@@ -59,15 +60,8 @@ useHead({
     <div v-for="group in groups" :key="group.title">
       <h2 class="text-2xl font-semibold text-forest">{{ group.title }}</h2>
       <p class="mt-1 text-body/70">{{ group.subtitle }}</p>
-      <div class="mt-6 space-y-4">
-        <details
-          v-for="item in group.items"
-          :key="item.q"
-          class="rounded-2xl bg-white p-6 shadow-[0_1px_2px_0_rgba(0,0,0,0.05)]"
-        >
-          <summary class="cursor-pointer font-semibold text-forest">{{ item.q }}</summary>
-          <p class="mt-3 whitespace-pre-line text-sm text-body/70">{{ item.a }}</p>
-        </details>
+      <div class="mt-6">
+        <FaqAccordion :faqs="group.items" />
       </div>
     </div>
   </section>

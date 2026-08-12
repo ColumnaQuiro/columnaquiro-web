@@ -1,12 +1,11 @@
 <script setup lang="ts">
-import { computed, ref } from 'vue'
+import { computed } from 'vue'
 import { useAppI18n } from '@/composables/useAppI18n'
 import { useSeo } from '@/composables/useSeo'
 import BaseButton from '@/components/ui/BaseButton.vue'
+import FaqAccordion from '@/components/ui/FaqAccordion.vue'
 
 const { locale } = useAppI18n()
-
-const openFaq = ref<number | null>(null)
 
 const whyBulletIcons = ['/assets/images/icon-ajuste-primera-visita.svg', '/assets/images/icon-enfoque-holistico.svg']
 
@@ -603,27 +602,8 @@ useHead({
   <!-- FAQ -->
   <section class="bg-beige px-6 py-24">
     <h2 class="section-title text-center">{{ c.faqTitle }}</h2>
-    <div class="mx-auto mt-12 max-w-3xl space-y-3">
-      <div v-for="(faq, i) in c.faqs" :key="faq.q" class="rounded-2xl bg-cream p-6">
-        <button
-          type="button"
-          class="flex w-full cursor-pointer items-center justify-between gap-4 text-left font-bold text-forest"
-          @click="openFaq = openFaq === i ? null : i"
-        >
-          {{ faq.q }}
-          <span
-            class="faq-icon flex h-7 w-7 shrink-0 items-center justify-center rounded-full border border-forest/30 text-forest transition-transform duration-300"
-            :class="{ 'rotate-45': openFaq === i }"
-            >+</span
-          >
-        </button>
-        <div
-          class="grid overflow-hidden transition-[grid-template-rows] duration-300 ease-in-out"
-          :style="{ gridTemplateRows: openFaq === i ? '1fr' : '0fr' }"
-        >
-          <p class="min-h-0 text-sm text-slate" :class="{ 'pt-3': openFaq === i }">{{ faq.a }}</p>
-        </div>
-      </div>
+    <div class="mx-auto mt-12 max-w-3xl">
+      <FaqAccordion :faqs="c.faqs" />
     </div>
   </section>
 </template>
