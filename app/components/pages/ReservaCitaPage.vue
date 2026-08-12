@@ -26,15 +26,30 @@ useSeo({
   description: computed(() => c.value.seoDescription),
 })
 
-const SCRIPT_SRC = 'https://columnaquiropracticehub.neptune.practicehub.io/assets/js/booking-form-embed.js'
+declare global {
+  interface Window {
+    BookingTrackerConfig?: Record<string, string>
+  }
+}
 
 let script: HTMLScriptElement | null = null
+let container: HTMLElement | null = null
 
 onMounted(() => {
+  window.BookingTrackerConfig = {
+    domain: 'columnaquiropracticehub.neptune.practicehub.io',
+    appointmentTypeId: '8',
+    gtmContainerId: 'GTM-NTMKRQV',
+    dataLayerName: 'dataLayer',
+  }
+  container = document.getElementById('phob__htmx_outer')
   script = document.createElement('script')
-  script.src = SCRIPT_SRC
-  script.async = true
-  document.body.appendChild(script)
+  script.id = 'ph-embed'
+  script.setAttribute('data-ph-embed', '')
+  script.src = `https://columnaquiropracticehub.neptune.practicehub.io/assets/js/booking-form-embed.js?v=${Math.floor(
+    Date.now() / 600000,
+  )}`
+  container?.appendChild(script)
 })
 
 onBeforeUnmount(() => {
