@@ -14,8 +14,8 @@ export function useLocale() {
   }
 
   function switchTo(target: Locale) {
-    const path = pathForLocale(target)
-    if (path) navigateTo(path)
+    const path = pathForLocale(target) ?? (target === 'es' ? '/' : '/en')
+    navigateTo(path)
   }
 
   return { locale, otherLocale, pathForLocale, switchTo }

@@ -9,7 +9,7 @@ import { useLocale } from '@/composables/useLocale'
 const { t } = useI18n()
 const { paraTiDropdown, sobreNosotrosDropdown, paraTodosLink, blogLink, reservaLink } =
   useNavigation()
-const { locale, switchTo, pathForLocale } = useLocale()
+const { locale, switchTo } = useLocale()
 
 const openMenu = ref<string | null>(null)
 const mobileOpen = ref(false)
@@ -122,7 +122,6 @@ function closeMenus() {
         <div class="flex items-center gap-1.5 text-sm text-gold-dark">
           <button
             :class="{ 'font-semibold': locale === 'es', 'opacity-50': locale !== 'es' }"
-            :disabled="!pathForLocale('es')"
             @click="switchTo('es')"
           >
             ES
@@ -130,7 +129,6 @@ function closeMenus() {
           <span class="text-body/30">|</span>
           <button
             :class="{ 'font-semibold': locale === 'en', 'opacity-50': locale !== 'en' }"
-            :disabled="!pathForLocale('en')"
             @click="switchTo('en')"
           >
             EN

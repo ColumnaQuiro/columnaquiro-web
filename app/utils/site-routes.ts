@@ -23,6 +23,11 @@ export const PAGES: PagePair[] = [
     en: '/en/about-us/chiropractic-valencia',
   },
   { key: 'contacto', es: '/sobre-nosotros/contacto', en: '/en/about-us/contact' },
+  {
+    key: 'lea-guido',
+    es: '/sobre-nosotros/equipo/lea-guido',
+    en: '/en/about-us/our-team/lea-guido',
+  },
   { key: 'blog', es: '/blog', en: '/en/blog' },
   { key: 'reserva-cita', es: '/reserva-cita', en: '/en/book-appointment' },
   { key: 'privacidad', es: '/politica-de-privacidad', en: '/en/privacy-policy' },
