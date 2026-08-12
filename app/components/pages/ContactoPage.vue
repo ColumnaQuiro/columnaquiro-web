@@ -86,9 +86,30 @@ const form = reactive({
 })
 
 const submitted = ref(false)
+const submitError = ref(false)
+const submitting = ref(false)
 
-function handleSubmit() {
-  submitted.value = true
+async function handleSubmit() {
+  submitting.value = true
+  submitError.value = false
+  try {
+    const body = new URLSearchParams({
+      'form-name': 'contact',
+      locale: locale.value,
+      ...form,
+    })
+    const res = await fetch('/', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: body.toString(),
+    })
+    if (!res.ok) throw new Error(`Netlify Forms responded with ${res.status}`)
+    submitted.value = true
+  } catch {
+    submitError.value = true
+  } finally {
+    submitting.value = false
+  }
 }
 </script>
 
@@ -103,7 +124,19 @@ function handleSubmit() {
       <div class="rounded-3xl bg-white p-8 shadow-[0_1px_2px_0_rgba(0,0,0,0.05)]">
         <h2 class="text-xl font-semibold text-forest">{{ c.formTitle }}</h2>
 
-        <form v-if="!submitted" class="mt-6 space-y-4" @submit.prevent="handleSubmit">
+        <form
+          v-if="!submitted"
+          name="contact"
+          method="POST"
+          data-netlify="true"
+          netlify-honeypot="bot-field"
+          class="mt-6 space-y-4"
+          @submit.prevent="handleSubmit"
+        >
+          <input type="hidden" name="form-name" value="contact" />
+          <p class="hidden">
+            <label>Don't fill this out: <input name="bot-field" /></label>
+          </p>
           <div class="grid gap-4 sm:grid-cols-2">
             <div>
               <label for="name" class="text-sm font-medium text-forest">{{ c.labels.name }}</label>
