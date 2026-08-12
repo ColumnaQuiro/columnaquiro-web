@@ -125,26 +125,31 @@ const c = computed(() => content[locale.value])
   </section>
 
   <section class="mx-auto max-w-[calc(1280px+3rem)] px-6 pb-24 text-center">
-    <h2 class="text-3xl font-semibold text-forest">{{ c.stressTitle }}</h2>
+    <h2 class="section-title">{{ c.stressTitle }}</h2>
     <p class="mx-auto mt-4 max-w-2xl text-body/80">{{ c.stressSubtitle }}</p>
     <div class="mt-12 grid gap-6 sm:grid-cols-3">
       <div
-        v-for="type in c.stressTypes"
+        v-for="(type, i) in c.stressTypes"
         :key="type.title"
-        class="rounded-3xl bg-white p-8 shadow-[0_1px_2px_0_rgba(0,0,0,0.05)]"
+        class="rounded-3xl bg-white p-8 text-left shadow-[0_1px_2px_0_rgba(0,0,0,0.05)]"
       >
-        <img :src="type.icon" :alt="type.title" class="mx-auto h-14 w-14" />
+        <div
+          class="flex h-16 w-16 items-center justify-center rounded-2xl"
+          :class="[i === 0 ? 'bg-badge-mint/20' : i === 1 ? 'bg-badge-apricot/20' : 'bg-badge-teal/20']"
+        >
+          <img :src="type.icon" :alt="type.title" class="h-8 w-8" />
+        </div>
         <h3 class="mt-4 text-lg font-semibold text-forest">{{ type.title }}</h3>
         <p class="mt-2 text-sm text-body/70">{{ type.text }}</p>
       </div>
     </div>
   </section>
 
-  <section class="bg-[#cbaa9c] px-6 py-24 text-cream">
+  <section class="bg-forest px-6 py-24">
     <div class="mx-auto max-w-3xl text-center">
-      <h2 class="text-3xl font-semibold text-white">{{ c.scienceTitle }}</h2>
+      <h2 class="section-title text-white">{{ c.scienceTitle }}</h2>
       <blockquote class="mt-6 text-cream/90">{{ c.scienceQuote }}</blockquote>
-      <p class="mt-4 text-xs text-cream/60">{{ c.scienceCitation }}</p>
+      <p class="mt-4 text-xs text-sage">{{ c.scienceCitation }}</p>
       <p class="mt-8 font-medium text-white">{{ c.scienceLeadIn }}</p>
     </div>
     <div class="mx-auto mt-8 grid max-w-4xl gap-4 sm:grid-cols-4">
