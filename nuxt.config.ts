@@ -19,6 +19,10 @@ export default defineNuxtConfig({
   ssr: true,
   devtools: { enabled: false },
 
+  experimental: {
+    payloadExtraction: false,
+  },
+
   modules: ['@nuxtjs/sitemap', '@nuxtjs/robots'],
 
   site: {
