@@ -465,8 +465,8 @@ useHead({
 
   <!-- Léa intro -->
   <section class="bg-forest">
-    <div class="mx-auto grid max-w-[calc(1280px+3rem)] items-center gap-12 px-6 py-24 md:grid-cols-[1fr_1.45fr]">
-      <div>
+    <div class="mx-auto flex max-w-[calc(1280px+3rem)] flex-col items-center gap-12 px-6 py-24 md:flex-row">
+      <div class="flex-1">
         <h2 class="section-title text-white">{{ c.leaTitle }}</h2>
         <p v-for="(paragraph, i) in c.leaParagraphs" :key="i" class="mt-4 text-sage-dark">
           {{ paragraph }}
@@ -481,7 +481,7 @@ useHead({
       <img
         src="/assets/images/home-lea.jpg"
         alt="Léa Guido"
-        class="aspect-[4/5] w-full rounded-2xl object-cover"
+        class="aspect-[4/5] w-full rounded-2xl object-cover md:w-[480px] md:shrink-0"
       />
     </div>
   </section>
