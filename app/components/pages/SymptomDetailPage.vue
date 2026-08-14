@@ -49,7 +49,7 @@ useSeo({
 </script>
 
 <template>
-  <section v-if="c" class="bg-cream px-6 py-24 text-center">
+  <section v-if="c" class="bg-cream px-6 py-16 text-center sm:py-24">
     <p class="text-sm font-medium text-gold-dark">{{ locale === 'es' ? 'Síntomas' : 'Symptoms' }}</p>
     <img v-if="image" :src="image" :alt="c.title" class="mx-auto mt-6 h-24 w-24 object-contain" />
     <h1 class="mx-auto mt-6 max-w-2xl text-4xl font-semibold leading-[1.05] text-forest sm:text-5xl lg:text-6xl">
@@ -57,7 +57,7 @@ useSeo({
     </h1>
   </section>
 
-  <section v-if="c" class="mx-auto max-w-3xl px-6 py-24">
+  <section v-if="c" class="mx-auto max-w-3xl px-6 py-16 sm:py-24">
     <h2 class="text-xl font-semibold text-forest">
       {{ locale === 'es' ? '¿Qué es?' : 'What is it?' }}
     </h2>

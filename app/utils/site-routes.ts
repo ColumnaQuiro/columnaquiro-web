@@ -1,5 +1,10 @@
 export type Locale = 'es' | 'en'
 
+// Set the first time a visitor's language is resolved (via auto-redirect or
+// a manual switch), so the one-time browser-language redirect never fires
+// again or overrides an explicit choice.
+export const LOCALE_CHOICE_STORAGE_KEY = 'columnaquiro-locale-choice'
+
 // Netlify serves every prerendered route as a directory (page/index.html) and
 // 301-redirects the no-slash form to the trailing-slash form. Canonical URLs
 // and the sitemap must point at the real (trailing-slash) URL, not the one

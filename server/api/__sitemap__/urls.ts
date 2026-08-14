@@ -16,9 +16,10 @@ export default defineSitemapEventHandler(() => {
 
   // Note: @nuxtjs/sitemap always strips trailing slashes from `loc` during
   // its own normalization (no config to opt out), so these entries end up
-  // without one regardless of what's passed here — the page each one
-  // redirects to still declares the correct self-canonical, which is what
-  // Google actually uses, so this isn't worth fighting.
+  // without one regardless of what's passed here, even though every one of
+  // these routes 301s to add a trailing slash on Netlify. That gets patched
+  // back in post-build by scripts/fix-sitemap-trailing-slash.mjs, which
+  // rewrites the generated dist/sitemap.xml to the real, non-redirecting URLs.
   function addPair(es: string, en: string | null) {
     if (!en) {
       entries.push({ loc: es, alternatives: [{ hreflang: 'es', href: es }] })

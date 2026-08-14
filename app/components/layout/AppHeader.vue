@@ -156,7 +156,7 @@ function closeMenus() {
 
     <Transition name="mobile-menu">
       <div v-if="mobileOpen" class="overflow-hidden border-t border-forest/10 px-6 py-4 md:hidden">
-        <div class="flex flex-col gap-4">
+        <div class="space-y-4">
           <NuxtLink
             v-for="link in paraTiDropdown.links"
             :key="link.to"
@@ -242,6 +242,8 @@ function closeMenus() {
 .mobile-menu-enter-to,
 .mobile-menu-leave-from {
   opacity: 1;
-  max-height: 320px;
+  /* Generously larger than real content (~420px for the current 8 links +
+     language switcher + button) so new nav items don't get clipped again. */
+  max-height: 640px;
 }
 </style>

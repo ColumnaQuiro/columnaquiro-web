@@ -1,6 +1,6 @@
 import { computed } from 'vue'
 import type { Locale } from '@/utils/site-routes'
-import { resolveLocalizedPaths } from '@/utils/site-routes'
+import { LOCALE_CHOICE_STORAGE_KEY, resolveLocalizedPaths } from '@/utils/site-routes'
 import { useAppI18n } from '@/composables/useAppI18n'
 
 export function useLocale() {
@@ -15,6 +15,7 @@ export function useLocale() {
 
   function switchTo(target: Locale) {
     const path = pathForLocale(target) ?? (target === 'es' ? '/' : '/en')
+    if (import.meta.client) localStorage.setItem(LOCALE_CHOICE_STORAGE_KEY, '1')
     navigateTo(path)
   }
 

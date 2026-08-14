@@ -393,7 +393,7 @@ useHead({
   <!-- Trust bar -->
   <section class="bg-beige px-6 py-20">
     <p class="text-center text-lg font-medium text-slate">{{ c.trustBarLabel }}</p>
-    <div class="mx-auto mt-8 flex max-w-[1280px] flex-wrap items-center justify-center gap-24 bg-white">
+    <div class="mx-auto mt-8 flex max-w-[1280px] flex-wrap items-center justify-center gap-x-24 gap-y-8 bg-white">
       <div v-for="item in c.trustBar" :key="item.name" class="flex items-center gap-2">
         <p class="text-base font-bold text-forest">{{ item.name }}</p>
         <p class="text-sm font-semibold text-forest">{{ item.label }}</p>
