@@ -14,6 +14,11 @@ export default defineSitemapEventHandler(() => {
     alternatives: { hreflang: string; href: string }[]
   }> = []
 
+  // Note: @nuxtjs/sitemap always strips trailing slashes from `loc` during
+  // its own normalization (no config to opt out), so these entries end up
+  // without one regardless of what's passed here — the page each one
+  // redirects to still declares the correct self-canonical, which is what
+  // Google actually uses, so this isn't worth fighting.
   function addPair(es: string, en: string | null) {
     if (!en) {
       entries.push({ loc: es, alternatives: [{ hreflang: 'es', href: es }] })

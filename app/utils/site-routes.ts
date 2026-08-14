@@ -1,5 +1,13 @@
 export type Locale = 'es' | 'en'
 
+// Netlify serves every prerendered route as a directory (page/index.html) and
+// 301-redirects the no-slash form to the trailing-slash form. Canonical URLs
+// and the sitemap must point at the real (trailing-slash) URL, not the one
+// that just redirects — otherwise crawlers see a self-canonical mismatch.
+export function withTrailingSlash(path: string): string {
+  return path === '/' || path.endsWith('/') ? path : `${path}/`
+}
+
 // Pages embedding the PracticeHub booking widget — it only initializes
 // reliably on a real page load, not a client-side SPA transition.
 export const BOOKING_WIDGET_PATHS = [

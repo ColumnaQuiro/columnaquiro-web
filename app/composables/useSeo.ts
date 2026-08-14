@@ -1,6 +1,6 @@
 import { computed, type MaybeRefOrGetter, toValue } from 'vue'
 import { SITE_NAME, SITE_URL, DEFAULT_OG_IMAGE } from '@/utils/seo'
-import { resolveLocalizedPaths } from '@/utils/site-routes'
+import { resolveLocalizedPaths, withTrailingSlash } from '@/utils/site-routes'
 import { useAppI18n } from '@/composables/useAppI18n'
 
 export interface SeoOptions {
@@ -16,16 +16,16 @@ export function useSeo(options: SeoOptions) {
 
   const canonicalPath = computed(() => {
     const paths = resolveLocalizedPaths(route.path)
-    return paths?.[locale.value] ?? route.path
+    return withTrailingSlash(paths?.[locale.value] ?? route.path)
   })
 
   const alternates = computed(() => {
     const paths = resolveLocalizedPaths(route.path)
     if (!paths) return []
     return [
-      { rel: 'alternate' as const, hreflang: 'es', href: `${SITE_URL}${paths.es}` },
-      { rel: 'alternate' as const, hreflang: 'en', href: `${SITE_URL}${paths.en}` },
-      { rel: 'alternate' as const, hreflang: 'x-default', href: `${SITE_URL}${paths.es}` },
+      { rel: 'alternate' as const, hreflang: 'es', href: `${SITE_URL}${withTrailingSlash(paths.es)}` },
+      { rel: 'alternate' as const, hreflang: 'en', href: `${SITE_URL}${withTrailingSlash(paths.en)}` },
+      { rel: 'alternate' as const, hreflang: 'x-default', href: `${SITE_URL}${withTrailingSlash(paths.es)}` },
     ]
   })
 
