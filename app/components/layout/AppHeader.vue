@@ -155,20 +155,20 @@ function closeMenus() {
     </div>
 
     <Transition name="mobile-menu">
-      <div v-if="mobileOpen" class="overflow-hidden border-t border-forest/10 px-6 py-4 md:hidden">
-        <div class="space-y-4">
+      <div v-if="mobileOpen" class="overflow-hidden border-t border-forest/10 px-3 py-3 md:hidden">
+        <nav class="flex flex-col gap-1">
           <NuxtLink
             v-for="link in paraTiDropdown.links"
             :key="link.to"
             :to="link.to"
-            class="text-sm font-medium text-forest"
+            class="rounded-xl px-3 py-3 text-base font-medium text-forest hover:bg-cream"
             @click="mobileOpen = false"
           >
             {{ link.label }}
           </NuxtLink>
           <NuxtLink
             :to="paraTodosLink.to"
-            class="text-sm font-medium text-forest"
+            class="rounded-xl px-3 py-3 text-base font-medium text-forest hover:bg-cream"
             @click="mobileOpen = false"
           >
             {{ paraTodosLink.label }}
@@ -177,39 +177,43 @@ function closeMenus() {
             v-for="link in sobreNosotrosDropdown.links"
             :key="link.to"
             :to="link.to"
-            class="text-sm font-medium text-forest"
+            class="rounded-xl px-3 py-3 text-base font-medium text-forest hover:bg-cream"
             @click="mobileOpen = false"
           >
             {{ link.label }}
           </NuxtLink>
           <NuxtLink
             :to="blogLink.to"
-            class="text-sm font-medium text-forest"
+            class="rounded-xl px-3 py-3 text-base font-medium text-forest hover:bg-cream"
             @click="mobileOpen = false"
           >
             {{ blogLink.label }}
           </NuxtLink>
-          <div class="flex items-center gap-2 text-sm font-medium text-forest">
-            <button
-              class="cursor-pointer"
-              :class="{ 'font-semibold': locale === 'es', 'opacity-50': locale !== 'es' }"
-              @click="switchTo('es')"
-            >
-              ES
-            </button>
-            <span>|</span>
-            <button
-              class="cursor-pointer"
-              :class="{ 'font-semibold': locale === 'en', 'opacity-50': locale !== 'en' }"
-              @click="switchTo('en')"
-            >
-              EN
-            </button>
-          </div>
-          <BaseButton :to="reservaLink.to" @click="mobileOpen = false">{{
-            reservaLink.label
-          }}</BaseButton>
+        </nav>
+
+        <div class="my-2 border-t border-forest/10" />
+
+        <div class="flex items-center justify-center gap-3 py-2 text-base font-medium text-gold-dark">
+          <button
+            class="cursor-pointer"
+            :class="{ 'font-semibold': locale === 'es', 'opacity-50': locale !== 'es' }"
+            @click="switchTo('es')"
+          >
+            ES
+          </button>
+          <span class="text-body/30">|</span>
+          <button
+            class="cursor-pointer"
+            :class="{ 'font-semibold': locale === 'en', 'opacity-50': locale !== 'en' }"
+            @click="switchTo('en')"
+          >
+            EN
+          </button>
         </div>
+
+        <BaseButton :to="reservaLink.to" class="mt-2 w-full justify-center" @click="mobileOpen = false">{{
+          reservaLink.label
+        }}</BaseButton>
       </div>
     </Transition>
   </header>

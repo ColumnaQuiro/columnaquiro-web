@@ -393,7 +393,9 @@ useHead({
   <!-- Trust bar -->
   <section class="bg-beige px-6 py-20">
     <p class="text-center text-lg font-medium text-slate">{{ c.trustBarLabel }}</p>
-    <div class="mx-auto mt-8 flex max-w-[1280px] flex-wrap items-center justify-center gap-x-24 gap-y-8 bg-white">
+    <div
+      class="mx-auto mt-8 flex max-w-[1280px] flex-wrap items-center justify-center gap-x-24 gap-y-8 bg-white p-4 sm:p-0"
+    >
       <div v-for="item in c.trustBar" :key="item.name" class="flex items-center gap-2">
         <p class="text-base font-bold text-forest">{{ item.name }}</p>
         <p class="text-sm font-semibold text-forest">{{ item.label }}</p>
@@ -433,7 +435,7 @@ useHead({
         <div
           v-for="(item, i) in c.methodology"
           :key="item.title"
-          class="rounded-3xl bg-white p-10 shadow-[0_1px_2px_0_rgba(0,0,0,0.05)]"
+          class="rounded-3xl bg-white p-4 shadow-[0_1px_2px_0_rgba(0,0,0,0.05)] sm:p-10"
           :class="[
             i === 0 ? 'sm:col-start-1 sm:row-start-1' : '',
             i === 1 ? 'sm:col-start-3 sm:row-start-1' : '',
@@ -495,7 +497,7 @@ useHead({
       <div
         v-for="card in c.identifyCards"
         :key="card.title"
-        class="rounded-3xl bg-cream p-8 shadow-[0_1px_2px_0_rgba(0,0,0,0.05)]"
+        class="rounded-3xl bg-cream p-4 shadow-[0_1px_2px_0_rgba(0,0,0,0.05)] sm:p-8"
       >
         <img :src="card.icon" :alt="card.title" class="h-10 w-10" />
         <h3 class="mt-4 font-bold text-forest">{{ card.title }}</h3>
@@ -540,8 +542,13 @@ useHead({
     </div>
     <div class="mx-auto mt-12 grid max-w-[1280px] gap-6 sm:grid-cols-3 sm:divide-x sm:divide-forest/15">
       <div v-for="step in c.processSteps" :key="step.number" class="relative px-6 py-6 text-center">
-        <h3 class="text-lg font-bold text-forest">{{ step.title }}</h3>
-        <p class="mt-2 text-sm text-slate">{{ step.text }}</p>
+        <span
+          class="pointer-events-none absolute inset-x-0 top-0 select-none text-6xl font-bold text-forest/10 sm:text-7xl"
+          aria-hidden="true"
+          >{{ step.number }}</span
+        >
+        <h3 class="relative mt-10 text-lg font-bold text-forest">{{ step.title }}</h3>
+        <p class="relative mt-2 text-sm text-slate">{{ step.text }}</p>
       </div>
     </div>
     <div class="mt-12 text-center">
@@ -555,11 +562,11 @@ useHead({
   <section class="bg-cream px-6 py-24">
     <div class="mx-auto max-w-[1280px]">
     <div class="grid items-center gap-12 md:grid-cols-2">
-      <div class="grid grid-cols-2 gap-4">
+      <div class="order-2 grid grid-cols-1 gap-4 sm:grid-cols-2 md:order-1">
         <div
           v-for="(tile, i) in c.whyChooseUs"
           :key="tile.title"
-          class="flex aspect-square flex-col items-center justify-center rounded-3xl px-8 text-center"
+          class="flex aspect-square flex-col items-center justify-center rounded-3xl p-4 text-center sm:px-8 sm:py-0"
           :class="i === 3 ? 'bg-forest text-white' : 'bg-taupe text-forest'"
         >
           <svg
@@ -581,7 +588,7 @@ useHead({
         </div>
       </div>
 
-      <div>
+      <div class="order-1 md:order-2">
         <h2 class="section-title">{{ c.whyTitle }}</h2>
         <p class="mt-4 text-slate">{{ c.whyBody }}</p>
         <ul class="mt-6 space-y-4">
