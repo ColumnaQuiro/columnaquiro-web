@@ -3,7 +3,7 @@ title: "Ringing in the ears: how chiropractic care can help"
 slug: how-to-eliminate-ringing-in-the-ears-with-chiropractic
 date: 2025-10-18
 excerpt: "Ringing in the ears (tinnitus) can have many causes. Learn when there's a cervical component and how chiropractic care can offer support."
-cover: /assets/images/home-ajuste.jpg
+cover: /assets/images/home-ajuste.avif
 author: Léa Guido
 
 ---

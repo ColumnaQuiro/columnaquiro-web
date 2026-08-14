@@ -3,7 +3,7 @@ title: "Scoliosis and Difficulty Breathing: What It Means and What to Do"
 slug: scoliosis-hard-to-breathe
 date: 2025-11-11
 excerpt: "If scoliosis is making it hard to breathe, a doctor should evaluate it first. Here's why this can happen and what role chiropractic care can play as complementary support."
-cover: /assets/images/home-ajuste.jpg
+cover: /assets/images/home-ajuste.avif
 author: Léa Guido
 
 ---

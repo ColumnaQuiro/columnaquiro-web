@@ -3,7 +3,7 @@ title: "Migraña cervical: qué es y cómo aliviarla"
 slug: migrana-cervical-que-es-y-como-aliviarla
 date: 2025-10-12
 excerpt: "Descubre qué es la migraña cervical (cervicogénica), por qué el cuello puede desencadenar dolor de cabeza y cómo la quiropráctica ayuda a aliviarla. ColumnaQuiro Valencia."
-cover: /assets/images/home-ajuste.jpg
+cover: /assets/images/home-ajuste.avif
 author: Léa Guido
 
 ---

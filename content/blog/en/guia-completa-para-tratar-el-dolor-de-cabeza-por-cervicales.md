@@ -3,7 +3,7 @@ title: "Complete guide to treating cervicogenic headaches"
 slug: complete-guide-to-treating-cervical-headache
 date: 2025-10-21
 excerpt: "Learn what cervicogenic headache is, why it happens, and how chiropractic care can help reduce it. A complete guide from ColumnaQuiro Valencia."
-cover: /assets/images/home-ajuste.jpg
+cover: /assets/images/home-ajuste.avif
 author: Léa Guido
 
 ---

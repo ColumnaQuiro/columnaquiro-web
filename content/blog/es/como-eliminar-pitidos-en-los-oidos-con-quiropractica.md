@@ -3,7 +3,7 @@ title: "Pitidos en los oídos: cómo puede ayudar la quiropráctica"
 slug: como-eliminar-pitidos-en-los-oidos-con-quiropractica
 date: 2025-10-18
 excerpt: "Los pitidos en los oídos (tinnitus) pueden tener muchas causas. Descubre cuándo hay un componente cervical y cómo la quiropráctica puede ser un apoyo."
-cover: /assets/images/home-ajuste.jpg
+cover: /assets/images/home-ajuste.avif
 author: Léa Guido
 
 ---

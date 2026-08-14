@@ -3,7 +3,7 @@ title: "Tengo escoliosis y me cuesta respirar: qué significa y qué hacer"
 slug: tengo-escoliosis-y-me-cuesta-respirar
 date: 2025-11-11
 excerpt: "Si la escoliosis te dificulta la respiración, es importante que lo evalúe un médico. Te explicamos por qué puede ocurrir y cuál es el papel de la quiropráctica en estos casos."
-cover: /assets/images/home-ajuste.jpg
+cover: /assets/images/home-ajuste.avif
 author: Léa Guido
 
 ---

@@ -3,7 +3,7 @@ title: "10 beneficios de visitar al quiropráctico con regularidad"
 slug: 10-beneficios-visitar-quiropractico-regularmente
 date: 2025-10-01
 excerpt: "Descubre los principales beneficios de acudir al quiropráctico de forma regular: mejor postura, más movilidad, menos estrés y mejor descanso. Cuidado preventivo en ColumnaQuiro Valencia."
-cover: /assets/images/home-ajuste.jpg
+cover: /assets/images/home-ajuste.avif
 author: Léa Guido
 
 ---

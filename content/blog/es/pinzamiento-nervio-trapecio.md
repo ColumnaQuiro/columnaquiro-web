@@ -3,7 +3,7 @@ title: "Pinzamiento del nervio en el trapecio: causas y alivio"
 slug: pinzamiento-nervio-trapecio
 date: 2025-11-06
 excerpt: "El pinzamiento del nervio en el trapecio provoca dolor y hormigueo desde el cuello hasta el hombro. Te explicamos por qué ocurre y cómo la quiropráctica puede ayudarte a aliviarlo."
-cover: /assets/images/home-ajuste.jpg
+cover: /assets/images/home-ajuste.avif
 author: Léa Guido
 
 ---
