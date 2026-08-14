@@ -22,7 +22,7 @@ Loss of consciousness, repeated vomiting, worsening confusion, weakness in the a
 
 ## The neck's role after a concussion
 
-A blow to the head is often accompanied by a sudden whiplash-type movement of the neck, which can cause cervical tension, stiffness, and associated headaches. This part of the picture is musculoskeletal in nature and can benefit from chiropractic support.
+A blow to the head is often accompanied by a sudden whiplash-type movement of the neck, which can cause cervical tension, stiffness, and associated headaches. This part of the picture is musculoskeletal in nature and can benefit from [chiropractic](/en/blog/fascial-dynamics) support.
 
 ## How chiropractic care supports recovery, once cleared
 

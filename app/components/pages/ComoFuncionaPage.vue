@@ -107,7 +107,7 @@ const content = {
     ],
     pathTitle: 'El camino al bienestar',
     pathIntro:
-      'En tu segunda visita al centro, te explicaremos las distintas fases del cuidado quiropráctico. Es fundamental comprender que la quiropráctica no solo alivia dolencias, sino que promueve un bienestar integral. El camino hacia una mejor calidad de vida se divide en tres fases, cada una de ellas esencial, ya que interrumpir el proceso puede hacer que regreses al punto de partida.',
+      'En tu segunda visita al centro, te explicaremos las distintas fases del cuidado quiropráctico. Es fundamental comprender que la <a href="/blog/cuanto-cuesta-un-quiropractico" class="font-semibold text-gold-dark underline">quiropráctica</a> no solo alivia dolencias, sino que promueve un bienestar integral. El camino hacia una mejor calidad de vida se divide en tres fases, cada una de ellas esencial, ya que interrumpir el proceso puede hacer que regreses al punto de partida.',
     phases: [
       {
         title: '1. Recuperación',
@@ -286,7 +286,7 @@ const c = computed(() => content[locale.value])
   <section class="px-6 py-24">
     <div class="mx-auto max-w-4xl text-center">
       <h2 class="text-3xl font-semibold text-forest">{{ c.pathTitle }}</h2>
-      <p class="mx-auto mt-4 max-w-2xl text-body/80">{{ c.pathIntro }}</p>
+      <p class="mx-auto mt-4 max-w-2xl text-body/80" v-html="c.pathIntro" />
       <img
         src="/assets/images/camino-al-bienestar.webp"
         alt="the path to wellness"

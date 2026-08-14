@@ -18,7 +18,7 @@ Las malas posturas, las lesiones antiguas, el estrés mantenido, la falta de mov
 
 ## Técnicas craneofasciales en la consulta
 
-Dentro de un enfoque quiropráctico integral, se pueden emplear técnicas suaves de liberación fascial y craneal, orientadas a devolver elasticidad a estas estructuras y mejorar la comunicación entre las distintas zonas del cuerpo.
+Dentro de un enfoque [quiropráctico](/blog/cuanto-cuesta-un-quiropractico) integral, se pueden emplear técnicas suaves de liberación fascial y craneal, orientadas a devolver elasticidad a estas estructuras y mejorar la comunicación entre las distintas zonas del cuerpo.
 
 ## Beneficios para tu movilidad y bienestar
 

@@ -10,7 +10,7 @@ author: Léa Guido
 
 ## What is chiropractic care?
 
-Chiropractic is a health profession focused on diagnosing and caring for disorders of the neuromusculoskeletal system, especially the spine, with the goal of improving nerve function and reducing pain without drugs or surgery.
+[Chiropractic](/en/blog/how-much-does-a-chiropractor-cost) is a health profession focused on diagnosing and caring for disorders of the neuromusculoskeletal system, especially the spine, with the goal of improving nerve function and reducing pain without drugs or surgery.
 
 ## Common symptoms of back pain
 

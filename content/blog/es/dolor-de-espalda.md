@@ -22,7 +22,7 @@ La mayoría de los episodios de dolor de espalda son de origen mecánico y mejor
 
 ## Cómo puede ayudar la quiropráctica
 
-Un examen quiropráctico busca identificar el origen mecánico del dolor: restricciones de movilidad, desequilibrios musculares o alteraciones posturales. A partir de ahí, los ajustes específicos, combinados con recomendaciones de ejercicio y hábitos posturales, ayudan a reducir el dolor y a prevenir que se repita.
+Un examen [quiropráctico](/blog/cuanto-cuesta-un-quiropractico) busca identificar el origen mecánico del dolor: restricciones de movilidad, desequilibrios musculares o alteraciones posturales. A partir de ahí, los ajustes específicos, combinados con recomendaciones de ejercicio y hábitos posturales, ayudan a reducir el dolor y a prevenir que se repita.
 
 ## Preguntas frecuentes
 

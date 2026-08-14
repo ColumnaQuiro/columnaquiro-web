@@ -18,7 +18,7 @@ Conviene prestar atención a un hombro más alto que el otro, una cadera desnive
 
 ## El papel del seguimiento médico
 
-Ante cualquier sospecha de escoliosis es fundamental que un médico o especialista en columna evalúe el grado de curvatura, habitualmente mediante radiografía, y decida si es necesario un seguimiento periódico, un corsé u otro tipo de tratamiento. La quiropráctica no sustituye este seguimiento médico.
+Ante cualquier sospecha de escoliosis es fundamental que un médico o especialista en columna evalúe el grado de curvatura, habitualmente mediante radiografía, y decida si es necesario un seguimiento periódico, un corsé u otro tipo de tratamiento. La [quiropráctica](/blog/cuanto-cuesta-un-quiropractico) no sustituye este seguimiento médico.
 
 ## Cómo puede ayudar la quiropráctica
 

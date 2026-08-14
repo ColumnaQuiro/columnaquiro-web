@@ -22,7 +22,7 @@ Debilidad muscular en la pierna, dolor que empeora al toser o estornudar, o mole
 
 ## Cómo trata la quiropráctica estos casos
 
-Tras una valoración detallada, el quiropráctico identifica si el origen es articular, muscular o nervioso, y diseña un plan que puede incluir ajustes de columna y cadera, técnicas de liberación muscular y ejercicios específicos para restaurar la movilidad y reducir la presión sobre las estructuras afectadas.
+Tras una valoración detallada, el [quiropráctico](/blog/cuanto-cuesta-un-quiropractico) identifica si el origen es articular, muscular o nervioso, y diseña un plan que puede incluir ajustes de columna y cadera, técnicas de liberación muscular y ejercicios específicos para restaurar la movilidad y reducir la presión sobre las estructuras afectadas.
 
 ## Preguntas frecuentes
 

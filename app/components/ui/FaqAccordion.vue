@@ -27,9 +27,11 @@ const openFaq = ref<number | null>(null)
         class="grid overflow-hidden transition-[grid-template-rows] duration-300 ease-in-out"
         :style="{ gridTemplateRows: openFaq === i ? '1fr' : '0fr' }"
       >
-        <p class="min-h-0 whitespace-pre-line text-sm text-slate" :class="{ 'pt-3': openFaq === i }">
-          {{ faq.a }}
-        </p>
+        <p
+          class="min-h-0 whitespace-pre-line text-sm text-slate"
+          :class="{ 'pt-3': openFaq === i }"
+          v-html="faq.a"
+        />
       </div>
     </div>
   </div>

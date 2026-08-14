@@ -22,7 +22,7 @@ Escuchar al cuerpo, mantener una técnica de carrera eficiente y cuidar la hidra
 
 ## Recuperación después de la maratón
 
-Tras el esfuerzo, el cuidado quiropráctico puede ayudar a aliviar la inflamación, recuperar el rango de movimiento y acelerar la vuelta a la actividad habitual.
+Tras el esfuerzo, el cuidado [quiropráctico](/blog/cuanto-cuesta-un-quiropractico) puede ayudar a aliviar la inflamación, recuperar el rango de movimiento y acelerar la vuelta a la actividad habitual.
 
 ## Preguntas frecuentes
 

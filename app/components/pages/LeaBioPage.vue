@@ -13,7 +13,7 @@ const content = {
     intro:
       'Soy diplomada del Barcelona College of Chiropractic en 2021 después de completar una carrera de 6 años. Inicié mis dos primeros años de estudio en IFEC en Francia y luego decidí trasladarme a España.',
     paragraphs: [
-      'Durante mi formación, también tuve la oportunidad de trabajar como profesora de técnicas y supervisora de clínica en el Barcelona College of Chiropractic. Después de obtener mi diploma, trabajé en una consulta quiropráctica en Barcelona, donde pude aplicar mis conocimientos y habilidades en el cuidado quiropráctico.',
+      'Durante mi formación, también tuve la oportunidad de trabajar como profesora de técnicas y supervisora de clínica en el Barcelona College of Chiropractic. Después de obtener mi diploma, trabajé en una consulta quiropráctica en Barcelona, donde pude aplicar mis conocimientos y habilidades en el cuidado <a href="/blog/cuanto-cuesta-un-quiropractico" class="font-semibold text-gold-dark underline">quiropráctico</a>.',
       'Además, he asistido a numerosos seminarios y cursos de quiroprácticos tanto durante mis estudios como después de graduarme. Esto me ha permitido ampliar mis conocimientos y combinar una variedad de técnicas para brindar a cada paciente una experiencia personalizada:',
     ],
     techniques: [
@@ -91,7 +91,7 @@ useSeo({
 
     <div class="mt-8 space-y-4 text-body/80">
       <p>{{ c.intro }}</p>
-      <p v-for="(paragraph, i) in c.paragraphs" :key="i">{{ paragraph }}</p>
+      <p v-for="(paragraph, i) in c.paragraphs" :key="i" v-html="paragraph" />
     </div>
 
     <ul class="mt-4 list-disc space-y-1 pl-5 text-body/80">

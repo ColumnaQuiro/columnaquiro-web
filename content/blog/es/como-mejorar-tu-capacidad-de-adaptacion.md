@@ -22,7 +22,7 @@ Dormir de forma reparadora, moverte a diario aunque sea con paseos cortos, cuida
 
 ## El papel de la quiropráctica
 
-Una columna con buena movilidad y sin restricciones facilita que el sistema nervioso transmita la información correctamente entre el cuerpo y el cerebro. Por eso, el cuidado quiropráctico regular puede ser un aliado para mejorar tu capacidad de adaptación general, especialmente cuando se combina con los hábitos mencionados.
+Una columna con buena movilidad y sin restricciones facilita que el sistema nervioso transmita la información correctamente entre el cuerpo y el cerebro. Por eso, el cuidado [quiropráctico](/blog/cuanto-cuesta-un-quiropractico) regular puede ser un aliado para mejorar tu capacidad de adaptación general, especialmente cuando se combina con los hábitos mencionados.
 
 ## Preguntas frecuentes
 

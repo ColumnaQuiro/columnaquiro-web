@@ -37,7 +37,7 @@ export const faqGroups: Record<'es' | 'en', FaqGroup[]> = {
         },
         {
           q: 'Requisitos y proceso de formación para convertirse en quiropráctico',
-          a: 'Para convertirse en quiropráctico se requiere un título universitario en Quiropráctica y un Doctorado en Quiropráctica, tras un programa de entre 5 y 7 años reconocido por el Consejo Europeo de Educación Quiropráctica (ECCE). Los dos últimos años están dedicados a la práctica clínica supervisada, atendiendo a pacientes de diversas edades y perfiles.',
+          a: 'Para convertirse en quiropráctico se requiere un título universitario en <a href="/blog/cuanto-cuesta-un-quiropractico" class="font-semibold text-gold-dark underline">Quiropráctica</a> y un Doctorado en Quiropráctica, tras un programa de entre 5 y 7 años reconocido por el Consejo Europeo de Educación Quiropráctica (ECCE). Los dos últimos años están dedicados a la práctica clínica supervisada, atendiendo a pacientes de diversas edades y perfiles.',
         },
       ],
     },

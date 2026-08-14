@@ -10,7 +10,7 @@ author: Léa Guido
 
 ## ¿Qué es la quiropráctica?
 
-La quiropráctica es una profesión de la salud centrada en el diagnóstico y cuidado de trastornos del sistema neuromusculoesquelético, especialmente de la columna vertebral, con el objetivo de mejorar la función nerviosa y reducir el dolor sin fármacos ni cirugía.
+La [quiropráctica](/blog/cuanto-cuesta-un-quiropractico) es una profesión de la salud centrada en el diagnóstico y cuidado de trastornos del sistema neuromusculoesquelético, especialmente de la columna vertebral, con el objetivo de mejorar la función nerviosa y reducir el dolor sin fármacos ni cirugía.
 
 ## Síntomas comunes de dolor de espalda
 

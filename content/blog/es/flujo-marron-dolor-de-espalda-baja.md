@@ -32,7 +32,7 @@ No. Ante cualquier sangrado o flujo marrón en el embarazo, contacta con tu gine
 **¿El dolor lumbar del embarazo está relacionado con el flujo marrón?**
 Son dos temas distintos. El dolor lumbar suele tener un origen mecánico y postural; el flujo marrón requiere siempre valoración médica específica.
 
-**¿Es seguro recibir ajustes quiroprácticos durante el embarazo?**
+**¿Es seguro recibir ajustes [quiroprácticos](/blog/cuanto-cuesta-un-quiropractico) durante el embarazo?**
 Sí, siempre con técnicas específicamente adaptadas al embarazo y tras confirmar con tu médico que no hay contraindicaciones.
 
 **¿Cuándo debo acudir a urgencias por dolor de espalda en el embarazo?**

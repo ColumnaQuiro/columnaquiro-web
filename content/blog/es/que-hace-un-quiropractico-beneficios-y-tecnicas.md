@@ -22,7 +22,7 @@ Entre los beneficios más habituales se encuentran la reducción del dolor de es
 
 ## ¿Para quién está indicada?
 
-La quiropráctica puede ser útil para personas con dolor de espalda o cuello, dolores de cabeza tensionales, molestias posturales derivadas del trabajo de oficina, deportistas que buscan optimizar su movilidad, y embarazadas que buscan cuidados adaptados a su etapa. Siempre se adapta la técnica a las características y necesidades de cada persona.
+La [quiropráctica](/blog/cuanto-cuesta-un-quiropractico) puede ser útil para personas con dolor de espalda o cuello, dolores de cabeza tensionales, molestias posturales derivadas del trabajo de oficina, deportistas que buscan optimizar su movilidad, y embarazadas que buscan cuidados adaptados a su etapa. Siempre se adapta la técnica a las características y necesidades de cada persona.
 
 ## Preguntas frecuentes
 

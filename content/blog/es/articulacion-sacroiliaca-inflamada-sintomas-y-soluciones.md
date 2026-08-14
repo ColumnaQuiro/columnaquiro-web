@@ -22,7 +22,7 @@ Puede aparecer por sobrecarga (esfuerzos repetitivos o mala postura), embarazo, 
 
 ## Cómo puede ayudar la quiropráctica
 
-Un examen quiropráctico permite identificar si la articulación está bloqueada o presenta un exceso de movilidad, y adaptar el tratamiento a cada caso. Los ajustes específicos de la pelvis, combinados con ejercicios de estabilización, suelen aportar alivio progresivo y ayudan a prevenir recaídas.
+Un examen [quiropráctico](/blog/cuanto-cuesta-un-quiropractico) permite identificar si la articulación está bloqueada o presenta un exceso de movilidad, y adaptar el tratamiento a cada caso. Los ajustes específicos de la pelvis, combinados con ejercicios de estabilización, suelen aportar alivio progresivo y ayudan a prevenir recaídas.
 
 ## Preguntas frecuentes
 

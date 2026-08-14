@@ -22,7 +22,7 @@ Cuando la curva cervical se altera, es frecuente notar rigidez y dolor en el cue
 
 ## Cómo ayuda la quiropráctica
 
-En consulta, valoramos la movilidad y la alineación de las vértebras cervicales para identificar qué segmentos están más restringidos. Los ajustes quiroprácticos, combinados con ejercicios específicos de fortalecimiento y pautas de higiene postural, ayudan a recuperar progresivamente una mecánica cervical más equilibrada y a reducir la tensión asociada.
+En consulta, valoramos la movilidad y la alineación de las vértebras cervicales para identificar qué segmentos están más restringidos. Los ajustes [quiroprácticos](/blog/cuanto-cuesta-un-quiropractico), combinados con ejercicios específicos de fortalecimiento y pautas de higiene postural, ayudan a recuperar progresivamente una mecánica cervical más equilibrada y a reducir la tensión asociada.
 
 ## Preguntas frecuentes
 

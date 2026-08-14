@@ -109,7 +109,7 @@ const content = {
     ],
     exploreTitle: 'Te invitamos a explorar la salud de manera más holística y natural',
     exploreParagraphs: [
-      'Descubre cómo la quiropráctica potencia el bienestar de tu columna vertebral y favorece la salud integral de tu organismo.',
+      'Descubre cómo la <a href="/blog/cuanto-cuesta-un-quiropractico" class="font-semibold text-gold-dark underline">quiropráctica</a> potencia el bienestar de tu columna vertebral y favorece la salud integral de tu organismo.',
       'La quiropráctica puede mejorar tu vida y salud. Puede ayudar a bebés, niños, mujeres embarazadas, personas con molestias en el cuello o la espalda por el trabajo, adultos mayores y deportistas.',
     ],
     exploreButton: 'Reserva tu primera visita',
@@ -509,9 +509,7 @@ useHead({
     <div class="mx-auto grid max-w-[1280px] items-center gap-12 py-24 md:grid-cols-2">
     <div>
       <h2 class="section-title text-center">{{ c.exploreTitle }}</h2>
-      <p v-for="(paragraph, i) in c.exploreParagraphs" :key="i" class="mt-4 text-body/80">
-        {{ paragraph }}
-      </p>
+      <p v-for="(paragraph, i) in c.exploreParagraphs" :key="i" class="mt-4 text-body/80" v-html="paragraph" />
       <BaseButton
         variant="dark"
         :to="locale === 'es' ? '/reserva-cita' : '/en/book-appointment'"

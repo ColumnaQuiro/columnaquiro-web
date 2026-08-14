@@ -39,4 +39,4 @@ Sí, un colchón demasiado blando o demasiado duro puede acentuar los efectos ne
 Puede llevar varias semanas. Es normal notar algo de incomodidad al principio mientras el cuerpo se acostumbra.
 
 **¿Cuándo debo consultar a un profesional?**
-Si te despiertas con dolor de cuello o espalda de forma habitual, un chequeo puede ayudarte a identificar la causa y mejorar tu descanso.
+Si te despiertas con dolor de cuello o espalda de forma habitual, un chequeo [quiropráctico](/blog/cuanto-cuesta-un-quiropractico) puede ayudarte a identificar la causa y mejorar tu descanso.

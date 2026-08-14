@@ -20,7 +20,7 @@ Dolor de cuello y hombros, tensión lumbar y fatiga general son señales habitua
 
 Inclinaciones y rotaciones de cuello, círculos de hombros, estiramiento de trapecio, estiramiento lumbar en la silla, apertura de pecho, estiramiento lateral de tronco y estiramiento de flexores de cadera son algunos de los movimientos más efectivos, manteniendo cada postura entre 15 y 30 segundos.
 
-## Cómo puede ayudar el cuidado quiropráctico
+## Cómo puede ayudar el cuidado [quiropráctico](/blog/cuanto-cuesta-un-quiropractico)
 
 Una valoración postural y ergonómica personalizada permite identificar qué zonas necesitan más atención y diseñar una rutina de estiramientos adaptada a cada puesto de trabajo.
 

@@ -39,4 +39,4 @@ Al contrario, mantenerse activo suele mejorar la salud articular a largo plazo, 
 No siempre es posible ni necesario eliminar el sonido, especialmente si no hay dolor asociado.
 
 **¿Cuándo debo consultar a un profesional?**
-Si el crujido se acompaña de dolor, hinchazón, pérdida de movilidad o aparece tras un traumatismo.
+Si el crujido se acompaña de dolor, hinchazón, pérdida de movilidad o aparece tras un traumatismo, conviene que te evalúe un [quiropráctico](/blog/cuanto-cuesta-un-quiropractico).

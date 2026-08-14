@@ -22,7 +22,7 @@ Suele tratarse de un dolor unilateral que empieza en el cuello y sube hacia la c
 
 ## Cómo aliviar la migraña cervical con quiropráctica
 
-El abordaje quiropráctico se centra en mejorar la movilidad de las vértebras cervicales superiores y reducir la tensión muscular asociada mediante ajustes suaves y específicos. Combinado con ejercicios de movilidad y pautas de postura, muchos pacientes notan una reducción en la frecuencia e intensidad de estos episodios.
+El abordaje [quiropráctico](/blog/cuanto-cuesta-un-quiropractico) se centra en mejorar la movilidad de las vértebras cervicales superiores y reducir la tensión muscular asociada mediante ajustes suaves y específicos. Combinado con ejercicios de movilidad y pautas de postura, muchos pacientes notan una reducción en la frecuencia e intensidad de estos episodios.
 
 ## Preguntas frecuentes
 

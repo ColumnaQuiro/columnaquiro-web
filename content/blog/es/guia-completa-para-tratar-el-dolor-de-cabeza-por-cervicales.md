@@ -22,14 +22,14 @@ Suele empezar en la nuca y extenderse hacia la frente o la zona del ojo, aumenta
 
 ## Cómo puede ayudar la quiropráctica
 
-El quiropráctico evalúa la movilidad de las vértebras cervicales y, mediante ajustes suaves, técnicas de movilización y recomendaciones posturales, ayuda a reducir la tensión que provoca el dolor. Muchos pacientes notan mejoría progresiva a medida que se recupera la movilidad del cuello.
+El [quiropráctico](/blog/cuanto-cuesta-un-quiropractico) evalúa la movilidad de las vértebras cervicales y, mediante ajustes suaves, técnicas de movilización y recomendaciones posturales, ayuda a reducir la tensión que provoca el dolor. Muchos pacientes notan mejoría progresiva a medida que se recupera la movilidad del cuello.
 
 ## Preguntas frecuentes
 
 **¿El dolor de cabeza por cervicales es peligroso?**
 No suele serlo, pero conviene descartar otras causas si el dolor es muy intenso, repentino o va acompañado de otros síntomas neurológicos.
 
-**¿Cuánto tarda en mejorar con tratamiento quiropráctico?**
+**¿Cuánto tarda en mejorar con tratamiento [quiropráctico](/blog/migrana-cervical-que-es-y-como-aliviarla)?**
 Depende de cada caso, pero muchas personas notan alivio en las primeras sesiones, aunque la recuperación completa de la movilidad puede requerir varias semanas.
 
 **¿Puedo prevenir este tipo de dolor de cabeza?**

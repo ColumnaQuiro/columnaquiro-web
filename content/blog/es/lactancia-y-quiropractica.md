@@ -26,7 +26,7 @@ Los ajustes suaves en cuello y espalda alta, junto con recomendaciones específi
 
 ## Preguntas frecuentes
 
-**¿Es seguro recibir ajustes quiroprácticos mientras doy el pecho?**
+**¿Es seguro recibir ajustes [quiroprácticos](/blog/cuanto-cuesta-un-quiropractico) mientras doy el pecho?**
 Sí, con técnicas adaptadas no hay ningún inconveniente para continuar con la lactancia con normalidad.
 
 **¿Por qué me duele tanto la zona entre los hombros?**

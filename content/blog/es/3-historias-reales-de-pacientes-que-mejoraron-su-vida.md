@@ -33,7 +33,7 @@ Estas historias reflejan cómo un cuidado personalizado e integral puede ayudar 
 **¿Estas historias son representativas de todos los pacientes?**
 Cada caso es distinto; los resultados dependen de la condición individual y la constancia en el plan de cuidado.
 
-**¿Para quién es adecuada la quiropráctica?**
+**¿Para quién es adecuada la [quiropráctica](/blog/cuanto-cuesta-un-quiropractico)?**
 Para personas de cualquier edad que busquen mejorar su movilidad, aliviar dolencias o cuidar su salud de forma preventiva.
 
 **¿Qué puedo esperar de los resultados?**

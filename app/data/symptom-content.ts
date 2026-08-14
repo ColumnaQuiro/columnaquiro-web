@@ -20,7 +20,7 @@ export const symptomContent: Record<string, { es: SymptomContent; en: SymptomCon
         'Reducción progresiva del rango de movimiento',
       ],
       howChiropracticHelps: [
-        'Los ajustes quiroprácticos y el trabajo de movilidad articular pueden ayudar a aliviar la rigidez y mejorar la función de las articulaciones afectadas, complementando el tratamiento médico habitual.',
+        'Los ajustes <a href="/blog/cuanto-cuesta-un-quiropractico" class="font-semibold text-gold-dark underline">quiroprácticos</a> y el trabajo de movilidad articular pueden ayudar a aliviar la rigidez y mejorar la función de las articulaciones afectadas, complementando el tratamiento médico habitual.',
       ],
     },
     en: {
@@ -52,7 +52,7 @@ export const symptomContent: Record<string, { es: SymptomContent; en: SymptomCon
         'Dificultades de organización',
       ],
       howChiropracticHelps: [
-        'La quiropráctica no diagnostica ni trata el TDAH. Como parte de un enfoque integral de bienestar, algunos padres buscan cuidado quiropráctico para apoyar la salud general del sistema nervioso y la calidad del descanso de sus hijos, siempre como complemento y nunca como sustituto del seguimiento por parte de pediatría o profesionales especializados.',
+        'La <a href="/blog/cuanto-cuesta-un-quiropractico" class="font-semibold text-gold-dark underline">quiropráctica</a> no diagnostica ni trata el TDAH. Como parte de un enfoque integral de bienestar, algunos padres buscan cuidado quiropráctico para apoyar la salud general del sistema nervioso y la calidad del descanso de sus hijos, siempre como complemento y nunca como sustituto del seguimiento por parte de pediatría o profesionales especializados.',
       ],
       note: 'Si sospechas que tu hijo/a puede tener TDAH, consulta con su pediatra o un especialista en neurodesarrollo.',
     },
@@ -86,7 +86,7 @@ export const symptomContent: Record<string, { es: SymptomContent; en: SymptomCon
         'Preferencia por rutinas predecibles',
       ],
       howChiropracticHelps: [
-        'La quiropráctica no diagnostica, trata ni cura el autismo. Algunas familias buscan cuidado quiropráctico como parte de un enfoque de bienestar general, centrado en la comodidad física y la salud del sistema nervioso, siempre en coordinación con el equipo médico y terapéutico que acompaña a cada niño o adulto.',
+        'La <a href="/blog/cuanto-cuesta-un-quiropractico" class="font-semibold text-gold-dark underline">quiropráctica</a> no diagnostica, trata ni cura el autismo. Algunas familias buscan cuidado quiropráctico como parte de un enfoque de bienestar general, centrado en la comodidad física y la salud del sistema nervioso, siempre en coordinación con el equipo médico y terapéutico que acompaña a cada niño o adulto.',
       ],
       note: 'El diagnóstico y el tratamiento del TEA deben ser guiados por profesionales especializados en neurodesarrollo.',
     },
@@ -120,7 +120,7 @@ export const symptomContent: Record<string, { es: SymptomContent; en: SymptomCon
         'Tensión muscular acompañante',
       ],
       howChiropracticHelps: [
-        'Los ajustes quiroprácticos ayudan a mejorar la movilidad de la columna y reducir la tensión muscular asociada, abordando la causa mecánica del dolor de forma natural.',
+        'Los ajustes <a href="/blog/cuanto-cuesta-un-quiropractico" class="font-semibold text-gold-dark underline">quiroprácticos</a> ayudan a mejorar la movilidad de la columna y reducir la tensión muscular asociada, abordando la causa mecánica del dolor de forma natural.',
       ],
     },
     en: {
@@ -152,7 +152,7 @@ export const symptomContent: Record<string, { es: SymptomContent; en: SymptomCon
         'Sensación de rigidez o falta de fluidez en el movimiento',
       ],
       howChiropracticHelps: [
-        'Al mejorar la movilidad articular y optimizar la función del sistema nervioso, los ajustes quiroprácticos pueden ayudar a mejorar la fuerza, el equilibrio y los tiempos de recuperación.',
+        'Al mejorar la movilidad articular y optimizar la función del sistema nervioso, los ajustes <a href="/blog/cuanto-cuesta-un-quiropractico" class="font-semibold text-gold-dark underline">quiroprácticos</a> pueden ayudar a mejorar la fuerza, el equilibrio y los tiempos de recuperación.',
       ],
     },
     en: {
@@ -183,7 +183,7 @@ export const symptomContent: Record<string, { es: SymptomContent; en: SymptomCon
         'Preferencia por girar la cabeza hacia un lado',
       ],
       howChiropracticHelps: [
-        'Un abordaje quiropráctico suave, junto con pautas de cambios posturales y tiempo boca abajo supervisado, puede ayudar a favorecer una forma craneal más equilibrada durante los primeros meses.',
+        'Un abordaje <a href="/blog/cuanto-cuesta-un-quiropractico" class="font-semibold text-gold-dark underline">quiropráctico</a> suave, junto con pautas de cambios posturales y tiempo boca abajo supervisado, puede ayudar a favorecer una forma craneal más equilibrada durante los primeros meses.',
       ],
       note: 'Consulta con el pediatra para valorar la evolución y descartar otras causas.',
     },
@@ -215,7 +215,7 @@ export const symptomContent: Record<string, { es: SymptomContent; en: SymptomCon
         'Pérdida de fuerza al agarrar objetos',
       ],
       howChiropracticHelps: [
-        'Los ajustes en muñeca, codo y columna cervical pueden mejorar la movilidad y reducir la presión sobre el nervio mediano, complementando otras medidas como férulas o pausas activas.',
+        'Los ajustes <a href="/blog/cuanto-cuesta-un-quiropractico" class="font-semibold text-gold-dark underline">quiroprácticos</a> en muñeca, codo y columna cervical pueden mejorar la movilidad y reducir la presión sobre el nervio mediano, complementando otras medidas como férulas o pausas activas.',
       ],
     },
     en: {
@@ -245,7 +245,7 @@ export const symptomContent: Record<string, { es: SymptomContent; en: SymptomCon
         'Molestias al estar sentado durante mucho tiempo',
       ],
       howChiropracticHelps: [
-        'Los ajustes quiroprácticos pueden ayudar a reducir la presión sobre el nervio ciático y mejorar la movilidad de la columna lumbar, aliviando el dolor de forma natural.',
+        'Los ajustes <a href="/blog/cuanto-cuesta-un-quiropractico" class="font-semibold text-gold-dark underline">quiroprácticos</a> pueden ayudar a reducir la presión sobre el nervio ciático y mejorar la movilidad de la columna lumbar, aliviando el dolor de forma natural.',
       ],
     },
     en: {
@@ -275,7 +275,7 @@ export const symptomContent: Record<string, { es: SymptomContent; en: SymptomCon
         'Dificultad para calmarse',
       ],
       howChiropracticHelps: [
-        'Un cuidado quiropráctico suave y adaptado a bebés puede ayudar a relajar la tensión del sistema nervioso y digestivo, siendo siempre un complemento a la valoración pediátrica.',
+        'Un cuidado <a href="/blog/cuanto-cuesta-un-quiropractico" class="font-semibold text-gold-dark underline">quiropráctico</a> suave y adaptado a bebés puede ayudar a relajar la tensión del sistema nervioso y digestivo, siendo siempre un complemento a la valoración pediátrica.',
       ],
       note: 'Consulta siempre con el pediatra para descartar otras causas del llanto.',
     },
@@ -307,7 +307,7 @@ export const symptomContent: Record<string, { es: SymptomContent; en: SymptomCon
         'Sensación de evacuación incompleta',
       ],
       howChiropracticHelps: [
-        'Al mejorar la función del sistema nervioso que regula los órganos digestivos, los ajustes quiroprácticos pueden contribuir, junto con hábitos de alimentación e hidratación adecuados, a un tránsito intestinal más regular.',
+        'Al mejorar la función del sistema nervioso que regula los órganos digestivos, los ajustes <a href="/blog/cuanto-cuesta-un-quiropractico" class="font-semibold text-gold-dark underline">quiroprácticos</a> pueden contribuir, junto con hábitos de alimentación e hidratación adecuados, a un tránsito intestinal más regular.',
       ],
     },
     en: {
@@ -337,7 +337,7 @@ export const symptomContent: Record<string, { es: SymptomContent; en: SymptomCon
         'Dificultad para escribir correctamente',
       ],
       howChiropracticHelps: [
-        'La quiropráctica no diagnostica ni trata la dislexia. Como parte de un enfoque de bienestar general, puede ayudar a mejorar la comodidad física y reducir el estrés, siempre en coordinación con el apoyo psicopedagógico especializado.',
+        'La <a href="/blog/cuanto-cuesta-un-quiropractico" class="font-semibold text-gold-dark underline">quiropráctica</a> no diagnostica ni trata la dislexia. Como parte de un enfoque de bienestar general, puede ayudar a mejorar la comodidad física y reducir el estrés, siempre en coordinación con el apoyo psicopedagógico especializado.',
       ],
       note: 'El abordaje de la dislexia debe ser guiado por profesionales especializados en educación y neurodesarrollo.',
     },
@@ -369,7 +369,7 @@ export const symptomContent: Record<string, { es: SymptomContent; en: SymptomCon
         'Empeoramiento con posturas mantenidas frente a pantallas',
       ],
       howChiropracticHelps: [
-        'Los ajustes cervicales y el trabajo de movilidad pueden reducir la frecuencia e intensidad de este tipo de dolor de cabeza, abordando su origen mecánico.',
+        'Los ajustes <a href="/blog/cuanto-cuesta-un-quiropractico" class="font-semibold text-gold-dark underline">quiroprácticos</a> cervicales y el trabajo de movilidad pueden reducir la frecuencia e intensidad de este tipo de dolor de cabeza, abordando su origen mecánico.',
       ],
     },
     en: {
@@ -429,7 +429,7 @@ export const symptomContent: Record<string, { es: SymptomContent; en: SymptomCon
         'Molestias de espalda al mantener una postura',
       ],
       howChiropracticHelps: [
-        'El cuidado quiropráctico puede ayudar a mejorar la movilidad, reducir las molestias asociadas y apoyar una mejor postura, siempre como complemento al seguimiento médico especializado en los casos de curvas moderadas o severas.',
+        'El cuidado <a href="/blog/cuanto-cuesta-un-quiropractico" class="font-semibold text-gold-dark underline">quiropráctico</a> puede ayudar a mejorar la movilidad, reducir las molestias asociadas y apoyar una mejor postura, siempre como complemento al seguimiento médico especializado en los casos de curvas moderadas o severas.',
       ],
       note: 'Las curvas moderadas o severas requieren seguimiento por un especialista en columna.',
     },
@@ -461,7 +461,7 @@ export const symptomContent: Record<string, { es: SymptomContent; en: SymptomCon
         'Fatiga generalizada',
       ],
       howChiropracticHelps: [
-        'El cuidado quiropráctico puede ayudar a reducir la tensión física asociada al estrés y mejorar la calidad del sueño, como parte de un enfoque de bienestar más amplio. No sustituye la atención psicológica o psiquiátrica cuando esta es necesaria.',
+        'El cuidado <a href="/blog/cuanto-cuesta-un-quiropractico" class="font-semibold text-gold-dark underline">quiropráctico</a> puede ayudar a reducir la tensión física asociada al estrés y mejorar la calidad del sueño, como parte de un enfoque de bienestar más amplio. No sustituye la atención psicológica o psiquiátrica cuando esta es necesaria.',
       ],
       note: 'Si experimentas síntomas de depresión, consulta con un profesional de la salud mental.',
     },
@@ -494,7 +494,7 @@ export const symptomContent: Record<string, { es: SymptomContent; en: SymptomCon
         'Sensibilidad al tacto en zonas concretas',
       ],
       howChiropracticHelps: [
-        'Los ajustes suaves y el trabajo de tejido blando pueden ayudar a aliviar la tensión muscular y mejorar la calidad de vida, siempre como parte de un abordaje multidisciplinar junto con el equipo médico.',
+        'Los ajustes <a href="/blog/cuanto-cuesta-un-quiropractico" class="font-semibold text-gold-dark underline">quiroprácticos</a> suaves y el trabajo de tejido blando pueden ayudar a aliviar la tensión muscular y mejorar la calidad de vida, siempre como parte de un abordaje multidisciplinar junto con el equipo médico.',
       ],
     },
     en: {
@@ -525,7 +525,7 @@ export const symptomContent: Record<string, { es: SymptomContent; en: SymptomCon
         'Debilidad muscular en casos más avanzados',
       ],
       howChiropracticHelps: [
-        'Los ajustes quiroprácticos y las técnicas de descompresión pueden ayudar a reducir la presión sobre el disco y aliviar los síntomas asociados, en casos leves o moderados.',
+        'Los ajustes <a href="/blog/cuanto-cuesta-un-quiropractico" class="font-semibold text-gold-dark underline">quiroprácticos</a> y las técnicas de descompresión pueden ayudar a reducir la presión sobre el disco y aliviar los síntomas asociados, en casos leves o moderados.',
       ],
     },
     en: {
@@ -555,7 +555,7 @@ export const symptomContent: Record<string, { es: SymptomContent; en: SymptomCon
         'Tensión muscular en la zona baja de la espalda',
       ],
       howChiropracticHelps: [
-        'Los ajustes lumbares mejoran la movilidad de la columna y reducen la tensión muscular, aliviando el dolor de forma natural.',
+        'Los ajustes <a href="/blog/cuanto-cuesta-un-quiropractico" class="font-semibold text-gold-dark underline">quiroprácticos</a> lumbares mejoran la movilidad de la columna y reducen la tensión muscular, aliviando el dolor de forma natural.',
       ],
     },
     en: {
@@ -585,7 +585,7 @@ export const symptomContent: Record<string, { es: SymptomContent; en: SymptomCon
         'Dificultad para coordinar movimientos',
       ],
       howChiropracticHelps: [
-        'Un cuidado quiropráctico suave, adaptado a la edad del niño, puede formar parte de un enfoque de apoyo al desarrollo motor, siempre en coordinación con el pediatra y, si corresponde, con fisioterapia infantil.',
+        'Un cuidado <a href="/blog/cuanto-cuesta-un-quiropractico" class="font-semibold text-gold-dark underline">quiropráctico</a> suave, adaptado a la edad del niño, puede formar parte de un enfoque de apoyo al desarrollo motor, siempre en coordinación con el pediatra y, si corresponde, con fisioterapia infantil.',
       ],
       note: 'Ante cualquier señal de retraso motor, consulta con el pediatra lo antes posible.',
     },
@@ -617,7 +617,7 @@ export const symptomContent: Record<string, { es: SymptomContent; en: SymptomCon
         'Arqueo de espalda al alimentarse',
       ],
       howChiropracticHelps: [
-        'Un cuidado quiropráctico suave puede ayudar a relajar la tensión en la zona del diafragma y el sistema nervioso, siendo siempre un complemento a la valoración y pautas del pediatra.',
+        'Un cuidado <a href="/blog/cuanto-cuesta-un-quiropractico" class="font-semibold text-gold-dark underline">quiropráctico</a> suave puede ayudar a relajar la tensión en la zona del diafragma y el sistema nervioso, siendo siempre un complemento a la valoración y pautas del pediatra.',
       ],
       note: 'Consulta con el pediatra si el reflujo afecta al aumento de peso o al bienestar del bebé.',
     },

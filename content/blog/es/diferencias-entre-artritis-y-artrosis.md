@@ -18,7 +18,7 @@ Es una enfermedad degenerativa relacionada con el desgaste del cartílago articu
 
 ## Tratamiento y abordaje quiropráctico
 
-En ambos casos, los ajustes quiroprácticos, un plan de ejercicio personalizado y recomendaciones de postura y descanso pueden ayudar a mejorar la calidad de vida y reducir el dolor.
+En ambos casos, los ajustes [quiroprácticos](/blog/cuanto-cuesta-un-quiropractico), un plan de ejercicio personalizado y recomendaciones de postura y descanso pueden ayudar a mejorar la calidad de vida y reducir el dolor.
 
 ## Preguntas frecuentes
 

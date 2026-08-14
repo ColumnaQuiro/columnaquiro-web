@@ -22,7 +22,7 @@ Tanto el exceso como la falta de movimiento pueden favorecer el problema. Estar 
 
 ## Cómo puede ayudar la quiropráctica
 
-Una valoración quiropráctica analiza la movilidad de la pelvis, la columna lumbar y la propia cadera para identificar el origen real del dolor. Los ajustes y la reeducación del movimiento ayudan a corregir compensaciones posturales y a reducir la sobrecarga sobre la articulación, favoreciendo una recuperación más completa.
+Una valoración [quiropráctica](/blog/cuanto-cuesta-un-quiropractico) analiza la movilidad de la pelvis, la columna lumbar y la propia cadera para identificar el origen real del dolor. Los ajustes y la reeducación del movimiento ayudan a corregir compensaciones posturales y a reducir la sobrecarga sobre la articulación, favoreciendo una recuperación más completa.
 
 ## Preguntas frecuentes
 

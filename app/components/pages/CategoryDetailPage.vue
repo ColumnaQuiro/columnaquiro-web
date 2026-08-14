@@ -58,7 +58,7 @@ useHead({
 
   <section v-if="content" class="mx-auto max-w-3xl px-6 py-24">
     <div class="space-y-4 text-body/80">
-      <p v-for="(paragraph, i) in content.intro.slice(1)" :key="i">{{ paragraph }}</p>
+      <p v-for="(paragraph, i) in content.intro.slice(1)" :key="i" v-html="paragraph" />
     </div>
 
     <ul v-if="content.list" class="mt-6 space-y-3">
@@ -68,7 +68,7 @@ useHead({
     </ul>
 
     <div v-if="content.extra" class="mt-6 space-y-4 text-body/80">
-      <p v-for="(paragraph, i) in content.extra" :key="i">{{ paragraph }}</p>
+      <p v-for="(paragraph, i) in content.extra" :key="i" v-html="paragraph" />
     </div>
 
     <h2 class="mt-16 text-2xl font-semibold text-forest">{{ t('common.sintomasAsociados') }}</h2>

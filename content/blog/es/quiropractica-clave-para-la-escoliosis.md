@@ -18,7 +18,7 @@ Las curvas moderadas o severas necesitan ser monitorizadas por un especialista (
 
 ## El papel de apoyo de la quiropráctica
 
-Dentro de un enfoque de cuidado integral, la quiropráctica puede ayudar a mantener una mejor movilidad de la columna, aliviar la tensión muscular asociada a la asimetría y apoyar la salud general del sistema nervioso. El objetivo no es "corregir" la curva, sino acompañar el bienestar de la persona que vive con escoliosis.
+Dentro de un enfoque de cuidado integral, la [quiropráctica](/blog/cuanto-cuesta-un-quiropractico) puede ayudar a mantener una mejor movilidad de la columna, aliviar la tensión muscular asociada a la asimetría y apoyar la salud general del sistema nervioso. El objetivo no es "corregir" la curva, sino acompañar el bienestar de la persona que vive con escoliosis.
 
 ## Qué esperar de un cuidado combinado
 

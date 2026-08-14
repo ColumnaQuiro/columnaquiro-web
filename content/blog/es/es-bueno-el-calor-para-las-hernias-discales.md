@@ -36,7 +36,7 @@ Sesiones de 15 a 20 minutos suelen ser suficientes; conviene evitar aplicaciones
 Sí, algunas personas alternan ambos con buenos resultados, pero es recomendable hacerlo con orientación profesional.
 
 **¿La quiropráctica cura una hernia discal?**
-La quiropráctica no elimina la hernia, pero puede ayudar a reducir el dolor y mejorar la función, siempre como parte de un abordaje conjunto con el equipo médico.
+La [quiropráctica](/blog/cuanto-cuesta-un-quiropractico) no elimina la hernia, pero puede ayudar a reducir el dolor y mejorar la función, siempre como parte de un abordaje conjunto con el equipo médico.
 
 **¿Cuándo debo consultar a un profesional?**
 Si el dolor es muy intenso, se acompaña de pérdida de fuerza, o no mejora tras varios días de cuidados básicos.

@@ -22,7 +22,7 @@ Dolor localizado en la zona lumbar que puede aumentar al agacharse o girar el tr
 
 ## Cómo aliviarla con apoyo quiropráctico
 
-El quiropráctico evalúa la movilidad de la columna lumbar y la musculatura afectada, y utiliza ajustes específicos, técnicas de liberación muscular y ejercicios de fortalecimiento para reducir el dolor y prevenir recaídas.
+El [quiropráctico](/blog/cuanto-cuesta-un-quiropractico) evalúa la movilidad de la columna lumbar y la musculatura afectada, y utiliza ajustes específicos, técnicas de liberación muscular y ejercicios de fortalecimiento para reducir el dolor y prevenir recaídas.
 
 ## Preguntas frecuentes
 

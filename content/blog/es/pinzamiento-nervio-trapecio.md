@@ -22,7 +22,7 @@ El dolor suele localizarse en la parte alta de la espalda o la base del cuello, 
 
 ## Cómo puede ayudar la quiropráctica
 
-Un examen quiropráctico permite identificar qué segmentos de la columna cervical y dorsal están perdiendo movilidad y contribuyendo a la tensión del trapecio. Los ajustes suaves, combinados con técnicas de liberación miofascial, ayudan a reducir la presión sobre el nervio y a recuperar el rango de movimiento del cuello y el hombro de forma progresiva.
+Un examen [quiropráctico](/blog/cuanto-cuesta-un-quiropractico) permite identificar qué segmentos de la columna cervical y dorsal están perdiendo movilidad y contribuyendo a la tensión del trapecio. Los ajustes suaves, combinados con técnicas de liberación miofascial, ayudan a reducir la presión sobre el nervio y a recuperar el rango de movimiento del cuello y el hombro de forma progresiva.
 
 ## Preguntas frecuentes
 

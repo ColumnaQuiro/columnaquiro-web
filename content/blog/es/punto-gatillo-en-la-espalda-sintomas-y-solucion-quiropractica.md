@@ -22,7 +22,7 @@ El sobreesfuerzo muscular, las malas posturas mantenidas, el estrés, la falta d
 
 ## Solución quiropráctica: liberación y prevención
 
-El abordaje quiropráctico combina la valoración de la movilidad vertebral con técnicas de liberación miofascial directamente sobre el punto gatillo, ayudando a "desactivarlo" y a reducir el dolor. Además, corregir las restricciones articulares que sobrecargan ese músculo ayuda a evitar que el punto gatillo reaparezca.
+El abordaje [quiropráctico](/blog/cuanto-cuesta-un-quiropractico) combina la valoración de la movilidad vertebral con técnicas de liberación miofascial directamente sobre el punto gatillo, ayudando a "desactivarlo" y a reducir el dolor. Además, corregir las restricciones articulares que sobrecargan ese músculo ayuda a evitar que el punto gatillo reaparezca.
 
 ## Preguntas frecuentes
 

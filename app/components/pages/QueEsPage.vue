@@ -32,7 +32,7 @@ const content = {
     heroBody:
       'La quiropráctica mejora la función del sistema nervioso, optimizando la conexión entre el cerebro y el cuerpo. Al alinear la columna vertebral, favorece la autorregulación, reduce el estrés y mejora la salud de forma integral.',
     intro:
-      'La quiropráctica es una profesión de la salud que se enfoca en mejorar la funcionalidad del sistema nervioso y del cuerpo en su totalidad a través de un enfoque integral y holístico. El sistema nervioso es el primer sistema del cuerpo en desarrollarse, coordinando cada órgano, músculo, glándula y célula para que cada uno pueda funcionar en perfecta sincronía. El cerebro recibe constantemente información del mundo externo e interno, y gracias al funcionamiento del sistema nervioso, puede responder adecuadamente a las necesidades del momento, enviando información de vuelta al cuerpo. Este proceso conlleva una constante adaptación óptima del cuerpo, comúnmente llamada salud. Esta conexión entre el cerebro y el resto del cuerpo es crucial para regular el estrés, el dolor y otros síntomas que puedan aparecer en otros sistemas. El Sistema Nervioso Central (SNC), compuesto por el cerebro y la médula espinal, es el único órgano del cuerpo que está completamente protegido por una capa de hueso: el cráneo protege el cerebro y la columna vertebral protege la médula espinal. Podemos imaginar la médula espinal como una autovía que transporta toda la información del cuerpo al cerebro y viceversa, siendo un elemento esencial para el correcto funcionamiento del sistema nervioso.',
+      'La <a href="/blog/cuanto-cuesta-un-quiropractico" class="font-semibold text-gold-dark underline">quiropráctica</a> es una profesión de la salud que se enfoca en mejorar la funcionalidad del sistema nervioso y del cuerpo en su totalidad a través de un enfoque integral y holístico. El sistema nervioso es el primer sistema del cuerpo en desarrollarse, coordinando cada órgano, músculo, glándula y célula para que cada uno pueda funcionar en perfecta sincronía. El cerebro recibe constantemente información del mundo externo e interno, y gracias al funcionamiento del sistema nervioso, puede responder adecuadamente a las necesidades del momento, enviando información de vuelta al cuerpo. Este proceso conlleva una constante adaptación óptima del cuerpo, comúnmente llamada salud. Esta conexión entre el cerebro y el resto del cuerpo es crucial para regular el estrés, el dolor y otros síntomas que puedan aparecer en otros sistemas. El Sistema Nervioso Central (SNC), compuesto por el cerebro y la médula espinal, es el único órgano del cuerpo que está completamente protegido por una capa de hueso: el cráneo protege el cerebro y la columna vertebral protege la médula espinal. Podemos imaginar la médula espinal como una autovía que transporta toda la información del cuerpo al cerebro y viceversa, siendo un elemento esencial para el correcto funcionamiento del sistema nervioso.',
     stressTitle: '¿Por qué tengo interferencias nerviosas en mi cuerpo?',
     stressSubtitle:
       'Nuestro cuerpo se adapta constantemente a varios tipos de estrés a diario para mantenernos en un estado óptimo.',
@@ -121,7 +121,7 @@ const c = computed(() => content[locale.value])
   />
 
   <section class="mx-auto max-w-3xl px-6 pb-24 text-body/80">
-    <p>{{ c.intro }}</p>
+    <p v-html="c.intro" />
   </section>
 
   <section class="mx-auto max-w-[calc(1280px+3rem)] px-6 pb-24 text-center">

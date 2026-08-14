@@ -14,7 +14,7 @@ Tanto la osteopatía como la quiropráctica buscan mejorar la salud del sistema 
 
 ## Formación y filosofía
 
-Los quiroprácticos se forman específicamente en el diagnóstico y tratamiento de la columna vertebral y el sistema nervioso, con un fuerte componente en el análisis biomecánico. Los osteópatas reciben una formación más amplia, centrada en el cuerpo como un sistema integrado, incluyendo a veces técnicas viscerales y craneales.
+Los [quiroprácticos](/blog/cuanto-cuesta-un-quiropractico) se forman específicamente en el diagnóstico y tratamiento de la columna vertebral y el sistema nervioso, con un fuerte componente en el análisis biomecánico. Los osteópatas reciben una formación más amplia, centrada en el cuerpo como un sistema integrado, incluyendo a veces técnicas viscerales y craneales.
 
 ## Técnicas empleadas
 

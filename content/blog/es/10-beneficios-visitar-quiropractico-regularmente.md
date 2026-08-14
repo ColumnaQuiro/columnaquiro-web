@@ -10,7 +10,7 @@ author: Léa Guido
 
 ## Un cuidado que va más allá del dolor puntual
 
-Muchas personas piensan en el quiropráctico solo cuando aparece una molestia aguda, pero las visitas regulares tienen un efecto acumulativo sobre la salud de la columna y del sistema nervioso. Mantener la columna alineada ayuda a que el resto del cuerpo funcione con más eficiencia.
+Muchas personas piensan en el [quiropráctico](/blog/cuanto-cuesta-un-quiropractico) solo cuando aparece una molestia aguda, pero las visitas regulares tienen un efecto acumulativo sobre la salud de la columna y del sistema nervioso. Mantener la columna alineada ayuda a que el resto del cuerpo funcione con más eficiencia.
 
 ## Beneficios que notarás en el día a día
 

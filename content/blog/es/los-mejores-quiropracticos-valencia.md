@@ -10,7 +10,7 @@ author: Léa Guido
 
 ## Por qué la elección del profesional importa
 
-La quiropráctica es una disciplina de salud que requiere formación específica y un buen criterio clínico. Elegir bien al profesional que te va a tratar marca la diferencia tanto en los resultados como en tu seguridad.
+La [quiropráctica](/blog/cuanto-cuesta-un-quiropractico) es una disciplina de salud que requiere formación específica y un buen criterio clínico. Elegir bien al profesional que te va a tratar marca la diferencia tanto en los resultados como en tu seguridad.
 
 ## Qué formación y credenciales buscar
 

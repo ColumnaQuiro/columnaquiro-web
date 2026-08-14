@@ -20,7 +20,7 @@ Suele desarrollarse de forma progresiva por malas posturas mantenidas, especialm
 
 Las personas con rectificación cervical suelen notar rigidez y cansancio en el cuello al final del día, dolor que se extiende hacia los hombros, dolores de cabeza tensionales y, en ocasiones, mareos leves o sensación de inestabilidad al mover la cabeza.
 
-## Tratamiento quiropráctico
+## Tratamiento [quiropráctico](/blog/cuanto-cuesta-un-quiropractico)
 
 El abordaje comienza con una valoración postural y de la movilidad cervical. A partir de ahí, los ajustes específicos buscan liberar las restricciones articulares, mientras que los ejercicios de fortalecimiento y las pautas de higiene postural trabajan para ayudar a la columna a recuperar progresivamente una curva más funcional.
 

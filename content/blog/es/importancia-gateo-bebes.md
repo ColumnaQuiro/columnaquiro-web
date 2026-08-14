@@ -39,4 +39,4 @@ Se cree que la coordinación cruzada que implica el gateo apoya el desarrollo ne
 Sí, ofreciéndole tiempo boca abajo, espacio seguro y estímulos que le animen a moverse hacia ellos.
 
 **¿Cuándo debo consultar a un profesional?**
-Si notas asimetrías claras al moverse, rigidez, o el desarrollo motor se aleja mucho de lo esperado para su edad.
+Si notas asimetrías claras al moverse, rigidez, o el desarrollo motor se aleja mucho de lo esperado para su edad, conviene consultarlo con el pediatra o un [quiropráctico](/blog/cuanto-cuesta-un-quiropractico) especializado en bebés.

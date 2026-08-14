@@ -120,7 +120,7 @@ export const categoryPages: CategoryPage[] = [
       extra: [
         'Estos cambios pueden interferir en el sistema nervioso, que controla todos los demás sistemas del cuerpo, como los músculos y ligamentos del suelo pélvico, la articulación sacroilíaca y el coxis.',
         'En ColumnaQuiro ayudamos a alinear la pelvis y la columna vertebral para que el bebé tenga suficiente espacio y la madre pueda vivir un embarazo más llevadero.',
-        'Estamos certificados en la técnica Webster, una técnica quiropráctica que se centra en el análisis y la alineación de la pelvis y sus músculos y ligamentos para optimizar la función pélvica de la madre durante el embarazo y el parto, reduciendo la necesidad de medicamentos o intervenciones quirúrgicas. Además disponemos de un cojín especial para embarazadas, para que puedas tener ayuda quiropráctica sin interrupciones durante todo el embarazo. Por último, los ajustes quiroprácticos durante el embarazo son suaves y seguros.',
+        'Estamos certificados en la técnica Webster, una técnica quiropráctica que se centra en el análisis y la alineación de la pelvis y sus músculos y ligamentos para optimizar la función pélvica de la madre durante el embarazo y el parto, reduciendo la necesidad de medicamentos o intervenciones quirúrgicas. Además disponemos de un cojín especial para embarazadas, para que puedas tener ayuda <a href="/blog/cuanto-cuesta-un-quiropractico" class="font-semibold text-gold-dark underline">quiropráctica</a> sin interrupciones durante todo el embarazo. Por último, los ajustes quiroprácticos durante el embarazo son suaves y seguros.',
         'El parto es un evento que genera estrés a nivel físico, químico y emocional. A nivel físico, implica horas de contracciones y esfuerzo en la salida del bebé. Químicamente, se producen cambios hormonales, como el aumento de la leche. Emocionalmente, implica la llegada del bebé, la adaptación a la maternidad y el posparto.',
         'En ColumnaQuiro podemos contribuir significativamente a una recuperación del postparto más efectiva, optimizando el funcionamiento del cuerpo y permitiéndote disfrutar plenamente de este nuevo y emocionante capítulo en tu vida.',
       ],
@@ -172,7 +172,7 @@ export const categoryPages: CategoryPage[] = [
       intro: [
         'Cuando hablamos de deportistas, es común pensar en posibles lesiones o síntomas relacionados con sus actividades, pero rara vez consideramos cómo la quiropráctica puede influir en su rendimiento deportivo. Sin embargo, esta disciplina ha sido adoptada por muchos atletas profesionales y es reconocida como una forma complementaria de atención médica en el ámbito deportivo.',
         'En países con una quiropráctica más desarrollada, es habitual que atletas de alto nivel reciban ajustes quiroprácticos con frecuencia. En América, por ejemplo, el fútbol americano es uno de los deportes donde la quiropráctica tiene mayor presencia, ayudando a los jugadores a competir sin dolores ni molestias.',
-        'El cuidado quiropráctico deportivo ayuda al cuerpo a recuperarse de lesiones más rápidamente, previene nuevas lesiones y optimiza las diferentes funciones fisiológicas del cuerpo. Por eso, cada vez más atletas profesionales de todos los deportes recurren a la atención quiropráctica para mantenerse en óptimas condiciones físicas y realizar sus actividades al más alto nivel.',
+        'El cuidado quiropráctico deportivo ayuda al cuerpo a recuperarse de lesiones más rápidamente, previene nuevas lesiones y optimiza las diferentes funciones fisiológicas del cuerpo. Por eso, cada vez más atletas profesionales de todos los deportes recurren a la atención <a href="/blog/cuanto-cuesta-un-quiropractico" class="font-semibold text-gold-dark underline">quiropráctica</a> para mantenerse en óptimas condiciones físicas y realizar sus actividades al más alto nivel.',
         'En nuestro centro quiropráctico los deportistas usan nuestro servicio por cuatro razones:',
       ],
       list: [
@@ -239,7 +239,7 @@ export const categoryPages: CategoryPage[] = [
       intro: [
         'En nuestra sociedad, aunque es común, no es normal que la tercera edad se asocie con debilidad, lentitud, enfermedad y dependencia. Es importante tener en cuenta que con el envejecimiento, nuestro cuerpo experimenta cambios, como la pérdida de calidad en huesos, colágeno y fibras musculares, lo que puede afectar nuestra calidad de vida.',
         'Sin embargo, esta etapa es tan importante como cualquier otra, y es esencial cuidar nuestro cuerpo para disfrutar al máximo de la vida. Las enfermedades osteoarticulares son la causa más común de discapacidad en personas de edad avanzada, lo que compromete seriamente la calidad de vida. La aparición de trastornos musculoesqueléticos aumenta significativamente con la edad y, si no se tratan, pueden reducir considerablemente el bienestar y la salud.',
-        'En ColumnaQuiro, mediante la quiropráctica ayudamos a mejorar la movilidad, el equilibrio y el estilo de vida de manera holística en la tercera edad, fomentando un estilo de vida activo y saludable. Al restaurar la función adecuada de la columna vertebral, podemos abordar los problemas asociados con las personas mayores de 65 años.',
+        'En ColumnaQuiro, mediante la <a href="/blog/cuanto-cuesta-un-quiropractico" class="font-semibold text-gold-dark underline">quiropráctica</a> ayudamos a mejorar la movilidad, el equilibrio y el estilo de vida de manera holística en la tercera edad, fomentando un estilo de vida activo y saludable. Al restaurar la función adecuada de la columna vertebral, podemos abordar los problemas asociados con las personas mayores de 65 años.',
         'Muchos pacientes mayores nos informan de que experimentan menos síntomas de sus enfermedades crónicas después de recibir ajustes quiroprácticos adaptados para su situación específica, lo que contribuye a mejorar su calidad de vida de manera significativa.',
       ],
       symptoms: [
@@ -274,7 +274,7 @@ export const categoryPages: CategoryPage[] = [
     es: {
       title: 'Discapacidades motoras o intelectuales',
       intro: [
-        'Las personas con discapacidades motoras o intelectuales a menudo tienen acceso limitado a terapias. La quiropráctica, al trabajar de manera holística en el cuerpo entero, puede mejorar la sensación corporal, movilidad, funcionalidad, equilibrio y coordinación.',
+        'Las personas con discapacidades motoras o intelectuales a menudo tienen acceso limitado a terapias. La <a href="/blog/cuanto-cuesta-un-quiropractico" class="font-semibold text-gold-dark underline">quiropráctica</a>, al trabajar de manera holística en el cuerpo entero, puede mejorar la sensación corporal, movilidad, funcionalidad, equilibrio y coordinación.',
         'Además, numerosos estudios sobre la quiropráctica y el cerebro han demostrado su potencial para producir cambios en la plasticidad cerebral. En particular, los ajustes quiroprácticos pueden equilibrar diferentes áreas del cerebro y mejorar el desarrollo en personas con trastornos neuroconductuales.',
       ],
       symptoms: [

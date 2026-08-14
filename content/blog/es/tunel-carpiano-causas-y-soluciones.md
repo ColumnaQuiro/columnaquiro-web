@@ -33,4 +33,4 @@ Si no se atiende, los síntomas pueden progresar, por eso es importante consulta
 Solo en casos avanzados; muchas personas mejoran con cuidado conservador.
 
 **¿Hay alternativas al tratamiento médico?**
-Sí, medidas como la quiropráctica, la fisioterapia y cambios ergonómicos pueden ayudar de forma complementaria.
+Sí, medidas como la [quiropráctica](/blog/cuanto-cuesta-un-quiropractico), la fisioterapia y cambios ergonómicos pueden ayudar de forma complementaria.

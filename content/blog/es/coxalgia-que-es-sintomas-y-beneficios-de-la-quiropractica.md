@@ -22,7 +22,7 @@ Entre las causas más habituales están el desgaste articular (artrosis), la inf
 
 ## El papel de la quiropráctica
 
-Mediante técnicas manuales enfocadas en la relación entre la columna, la pelvis y la cadera, la quiropráctica puede ayudar a mejorar la movilidad articular y reducir la tensión muscular asociada al dolor de cadera.
+Mediante técnicas manuales enfocadas en la relación entre la columna, la pelvis y la cadera, la [quiropráctica](/blog/cuanto-cuesta-un-quiropractico) puede ayudar a mejorar la movilidad articular y reducir la tensión muscular asociada al dolor de cadera.
 
 ## Preguntas frecuentes
 

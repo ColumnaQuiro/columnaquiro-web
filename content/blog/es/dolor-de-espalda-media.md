@@ -20,7 +20,7 @@ Las causas más habituales incluyen pasar muchas horas sentado frente a una pant
 
 La mayoría de los casos mejoran con reposo relativo, calor local y ajuste de la postura. Sin embargo, si el dolor es muy intenso, aparece de forma súbita sin motivo aparente, se acompaña de fiebre, pérdida de peso inexplicada o dificultad para respirar, es importante acudir a un médico para descartar otras causas.
 
-## Cómo puede ayudar la quiropráctica
+## Cómo puede ayudar la [quiropráctica](/blog/cuanto-cuesta-un-quiropractico)
 
 En ColumnaQuiro valoramos la movilidad de toda la columna dorsal y la postura general antes de proponer un plan de ajustes. Trabajar la rigidez de esta zona, junto con ejercicios de movilidad y pautas ergonómicas para el día a día, suele traducirse en una mejora progresiva de las molestias.
 

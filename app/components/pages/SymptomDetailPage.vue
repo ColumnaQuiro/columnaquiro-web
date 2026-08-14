@@ -62,7 +62,7 @@ useSeo({
       {{ locale === 'es' ? '¿Qué es?' : 'What is it?' }}
     </h2>
     <div class="mt-4 space-y-4 text-body/80">
-      <p v-for="(paragraph, i) in c.intro" :key="i">{{ paragraph }}</p>
+      <p v-for="(paragraph, i) in c.intro" :key="i" v-html="paragraph" />
     </div>
 
     <h2 class="mt-10 text-xl font-semibold text-forest">
@@ -76,7 +76,7 @@ useSeo({
       {{ locale === 'es' ? '¿Cómo ayuda la quiropráctica?' : 'How chiropractic care helps' }}
     </h2>
     <div class="mt-4 space-y-4 text-body/80">
-      <p v-for="(paragraph, i) in c.howChiropracticHelps" :key="i">{{ paragraph }}</p>
+      <p v-for="(paragraph, i) in c.howChiropracticHelps" :key="i" v-html="paragraph" />
     </div>
 
     <p v-if="c.note" class="mt-8 rounded-2xl bg-white p-4 text-sm text-body/70 shadow-[0_1px_2px_0_rgba(0,0,0,0.05)]">

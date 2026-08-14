@@ -18,7 +18,7 @@ Entre las ventajas más consistentes están el alivio de dolores musculoesquelé
 
 ## Sus límites y consideraciones
 
-La quiropráctica no sustituye a la medicina para enfermedades graves, fracturas, infecciones o condiciones que requieren cirugía o tratamiento farmacológico. Tampoco todos los ajustes son adecuados para todas las personas: quienes tienen osteoporosis avanzada, ciertas patologías vasculares o han sido operados recientemente de columna deben consultarlo primero con su médico y con su quiropráctico.
+La [quiropráctica](/blog/cuanto-cuesta-un-quiropractico) no sustituye a la medicina para enfermedades graves, fracturas, infecciones o condiciones que requieren cirugía o tratamiento farmacológico. Tampoco todos los ajustes son adecuados para todas las personas: quienes tienen osteoporosis avanzada, ciertas patologías vasculares o han sido operados recientemente de columna deben consultarlo primero con su médico y con su quiropráctico.
 
 ## Cómo decidir si es para ti
 

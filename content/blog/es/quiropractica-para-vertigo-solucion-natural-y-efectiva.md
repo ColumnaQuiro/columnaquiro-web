@@ -22,7 +22,7 @@ Además del mareo o la sensación de inestabilidad, es habitual que aparezca rig
 
 ## Cómo ayuda la quiropráctica
 
-Cuando se confirma un componente cervical, los ajustes quiroprácticos suaves buscan mejorar la movilidad de las vértebras superiores del cuello y reducir la tensión muscular asociada. Muchas personas notan una disminución de la frecuencia e intensidad de los episodios al combinar esto con ejercicios de propiocepción cervical.
+Cuando se confirma un componente cervical, los ajustes [quiroprácticos](/blog/cuanto-cuesta-un-quiropractico) suaves buscan mejorar la movilidad de las vértebras superiores del cuello y reducir la tensión muscular asociada. Muchas personas notan una disminución de la frecuencia e intensidad de los episodios al combinar esto con ejercicios de propiocepción cervical.
 
 ## Preguntas frecuentes
 

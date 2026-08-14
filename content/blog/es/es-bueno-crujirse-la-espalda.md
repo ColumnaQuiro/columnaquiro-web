@@ -14,7 +14,7 @@ Ese sonido característico se llama cavitación. Dentro de cada articulación ha
 
 ## ¿Es lo mismo crujirse la espalda uno mismo que un ajuste quiropráctico?
 
-No exactamente. Cuando te crujes la espalda tú mismo, sueles mover la articulación más móvil o la que ya tiene más juego, buscando esa sensación de alivio, pero sin control sobre qué segmento se mueve. Un ajuste quiropráctico es una técnica precisa, dirigida a la articulación concreta que está rígida o no se mueve bien, lo que permite un efecto más específico y duradero.
+No exactamente. Cuando te crujes la espalda tú mismo, sueles mover la articulación más móvil o la que ya tiene más juego, buscando esa sensación de alivio, pero sin control sobre qué segmento se mueve. Un ajuste [quiropráctico](/blog/cuanto-cuesta-un-quiropractico) es una técnica precisa, dirigida a la articulación concreta que está rígida o no se mueve bien, lo que permite un efecto más específico y duradero.
 
 ## ¿Es malo crujirse la espalda con frecuencia?
 

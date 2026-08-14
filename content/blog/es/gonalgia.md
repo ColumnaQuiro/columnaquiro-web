@@ -35,8 +35,8 @@ En muchos casos sí, adaptando la actividad y evitando los movimientos que gener
 **¿El sobrepeso influye en el dolor de rodilla?**
 Sí, el exceso de peso aumenta la carga sobre la articulación y puede acelerar el desgaste con el tiempo.
 
-**¿La quiropráctica trata directamente la rodilla?**
-El enfoque quiropráctico se centra en mejorar la alineación y la función de toda la cadena articular relacionada, lo que puede reducir la carga sobre la rodilla.
+**¿La [quiropráctica](/blog/cuanto-cuesta-un-quiropractico) trata directamente la rodilla?**
+El enfoque [quiropráctico](/blog/punto-gatillo-en-la-espalda-sintomas-y-solucion-quiropractica) se centra en mejorar la alineación y la función de toda la cadena articular relacionada, lo que puede reducir la carga sobre la rodilla.
 
 **¿Cuándo debo consultar a un profesional?**
 Si el dolor es intenso, hay hinchazón importante, sensación de inestabilidad, o no mejora con reposo y cuidados básicos.

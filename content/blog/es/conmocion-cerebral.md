@@ -22,7 +22,7 @@ Pérdida de conciencia, vómitos repetidos, confusión que empeora, debilidad en
 
 ## El papel del cuello tras una conmoción
 
-Los golpes en la cabeza suelen ir acompañados de un movimiento brusco del cuello (tipo latigazo), lo que puede generar tensión cervical, rigidez y dolor de cabeza asociado. Esta parte del cuadro sí es de origen musculoesquelético y puede beneficiarse de un abordaje quiropráctico.
+Los golpes en la cabeza suelen ir acompañados de un movimiento brusco del cuello (tipo latigazo), lo que puede generar tensión cervical, rigidez y dolor de cabeza asociado. Esta parte del cuadro sí es de origen musculoesquelético y puede beneficiarse de un abordaje [quiropráctico](/blog/cuanto-cuesta-un-quiropractico).
 
 ## Cómo apoya la quiropráctica la recuperación, una vez autorizada
 

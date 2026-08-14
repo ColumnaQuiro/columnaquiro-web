@@ -14,7 +14,7 @@ La técnica Webster es un protocolo quiropráctico específico, desarrollado par
 
 ## ¿Cómo se aplica durante el embarazo?
 
-El quiropráctico evalúa la posición de la pelvis y detecta posibles desequilibrios en la musculatura y los ligamentos que la rodean, en especial el ligamento redondo. A partir de ahí, aplica ajustes suaves y específicos, totalmente adaptados a cada etapa del embarazo, buscando reducir la tensión y mejorar el equilibrio de la pelvis.
+El [quiropráctico](/blog/cuanto-cuesta-un-quiropractico) evalúa la posición de la pelvis y detecta posibles desequilibrios en la musculatura y los ligamentos que la rodean, en especial el ligamento redondo. A partir de ahí, aplica ajustes suaves y específicos, totalmente adaptados a cada etapa del embarazo, buscando reducir la tensión y mejorar el equilibrio de la pelvis.
 
 ## Beneficios para la madre durante la gestación y el parto
 

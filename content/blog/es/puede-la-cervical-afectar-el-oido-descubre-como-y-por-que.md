@@ -20,7 +20,7 @@ Entre los más habituales están la sensación de presión o taponamiento en el 
 
 La tensión muscular en la parte alta del cuello y las restricciones de movilidad en las vértebras cervicales superiores pueden alterar la información que el cerebro recibe sobre la posición de la cabeza, lo que en algunas personas se traduce en síntomas de tipo vestibular o auditivo.
 
-## Cómo puede ayudar la quiropráctica
+## Cómo puede ayudar la [quiropráctica](/blog/contractura-en-el-cuello-causas-sintomas-y-soluciones)
 
 Un examen cervical detallado permite identificar restricciones de movilidad en la zona alta del cuello. Los ajustes específicos, junto con ejercicios de movilidad cervical, pueden ayudar a reducir estos síntomas cuando su origen es de tipo mecánico-cervical.
 
@@ -32,7 +32,7 @@ No. El mareo puede tener muchas causas distintas, por lo que siempre conviene de
 **¿Cuánto tiempo tarda en notarse mejoría?**
 Cuando el origen es cervical, algunos pacientes notan cambios en pocas sesiones, aunque depende de cada caso.
 
-**¿El tinnitus siempre mejora con quiropráctica?**
+**¿El tinnitus siempre mejora con [quiropráctica](/blog/cuanto-cuesta-un-quiropractico)?**
 No siempre; depende de la causa. En los casos con un componente cervical claro, algunos pacientes sí notan alivio.
 
 **¿Cuándo debo consultar a un especialista en otorrinolaringología?**

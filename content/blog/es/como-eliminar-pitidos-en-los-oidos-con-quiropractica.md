@@ -22,7 +22,7 @@ Cuando se identifica ese componente cervical, los ajustes suaves en las vértebr
 
 ## Qué más puede ayudar
 
-Reducir el estrés, cuidar la postura del cuello frente a las pantallas y moderar la exposición a ruidos fuertes son hábitos que, combinados con el cuidado quiropráctico, suelen aportar bienestar general a quienes conviven con este síntoma.
+Reducir el estrés, cuidar la postura del cuello frente a las pantallas y moderar la exposición a ruidos fuertes son hábitos que, combinados con el cuidado [quiropráctico](/blog/cuanto-cuesta-un-quiropractico), suelen aportar bienestar general a quienes conviven con este síntoma.
 
 ## Preguntas frecuentes
 

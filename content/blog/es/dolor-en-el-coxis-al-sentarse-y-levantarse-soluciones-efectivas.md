@@ -18,7 +18,7 @@ Entre las causas más habituales están una caída sobre la zona (aunque sea ant
 
 ## Cómo alivia la quiropráctica esta molestia
 
-La valoración quiropráctica busca identificar si hay restricciones en la pelvis o en la parte baja de la columna que estén sobrecargando el cóxis. Mediante ajustes suaves y específicos, junto con recomendaciones posturales y de higiene al sentarse, se busca reducir la presión sobre la zona y favorecer una mejor mecánica pélvica.
+La valoración [quiropráctica](/blog/cuanto-cuesta-un-quiropractico) busca identificar si hay restricciones en la pelvis o en la parte baja de la columna que estén sobrecargando el cóxis. Mediante ajustes suaves y específicos, junto con recomendaciones posturales y de higiene al sentarse, se busca reducir la presión sobre la zona y favorecer una mejor mecánica pélvica.
 
 ## Consejos prácticos para el día a día
 

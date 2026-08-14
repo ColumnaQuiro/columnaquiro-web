@@ -10,7 +10,7 @@ author: Léa Guido
 
 ## Importante: consulta primero con un médico
 
-Si notas que te cuesta respirar y tienes escoliosis, lo primero es que lo consultes con tu médico, un neumólogo o un especialista en columna. La dificultad respiratoria asociada a la escoliosis puede indicar que la curva ha alcanzado un grado que afecta a la caja torácica y a la capacidad pulmonar, y esto requiere una valoración médica y un seguimiento que van más allá de lo que puede ofrecer la quiropráctica por sí sola.
+Si notas que te cuesta respirar y tienes escoliosis, lo primero es que lo consultes con tu médico, un neumólogo o un especialista en columna. La dificultad respiratoria asociada a la escoliosis puede indicar que la curva ha alcanzado un grado que afecta a la caja torácica y a la capacidad pulmonar, y esto requiere una valoración médica y un seguimiento que van más allá de lo que puede ofrecer la [quiropráctica](/blog/cuanto-cuesta-un-quiropractico) por sí sola.
 
 ## ¿Por qué la escoliosis puede afectar a la respiración?
 

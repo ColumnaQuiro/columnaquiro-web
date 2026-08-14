@@ -22,7 +22,7 @@ Además de la edad, el sedentarismo, el tabaquismo, la falta de hidratación gen
 
 ## Cómo ayuda la quiropráctica
 
-Los ajustes quiroprácticos ayudan a mejorar la movilidad de las vértebras afectadas, favorecen una mejor distribución de las cargas en la columna y, junto con ejercicios específicos, contribuyen a mantener la función discal el mayor tiempo posible.
+Los ajustes [quiroprácticos](/blog/cuanto-cuesta-un-quiropractico) ayudan a mejorar la movilidad de las vértebras afectadas, favorecen una mejor distribución de las cargas en la columna y, junto con ejercicios específicos, contribuyen a mantener la función discal el mayor tiempo posible.
 
 ## Preguntas frecuentes
 

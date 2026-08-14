@@ -22,12 +22,12 @@ Dolor localizado que puede irradiar hacia el hombro o la cabeza, sensación de "
 
 ## Cómo tratarla con ayuda quiropráctica
 
-El quiropráctico valora la movilidad de las vértebras cervicales y la musculatura circundante, y combina ajustes suaves, técnicas de liberación muscular y pautas de ejercicio para reducir la tensión y prevenir que la contractura se repita.
+El [quiropráctico](/blog/cuanto-cuesta-un-quiropractico) valora la movilidad de las vértebras cervicales y la musculatura circundante, y combina ajustes suaves, técnicas de liberación muscular y pautas de ejercicio para reducir la tensión y prevenir que la contractura se repita.
 
 ## Preguntas frecuentes
 
 **¿Puedo aplicar calor o frío en una contractura cervical?**
-El calor suele ayudar a relajar la musculatura, mientras que el frío puede ser útil si hay inflamación reciente. En caso de duda, tu quiropráctico puede orientarte.
+El calor suele ayudar a relajar la musculatura, mientras que el frío puede ser útil si hay inflamación reciente. En caso de duda, tu [quiropráctico](/blog/punto-gatillo-en-la-espalda-sintomas-y-solucion-quiropractica) puede orientarte.
 
 **¿Cuánto dura una contractura de cuello?**
 Con cuidados adecuados, muchas mejoran en pocos días, aunque algunas pueden persistir semanas si no se aborda la causa de fondo.
