@@ -35,12 +35,12 @@ const intro = computed(() =>
 
 const seoText = {
   es: {
-    title: 'Blog | ColumnaQuiro',
+    title: 'Blog de Quiropráctica y Salud | ColumnaQuiro Valencia',
     description:
       'Artículos y novedades sobre quiropráctica y salud: ciática, dolor de espalda, embarazo, deporte y más.',
   },
   en: {
-    title: 'Blog | ColumnaQuiro',
+    title: 'Chiropractic & Health Blog | ColumnaQuiro Valencia',
     description:
       'Articles and news about chiropractic care and health: sciatica, back pain, pregnancy, sport, and more.',
   },
