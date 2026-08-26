@@ -138,6 +138,7 @@ async function handleSubmit() {
           @submit.prevent="handleSubmit"
         >
           <input type="hidden" name="form-name" value="contact" />
+          <input type="hidden" name="locale" :value="locale" />
           <p class="hidden">
             <label>Don't fill this out: <input name="bot-field" /></label>
           </p>
@@ -147,6 +148,7 @@ async function handleSubmit() {
               <input
                 id="name"
                 v-model="form.name"
+                name="name"
                 type="text"
                 required
                 class="mt-1 w-full rounded-xl border border-forest/20 bg-cream/40 px-4 py-3 focus:border-forest focus:outline-none"
@@ -157,6 +159,7 @@ async function handleSubmit() {
               <input
                 id="email"
                 v-model="form.email"
+                name="email"
                 type="email"
                 :placeholder="c.labels.emailPlaceholder"
                 required
@@ -170,6 +173,7 @@ async function handleSubmit() {
               <input
                 id="subject"
                 v-model="form.subject"
+                name="subject"
                 type="text"
                 class="mt-1 w-full rounded-xl border border-forest/20 bg-cream/40 px-4 py-3 focus:border-forest focus:outline-none"
               />
@@ -179,6 +183,7 @@ async function handleSubmit() {
               <input
                 id="phone"
                 v-model="form.phone"
+                name="phone"
                 type="tel"
                 required
                 class="mt-1 w-full rounded-xl border border-forest/20 bg-cream/40 px-4 py-3 focus:border-forest focus:outline-none"
@@ -190,6 +195,7 @@ async function handleSubmit() {
             <textarea
               id="message"
               v-model="form.message"
+              name="message"
               rows="5"
               required
               class="mt-1 w-full rounded-xl border border-forest/20 bg-cream/40 px-4 py-3 focus:border-forest focus:outline-none"
