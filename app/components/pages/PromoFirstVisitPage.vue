@@ -48,6 +48,9 @@ const bookingUrl = computed(() => {
   if (props.practitionerId) params.set('practitioner', props.practitionerId)
   return `https://app.quiroflow.com/book/columnaquiro?${params.toString()}`
 })
+// Tracks the booking widget's own postMessage'd height so a step never gets
+// clipped or shows a scrollbar nested inside this page's scrollbar.
+const { heightPx } = useIframeAutoHeight()
 </script>
 
 <template>
@@ -120,7 +123,8 @@ const bookingUrl = computed(() => {
       :src="bookingUrl"
       title="Reservar cita"
       loading="lazy"
-      class="mt-8 h-[900px] w-full rounded-3xl bg-white shadow-[0_1px_2px_0_rgba(0,0,0,0.05)]"
+      :style="{ height: `${heightPx}px` }"
+      class="mt-8 w-full rounded-3xl bg-white shadow-[0_1px_2px_0_rgba(0,0,0,0.05)]"
     />
   </section>
 </template>
