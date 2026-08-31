@@ -2,7 +2,6 @@
 import { computed } from 'vue'
 import { useAppI18n } from '@/composables/useAppI18n'
 import { useSeo } from '@/composables/useSeo'
-import { useBookingWidget } from '@/composables/useBookingWidget'
 
 const { locale } = useAppI18n()
 
@@ -27,7 +26,15 @@ useSeo({
   description: computed(() => c.value.seoDescription),
 })
 
-useBookingWidget()
+// Migrated from PracticeHub's embedded widget to QuiroFlow's own public
+// booking page -- iframed rather than linked out so this page keeps the same
+// "book right here" layout it always had. No postMessage height sync exists
+// on the QuiroFlow side, so the iframe gets a tall fixed height instead
+// (it'll scroll internally if a step ever needs more room than that).
+// "Primera visita" is the standard (non-promo) first-visit type -- this is
+// the general booking page, not one of the discounted promo landing pages.
+const PRIMERA_VISITA_TYPE_ID = '70a38844-ebb9-4a42-b59e-dd6720160e0d'
+const bookingUrl = `https://app.quiroflow.com/book/columnaquiro?type=${PRIMERA_VISITA_TYPE_ID}`
 </script>
 
 <template>
@@ -40,9 +47,11 @@ useBookingWidget()
       <h2 class="mt-2 text-xl text-body/80">{{ c.subtitle }}</h2>
     </div>
 
-    <div
-      id="ph_online_bookings_widget"
-      class="mt-12 min-h-[400px] rounded-3xl bg-white p-6 shadow-[0_1px_2px_0_rgba(0,0,0,0.05)]"
+    <iframe
+      :src="bookingUrl"
+      title="Reservar cita"
+      loading="lazy"
+      class="mt-12 h-[900px] w-full rounded-3xl bg-white shadow-[0_1px_2px_0_rgba(0,0,0,0.05)]"
     />
   </section>
 </template>

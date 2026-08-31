@@ -13,15 +13,6 @@ export function withTrailingSlash(path: string): string {
   return path === '/' || path.endsWith('/') ? path : `${path}/`
 }
 
-// Pages embedding the PracticeHub booking widget — it only initializes
-// reliably on a real page load, not a client-side SPA transition.
-export const BOOKING_WIDGET_PATHS = [
-  '/reserva-cita',
-  '/en/book-appointment',
-  '/promocion-especial-primera-visita-quiropractica',
-  '/promocion-especial-primera-visita-quiropractica-con-natacha',
-]
-
 export interface PagePair {
   key: string
   es: string

@@ -1,6 +1,6 @@
 <script setup lang="ts">
+import { computed } from 'vue'
 import { useSeo } from '@/composables/useSeo'
-import { useBookingWidget } from '@/composables/useBookingWidget'
 
 const props = withDefaults(
   defineProps<{
@@ -38,7 +38,16 @@ const benefits = [
   },
 ]
 
-useBookingWidget({ appointmentTypeId: '8', practitionerId: props.practitionerId })
+// Migrated from PracticeHub -- "Oferta Primera visita" is the QuiroFlow
+// appointment type behind this 30%-off offer. `practitionerId` is now a
+// QuiroFlow team-member UUID (was a PracticeHub numeric id); leave it unset
+// until the specific practitioner this promo names has a QuiroFlow account.
+const OFERTA_PRIMERA_VISITA_TYPE_ID = '91a6b6d9-1bb3-4a66-aa8c-f17ee66e4d1e'
+const bookingUrl = computed(() => {
+  const params = new URLSearchParams({ type: OFERTA_PRIMERA_VISITA_TYPE_ID })
+  if (props.practitionerId) params.set('practitioner', props.practitionerId)
+  return `https://app.quiroflow.com/book/columnaquiro?${params.toString()}`
+})
 </script>
 
 <template>
@@ -107,9 +116,11 @@ useBookingWidget({ appointmentTypeId: '8', practitionerId: props.practitionerId 
 
   <section id="reservar-cita" class="mx-auto max-w-3xl px-6 py-16">
     <h2 class="section-title text-center">Elige tu fecha y hora</h2>
-    <div
-      id="ph_online_bookings_widget"
-      class="mt-8 min-h-[400px] rounded-3xl bg-white p-2 shadow-[0_1px_2px_0_rgba(0,0,0,0.05)]"
+    <iframe
+      :src="bookingUrl"
+      title="Reservar cita"
+      loading="lazy"
+      class="mt-8 h-[900px] w-full rounded-3xl bg-white shadow-[0_1px_2px_0_rgba(0,0,0,0.05)]"
     />
   </section>
 </template>
