@@ -130,6 +130,7 @@ export default defineNuxtConfig({
         '/promocion-especial-primera-visita-quiropractica',
         '/promocion-especial-primera-visita-quiropractica-con-natacha',
         '/cita-reservada',
+        '/social',
         ...symptomRoutes,
         ...blogRoutes,
       ],
