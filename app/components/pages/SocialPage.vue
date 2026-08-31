@@ -14,7 +14,7 @@ useSeo({
 // Overrides the site-wide body padding reserved for AppHeader (this page
 // skips the default layout), scoped to this component's lifetime.
 useHead({
-  style: [{ innerHTML: 'body{padding-top:0}' }],
+  style: [{ innerHTML: 'body{padding-top:0 !important}' }],
   meta: [{ name: 'robots', content: 'noindex, nofollow' }],
 })
 
