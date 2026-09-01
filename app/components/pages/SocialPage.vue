@@ -13,9 +13,15 @@ useSeo({
 
 // Overrides the site-wide body padding reserved for AppHeader (this page
 // skips the default layout), scoped to this component's lifetime.
+// viewport-fit=cover + the forced background let the page's own color paint
+// through the iOS safe areas (notch/home-indicator strips) instead of them
+// showing through as blank white.
 useHead({
-  style: [{ innerHTML: 'body{padding-top:0 !important}' }],
-  meta: [{ name: 'robots', content: 'noindex, nofollow' }],
+  style: [{ innerHTML: 'html,body{padding-top:0 !important;background-color:#0b382c !important}' }],
+  meta: [
+    { name: 'robots', content: 'noindex, nofollow' },
+    { name: 'viewport', content: 'width=device-width, initial-scale=1, viewport-fit=cover' },
+  ],
 })
 
 const links = [
@@ -38,7 +44,10 @@ const links = [
 </script>
 
 <template>
-  <div class="flex min-h-screen flex-col items-center bg-forest px-6 py-16 text-center">
+  <div
+    class="flex min-h-dvh flex-col items-center bg-forest px-6 text-center"
+    style="padding-top: max(4rem, calc(env(safe-area-inset-top) + 2rem)); padding-bottom: max(4rem, calc(env(safe-area-inset-bottom) + 2rem))"
+  >
     <img
       src="/assets/images/logo-quiro-white.png"
       alt="ColumnaQuiro"
