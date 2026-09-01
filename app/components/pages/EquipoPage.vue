@@ -71,7 +71,7 @@ useHead({
     <p class="mx-auto mt-4 max-w-2xl text-lg text-body/80">{{ c.subtitle }}</p>
   </section>
 
-  <section class="mx-auto max-w-4xl px-6 pb-24">
+  <section class="mx-auto max-w-4xl space-y-8 px-6 pb-24">
     <div
       v-for="member in members"
       :key="member.name"
