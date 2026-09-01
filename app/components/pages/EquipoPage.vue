@@ -13,12 +13,12 @@ const seoText = {
   es: {
     title: 'Nuestro equipo | ColumnaQuiro',
     description:
-      'Conoce a Léa Guido, doctora en quiropráctica en ColumnaQuiro Valencia, y nuestra filosofía de cuidado natural y personalizado.',
+      'Conoce a Léa Guido y Jordana Aguar, doctoras en quiropráctica en ColumnaQuiro Valencia, y nuestra filosofía de cuidado natural y personalizado.',
   },
   en: {
     title: 'Our team | ColumnaQuiro',
     description:
-      "Meet Léa Guido, Doctor of Chiropractic at ColumnaQuiro Valencia, and our philosophy of natural, personalized care.",
+      'Meet Léa Guido and Jordana Aguar, Doctors of Chiropractic at ColumnaQuiro Valencia, and our philosophy of natural, personalized care.',
   },
 }
 useSeo({
@@ -33,7 +33,6 @@ const content = {
       'Nuestra filosofía es ayudar a la gente a través del cuidado quiropráctico de una forma natural y no invasiva.',
     button: 'Reserva tu visita',
     bioLink: 'Conoce mi historia →',
-    bioPath: '/sobre-nosotros/equipo/lea-guido',
   },
   en: {
     title: 'Meet our team',
@@ -41,7 +40,6 @@ const content = {
       'Our philosophy is to help people through chiropractic care in a natural and non-invasive way.',
     button: 'Book your visit',
     bioLink: 'Learn more about me →',
-    bioPath: '/en/about-us/our-team/lea-guido',
   },
 }
 const c = computed(() => content[locale.value])
@@ -90,6 +88,7 @@ useHead({
           {{ member.role }}
         </p>
         <a
+          v-if="member.linkedin"
           :href="member.linkedin"
           target="_blank"
           rel="noopener"
@@ -107,7 +106,7 @@ useHead({
           <BaseButton :to="locale === 'es' ? '/reserva-cita' : '/en/book-appointment'">{{
             c.button
           }}</BaseButton>
-          <NuxtLink :to="c.bioPath" class="text-sm font-semibold text-gold-dark">{{
+          <NuxtLink :to="member.bioPath" class="text-sm font-semibold text-gold-dark">{{
             c.bioLink
           }}</NuxtLink>
         </div>

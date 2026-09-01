@@ -41,6 +41,11 @@ export const PAGES: PagePair[] = [
     es: '/sobre-nosotros/equipo/lea-guido',
     en: '/en/about-us/our-team/lea-guido',
   },
+  {
+    key: 'jordana-aguar',
+    es: '/sobre-nosotros/equipo/jordana-aguar',
+    en: '/en/about-us/our-team/jordana-aguar',
+  },
   { key: 'blog', es: '/blog', en: '/en/blog' },
   { key: 'reserva-cita', es: '/reserva-cita', en: '/en/book-appointment' },
   { key: 'privacidad', es: '/politica-de-privacidad', en: '/en/privacy-policy' },

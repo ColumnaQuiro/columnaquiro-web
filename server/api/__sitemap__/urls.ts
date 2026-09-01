@@ -45,6 +45,7 @@ export default defineSitemapEventHandler(() => {
     addPair(`${SYMPTOM_HUB.es}/${symptom.es}`, `${SYMPTOM_HUB.en}/${symptom.en}`)
   }
   addPair('/sobre-nosotros/equipo/lea-guido', '/en/about-us/our-team/lea-guido')
+  addPair('/sobre-nosotros/equipo/jordana-aguar', '/en/about-us/our-team/jordana-aguar')
 
   return entries
 })
