@@ -36,4 +36,4 @@ It's often used for generalized tension, recurring headaches, postural stiffness
 It varies by person, but many patients notice a lighter feeling after the first few sessions.
 
 **Is it compatible with regular chiropractic adjustments?**
-Yes, it's often integrated into the same treatment plan to enhance results.
+Yes, it's often integrated into the same care plan to enhance results.

@@ -26,7 +26,7 @@ The choice depends on your preferences and your specific issue. Many people bene
 
 ## Frequently asked questions
 
-**Can a chiropractor treat digestive issues like an osteopath?**
+**Can a chiropractor help with digestive issues like an osteopath?**
 Chiropractors focus mainly on the spine and nervous system; for specific visceral techniques, an osteopath may take a broader approach.
 
 **Are the two therapies interchangeable?**

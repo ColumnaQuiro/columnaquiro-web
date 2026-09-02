@@ -14,11 +14,11 @@ The cost of seeing a chiropractor depends on several factors: the length and typ
 
 ## First visit vs. follow-up visits
 
-The first consultation is usually more thorough, since it includes a health history, physical examination, and often a personalized treatment plan, so it typically has a different cost than later visits, which tend to be shorter and focused on the adjustment or follow-up care.
+The first consultation is usually more thorough, since it includes a health history, physical examination, and often a personalized care plan, so it typically has a different cost than later visits, which tend to be shorter and focused on the adjustment or follow-up care.
 
 ## Treatment plans and session packages
 
-Many clinics, including ColumnaQuiro, offer packages or multi-session plans that can be more cost-effective than paying for each visit separately, especially when the treatment plan requires ongoing care over time.
+Many clinics, including ColumnaQuiro, offer packages or multi-session plans that can be more cost-effective than paying for each visit separately, especially when the plan requires ongoing care over time.
 
 ## How to find out the exact price for your case
 

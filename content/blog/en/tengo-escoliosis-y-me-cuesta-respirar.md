@@ -22,12 +22,12 @@ When breathing symptoms are present, a specialist will typically order imaging t
 
 ## The role of chiropractic care as complementary support
 
-As part of a care plan supervised by your doctor, chiropractic care can offer complementary support focused on improving mobility of the spine and rib cage, easing associated muscle tension, and supporting better posture. This can contribute to your overall comfort, but it does not treat the breathing difficulty directly and does not replace medical monitoring of the curve.
+As part of a care plan supervised by your doctor, chiropractic care can offer complementary support focused on improving mobility of the spine and rib cage, easing associated muscle tension, and supporting better posture. This can contribute to your overall comfort, but it does not care for the breathing difficulty directly and does not replace medical monitoring of the curve.
 
 ## Frequently asked questions
 
 **Can chiropractic care cure breathing difficulty caused by scoliosis?**
-No. Chiropractic care doesn't treat the underlying cause of the breathing difficulty; its role is to support mobility and comfort, always alongside medical follow-up.
+No. Chiropractic care doesn't care for the underlying cause of the breathing difficulty; its role is to support mobility and comfort, always alongside medical follow-up.
 
 **Does every case of scoliosis affect breathing?**
 No, most mild curves don't cause breathing problems. It's usually more pronounced curves that have this effect.

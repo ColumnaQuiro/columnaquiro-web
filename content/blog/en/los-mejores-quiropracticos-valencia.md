@@ -18,7 +18,7 @@ Check that the professional has formal chiropractic training and is registered a
 
 ## Questions worth asking before your first visit
 
-Ask what the first appointment involves, whether it includes a full assessment before any adjustment, which techniques are used, and whether you'll receive a clear treatment plan with an estimated timeline. A serious professional will explain all of this transparently, without rushing you or making exaggerated promises.
+Ask what the first appointment involves, whether it includes a full assessment before any adjustment, which techniques are used, and whether you'll receive a clear care plan with an estimated timeline. A serious professional will explain all of this transparently, without rushing you or making exaggerated promises.
 
 ## Red flags to avoid
 
@@ -26,18 +26,18 @@ Be wary of anyone who promises to "cure" serious diseases through adjustments al
 
 ## What to expect from a good clinic
 
-At ColumnaQuiro, for example, every patient receives a detailed initial assessment, a clear explanation of the findings, and a treatment plan tailored to their goals — whether that's relieving a specific pain or maintaining long-term spinal health.
+At ColumnaQuiro, for example, every patient receives a detailed initial assessment, a clear explanation of the findings, and a care plan tailored to their goals — whether that's relieving a specific pain or maintaining long-term spinal health.
 
 ## Frequently asked questions
 
-**Can any chiropractor treat any problem?**
+**Can any chiropractor help with any problem?**
 No. Every professional has their own experience and limits; a good chiropractor will refer you elsewhere if your case calls for it.
 
 **Is it normal for the first visit to take longer?**
-Yes, it usually includes a full health history and physical examination before any treatment is proposed.
+Yes, it usually includes a full health history and physical examination before any care plan is proposed.
 
 **Should I bring previous medical reports?**
 It's highly recommended, especially if you have relevant imaging or diagnoses.
 
-**How do I know if treatment is working?**
+**How do I know if my care plan is working?**
 A good professional will review your progress with you regularly and adjust the plan based on your response.

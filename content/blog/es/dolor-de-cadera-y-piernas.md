@@ -1,8 +1,8 @@
 ---
-title: "Dolor de cadera y piernas: qué es y cómo tratarlo"
+title: "Dolor de cadera y piernas: qué es y cómo cuidarlo"
 slug: dolor-de-cadera-y-piernas
 date: 2025-10-30
-excerpt: "Causas comunes del dolor de cadera y piernas, cuándo puede venir de la columna y cómo la quiropráctica ayuda a tratarlo. Guía de ColumnaQuiro Valencia."
+excerpt: "Causas comunes del dolor de cadera y piernas, cuándo puede venir de la columna y cómo la quiropráctica ayuda a cuidarlo. Guía de ColumnaQuiro Valencia."
 cover: /assets/images/category-deportistas.webp
 author: Léa Guido
 
@@ -20,7 +20,7 @@ Si el dolor sigue un recorrido que va desde la zona lumbar o el glúteo hacia el
 
 Debilidad muscular en la pierna, dolor que empeora al toser o estornudar, o molestias que no mejoran con el descanso son señales de que conviene una valoración más completa.
 
-## Cómo trata la quiropráctica estos casos
+## Cómo cuida la quiropráctica estos casos
 
 Tras una valoración detallada, el [quiropráctico](/blog/cuanto-cuesta-un-quiropractico) identifica si el origen es articular, muscular o nervioso, y diseña un plan que puede incluir ajustes de columna y cadera, técnicas de liberación muscular y ejercicios específicos para restaurar la movilidad y reducir la presión sobre las estructuras afectadas.
 

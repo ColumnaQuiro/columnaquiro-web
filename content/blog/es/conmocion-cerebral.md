@@ -26,14 +26,14 @@ Los golpes en la cabeza suelen ir acompañados de un movimiento brusco del cuell
 
 ## Cómo apoya la quiropráctica la recuperación, una vez autorizada
 
-Cuando el médico confirma que no hay riesgo y da luz verde, un quiropráctico puede trabajar la movilidad cervical, reducir la tensión muscular y ayudar a recuperar el rango de movimiento del cuello con técnicas suaves y progresivas. El objetivo es acompañar la recuperación física, nunca tratar la lesión cerebral en sí.
+Cuando el médico confirma que no hay riesgo y da luz verde, un quiropráctico puede trabajar la movilidad cervical, reducir la tensión muscular y ayudar a recuperar el rango de movimiento del cuello con técnicas suaves y progresivas. El objetivo es acompañar la recuperación física, nunca curar la lesión cerebral en sí.
 
 ## Preguntas frecuentes
 
 **¿Puedo acudir al quiropráctico justo después de un golpe en la cabeza?**
 No. Primero debes ser evaluado por un médico. La quiropráctica solo entra en juego, si procede, en la fase de recuperación del cuello, una vez descartado cualquier riesgo.
 
-**¿La quiropráctica trata la conmoción cerebral?**
+**¿La quiropráctica cura la conmoción cerebral?**
 No. La conmoción es una lesión cerebral que requiere seguimiento médico. La quiropráctica se centra únicamente en el componente cervical asociado, como apoyo complementario.
 
 **¿Cuánto dura la recuperación de una conmoción?**

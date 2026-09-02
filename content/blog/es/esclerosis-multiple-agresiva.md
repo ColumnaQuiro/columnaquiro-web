@@ -12,9 +12,9 @@ author: Léa Guido
 
 La esclerosis múltiple (EM) es una enfermedad autoinmune que afecta al sistema nervioso central. En algunas personas la enfermedad progresa con brotes más frecuentes o intensos y una acumulación más rápida de discapacidad; a este perfil se le suele llamar "EM agresiva". Se trata de una condición seria que requiere siempre seguimiento por parte de un neurólogo especializado.
 
-## Importante: la quiropráctica no trata ni cura la EM
+## Importante: la quiropráctica no cura la EM
 
-Queremos ser muy claras en este punto: la quiropráctica no trata, no cura ni sustituye el tratamiento neurológico de la esclerosis múltiple. Cualquier decisión sobre medicación, terapias modificadoras de la enfermedad o manejo de brotes debe tomarla siempre tu equipo de neurología.
+Queremos ser muy claras en este punto: la quiropráctica no cura ni sustituye el tratamiento neurológico de la esclerosis múltiple. Cualquier decisión sobre medicación, terapias modificadoras de la enfermedad o manejo de brotes debe tomarla siempre tu equipo de neurología.
 
 ## ¿Qué papel puede tener el cuidado quiropráctico?
 
@@ -22,7 +22,7 @@ De forma complementaria y siempre coordinada con el neurólogo, un cuidado quiro
 
 ## Cómo trabajamos estos casos en consulta
 
-En ColumnaQuiro adaptamos cada técnica a las capacidades y limitaciones de la persona, trabajando siempre con extrema suavidad y en comunicación con el resto del equipo médico. El objetivo nunca es "tratar" la enfermedad, sino acompañar a la persona en su comodidad diaria.
+En ColumnaQuiro adaptamos cada técnica a las capacidades y limitaciones de la persona, trabajando siempre con extrema suavidad y en comunicación con el resto del equipo médico. El objetivo nunca es "curar" la enfermedad, sino acompañar a la persona en su comodidad diaria.
 
 ## Preguntas frecuentes
 

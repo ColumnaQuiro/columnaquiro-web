@@ -18,7 +18,7 @@ Dolor en la ingle, el glúteo o la parte externa del muslo, rigidez al levantars
 
 ## El papel de la quiropráctica
 
-La [quiropráctica](/blog/cuanto-cuesta-un-quiropractico) no trata el desgaste articular en sí, pero puede ser un apoyo valioso: mejora la movilidad de las articulaciones vecinas (columna lumbar, sacroilíacas), reduce las compensaciones musculares que agravan el dolor, y ayuda a mantener una mejor función global de la cadera dentro del plan que marque tu especialista.
+La [quiropráctica](/blog/cuanto-cuesta-un-quiropractico) no cura el desgaste articular en sí, pero puede ser un apoyo valioso: mejora la movilidad de las articulaciones vecinas (columna lumbar, sacroilíacas), reduce las compensaciones musculares que agravan el dolor, y ayuda a mantener una mejor función global de la cadera dentro del plan que marque tu especialista.
 
 ## Cómo se combina con el tratamiento médico
 

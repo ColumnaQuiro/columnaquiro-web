@@ -29,7 +29,7 @@ Chiropractic care combines an assessment of spinal mobility with soft-tissue rel
 **Is a trigger point the same as a muscle knot?**
 They're related, but not identical — the trigger point is a very specific spot within a tight, knotted muscle that causes pain when pressed.
 
-**Does trigger point treatment hurt?**
+**Does trigger point care hurt?**
 There can be brief discomfort while pressure is applied to the area, usually followed by a feeling of relief.
 
 **Can I treat it myself at home?**

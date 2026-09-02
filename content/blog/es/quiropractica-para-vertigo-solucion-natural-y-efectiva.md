@@ -26,7 +26,7 @@ Cuando se confirma un componente cervical, los ajustes [quiroprácticos](/blog/c
 
 ## Preguntas frecuentes
 
-**¿Todo vértigo se puede tratar con quiropráctica?**
+**¿Todo vértigo puede beneficiarse de la quiropráctica?**
 No. Solo el vértigo con un componente cervical suele responder a este abordaje; por eso es clave descartar antes otras causas con tu médico.
 
 **¿Cómo sé si mi vértigo es de origen cervical?**

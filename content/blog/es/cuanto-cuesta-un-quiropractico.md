@@ -14,11 +14,11 @@ El coste de una visita al quiropráctico varía según varios factores: la durac
 
 ## Primera visita vs. visitas de seguimiento
 
-La primera consulta suele ser más completa, ya que incluye historial clínico, exploración física y, en muchos casos, un plan de tratamiento personalizado, por lo que habitualmente tiene un coste distinto al de las visitas posteriores, que suelen ser más breves y centradas en el ajuste o seguimiento.
+La primera consulta suele ser más completa, ya que incluye historial clínico, exploración física y, en muchos casos, un plan de cuidado personalizado, por lo que habitualmente tiene un coste distinto al de las visitas posteriores, que suelen ser más breves y centradas en el ajuste o seguimiento.
 
-## Planes de tratamiento y bonos
+## Planes de cuidado y bonos
 
-Muchas clínicas, entre ellas ColumnaQuiro, ofrecen bonos o planes de varias sesiones que pueden resultar más económicos que pagar cada visita por separado, especialmente cuando el plan de tratamiento requiere continuidad en el tiempo.
+Muchas clínicas, entre ellas ColumnaQuiro, ofrecen bonos o planes de varias sesiones que pueden resultar más económicos que pagar cada visita por separado, especialmente cuando el plan de cuidado requiere continuidad en el tiempo.
 
 ## Cómo saber el precio exacto en tu caso
 

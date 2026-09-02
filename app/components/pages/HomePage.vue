@@ -49,7 +49,7 @@ const content = {
     ],
     stressFreeTitle: 'Imagina tu cuerpo libre de estrés...',
     stressFreeBody:
-      'Un sistema nervioso optimizado no solo reduce el dolor, sino que eleva tu calidad de vida. En ColumnaQuiro, no tratamos síntomas; restauramos el equilibrio de tu organismo de manera integral.',
+      'Un sistema nervioso optimizado no solo reduce el dolor, sino que eleva tu calidad de vida. En ColumnaQuiro, no solo cuidamos síntomas; restauramos el equilibrio de tu organismo de manera integral.',
     stressFreeBullets: [
       'Mejor postura y movilidad articular',
       'Aumento de los niveles de energía diaria',
@@ -160,7 +160,7 @@ const content = {
         a: 'La cantidad de sesiones depende del problema en concreto y de cómo respondas al cuidado quiropráctico. Exponemos planes de cuidado adaptados a cada paciente. Algunos pacientes sienten alivio después de la primera sesión, mientras que otros pueden necesitar varias. Normalmente ya se nota una mejoría después de la primera o segunda sesión.',
       },
       {
-        q: '¿La quiropráctica trata solo el dolor de espalda?',
+        q: '¿La quiropráctica solo ayuda con el dolor de espalda?',
         a: 'La quiropráctica ayuda con el dolor de espalda y otros problemas como dolores de cabeza, migrañas, problemas digestivos y estrés.',
       },
       {
@@ -176,8 +176,8 @@ const content = {
         a: 'La quiropráctica es segura para la mayoría de las personas, al no ser un cuidado intrusivo. Antes de empezar el plan de cuidado, evaluamos a cada paciente de manera individual y personalizada para adaptar el plan a tus necesidades.',
       },
       {
-        q: '¿Cuáles son los problemas de salud comunes que trata la quiropráctica?',
-        a: 'La quiropráctica trata una amplia variedad de problemas: dolores en la espalda, cuello, cabeza, tobillos, brazos, codos, muñecas, costillas, cadera, piernas y rodillas. También puede ayudar con ciática, túnel carpiano, tortícolis, reumatismo, artritis, artrosis, calcificaciones, fibromialgia, escoliosis y lesiones deportivas.',
+        q: '¿Cuáles son los problemas de salud comunes con los que ayuda la quiropráctica?',
+        a: 'La quiropráctica ayuda con una amplia variedad de problemas: dolores en la espalda, cuello, cabeza, tobillos, brazos, codos, muñecas, costillas, cadera, piernas y rodillas. También puede ayudar con ciática, túnel carpiano, tortícolis, reumatismo, artritis, artrosis, calcificaciones, fibromialgia, escoliosis y lesiones deportivas.',
       },
       {
         q: '¿Qué es la quiropráctica y cómo puede beneficiar mi salud?',
@@ -201,7 +201,7 @@ const content = {
     ],
     stressFreeTitle: 'Imagine your body free from stress...',
     stressFreeBody:
-      "An optimized nervous system not only reduces pain but also elevates your quality of life. At ColumnaQuiro, we don't just treat symptoms; we holistically restore your body's balance.",
+      "An optimized nervous system not only reduces pain but also elevates your quality of life. At ColumnaQuiro, we don't just care for symptoms; we holistically restore your body's balance.",
     stressFreeBullets: [
       'Improved posture and joint mobility',
       'Increased daily energy levels',
@@ -299,7 +299,7 @@ const content = {
     ],
     whyTitle: 'Why choose our Chiropractic Center?',
     whyBody:
-      "We take the necessary time to adjust you correctly. Our rooms are private, meaning you won't share a treatment table with other patients, unlike some other centers.",
+      "We take the necessary time to adjust you correctly. Our rooms are private, meaning you won't share an adjustment table with other patients, unlike some other centers.",
     whyBullets: ['Chiropractic adjustment on the first visit', 'Holistic approach'],
     faqTitle: 'Any questions?',
     faqs: [
@@ -312,7 +312,7 @@ const content = {
         a: 'The number of sessions depends on the specific problem and how you respond to chiropractic care. We present care plans adapted to each patient. Some patients feel relief after the first session, while others may need several. You usually notice an improvement after the first or second session.',
       },
       {
-        q: 'Does chiropractic treat only back pain?',
+        q: 'Does chiropractic only help with back pain?',
         a: 'Chiropractic helps with back pain and other problems such as headaches, migraines, digestive problems and stress.',
       },
       {
@@ -328,8 +328,8 @@ const content = {
         a: 'Chiropractic is safe for most people, as it is not intrusive care. Before starting the care plan, we evaluate each patient individually to adapt the plan to your needs.',
       },
       {
-        q: 'What are the common health problems that chiropractic treats?',
-        a: 'Chiropractic treats a wide variety of problems, such as aches and pains in different parts of the body, posture problems, and various health conditions. Among the problems that chiropractic can treat are pain in the back, neck, head, ankles, arms, elbows, wrists, ribs, hips, legs and knees. It can also help with problems such as sciatica, carpal tunnel, torticollis, rheumatism, arthritis, osteoarthritis, joints, calcifications, fibromyalgia, scoliosis and sports injuries.',
+        q: 'What are the common health problems that chiropractic helps with?',
+        a: 'Chiropractic helps with a wide variety of problems, such as aches and pains in different parts of the body, posture problems, and various health conditions. Among the problems that chiropractic can help with are pain in the back, neck, head, ankles, arms, elbows, wrists, ribs, hips, legs and knees. It can also help with problems such as sciatica, carpal tunnel, torticollis, rheumatism, arthritis, osteoarthritis, joints, calcifications, fibromyalgia, scoliosis and sports injuries.',
       },
       {
         q: 'What is chiropractic and how can it benefit my health?',

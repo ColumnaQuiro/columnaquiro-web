@@ -18,7 +18,7 @@ Entre las causas más frecuentes están las malas posturas mantenidas (frente al
 
 ## ¿Cuándo es motivo de preocupación?
 
-La mayoría de los episodios de dolor de espalda son de origen mecánico y mejoran con el tratamiento adecuado. Sin embargo, conviene prestar atención especial si el dolor se acompaña de fiebre, pérdida de peso inexplicada, hormigueo o pérdida de fuerza en las piernas, o pérdida de control de esfínteres: en esos casos hay que acudir a un médico sin demora.
+La mayoría de los episodios de dolor de espalda son de origen mecánico y mejoran con el cuidado adecuado. Sin embargo, conviene prestar atención especial si el dolor se acompaña de fiebre, pérdida de peso inexplicada, hormigueo o pérdida de fuerza en las piernas, o pérdida de control de esfínteres: en esos casos hay que acudir a un médico sin demora.
 
 ## Cómo puede ayudar la quiropráctica
 
@@ -27,12 +27,12 @@ Un examen [quiropráctico](/blog/cuanto-cuesta-un-quiropractico) busca identific
 ## Preguntas frecuentes
 
 **¿El dolor de espalda siempre requiere una radiografía?**
-No siempre. En la mayoría de los casos mecánicos, la valoración clínica es suficiente para orientar el tratamiento.
+No siempre. En la mayoría de los casos mecánicos, la valoración clínica es suficiente para orientar el cuidado.
 
 **¿Es normal que el dolor cambie de intensidad según el día?**
 Sí, es habitual que varíe con la actividad, el estrés o la postura mantenida durante el día.
 
-**¿Cuánto dura un tratamiento habitual?**
+**¿Cuánto dura un cuidado habitual?**
 Depende de la causa y del tiempo de evolución, pero muchos pacientes notan mejoría progresiva a lo largo de varias semanas.
 
 **¿Puedo seguir haciendo ejercicio si tengo dolor de espalda?**

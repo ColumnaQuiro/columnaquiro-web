@@ -14,7 +14,7 @@ Ruzafa is one of those neighborhoods best enjoyed on foot. Its narrow, lively st
 
 ## Gentle movement after an adjustment
 
-After a chiropractic adjustment, the body often benefits from light movement that helps it settle into new mobility, rather than sitting still for hours afterward. A calm walk through the neighborhood, with no heavy loads or rush, supports circulation, helps release tension, and naturally reinforces the effects of treatment.
+After a chiropractic adjustment, the body often benefits from light movement that helps it settle into new mobility, rather than sitting still for hours afterward. A calm walk through the neighborhood, with no heavy loads or rush, supports circulation, helps release tension, and naturally reinforces the effects of care.
 
 ## Green spaces, markets, and square life
 

@@ -22,12 +22,12 @@ Ante síntomas respiratorios, es habitual que el especialista solicite pruebas d
 
 ## El papel de la quiropráctica como cuidado complementario
 
-Dentro de un plan de cuidado supervisado por tu médico, la quiropráctica puede aportar un apoyo complementario centrado en mejorar la movilidad de la columna y de la caja torácica, aliviar la tensión muscular asociada y favorecer una mejor postura. Esto puede contribuir a tu confort general, pero no trata directamente la dificultad respiratoria ni sustituye el seguimiento médico de la curva.
+Dentro de un plan de cuidado supervisado por tu médico, la quiropráctica puede aportar un apoyo complementario centrado en mejorar la movilidad de la columna y de la caja torácica, aliviar la tensión muscular asociada y favorecer una mejor postura. Esto puede contribuir a tu confort general, pero no cuida directamente la dificultad respiratoria ni sustituye el seguimiento médico de la curva.
 
 ## Preguntas frecuentes
 
 **¿La quiropráctica puede curar la dificultad respiratoria por escoliosis?**
-No. La quiropráctica no trata la causa de la dificultad respiratoria; su papel es de apoyo a la movilidad y el confort, siempre junto al seguimiento médico.
+No. La quiropráctica no cuida la causa de la dificultad respiratoria; su papel es de apoyo a la movilidad y el confort, siempre junto al seguimiento médico.
 
 **¿Toda escoliosis afecta a la respiración?**
 No, la mayoría de las curvas leves no generan problemas respiratorios. La afectación suele relacionarse con curvas más pronunciadas.

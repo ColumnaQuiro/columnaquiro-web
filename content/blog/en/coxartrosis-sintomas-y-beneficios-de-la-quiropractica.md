@@ -18,7 +18,7 @@ Pain in the groin, buttock, or outer thigh, stiffness when standing up after sit
 
 ## The role of chiropractic care
 
-Chiropractic care doesn't treat the joint wear itself, but it can be a valuable support: it improves mobility in neighboring joints (lumbar spine, sacroiliac joints), reduces the muscular compensations that worsen pain, and helps maintain better overall hip function as part of the plan set by your specialist.
+Chiropractic care doesn't cure the joint wear itself, but it can be a valuable support: it improves mobility in neighboring joints (lumbar spine, sacroiliac joints), reduces the muscular compensations that worsen pain, and helps maintain better overall hip function as part of the plan set by your specialist.
 
 ## How it fits alongside medical treatment
 

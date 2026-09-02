@@ -27,7 +27,7 @@ En ColumnaQuiro valoramos toda la cadena de movimiento, no solo la rodilla dolor
 ## Preguntas frecuentes
 
 **¿La gonalgia siempre indica un problema grave?**
-No, muchas veces se debe a sobrecarga muscular o desequilibrios que mejoran con el tratamiento adecuado.
+No, muchas veces se debe a sobrecarga muscular o desequilibrios que mejoran con el cuidado adecuado.
 
 **¿Puedo seguir haciendo ejercicio si tengo dolor de rodilla?**
 En muchos casos sí, adaptando la actividad y evitando los movimientos que generan dolor, siempre bajo orientación profesional.
@@ -35,7 +35,7 @@ En muchos casos sí, adaptando la actividad y evitando los movimientos que gener
 **¿El sobrepeso influye en el dolor de rodilla?**
 Sí, el exceso de peso aumenta la carga sobre la articulación y puede acelerar el desgaste con el tiempo.
 
-**¿La [quiropráctica](/blog/cuanto-cuesta-un-quiropractico) trata directamente la rodilla?**
+**¿La [quiropráctica](/blog/cuanto-cuesta-un-quiropractico) cuida directamente la rodilla?**
 El enfoque [quiropráctico](/blog/punto-gatillo-en-la-espalda-sintomas-y-solucion-quiropractica) se centra en mejorar la alineación y la función de toda la cadena articular relacionada, lo que puede reducir la carga sobre la rodilla.
 
 **¿Cuándo debo consultar a un profesional?**

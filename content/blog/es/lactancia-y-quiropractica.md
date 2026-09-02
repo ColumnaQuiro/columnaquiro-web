@@ -33,7 +33,7 @@ Sí, con técnicas adaptadas no hay ningún inconveniente para continuar con la 
 Suele deberse a la contracción sostenida de los músculos que sujetan la postura durante las tomas, especialmente si se repite muchas veces al día.
 
 **¿Hasta cuándo pueden durar estas molestias?**
-Si no se corrige la postura ni se trata la tensión acumulada, pueden mantenerse mientras dure la lactancia frecuente.
+Si no se corrige la postura ni se cuida la tensión acumulada, pueden mantenerse mientras dure la lactancia frecuente.
 
 **¿Qué puedo hacer en casa para aliviar la tensión?**
-Estiramientos suaves de cuello y hombros, calor local y pausas para cambiar de postura ayudan a complementar el tratamiento.
+Estiramientos suaves de cuello y hombros, calor local y pausas para cambiar de postura ayudan a complementar el cuidado.

@@ -14,7 +14,7 @@ Ruzafa es uno de esos barrios que se disfrutan mejor a pie. Sus calles estrechas
 
 ## El movimiento suave después de un ajuste
 
-Tras un ajuste quiropráctico, el cuerpo suele beneficiarse de un movimiento ligero que ayude a integrar los cambios de movilidad, en lugar de quedarse sentado durante horas. Un paseo tranquilo por el barrio, sin cargas ni prisas, favorece la circulación, ayuda a soltar tensión y refuerza los efectos del tratamiento de forma natural.
+Tras un ajuste quiropráctico, el cuerpo suele beneficiarse de un movimiento ligero que ayude a integrar los cambios de movilidad, en lugar de quedarse sentado durante horas. Un paseo tranquilo por el barrio, sin cargas ni prisas, favorece la circulación, ayuda a soltar tensión y refuerza los efectos del cuidado de forma natural.
 
 ## Espacios verdes, mercado y vida de plaza
 

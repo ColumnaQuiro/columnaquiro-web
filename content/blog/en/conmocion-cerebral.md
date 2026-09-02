@@ -26,14 +26,14 @@ A blow to the head is often accompanied by a sudden whiplash-type movement of th
 
 ## How chiropractic care supports recovery, once cleared
 
-Once a doctor confirms there's no risk and gives the green light, a chiropractor can work on cervical mobility, ease muscle tension, and help restore neck range of motion with gentle, progressive techniques. The goal is to support physical recovery — never to treat the brain injury itself.
+Once a doctor confirms there's no risk and gives the green light, a chiropractor can work on cervical mobility, ease muscle tension, and help restore neck range of motion with gentle, progressive techniques. The goal is to support physical recovery — never to cure the brain injury itself.
 
 ## Frequently asked questions
 
 **Can I see a chiropractor right after a head injury?**
 No. You should be evaluated by a doctor first. Chiropractic care, if appropriate, only comes into play during neck recovery, once any risk has been ruled out.
 
-**Does chiropractic care treat concussions?**
+**Does chiropractic care cure concussions?**
 No. A concussion is a brain injury that requires medical follow-up. Chiropractic care focuses only on the associated neck component, as complementary support.
 
 **How long does concussion recovery take?**

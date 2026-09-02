@@ -86,7 +86,7 @@ export const symptomContent: Record<string, { es: SymptomContent; en: SymptomCon
         'Preferencia por rutinas predecibles',
       ],
       howChiropracticHelps: [
-        'La <a href="/blog/cuanto-cuesta-un-quiropractico" class="font-semibold text-gold-dark underline">quiropráctica</a> no diagnostica, trata ni cura el autismo. Algunas familias buscan cuidado quiropráctico como parte de un enfoque de bienestar general, centrado en la comodidad física y la salud del sistema nervioso, siempre en coordinación con el equipo médico y terapéutico que acompaña a cada niño o adulto.',
+        'La <a href="/blog/cuanto-cuesta-un-quiropractico" class="font-semibold text-gold-dark underline">quiropráctica</a> no diagnostica ni trata el autismo. Algunas familias buscan cuidado quiropráctico como parte de un enfoque de bienestar general, centrado en la comodidad física y la salud del sistema nervioso, siempre en coordinación con el equipo médico y terapéutico que acompaña a cada niño o adulto.',
       ],
       note: 'El diagnóstico y el tratamiento del TEA deben ser guiados por profesionales especializados en neurodesarrollo.',
     },
@@ -102,7 +102,7 @@ export const symptomContent: Record<string, { es: SymptomContent; en: SymptomCon
         'A preference for predictable routines',
       ],
       howChiropracticHelps: [
-        "Chiropractic care does not diagnose, treat, or cure autism. Some families seek chiropractic care as part of a broader wellness approach focused on physical comfort and nervous system health, always coordinated with the medical and therapeutic team supporting the child or adult.",
+        "Chiropractic care does not diagnose or treat autism. Some families seek chiropractic care as part of a broader wellness approach focused on physical comfort and nervous system health, always coordinated with the medical and therapeutic team supporting the child or adult.",
       ],
       note: 'ASD diagnosis and care should be guided by professionals specialized in neurodevelopment.',
     },

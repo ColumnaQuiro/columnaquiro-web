@@ -20,7 +20,7 @@ El estrés, las posturas mantenidas frente a pantallas, los movimientos repetiti
 
 Dolor localizado que puede irradiar hacia el hombro o la cabeza, sensación de "bulto" o tensión al tacto, dificultad para girar o inclinar el cuello, y en ocasiones dolor de cabeza asociado.
 
-## Cómo tratarla con ayuda quiropráctica
+## Cómo cuidarla con ayuda quiropráctica
 
 El [quiropráctico](/blog/cuanto-cuesta-un-quiropractico) valora la movilidad de las vértebras cervicales y la musculatura circundante, y combina ajustes suaves, técnicas de liberación muscular y pautas de ejercicio para reducir la tensión y prevenir que la contractura se repita.
 

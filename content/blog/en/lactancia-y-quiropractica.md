@@ -36,4 +36,4 @@ It's usually due to sustained contraction of the muscles that hold your posture 
 If posture isn't corrected and accumulated tension isn't addressed, it can persist for as long as frequent nursing continues.
 
 **What can I do at home to ease the tension?**
-Gentle neck and shoulder stretches, local heat, and taking breaks to change position all help complement treatment.
+Gentle neck and shoulder stretches, local heat, and taking breaks to change position all help complement care.

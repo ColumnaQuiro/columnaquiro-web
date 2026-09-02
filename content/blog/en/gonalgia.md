@@ -35,7 +35,7 @@ In many cases yes, by adapting the activity and avoiding movements that trigger 
 **Does being overweight affect knee pain?**
 Yes, excess weight increases the load on the joint and can speed up wear over time.
 
-**Does chiropractic care treat the knee directly?**
+**Does chiropractic care for the knee directly?**
 The chiropractic approach focuses on improving the alignment and function of the whole related joint chain, which can reduce the load on the knee.
 
 **When should I see a professional?**

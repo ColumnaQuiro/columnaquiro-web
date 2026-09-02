@@ -14,7 +14,7 @@ Tanto la osteopatía como la quiropráctica buscan mejorar la salud del sistema 
 
 ## Formación y filosofía
 
-Los [quiroprácticos](/blog/cuanto-cuesta-un-quiropractico) se forman específicamente en el diagnóstico y tratamiento de la columna vertebral y el sistema nervioso, con un fuerte componente en el análisis biomecánico. Los osteópatas reciben una formación más amplia, centrada en el cuerpo como un sistema integrado, incluyendo a veces técnicas viscerales y craneales.
+Los [quiroprácticos](/blog/cuanto-cuesta-un-quiropractico) se forman específicamente en el diagnóstico y cuidado de la columna vertebral y el sistema nervioso, con un fuerte componente en el análisis biomecánico. Los osteópatas reciben una formación más amplia, centrada en el cuerpo como un sistema integrado, incluyendo a veces técnicas viscerales y craneales.
 
 ## Técnicas empleadas
 
@@ -26,7 +26,7 @@ La elección depende de tus preferencias y de tu problema concreto. Muchas perso
 
 ## Preguntas frecuentes
 
-**¿Un quiropráctico puede tratar problemas digestivos como un osteópata?**
+**¿Un quiropráctico puede ayudar con problemas digestivos como un osteópata?**
 El quiropráctico se centra principalmente en la columna y el sistema nervioso; para técnicas viscerales específicas, un osteópata puede tener un enfoque más amplio.
 
 **¿Son intercambiables ambas terapias?**

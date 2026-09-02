@@ -61,7 +61,7 @@ const { heightPx } = useIframeAutoHeight()
         <h1 class="mt-4 text-4xl font-semibold text-forest sm:text-5xl">¿Aún vives con dolor?</h1>
         <p class="mt-6 text-lg text-body/80">
           La 1ª visita incluye una <strong class="text-forest">evaluación completa</strong>, un
-          <strong class="text-forest">ajuste quiropráctico</strong> y un tratamiento personalizado acorde a tus
+          <strong class="text-forest">ajuste quiropráctico</strong> y un plan de cuidado personalizado acorde a tus
           necesidades.
         </p>
         <a

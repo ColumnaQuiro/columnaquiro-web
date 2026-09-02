@@ -47,7 +47,7 @@ export const categoryPages: CategoryPage[] = [
       intro: [
         'Back or lower-back pain is the leading cause of absence among workers. More than 70% of them have seen a doctor for a musculoskeletal problem.',
         'Left untreated, back pain can turn into a chronic condition, reducing performance and effectiveness at work and leading to mood problems, stress, and further ailments.',
-        'At ColumnaQuiro, we treat many people with back, neck, and shoulder ailments caused by poor posture, long working hours, work-related stress, minor accidents, or heavy lifting.',
+        'At ColumnaQuiro, we care for many people with back, neck, and shoulder ailments caused by poor posture, long working hours, work-related stress, minor accidents, or heavy lifting.',
       ],
       symptoms: [
         { label: 'Back pain', image: '/assets/images/symptom-back-pain.avif' },

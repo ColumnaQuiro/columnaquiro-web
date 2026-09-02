@@ -26,7 +26,7 @@ When a cervical component is confirmed, gentle chiropractic adjustments aim to i
 
 ## Frequently asked questions
 
-**Can all vertigo be treated with chiropractic care?**
+**Can all vertigo benefit from chiropractic care?**
 No. Only vertigo with a cervical component tends to respond to this approach, which is why it's essential to first rule out other causes with your doctor.
 
 **How do I know if my vertigo has a cervical origin?**

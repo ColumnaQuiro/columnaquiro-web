@@ -14,7 +14,7 @@ A chiropractor specializes in diagnosing and caring for disorders of the musculo
 
 ## Main techniques used
 
-The spinal adjustment is the best-known technique: a precise, controlled manipulation aimed at restoring normal movement to a joint. Chiropractors also typically combine soft-tissue work (myofascial release, assisted stretching), postural assessment, and exercise recommendations to round out treatment.
+The spinal adjustment is the best-known technique: a precise, controlled manipulation aimed at restoring normal movement to a joint. Chiropractors also typically combine soft-tissue work (myofascial release, assisted stretching), postural assessment, and exercise recommendations to round out care.
 
 ## Benefits of chiropractic care
 

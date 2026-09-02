@@ -27,12 +27,12 @@ A chiropractic assessment looks for the mechanical source of the pain: movement 
 ## Frequently asked questions
 
 **Does back pain always require an X-ray?**
-Not always. In most mechanical cases, a clinical assessment is enough to guide treatment.
+Not always. In most mechanical cases, a clinical assessment is enough to guide care.
 
 **Is it normal for the pain to change intensity during the day?**
 Yes, it commonly varies with activity, stress, or how long you've held a certain posture.
 
-**How long does typical treatment take?**
+**How long does typical care take?**
 It depends on the cause and how long the pain has been present, but many patients see gradual improvement over several weeks.
 
 **Can I keep exercising if I have back pain?**

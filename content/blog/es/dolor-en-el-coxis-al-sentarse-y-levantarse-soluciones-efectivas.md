@@ -32,7 +32,7 @@ En muchos casos leves mejora con reposo relativo y cambios de hábito, pero cuan
 **¿Es normal que duela más al levantarse que al estar sentado?**
 Sí, es muy característico, porque el cambio de presión sobre la zona al pasar de sentado a de pie suele acentuar la molestia.
 
-**¿La quiropráctica trata directamente el cóxis?**
+**¿La quiropráctica cuida directamente el cóxis?**
 El abordaje se centra en la pelvis y la zona lumbar baja, que influyen directamente en la presión y la mecánica del cóxis.
 
 **¿Puedo seguir haciendo ejercicio con este dolor?**

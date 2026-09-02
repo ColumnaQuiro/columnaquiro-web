@@ -32,7 +32,7 @@ In many mild cases it improves with relative rest and habit changes, but when it
 **Is it normal for it to hurt more when standing up than when sitting?**
 Yes, that's very characteristic, since the change in pressure on the area when moving from sitting to standing tends to intensify the discomfort.
 
-**Does chiropractic care treat the tailbone directly?**
+**Does chiropractic care for the tailbone directly?**
 The approach focuses on the pelvis and lower back, which directly influence pressure and mechanics at the tailbone.
 
 **Can I keep exercising with this pain?**

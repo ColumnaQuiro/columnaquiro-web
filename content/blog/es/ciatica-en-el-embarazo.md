@@ -2,7 +2,7 @@
 title: "Ciática en el embarazo"
 slug: ciatica-en-el-embarazo
 date: 2025-11-19
-excerpt: "Descubre por qué aparece la ciática en el embarazo, cómo aliviar el dolor y si es bueno caminar. Consejos y tratamiento seguro en ColumnaQuiro Valencia."
+excerpt: "Descubre por qué aparece la ciática en el embarazo, cómo aliviar el dolor y si es bueno caminar. Consejos y cuidado seguro en ColumnaQuiro Valencia."
 cover: /assets/images/blog-ciatica-embarazo.jpg
 author: Léa Guido
 

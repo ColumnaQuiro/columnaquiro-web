@@ -48,4 +48,4 @@ Puede ayudar, ya que una buena movilidad articular favorece gestos más eficient
 La quiropráctica puede adaptarse a distintas edades, siempre con técnicas ajustadas a cada etapa de la vida.
 
 **¿Cuántas sesiones necesito para notar cambios?**
-Depende de cada caso, pero muchos pacientes empiezan a notar mejoras en las primeras semanas de tratamiento regular.
+Depende de cada caso, pero muchos pacientes empiezan a notar mejoras en las primeras semanas de cuidado regular.

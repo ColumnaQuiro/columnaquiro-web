@@ -29,7 +29,7 @@ El abordaje [quiropráctico](/blog/cuanto-cuesta-un-quiropractico) combina la va
 **¿Un punto gatillo es lo mismo que una contractura?**
 Están relacionados, pero no son idénticos: el punto gatillo es una zona muy concreta dentro del músculo contracturado que provoca dolor al presionarla.
 
-**¿Duele el tratamiento de un punto gatillo?**
+**¿Duele el cuidado de un punto gatillo?**
 Puede haber una molestia puntual durante la presión sobre la zona, pero suele ir seguida de una sensación de alivio.
 
 **¿Puedo tratarlo yo mismo en casa?**

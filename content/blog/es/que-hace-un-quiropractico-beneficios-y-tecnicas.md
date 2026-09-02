@@ -14,7 +14,7 @@ Un quiropráctico se especializa en el diagnóstico y cuidado de trastornos del 
 
 ## Principales técnicas que utiliza
 
-El ajuste vertebral es la técnica más conocida: una manipulación precisa y controlada que busca restaurar el movimiento normal de una articulación. Además, el quiropráctico suele combinar trabajo sobre tejidos blandos (liberación miofascial, estiramientos asistidos), valoración de la postura y recomendaciones de ejercicio para complementar el tratamiento.
+El ajuste vertebral es la técnica más conocida: una manipulación precisa y controlada que busca restaurar el movimiento normal de una articulación. Además, el quiropráctico suele combinar trabajo sobre tejidos blandos (liberación miofascial, estiramientos asistidos), valoración de la postura y recomendaciones de ejercicio para complementar el cuidado.
 
 ## Beneficios de la atención quiropráctica
 

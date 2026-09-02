@@ -1,5 +1,5 @@
 ---
-title: "Guía completa para tratar el dolor de cabeza por cervicales"
+title: "Guía completa para cuidar el dolor de cabeza por cervicales"
 slug: guia-completa-para-tratar-el-dolor-de-cabeza-por-cervicales
 date: 2025-10-21
 excerpt: "Descubre qué es el dolor de cabeza cervicogénico, por qué aparece y cómo la quiropráctica puede ayudarte a reducirlo. Guía completa de ColumnaQuiro Valencia."
@@ -29,7 +29,7 @@ El [quiropráctico](/blog/cuanto-cuesta-un-quiropractico) evalúa la movilidad d
 **¿El dolor de cabeza por cervicales es peligroso?**
 No suele serlo, pero conviene descartar otras causas si el dolor es muy intenso, repentino o va acompañado de otros síntomas neurológicos.
 
-**¿Cuánto tarda en mejorar con tratamiento [quiropráctico](/blog/migrana-cervical-que-es-y-como-aliviarla)?**
+**¿Cuánto tarda en mejorar con cuidado [quiropráctico](/blog/migrana-cervical-que-es-y-como-aliviarla)?**
 Depende de cada caso, pero muchas personas notan alivio en las primeras sesiones, aunque la recuperación completa de la movilidad puede requerir varias semanas.
 
 **¿Puedo prevenir este tipo de dolor de cabeza?**

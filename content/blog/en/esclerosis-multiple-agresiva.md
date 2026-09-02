@@ -12,9 +12,9 @@ author: Léa Guido
 
 Multiple sclerosis (MS) is an autoimmune disease that affects the central nervous system. In some people the disease progresses with more frequent or severe relapses and a faster build-up of disability; this pattern is often referred to as "aggressive MS." It is a serious condition that always requires ongoing care from a specialized neurologist.
 
-## Important: chiropractic care does not treat or cure MS
+## Important: chiropractic care does not cure MS
 
-We want to be very clear here: chiropractic care does not treat, cure, or replace neurological treatment for multiple sclerosis. Any decision about medication, disease-modifying therapies, or relapse management should always be made with your neurology team.
+We want to be very clear here: chiropractic care does not cure or replace neurological treatment for multiple sclerosis. Any decision about medication, disease-modifying therapies, or relapse management should always be made with your neurology team.
 
 ## What role can chiropractic care play?
 
@@ -22,7 +22,7 @@ As a complement, and always coordinated with your neurologist, gentle and adapte
 
 ## How we approach these cases in our practice
 
-At ColumnaQuiro we adapt every technique to a person's abilities and limitations, always working with extra gentleness and staying in communication with the rest of the medical team. The goal is never to "treat" the disease, but to support the person's day-to-day comfort.
+At ColumnaQuiro we adapt every technique to a person's abilities and limitations, always working with extra gentleness and staying in communication with the rest of the medical team. The goal is never to "cure" the disease, but to support the person's day-to-day comfort.
 
 ## Frequently asked questions
 

@@ -1,8 +1,8 @@
 ---
-title: "Hip and leg pain: what it is and how to treat it"
+title: "Hip and leg pain: what it is and how to care for it"
 slug: hip-and-leg-pain-what-it-is-and-how-to-treat-it
 date: 2025-10-30
-excerpt: "Common causes of hip and leg pain, when it may come from the spine, and how chiropractic care helps treat it. A guide from ColumnaQuiro Valencia."
+excerpt: "Common causes of hip and leg pain, when it may come from the spine, and how chiropractic can help care for it. A guide from ColumnaQuiro Valencia."
 cover: /assets/images/category-deportistas.webp
 author: Léa Guido
 

@@ -22,7 +22,7 @@ El desgaste natural con la edad, las posturas mantenidas frente a pantallas, los
 
 ## Cómo puede ayudar la [quiropráctica](/blog/cuanto-cuesta-un-quiropractico)
 
-Tras una valoración que confirme que se trata de un caso adecuado para tratamiento conservador, los ajustes suaves de la columna cervical, combinados con ejercicios de movilidad y fortalecimiento, ayudan a reducir la presión sobre las estructuras nerviosas y a aliviar los síntomas de forma progresiva.
+Tras una valoración que confirme que se trata de un caso adecuado para un cuidado conservador, los ajustes suaves de la columna cervical, combinados con ejercicios de movilidad y fortalecimiento, ayudan a reducir la presión sobre las estructuras nerviosas y a aliviar los síntomas de forma progresiva.
 
 ## Preguntas frecuentes
 

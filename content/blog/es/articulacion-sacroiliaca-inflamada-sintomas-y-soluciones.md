@@ -22,7 +22,7 @@ Puede aparecer por sobrecarga (esfuerzos repetitivos o mala postura), embarazo, 
 
 ## Cómo puede ayudar la quiropráctica
 
-Un examen [quiropráctico](/blog/cuanto-cuesta-un-quiropractico) permite identificar si la articulación está bloqueada o presenta un exceso de movilidad, y adaptar el tratamiento a cada caso. Los ajustes específicos de la pelvis, combinados con ejercicios de estabilización, suelen aportar alivio progresivo y ayudan a prevenir recaídas.
+Un examen [quiropráctico](/blog/cuanto-cuesta-un-quiropractico) permite identificar si la articulación está bloqueada o presenta un exceso de movilidad, y adaptar el cuidado a cada caso. Los ajustes específicos de la pelvis, combinados con ejercicios de estabilización, suelen aportar alivio progresivo y ayudan a prevenir recaídas.
 
 ## Preguntas frecuentes
 
@@ -33,7 +33,7 @@ El dolor sacroilíaco suele quedarse más localizado en la zona baja de la espal
 No. El reposo prolongado puede empeorar la rigidez; es mejor mantenerse en movimiento dentro de los límites del dolor.
 
 **¿Cuánto tarda en mejorar?**
-Con un tratamiento adecuado, muchos pacientes notan mejoría en pocas semanas, aunque depende de la causa y del tiempo de evolución.
+Con un cuidado adecuado, muchos pacientes notan mejoría en pocas semanas, aunque depende de la causa y del tiempo de evolución.
 
 **¿Cuándo debo acudir a un profesional?**
 Si el dolor es intenso, no mejora con el paso de los días o se acompaña de hormigueo o pérdida de fuerza en la pierna.

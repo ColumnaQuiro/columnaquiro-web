@@ -36,4 +36,4 @@ Suele emplearse en casos de tensión generalizada, dolores de cabeza recurrentes
 Varía según la persona, pero muchos pacientes notan mejoras en la sensación de ligereza tras las primeras sesiones.
 
 **¿Es compatible con los ajustes quiroprácticos habituales?**
-Sí, de hecho suele integrarse dentro del mismo plan de tratamiento para potenciar los resultados.
+Sí, de hecho suele integrarse dentro del mismo plan de cuidado para potenciar los resultados.
