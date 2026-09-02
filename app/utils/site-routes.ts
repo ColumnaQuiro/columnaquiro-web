@@ -89,6 +89,8 @@ export const BLOG_SLUG_PAIRS: { es: string; en: string | null }[] = [
   { es: 'pros-y-contras-de-la-quiropractica', en: 'chiropractic-in-valencia-benefits-considerations' },
   { es: 'quiropractica-clave-para-la-escoliosis', en: 'chiropractic-key-to-fighting-scoliosis' },
   { es: 'preparacion-quiropractica-para-la-maraton-de-valencia', en: 'chiropractic-preparation-for-the-valencia-marathon-how-to-avoid-injuries' },
+  { es: 'quiropractico-en-russafa-valencia', en: 'chiropractor-in-russafa-valencia' },
+  { es: 'quiropractico-eixample-valencia', en: 'chiropractor-in-eixample-valencia' },
   { es: 'ciatica-en-el-embarazo', en: 'sciatica-in-pregnancy' },
   { es: 'dolor-en-el-coxis-al-sentarse-y-levantarse-soluciones-efectivas', en: 'coccyx-pain-when-sitting-and-standing-up' },
   { es: 'como-eliminar-pitidos-en-los-oidos-con-quiropractica', en: 'how-to-eliminate-ringing-in-the-ears-with-chiropractic' },
