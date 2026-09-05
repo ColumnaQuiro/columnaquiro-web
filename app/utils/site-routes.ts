@@ -53,6 +53,15 @@ export const PAGES: PagePair[] = [
   { key: 'cookies', es: '/politica-de-cookies', en: '/en/cookies-policy' },
 ]
 
+// Localized pairs that exist in both languages but are deliberately kept out
+// of the sitemap: ad/lead landing pages that would otherwise compete with the
+// evergreen pages they duplicate. They still resolve here so canonical,
+// hreflang and the language switcher stay correct on them. `PAGES` is what
+// feeds the sitemap, so nothing added below is submitted for indexing.
+export const UNLISTED_PAGES: PagePair[] = [
+  { key: 'oferta-primera-visita', es: '/oferta-primera-visita', en: '/en/first-visit-offer' },
+]
+
 export const CATEGORY_HUB = { es: '/para-quien-sirve-la-quiropractica', en: '/en/who-is-chiropractic-for' }
 
 export const CATEGORIES: { slugEs: string; slugEn: string }[] = [
@@ -158,7 +167,7 @@ export function pathFor(key: string, locale: Locale): string {
 }
 
 export function resolveLocalizedPaths(path: string): { es: string; en: string } | null {
-  for (const page of PAGES) {
+  for (const page of [...PAGES, ...UNLISTED_PAGES]) {
     if (page.es === path || page.en === path) return { es: page.es, en: page.en }
   }
 

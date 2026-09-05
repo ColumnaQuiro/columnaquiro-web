@@ -129,6 +129,8 @@ export default defineNuxtConfig({
         '/en/about-us/our-team/lea-guido',
         '/sobre-nosotros/equipo/jordana-aguar',
         '/en/about-us/our-team/jordana-aguar',
+        '/oferta-primera-visita',
+        '/en/first-visit-offer',
         '/promocion-especial-primera-visita-quiropractica',
         '/promocion-especial-primera-visita-quiropractica-con-natacha',
         '/cita-reservada',
