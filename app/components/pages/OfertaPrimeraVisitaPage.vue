@@ -5,28 +5,26 @@ import { useSeo } from '@/composables/useSeo'
 
 const { locale } = useAppI18n()
 
+// The heading leads with the offer rather than with "book an appointment":
+// the QuiroFlow widget below renders its own "Reservar una cita" header, and
+// two booking prompts stacked on top of each other read as a broken page.
+// Kept deliberately short so the widget itself sits above the fold.
 const content = {
   es: {
-    eyebrow: 'Oferta especial',
-    title: 'Reserva tu primera visita',
-    intro:
-      'Incluye evaluación completa, primer ajuste quiropráctico y un plan de cuidado personalizado.',
-    price: 'Primera visita por solo 50€',
-    priceStrikethrough: '70€',
+    heading: 'Tu primera visita por 50€',
+    oldPrice: '70€',
+    subline: 'Evaluación completa, primer ajuste y plan de cuidado personalizado.',
     seoTitle: 'Oferta primera visita quiropráctica | ColumnaQuiro',
     seoDescription:
       'Reserva tu primera visita quiropráctica en ColumnaQuiro Valencia por 50€: evaluación completa, primer ajuste y plan de cuidado personalizado.',
   },
   en: {
-    eyebrow: 'Special offer',
-    title: 'Book your first visit',
-    intro:
-      'Includes a complete assessment, your first chiropractic adjustment and a personalized care plan.',
-    price: 'First visit for only €50',
-    priceStrikethrough: '€70',
+    heading: 'Your first visit for €50',
+    oldPrice: '€70',
+    subline: 'Full assessment, first adjustment and a personalized care plan.',
     seoTitle: 'First chiropractic visit offer | ColumnaQuiro',
     seoDescription:
-      'Book your first chiropractic visit at ColumnaQuiro Valencia for €50: complete assessment, first adjustment and a personalized care plan.',
+      'Book your first chiropractic visit at ColumnaQuiro Valencia for €50: full assessment, first adjustment and a personalized care plan.',
   },
 }
 const c = computed(() => content[locale.value])
@@ -49,14 +47,13 @@ const { heightPx } = useIframeAutoHeight()
 </script>
 
 <template>
-  <section class="mx-auto max-w-4xl px-6 py-24">
+  <section class="mx-auto max-w-4xl px-6 py-10 sm:py-14">
     <div class="text-center">
-      <p class="text-sm font-semibold uppercase tracking-wide text-gold-dark">{{ c.eyebrow }}</p>
-      <h1 class="mt-4 text-4xl font-semibold text-forest sm:text-5xl">{{ c.title }}</h1>
-      <p class="mx-auto mt-6 max-w-2xl text-lg text-body/80">{{ c.intro }}</p>
-      <p class="mt-4 text-lg font-semibold text-forest">
-        {{ c.price }} <span class="font-normal line-through text-body/50">{{ c.priceStrikethrough }}</span>
-      </p>
+      <h1 class="text-3xl font-semibold text-forest sm:text-4xl">
+        {{ c.heading }}
+        <span class="font-normal text-body/50 line-through">{{ c.oldPrice }}</span>
+      </h1>
+      <p class="mx-auto mt-3 max-w-2xl text-body/80">{{ c.subline }}</p>
     </div>
 
     <iframe
@@ -64,7 +61,7 @@ const { heightPx } = useIframeAutoHeight()
       title="Reservar cita"
       loading="lazy"
       :style="{ height: `${heightPx}px` }"
-      class="mt-12 w-full rounded-3xl bg-white shadow-[0_1px_2px_0_rgba(0,0,0,0.05)]"
+      class="mt-6 w-full rounded-3xl bg-white shadow-[0_1px_2px_0_rgba(0,0,0,0.05)] sm:mt-8"
     />
   </section>
 </template>
