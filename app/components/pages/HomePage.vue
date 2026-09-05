@@ -461,7 +461,6 @@ useHead({
     <div
       class="sk-ww-google-reviews mx-auto mt-10 w-full max-w-[1280px]"
       data-embed-id="236880"
-      style="min-height: 480px"
     ></div>
   </section>
 

@@ -49,8 +49,16 @@ body {
   }
 }
 
+/* min-height reserves the widget's space before it loads. It lives here
+   rather than as an inline style because the SociableKIT script rewrites
+   the element's whole `style` attribute with its own CSS variables once it
+   loads -- dropping an inline min-height (losing the layout-shift guard),
+   and, when it wins the race against hydration, tripping a Vue style
+   mismatch against the server-rendered attribute. A stylesheet rule
+   survives that rewrite and gives Vue no style prop to diff. */
 .sk-ww-google-reviews {
   overflow: hidden;
+  min-height: 480px;
   max-width: 1280px !important;
   width: 100% !important;
 }
