@@ -50,7 +50,7 @@ const bookingUrl = computed(() => {
 })
 // Tracks the booking widget's own postMessage'd height so a step never gets
 // clipped or shows a scrollbar nested inside this page's scrollbar.
-const { heightPx } = useIframeAutoHeight()
+const { heightPx } = useQuiroFlowWidget()
 </script>
 
 <template>
