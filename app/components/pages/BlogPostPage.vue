@@ -4,6 +4,7 @@ import { useAppI18n } from '@/composables/useAppI18n'
 import { getPostBySlug } from '@/utils/blog'
 import { useSeo } from '@/composables/useSeo'
 import { SITE_URL } from '@/utils/seo'
+import { pathFor, withTrailingSlash } from '@/utils/site-routes'
 import CtaBanner from '@/components/ui/CtaBanner.vue'
 
 const route = useRoute()
@@ -17,11 +18,21 @@ useSeo({
   type: 'article',
 })
 
+// Canonical URLs on this site carry a trailing slash (Netlify 301s the
+// slashless form), so every URL emitted here has to match or the structured
+// data points at a redirect.
+const postUrl = computed(() => `${SITE_URL}${withTrailingSlash(route.path)}`)
+const blogUrl = computed(() => `${SITE_URL}${withTrailingSlash(pathFor('blog', locale.value))}`)
+const authorUrl = computed(
+  () => `${SITE_URL}${withTrailingSlash(pathFor('lea-guido', locale.value))}`,
+)
+
 useHead({
   script: () =>
     post.value
       ? [
           {
+            key: 'blog-posting',
             type: 'application/ld+json',
             innerHTML: JSON.stringify({
               '@context': 'https://schema.org',
@@ -30,13 +41,43 @@ useHead({
               description: post.value.excerpt,
               image: `${SITE_URL}${post.value.cover}`,
               datePublished: post.value.date,
-              author: { '@type': 'Person', name: post.value.author },
+              // Falls back to the publish date so the property is always
+              // present; refreshed posts set `updated:` in frontmatter.
+              dateModified: post.value.updated ?? post.value.date,
+              inLanguage: locale.value === 'es' ? 'es-ES' : 'en-GB',
+              // Linking the author to their bio page ties the byline to a real
+              // credentialed person, which is the signal that matters most on
+              // health content.
+              author: {
+                '@type': 'Person',
+                name: post.value.author,
+                url: authorUrl.value,
+              },
               publisher: {
                 '@type': 'Organization',
                 name: 'ColumnaQuiro',
+                url: SITE_URL,
                 logo: { '@type': 'ImageObject', url: `${SITE_URL}/assets/images/logo-quiro.png` },
               },
-              mainEntityOfPage: `${SITE_URL}${route.path}`,
+              mainEntityOfPage: postUrl.value,
+            }),
+          },
+          {
+            key: 'blog-breadcrumbs',
+            type: 'application/ld+json',
+            innerHTML: JSON.stringify({
+              '@context': 'https://schema.org',
+              '@type': 'BreadcrumbList',
+              itemListElement: [
+                {
+                  '@type': 'ListItem',
+                  position: 1,
+                  name: 'Home',
+                  item: `${SITE_URL}${locale.value === 'es' ? '/' : '/en/'}`,
+                },
+                { '@type': 'ListItem', position: 2, name: t('nav.blog'), item: blogUrl.value },
+                { '@type': 'ListItem', position: 3, name: post.value.title, item: postUrl.value },
+              ],
             }),
           },
         ]
