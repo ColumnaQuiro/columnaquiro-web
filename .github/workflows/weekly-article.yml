@@ -1,0 +1,79 @@
+name: Weekly article
+
+# Writes the article that content/seo/content-plan.json says is due and opens a
+# PR for review. Never publishes on its own — Netlify builds from main, and a
+# person merges.
+
+on:
+  schedule:
+    # 07:00 UTC Monday. The plan publishes weekly on Mondays.
+    - cron: '0 7 * * 1'
+  workflow_dispatch:
+    inputs:
+      week:
+        description: 'Plan week to write (blank = whatever is due)'
+        required: false
+        type: string
+      force:
+        description: 'Write the next pending entry even if its date has not arrived'
+        required: false
+        type: boolean
+        default: false
+
+concurrency:
+  group: weekly-article
+  cancel-in-progress: false
+
+jobs:
+  write:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22.19.0'
+          cache: npm
+
+      # Resolve the brief first. If nothing is due (exit 2) the job stops here
+      # rather than burning a model run.
+      - id: brief
+        name: Resolve this week's brief
+        run: |
+          set +e
+          if [ -n "${{ inputs.week }}" ]; then
+            OUT=$(node scripts/next-article.mjs --week "${{ inputs.week }}")
+          elif [ "${{ inputs.force }}" = "true" ]; then
+            OUT=$(node scripts/next-article.mjs --force)
+          else
+            OUT=$(node scripts/next-article.mjs)
+          fi
+          CODE=$?
+          set -e
+          if [ $CODE -ne 0 ]; then
+            echo "$OUT"
+            echo "due=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          echo "due=true" >> "$GITHUB_OUTPUT"
+          { echo 'text<<BRIEF_EOF'; echo "$OUT"; echo 'BRIEF_EOF'; } >> "$GITHUB_OUTPUT"
+
+      - if: steps.brief.outputs.due == 'true'
+        run: npm ci
+
+      - if: steps.brief.outputs.due == 'true'
+        name: Write the article and open a PR
+        uses: anthropics/claude-code-action@v1
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GH_TOKEN: ${{ github.token }}
+        with:
+          claude_args: --allowed-tools "Bash,Read,Write,Edit,Glob,Grep,WebSearch,WebFetch"
+          prompt: |
+            Follow the .claude/skills/weekly-article skill exactly, for this brief.
+            Do not pick a different week. Do not merge the PR you open.
+
+            ${{ steps.brief.outputs.text }}
