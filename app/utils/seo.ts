@@ -12,8 +12,11 @@ export const clinicSchema = {
   postalCode: '46006',
   addressRegion: 'Valencia',
   addressCountry: 'ES',
-  latitude: 39.4699,
-  longitude: -0.3763,
+  // Taken from the clinic's own Google Business Profile listing (the `@lat,lng`
+  // in mapsUrl below). Cross-checked against OpenStreetMap's geocode of
+  // 29 Carrer dels Vivons, 46006, which agrees to within ~5 m.
+  latitude: 39.460101,
+  longitude: -0.371892,
   mapsUrl: 'https://maps.app.goo.gl/NQEAbzbbg75xxjKU6',
   sameAs: [
     'https://www.instagram.com/columnaquiro/',
