@@ -5,6 +5,12 @@ export interface BlogPost {
   slug: string
   title: string
   date: string
+  /**
+   * Optional `updated:` frontmatter date. Set it when a post is materially
+   * rewritten so `dateModified` reflects the refresh — expanding an old post
+   * in place only signals freshness if that date actually moves.
+   */
+  updated?: string
   excerpt: string
   cover: string
   author: string
@@ -47,6 +53,7 @@ function loadPosts(locale: Locale): BlogPost[] {
         slug: data.slug ?? '',
         title: data.title ?? '',
         date: data.date ?? '',
+        updated: data.updated || undefined,
         excerpt: data.excerpt ?? '',
         cover: data.cover ?? '',
         author: data.author ?? '',

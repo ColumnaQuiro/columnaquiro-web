@@ -1,0 +1,1277 @@
+{
+  "$schema": "./content-plan.schema.json",
+  "meta": {
+    "site": "https://columnaquiro.com",
+    "market": "València / l'Horta, Comunitat Valenciana",
+    "locales": ["es", "en"],
+    "cadence": "1 post per week, published Monday",
+    "startWeek": "2026-09-14",
+    "defaultWordTarget": 1300,
+    "note": "Existing corpus averages 381 words per post. Every new post targets 1200-1600 words with an FAQ block, because thin content is the single biggest reason the current 57 posts underperform. Clusters rotate: commercial -> condition -> audience -> local/english/seasonal."
+  },
+  "clusters": {
+    "commercial": "Decision-stage queries. Someone comparing, pricing, or overcoming an objection before booking. Highest conversion value, weakest current coverage (only 2 of 57 posts).",
+    "condition": "Symptom and diagnosis queries not yet covered by /sintomas or the blog. Volume driver, feeds the symptom hub.",
+    "audience": "Life-stage and activity content that feeds the six /para-quien-sirve-la-quiropractica category hubs, which currently have almost no supporting posts.",
+    "local": "Neighbourhood and Horta Sud queries. The Russafa and Eixample posts already prove the pattern; each new one must carry genuinely local detail, not a swapped place name.",
+    "english": "EN-first content written for Valencia's expat and digital-nomad population. Today all 56 EN posts are translations of ES, so nothing targets how a foreigner actually searches.",
+    "seasonal": "Calendar-anchored posts (Marató, Fallas, vuelta al cole, summer) published to land ahead of the demand spike."
+  },
+  "plan": [
+    {
+      "week": 1,
+      "date": "2026-09-14",
+      "status": "pending",
+      "cluster": "commercial",
+      "priority": "P0",
+      "intent": "commercial-comparison",
+      "wordTarget": 1600,
+      "es": {
+        "slug": "quiropractico-o-fisioterapeuta",
+        "title": "Quiropráctico o fisioterapeuta: en qué se diferencian y cuál te conviene",
+        "primaryKeyword": "quiropráctico o fisioterapeuta",
+        "secondaryKeywords": ["diferencia entre quiropráctico y fisioterapeuta", "fisioterapia o quiropráctica", "a cuál acudir primero"]
+      },
+      "en": {
+        "slug": "chiropractor-or-physiotherapist",
+        "title": "Chiropractor or Physiotherapist: The Real Differences and How to Choose",
+        "primaryKeyword": "chiropractor or physiotherapist",
+        "secondaryKeywords": ["chiropractic vs physiotherapy", "which one should I see first"]
+      },
+      "why": "Highest-volume comparison query in the niche and the site does not have it. The blog already covers osteópata vs quiropráctico, so this completes the comparison set and captures the larger of the two audiences.",
+      "angle": "Do not argue that one is better. Map symptom -> better first stop, and say plainly when physiotherapy is the right call. Honest comparison outranks advocacy on this query.",
+      "mustCover": ["Training and regulation of each in Spain", "Session length and what actually happens", "When to see each first", "When they work well together"],
+      "internalLinks": ["/blog/diferencias-entre-osteopata-y-quirpractico", "/que-es-la-quiropractica", "/blog/que-hace-un-quiropractico-beneficios-y-tecnicas"]
+    },
+    {
+      "week": 2,
+      "date": "2026-09-21",
+      "status": "pending",
+      "cluster": "commercial",
+      "priority": "P0",
+      "intent": "objection-handling",
+      "wordTarget": 1600,
+      "es": {
+        "slug": "es-peligrosa-la-quiropractica-efectos-secundarios",
+        "title": "¿Es peligrosa la quiropráctica? Efectos secundarios y contraindicaciones reales",
+        "primaryKeyword": "es peligrosa la quiropráctica",
+        "secondaryKeywords": ["efectos secundarios quiropráctica", "contraindicaciones quiropráctica", "riesgos ajuste cervical"]
+      },
+      "en": {
+        "slug": "is-chiropractic-dangerous-side-effects",
+        "title": "Is Chiropractic Dangerous? Side Effects and Real Contraindications",
+        "primaryKeyword": "is chiropractic dangerous",
+        "secondaryKeywords": ["chiropractic side effects", "chiropractic contraindications"]
+      },
+      "why": "The single biggest objection standing between a search and a booking. Competitors rank with vague reassurance; a specific, cited, honest answer wins the query and the trust.",
+      "angle": "Lead with the real numbers, name the genuine contraindications explicitly, and describe the normal 24-48h soreness so nobody is surprised. Citing actual literature is the differentiator here.",
+      "mustCover": ["Common mild effects (soreness, fatigue, mild headache) and how long they last", "Serious-event incidence with a real citation", "Absolute contraindications: active spinal infection, bone metastasis, severe osteoporosis, critical neurological signs", "What a proper screening looks like before a first adjustment"],
+      "internalLinks": ["/que-es-la-quiropractica/preguntas-frecuentes", "/blog/pros-y-contras-de-la-quiropractica", "/reserva-cita"]
+    },
+    {
+      "week": 3,
+      "date": "2026-09-28",
+      "status": "pending",
+      "cluster": "commercial",
+      "priority": "P0",
+      "intent": "commercial-consideration",
+      "wordTarget": 1300,
+      "es": {
+        "slug": "cuantas-sesiones-de-quiropractica-necesito",
+        "title": "¿Cuántas sesiones de quiropráctica necesito? Lo que de verdad marca la diferencia",
+        "primaryKeyword": "cuántas sesiones de quiropráctica necesito",
+        "secondaryKeywords": ["cuántas sesiones de quiropráctica son necesarias", "cada cuánto ir al quiropráctico", "duración tratamiento quiropráctico"]
+      },
+      "en": {
+        "slug": "how-many-chiropractic-sessions-do-i-need",
+        "title": "How Many Chiropractic Sessions Will I Actually Need?",
+        "primaryKeyword": "how many chiropractic sessions do i need",
+        "secondaryKeywords": ["how often should I see a chiropractor"]
+      },
+      "why": "A Valencia competitor (quiropracticvalencia.es) already ranks for this, which proves both the local demand and that the SERP is beatable with better depth.",
+      "angle": "Give real ranges rather than 'it depends': 3-6 for recent acute cases, 10-20+ for chronic. Address the 'they hook you forever' suspicion directly and explain why frequency tapers.",
+      "mustCover": ["What determines the number (duration, chronicity, age, activity)", "Concrete ranges by case type", "Why sessions space out over time", "How to know it is working"],
+      "internalLinks": ["/blog/cuanto-cuesta-un-quiropractico", "/como-funciona", "/reserva-cita"]
+    },
+    {
+      "week": 4,
+      "date": "2026-10-05",
+      "status": "pending",
+      "cluster": "commercial",
+      "priority": "P0",
+      "intent": "pre-booking",
+      "wordTarget": 1300,
+      "es": {
+        "slug": "primera-visita-al-quiropractico-que-esperar",
+        "title": "Primera visita al quiropráctico: qué pasa exactamente, paso a paso",
+        "primaryKeyword": "primera visita al quiropráctico qué esperar",
+        "secondaryKeywords": ["cómo es la primera consulta quiropráctica", "primera sesión quiropráctica", "qué llevar al quiropráctico"]
+      },
+      "en": {
+        "slug": "first-chiropractic-visit-what-to-expect",
+        "title": "Your First Chiropractic Visit: Exactly What Happens, Step by Step",
+        "primaryKeyword": "first chiropractic visit what to expect",
+        "secondaryKeywords": ["what happens at a chiropractic appointment"]
+      },
+      "why": "Directly feeds the /oferta-primera-visita conversion page. Removes the last friction point for someone who has already decided to try it.",
+      "angle": "Narrate the actual 45 minutes at the Vivons clinic: paperwork, history, exam, findings, first adjustment or not. Specificity is what converts here.",
+      "mustCover": ["How long it takes and what to wear", "The history and postural exam", "Whether you get adjusted on day one", "How it feels and what to expect after"],
+      "internalLinks": ["/oferta-primera-visita", "/como-funciona", "/sobre-nosotros/centro-quiropractico-valencia"]
+    },
+    {
+      "week": 5,
+      "date": "2026-10-12",
+      "status": "pending",
+      "cluster": "commercial",
+      "priority": "P1",
+      "intent": "commercial-investigation",
+      "wordTarget": 1400,
+      "es": {
+        "slug": "seguro-medico-cubre-quiropractica-espana",
+        "title": "¿Cubre el seguro médico la quiropráctica en España? Adeslas, Sanitas, DKV y Asisa",
+        "primaryKeyword": "seguro médico cubre quiropráctica",
+        "secondaryKeywords": ["adeslas quiropráctica", "sanitas quiropráctica", "quiropráctica seguridad social"]
+      },
+      "en": {
+        "slug": "does-spanish-health-insurance-cover-chiropractic",
+        "title": "Does Spanish Health Insurance Cover Chiropractic Care?",
+        "primaryKeyword": "does spanish health insurance cover chiropractic",
+        "secondaryKeywords": ["chiropractic insurance Spain", "sanitas chiropractic"]
+      },
+      "why": "Almost no good Spanish-language content exists on this and the intent is unambiguously commercial. Also doubles as the seed for the EN expat cluster.",
+      "angle": "Be accurate and current per insurer, and say plainly where the answer is 'no, but here is what reimbursement looks like'. Include what to ask your insurer.",
+      "mustCover": ["Seguridad Social position", "Insurer-by-insurer reality", "What a factura needs to include for any reimbursement", "Cost comparison without insurance"],
+      "internalLinks": ["/blog/cuanto-cuesta-un-quiropractico", "/sobre-nosotros/contacto"]
+    },
+    {
+      "week": 6,
+      "date": "2026-10-19",
+      "status": "pending",
+      "cluster": "commercial",
+      "priority": "P0",
+      "intent": "trust-eeat",
+      "wordTarget": 1500,
+      "seasonalHook": "World Spine Day is 16 October — publish alongside it.",
+      "es": {
+        "slug": "como-elegir-un-buen-quiropractico-espana",
+        "title": "Cómo elegir un buen quiropráctico en España: formación, titulación y señales de alarma",
+        "primaryKeyword": "cómo elegir un buen quiropráctico",
+        "secondaryKeywords": ["quiropráctico titulado España", "quiropráctica profesión reconocida", "quiropráctico o intruso"]
+      },
+      "en": {
+        "slug": "how-to-choose-a-chiropractor-in-spain",
+        "title": "How to Choose a Chiropractor in Spain: Credentials and Red Flags",
+        "primaryKeyword": "how to choose a chiropractor Spain",
+        "secondaryKeywords": ["is chiropractic regulated in Spain"]
+      },
+      "why": "Search results repeatedly surface 'chiropractic is not a recognised health profession in Spain'. That objection is being answered by other people, badly. Owning it honestly is the strongest E-E-A-T move available.",
+      "angle": "Do not dodge the regulatory reality. Explain the DC degree, the AEQ, what real training looks like, and give a checklist of questions to ask any clinic — including this one.",
+      "mustCover": ["The regulatory status in Spain, stated plainly", "What a Doctor of Chiropractic degree involves", "AEQ membership and what it means", "Red flags: no exam, lifetime contracts, cure claims"],
+      "internalLinks": ["/sobre-nosotros/equipo", "/sobre-nosotros/equipo/lea-guido", "/blog/los-mejores-quiropracticos-valencia"]
+    },
+    {
+      "week": 7,
+      "date": "2026-10-26",
+      "status": "pending",
+      "cluster": "condition",
+      "priority": "P0",
+      "intent": "informational-high-volume",
+      "wordTarget": 1500,
+      "es": {
+        "slug": "latigazo-cervical-accidente-trafico",
+        "title": "Latigazo cervical tras un accidente: síntomas, plazos de recuperación y qué hacer",
+        "primaryKeyword": "latigazo cervical",
+        "secondaryKeywords": ["esguince cervical accidente de tráfico", "síntomas latigazo cervical", "cuánto dura un latigazo cervical"]
+      },
+      "en": {
+        "slug": "whiplash-after-a-car-accident",
+        "title": "Whiplash After a Car Accident: Symptoms, Recovery Timeline, What to Do",
+        "primaryKeyword": "whiplash after car accident",
+        "secondaryKeywords": ["whiplash recovery time", "whiplash symptoms"]
+      },
+      "why": "High volume, and the SERP is dominated by injury-compensation law firms and orthopaedic suppliers. No chiropractic-quality clinical content ranks, so there is a real opening.",
+      "angle": "Own the clinical side the lawyers ignore: symptom timeline, why the collar came out of favour, red flags, and realistic recovery. Do not touch compensation advice.",
+      "mustCover": ["Why symptoms often appear 24-72h later", "Full symptom picture including dizziness and tinnitus", "Why prolonged collar use is now discouraged", "Red flags requiring urgent medical review"],
+      "internalLinks": ["/sintomas/dolor-de-cuello", "/blog/contractura-en-el-cuello-causas-sintomas-y-soluciones", "/blog/quiropractica-para-vertigo-solucion-natural-y-efectiva"]
+    },
+    {
+      "week": 8,
+      "date": "2026-11-02",
+      "status": "pending",
+      "cluster": "condition",
+      "priority": "P1",
+      "intent": "informational",
+      "wordTarget": 1300,
+      "es": {
+        "slug": "dolor-de-mandibula-bruxismo-y-cervicales",
+        "title": "Dolor de mandíbula y bruxismo: la conexión con tus cervicales que nadie te explica",
+        "primaryKeyword": "dolor de mandíbula y cuello",
+        "secondaryKeywords": ["ATM y cervicales", "bruxismo dolor cervical", "articulación temporomandibular"]
+      },
+      "en": {
+        "slug": "jaw-pain-bruxism-and-your-neck",
+        "title": "Jaw Pain and Bruxism: The Neck Connection Nobody Explains",
+        "primaryKeyword": "jaw pain and neck pain",
+        "secondaryKeywords": ["TMJ and neck", "bruxism neck pain"]
+      },
+      "why": "Completely untouched by the current 57 posts, genuinely within chiropractic scope, and searchers are actively frustrated because dentists and physios each treat half of it.",
+      "angle": "Explain the upper-cervical / TMJ relationship concretely. Position as complementary to the dentist's splint, not a replacement.",
+      "mustCover": ["How the upper cervical spine and jaw interact", "Why a night guard alone often is not enough", "Self-checks and simple relief", "When to see a dentist first"],
+      "internalLinks": ["/sintomas/dolor-de-cervicales-y-cabeza", "/sintomas/estres-y-depresion", "/blog/guia-completa-para-tratar-el-dolor-de-cabeza-por-cervicales"]
+    },
+    {
+      "week": 9,
+      "date": "2026-11-09",
+      "status": "pending",
+      "cluster": "audience",
+      "priority": "P1",
+      "intent": "informational-local-lifestyle",
+      "wordTarget": 1200,
+      "audienceHub": "/para-quien-sirve-la-quiropractica/deportistas",
+      "es": {
+        "slug": "padel-y-dolor-lumbar",
+        "title": "Pádel y dolor lumbar: el precio de jugar tres veces por semana",
+        "primaryKeyword": "dolor lumbar pádel",
+        "secondaryKeywords": ["lesiones de pádel espalda", "dolor de espalda jugando pádel", "prevenir lesiones pádel"]
+      },
+      "en": {
+        "slug": "padel-and-lower-back-pain",
+        "title": "Padel and Lower Back Pain: The Cost of Playing Three Times a Week",
+        "primaryKeyword": "padel lower back pain",
+        "secondaryKeywords": ["padel injuries back"]
+      },
+      "why": "Padel is the fastest-growing sport in Spain and Valencia is saturated with clubs. The deportistas hub has almost no supporting content, and this is the most searched sport-injury pairing in the market.",
+      "angle": "Get specific about the padel movement pattern: repeated overhead smash, rotation, sudden lateral stops. Give a real warm-up, not generic advice.",
+      "mustCover": ["Why the smash loads the lumbar spine and shoulder", "Asymmetry from always playing one side", "A 6-minute pre-match routine", "When soreness becomes an injury"],
+      "internalLinks": ["/para-quien-sirve-la-quiropractica/deportistas", "/sintomas/lumbalgia", "/blog/contracturas-musculares-lumbares"]
+    },
+    {
+      "week": 10,
+      "date": "2026-11-16",
+      "status": "pending",
+      "cluster": "seasonal",
+      "priority": "P0",
+      "intent": "seasonal-local",
+      "wordTarget": 1400,
+      "action": "refresh-and-expand",
+      "refreshTarget": "content/blog/es/preparacion-quiropractica-para-la-maraton-de-valencia.md",
+      "seasonalHook": "Marató València is the first Sunday of December. Publish three weeks out, when taper-panic searches peak.",
+      "es": {
+        "slug": "preparacion-quiropractica-para-la-maraton-de-valencia",
+        "title": "Maratón de Valencia: las tres últimas semanas sin lesionarte",
+        "primaryKeyword": "maratón valencia lesiones",
+        "secondaryKeywords": ["preparación maratón valencia", "tapering maratón molestias", "dolor rodilla maratón"]
+      },
+      "en": {
+        "slug": "chiropractic-preparation-for-the-valencia-marathon-how-to-avoid-injuries",
+        "title": "Valencia Marathon: The Final Three Weeks Without Getting Injured",
+        "primaryKeyword": "valencia marathon injury prevention",
+        "secondaryKeywords": ["valencia marathon taper"]
+      },
+      "why": "The existing post is 269 words and cannot compete for the biggest local sports search spike of the year. Expanding it beats writing a new one, because it already has crawl history.",
+      "angle": "Structure week-by-week through the taper. Cover the specific late-cycle injuries: ITB, plantar fascia, tibial stress, SI joint.",
+      "mustCover": ["Week-by-week taper guidance", "Niggles you can run through vs those you cannot", "Race-week timing for any bodywork", "Post-race first 48h"],
+      "internalLinks": ["/para-quien-sirve-la-quiropractica/deportistas", "/blog/gonalgia", "/reserva-cita"]
+    },
+    {
+      "week": 11,
+      "date": "2026-11-23",
+      "status": "pending",
+      "cluster": "condition",
+      "priority": "P1",
+      "intent": "informational",
+      "wordTarget": 1300,
+      "es": {
+        "slug": "sindrome-del-piramidal-falsa-ciatica",
+        "title": "Síndrome del piramidal: la \"falsa ciática\" que confunde a casi todo el mundo",
+        "primaryKeyword": "síndrome del piramidal",
+        "secondaryKeywords": ["falsa ciática", "piriforme dolor glúteo", "diferencia piramidal y ciática"]
+      },
+      "en": {
+        "slug": "piriformis-syndrome-the-false-sciatica",
+        "title": "Piriformis Syndrome: The \"False Sciatica\" That Fools Almost Everyone",
+        "primaryKeyword": "piriformis syndrome",
+        "secondaryKeywords": ["piriformis vs sciatica"]
+      },
+      "why": "Very high confusion query that funnels straight into the existing /sintomas/ciatica page. Captures traffic that currently bounces because the site only answers the sciatica half.",
+      "angle": "Lead with the differential: how to tell them apart at home. That is the actual question behind the search.",
+      "mustCover": ["Piriformis vs true radicular sciatica", "Self-tests", "Why sitting and driving make it worse", "Why stretching alone often fails"],
+      "internalLinks": ["/sintomas/ciatica", "/sintomas/lumbalgia", "/blog/dolor-de-cadera-y-piernas"]
+    },
+    {
+      "week": 12,
+      "date": "2026-11-30",
+      "status": "pending",
+      "cluster": "local",
+      "priority": "P2",
+      "intent": "local-commercial",
+      "wordTarget": 900,
+      "es": {
+        "slug": "quiropractico-benimaclet-valencia",
+        "title": "Quiropráctico en Benimaclet: cómo llegar y qué encontrarás",
+        "primaryKeyword": "quiropráctico Benimaclet",
+        "secondaryKeywords": ["quiropráctico cerca de Benimaclet", "quiropráctica Benimaclet Valencia"]
+      },
+      "en": {
+        "slug": "chiropractor-in-benimaclet-valencia",
+        "title": "Chiropractor Near Benimaclet, Valencia",
+        "primaryKeyword": "chiropractor Benimaclet",
+        "secondaryKeywords": ["chiropractor near Benimaclet Valencia"]
+      },
+      "why": "The Russafa and Eixample posts already prove this pattern ranks. Benimaclet is the next-highest-value district: dense, young, student and expat heavy.",
+      "angle": "Must carry real local substance — actual metro/bus lines from Benimaclet to Vivons 29, journey time, parking reality. A place-name swap of the Russafa post will be treated as a doorway page and will hurt.",
+      "mustCover": ["Genuine transport detail from that district", "Who from that area the clinic tends to see", "Clinic address, hours, booking"],
+      "internalLinks": ["/sobre-nosotros/centro-quiropractico-valencia", "/blog/quiropractico-en-russafa-valencia", "/reserva-cita"],
+      "warning": "Cap local posts at roughly one per month. A rapid run of near-identical neighbourhood pages is the classic doorway-page pattern and risks the whole domain."
+    },
+    {
+      "week": 13,
+      "date": "2026-12-07",
+      "status": "pending",
+      "cluster": "seasonal",
+      "priority": "P1",
+      "intent": "seasonal-local",
+      "wordTarget": 1100,
+      "es": {
+        "slug": "recuperacion-post-maraton",
+        "title": "Recuperación post-maratón: los 10 días que más importan",
+        "primaryKeyword": "recuperación después de un maratón",
+        "secondaryKeywords": ["dolor después del maratón", "cuándo volver a correr tras un maratón"]
+      },
+      "en": {
+        "slug": "post-marathon-recovery",
+        "title": "Post-Marathon Recovery: The 10 Days That Matter Most",
+        "primaryKeyword": "post marathon recovery",
+        "secondaryKeywords": ["when to run after a marathon"]
+      },
+      "why": "Captures the demand spike the day after the Marató, when thousands of local runners are hurting and searching. Natural sequel to week 10.",
+      "angle": "Day-by-day recovery protocol. Flag which pains are normal and which are a stress fracture.",
+      "internalLinks": ["/blog/preparacion-quiropractica-para-la-maraton-de-valencia", "/para-quien-sirve-la-quiropractica/deportistas"]
+    },
+    {
+      "week": 14,
+      "date": "2026-12-14",
+      "status": "pending",
+      "cluster": "condition",
+      "priority": "P1",
+      "intent": "informational",
+      "wordTarget": 1200,
+      "es": {
+        "slug": "hormigueo-en-las-manos-al-dormir",
+        "title": "Hormigueo en las manos al dormir: por qué pasa y cuándo preocuparse",
+        "primaryKeyword": "hormigueo en las manos al dormir",
+        "secondaryKeywords": ["se me duermen las manos por la noche", "parestesia manos causas"]
+      },
+      "en": {
+        "slug": "hand-tingling-at-night",
+        "title": "Tingling Hands at Night: Why It Happens and When to Worry",
+        "primaryKeyword": "hands tingling at night",
+        "secondaryKeywords": ["numb hands while sleeping"]
+      },
+      "why": "Very high-volume symptom search that feeds both the carpal tunnel and cervical clusters the site already has, but nothing currently targets the way people actually phrase it.",
+      "angle": "Differential first: carpal tunnel vs cervical origin vs thoracic outlet vs sleeping position.",
+      "internalLinks": ["/sintomas/sindrome-del-tunel-carpiano", "/blog/tunel-carpiano-causas-y-soluciones", "/blog/protusion-discal-cervical"]
+    },
+    {
+      "week": 15,
+      "date": "2026-12-21",
+      "status": "pending",
+      "cluster": "audience",
+      "priority": "P2",
+      "intent": "seasonal-lifestyle",
+      "wordTarget": 1000,
+      "audienceHub": "/para-quien-sirve-la-quiropractica/trabajadores",
+      "es": {
+        "slug": "viajes-largos-en-coche-sin-dolor-de-espalda",
+        "title": "Seis horas de coche en Navidad sin destrozarte la espalda",
+        "primaryKeyword": "dolor de espalda conduciendo",
+        "secondaryKeywords": ["postura correcta al conducir", "viajes largos en coche espalda"]
+      },
+      "en": {
+        "slug": "long-car-journeys-without-back-pain",
+        "title": "Six Hours in the Car Without Wrecking Your Back",
+        "primaryKeyword": "back pain driving long distance",
+        "secondaryKeywords": ["correct driving posture"]
+      },
+      "why": "Timed for the Christmas travel spike. Low competition, highly shareable, and a soft entry point for readers not yet searching for treatment.",
+      "internalLinks": ["/sintomas/lumbalgia", "/blog/trabajas-en-oficina-10-micro-estiramientos-avalados"]
+    },
+    {
+      "week": 16,
+      "date": "2026-12-28",
+      "status": "pending",
+      "cluster": "commercial",
+      "priority": "P1",
+      "intent": "commercial-comparison",
+      "wordTarget": 1300,
+      "es": {
+        "slug": "quiropractica-quiromasaje-o-masaje",
+        "title": "Quiropráctica, quiromasaje o masaje: qué es cada cosa y para qué sirve",
+        "primaryKeyword": "diferencia quiropráctica y quiromasaje",
+        "secondaryKeywords": ["quiromasajista o quiropráctico", "masaje o quiropráctica"]
+      },
+      "en": {
+        "slug": "chiropractic-vs-massage",
+        "title": "Chiropractic vs Massage: What Each One Actually Does",
+        "primaryKeyword": "chiropractic vs massage",
+        "secondaryKeywords": ["massage or chiropractor"]
+      },
+      "why": "Completes the comparison set (physio, osteopath, massage). In Spain quiromasaje is routinely confused with quiropráctica, and clearing that up captures misdirected demand.",
+      "internalLinks": ["/blog/diferencias-entre-osteopata-y-quirpractico", "/que-es-la-quiropractica"]
+    },
+    {
+      "week": 17,
+      "date": "2027-01-04",
+      "status": "pending",
+      "cluster": "audience",
+      "priority": "P1",
+      "intent": "seasonal-lifestyle",
+      "wordTarget": 1200,
+      "audienceHub": "/para-quien-sirve-la-quiropractica/deportistas",
+      "es": {
+        "slug": "vuelta-al-gimnasio-en-enero-lesiones",
+        "title": "Vuelta al gimnasio en enero: las cinco lesiones que vemos cada año",
+        "primaryKeyword": "lesiones gimnasio principiantes",
+        "secondaryKeywords": ["dolor de espalda gimnasio", "empezar a entrenar sin lesionarse"]
+      },
+      "en": {
+        "slug": "back-to-the-gym-in-january-injuries",
+        "title": "Back to the Gym in January: The Five Injuries We See Every Year",
+        "primaryKeyword": "gym injuries beginners",
+        "secondaryKeywords": ["back pain from lifting"]
+      },
+      "why": "January resolution traffic is the largest fitness search spike of the year and nothing on the site targets it.",
+      "internalLinks": ["/para-quien-sirve-la-quiropractica/deportistas", "/sintomas/lumbalgia", "/blog/dolor-de-espalda"]
+    },
+    {
+      "week": 18,
+      "date": "2027-01-11",
+      "status": "pending",
+      "cluster": "condition",
+      "priority": "P1",
+      "intent": "informational",
+      "wordTarget": 1300,
+      "es": {
+        "slug": "dolor-de-hombro-manguito-rotador",
+        "title": "Dolor de hombro y manguito rotador: causas, pruebas y recuperación",
+        "primaryKeyword": "dolor de hombro manguito rotador",
+        "secondaryKeywords": ["tendinitis hombro", "dolor de hombro al levantar el brazo"]
+      },
+      "en": {
+        "slug": "shoulder-pain-rotator-cuff",
+        "title": "Shoulder Pain and the Rotator Cuff: Causes, Tests, Recovery",
+        "primaryKeyword": "rotator cuff shoulder pain",
+        "secondaryKeywords": ["shoulder pain lifting arm"]
+      },
+      "why": "One of the largest musculoskeletal search categories and the site has nothing on the shoulder at all.",
+      "internalLinks": ["/blog/pinzamiento-nervio-trapecio", "/sintomas/dolor-de-cuello"]
+    },
+    {
+      "week": 19,
+      "date": "2027-01-18",
+      "status": "pending",
+      "cluster": "commercial",
+      "priority": "P1",
+      "intent": "trust-eeat",
+      "wordTarget": 1400,
+      "es": {
+        "slug": "quiropractica-reconocida-en-espana",
+        "title": "¿Está reconocida la quiropráctica en España? La situación real, sin rodeos",
+        "primaryKeyword": "quiropráctica reconocida en España",
+        "secondaryKeywords": ["quiropráctica profesión sanitaria", "regulación quiropráctica España", "es legal la quiropráctica"]
+      },
+      "en": {
+        "slug": "is-chiropractic-regulated-in-spain",
+        "title": "Is Chiropractic Regulated in Spain? The Honest Answer",
+        "primaryKeyword": "is chiropractic regulated in Spain",
+        "secondaryKeywords": ["chiropractic legal status Spain"]
+      },
+      "why": "This objection surfaces in almost every SERP in the niche and is mostly answered by parties with an interest in dismissing chiropractic. Answering it straight is a durable trust asset.",
+      "angle": "State the regulatory position accurately, explain the European context and the DC degree, and let the honesty do the persuading. No defensiveness.",
+      "internalLinks": ["/sobre-nosotros/equipo", "/que-es-la-quiropractica"]
+    },
+    {
+      "week": 20,
+      "date": "2027-01-25",
+      "status": "pending",
+      "cluster": "english",
+      "priority": "P1",
+      "intent": "expat-informational",
+      "wordTarget": 1400,
+      "enFirst": true,
+      "en": {
+        "slug": "chiropractic-in-spain-guide-for-expats",
+        "title": "Chiropractic in Spain: What Expats Need to Know Before Booking",
+        "primaryKeyword": "chiropractic in Spain expats",
+        "secondaryKeywords": ["English speaking chiropractor Valencia", "chiropractor Spain vs UK", "chiropractor Spain vs US"]
+      },
+      "es": {
+        "slug": "quiropractica-en-espana-guia-para-extranjeros",
+        "title": "Quiropráctica en España: la guía para quienes vienen de fuera",
+        "primaryKeyword": "quiropráctica para extranjeros en España",
+        "secondaryKeywords": []
+      },
+      "why": "All 56 EN posts are translations of ES, so nothing targets how an expat actually searches. Valencia has one of Europe's densest expat and digital-nomad populations and this is the cheapest high-intent traffic available to the site.",
+      "angle": "Write EN-first, then adapt to ES. Compare against UK/US expectations: cost, session length, no GP referral needed, insurance, language.",
+      "mustCover": ["Cost vs UK/US", "Whether you need a referral", "Insurance reality", "Finding English-speaking care in Valencia"],
+      "internalLinks": ["/en/about-us/chiropractic-valencia", "/en/book-appointment", "/en/blog/how-much-does-a-chiropractor-cost"]
+    },
+    {
+      "week": 21,
+      "date": "2027-02-01",
+      "status": "pending",
+      "cluster": "condition",
+      "priority": "P2",
+      "intent": "informational",
+      "wordTarget": 1300,
+      "es": {
+        "slug": "estenosis-de-canal-lumbar",
+        "title": "Estenosis de canal lumbar: cuando caminar se vuelve el problema",
+        "primaryKeyword": "estenosis de canal lumbar",
+        "secondaryKeywords": ["estenosis lumbar síntomas", "dolor al caminar espalda"]
+      },
+      "en": {
+        "slug": "lumbar-spinal-stenosis",
+        "title": "Lumbar Spinal Stenosis: When Walking Becomes the Problem",
+        "primaryKeyword": "lumbar spinal stenosis",
+        "secondaryKeywords": ["stenosis symptoms walking"]
+      },
+      "why": "Common over-55 diagnosis with strong search volume, and it feeds the personas-mayores hub that currently has no supporting content.",
+      "internalLinks": ["/para-quien-sirve-la-quiropractica/personas-mayores", "/sintomas/lumbalgia", "/sintomas/hernia-discal"]
+    },
+    {
+      "week": 22,
+      "date": "2027-02-08",
+      "status": "pending",
+      "cluster": "audience",
+      "priority": "P1",
+      "intent": "informational",
+      "wordTarget": 1300,
+      "audienceHub": "/para-quien-sirve-la-quiropractica/embarazadas",
+      "es": {
+        "slug": "dolor-lumbar-en-el-tercer-trimestre",
+        "title": "Dolor lumbar en el tercer trimestre: por qué aparece y qué alivia de verdad",
+        "primaryKeyword": "dolor lumbar embarazo tercer trimestre",
+        "secondaryKeywords": ["dolor de espalda embarazada", "cómo dormir embarazada dolor espalda"]
+      },
+      "en": {
+        "slug": "third-trimester-lower-back-pain",
+        "title": "Third-Trimester Back Pain: Why It Happens and What Actually Helps",
+        "primaryKeyword": "third trimester back pain",
+        "secondaryKeywords": ["pregnancy back pain relief"]
+      },
+      "why": "Pregnancy is one of the clinic's strongest differentiators (Webster technique) but the blog only covers sciatica and breastfeeding. This is the highest-volume pregnancy pain query.",
+      "internalLinks": ["/para-quien-sirve-la-quiropractica/embarazadas", "/blog/tecnica-webster-optimizando-la-alineacion-pelvica-durante-el-embarazo", "/blog/ciatica-en-el-embarazo"]
+    },
+    {
+      "week": 23,
+      "date": "2027-02-15",
+      "status": "pending",
+      "cluster": "local",
+      "priority": "P2",
+      "intent": "local-commercial",
+      "wordTarget": 900,
+      "es": {
+        "slug": "quiropractico-campanar-valencia",
+        "title": "Quiropráctico en Campanar: cómo llegar desde tu barrio",
+        "primaryKeyword": "quiropráctico Campanar",
+        "secondaryKeywords": ["quiropráctica Campanar Valencia"]
+      },
+      "en": {
+        "slug": "chiropractor-in-campanar-valencia",
+        "title": "Chiropractor Near Campanar, Valencia",
+        "primaryKeyword": "chiropractor Campanar Valencia",
+        "secondaryKeywords": []
+      },
+      "why": "Next district in the local rotation. Campanar is residential and family-heavy, which pairs naturally with the pediatric and pregnancy services.",
+      "internalLinks": ["/sobre-nosotros/centro-quiropractico-valencia", "/reserva-cita"]
+    },
+    {
+      "week": 24,
+      "date": "2027-02-22",
+      "status": "pending",
+      "cluster": "condition",
+      "priority": "P2",
+      "intent": "informational",
+      "wordTarget": 1100,
+      "es": {
+        "slug": "rectificacion-lumbar",
+        "title": "Rectificación lumbar: qué significa realmente en tu informe médico",
+        "primaryKeyword": "rectificación lumbar",
+        "secondaryKeywords": ["pérdida de lordosis lumbar", "rectificación columna lumbar tratamiento"]
+      },
+      "en": {
+        "slug": "lumbar-rectification-loss-of-lordosis",
+        "title": "Loss of Lumbar Lordosis: What It Really Means on Your Report",
+        "primaryKeyword": "loss of lumbar lordosis",
+        "secondaryKeywords": ["straightened lumbar spine"]
+      },
+      "why": "The cervical equivalent already exists and performs; the lumbar version is the obvious missing sibling. People search this the moment they read a radiology report.",
+      "internalLinks": ["/blog/rectificacion-de-cervicales-sintomas-y-tratamiento-quiropractico", "/blog/lordosis-cervical", "/sintomas/lumbalgia"]
+    },
+    {
+      "week": 25,
+      "date": "2027-03-01",
+      "status": "pending",
+      "cluster": "audience",
+      "priority": "P1",
+      "intent": "informational-sensitive",
+      "wordTarget": 1300,
+      "audienceHub": "/para-quien-sirve-la-quiropractica/bebes-y-ninos",
+      "es": {
+        "slug": "colicos-del-lactante-y-quiropractica",
+        "title": "Cólicos del lactante: qué puede y qué no puede hacer la quiropráctica",
+        "primaryKeyword": "cólicos del lactante quiropráctica",
+        "secondaryKeywords": ["bebé llora mucho cólicos", "quiropráctica bebés seguro"]
+      },
+      "en": {
+        "slug": "infant-colic-and-chiropractic",
+        "title": "Infant Colic: What Chiropractic Can and Cannot Do",
+        "primaryKeyword": "infant colic chiropractic",
+        "secondaryKeywords": ["is chiropractic safe for babies"]
+      },
+      "why": "There is a /sintomas/colicos page but no supporting article. Anxious new-parent search volume is high and sustained.",
+      "angle": "Highly sensitive YMYL topic. Be conservative and explicit about the limits of the evidence, describe how gentle infant work actually is, and state clearly when to see a paediatrician. Requires clinician review before publishing.",
+      "reviewRequired": "clinician",
+      "internalLinks": ["/sintomas/colicos", "/para-quien-sirve-la-quiropractica/bebes-y-ninos", "/blog/lactancia-y-quiropractica"]
+    },
+    {
+      "week": 26,
+      "date": "2027-03-08",
+      "status": "pending",
+      "cluster": "commercial",
+      "priority": "P2",
+      "intent": "trust",
+      "wordTarget": 1200,
+      "es": {
+        "slug": "radiografias-y-quiropractica",
+        "title": "Radiografías y quiropráctica: ¿cuándo hacen falta de verdad?",
+        "primaryKeyword": "radiografía quiropráctica",
+        "secondaryKeywords": ["hace falta radiografía para quiropráctico", "resonancia dolor de espalda"]
+      },
+      "en": {
+        "slug": "x-rays-and-chiropractic",
+        "title": "X-Rays and Chiropractic: When Are They Actually Needed?",
+        "primaryKeyword": "chiropractic x-ray necessary",
+        "secondaryKeywords": ["do I need an x-ray for back pain"]
+      },
+      "why": "A known trust flashpoint (clinics that X-ray everyone). Taking the evidence-based position differentiates sharply and reassures cautious searchers.",
+      "internalLinks": ["/como-funciona", "/blog/dolor-de-espalda"]
+    },
+    {
+      "week": 27,
+      "date": "2027-03-15",
+      "status": "pending",
+      "cluster": "seasonal",
+      "priority": "P1",
+      "intent": "seasonal-local",
+      "wordTarget": 1000,
+      "seasonalHook": "Fallas runs 15-19 March. Publish the Monday it starts.",
+      "es": {
+        "slug": "fallas-sobrevivir-de-pie",
+        "title": "Fallas: cinco días de pie y 20 km al día sin acabar destrozado",
+        "primaryKeyword": "dolor de espalda Fallas",
+        "secondaryKeywords": ["caminar mucho dolor de pies Fallas", "sobrevivir a las Fallas"]
+      },
+      "en": {
+        "slug": "surviving-fallas-on-your-feet",
+        "title": "Surviving Fallas: Five Days on Your Feet",
+        "primaryKeyword": "Fallas walking foot pain",
+        "secondaryKeywords": ["surviving Fallas Valencia"]
+      },
+      "why": "The most local content possible during the city's biggest search spike. Extremely shareable, strong local-relevance signal, and almost no competition.",
+      "internalLinks": ["/sobre-nosotros/centro-quiropractico-valencia", "/sintomas/lumbalgia"]
+    },
+    {
+      "week": 28,
+      "date": "2027-03-22",
+      "status": "pending",
+      "cluster": "condition",
+      "priority": "P2",
+      "intent": "informational",
+      "wordTarget": 1200,
+      "es": {
+        "slug": "espondilolistesis",
+        "title": "Espondilolistesis: qué es, grados y qué se puede hacer",
+        "primaryKeyword": "espondilolistesis",
+        "secondaryKeywords": ["espondilolistesis grados", "espondilolistesis ejercicios"]
+      },
+      "en": {
+        "slug": "spondylolisthesis",
+        "title": "Spondylolisthesis: What It Is, Grades, and What Can Be Done",
+        "primaryKeyword": "spondylolisthesis",
+        "secondaryKeywords": ["spondylolisthesis exercises"]
+      },
+      "why": "Well-defined diagnosis with steady volume, entirely absent from the site, and it pairs with the existing scoliosis cluster.",
+      "internalLinks": ["/sintomas/escoliosis", "/sintomas/lumbalgia", "/blog/quiropractica-clave-para-la-escoliosis"]
+    },
+    {
+      "week": 29,
+      "date": "2027-03-29",
+      "status": "pending",
+      "cluster": "audience",
+      "priority": "P2",
+      "intent": "seasonal-local",
+      "wordTarget": 1100,
+      "audienceHub": "/para-quien-sirve-la-quiropractica/deportistas",
+      "es": {
+        "slug": "correr-10k-sin-lesionarte",
+        "title": "Tu primer 10K en Valencia: cómo llegar sin lesionarte",
+        "primaryKeyword": "primer 10k entrenamiento lesiones",
+        "secondaryKeywords": ["volta a peu valencia preparación", "empezar a correr dolor rodilla"]
+      },
+      "en": {
+        "slug": "your-first-10k-without-injury",
+        "title": "Your First 10K in Valencia: Getting There Injury-Free",
+        "primaryKeyword": "first 10k training injuries",
+        "secondaryKeywords": ["starting running knee pain"]
+      },
+      "why": "Spring race season in Valencia (Volta a Peu and the 10K circuit). Targets beginners, a much larger group than marathoners.",
+      "internalLinks": ["/para-quien-sirve-la-quiropractica/deportistas", "/blog/gonalgia"]
+    },
+    {
+      "week": 30,
+      "date": "2027-04-05",
+      "status": "pending",
+      "cluster": "english",
+      "priority": "P1",
+      "intent": "expat-commercial",
+      "wordTarget": 1300,
+      "enFirst": true,
+      "en": {
+        "slug": "chiropractic-cost-and-insurance-valencia",
+        "title": "What Chiropractic Costs in Valencia — and Whether Insurance Covers It",
+        "primaryKeyword": "chiropractor cost Valencia Spain",
+        "secondaryKeywords": ["chiropractic price Spain", "does insurance cover chiropractic Spain"]
+      },
+      "es": {
+        "slug": "precio-quiropractica-valencia-y-seguros",
+        "title": "Cuánto cuesta la quiropráctica en Valencia y qué cubren los seguros",
+        "primaryKeyword": "precio quiropráctico Valencia",
+        "secondaryKeywords": []
+      },
+      "why": "The highest commercial-intent expat query. Market rate in Valencia is roughly 30-40 EUR per session, and no English-language page states this clearly for the city.",
+      "internalLinks": ["/en/blog/how-much-does-a-chiropractor-cost", "/en/first-visit-offer", "/en/book-appointment"]
+    },
+    {
+      "week": 31,
+      "date": "2027-04-12",
+      "status": "pending",
+      "cluster": "condition",
+      "priority": "P2",
+      "intent": "informational",
+      "wordTarget": 1200,
+      "es": {
+        "slug": "fascitis-plantar-y-cadena-posterior",
+        "title": "Fascitis plantar: por qué el problema casi nunca está sólo en el pie",
+        "primaryKeyword": "fascitis plantar",
+        "secondaryKeywords": ["dolor talón al levantarse", "fascitis plantar tratamiento"]
+      },
+      "en": {
+        "slug": "plantar-fasciitis-and-the-posterior-chain",
+        "title": "Plantar Fasciitis: Why the Problem Is Rarely Just the Foot",
+        "primaryKeyword": "plantar fasciitis",
+        "secondaryKeywords": ["heel pain first step morning"]
+      },
+      "why": "High volume, and the chiropractic angle (posterior chain, pelvic mechanics, gait) is genuinely differentiated from the podiatry-dominated SERP.",
+      "internalLinks": ["/para-quien-sirve-la-quiropractica/deportistas", "/blog/gonalgia"]
+    },
+    {
+      "week": 32,
+      "date": "2027-04-19",
+      "status": "pending",
+      "cluster": "local",
+      "priority": "P2",
+      "intent": "local-commercial",
+      "wordTarget": 900,
+      "es": {
+        "slug": "quiropractico-ciutat-vella-valencia",
+        "title": "Quiropráctico cerca de Ciutat Vella y El Carme",
+        "primaryKeyword": "quiropráctico Ciutat Vella",
+        "secondaryKeywords": ["quiropráctico centro Valencia", "quiropráctico El Carmen Valencia"]
+      },
+      "en": {
+        "slug": "chiropractor-near-ciutat-vella-valencia",
+        "title": "Chiropractor Near Ciutat Vella and El Carme",
+        "primaryKeyword": "chiropractor central Valencia",
+        "secondaryKeywords": []
+      },
+      "why": "Captures 'quiropráctico centro Valencia', a broader and higher-volume phrasing than the pure district names.",
+      "internalLinks": ["/sobre-nosotros/centro-quiropractico-valencia", "/reserva-cita"]
+    },
+    {
+      "week": 33,
+      "date": "2027-04-26",
+      "status": "pending",
+      "cluster": "audience",
+      "priority": "P1",
+      "intent": "informational-sensitive",
+      "wordTarget": 1300,
+      "audienceHub": "/para-quien-sirve-la-quiropractica/personas-mayores",
+      "es": {
+        "slug": "quiropractica-con-osteoporosis",
+        "title": "Quiropráctica con osteoporosis: qué se puede hacer y qué se adapta",
+        "primaryKeyword": "quiropráctica osteoporosis",
+        "secondaryKeywords": ["ajuste quiropráctico personas mayores", "es seguro el quiropráctico a los 70"]
+      },
+      "en": {
+        "slug": "chiropractic-with-osteoporosis",
+        "title": "Chiropractic with Osteoporosis: What Changes and What Is Safe",
+        "primaryKeyword": "chiropractic osteoporosis",
+        "secondaryKeywords": ["chiropractic for seniors safe"]
+      },
+      "why": "The personas-mayores hub has no supporting content, and safety is the exact barrier keeping this demographic from booking.",
+      "angle": "Safety-first framing. Explain low-force techniques and be explicit about when adjustment is not appropriate.",
+      "reviewRequired": "clinician",
+      "internalLinks": ["/para-quien-sirve-la-quiropractica/personas-mayores", "/blog/diferencias-entre-artritis-y-artrosis", "/sintomas/artrosis"]
+    },
+    {
+      "week": 34,
+      "date": "2027-05-03",
+      "status": "pending",
+      "cluster": "condition",
+      "priority": "P2",
+      "intent": "informational",
+      "wordTarget": 1200,
+      "es": {
+        "slug": "cervicobraquialgia",
+        "title": "Cervicobraquialgia: dolor de cuello que baja por el brazo",
+        "primaryKeyword": "cervicobraquialgia",
+        "secondaryKeywords": ["dolor de cuello que baja al brazo", "cervicobraquialgia tratamiento"]
+      },
+      "en": {
+        "slug": "cervical-radiculopathy-neck-to-arm-pain",
+        "title": "Cervical Radiculopathy: Neck Pain That Travels Down the Arm",
+        "primaryKeyword": "neck pain radiating down arm",
+        "secondaryKeywords": ["cervical radiculopathy"]
+      },
+      "why": "Sits between the existing cervical protrusion and carpal tunnel posts and captures the symptom phrasing people actually use.",
+      "internalLinks": ["/blog/protusion-discal-cervical", "/sintomas/dolor-de-cuello", "/blog/pinzamiento-nervio-trapecio"]
+    },
+    {
+      "week": 35,
+      "date": "2027-05-10",
+      "status": "pending",
+      "cluster": "commercial",
+      "priority": "P2",
+      "intent": "trust-social-proof",
+      "wordTarget": 1200,
+      "es": {
+        "slug": "quiropractica-en-el-deporte-profesional",
+        "title": "Quiropráctica en el deporte de élite: qué hacen realmente los equipos",
+        "primaryKeyword": "quiropráctica deporte profesional",
+        "secondaryKeywords": ["quiropráctico equipos deportivos", "quiropráctica rendimiento deportivo"]
+      },
+      "en": {
+        "slug": "chiropractic-in-professional-sport",
+        "title": "Chiropractic in Elite Sport: What Teams Actually Do",
+        "primaryKeyword": "chiropractic professional sports",
+        "secondaryKeywords": ["chiropractic athletic performance"]
+      },
+      "why": "Social-proof content that lifts perceived credibility across the whole site and supports the deportistas hub.",
+      "internalLinks": ["/para-quien-sirve-la-quiropractica/deportistas", "/que-es-la-quiropractica"]
+    },
+    {
+      "week": 36,
+      "date": "2027-05-17",
+      "status": "pending",
+      "cluster": "audience",
+      "priority": "P2",
+      "intent": "parent-informational",
+      "wordTarget": 1200,
+      "audienceHub": "/para-quien-sirve-la-quiropractica/bebes-y-ninos",
+      "es": {
+        "slug": "postura-en-ninos-cuando-preocuparse",
+        "title": "La postura de tu hijo: qué es normal y cuándo conviene revisarla",
+        "primaryKeyword": "postura niños cuándo preocuparse",
+        "secondaryKeywords": ["niño encorvado", "revisión postural infantil", "escoliosis infantil signos"]
+      },
+      "en": {
+        "slug": "childrens-posture-when-to-worry",
+        "title": "Your Child's Posture: What's Normal and When to Check",
+        "primaryKeyword": "children posture when to worry",
+        "secondaryKeywords": ["signs of scoliosis in children"]
+      },
+      "why": "Parent-anxiety search with high volume, and it connects the existing adolescent-scoliosis and backpack posts into a proper cluster.",
+      "internalLinks": ["/blog/escoliosis-adolescencia", "/blog/como-seleccionar-la-mochila-perfecta-para-tus-hijo", "/para-quien-sirve-la-quiropractica/bebes-y-ninos"]
+    },
+    {
+      "week": 37,
+      "date": "2027-05-24",
+      "status": "pending",
+      "cluster": "condition",
+      "priority": "P2",
+      "intent": "informational-reassurance",
+      "wordTarget": 1100,
+      "es": {
+        "slug": "dolor-intercostal-y-costillas",
+        "title": "Dolor intercostal: por qué asusta tanto y qué suele ser en realidad",
+        "primaryKeyword": "dolor intercostal",
+        "secondaryKeywords": ["dolor en las costillas al respirar", "dolor costal izquierdo"]
+      },
+      "en": {
+        "slug": "intercostal-and-rib-pain",
+        "title": "Intercostal Rib Pain: Why It's So Frightening and What It Usually Is",
+        "primaryKeyword": "intercostal rib pain",
+        "secondaryKeywords": ["rib pain when breathing"]
+      },
+      "why": "High-anxiety symptom search (people fear cardiac or pulmonary causes). Reassurance content earns strong engagement and links.",
+      "angle": "Must open by naming the red flags that require emergency care before discussing mechanical causes. Non-negotiable for this topic.",
+      "reviewRequired": "clinician",
+      "internalLinks": ["/blog/dolor-de-espalda-media", "/sintomas/dolor-de-espalda"]
+    },
+    {
+      "week": 38,
+      "date": "2027-05-31",
+      "status": "pending",
+      "cluster": "english",
+      "priority": "P1",
+      "intent": "expat-lifestyle",
+      "wordTarget": 1300,
+      "enFirst": true,
+      "en": {
+        "slug": "digital-nomad-back-pain-valencia",
+        "title": "Digital Nomad Back Pain: Coworking, Cafés and Your Spine in Valencia",
+        "primaryKeyword": "digital nomad back pain",
+        "secondaryKeywords": ["laptop posture coworking", "remote work back pain Valencia"]
+      },
+      "es": {
+        "slug": "nomadas-digitales-dolor-de-espalda-valencia",
+        "title": "Nómadas digitales y dolor de espalda: coworkings, cafés y tu columna",
+        "primaryKeyword": "dolor de espalda teletrabajo",
+        "secondaryKeywords": []
+      },
+      "why": "Valencia is a top-ranked digital-nomad city and this audience has both the problem and the disposable income. Nothing on the site speaks to them.",
+      "angle": "Make it Valencia-specific: name the reality of working from cafés and coworkings, laptop-on-table height, the 3-month visa-stay pattern.",
+      "internalLinks": ["/en/who-is-chiropractic-for/workers", "/en/blog/10-chiropractor-backed-micro-stretches-you-can-do-on-your-desk", "/en/book-appointment"]
+    },
+    {
+      "week": 39,
+      "date": "2027-06-07",
+      "status": "pending",
+      "cluster": "audience",
+      "priority": "P2",
+      "intent": "seasonal-lifestyle",
+      "wordTarget": 1000,
+      "audienceHub": "/para-quien-sirve-la-quiropractica/trabajadores",
+      "es": {
+        "slug": "estudiar-ocho-horas-sin-destrozar-la-espalda",
+        "title": "Época de exámenes: ocho horas estudiando sin destrozarte la espalda",
+        "primaryKeyword": "dolor de espalda estudiar",
+        "secondaryKeywords": ["postura para estudiar", "dolor de cuello estudiando"]
+      },
+      "en": {
+        "slug": "studying-eight-hours-without-back-pain",
+        "title": "Exam Season: Eight Hours of Studying Without Wrecking Your Back",
+        "primaryKeyword": "back pain from studying",
+        "secondaryKeywords": ["study posture"]
+      },
+      "why": "Valencia has a very large student population and June exam season is a reliable annual spike. Low competition.",
+      "internalLinks": ["/blog/trabajas-en-oficina-10-micro-estiramientos-avalados", "/sintomas/dolor-de-cuello"]
+    },
+    {
+      "week": 40,
+      "date": "2027-06-14",
+      "status": "pending",
+      "cluster": "seasonal",
+      "priority": "P2",
+      "intent": "seasonal-lifestyle",
+      "wordTarget": 1000,
+      "es": {
+        "slug": "chanclas-playa-y-dolor-de-espalda",
+        "title": "Chanclas, playa y dolor de espalda: el verano tiene letra pequeña",
+        "primaryKeyword": "chanclas dolor de espalda",
+        "secondaryKeywords": ["caminar por la arena espalda", "calzado verano dolor de pies"]
+      },
+      "en": {
+        "slug": "flip-flops-beach-and-back-pain",
+        "title": "Flip-Flops, Sand and Back Pain: Summer's Small Print",
+        "primaryKeyword": "flip flops back pain",
+        "secondaryKeywords": ["walking on sand back pain"]
+      },
+      "why": "Light seasonal content with genuine local relevance (Malva-rosa, Patacona) that keeps publishing cadence through a low-intent month.",
+      "internalLinks": ["/blog/fascitis-plantar-y-cadena-posterior", "/sintomas/lumbalgia"]
+    },
+    {
+      "week": 41,
+      "date": "2027-06-21",
+      "status": "pending",
+      "cluster": "condition",
+      "priority": "P2",
+      "intent": "informational",
+      "wordTarget": 1100,
+      "es": {
+        "slug": "piernas-inquietas-y-descanso",
+        "title": "Síndrome de piernas inquietas: por qué te arruina el sueño",
+        "primaryKeyword": "síndrome de piernas inquietas",
+        "secondaryKeywords": ["piernas inquietas por la noche", "no puedo dormir piernas"]
+      },
+      "en": {
+        "slug": "restless-legs-and-sleep",
+        "title": "Restless Legs Syndrome: Why It Ruins Your Sleep",
+        "primaryKeyword": "restless legs syndrome",
+        "secondaryKeywords": ["restless legs at night"]
+      },
+      "why": "High volume, poorly served by chiropractic sites, and it links naturally to the existing sleep and lumbar content.",
+      "angle": "Be careful not to overclaim. Cover the medical causes properly (iron, medication) and position the lumbar contribution as one factor among several.",
+      "reviewRequired": "clinician",
+      "internalLinks": ["/blog/dormir-boca-abajo-riesgos-y-beneficios", "/sintomas/lumbalgia"]
+    },
+    {
+      "week": 42,
+      "date": "2027-06-28",
+      "status": "pending",
+      "cluster": "local",
+      "priority": "P3",
+      "intent": "local-commercial",
+      "wordTarget": 900,
+      "es": {
+        "slug": "quiropractico-patraix-valencia",
+        "title": "Quiropráctico en Patraix: cómo llegar desde tu barrio",
+        "primaryKeyword": "quiropráctico Patraix",
+        "secondaryKeywords": ["quiropráctica Patraix Valencia"]
+      },
+      "en": {
+        "slug": "chiropractor-in-patraix-valencia",
+        "title": "Chiropractor Near Patraix, Valencia",
+        "primaryKeyword": "chiropractor Patraix Valencia",
+        "secondaryKeywords": []
+      },
+      "why": "Patraix borders l'Eixample, so it is the shortest genuine catchment extension from the Vivons clinic.",
+      "internalLinks": ["/sobre-nosotros/centro-quiropractico-valencia", "/reserva-cita"]
+    },
+    {
+      "week": 43,
+      "date": "2027-07-05",
+      "status": "pending",
+      "cluster": "audience",
+      "priority": "P3",
+      "intent": "seasonal-lifestyle",
+      "wordTarget": 1000,
+      "es": {
+        "slug": "vuelos-largos-y-espalda",
+        "title": "Vuelos largos y espalda: qué funciona de verdad y qué es un mito",
+        "primaryKeyword": "dolor de espalda en el avión",
+        "secondaryKeywords": ["cómo sentarse en vuelos largos", "maleta espalda viaje"]
+      },
+      "en": {
+        "slug": "long-haul-flights-and-your-back",
+        "title": "Long-Haul Flights and Your Back: What Works and What's a Myth",
+        "primaryKeyword": "back pain on planes",
+        "secondaryKeywords": ["long flight posture"]
+      },
+      "why": "Peak holiday season, and it is a natural fit for the expat audience who fly home in summer.",
+      "internalLinks": ["/blog/viajes-largos-en-coche-sin-dolor-de-espalda", "/sintomas/dolor-de-espalda"]
+    },
+    {
+      "week": 44,
+      "date": "2027-07-12",
+      "status": "pending",
+      "cluster": "condition",
+      "priority": "P2",
+      "intent": "informational",
+      "wordTarget": 1100,
+      "es": {
+        "slug": "dolor-dorsal-alto-entre-omoplatos",
+        "title": "Dolor entre los omóplatos: la zona de la espalda que todos ignoran",
+        "primaryKeyword": "dolor entre los omoplatos",
+        "secondaryKeywords": ["dolor dorsal alto", "dolor espalda alta causas"]
+      },
+      "en": {
+        "slug": "pain-between-the-shoulder-blades",
+        "title": "Pain Between the Shoulder Blades: The Back's Forgotten Zone",
+        "primaryKeyword": "pain between shoulder blades",
+        "secondaryKeywords": ["upper back pain causes"]
+      },
+      "why": "Very high-volume symptom phrasing. The existing middle-back post targets a narrower term and does not capture this.",
+      "internalLinks": ["/blog/dolor-de-espalda-media", "/blog/pinzamiento-nervio-trapecio", "/sintomas/dolor-de-espalda"]
+    },
+    {
+      "week": 45,
+      "date": "2027-07-19",
+      "status": "pending",
+      "cluster": "commercial",
+      "priority": "P1",
+      "intent": "objection-handling",
+      "wordTarget": 1300,
+      "es": {
+        "slug": "se-puede-ir-al-quiropractico-con-hernia-discal",
+        "title": "¿Se puede ir al quiropráctico con una hernia discal?",
+        "primaryKeyword": "quiropráctico con hernia discal",
+        "secondaryKeywords": ["es peligroso el quiropráctico con hernia", "hernia discal ajuste quiropráctico"]
+      },
+      "en": {
+        "slug": "can-you-see-a-chiropractor-with-a-herniated-disc",
+        "title": "Can You See a Chiropractor With a Herniated Disc?",
+        "primaryKeyword": "chiropractor herniated disc",
+        "secondaryKeywords": ["is chiropractic safe with a disc herniation"]
+      },
+      "why": "Specific high-intent objection. The site has a herniated-disc symptom page but never answers the safety question that actually blocks the booking.",
+      "reviewRequired": "clinician",
+      "internalLinks": ["/sintomas/hernia-discal", "/blog/es-bueno-el-calor-para-las-hernias-discales", "/blog/es-peligrosa-la-quiropractica-efectos-secundarios"]
+    },
+    {
+      "week": 46,
+      "date": "2027-07-26",
+      "status": "pending",
+      "cluster": "english",
+      "priority": "P2",
+      "intent": "expat-informational",
+      "wordTarget": 1200,
+      "enFirst": true,
+      "en": {
+        "slug": "moving-to-valencia-healthcare-for-back-pain",
+        "title": "Just Moved to Valencia? Sorting Out Back Pain Care",
+        "primaryKeyword": "moving to Valencia healthcare back pain",
+        "secondaryKeywords": ["healthcare Valencia expats", "finding a doctor Valencia English"]
+      },
+      "es": {
+        "slug": "acabas-de-mudarte-a-valencia-dolor-de-espalda",
+        "title": "Acabas de mudarte a Valencia: cómo organizar el cuidado de tu espalda",
+        "primaryKeyword": "sanidad Valencia recién llegados",
+        "secondaryKeywords": []
+      },
+      "why": "Captures expats at the exact moment they are setting up local services. High intent, essentially zero competition from clinics.",
+      "internalLinks": ["/en/blog/chiropractic-in-spain-guide-for-expats", "/en/about-us/contact", "/en/book-appointment"]
+    },
+    {
+      "week": 47,
+      "date": "2027-08-02",
+      "status": "pending",
+      "cluster": "condition",
+      "priority": "P2",
+      "intent": "informational",
+      "wordTarget": 1200,
+      "es": {
+        "slug": "vertigo-cervicogenico-vs-vertigo-de-oido",
+        "title": "Vértigo cervicogénico o del oído: cómo distinguirlos",
+        "primaryKeyword": "vértigo cervicogénico",
+        "secondaryKeywords": ["mareos por cervicales", "vértigo cervical o vppb"]
+      },
+      "en": {
+        "slug": "cervicogenic-vs-inner-ear-vertigo",
+        "title": "Cervicogenic or Inner-Ear Vertigo: How to Tell Them Apart",
+        "primaryKeyword": "cervicogenic vertigo",
+        "secondaryKeywords": ["dizziness from neck"]
+      },
+      "why": "Deepens an existing strength. The site has a vertigo post and two ear-related posts, but nothing handles the differential that searchers are actually asking about.",
+      "internalLinks": ["/blog/quiropractica-para-vertigo-solucion-natural-y-efectiva", "/blog/puede-la-cervical-afectar-el-oido-descubre-como-y-por-que", "/sintomas/dolor-de-cervicales-y-cabeza"]
+    },
+    {
+      "week": 48,
+      "date": "2027-08-09",
+      "status": "pending",
+      "cluster": "audience",
+      "priority": "P3",
+      "intent": "seasonal-lifestyle",
+      "wordTarget": 1000,
+      "audienceHub": "/para-quien-sirve-la-quiropractica/deportistas",
+      "es": {
+        "slug": "natacion-hombro-y-cuello",
+        "title": "Nadar y el hombro del nadador: cuándo el crol te está pasando factura",
+        "primaryKeyword": "hombro de nadador",
+        "secondaryKeywords": ["dolor de cuello nadando crol", "lesiones natación hombro"]
+      },
+      "en": {
+        "slug": "swimming-shoulder-and-neck",
+        "title": "Swimmer's Shoulder: When Freestyle Starts Costing You",
+        "primaryKeyword": "swimmers shoulder",
+        "secondaryKeywords": ["neck pain swimming freestyle"]
+      },
+      "why": "Peak swimming season in a coastal city, and it pairs with the week 18 shoulder post to build a shoulder cluster.",
+      "internalLinks": ["/blog/dolor-de-hombro-manguito-rotador", "/para-quien-sirve-la-quiropractica/deportistas"]
+    },
+    {
+      "week": 49,
+      "date": "2027-08-16",
+      "status": "pending",
+      "cluster": "maintenance",
+      "priority": "P0",
+      "intent": "refresh-sprint",
+      "action": "refresh-only",
+      "wordTarget": 0,
+      "why": "August is the lowest-traffic week of the year in Spain, which makes it the right time to spend a slot on depth rather than a new post. Expand the five thinnest existing posts to 1200+ words each.",
+      "refreshTargets": [
+        "content/blog/es/diferencias-entre-artritis-y-artrosis.md",
+        "content/blog/es/tunel-carpiano-causas-y-soluciones.md",
+        "content/blog/es/trabajas-en-oficina-10-micro-estiramientos-avalados.md",
+        "content/blog/es/coxalgia-que-es-sintomas-y-beneficios-de-la-quiropractica.md",
+        "content/blog/es/contracturas-musculares-lumbares.md"
+      ]
+    },
+    {
+      "week": 50,
+      "date": "2027-08-23",
+      "status": "pending",
+      "cluster": "local",
+      "priority": "P3",
+      "intent": "local-commercial",
+      "wordTarget": 900,
+      "es": {
+        "slug": "quiropractico-torrent-horta-sud",
+        "title": "Quiropráctico para Torrent y l'Horta Sud",
+        "primaryKeyword": "quiropráctico Torrent",
+        "secondaryKeywords": ["quiropráctico Horta Sud", "quiropráctico Mislata Xirivella"]
+      },
+      "en": {
+        "slug": "chiropractor-for-torrent-and-horta-sud",
+        "title": "Chiropractor for Torrent and l'Horta Sud",
+        "primaryKeyword": "chiropractor Torrent Valencia",
+        "secondaryKeywords": []
+      },
+      "why": "First expansion beyond the city proper. Torrent alone has over 80,000 residents and far fewer chiropractic options than central Valencia.",
+      "internalLinks": ["/sobre-nosotros/centro-quiropractico-valencia", "/reserva-cita"]
+    },
+    {
+      "week": 51,
+      "date": "2027-08-30",
+      "status": "pending",
+      "cluster": "seasonal",
+      "priority": "P1",
+      "intent": "seasonal-parent",
+      "wordTarget": 1300,
+      "action": "refresh-and-expand",
+      "refreshTarget": "content/blog/es/como-seleccionar-la-mochila-perfecta-para-tus-hijo.md",
+      "seasonalHook": "Vuelta al cole. Publish the week before term starts.",
+      "es": {
+        "slug": "como-seleccionar-la-mochila-perfecta-para-tus-hijo",
+        "title": "Vuelta al cole: cómo elegir la mochila y cuánto peso es demasiado",
+        "primaryKeyword": "mochila escolar peso niños",
+        "secondaryKeywords": ["cuánto peso puede llevar un niño en la mochila", "mochila de ruedas o de espalda"]
+      },
+      "en": {
+        "slug": "select-the-perfect-backpack-for-your-child",
+        "title": "Back to School: Choosing the Backpack and How Much Weight Is Too Much",
+        "primaryKeyword": "school backpack weight children",
+        "secondaryKeywords": ["backpack or trolley bag for school"]
+      },
+      "why": "Reliable annual spike and the existing post is thin. Expanding beats writing new, since the URL already has history.",
+      "internalLinks": ["/para-quien-sirve-la-quiropractica/bebes-y-ninos", "/blog/postura-en-ninos-cuando-preocuparse", "/blog/escoliosis-adolescencia"]
+    },
+    {
+      "week": 52,
+      "date": "2027-09-06",
+      "status": "pending",
+      "cluster": "commercial",
+      "priority": "P0",
+      "intent": "pillar",
+      "wordTarget": 2500,
+      "action": "pillar-page",
+      "es": {
+        "slug": "guia-quiropractica-valencia",
+        "title": "Quiropráctica en Valencia: la guía completa (precios, primera visita, cuándo acudir)",
+        "primaryKeyword": "quiropráctica Valencia",
+        "secondaryKeywords": ["quiropráctico Valencia", "centro quiropráctico Valencia", "quiropraxia Valencia"]
+      },
+      "en": {
+        "slug": "chiropractic-in-valencia-complete-guide",
+        "title": "Chiropractic in Valencia: The Complete Guide",
+        "primaryKeyword": "chiropractic Valencia",
+        "secondaryKeywords": ["chiropractor Valencia Spain"]
+      },
+      "why": "Closes the year by consolidating the whole corpus into one pillar page targeting the single most valuable head term. Only worth doing at week 52, once there are 50+ supporting articles to link out to.",
+      "angle": "Genuine hub page. Every cluster built during the year gets a section and a link. This is what converts the year's individual posts into topical authority.",
+      "internalLinks": ["/que-es-la-quiropractica", "/sobre-nosotros/centro-quiropractico-valencia", "/reserva-cita", "/blog/cuanto-cuesta-un-quiropractico", "/blog/primera-visita-al-quiropractico-que-esperar"]
+    }
+  ]
+}
