@@ -84,7 +84,6 @@ export const BLOG_SLUG_PAIRS: { es: string; en: string | null }[] = [
   { es: 'escoliosis-adolescencia', en: 'adolescent-scoliosis' },
   { es: 'esclerosis-multiple-agresiva', en: 'aggressive-multiple-sclerosis' },
   { es: 'articulacion-sacroiliaca-inflamada-sintomas-y-soluciones', en: 'solutions-for-inflamed-sacroiliac-joint' },
-  { es: 'dolor-de-espalda', en: 'back-pain' },
   { es: 'los-mejores-quiropracticos-valencia', en: 'best-chiropractors-in-valencia' },
   { es: 'lactancia-y-quiropractica', en: 'breastfeeding-and-chiropractic' },
   { es: 'flujo-marron-dolor-de-espalda-baja', en: 'brown-discharge-and-lower-back-pain' },
