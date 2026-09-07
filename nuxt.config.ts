@@ -71,25 +71,32 @@ export default defineNuxtConfig({
       script: [
         {
           key: 'gtm',
-          type: 'text/plain',
+          type: 'fs-cc',
           innerHTML: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-NTMKRQV');`,
         },
         {
           key: 'gtag-ads',
-          type: 'text/plain',
+          type: 'fs-cc',
           src: 'https://www.googletagmanager.com/gtag/js?id=AW-17548404792',
           async: true,
         },
         {
           key: 'gtag-config',
-          type: 'text/plain',
+          type: 'fs-cc',
           innerHTML: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','AW-17548404792');gtag('config','G-7RZ1YECNKZ');`,
         },
         {
           key: 'meta-pixel',
-          type: 'text/plain',
+          type: 'fs-cc',
           innerHTML: `!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.agent='plwebflow';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');fbq('init','871158915207190');fbq('track','PageView');`,
         },
+        // `type: 'fs-cc'` is what makes these inert until the visitor consents:
+        // the browser will not execute an unknown script type, and Finsweet
+        // collects them with `querySelectorAll('script[type="fs-cc"]')` and
+        // rewrites the type once the analytics category is granted. The exact
+        // string matters -- with any other placeholder type (`text/plain`, say)
+        // Finsweet never sees the scripts, so they stay blocked forever and the
+        // tags silently never fire, consent or not.
       ].map((s) => ({ ...s, 'fs-cc-category': 'analytics' })) as any,
     },
   },
