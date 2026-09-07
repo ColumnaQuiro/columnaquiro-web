@@ -26,7 +26,7 @@ Be wary of anyone who promises to "cure" serious diseases through adjustments al
 
 ## What to expect from a good clinic
 
-At ColumnaQuiro, for example, every patient receives a detailed initial assessment, a clear explanation of the findings, and a care plan tailored to their goals — whether that's relieving a specific pain or maintaining long-term spinal health.
+At [ColumnaQuiro](/en), our chiropractic centre in Valencia, every patient receives a detailed initial assessment, a clear explanation of the findings, and a care plan tailored to their goals — whether that's relieving a specific pain or maintaining long-term spinal health.
 
 ## Frequently asked questions
 
