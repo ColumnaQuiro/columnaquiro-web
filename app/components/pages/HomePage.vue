@@ -36,8 +36,8 @@ useSeo({
 const content = {
   es: {
     eyebrow: 'Bienestar natural',
-    heroTitle: 'Del dolor a mejorar tu rendimiento de forma natural.',
-    heroSubtitle: '',
+    heroTitle: 'Tu centro quiropráctico de confianza en Valencia',
+    heroSubtitle: 'Del dolor a mejorar tu rendimiento de forma natural.',
     heroBody:
       'Cuidamos tu sistema nervioso para que tu cuerpo recupere su capacidad innata de sanar y prosperar.',
     heroButton: 'Empieza hoy →',

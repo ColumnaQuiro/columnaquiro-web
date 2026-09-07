@@ -9,12 +9,12 @@ const { locale } = useAppI18n()
 
 const seoText = {
   es: {
-    title: 'Nuestro centro | ColumnaQuiro',
+    title: 'Nuestro centro quiropráctico en Valencia | ColumnaQuiro',
     description:
       'Descubre el interior de nuestro centro quiropráctico en Valencia: sala de espera, sala de primera visita, sala de ajustes y panel de testimonios.',
   },
   en: {
-    title: 'Our center | ColumnaQuiro',
+    title: 'Our Chiropractic Center in Valencia | ColumnaQuiro',
     description:
       'Discover inside our chiropractic center in Valencia: the waiting room, first-visit room, adjustment room, and testimonial panel.',
   },
@@ -27,7 +27,7 @@ useSeo({
 const content = {
   es: {
     eyebrow: 'Descubre nuestro centro quiropráctico',
-    title: 'Descubre nuestras salas',
+    title: 'Nuestro centro quiropráctico en Valencia',
     intro:
       'En nuestro centro, entendemos que cada persona es única, y tus necesidades de salud también lo son. Estamos aquí para guiarte en tu viaje hacia el bienestar y ayudarte a alcanzar tu máximo potencial de salud. Si estás buscando una solución natural y efectiva para tus problemas de salud, ¡has venido al lugar correcto!',
     button: 'Reserva tu visita',
@@ -77,7 +77,7 @@ const content = {
   },
   en: {
     eyebrow: 'Discover our chiropractic center',
-    title: 'Discover our rooms',
+    title: 'Our Chiropractic Center in Valencia',
     intro:
       "At our center, we understand that each person is unique, and so are your health needs. We're here to guide you on your journey to wellness and help you achieve your maximum health potential. If you're looking for a natural and effective solution to your health problems, you've come to the right place!",
     button: 'Book your visit',
