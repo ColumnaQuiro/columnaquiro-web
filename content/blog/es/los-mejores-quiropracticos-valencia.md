@@ -26,7 +26,7 @@ Desconfía de quien promete "curar" enfermedades graves solo con ajustes, de qui
 
 ## Lo que puedes esperar de una buena clínica
 
-En ColumnaQuiro, por ejemplo, cada paciente recibe una valoración inicial detallada, una explicación clara de los hallazgos y un plan de cuidado adaptado a sus objetivos, ya sea aliviar un dolor puntual o mantener la salud de la columna a largo plazo.
+En [ColumnaQuiro](/), nuestro centro quiropráctico en Valencia, cada paciente recibe una valoración inicial detallada, una explicación clara de los hallazgos y un plan de cuidado adaptado a sus objetivos, ya sea aliviar un dolor puntual o mantener la salud de la columna a largo plazo.
 
 ## Preguntas frecuentes
 

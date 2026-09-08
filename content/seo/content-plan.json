@@ -441,7 +441,7 @@
         "secondaryKeywords": ["back pain from lifting"]
       },
       "why": "January resolution traffic is the largest fitness search spike of the year and nothing on the site targets it.",
-      "internalLinks": ["/para-quien-sirve-la-quiropractica/deportistas", "/sintomas/lumbalgia", "/blog/dolor-de-espalda"]
+      "internalLinks": ["/para-quien-sirve-la-quiropractica/deportistas", "/sintomas/lumbalgia", "/sintomas/dolor-de-espalda"]
     },
     {
       "week": 18,
@@ -656,7 +656,7 @@
         "secondaryKeywords": ["do I need an x-ray for back pain"]
       },
       "why": "A known trust flashpoint (clinics that X-ray everyone). Taking the evidence-based position differentiates sharply and reassures cautious searchers.",
-      "internalLinks": ["/como-funciona", "/blog/dolor-de-espalda"]
+      "internalLinks": ["/como-funciona", "/sintomas/dolor-de-espalda"]
     },
     {
       "week": 27,
@@ -1270,7 +1270,7 @@
         "secondaryKeywords": ["chiropractor Valencia Spain"]
       },
       "why": "Closes the year by consolidating the whole corpus into one pillar page targeting the single most valuable head term. Only worth doing at week 52, once there are 50+ supporting articles to link out to.",
-      "angle": "Genuine hub page. Every cluster built during the year gets a section and a link. This is what converts the year's individual posts into topical authority.",
+      "angle": "Genuine hub page. Every cluster built during the year gets a section and a link. This is what converts the year's individual posts into topical authority. Guardrail: this page's primary keyword overlaps the homepage title and /sobre-nosotros/centro-quiropractico-valencia — before writing, assign explicit roles (home = brand/conversion, centro page = facility/E-E-A-T, this pillar = the page that actually ranks for 'quiropráctica Valencia') so the three don't cannibalize each other.",
       "internalLinks": ["/que-es-la-quiropractica", "/sobre-nosotros/centro-quiropractico-valencia", "/reserva-cita", "/blog/cuanto-cuesta-un-quiropractico", "/blog/primera-visita-al-quiropractico-que-esperar"]
     }
   ]

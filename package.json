@@ -7,7 +7,7 @@
     "dev": "nuxt dev",
     "build": "nuxt build",
     "generate": "nuxt generate",
-    "postgenerate": "node scripts/fix-sitemap-trailing-slash.mjs",
+    "postgenerate": "node scripts/fix-sitemap-trailing-slash.mjs && node scripts/write-trailing-slash-redirects.mjs",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "typecheck": "nuxt typecheck"
