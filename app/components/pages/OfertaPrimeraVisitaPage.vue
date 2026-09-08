@@ -43,7 +43,7 @@ const OFERTA_PRIMERA_VISITA_TYPE_ID = '91a6b6d9-1bb3-4a66-aa8c-f17ee66e4d1e'
 const bookingUrl = `https://app.quiroflow.com/book/columnaquiro?type=${OFERTA_PRIMERA_VISITA_TYPE_ID}`
 // Tracks the booking widget's own postMessage'd height so a step never gets
 // clipped or shows a scrollbar nested inside this page's scrollbar.
-const { heightPx } = useIframeAutoHeight()
+const { heightPx } = useQuiroFlowWidget()
 </script>
 
 <template>

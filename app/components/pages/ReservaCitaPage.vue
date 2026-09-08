@@ -32,13 +32,13 @@ useSeo({
 // Migrated from PracticeHub's embedded widget to QuiroFlow's own public
 // booking page -- iframed rather than linked out so this page keeps the same
 // "book right here" layout it always had. The iframe height tracks the
-// widget's own postMessage'd height (useIframeAutoHeight) so a step never
+// widget's own postMessage'd height (useQuiroFlowWidget) so a step never
 // gets clipped or shows a scrollbar nested inside this page's scrollbar.
 // "Primera visita" is the standard (non-promo) first-visit type -- this is
 // the general booking page, not one of the discounted promo landing pages.
 const PRIMERA_VISITA_TYPE_ID = '70a38844-ebb9-4a42-b59e-dd6720160e0d'
 const bookingUrl = `https://app.quiroflow.com/book/columnaquiro?type=${PRIMERA_VISITA_TYPE_ID}`
-const { heightPx } = useIframeAutoHeight()
+const { heightPx } = useQuiroFlowWidget()
 </script>
 
 <template>
