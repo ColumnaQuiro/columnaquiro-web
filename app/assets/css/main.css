@@ -29,6 +29,11 @@
 html {
   scroll-behavior: smooth;
   overflow-x: hidden;
+  /* Neither html nor body paints a background otherwise, so the browser's
+     default white shows through in the bottom overscroll/rubber-band area
+     on mobile instead of the footer's own color. Matches the footer
+     (--color-forest) and the theme-color meta in nuxt.config.ts. */
+  background-color: var(--color-forest);
 }
 
 body {
