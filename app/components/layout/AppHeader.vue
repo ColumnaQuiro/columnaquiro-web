@@ -146,11 +146,29 @@ function closeMenus() {
       </div>
 
       <button
-        class="text-forest md:hidden"
+        class="-mr-2 flex items-center justify-center p-2 text-forest md:hidden"
         :aria-label="t('nav.openMenu')"
+        :aria-expanded="mobileOpen"
         @click="mobileOpen = !mobileOpen"
       >
-        ☰
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" class="h-7 w-7">
+          <path
+            v-if="!mobileOpen"
+            d="M3.75 6.75h16.5M3.75 12h16.5M3.75 17.25h16.5"
+            stroke="currentColor"
+            stroke-width="1.75"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            v-else
+            d="M6 6l12 12M18 6L6 18"
+            stroke="currentColor"
+            stroke-width="1.75"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
       </button>
     </div>
 
