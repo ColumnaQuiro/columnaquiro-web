@@ -1,6 +1,12 @@
+# publish was "dist" here, which `nuxt generate` (Nuxt 4) has never
+# written to -- it emits .output/public. Netlify's dashboard had the
+# correct value set, and a dashboard setting overrides netlify.toml on
+# Netlify's own builds, so the wrong value here never surfaced. The CLI
+# reads this file directly, so a CLI deploy published a directory that
+# does not exist and served 404s. Both now agree.
 [build]
   command = "npm run generate"
-  publish = "dist"
+  publish = ".output/public"
 
 [build.environment]
   NODE_VERSION = "22.19.0"
