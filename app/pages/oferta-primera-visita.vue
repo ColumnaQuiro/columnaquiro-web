@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import OfertaPrimeraVisitaPage from '@/components/pages/OfertaPrimeraVisitaPage.vue'
+import FirstVisitOfferPage from '@/components/pages/FirstVisitOfferPage.vue'
 </script>
 
 <template>
-  <OfertaPrimeraVisitaPage />
+  <FirstVisitOfferPage :slot-count="15" />
 </template>
