@@ -40,10 +40,10 @@ const content = {
     ctaBook: 'Reservar mi primera visita',
     ctaCall: 'Llamar al centro',
     trust: [
-      '4,9 sobre 5 en Google',
-      'Más de 5.000 pacientes',
-      'Quiroprácticos titulados',
-      'No pagas nada al reservar',
+      { icon: 'star', label: '4,9 sobre 5 en Google' },
+      { icon: 'people', label: 'Más de 5.000 pacientes' },
+      { icon: 'verified', label: 'Quiroprácticos titulados' },
+      { icon: 'card', label: 'No pagas nada al reservar' },
     ],
     bookingTitle: 'Elige tu fecha y hora',
     bookingNote: 'No pagas nada al reservar: abonas los 50€ en el centro, el día de tu visita.',
@@ -92,10 +92,10 @@ const content = {
     ctaBook: 'Book my first visit',
     ctaCall: 'Call the clinic',
     trust: [
-      '4.9 out of 5 on Google',
-      'More than 5,000 patients',
-      'Qualified chiropractors',
-      'Nothing to pay when booking',
+      { icon: 'star', label: '4.9 out of 5 on Google' },
+      { icon: 'people', label: 'More than 5,000 patients' },
+      { icon: 'verified', label: 'Qualified chiropractors' },
+      { icon: 'card', label: 'Nothing to pay when booking' },
     ],
     bookingTitle: 'Choose your date and time',
     bookingNote: 'Nothing to pay when booking: you pay the €50 at the clinic, on the day of your visit.',
@@ -172,6 +172,15 @@ const benefitContent = {
   ],
 }
 
+const TRUST_ICONS: Record<string, string> = {
+  star: 'M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z',
+  people:
+    'M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z',
+  verified:
+    'M23 12l-2.44-2.79.34-3.69-3.61-.82-1.89-3.2L12 2.96 8.6 1.5 6.71 4.69 3.1 5.5l.34 3.7L1 12l2.44 2.79-.34 3.7 3.61.82L8.6 22.5l3.4-1.47 3.4 1.46 1.89-3.19 3.61-.82-.34-3.69L23 12zm-12.91 4.72l-3.8-3.81 1.48-1.48 2.32 2.33 5.85-5.87 1.48 1.48-7.33 7.35z',
+  card: 'M20 4H4c-1.11 0-1.99.89-1.99 2L2 18c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V6c0-1.11-.89-2-2-2zm0 14H4v-6h16v6zm0-10H4V6h16v2z',
+}
+
 const c = computed(() => content[locale.value])
 const benefits = computed(() => benefitContent[locale.value])
 const telHref = computed(() => `tel:+34${clinic.phone.replace(/\s/g, '')}`)
@@ -241,9 +250,21 @@ const { heightPx } = useQuiroFlowWidget()
           >
         </div>
 
-        <ul class="mt-8 flex flex-wrap gap-x-6 gap-y-2 text-sm text-body/70">
-          <li v-for="item in c.trust" :key="item" class="flex items-center gap-2">
-            <span aria-hidden="true" class="h-1.5 w-1.5 rounded-full bg-gold-dark" />{{ item }}
+        <ul class="mt-8 flex flex-wrap gap-2">
+          <li
+            v-for="item in c.trust"
+            :key="item.label"
+            class="inline-flex items-center gap-2 rounded-full border border-forest/10 bg-white py-2 pl-3 pr-4 text-sm text-body/80 shadow-[0_1px_2px_0_rgba(0,0,0,0.04)]"
+          >
+            <svg
+              aria-hidden="true"
+              viewBox="0 0 24 24"
+              class="h-4 w-4 shrink-0 text-gold-dark"
+              fill="currentColor"
+            >
+              <path :d="TRUST_ICONS[item.icon]" />
+            </svg>
+            {{ item.label }}
           </li>
         </ul>
       </div>
