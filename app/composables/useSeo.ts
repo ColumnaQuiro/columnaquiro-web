@@ -8,11 +8,20 @@ export interface SeoOptions {
   description: MaybeRefOrGetter<string>
   image?: MaybeRefOrGetter<string | undefined>
   type?: 'website' | 'article'
+  // Ad landing pages reuse the same offer copy across several routes, so all
+  // but the canonical one must stay out of the index -- otherwise they compete
+  // with each other (and with the offer page) for the same organic queries.
+  noindex?: boolean
 }
 
 export function useSeo(options: SeoOptions) {
   const route = useRoute()
   const { locale } = useAppI18n()
+
+  // Goes through @nuxtjs/robots rather than a hand-written meta tag: the module
+  // already renders one `robots` tag per page, and a second would leave two
+  // contradictory directives in the head.
+  if (options.noindex) useRobotsRule('noindex, follow')
 
   const canonicalPath = computed(() => {
     const paths = resolveLocalizedPaths(route.path)
