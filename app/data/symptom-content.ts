@@ -237,30 +237,42 @@ export const symptomContent: Record<string, { es: SymptomContent; en: SymptomCon
     es: {
       title: 'Ciática',
       intro: [
-        'La ciática es el dolor que se produce por la irritación o compresión del nervio ciático, que recorre desde la zona lumbar hasta la pierna.',
+        'La ciática es el dolor causado por la irritación o compresión del nervio ciático, el más largo y grueso del cuerpo. Nace en la zona lumbar, a partir de las raíces nerviosas L4 a S3, recorre el glúteo y desciende por la parte posterior de la pierna hasta el pie. No es una enfermedad en sí misma, sino un síntoma: aparece cuando alguna estructura de la columna lumbar presiona o irrita este nervio.',
+        'Las causas más habituales son una hernia discal lumbar, el estrechamiento del canal espinal (estenosis), el desplazamiento de una vértebra (espondilolistesis) o la contractura del músculo piriforme, que puede comprimir el nervio a su paso por el glúteo. El sobrepeso, el sedentarismo, las malas posturas mantenidas y los movimientos bruscos al levantar peso aumentan el riesgo de que aparezca.',
+        'A diferencia del dolor de espalda general, que suele quedarse localizado en la zona lumbar, la ciática se caracteriza por irradiarse hacia la pierna siguiendo el trayecto del nervio, y suele ir acompañada de hormigueo, adormecimiento o sensación de debilidad en la pierna afectada.',
       ],
       signs: [
-        'Dolor que se irradia desde la zona lumbar hasta la pierna',
-        'Hormigueo o adormecimiento en la pierna',
-        'Molestias al estar sentado durante mucho tiempo',
+        'Dolor que se irradia desde la zona lumbar o el glúteo hasta la pierna, generalmente en un solo lado',
+        'Hormigueo o adormecimiento en la pierna o el pie',
+        'Sensación de debilidad muscular en la pierna afectada',
+        'Dolor que empeora al estar sentado, toser o estornudar',
+        'Alivio parcial del dolor al caminar o cambiar de postura',
       ],
       howChiropracticHelps: [
-        'Los ajustes <a href="/blog/cuanto-cuesta-un-quiropractico" class="font-semibold text-gold-dark underline">quiroprácticos</a> pueden ayudar a reducir la presión sobre el nervio ciático y mejorar la movilidad de la columna lumbar, aliviando el dolor de forma natural.',
+        'Los ajustes <a href="/blog/cuanto-cuesta-un-quiropractico" class="font-semibold text-gold-dark underline">quiroprácticos</a> y las técnicas de movilización de la columna lumbar pueden ayudar a reducir la presión sobre el nervio ciático, mejorar la movilidad de las vértebras implicadas y aliviar el dolor de forma natural.',
+        'El tratamiento suele combinarse con ejercicios específicos de estiramiento y fortalecimiento, y con pautas posturales para el día a día, adaptando el plan de cuidado a la causa concreta y a la intensidad de cada caso.',
       ],
+      note: 'Si el dolor se acompaña de pérdida de fuerza progresiva en la pierna, afecta a ambas piernas, o se acompaña de pérdida de control de la vejiga o los intestinos, acude a un servicio médico de urgencias.',
     },
     en: {
       title: 'Sciatica',
       intro: [
-        'Sciatica is pain caused by irritation or compression of the sciatic nerve, which runs from the lower back down the leg.',
+        'Sciatica is pain caused by irritation or compression of the sciatic nerve, the longest and thickest nerve in the body. It originates in the lower back, from the L4 to S3 nerve roots, runs through the buttock, and travels down the back of the leg to the foot. It isn\'t a condition in itself but a symptom: it appears when a structure in the lumbar spine presses on or irritates this nerve.',
+        'The most common causes are a lumbar herniated disc, narrowing of the spinal canal (stenosis), a vertebra shifting out of place (spondylolisthesis), or tightness in the piriformis muscle, which can compress the nerve as it passes through the buttock. Excess weight, a sedentary lifestyle, sustained poor posture, and sudden movements while lifting heavy objects all increase the risk of it appearing.',
+        'Unlike general back pain, which tends to stay localized in the lower back, sciatica is marked by pain that radiates down the leg along the path of the nerve, usually accompanied by tingling, numbness, or a feeling of weakness in the affected leg.',
       ],
       signs: [
-        'Pain radiating from the lower back down the leg',
-        'Tingling or numbness in the leg',
-        'Discomfort from sitting for long periods',
+        'Pain radiating from the lower back or buttock down the leg, usually on one side',
+        'Tingling or numbness in the leg or foot',
+        'A feeling of muscle weakness in the affected leg',
+        'Pain that worsens when sitting, coughing, or sneezing',
+        'Partial relief when walking or changing position',
       ],
       howChiropracticHelps: [
-        'Chiropractic adjustments can help reduce pressure on the sciatic nerve and improve lower-back mobility, naturally easing the pain.',
+        'Chiropractic adjustments and lumbar spine mobilization techniques can help reduce pressure on the sciatic nerve, improve mobility in the affected vertebrae, and naturally ease the pain.',
+        'Treatment is often combined with specific stretching and strengthening exercises and day-to-day postural guidance, tailoring the care plan to the underlying cause and severity of each case.',
       ],
+      note: 'If the pain comes with progressive leg weakness, affects both legs, or is accompanied by loss of bladder or bowel control, seek urgent medical care.',
     },
   },
   colicos: {
