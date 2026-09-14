@@ -60,6 +60,15 @@ jobs:
           fi
           echo "due=true" >> "$GITHUB_OUTPUT"
           { echo 'text<<BRIEF_EOF'; echo "$OUT"; echo 'BRIEF_EOF'; } >> "$GITHUB_OUTPUT"
+          # Same resolution again as JSON, so the branch name this run is
+          # expected to produce can be derived without parsing the brief text.
+          node scripts/next-article.mjs --week "$(sed -n 's/^WEEK \([0-9]*\).*/\1/p' <<<"$OUT")" --json \
+            | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>{
+                const e=JSON.parse(s).entry;
+                console.log("week="+e.week);
+                console.log("slug="+((e.es&&e.es.slug)||""));
+                console.log("title="+((e.es&&e.es.title)||("Week "+e.week)));
+              })' >> "$GITHUB_OUTPUT"
 
       - if: steps.brief.outputs.due == 'true'
         run: npm ci
@@ -82,3 +91,45 @@ jobs:
             Do not pick a different week. Do not merge the PR you open.
 
             ${{ steps.brief.outputs.text }}
+
+      # The run above is asked to open the PR itself, and its own PR body is
+      # better than anything generated here. But finishing the write and then
+      # not opening the PR leaves the work stranded on a pushed branch with
+      # nothing to review, which is what happened on the first successful run.
+      # This backstops that case only — it does nothing when a PR already exists.
+      - if: steps.brief.outputs.due == 'true'
+        name: Ensure the PR exists
+        env:
+          GH_TOKEN: ${{ github.token }}
+          # Passed as env rather than spliced into the script with ${{ }}:
+          # plan titles contain quotes (week 11 does), which would terminate
+          # the shell string and break the run.
+          WEEK: ${{ steps.brief.outputs.week }}
+          SLUG: ${{ steps.brief.outputs.slug }}
+          TITLE: ${{ steps.brief.outputs.title }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          BRANCH="content/w${WEEK}-${SLUG}"
+
+          if ! git ls-remote --exit-code --heads origin "$BRANCH" >/dev/null 2>&1; then
+            echo "::error::No branch '$BRANCH' was pushed — the article was not written."
+            exit 1
+          fi
+
+          if [ -n "$(gh pr list --head "$BRANCH" --state open --json number -q '.[0].number')" ]; then
+            echo "PR already open for $BRANCH — nothing to do."
+            exit 0
+          fi
+
+          echo "::warning::Branch was pushed but no PR was opened. Creating one."
+          cat > /tmp/pr-body.md <<EOF
+          Week ${WEEK} of the content plan, written by [run ${RUN_URL##*/}](${RUN_URL}).
+
+          Opened by the workflow's fallback step, so it has no hand-written summary — read the diff rather than trusting this description. Check the word count against the plan's target, confirm the frontmatter slug matches the filename in both locales, and **verify every external citation actually supports the claim it is attached to** before merging.
+
+          🤖 Generated with [Claude Code](https://claude.com/claude-code)
+          EOF
+          sed -i 's/^          //' /tmp/pr-body.md
+          gh pr create --base main --head "$BRANCH" \
+            --title "[Added][Blog]: ${TITLE}" \
+            --body-file /tmp/pr-body.md
