@@ -134,6 +134,7 @@ export const BLOG_SLUG_PAIRS: { es: string; en: string | null }[] = [
   { es: 'tengo-escoliosis-y-me-cuesta-respirar', en: 'scoliosis-hard-to-breathe' },
   { es: 'tecnica-webster-optimizando-la-alineacion-pelvica-durante-el-embarazo', en: 'webster-technique' },
   { es: 'valencia-se-endereza-por-que-la-quiropractica-gana-terreno-frente-al-dolor-de-espalda', en: 'valencia-se-endereza-por-que-la-quiropractica-gana-terreno-frente-al-dolor-de-espalda' },
+  { es: 'quiropractico-o-fisioterapeuta', en: 'chiropractor-or-physiotherapist' },
 ]
 
 export const SYMPTOM_HUB = { es: '/sintomas', en: '/en/symptoms' }
