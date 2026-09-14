@@ -68,9 +68,14 @@ jobs:
         name: Write the article and open a PR
         uses: anthropics/claude-code-action@v1
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          # Used by `gh pr create` inside the run, not by the action itself.
           GH_TOKEN: ${{ github.token }}
         with:
+          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          # Required because this repo does not use the Claude GitHub App.
+          # Without it the action tries to mint an App token over OIDC and
+          # fails with "Could not fetch an OIDC token".
+          github_token: ${{ github.token }}
           claude_args: --allowed-tools "Bash,Read,Write,Edit,Glob,Grep,WebSearch,WebFetch"
           prompt: |
             Follow the .claude/skills/weekly-article skill exactly, for this brief.
