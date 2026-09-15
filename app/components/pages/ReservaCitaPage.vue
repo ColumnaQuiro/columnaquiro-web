@@ -37,7 +37,9 @@ useSeo({
 // "Primera visita" is the standard (non-promo) first-visit type -- this is
 // the general booking page, not one of the discounted promo landing pages.
 const PRIMERA_VISITA_TYPE_ID = '70a38844-ebb9-4a42-b59e-dd6720160e0d'
-const bookingUrl = `https://app.quiroflow.com/book/columnaquiro?type=${PRIMERA_VISITA_TYPE_ID}`
+// Forwards any campaign parameters this page was reached with, same as the
+// promo landings -- an ad or a newsletter can point here too.
+const bookingUrl = useBookingUrl({ type: PRIMERA_VISITA_TYPE_ID })
 const { heightPx } = useQuiroFlowWidget()
 </script>
 
