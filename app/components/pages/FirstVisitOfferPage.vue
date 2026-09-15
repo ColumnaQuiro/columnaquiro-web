@@ -212,11 +212,10 @@ useHead({
 // this 30%-off offer, as opposed to the standard "Primera visita" type the
 // general /reserva-cita page books.
 const OFERTA_PRIMERA_VISITA_TYPE_ID = '91a6b6d9-1bb3-4a66-aa8c-f17ee66e4d1e'
-const bookingUrl = computed(() => {
-  const params = new URLSearchParams({ type: OFERTA_PRIMERA_VISITA_TYPE_ID })
-  if (props.practitionerId) params.set('practitioner', props.practitionerId)
-  return `https://app.quiroflow.com/book/columnaquiro?${params.toString()}`
-})
+// useBookingUrl also forwards this page's own utm_*/fbclid into the iframe --
+// this is the Meta ads landing page, so without that the clinic cannot tell an
+// ad booking from someone who typed the URL in.
+const bookingUrl = useBookingUrl({ type: OFERTA_PRIMERA_VISITA_TYPE_ID, practitioner: props.practitionerId })
 // Tracks the booking widget's own postMessage'd height so a step never gets
 // clipped or shows a scrollbar nested inside this page's scrollbar.
 const { heightPx } = useQuiroFlowWidget()
