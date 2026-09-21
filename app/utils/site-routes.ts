@@ -135,6 +135,7 @@ export const BLOG_SLUG_PAIRS: { es: string; en: string | null }[] = [
   { es: 'tecnica-webster-optimizando-la-alineacion-pelvica-durante-el-embarazo', en: 'webster-technique' },
   { es: 'valencia-se-endereza-por-que-la-quiropractica-gana-terreno-frente-al-dolor-de-espalda', en: 'valencia-se-endereza-por-que-la-quiropractica-gana-terreno-frente-al-dolor-de-espalda' },
   { es: 'quiropractico-o-fisioterapeuta', en: 'chiropractor-or-physiotherapist' },
+  { es: 'es-peligrosa-la-quiropractica-efectos-secundarios', en: 'is-chiropractic-dangerous-side-effects' },
 ]
 
 export const SYMPTOM_HUB = { es: '/sintomas', en: '/en/symptoms' }
