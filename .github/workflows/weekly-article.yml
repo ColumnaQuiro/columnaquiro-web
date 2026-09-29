@@ -80,7 +80,12 @@ jobs:
           # Used by `gh pr create` inside the run, not by the action itself.
           GH_TOKEN: ${{ github.token }}
         with:
-          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          # Billed to the Claude subscription rather than pay-per-use API
+          # credits, so the weekly article does not cost anything on top of
+          # what the subscription already covers. Generated with
+          # `claude setup-token` (valid one year) — regenerate and update the
+          # secret before it expires, or the Monday run starts failing.
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           # Required because this repo does not use the Claude GitHub App.
           # Without it the action tries to mint an App token over OIDC and
           # fails with "Could not fetch an OIDC token".
