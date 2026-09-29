@@ -108,7 +108,7 @@
     {
       "week": 3,
       "date": "2026-09-28",
-      "status": "pending",
+      "status": "done",
       "cluster": "commercial",
       "priority": "P0",
       "intent": "commercial-consideration",
@@ -143,7 +143,8 @@
         "/blog/cuanto-cuesta-un-quiropractico",
         "/como-funciona",
         "/reserva-cita"
-      ]
+      ],
+      "publishedAt": "2026-09-29"
     },
     {
       "week": 4,
