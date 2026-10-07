@@ -149,7 +149,7 @@
     {
       "week": 4,
       "date": "2026-10-05",
-      "status": "pending",
+      "status": "done",
       "cluster": "commercial",
       "priority": "P0",
       "intent": "pre-booking",
@@ -184,7 +184,8 @@
         "/oferta-primera-visita",
         "/como-funciona",
         "/sobre-nosotros/centro-quiropractico-valencia"
-      ]
+      ],
+      "publishedAt": "2026-10-07"
     },
     {
       "week": 5,
