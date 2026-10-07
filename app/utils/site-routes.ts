@@ -137,6 +137,7 @@ export const BLOG_SLUG_PAIRS: { es: string; en: string | null }[] = [
   { es: 'quiropractico-o-fisioterapeuta', en: 'chiropractor-or-physiotherapist' },
   { es: 'es-peligrosa-la-quiropractica-efectos-secundarios', en: 'is-chiropractic-dangerous-side-effects' },
   { es: 'cuantas-sesiones-de-quiropractica-necesito', en: 'how-many-chiropractic-sessions-do-i-need' },
+  { es: 'primera-visita-al-quiropractico-que-esperar', en: 'first-chiropractic-visit-what-to-expect' },
 ]
 
 export const SYMPTOM_HUB = { es: '/sintomas', en: '/en/symptoms' }
