@@ -138,6 +138,7 @@ export const BLOG_SLUG_PAIRS: { es: string; en: string | null }[] = [
   { es: 'es-peligrosa-la-quiropractica-efectos-secundarios', en: 'is-chiropractic-dangerous-side-effects' },
   { es: 'cuantas-sesiones-de-quiropractica-necesito', en: 'how-many-chiropractic-sessions-do-i-need' },
   { es: 'primera-visita-al-quiropractico-que-esperar', en: 'first-chiropractic-visit-what-to-expect' },
+  { es: 'seguro-medico-cubre-quiropractica-espana', en: 'does-spanish-health-insurance-cover-chiropractic' },
 ]
 
 export const SYMPTOM_HUB = { es: '/sintomas', en: '/en/symptoms' }

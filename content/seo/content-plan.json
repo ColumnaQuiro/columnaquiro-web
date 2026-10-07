@@ -190,7 +190,7 @@
     {
       "week": 5,
       "date": "2026-10-12",
-      "status": "pending",
+      "status": "done",
       "cluster": "commercial",
       "priority": "P1",
       "intent": "commercial-investigation",
@@ -225,7 +225,8 @@
       "internalLinks": [
         "/blog/cuanto-cuesta-un-quiropractico",
         "/sobre-nosotros/contacto"
-      ]
+      ],
+      "publishedAt": "2026-10-07"
     },
     {
       "week": 6,
