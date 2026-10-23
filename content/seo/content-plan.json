@@ -231,7 +231,7 @@
     {
       "week": 6,
       "date": "2026-10-19",
-      "status": "pending",
+      "status": "done",
       "cluster": "commercial",
       "priority": "P0",
       "intent": "trust-eeat",
@@ -267,7 +267,8 @@
         "/sobre-nosotros/equipo",
         "/sobre-nosotros/equipo/lea-guido",
         "/blog/los-mejores-quiropracticos-valencia"
-      ]
+      ],
+      "publishedAt": "2026-10-23"
     },
     {
       "week": 7,

@@ -139,6 +139,7 @@ export const BLOG_SLUG_PAIRS: { es: string; en: string | null }[] = [
   { es: 'cuantas-sesiones-de-quiropractica-necesito', en: 'how-many-chiropractic-sessions-do-i-need' },
   { es: 'primera-visita-al-quiropractico-que-esperar', en: 'first-chiropractic-visit-what-to-expect' },
   { es: 'seguro-medico-cubre-quiropractica-espana', en: 'does-spanish-health-insurance-cover-chiropractic' },
+  { es: 'como-elegir-un-buen-quiropractico-espana', en: 'how-to-choose-a-chiropractor-in-spain' },
 ]
 
 export const SYMPTOM_HUB = { es: '/sintomas', en: '/en/symptoms' }
