@@ -27,7 +27,9 @@
 // `node --env-file=.env.local scripts/sync-google-reviews.mjs` reads them from
 // a gitignored file.
 //
-// Exit codes: 0 ok, 1 API or runtime error, 2 missing configuration.
+// Exit codes: 0 ok, 1 API or runtime error, 2 missing configuration,
+// 3 the Cloud project is not allowlisted yet (quota 0), which the workflow
+// reports as a notice rather than a failure.
 
 import { readFileSync, writeFileSync } from 'node:fs'
 import { resolve, dirname } from 'node:path'
@@ -210,6 +212,7 @@ export function buildOutput(pages, now = new Date()) {
 // ---------------------------------------------------------------------------
 
 class ConfigError extends Error {}
+class NotApprovedError extends Error {}
 
 function requireEnv(names) {
   const missing = names.filter((n) => !process.env[n])
@@ -255,9 +258,10 @@ async function apiGet(url, token) {
   if (!res.ok) {
     const message = body.error?.message ?? text.slice(0, 300)
     let hint = ''
-    if (res.status === 403 && /quota|has not been used|is disabled|not enabled/i.test(message)) {
-      hint =
-        '\nThe Business Profile APIs ship with a quota of 0 until Google approves the access request for the Cloud project, and each API also has to be enabled on it. See README "Google reviews sync", step 1.'
+    if ((res.status === 403 || res.status === 429) && /quota|has not been used|is disabled|not enabled/i.test(message)) {
+      throw new NotApprovedError(
+        `GET ${url} → ${res.status}: ${message}\nThe Business Profile APIs ship with a quota of 0 until Google approves the access request for the Cloud project (a 429 "Quota exceeded" on the very first request means exactly that), and each API also has to be enabled on it. See README "Google reviews sync", step 1.`,
+      )
     } else if (res.status === 403) {
       hint = '\nThe signed-in Google account must be an owner or manager of the Business Profile.'
     } else if (res.status === 401) {
@@ -380,6 +384,10 @@ async function main() {
 const invokedDirectly = process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.url)
 if (invokedDirectly) {
   main().catch((err) => {
+    if (err instanceof NotApprovedError) {
+      console.error(`Not approved yet: ${err.message}`)
+      process.exit(3)
+    }
     console.error(err instanceof ConfigError ? `Configuration: ${err.message}` : `Error: ${err.message}`)
     process.exit(err instanceof ConfigError ? 2 : 1)
   })

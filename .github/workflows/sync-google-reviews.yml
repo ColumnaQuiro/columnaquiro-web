@@ -46,8 +46,11 @@ jobs:
             echo "ok=true" >> "$GITHUB_OUTPUT"
           fi
 
-      # No npm install: the script only uses Node built-ins.
+      # No npm install: the script only uses Node built-ins. Exit code 3 means
+      # Google has not approved the project's API access yet (quota 0): say so
+      # and stop green, since nothing in the repo can fix that.
       - if: steps.configured.outputs.ok == 'true'
+        id: fetch
         name: Fetch the rating and reviews
         env:
           GBP_CLIENT_ID: ${{ secrets.GBP_CLIENT_ID }}
@@ -56,9 +59,20 @@ jobs:
           # Repository variable, not a secret: accounts/<id>/locations/<id>.
           # Optional while the account has a single location.
           GBP_LOCATION: ${{ vars.GBP_LOCATION }}
-        run: node scripts/sync-google-reviews.mjs 2> >(tee sync-summary.txt >&2)
+        run: |
+          set +e
+          node scripts/sync-google-reviews.mjs 2> >(tee sync-summary.txt >&2)
+          CODE=$?
+          set -e
+          if [ $CODE -eq 3 ]; then
+            echo "::notice::The Business Profile API access request is not approved yet (quota 0). Nothing to sync until it is."
+            echo "fetched=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          [ $CODE -eq 0 ] || exit $CODE
+          echo "fetched=true" >> "$GITHUB_OUTPUT"
 
-      - if: steps.configured.outputs.ok == 'true'
+      - if: steps.fetch.outputs.fetched == 'true'
         id: diff
         name: Did anything change?
         run: |

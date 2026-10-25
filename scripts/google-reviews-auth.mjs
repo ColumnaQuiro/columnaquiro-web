@@ -1,28 +1,79 @@
 #!/usr/bin/env node
-// One-off: signs the Business Profile owner in and prints the OAuth refresh
-// token that scripts/sync-google-reviews.mjs needs (GBP_REFRESH_TOKEN). Run it
-// once on a laptop, paste the token into the GitHub secret, done. Full setup
+// One-off: signs the Business Profile owner (or a manager) in and obtains the
+// OAuth refresh token that scripts/sync-google-reviews.mjs needs. Full setup
 // in the README under "Google reviews sync".
 //
-//   GBP_CLIENT_ID=… GBP_CLIENT_SECRET=… node scripts/google-reviews-auth.mjs
-//   node --env-file=.env.local scripts/google-reviews-auth.mjs
+//   node scripts/google-reviews-auth.mjs --client-json ~/Downloads/client_secret_….json --write-env --gh-secrets
+//
+//   --client-json <file>  read the client id and secret from the JSON that the
+//                         Cloud Console offers when the OAuth client is created
+//                         (otherwise GBP_CLIENT_ID / GBP_CLIENT_SECRET from env)
+//   --write-env           save GBP_CLIENT_ID, GBP_CLIENT_SECRET and
+//                         GBP_REFRESH_TOKEN into .env.local (gitignored)
+//   --gh-secrets          set the same three as GitHub Actions secrets with the
+//                         gh CLI (needs `gh auth login` and the repo remote)
+//
+// With --write-env or --gh-secrets the token is never printed. Without them it
+// is printed to stdout so it can be pasted wherever it is needed.
 //
 // The client must be an OAuth client of type "Desktop app": those accept a
 // loopback redirect on any port, which is what this script listens on.
 
 import { createServer } from 'node:http'
 import { randomBytes } from 'node:crypto'
-import { exec } from 'node:child_process'
+import { exec, execFileSync } from 'node:child_process'
+import { existsSync, readFileSync, writeFileSync } from 'node:fs'
+import { resolve, dirname } from 'node:path'
+import { fileURLToPath } from 'node:url'
 import { SCOPE } from './sync-google-reviews.mjs'
 
-const clientId = process.env.GBP_CLIENT_ID
-const clientSecret = process.env.GBP_CLIENT_SECRET
+const root = resolve(dirname(fileURLToPath(import.meta.url)), '..')
+const ENV_FILE = resolve(root, '.env.local')
+
+const argv = process.argv.slice(2)
+const flag = (f) => argv.includes(f)
+const value = (f) => {
+  const i = argv.indexOf(f)
+  return i === -1 ? null : argv[i + 1]
+}
+
+let clientId = process.env.GBP_CLIENT_ID
+let clientSecret = process.env.GBP_CLIENT_SECRET
+const clientJson = value('--client-json')
+if (clientJson) {
+  const parsed = JSON.parse(readFileSync(resolve(clientJson), 'utf8'))
+  const c = parsed.installed ?? parsed.web ?? parsed
+  clientId = c.client_id
+  clientSecret = c.client_secret
+  if (parsed.web) console.error('Warning: this is a "Web application" client; a "Desktop app" client is what the loopback flow expects.')
+}
 if (!clientId || !clientSecret) {
-  console.error('Set GBP_CLIENT_ID and GBP_CLIENT_SECRET (from the OAuth client in Google Cloud Console) and run again.')
+  console.error('Need the OAuth client: pass --client-json <downloaded file> or set GBP_CLIENT_ID and GBP_CLIENT_SECRET.')
   process.exit(2)
+}
+const writeEnv = flag('--write-env')
+const ghSecrets = flag('--gh-secrets')
+
+// Merge into .env.local without disturbing other variables in it.
+function saveEnv(values) {
+  const lines = existsSync(ENV_FILE) ? readFileSync(ENV_FILE, 'utf8').split('\n') : []
+  for (const [k, v] of Object.entries(values)) {
+    const line = `${k}=${v}`
+    const i = lines.findIndex((l) => l.startsWith(`${k}=`))
+    if (i === -1) lines.push(line)
+    else lines[i] = line
+  }
+  writeFileSync(ENV_FILE, `${lines.filter((l, i, a) => l !== '' || i < a.length - 1).join('\n').replace(/\n*$/, '')}\n`)
+}
+
+function setGhSecrets(values) {
+  for (const [k, v] of Object.entries(values)) {
+    execFileSync('gh', ['secret', 'set', k], { cwd: root, input: v, stdio: ['pipe', 'inherit', 'inherit'] })
+  }
 }
 
 const state = randomBytes(16).toString('hex')
+let redirectUri
 
 const server = createServer(async (req, res) => {
   const url = new URL(req.url, 'http://127.0.0.1')
@@ -58,7 +109,7 @@ const server = createServer(async (req, res) => {
     const tokens = await tokenRes.json()
     if (!tokenRes.ok || !tokens.refresh_token) {
       reply(500, 'No refresh token in the response, see the terminal.')
-      console.error('Token exchange failed:', JSON.stringify(tokens))
+      console.error('Token exchange failed:', JSON.stringify({ ...tokens, access_token: undefined, id_token: undefined }))
       if (!tokens.refresh_token && tokenRes.ok) {
         console.error('Google only issues a refresh token when the consent screen was shown; revoke the app at https://myaccount.google.com/permissions and run again.')
       }
@@ -66,8 +117,19 @@ const server = createServer(async (req, res) => {
       return
     }
     reply(200, 'Signed in. You can close this tab and go back to the terminal.')
-    console.error('\nAdd this as the GBP_REFRESH_TOKEN secret (and to .env.local for local runs):\n')
-    console.log(tokens.refresh_token)
+    const values = { GBP_CLIENT_ID: clientId, GBP_CLIENT_SECRET: clientSecret, GBP_REFRESH_TOKEN: tokens.refresh_token }
+    if (writeEnv) {
+      saveEnv(values)
+      console.error(`Saved GBP_CLIENT_ID, GBP_CLIENT_SECRET and GBP_REFRESH_TOKEN to ${ENV_FILE}`)
+    }
+    if (ghSecrets) {
+      setGhSecrets(values)
+      console.error('Set the GitHub Actions secrets GBP_CLIENT_ID, GBP_CLIENT_SECRET and GBP_REFRESH_TOKEN.')
+    }
+    if (!writeEnv && !ghSecrets) {
+      console.error('\nAdd this as the GBP_REFRESH_TOKEN secret (and to .env.local for local runs):\n')
+      console.log(tokens.refresh_token)
+    }
     console.error('\nNext: node --env-file=.env.local scripts/sync-google-reviews.mjs --list-locations')
     finish(0)
   } catch (err) {
@@ -77,7 +139,6 @@ const server = createServer(async (req, res) => {
   }
 })
 
-let redirectUri
 function finish(code) {
   server.close()
   clearTimeout(timer)
@@ -101,7 +162,7 @@ server.listen(0, '127.0.0.1', () => {
     prompt: 'consent',
     state,
   }).toString()
-  console.error('Sign in with the Google account that owns the Business Profile (hola@columnaquiro.com):\n')
+  console.error('Sign in with a Google account that owns or manages the Business Profile:\n')
   console.error(auth.href)
   const opener = process.platform === 'darwin' ? 'open' : process.platform === 'win32' ? 'start ""' : 'xdg-open'
   exec(`${opener} "${auth.href}"`, () => {})

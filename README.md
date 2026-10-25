@@ -43,34 +43,29 @@ Why the owner-side API and not the public Places API: Places returns five review
 
 ### Setup
 
-Everything happens in the Google account that owns the Business Profile, hola@columnaquiro.com. The whole thing is about an hour of clicking plus however long Google takes to approve the API access; the sync cannot run before step 1 is approved.
+Everything happens in the Google account the listing is linked to, raulcatalanluis@gmail.com (not hola@columnaquiro.com, which manages no listing). Steps 1 to 5 were done on 25 Oct 2026; what is left is Google's approval of step 1, then enabling the v4 API and running the workflow once by hand. The sync cannot run before the approval.
 
-**1. Request access to the Business Profile APIs.** They ship with a quota of 0 and return `403` until Google approves the Cloud project.
+**1. Request access to the Business Profile APIs.** They ship with a quota of 0 and return `429 Quota exceeded` until Google approves the Cloud project.
 
-1. In [Google Cloud Console](https://console.cloud.google.com/) create a project (say `columnaquiro-web`) and note its **project number** (Dashboard → Project info).
-2. Fill in the [Business Profile API access request](https://support.google.com/business/contact/api_default) choosing "Application for Basic API Access". Use the owner's email, give the project number, describe the use as "display our own location's rating and reviews on our website". Eligibility: the profile must be verified, active for 60+ days and list a website, which it does.
-3. Wait for the confirmation email. Then, in the project, enable these three APIs (APIs & Services → Library):
-   - **My Business Account Management API** (lists the account)
-   - **My Business Business Information API** (lists the location)
-   - **Google My Business API** (the v4 API; the only one that serves reviews)
+1. In [Google Cloud Console](https://console.cloud.google.com/) create a project and note its **project number** (IAM & Admin → Settings). The one in use is `columnaquiro-web`, number `948892751276`, owned by raulcatalanluis@gmail.com.
+2. Open the [Business Profile API access request](https://support.google.com/business/contact/api_default), choose "Application for Basic API Access" and follow the link to the guided workflow. It only works signed in as the Google account the listing is linked to (raulcatalanluis@gmail.com; hola@columnaquiro.com has no listing in Business Profile manager and is rejected with "Business profile not found"). It asks you to pick the listing, then for the project number, the website, how you found the form and why you want access ("show our own listing's rating, count and 5-star reviews on our website, read-only, weekly"), whether the profile has been verified for 60+ days (yes) and whether the project is already allowlisted (no). The last Continue submits it and opens a support case; review takes 7 to 10 business days. Submitted on 25 Oct 2026 as case 9-7015000042055.
+3. Enable the APIs on the project (APIs & Services → Library):
+   - **My Business Account Management API** and **My Business Business Information API** can be enabled right away (done).
+   - **Google My Business API** (the v4 API, the only one that serves reviews) is hidden from the library until the project is approved. After the approval email, open the library again and enable it. Until then `--list-locations` already proves the token works, it just hits the 0 quota.
 
 **2. Create the OAuth client.**
 
-1. APIs & Services → OAuth consent screen (Google Auth Platform → Branding/Audience). User type: **Internal** if hola@columnaquiro.com is a Google Workspace account (it then needs no verification and the token never expires for being in testing). If the account is a plain Gmail account choose External, add the owner as a test user, and **publish the app** (Audience → Publish) before minting the token: refresh tokens of apps left in "Testing" die after seven days, which would break the Monday run.
+1. Google Auth Platform → Branding/Audience. A Gmail account only gets the **External** user type, so fill in Branding (home page, privacy policy and legal notice URLs, `columnaquiro.com` as authorized domain) and then **publish the app** (Audience → Publish app) before minting the token: refresh tokens of apps left in "Testing" die after seven days, which would break the Monday run. The scope below is non-sensitive, so publishing needs no verification.
 2. Add the scope `https://www.googleapis.com/auth/business.manage`.
 3. APIs & Services → Credentials → Create credentials → OAuth client ID → Application type **Desktop app**. Copy the client ID and client secret.
 
-**3. Mint the refresh token** on a laptop:
+**3. Mint the refresh token** on a laptop. When the OAuth client is created the console offers **Download JSON**; save that file (it holds the client ID and secret) and run:
 
 ```bash
-cat > .env.local <<'EOT'
-GBP_CLIENT_ID=…apps.googleusercontent.com
-GBP_CLIENT_SECRET=…
-EOT
-node --env-file=.env.local scripts/google-reviews-auth.mjs
+node scripts/google-reviews-auth.mjs --client-json ~/Downloads/client_secret_….json --write-env --gh-secrets
 ```
 
-It opens the Google sign-in page (sign in as hola@columnaquiro.com), listens on a loopback port for the redirect, and prints the refresh token. Add it to `.env.local` as `GBP_REFRESH_TOKEN=…`. `.env.local` is gitignored; do not commit it.
+It opens the Google sign-in page (sign in as the account the listing is linked to, raulcatalanluis@gmail.com), listens on a loopback port for the redirect, and then writes `GBP_CLIENT_ID`, `GBP_CLIENT_SECRET` and `GBP_REFRESH_TOKEN` to `.env.local` (gitignored) and to the repository's GitHub Actions secrets through the `gh` CLI, without printing them. Without those two flags it prints the refresh token instead; without `--client-json` it reads `GBP_CLIENT_ID` and `GBP_CLIENT_SECRET` from the environment. Delete the downloaded JSON afterwards.
 
 **4. Run it once locally.**
 
@@ -83,7 +78,7 @@ npm run generate
 
 `--list-locations` prints `accounts/<id>/locations/<id>` for every location the token can see. With a single location the script finds it on its own; otherwise set `GBP_LOCATION` to the right one. The last command builds the site from the fresh JSON so it can be checked before anything is committed.
 
-**5. Configure GitHub.** Repository → Settings → Secrets and variables → Actions:
+**5. Configure GitHub.** Step 3 with `--gh-secrets` already set the three secrets; otherwise add them by hand under Repository → Settings → Secrets and variables → Actions:
 
 | Kind | Name | Value |
 |---|---|---|
@@ -96,7 +91,7 @@ Then run the workflow by hand (Actions → Sync Google reviews → Run workflow)
 
 ### Troubleshooting
 
-- `403 … quota` or `… has not been used in project` — the access request is not approved yet, or one of the three APIs is not enabled on the project.
+- `Not approved yet` / `429 Quota exceeded … Requests per minute` on the very first request, or `403 … has not been used in project` — the access request is not approved yet (the quota is 0 until then), or one of the three APIs is not enabled on the project. The script exits 3 and the workflow reports it as a notice instead of failing.
 - `403` without a quota message — the signed-in account is not an owner or manager of the Business Profile.
 - `invalid_grant` on the token refresh — the refresh token was revoked or expired (an OAuth app still in "Testing" expires them after seven days). Publish the app, run `google-reviews-auth.mjs` again and update the secret.
 - The badge still shows the old number after merging — the JSON is read at build time; check the Netlify deploy ran from the merged `main`.
