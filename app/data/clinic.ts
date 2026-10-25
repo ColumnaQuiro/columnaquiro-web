@@ -1,3 +1,5 @@
+import { synced } from './google-reviews-sync'
+
 export const clinic = {
   name: 'ColumnaQuiro',
   address: "Carrer dels Vivons, 29, L'Eixample, 46006 València, Valencia",
@@ -6,13 +8,15 @@ export const clinic = {
   mapsUrl: 'https://maps.app.goo.gl/NQEAbzbbg75xxjKU6',
 }
 
-// Shown in the hero, the reviews block and the booking page. Read from the
-// Google Business Profile listing (the mapsUrl above) on 25 Oct 2026; bump
-// the count when it moves meaningfully -- it is a trust signal, not a live
-// feed, and a stale "159" reads worse than a round "150+".
+// Shown in the hero, the reviews block and the booking page. Normally read
+// from `reviews.generated.json`, which the weekly Google reviews sync keeps
+// current (see README). The literals are the fallback when that file is
+// missing: read from the Google Business Profile listing (the mapsUrl above)
+// on 25 Oct 2026. It is a trust signal on every main page, and a stale "159"
+// reads worse than a round "150+", which is the whole reason for the sync.
 export const googleRating = {
-  value: 4.9,
-  count: 159,
+  value: synced?.rating ?? 4.9,
+  count: synced?.count ?? 159,
   url: 'https://maps.app.goo.gl/NQEAbzbbg75xxjKU6',
 }
 

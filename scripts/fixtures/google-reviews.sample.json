@@ -1,0 +1,123 @@
+[
+  {
+    "reviews": [
+      {
+        "name": "accounts/000/locations/000/reviews/fx-01",
+        "reviewId": "fx-01",
+        "reviewer": { "displayName": "Prueba Uno Apellido", "isAnonymous": false },
+        "starRating": "FIVE",
+        "comment": "Texto de prueba: llegué con dolor de espalda y de cuello y después de varias sesiones la mejoría ha sido muy grande, lo recomiendo sin duda.",
+        "createTime": "2026-10-12T09:15:00.000000Z",
+        "updateTime": "2026-10-12T09:15:00.000000Z"
+      },
+      {
+        "name": "accounts/000/locations/000/reviews/fx-02",
+        "reviewId": "fx-02",
+        "reviewer": { "displayName": "Fixture Two", "isAnonymous": false },
+        "starRating": "FIVE",
+        "comment": "Fixture text: I came in with lower back pain and after a few sessions I feel much better, she explains everything and I would recommend the clinic to anyone.",
+        "createTime": "2026-10-03T17:40:00.000000Z",
+        "updateTime": "2026-10-03T17:40:00.000000Z"
+      },
+      {
+        "name": "accounts/000/locations/000/reviews/fx-03",
+        "reviewId": "fx-03",
+        "reviewer": { "displayName": "Prueba Tres", "isAnonymous": false },
+        "starRating": "FIVE",
+        "comment": "(Translated by Google) Fixture text: great treatment, my headaches are gone.\n\n(Original)\nTexto de prueba: un trato estupendo, los dolores de cabeza que tenía desde hace años han desaparecido y duermo mucho mejor.",
+        "createTime": "2026-09-21T11:00:00.000000Z",
+        "updateTime": "2026-09-21T11:00:00.000000Z"
+      },
+      {
+        "name": "accounts/000/locations/000/reviews/fx-04",
+        "reviewId": "fx-04",
+        "reviewer": { "displayName": "Cuatro Estrellas", "isAnonymous": false },
+        "starRating": "FOUR",
+        "comment": "Texto de prueba con cuatro estrellas que no debe aparecer en la web aunque sea largo y esté bien escrito.",
+        "createTime": "2026-09-18T11:00:00.000000Z",
+        "updateTime": "2026-09-18T11:00:00.000000Z"
+      },
+      {
+        "name": "accounts/000/locations/000/reviews/fx-05",
+        "reviewId": "fx-05",
+        "reviewer": { "isAnonymous": true },
+        "starRating": "FIVE",
+        "comment": "Fixture text from an anonymous reviewer that must be skipped even though it is a five star review with plenty of words in it.",
+        "createTime": "2026-09-10T11:00:00.000000Z",
+        "updateTime": "2026-09-10T11:00:00.000000Z"
+      },
+      {
+        "name": "accounts/000/locations/000/reviews/fx-06",
+        "reviewId": "fx-06",
+        "reviewer": { "displayName": "Corta Prueba", "isAnonymous": false },
+        "starRating": "FIVE",
+        "comment": "Muy bien.",
+        "createTime": "2026-09-02T11:00:00.000000Z",
+        "updateTime": "2026-09-02T11:00:00.000000Z"
+      }
+    ],
+    "averageRating": 4.9,
+    "totalReviewCount": 161,
+    "nextPageToken": "page-2"
+  },
+  {
+    "reviews": [
+      {
+        "name": "accounts/000/locations/000/reviews/fx-07",
+        "reviewId": "fx-07",
+        "reviewer": { "displayName": "Fixture Seven", "isAnonymous": false },
+        "starRating": "FIVE",
+        "comment": "Fixture text: she is gentle and takes her time, and my posture has improved a lot since I started coming here every month.",
+        "createTime": "2026-08-25T11:00:00.000000Z",
+        "updateTime": "2026-08-25T11:00:00.000000Z"
+      },
+      {
+        "name": "accounts/000/locations/000/reviews/fx-08",
+        "reviewId": "fx-08",
+        "reviewer": { "displayName": "Essai Huit", "isAnonymous": false },
+        "starRating": "FIVE",
+        "comment": "Texte de test : je recommande vivement, mes douleurs de dos ont disparu après quelques séances et elle est très à l'écoute.",
+        "createTime": "2026-08-20T11:00:00.000000Z",
+        "updateTime": "2026-08-20T11:00:00.000000Z"
+      },
+      {
+        "name": "accounts/000/locations/000/reviews/fx-09",
+        "reviewId": "fx-09",
+        "reviewer": { "displayName": "Prueba Nueve", "isAnonymous": false },
+        "starRating": "FIVE",
+        "comment": "Texto de prueba muy largo para comprobar el recorte. Vine por una lumbalgia que no me dejaba dormir y en la primera sesión ya noté alivio. Me explicó con calma qué pasaba en mi espalda y por qué. Las sesiones son tranquilas y nunca he sentido ningún dolor durante el ajuste. Ahora voy una vez al mes para mantenimiento y la diferencia en mi día a día es enorme. Además, el trato de todo el equipo es cercano y cuidadoso. Lo recomiendo a cualquiera que tenga dolor de espalda y no sepa a quién acudir, porque a mí me ha cambiado la vida.",
+        "createTime": "2026-08-14T11:00:00.000000Z",
+        "updateTime": "2026-08-14T11:00:00.000000Z"
+      },
+      {
+        "name": "accounts/000/locations/000/reviews/fx-10",
+        "reviewId": "fx-10",
+        "reviewer": { "displayName": "Fixture Ten", "isAnonymous": false },
+        "starRating": "FIVE",
+        "comment": "Fixture text: the whole family comes here now and the kids love it, she speaks English which made the first visit so much easier for us.",
+        "createTime": "2026-08-01T11:00:00.000000Z",
+        "updateTime": "2026-08-01T11:00:00.000000Z"
+      },
+      {
+        "name": "accounts/000/locations/000/reviews/fx-11",
+        "reviewId": "fx-11",
+        "reviewer": { "displayName": "Prueba Once", "isAnonymous": false },
+        "starRating": "FIVE",
+        "comment": "Texto de prueba: toda la familia venimos ya y a los niños les encanta, se nota que sabe lo que hace y siempre te explica todo con paciencia.",
+        "createTime": "2026-07-19T11:00:00.000000Z",
+        "updateTime": "2026-07-19T11:00:00.000000Z"
+      },
+      {
+        "name": "accounts/000/locations/000/reviews/fx-02",
+        "reviewId": "fx-02",
+        "reviewer": { "displayName": "Fixture Two", "isAnonymous": false },
+        "starRating": "FIVE",
+        "comment": "Fixture text: duplicate of an earlier page, which happens when a review is updated between two page fetches.",
+        "createTime": "2026-10-03T17:40:00.000000Z",
+        "updateTime": "2026-10-03T17:40:00.000000Z"
+      }
+    ],
+    "averageRating": 4.9,
+    "totalReviewCount": 161
+  }
+]
