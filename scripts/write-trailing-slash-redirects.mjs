@@ -1,4 +1,4 @@
-import { readdirSync, writeFileSync, readFileSync, existsSync } from 'node:fs'
+import { writeFileSync, readFileSync, existsSync } from 'node:fs'
 import { fileURLToPath } from 'node:url'
 import { dirname, join } from 'node:path'
 
@@ -38,25 +38,18 @@ const LEGACY_REDIRECTS = [
   { from: '/en/blog/chiropractor-in-eixample-valencia/', to: '/en/chiropractor-eixample-valencia/' },
 ]
 
-function findIndexRoutes(dir, base = '') {
-  const routes = []
-  for (const entry of readdirSync(dir, { withFileTypes: true })) {
-    if (entry.isDirectory()) {
-      routes.push(...findIndexRoutes(join(dir, entry.name), `${base}/${entry.name}`))
-    } else if (entry.isFile() && entry.name === 'index.html' && base !== '') {
-      routes.push(base)
-    }
-  }
-  return routes
-}
-
 if (!existsSync(publicDir)) {
   console.error(`[write-trailing-slash-redirects] ${publicDir} does not exist, skipping`)
   process.exit(0)
 }
 
-const routes = findIndexRoutes(publicDir).sort()
-const trailingSlashRules = routes.map((route) => `${route}  ${route}/  301!`)
+// No generated trailing-slash rules any more. Netlify matches redirect
+// sources with and without the trailing slash, so a forced rule
+// `/page  /page/  301!` also matches `/page/` and sends it to itself: the
+// moment these rules were placed ahead of Nitro's catch-all (25 Oct 2026)
+// every page except the home entered a redirect loop in production. They
+// had never been needed: Netlify redirects /page to /page/ on its own for
+// every page/index.html, which is what the earlier "working" 301s were.
 const legacyRules = LEGACY_REDIRECTS.map(({ from, to }) => `${from}  ${to}  301!`)
 
 // Netlify applies the first matching rule and ignores the rest. Nitro's
@@ -82,12 +75,8 @@ writeFileSync(
   redirectsPath,
   `${GENERATED_MARK} — do not hand-edit.\n` +
     `# Retired pages redirected to their replacement.\n${legacyRules.join('\n')}\n\n` +
-    `# Forces the canonical trailing-slash form for every prerendered page so\n` +
-    `# each one is served under a single indexable URL.\n${trailingSlashRules.join('\n')}\n` +
     `# End of auto-generated rules.\n` +
     (existing ? `\n# Rules written before this script ran (Nitro's fallback must stay last).\n${existing}\n` : ''),
 )
 
-console.log(
-  `[write-trailing-slash-redirects] Wrote ${legacyRules.length} legacy redirect(s) and ${trailingSlashRules.length} trailing-slash redirect(s) to dist/_redirects`,
-)
+console.log(`[write-trailing-slash-redirects] Wrote ${legacyRules.length} legacy redirect(s) to dist/_redirects`)
