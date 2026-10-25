@@ -37,6 +37,7 @@ Selection rules, applied by the script and covered by `scripts/sync-google-revie
 - First name only, as the reviewer published it (`Maria Teresa García` becomes `Maria`; a one-word handle stays whole).
 - `lang` is `es` or `en`, detected from the text, so each page can lead with reviews in its own language. Reviews in other languages (French is common) are skipped.
 - Newest first, at most 30. The rating is rounded to one decimal; the count is the listing's `totalReviewCount`.
+- A run whose rating, count and reviews match the committed file leaves it untouched (only `fetchedAt` would differ), so the weekly job opens a PR only when something moved.
 - The site only switches from the hand-written list to the synced one when it holds at least six reviews, so a thin result cannot leave the home page half empty.
 
 Why the owner-side API and not the public Places API: Places returns five reviews per place, chosen by Google, which is not enough to pick from. The Business Profile API lists every review and returns the listing's average rating and total count in the same response.

@@ -123,11 +123,16 @@ jobs:
           GH_TOKEN: ${{ github.token }}
           RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
         run: |
-          read -r RATING COUNT KEPT < <(node -e '
+          read -r RATING COUNT KEPT SOURCE < <(node -e '
             const d = require("./app/data/reviews.generated.json");
-            console.log(d.rating, d.count, d.reviews.length)')
+            console.log(d.rating, d.count, d.reviews.length, d.source || "business-profile")')
+          if [ "$SOURCE" = "places" ]; then
+            FROM="the Places API (interim)"
+          else
+            FROM="the Google Business Profile"
+          fi
           {
-            echo "Refreshed \`app/data/reviews.generated.json\` from the Google Business Profile in [run ${RUN_URL##*/}](${RUN_URL})."
+            echo "Refreshed \`app/data/reviews.generated.json\` from ${FROM} in [run ${RUN_URL##*/}](${RUN_URL})."
             echo
             echo "| | |"
             echo "|---|---|"
@@ -139,7 +144,7 @@ jobs:
             cat sync-summary.txt
             echo '```'
             echo
-            if [ "$(node -e 'console.log(require("./app/data/reviews.generated.json").source)')" = "places" ]; then
+            if [ "$SOURCE" = "places" ]; then
               echo "Interim source: the Places API, because the Business Profile API access request is still pending. Only the rating and count change; the quoted reviews stay the hand-written ones until the approval lands."
             else
               echo "Every quoted review is a 5-star review with text, copied verbatim from the listing (first name only, long ones cut at a sentence end and marked with […]). Skim the diff for anything that should not be on the site — a review that names a third person, say — and merge; Netlify deploys from main."
