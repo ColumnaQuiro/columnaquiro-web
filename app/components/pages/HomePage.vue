@@ -4,6 +4,11 @@ import { useAppI18n } from '@/composables/useAppI18n'
 import { useSeo } from '@/composables/useSeo'
 import BaseButton from '@/components/ui/BaseButton.vue'
 import FaqAccordion from '@/components/ui/FaqAccordion.vue'
+import RatingBadge from '@/components/ui/RatingBadge.vue'
+import SymptomGrid from '@/components/sections/SymptomGrid.vue'
+import ReviewsSection from '@/components/sections/ReviewsSection.vue'
+import LocationBlock from '@/components/sections/LocationBlock.vue'
+import { socialLinks } from '@/data/clinic'
 
 const { locale } = useAppI18n()
 
@@ -40,12 +45,20 @@ useSeo({
 
 const content = {
   es: {
-    eyebrow: 'Bienestar natural',
-    heroTitle: 'Tu centro quiropráctico de confianza en Valencia',
-    heroSubtitle: 'Del dolor a mejorar tu rendimiento de forma natural.',
+    eyebrow: 'Centro quiropráctico · Russafa / L\'Eixample, València',
+    heroTitle: 'Vuelve a moverte sin dolor',
+    heroSubtitle: '',
     heroBody:
-      'Cuidamos tu sistema nervioso para que tu cuerpo recupere su capacidad innata de sanar y prosperar.',
-    heroButton: 'Empieza hoy →',
+      'Quiroprácticas tituladas en el centro de València. Primera visita 70 €: evaluación completa, primer ajuste y plan de cuidado personalizado.',
+    heroButton: 'Reservar primera visita · 70 €',
+    heroWhatsApp: 'Escríbenos por WhatsApp',
+    heroNote: 'No pagas al reservar · Sin tarjeta · Mar–Jue 9–13 h y 15–20 h',
+    heroTrust: [
+      'Más de 5.000 pacientes',
+      'Hablamos español, inglés y francés',
+      'Quiroprácticas tituladas',
+      'Miembros de la AEQ, WFC y ECU',
+    ],
     trustBarLabel: 'Somos miembros de prestigiosas instituciones',
     trustBar: [
       { name: 'AEQ', label: 'Asociación Española de Quiropráctica' },
@@ -191,13 +204,20 @@ const content = {
     ],
   },
   en: {
-    eyebrow: 'Natural wellness',
-    heroTitle: 'Your trusted chiropractic center in Valencia',
-    heroSubtitle:
-      'From pain to enhancing your performance naturally, without risks and in less than 3 months.',
+    eyebrow: 'Chiropractic clinic · Russafa / L\'Eixample, Valencia',
+    heroTitle: 'Move without pain again',
+    heroSubtitle: '',
     heroBody:
-      'Improve your health and vitality with our chiropractic adjustments tailored to you at our chiropractic center in Valencia.',
-    heroButton: 'Book your visit',
+      'English-speaking, qualified chiropractors in central Valencia. First visit €70: full assessment, first adjustment and a care plan made for you.',
+    heroButton: 'Book your first visit · €70',
+    heroWhatsApp: 'Message us on WhatsApp',
+    heroNote: 'Nothing to pay when booking · No card needed · Tue–Thu 9–13 h and 15–20 h',
+    heroTrust: [
+      'More than 5,000 patients',
+      'We speak English, Spanish and French',
+      'Qualified chiropractors',
+      'Members of the AEQ, WFC and ECU',
+    ],
     trustBarLabel: 'We are members of',
     trustBar: [
       { name: 'AEQ', label: 'Spanish Chiropractic Association' },
@@ -345,6 +365,7 @@ const content = {
 }
 
 const c = computed(() => content[locale.value])
+const whatsappHref = socialLinks.find((link) => link.label === 'WhatsApp')?.href ?? ''
 
 useHead({
   script: [
@@ -361,39 +382,56 @@ useHead({
           })),
         }),
     },
-    {
-      src: 'https://widgets.sociablekit.com/google-reviews/widget.js',
-      defer: true,
-    },
   ],
 })
 </script>
 
 <template>
-  <!-- Hero -->
+  <!-- Hero: the three things a new patient checks before anything else --
+       is it good (rating), how much (price), where and when (neighbourhood,
+       hours) -- all above the fold on a phone, then the two ways to act. -->
   <section class="bg-cream">
-    <div class="mx-auto grid max-w-[calc(1280px+3rem)] items-start gap-12 px-6 py-24 md:grid-cols-[1.8fr_1fr]">
+    <div class="mx-auto grid max-w-[calc(1280px+3rem)] items-center gap-10 px-6 pb-16 pt-12 md:grid-cols-[1.1fr_0.9fr] md:py-20">
       <div>
-        <p class="text-sm font-medium text-gold-dark">{{ c.eyebrow }}</p>
-        <h1 class="mt-4 text-4xl font-semibold leading-[1.05] text-forest sm:text-5xl lg:text-6xl">
+        <div class="flex flex-wrap items-center gap-2">
+          <RatingBadge />
+          <span class="rounded-full bg-tan px-3 py-1.5 text-sm font-medium text-forest">{{ c.eyebrow }}</span>
+        </div>
+        <h1 class="mt-5 text-4xl font-semibold leading-[1.05] text-forest sm:text-5xl lg:text-6xl">
           {{ c.heroTitle }}
         </h1>
-        <p v-if="c.heroSubtitle" class="mt-3 text-base font-medium text-forest/80">
-          {{ c.heroSubtitle }}
-        </p>
-        <p class="mt-6 text-lg text-forest lg:text-xl">{{ c.heroBody }}</p>
-        <BaseButton :to="locale === 'es' ? '/reserva-cita' : '/en/book-appointment'" class="mt-8">{{
-          c.heroButton
-        }}</BaseButton>
+        <p class="mt-5 text-lg text-forest lg:text-xl">{{ c.heroBody }}</p>
+        <div class="mt-7 flex flex-col gap-3 sm:flex-row sm:flex-wrap" data-cta="hero">
+          <BaseButton :to="locale === 'es' ? '/reserva-cita' : '/en/book-appointment'" class="justify-center">{{
+            c.heroButton
+          }}</BaseButton>
+          <a
+            :href="whatsappHref"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex items-center justify-center gap-2 rounded-xl border border-forest px-6 py-3 text-sm font-medium text-forest transition-colors hover:bg-forest hover:text-white"
+            >{{ c.heroWhatsApp }}</a
+          >
+        </div>
+        <p class="mt-3 text-sm text-slate">{{ c.heroNote }}</p>
+        <ul class="mt-8 grid grid-cols-2 gap-x-6 gap-y-2 text-sm text-slate sm:flex sm:flex-wrap">
+          <li v-for="item in c.heroTrust" :key="item" class="flex items-center gap-2">
+            <span class="h-2 w-2 shrink-0 rounded-full bg-sage" aria-hidden="true" />{{ item }}
+          </li>
+        </ul>
       </div>
       <img
         src="/assets/images/home-hero.avif"
-        alt="chiropractic adjustment"
+        alt="Ajuste quiropráctico en ColumnaQuiro"
         fetchpriority="high"
-        class="aspect-[443/600] w-full rounded-3xl object-cover"
+        width="443"
+        height="600"
+        class="aspect-[16/10] w-full rounded-3xl object-cover md:aspect-[443/600]"
       />
     </div>
   </section>
+
+  <SymptomGrid />
 
   <!-- Trust bar -->
   <section class="bg-beige px-6 py-20">
@@ -407,6 +445,8 @@ useHead({
       </div>
     </div>
   </section>
+
+  <ReviewsSection :title="c.reviewsTitle" />
 
   <!-- Stress-free body -->
   <section class="bg-cream">
@@ -460,15 +500,6 @@ useHead({
         </div>
       </div>
     </div>
-  </section>
-
-  <!-- Reviews -->
-  <section class="overflow-x-hidden bg-gray-light px-6 py-24 text-center">
-    <h2 class="section-title">{{ c.reviewsTitle }}</h2>
-    <div
-      class="sk-ww-google-reviews mx-auto mt-10 w-full max-w-[1280px]"
-      data-embed-id="236880"
-    ></div>
   </section>
 
   <!-- Léa intro -->
@@ -615,6 +646,8 @@ useHead({
     </div>
     </div>
   </section>
+
+  <LocationBlock />
 
   <!-- FAQ -->
   <section class="bg-beige px-6 py-24">

@@ -5,12 +5,14 @@ import BaseButton from '@/components/ui/BaseButton.vue'
 import ChevronIcon from '@/components/ui/ChevronIcon.vue'
 import { useNavigation } from '@/composables/useNavigation'
 import { useLocale } from '@/composables/useLocale'
+import { clinic } from '@/data/clinic'
 
 const { t } = useI18n()
 const { paraTiDropdown, sobreNosotrosDropdown, paraTodosLink, blogLink, reservaLink } =
   useNavigation()
 const { locale, switchTo } = useLocale()
 
+const telHref = `tel:+34${clinic.phone.replace(/\s/g, '')}`
 const openMenu = ref<string | null>(null)
 const mobileOpen = ref(false)
 
@@ -142,7 +144,8 @@ function closeMenus() {
             EN
           </button>
         </div>
-        <BaseButton :to="reservaLink.to">{{ reservaLink.label }}</BaseButton>
+        <a :href="telHref" class="text-sm font-semibold text-forest hover:text-gold-dark" data-cta="header">{{ clinic.phone }}</a>
+        <BaseButton :to="reservaLink.to" data-cta="header">{{ reservaLink.label }}</BaseButton>
       </div>
 
       <button

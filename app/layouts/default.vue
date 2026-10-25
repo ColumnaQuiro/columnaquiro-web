@@ -4,7 +4,11 @@ import AppFooter from '@/components/layout/AppFooter.vue'
 import CookieConsent from '@/components/ui/CookieConsent.vue'
 import WhatsAppFab from '@/components/ui/WhatsAppFab.vue'
 import LocaleSuggestBar from '@/components/ui/LocaleSuggestBar.vue'
+import StickyActionBar from '@/components/ui/StickyActionBar.vue'
+import { useStickyBar } from '@/composables/useStickyBar'
 import { clinicSchema, SITE_URL } from '@/utils/seo'
+
+const { shown: stickyBarShown } = useStickyBar()
 
 const businessJsonLd = {
   '@context': 'https://schema.org',
@@ -59,7 +63,7 @@ useHead({
 </script>
 
 <template>
-  <div class="flex min-h-screen flex-col bg-cream">
+  <div class="flex min-h-screen flex-col bg-cream" :class="{ 'pb-20 md:pb-0': stickyBarShown }">
     <AppHeader />
     <LocaleSuggestBar />
     <main class="flex-1">
@@ -67,6 +71,7 @@ useHead({
     </main>
     <AppFooter />
     <WhatsAppFab />
+    <StickyActionBar />
     <CookieConsent />
   </div>
 </template>
