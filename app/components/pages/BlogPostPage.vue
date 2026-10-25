@@ -151,7 +151,17 @@ function formatDate(iso: string) {
       <span class="text-sm font-medium text-forest">{{ post.author }}</span>
     </div>
 
-    <img :src="post.cover" :alt="post.title" class="mt-8 w-full rounded-3xl" />
+    <!-- Fixed ratio and intrinsic size so the cover reserves its box before it
+         loads; covers come in several shapes, and an unsized one shifted the
+         whole article down when it arrived. -->
+    <img
+      :src="post.cover"
+      :alt="post.title"
+      width="1200"
+      height="800"
+      fetchpriority="high"
+      class="mt-8 aspect-[3/2] w-full rounded-3xl object-cover"
+    />
 
     <div class="prose mt-10" v-html="parts[0]" />
     <BlogOfferCard :symptom-slug="symptomSlug" />
