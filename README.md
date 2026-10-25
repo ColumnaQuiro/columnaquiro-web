@@ -41,6 +41,15 @@ Selection rules, applied by the script and covered by `scripts/sync-google-revie
 
 Why the owner-side API and not the public Places API: Places returns five reviews per place, chosen by Google, which is not enough to pick from. The Business Profile API lists every review and returns the listing's average rating and total count in the same response.
 
+**Interim while Google reviews the access request.** With `--source auto` (the default) the script tries the Business Profile API first and, while that still answers with the quota-0 `429`, falls back to the Places API (New) for the rating and count only. That output is tagged `"source": "places"` and carries no reviews, so the badge moves with the listing while the quotes stay on the hand-written list. The first run after the approval switches to the full sync on its own; nothing to flip. It needs:
+
+| Kind | Name | Value |
+|---|---|---|
+| Secret | `GOOGLE_PLACES_API_KEY` | an API key on the same project, restricted to Places API (New). Enabling that API makes the console accept the Google Maps Platform EEA terms and mint a key ("Maps Platform API Key"). |
+| Variable | `GBP_PLACE_ID` | `ChIJTdAqy2xJYA0RzzX3L8LwfwQ`, the listing's Place ID. Optional: when unset the script runs one IDs-only text search for the clinic's name and address (`GBP_PLACE_QUERY` overrides it) and insists on exactly one match. `--find-place "<query>"` prints candidates. |
+
+Cost: rating and count sit in the Place Details Enterprise SKU, whose free monthly calls cover a weekly run many times over. Nothing is billed.
+
 ### Setup
 
 Everything happens in the Google account the listing is linked to, raulcatalanluis@gmail.com (not hola@columnaquiro.com, which manages no listing). Steps 1 to 5 were done on 25 Oct 2026; what is left is Google's approval of step 1, then enabling the v4 API and running the workflow once by hand. The sync cannot run before the approval.
@@ -87,7 +96,7 @@ npm run generate
 | Secret | `GBP_REFRESH_TOKEN` | the token from step 3 |
 | Variable | `GBP_LOCATION` | optional, `accounts/<id>/locations/<id>` |
 
-Then run the workflow by hand (Actions → Sync Google reviews → Run workflow). It opens the first PR with the generated file; review the quoted reviews and merge.
+Then run the workflow by hand (Actions → Sync Google reviews → Run workflow; tick "dry run" to only print the result). It opens the first PR with the generated file; review the quoted reviews and merge. Manual runs are only offered once the workflow file is on `main`.
 
 ### Troubleshooting
 
