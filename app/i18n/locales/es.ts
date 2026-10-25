@@ -21,6 +21,7 @@ export default {
   },
   footer: {
     tagline: 'Tu Centro Quiropráctico en Valencia',
+    resenas: 'Reseñas de pacientes',
     sintomas: 'Síntomas',
     horarios: 'Nuestros horarios',
     days: {
