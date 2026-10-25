@@ -10,6 +10,10 @@ on:
     # 06:00 UTC Monday, an hour before the weekly article, so both land in the
     # same review sitting.
     - cron: '0 6 * * 1'
+  # TEMPORARY, removed once the first CI run is checked: a push to the feature
+  # branch runs a dry run, since workflow_dispatch only works from main.
+  push:
+    branches: [feat/google-reviews-sync]
   workflow_dispatch:
     inputs:
       dry_run:
@@ -72,7 +76,7 @@ jobs:
           GBP_PLACE_ID: ${{ vars.GBP_PLACE_ID }}
         run: |
           set +e
-          if [ "${{ inputs.dry_run }}" = "true" ]; then
+          if [ "${{ inputs.dry_run }}" = "true" ] || [ "${{ github.event_name }}" = "push" ]; then
             node scripts/sync-google-reviews.mjs --dry-run 2> >(tee sync-summary.txt >&2)
           else
             node scripts/sync-google-reviews.mjs 2> >(tee sync-summary.txt >&2)
@@ -85,7 +89,7 @@ jobs:
             exit 0
           fi
           [ $CODE -eq 0 ] || exit $CODE
-          if [ "${{ inputs.dry_run }}" = "true" ]; then
+          if [ "${{ inputs.dry_run }}" = "true" ] || [ "${{ github.event_name }}" = "push" ]; then
             echo "Dry run: nothing written."
             echo "fetched=false" >> "$GITHUB_OUTPUT"
           else
