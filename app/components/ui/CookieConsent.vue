@@ -1,7 +1,9 @@
 <script setup lang="ts">
 import { useAppI18n } from '@/composables/useAppI18n'
+import { useStickyBar } from '@/composables/useStickyBar'
 
 const { locale } = useAppI18n()
+const { shown: stickyBarShown } = useStickyBar()
 
 useHead({
   script: [{ src: 'https://cdn.jsdelivr.net/npm/@finsweet/cookie-consent@1/fs-cc.js', defer: true }],
@@ -56,7 +58,7 @@ const c = computed(() => content[locale.value])
     main button. One line of text plus two buttons, sized so it never hides
     what the visitor came for.
   -->
-  <div fs-cc="banner" class="fixed inset-x-0 bottom-0 z-[100] hidden">
+  <div fs-cc="banner" class="fixed inset-x-0 z-[100] hidden" :class="stickyBarShown ? 'bottom-20 md:bottom-0' : 'bottom-0'">
     <div class="mx-auto max-w-3xl px-3 pb-3">
       <div class="flex flex-wrap items-center gap-x-4 gap-y-2 rounded-xl bg-white px-4 py-3 shadow-lg ring-1 ring-forest/10">
         <p class="min-w-0 flex-1 text-xs text-slate">

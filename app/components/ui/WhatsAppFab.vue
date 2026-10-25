@@ -3,8 +3,13 @@ import { computed } from 'vue'
 import SocialIcon from '@/components/ui/SocialIcon.vue'
 import { socialLinks } from '@/data/clinic'
 import { useAppI18n } from '@/composables/useAppI18n'
+import { useStickyBar } from '@/composables/useStickyBar'
 
 const { locale } = useAppI18n()
+// On phones the sticky action bar carries a WhatsApp button of its own, so
+// the bubble would sit on top of it. Where the bar is hidden (the calendar
+// pages) the bubble stays.
+const { shown: stickyBarShown } = useStickyBar()
 
 // Same number as the footer and contact page -- sourced from clinic.ts so
 // there is one place to change it.
@@ -27,7 +32,8 @@ const label = computed(() =>
     rel="noopener noreferrer"
     :aria-label="label"
     :title="label"
-    class="fixed bottom-5 right-5 z-40 flex h-14 w-14 items-center justify-center rounded-full bg-[#25d366] text-white shadow-lg shadow-black/20 transition-transform hover:scale-105 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#128c7e] motion-reduce:transition-none motion-reduce:hover:scale-100 sm:bottom-6 sm:right-6"
+    :class="stickyBarShown ? 'hidden md:flex' : 'flex'"
+    class="fixed bottom-5 right-5 z-40 h-14 w-14 items-center justify-center rounded-full bg-[#25d366] text-white shadow-lg shadow-black/20 transition-transform hover:scale-105 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#128c7e] motion-reduce:transition-none motion-reduce:hover:scale-100 sm:bottom-6 sm:right-6"
   >
     <SocialIcon name="WhatsApp" size-class="h-7 w-7" />
   </a>

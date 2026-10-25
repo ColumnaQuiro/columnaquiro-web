@@ -6,6 +6,8 @@ import { useSeo } from '@/composables/useSeo'
 import { SITE_URL } from '@/utils/seo'
 import { pathFor, withTrailingSlash } from '@/utils/site-routes'
 import CtaBanner from '@/components/ui/CtaBanner.vue'
+import BlogOfferCard from '@/components/ui/BlogOfferCard.vue'
+import { symptomForPost } from '@/utils/blog-symptom'
 
 const route = useRoute()
 const { locale, t } = useAppI18n()
@@ -84,6 +86,38 @@ useHead({
       : [],
 })
 
+// The offer card goes in after the second section (the third <h2> opens the
+// third). A post with fewer sections gets the card at the end of the body
+// instead, before the closing banner.
+const parts = computed(() => {
+  const html = post.value?.html ?? ''
+  let index = -1
+  for (let n = 0; n < 3; n++) {
+    index = html.indexOf('<h2', index + 1)
+    if (index === -1) break
+  }
+  return index === -1 ? [html, ''] : [html.slice(0, index), html.slice(index)]
+})
+
+const symptomSlug = computed(() => (post.value ? symptomForPost(post.value.slug, post.value.title) : undefined))
+
+// Credentials shown under the byline. Health content is judged on who wrote
+// it; a name alone says nothing, and the bio page is one click too far for
+// most readers.
+const credentials: Record<string, { es: string; en: string; routeKey: 'lea-guido' | 'jordana-aguar' }> = {
+  'Léa Guido': {
+    es: 'Doctora en Quiropráctica · Barcelona College of Chiropractic (2021) · atiende en español, inglés y francés',
+    en: 'Doctor of Chiropractic · Barcelona College of Chiropractic (2021) · consults in English, Spanish and French',
+    routeKey: 'lea-guido',
+  },
+  'Jordana Aguar': {
+    es: 'Doctora en Quiropráctica · ColumnaQuiro, València',
+    en: 'Doctor of Chiropractic · ColumnaQuiro, Valencia',
+    routeKey: 'jordana-aguar',
+  },
+}
+const authorInfo = computed(() => (post.value ? credentials[post.value.author] : undefined))
+
 function formatDate(iso: string) {
   return new Date(iso).toLocaleDateString(locale.value === 'es' ? 'es-ES' : 'en-GB', {
     year: 'numeric',
@@ -117,9 +151,35 @@ function formatDate(iso: string) {
       <span class="text-sm font-medium text-forest">{{ post.author }}</span>
     </div>
 
-    <img :src="post.cover" :alt="post.title" class="mt-8 w-full rounded-3xl" />
+    <!-- Fixed ratio and intrinsic size so the cover reserves its box before it
+         loads; covers come in several shapes, and an unsized one shifted the
+         whole article down when it arrived. -->
+    <img
+      :src="post.cover"
+      :alt="post.title"
+      width="1200"
+      height="800"
+      fetchpriority="high"
+      class="mt-8 aspect-[3/2] w-full rounded-3xl object-cover"
+    />
 
-    <div class="prose mt-10" v-html="post.html" />
+    <div class="prose mt-10" v-html="parts[0]" />
+    <BlogOfferCard :symptom-slug="symptomSlug" />
+    <div v-if="parts[1]" class="prose" v-html="parts[1]" />
+
+    <div class="mt-12 flex items-center gap-4 rounded-2xl border border-forest/10 bg-white p-5">
+      <img src="/assets/images/team-lea.avif" :alt="post.author" class="h-14 w-14 shrink-0 rounded-full object-cover" />
+      <div>
+        <NuxtLink
+          v-if="authorInfo"
+          :to="pathFor(authorInfo.routeKey, locale)"
+          class="font-semibold text-forest underline-offset-2 hover:underline"
+          >{{ post.author }}</NuxtLink
+        >
+        <span v-else class="font-semibold text-forest">{{ post.author }}</span>
+        <p v-if="authorInfo" class="mt-0.5 text-sm text-slate">{{ authorInfo[locale] }}</p>
+      </div>
+    </div>
 
     <NuxtLink
       :to="locale === 'es' ? '/blog' : '/en/blog'"

@@ -6,6 +6,22 @@ export const clinic = {
   mapsUrl: 'https://maps.app.goo.gl/NQEAbzbbg75xxjKU6',
 }
 
+// Shown in the hero, the reviews block and the booking page. Read from the
+// Google Business Profile listing (the mapsUrl above) on 25 Oct 2026; bump
+// the count when it moves meaningfully -- it is a trust signal, not a live
+// feed, and a stale "159" reads worse than a round "150+".
+export const googleRating = {
+  value: 4.9,
+  count: 159,
+  url: 'https://maps.app.goo.gl/NQEAbzbbg75xxjKU6',
+}
+
+// How patients are told to get here. Supplied by the clinic.
+export const transit = {
+  es: 'Metro Xàtiva · Parking del Mercado de Ruzafa',
+  en: 'Metro Xàtiva · Mercado de Ruzafa car park',
+}
+
 export const socialLinks = [
   { label: 'Instagram', href: 'https://www.instagram.com/columnaquiro/' },
   { label: 'Facebook', href: 'https://www.facebook.com/profile.php?id=100089673685339' },

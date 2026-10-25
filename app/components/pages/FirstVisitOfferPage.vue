@@ -2,6 +2,7 @@
 import { computed } from 'vue'
 import FaqAccordion from '@/components/ui/FaqAccordion.vue'
 import LiteYouTube from '@/components/ui/LiteYouTube.vue'
+import ReviewsSection from '@/components/sections/ReviewsSection.vue'
 import { clinic, schedule } from '@/data/clinic'
 import { useAppI18n } from '@/composables/useAppI18n'
 import { useSeo } from '@/composables/useSeo'
@@ -205,9 +206,6 @@ useSeo({
   noindex: props.noindex,
 })
 
-useHead({
-  script: [{ src: 'https://widgets.sociablekit.com/google-reviews/widget.js', defer: true }],
-})
 
 // "Oferta Primera visita" is the discounted QuiroFlow appointment type behind
 // this 30%-off offer, as opposed to the standard "Primera visita" type the
@@ -306,10 +304,7 @@ const { heightPx } = useQuiroFlowWidget()
     </div>
   </section>
 
-  <section class="overflow-x-hidden bg-gray-light px-6 py-16 text-center">
-    <h2 class="section-title">{{ c.reviewsTitle }}</h2>
-    <div class="sk-ww-google-reviews mx-auto mt-10 w-full max-w-[1280px]" data-embed-id="236880" />
-  </section>
+  <ReviewsSection :title="c.reviewsTitle" />
 
   <section class="mx-auto max-w-[calc(1280px+3rem)] px-6 py-16">
     <div class="grid gap-10 md:grid-cols-2">
