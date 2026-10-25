@@ -205,6 +205,14 @@ export function selectReviews(rawReviews, limits = LIMITS) {
   return { reviews: kept.slice(0, limits.maxReviews), skipped }
 }
 
+// True when two outputs carry the same data, ignoring `fetchedAt`: a weekly
+// run that finds nothing new must leave the file alone, or the timestamp
+// alone would keep the data PR churning.
+export function sameData(a, b) {
+  if (!a || !b) return false
+  return JSON.stringify([a.source, a.rating, a.count, a.reviews]) === JSON.stringify([b.source, b.rating, b.count, b.reviews])
+}
+
 export function buildOutput(pages, now = new Date()) {
   const list = Array.isArray(pages) ? pages : [pages]
   const first = list.find((p) => p && (p.averageRating != null || p.totalReviewCount != null)) ?? list[0] ?? {}
@@ -496,6 +504,16 @@ async function main() {
 
   if (args.dryRun) {
     console.log(JSON.stringify(result.output, null, 2))
+    return
+  }
+  let existing = null
+  try {
+    existing = JSON.parse(readFileSync(args.out, 'utf8'))
+  } catch {
+    existing = null
+  }
+  if (sameData(existing, result.output)) {
+    console.error(`${args.out} already holds this data; left untouched.`)
     return
   }
   writeFileSync(args.out, `${JSON.stringify(result.output, null, 2)}\n`)

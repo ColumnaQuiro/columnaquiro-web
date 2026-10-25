@@ -4,7 +4,7 @@
 import { test } from 'node:test'
 import assert from 'node:assert/strict'
 import { readFileSync } from 'node:fs'
-import { buildOutput, buildPlacesOutput, clip, detectLang, firstName, originalText, LIMITS } from './sync-google-reviews.mjs'
+import { buildOutput, buildPlacesOutput, clip, detectLang, firstName, originalText, sameData, LIMITS } from './sync-google-reviews.mjs'
 
 const pages = JSON.parse(readFileSync(new URL('./fixtures/google-reviews.sample.json', import.meta.url), 'utf8'))
 
@@ -65,4 +65,16 @@ test('Places source gives rating and count only, tagged as such', () => {
   const { output } = buildPlacesOutput({ id: 'x', rating: 4.86, userRatingCount: 162 }, new Date('2026-10-25T00:00:00Z'))
   assert.deepEqual(output, { fetchedAt: '2026-10-25T00:00:00.000Z', source: 'places', rating: 4.9, count: 162, reviews: [] })
   assert.throws(() => buildPlacesOutput({ rating: 4.9 }), /userRatingCount/)
+})
+
+test('a run with the same data as the file is a no-op, whatever the timestamp', () => {
+  const a = buildPlacesOutput({ rating: 4.9, userRatingCount: 159 }, new Date('2026-10-25T00:00:00Z')).output
+  const b = buildPlacesOutput({ rating: 4.9, userRatingCount: 159 }, new Date('2026-11-01T00:00:00Z')).output
+  const c = buildPlacesOutput({ rating: 4.9, userRatingCount: 160 }, new Date('2026-11-01T00:00:00Z')).output
+  assert.equal(sameData(a, b), true)
+  assert.equal(sameData(a, c), false)
+  assert.equal(sameData(null, b), false)
+  const full = buildOutput(pages, new Date('2026-10-25T00:00:00Z')).output
+  assert.equal(sameData(full, buildOutput(pages, new Date('2026-11-01T00:00:00Z')).output), true)
+  assert.equal(sameData(full, a), false)
 })
