@@ -8,6 +8,7 @@ import RatingBadge from '@/components/ui/RatingBadge.vue'
 import SymptomGrid from '@/components/sections/SymptomGrid.vue'
 import ReviewsSection from '@/components/sections/ReviewsSection.vue'
 import LocationBlock from '@/components/sections/LocationBlock.vue'
+import ExpatSection from '@/components/sections/ExpatSection.vue'
 import { socialLinks } from '@/data/clinic'
 
 const { locale } = useAppI18n()
@@ -205,10 +206,10 @@ const content = {
   },
   en: {
     eyebrow: 'Chiropractic clinic · Russafa / L\'Eixample, Valencia',
-    heroTitle: 'Move without pain again',
+    heroTitle: 'English-speaking chiropractors in Valencia',
     heroSubtitle: '',
     heroBody:
-      'English-speaking, qualified chiropractors in central Valencia. First visit €70: full assessment, first adjustment and a care plan made for you.',
+      'Move without pain again. Qualified chiropractors in Russafa / L\'Eixample who consult in English, Spanish and French. First visit €70: full assessment, first adjustment and a care plan made for you.',
     heroButton: 'Book your first visit · €70',
     heroWhatsApp: 'Message us on WhatsApp',
     heroNote: 'Nothing to pay when booking · No card needed · Tue–Thu 9–13 h and 15–20 h',
@@ -432,6 +433,8 @@ useHead({
   </section>
 
   <SymptomGrid />
+
+  <ExpatSection v-if="locale === 'en'" />
 
   <!-- Trust bar -->
   <section class="bg-beige px-6 py-20">
