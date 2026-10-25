@@ -10,7 +10,8 @@
     "postgenerate": "node scripts/fix-sitemap-trailing-slash.mjs && node scripts/write-trailing-slash-redirects.mjs",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "typecheck": "nuxt typecheck"
+    "typecheck": "nuxt typecheck",
+    "test": "node --test \"scripts/**/*.test.mjs\""
   },
   "dependencies": {
     "@nuxtjs/robots": "^6.1.4",

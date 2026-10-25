@@ -1,0 +1,62 @@
+// npm test  (node --test "scripts/**/*.test.mjs")
+// Exercises the selection rules against scripts/fixtures/google-reviews.sample.json,
+// a synthetic two-page Business Profile API response (no real reviews in it).
+import { test } from 'node:test'
+import assert from 'node:assert/strict'
+import { readFileSync } from 'node:fs'
+import { buildOutput, clip, detectLang, firstName, originalText, LIMITS } from './sync-google-reviews.mjs'
+
+const pages = JSON.parse(readFileSync(new URL('./fixtures/google-reviews.sample.json', import.meta.url), 'utf8'))
+
+test('rating and count come from the API, rating rounded to one decimal', () => {
+  const { output } = buildOutput([{ averageRating: 4.8666, totalReviewCount: 159, reviews: [] }])
+  assert.equal(output.rating, 4.9)
+  assert.equal(output.count, 159)
+})
+
+test('keeps only 5-star, named, es/en reviews with a sentence of text', () => {
+  const { output, skipped } = buildOutput(pages, new Date('2026-10-25T00:00:00Z'))
+  assert.deepEqual(
+    output.reviews.map((r) => r.id),
+    ['fx-01', 'fx-02', 'fx-03', 'fx-07', 'fx-09', 'fx-10', 'fx-11'],
+  )
+  assert.deepEqual(skipped, { 'not 5 stars': 1, anonymous: 1, 'too short': 1, 'not es/en': 1, duplicate: 1 })
+  assert.equal(output.fetchedAt, '2026-10-25T00:00:00.000Z')
+})
+
+test('first name only, verbatim original text, language per review', () => {
+  const { output } = buildOutput(pages)
+  const byId = Object.fromEntries(output.reviews.map((r) => [r.id, r]))
+  assert.equal(byId['fx-01'].name, 'Prueba')
+  assert.equal(byId['fx-01'].lang, 'es')
+  assert.equal(byId['fx-01'].date, '2026-10-12')
+  assert.equal(byId['fx-02'].lang, 'en')
+  assert.match(byId['fx-03'].text, /^Texto de prueba: un trato estupendo/)
+  assert.doesNotMatch(byId['fx-03'].text, /Translated by Google|\(Original\)/)
+  for (const r of output.reviews) assert.equal(r.rating, 5)
+})
+
+test('long reviews are cut at a sentence end and marked', () => {
+  const { output } = buildOutput(pages)
+  const long = output.reviews.find((r) => r.id === 'fx-09')
+  assert.ok(long.text.length <= LIMITS.maxChars + 4)
+  assert.match(long.text, /\. \[…\]$/)
+  assert.equal(clip('Short enough.'), 'Short enough.')
+})
+
+test('helpers', () => {
+  assert.equal(firstName('  Maria Teresa García '), 'Maria')
+  assert.equal(firstName('WhitestWaters'), 'WhitestWaters')
+  assert.equal(firstName('Ana,'), 'Ana')
+  assert.equal(originalText('(Translated by Google) Hi\n\n(Original)\nHola  qué tal'), 'Hola qué tal')
+  assert.equal(originalText('Plain\ntext'), 'Plain text')
+  assert.equal(detectLang('Me ha ayudado mucho con el dolor de espalda y lo recomiendo'), 'es')
+  assert.equal(detectLang('She helped me a lot with my back pain and I would recommend her'), 'en')
+  assert.equal(detectLang('Je recommande vivement, mes douleurs ont disparu après quelques séances'), null)
+  assert.equal(detectLang('👍'), null)
+})
+
+test('refuses a response without rating or count', () => {
+  assert.throws(() => buildOutput([{ reviews: [] }]), /averageRating/)
+  assert.throws(() => buildOutput([{ averageRating: 4.9, reviews: [] }]), /totalReviewCount/)
+})

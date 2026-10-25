@@ -31,8 +31,8 @@ const shown = computed(() =>
       </div>
       <ul class="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
         <li
-          v-for="review in shown"
-          :key="review.name"
+          v-for="(review, i) in shown"
+          :key="`${review.name}-${i}`"
           :lang="review.lang"
           class="flex flex-col justify-between rounded-2xl bg-white p-6 shadow-[0_1px_2px_0_rgba(0,0,0,0.05)]"
         >

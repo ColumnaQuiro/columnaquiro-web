@@ -1,9 +1,17 @@
-// Patient reviews quoted on the site, copied verbatim from the clinic's
-// Google Business Profile (the listing at googleRating.url in clinic.ts) on
-// 25 Oct 2026, first names as the reviewers published them. Replacing the
-// SociableKit widget, which loaded 123 KB of script and CSS plus Google
-// avatar images on every home and offer page visit, failed a contrast check
-// on its "load more" button, and showed whatever Google served that day.
+import { synced } from './google-reviews-sync'
+
+// Patient reviews quoted on the site. Normally they come from
+// `reviews.generated.json`, which `scripts/sync-google-reviews.mjs` refreshes
+// from the clinic's own Google Business Profile (5-star reviews with text,
+// verbatim, first name only; see README "Google reviews sync"). The list below
+// is the fallback when that file is missing or too thin: copied verbatim from
+// the listing at googleRating.url in clinic.ts on 25 Oct 2026, first names as
+// the reviewers published them.
+//
+// This replaced the SociableKit widget, which loaded 123 KB of script and CSS
+// plus Google avatar images on every home and offer page visit, failed a
+// contrast check on its "load more" button, and showed whatever Google served
+// that day.
 //
 // Rendered as plain text, not as review markup: Google stopped showing
 // self-serving review stars for a business's own site in 2019, so there is
@@ -16,7 +24,7 @@ export interface Review {
   text: string
 }
 
-export const reviews: Review[] = [
+const curated: Review[] = [
   {
     name: 'Roberto',
     lang: 'es',
@@ -73,3 +81,12 @@ export const reviews: Review[] = [
     text: 'If you want to better your quality of life, this is a great place to start. Lea is kind, incredibly knowledgeable, and speaks French, English, and Spanish.',
   },
 ]
+
+// The home page shows six, so a synced list shorter than that would look
+// emptier than the hand-written one it replaces; fall back in that case too.
+const MIN_SYNCED = 6
+
+export const reviews: Review[] =
+  synced && synced.reviews.length >= MIN_SYNCED
+    ? synced.reviews.map(({ name, lang, text }) => ({ name, lang, text }))
+    : curated
