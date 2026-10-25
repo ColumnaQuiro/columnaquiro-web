@@ -11,6 +11,12 @@ on:
     # same review sitting.
     - cron: '0 6 * * 1'
   workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Fetch and print the result without committing or opening a PR'
+        required: false
+        type: boolean
+        default: false
 
 concurrency:
   group: sync-google-reviews
@@ -59,18 +65,32 @@ jobs:
           # Repository variable, not a secret: accounts/<id>/locations/<id>.
           # Optional while the account has a single location.
           GBP_LOCATION: ${{ vars.GBP_LOCATION }}
+          # Interim source while the Business Profile access request is
+          # pending: rating and count from the Places API, no reviews. The
+          # Place ID is found by a text search when the variable is unset.
+          GOOGLE_PLACES_API_KEY: ${{ secrets.GOOGLE_PLACES_API_KEY }}
+          GBP_PLACE_ID: ${{ vars.GBP_PLACE_ID }}
         run: |
           set +e
-          node scripts/sync-google-reviews.mjs 2> >(tee sync-summary.txt >&2)
+          if [ "${{ inputs.dry_run }}" = "true" ]; then
+            node scripts/sync-google-reviews.mjs --dry-run 2> >(tee sync-summary.txt >&2)
+          else
+            node scripts/sync-google-reviews.mjs 2> >(tee sync-summary.txt >&2)
+          fi
           CODE=$?
           set -e
           if [ $CODE -eq 3 ]; then
-            echo "::notice::The Business Profile API access request is not approved yet (quota 0). Nothing to sync until it is."
+            echo "::notice::The Business Profile API access request is not approved yet (quota 0), and no Places API key is set for the interim. Nothing to sync until one of those changes."
             echo "fetched=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
           [ $CODE -eq 0 ] || exit $CODE
-          echo "fetched=true" >> "$GITHUB_OUTPUT"
+          if [ "${{ inputs.dry_run }}" = "true" ]; then
+            echo "Dry run: nothing written."
+            echo "fetched=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "fetched=true" >> "$GITHUB_OUTPUT"
+          fi
 
       - if: steps.fetch.outputs.fetched == 'true'
         id: diff
@@ -119,7 +139,11 @@ jobs:
             cat sync-summary.txt
             echo '```'
             echo
-            echo "Every quoted review is a 5-star review with text, copied verbatim from the listing (first name only, long ones cut at a sentence end and marked with […]). Skim the diff for anything that should not be on the site — a review that names a third person, say — and merge; Netlify deploys from main."
+            if [ "$(node -e 'console.log(require("./app/data/reviews.generated.json").source)')" = "places" ]; then
+              echo "Interim source: the Places API, because the Business Profile API access request is still pending. Only the rating and count change; the quoted reviews stay the hand-written ones until the approval lands."
+            else
+              echo "Every quoted review is a 5-star review with text, copied verbatim from the listing (first name only, long ones cut at a sentence end and marked with […]). Skim the diff for anything that should not be on the site — a review that names a third person, say — and merge; Netlify deploys from main."
+            fi
             echo
             echo "🤖 Generated with [Claude Code](https://claude.com/claude-code)"
           } > pr-body.md

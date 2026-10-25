@@ -12,6 +12,10 @@
 //                         GBP_REFRESH_TOKEN into .env.local (gitignored)
 //   --gh-secrets          set the same three as GitHub Actions secrets with the
 //                         gh CLI (needs `gh auth login` and the repo remote)
+//   --push-env            no sign-in: read .env.local and push what it holds to
+//                         GitHub (GBP_CLIENT_ID, GBP_CLIENT_SECRET,
+//                         GBP_REFRESH_TOKEN and GOOGLE_PLACES_API_KEY as
+//                         secrets; GBP_LOCATION and GBP_PLACE_ID as variables)
 //
 // With --write-env or --gh-secrets the token is never printed. Without them it
 // is printed to stdout so it can be pasted wherever it is needed.
@@ -35,6 +39,26 @@ const flag = (f) => argv.includes(f)
 const value = (f) => {
   const i = argv.indexOf(f)
   return i === -1 ? null : argv[i + 1]
+}
+
+function readEnvFile() {
+  if (!existsSync(ENV_FILE)) return {}
+  return Object.fromEntries(
+    readFileSync(ENV_FILE, 'utf8')
+      .split('\n')
+      .filter((l) => l.includes('=') && !l.startsWith('#'))
+      .map((l) => [l.slice(0, l.indexOf('=')).trim(), l.slice(l.indexOf('=') + 1).trim()]),
+  )
+}
+
+if (flag('--push-env')) {
+  const env = readEnvFile()
+  const secrets = ['GBP_CLIENT_ID', 'GBP_CLIENT_SECRET', 'GBP_REFRESH_TOKEN', 'GOOGLE_PLACES_API_KEY'].filter((k) => env[k])
+  const variables = ['GBP_LOCATION', 'GBP_PLACE_ID'].filter((k) => env[k])
+  for (const k of secrets) execFileSync('gh', ['secret', 'set', k], { cwd: root, input: env[k], stdio: ['pipe', 'inherit', 'inherit'] })
+  for (const k of variables) execFileSync('gh', ['variable', 'set', k, '--body', env[k]], { cwd: root, stdio: 'inherit' })
+  console.error(`Pushed ${secrets.join(', ') || 'no secrets'}${variables.length ? ` and variables ${variables.join(', ')}` : ''} from ${ENV_FILE}.`)
+  process.exit(0)
 }
 
 let clientId = process.env.GBP_CLIENT_ID

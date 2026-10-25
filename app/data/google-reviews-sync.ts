@@ -18,6 +18,9 @@ export interface SyncedReview {
 
 export interface SyncedReviews {
   fetchedAt: string
+  // 'places' is the interim source (rating and count only, no reviews) used
+  // until Google approves the project for the Business Profile API.
+  source?: 'business-profile' | 'places'
   rating: number
   count: number
   reviews: SyncedReview[]
@@ -43,7 +46,7 @@ function validate(data: SyncedReviews | undefined): SyncedReviews | null {
           (r.lang === 'es' || r.lang === 'en'),
       )
     : []
-  return { fetchedAt: String(data.fetchedAt ?? ''), rating, count, reviews }
+  return { fetchedAt: String(data.fetchedAt ?? ''), source: data.source, rating, count, reviews }
 }
 
 export const synced: SyncedReviews | null = validate(Object.values(modules)[0])

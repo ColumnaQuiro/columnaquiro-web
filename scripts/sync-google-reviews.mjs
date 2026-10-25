@@ -20,12 +20,27 @@
 //                                        build the output from a saved API response
 //                                        (one page object, or an array of pages)
 //   node scripts/sync-google-reviews.mjs --out path.json  write somewhere else
+//   node scripts/sync-google-reviews.mjs --source places  rating and count only,
+//                                        from the public Places API (no reviews)
+//   node scripts/sync-google-reviews.mjs --find-place "ColumnaQuiro Vivons 29 València"
+//                                        print Place IDs matching a query
 //
 // Env: GBP_CLIENT_ID, GBP_CLIENT_SECRET, GBP_REFRESH_TOKEN (required to call the
-// API), GBP_LOCATION = accounts/<id>/locations/<id> (optional; skips discovery
-// and is required when the account has more than one location). Locally,
+// Business Profile API), GBP_LOCATION = accounts/<id>/locations/<id> (optional;
+// skips discovery and is required when the account has more than one
+// location). GOOGLE_PLACES_API_KEY enables the Places source; GBP_PLACE_ID
+// pins the listing's Place ID and GBP_PLACE_QUERY overrides the text search
+// used to find it when GBP_PLACE_ID is not set (default: the clinic's name and
+// address; the search must return exactly one place). Locally,
 // `node --env-file=.env.local scripts/sync-google-reviews.mjs` reads them from
 // a gitignored file.
+//
+// --source auto (the default) tries the Business Profile API first and, while
+// Google has not approved the project for it, falls back to the Places API for
+// the rating and count. Places returns five reviews chosen by Google, not
+// enough to pick from, so that mode writes no reviews and the site keeps its
+// hand-written quotes; the moment the approval lands the same run switches to
+// the full sync on its own.
 //
 // Exit codes: 0 ok, 1 API or runtime error, 2 missing configuration,
 // 3 the Cloud project is not allowlisted yet (quota 0), which the workflow
@@ -47,6 +62,10 @@ const ENDPOINTS = {
     `https://mybusinessbusinessinformation.googleapis.com/v1/${account}/locations?readMask=name,title&pageSize=100`,
   // v4 is the only Business Profile surface that still serves reviews.
   reviews: (location) => `https://mybusiness.googleapis.com/v4/${location}/reviews?pageSize=50&orderBy=updateTime%20desc`,
+  // Places API (New). `rating` and `userRatingCount` sit in the Enterprise
+  // SKU, whose free monthly calls cover a weekly run many times over.
+  place: (id) => `https://places.googleapis.com/v1/places/${encodeURIComponent(id)}`,
+  searchText: 'https://places.googleapis.com/v1/places:searchText',
 }
 
 // What a review needs to be quoted on the site. The home page shows six, the
@@ -198,12 +217,32 @@ export function buildOutput(pages, now = new Date()) {
   return {
     output: {
       fetchedAt: now.toISOString(),
+      source: 'business-profile',
       rating: Math.round(rating * 10) / 10,
       count,
       reviews,
     },
     skipped,
     fetched: rawReviews.length,
+  }
+}
+
+// The Places API answer: rating and count only, no reviews (see the header).
+export function buildPlacesOutput(place, now = new Date()) {
+  const rating = Number(place?.rating)
+  const count = Number(place?.userRatingCount)
+  if (!(rating >= 1 && rating <= 5)) throw new Error(`Places response has no usable rating (got ${place?.rating})`)
+  if (!Number.isInteger(count) || count < 1) throw new Error(`Places response has no usable userRatingCount (got ${place?.userRatingCount})`)
+  return {
+    output: {
+      fetchedAt: now.toISOString(),
+      source: 'places',
+      rating: Math.round(rating * 10) / 10,
+      count,
+      reviews: [],
+    },
+    skipped: {},
+    fetched: 0,
   }
 }
 
@@ -317,18 +356,81 @@ async function fetchReviewPages(token, location) {
 }
 
 // ---------------------------------------------------------------------------
+// Places API (New)
+// ---------------------------------------------------------------------------
+
+async function placesRequest(url, fieldMask, init = {}) {
+  requireEnv(['GOOGLE_PLACES_API_KEY'])
+  const res = await fetch(url, {
+    ...init,
+    headers: {
+      'content-type': 'application/json',
+      'x-goog-api-key': process.env.GOOGLE_PLACES_API_KEY,
+      'x-goog-fieldmask': fieldMask,
+      ...(init.headers ?? {}),
+    },
+  })
+  const body = await res.json().catch(() => ({}))
+  if (!res.ok) {
+    const message = body.error?.message ?? JSON.stringify(body).slice(0, 300)
+    const hint =
+      res.status === 403
+        ? '\nIs "Places API (New)" enabled on the project, and does the key\'s API restriction allow it?'
+        : ''
+    throw new Error(`${init.method ?? 'GET'} ${url} → ${res.status}: ${message}${hint}`)
+  }
+  return body
+}
+
+// The listing as the Places API knows it, with the search in the comment
+// above when nothing pins the Place ID. One IDs-only text search is free.
+const DEFAULT_PLACE_QUERY = 'ColumnaQuiro, Carrer dels Vivons 29, 46006 València'
+
+async function resolvePlaceId() {
+  if (process.env.GBP_PLACE_ID) return process.env.GBP_PLACE_ID
+  const query = process.env.GBP_PLACE_QUERY || DEFAULT_PLACE_QUERY
+  const places = await findPlaces(query)
+  if (places.length !== 1) {
+    throw new ConfigError(
+      `The Places text search for "${query}" returned ${places.length} places; set GBP_PLACE_ID to the right one:\n` +
+        places.map((p) => `  ${p.id}  ${p.displayName?.text ?? ''}  ${p.formattedAddress ?? ''}`).join('\n'),
+    )
+  }
+  console.error(`Place ID ${places[0].id} (${places[0].displayName?.text ?? ''}); set GBP_PLACE_ID to skip this search.`)
+  return places[0].id
+}
+
+async function fetchPlace() {
+  const id = await resolvePlaceId()
+  return placesRequest(ENDPOINTS.place(id), 'id,displayName,rating,userRatingCount')
+}
+
+async function findPlaces(query) {
+  const body = await placesRequest(ENDPOINTS.searchText, 'places.id,places.displayName,places.formattedAddress', {
+    method: 'POST',
+    body: JSON.stringify({ textQuery: query }),
+  })
+  return body.places ?? []
+}
+
+// ---------------------------------------------------------------------------
 // CLI
 // ---------------------------------------------------------------------------
 
 function parseArgs(argv) {
-  const args = { dryRun: false, listLocations: false, fromFile: null, out: DEFAULT_OUT }
+  const args = { dryRun: false, listLocations: false, fromFile: null, findPlace: null, source: 'auto', out: DEFAULT_OUT }
   for (let i = 0; i < argv.length; i++) {
     const a = argv[i]
     if (a === '--dry-run') args.dryRun = true
     else if (a === '--list-locations') args.listLocations = true
     else if (a === '--from-file') args.fromFile = argv[++i]
+    else if (a === '--find-place') args.findPlace = argv[++i]
+    else if (a === '--source') args.source = argv[++i]
     else if (a === '--out') args.out = resolve(argv[++i])
     else throw new ConfigError(`Unknown argument ${a}`)
+  }
+  if (!['auto', 'business-profile', 'places'].includes(args.source)) {
+    throw new ConfigError(`--source must be auto, business-profile or places, got "${args.source}"`)
   }
   return args
 }
@@ -358,19 +460,38 @@ async function main() {
     return
   }
 
-  let pages
-  let source
-  if (args.fromFile) {
-    pages = JSON.parse(readFileSync(resolve(args.fromFile), 'utf8'))
-    source = args.fromFile
-  } else {
-    const token = await getAccessToken()
-    const location = await resolveLocation(token)
-    pages = await fetchReviewPages(token, location)
-    source = location
+  if (args.findPlace) {
+    const places = await findPlaces(args.findPlace)
+    if (places.length === 0) console.log('No places match that query.')
+    for (const p of places) console.log(`${p.id}\t${p.displayName?.text ?? ''}\t${p.formattedAddress ?? ''}`)
+    return
   }
 
-  const result = buildOutput(pages)
+  let result
+  let source
+  if (args.fromFile) {
+    result = buildOutput(JSON.parse(readFileSync(resolve(args.fromFile), 'utf8')))
+    source = args.fromFile
+  } else if (args.source === 'places') {
+    const place = await fetchPlace()
+    result = buildPlacesOutput(place)
+    source = `Places API, place ${place.id}`
+  } else {
+    try {
+      const token = await getAccessToken()
+      const location = await resolveLocation(token)
+      result = buildOutput(await fetchReviewPages(token, location))
+      source = location
+    } catch (err) {
+      const canFallBack = args.source === 'auto' && process.env.GOOGLE_PLACES_API_KEY
+      if (!(err instanceof NotApprovedError) || !canFallBack) throw err
+      console.error('Business Profile API not approved yet; falling back to the Places API for the rating and count.')
+      const place = await fetchPlace()
+      result = buildPlacesOutput(place)
+      source = `Places API (interim), place ${place.id}`
+    }
+  }
+
   console.error(summarise(result, source))
 
   if (args.dryRun) {

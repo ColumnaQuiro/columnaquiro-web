@@ -4,7 +4,7 @@
 import { test } from 'node:test'
 import assert from 'node:assert/strict'
 import { readFileSync } from 'node:fs'
-import { buildOutput, clip, detectLang, firstName, originalText, LIMITS } from './sync-google-reviews.mjs'
+import { buildOutput, buildPlacesOutput, clip, detectLang, firstName, originalText, LIMITS } from './sync-google-reviews.mjs'
 
 const pages = JSON.parse(readFileSync(new URL('./fixtures/google-reviews.sample.json', import.meta.url), 'utf8'))
 
@@ -59,4 +59,10 @@ test('helpers', () => {
 test('refuses a response without rating or count', () => {
   assert.throws(() => buildOutput([{ reviews: [] }]), /averageRating/)
   assert.throws(() => buildOutput([{ averageRating: 4.9, reviews: [] }]), /totalReviewCount/)
+})
+
+test('Places source gives rating and count only, tagged as such', () => {
+  const { output } = buildPlacesOutput({ id: 'x', rating: 4.86, userRatingCount: 162 }, new Date('2026-10-25T00:00:00Z'))
+  assert.deepEqual(output, { fetchedAt: '2026-10-25T00:00:00.000Z', source: 'places', rating: 4.9, count: 162, reviews: [] })
+  assert.throws(() => buildPlacesOutput({ rating: 4.9 }), /userRatingCount/)
 })
