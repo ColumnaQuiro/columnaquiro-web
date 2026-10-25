@@ -2,6 +2,7 @@
 import { computed, ref } from 'vue'
 import { useAppI18n } from '@/composables/useAppI18n'
 import { clinic, schedule, transit } from '@/data/clinic'
+import { pathFor } from '@/utils/site-routes'
 
 // Name, address, hours and how to get here, on the page itself. The home page
 // never said where the clinic was above the footer; the competitors that rank
@@ -18,6 +19,9 @@ const content = {
     call: 'Llamar',
     showMap: 'Ver mapa',
     mapTitle: 'Mapa de ColumnaQuiro en València',
+    from: '¿Vienes de',
+    russafa: 'Russafa',
+    eixample: "L'Eixample",
   },
   en: {
     title: 'Where we are',
@@ -26,6 +30,9 @@ const content = {
     call: 'Call',
     showMap: 'Show map',
     mapTitle: 'Map of ColumnaQuiro in Valencia',
+    from: 'Coming from',
+    russafa: 'Russafa',
+    eixample: "L'Eixample",
   },
 }
 const c = computed(() => content[locale.value])
@@ -45,6 +52,12 @@ const mapSrc =
           L'Eixample (Russafa), 46006 València
         </p>
         <p class="mt-2 text-sm text-slate">{{ transit[locale] }}</p>
+        <p class="mt-2 text-sm text-slate">
+          {{ c.from }}
+          <NuxtLink :to="pathFor('russafa', locale)" class="font-medium text-forest underline">{{ c.russafa }}</NuxtLink>
+          ·
+          <NuxtLink :to="pathFor('eixample', locale)" class="font-medium text-forest underline">{{ c.eixample }}</NuxtLink>?
+        </p>
         <div class="mt-5 flex flex-wrap gap-2">
           <a
             :href="clinic.mapsUrl"

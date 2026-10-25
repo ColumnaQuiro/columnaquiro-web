@@ -26,6 +26,16 @@ const LEGACY_REDIRECTS = [
   // symptom page, which is the one meant to own the generic term.
   { from: '/blog/dolor-de-espalda', to: '/sintomas/dolor-de-espalda/' },
   { from: '/en/blog/back-pain', to: '/en/symptoms/back-pain/' },
+  // The two neighbourhood posts became proper landing pages (Oct 2026): a
+  // dated article for "quiropráctico en Russafa" competed with itself.
+  { from: '/blog/quiropractico-en-russafa-valencia', to: '/quiropractico-russafa-valencia/' },
+  { from: '/blog/quiropractico-en-russafa-valencia/', to: '/quiropractico-russafa-valencia/' },
+  { from: '/en/blog/chiropractor-in-russafa-valencia', to: '/en/chiropractor-russafa-valencia/' },
+  { from: '/en/blog/chiropractor-in-russafa-valencia/', to: '/en/chiropractor-russafa-valencia/' },
+  { from: '/blog/quiropractico-eixample-valencia', to: '/quiropractico-eixample-valencia/' },
+  { from: '/blog/quiropractico-eixample-valencia/', to: '/quiropractico-eixample-valencia/' },
+  { from: '/en/blog/chiropractor-in-eixample-valencia', to: '/en/chiropractor-eixample-valencia/' },
+  { from: '/en/blog/chiropractor-in-eixample-valencia/', to: '/en/chiropractor-eixample-valencia/' },
 ]
 
 function findIndexRoutes(dir, base = '') {
