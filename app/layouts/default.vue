@@ -3,6 +3,7 @@ import AppHeader from '@/components/layout/AppHeader.vue'
 import AppFooter from '@/components/layout/AppFooter.vue'
 import CookieConsent from '@/components/ui/CookieConsent.vue'
 import WhatsAppFab from '@/components/ui/WhatsAppFab.vue'
+import LocaleSuggestBar from '@/components/ui/LocaleSuggestBar.vue'
 import { clinicSchema, SITE_URL } from '@/utils/seo'
 
 const businessJsonLd = {
@@ -60,6 +61,7 @@ useHead({
 <template>
   <div class="flex min-h-screen flex-col bg-cream">
     <AppHeader />
+    <LocaleSuggestBar />
     <main class="flex-1">
       <slot />
     </main>

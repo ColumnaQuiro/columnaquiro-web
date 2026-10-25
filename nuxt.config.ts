@@ -52,20 +52,10 @@ export default defineNuxtConfig({
       link: [
         { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon-32x32.png' },
         { rel: 'apple-touch-icon', href: '/apple-touch-icon.png' },
-        { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
-        { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' },
-        {
-          rel: 'stylesheet',
-          href: 'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap',
-          media: 'print',
-          onload: "this.media='all'",
-        },
-      ],
-      noscript: [
-        {
-          innerHTML:
-            '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap">',
-        },
+        // Inter is self-hosted (see assets/css/main.css). Preloading the one
+        // weight nearly every first paint needs -- 400 is body text -- lets
+        // the browser fetch it alongside the CSS instead of after it.
+        { rel: 'preload', href: '/fonts/inter-latin-400.woff2', as: 'font', type: 'font/woff2', crossorigin: '' },
       ],
       meta: [{ name: 'theme-color', content: '#0b382c' }],
       script: [

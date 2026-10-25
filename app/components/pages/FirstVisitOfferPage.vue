@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { computed } from 'vue'
 import FaqAccordion from '@/components/ui/FaqAccordion.vue'
+import LiteYouTube from '@/components/ui/LiteYouTube.vue'
 import { clinic, schedule } from '@/data/clinic'
 import { useAppI18n } from '@/composables/useAppI18n'
 import { useSeo } from '@/composables/useSeo'
@@ -268,15 +269,11 @@ const { heightPx } = useQuiroFlowWidget()
         </ul>
       </div>
 
-      <div class="aspect-video w-full overflow-hidden rounded-3xl shadow-[0_1px_2px_0_rgba(0,0,0,0.05)]">
-        <iframe
-          class="h-full w-full"
-          src="https://www.youtube.com/embed/F8goW9I2MPk"
-          title="Bienvenid@ a ColumnaQuiro, tu centro quiropráctico de confianza en Valencia"
-          loading="lazy"
-          allowfullscreen
-        />
-      </div>
+      <LiteYouTube
+        video-id="F8goW9I2MPk"
+        title="Bienvenid@ a ColumnaQuiro, tu centro quiropráctico de confianza en Valencia"
+        class="w-full rounded-3xl shadow-[0_1px_2px_0_rgba(0,0,0,0.05)]"
+      />
     </div>
   </section>
 
