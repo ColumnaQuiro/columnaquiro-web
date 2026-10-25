@@ -49,10 +49,12 @@ const { heightPx } = useQuiroFlowWidget()
       <h1 class="text-3xl font-semibold text-forest sm:text-4xl">{{ c.heading }}</h1>
     </div>
 
+    <!-- Not lazy: the calendar IS this page. A lazy iframe this close to
+         the fold still waits on the browser's own heuristics, and on a phone
+         that was several seconds of empty white box. -->
     <iframe
       :src="bookingUrl"
       title="Reservar cita"
-      loading="lazy"
       :style="{ height: `${heightPx}px` }"
       class="mt-6 w-full rounded-3xl bg-white shadow-[0_1px_2px_0_rgba(0,0,0,0.05)] sm:mt-8"
     />

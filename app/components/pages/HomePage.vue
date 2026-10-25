@@ -17,15 +17,20 @@ const whyIcons = [
 ]
 
 const seoText = {
+  // Search Console, 24 Jul-23 Oct 2026: the home page showed 10,191 times
+  // for queries like "quiropractico valencia" (position 7) and was clicked
+  // 1.7% of the time. The old title said the brand and the category and
+  // nothing a searcher could compare on; this one leads with the query, then
+  // the two facts the listing competes on -- the price and the rating.
   es: {
-    title: 'ColumnaQuiro · Centro Quiropráctico en Valencia',
+    title: 'Quiropráctico en Valencia · Primera visita 70 € | ColumnaQuiro',
     description:
-      'Centro Quiropráctico en Valencia. Cuidamos tu sistema nervioso para que tu cuerpo recupere su capacidad innata de sanar y prosperar. Reserva tu primera visita.',
+      'Centro quiropráctico en Russafa / L\'Eixample, València. Quiroprácticas tituladas, 4,9 sobre 5 en Google con más de 150 reseñas. Primera visita 70 € con evaluación completa y primer ajuste. Reserva online.',
   },
   en: {
-    title: 'ColumnaQuiro · Chiropractic Center in Valencia',
+    title: 'English-speaking Chiropractor in Valencia · First visit €70 | ColumnaQuiro',
     description:
-      'Chiropractic center in Valencia. We care for your nervous system so your body can restore its innate ability to heal and thrive. Book your first visit.',
+      'Chiropractic clinic in Russafa / L\'Eixample, Valencia. Qualified chiropractors who speak English, rated 4.9 on Google from 150+ reviews. First visit €70 with a full assessment and first adjustment. Book online.',
   },
 }
 useSeo({
@@ -408,6 +413,8 @@ useHead({
     <div class="mx-auto grid max-w-[calc(1280px+3rem)] items-center gap-8 px-6 py-24 md:grid-cols-2">
       <img
         src="/assets/images/home-ajuste.avif"
+        loading="lazy"
+        decoding="async"
         alt="chiropractic spinal adjustment"
         class="aspect-[616/600] w-full rounded-2xl object-cover"
       />
@@ -481,6 +488,8 @@ useHead({
       </div>
       <img
         src="/assets/images/home-lea.avif"
+        loading="lazy"
+        decoding="async"
         alt="Léa Guido"
         class="aspect-[4/5] w-full rounded-2xl object-cover md:w-[480px] md:shrink-0"
       />
@@ -521,11 +530,15 @@ useHead({
     <div class="grid grid-cols-2 gap-4">
       <img
         src="/assets/images/home-natasha.avif"
+        loading="lazy"
+        decoding="async"
         alt="chiropractor examining a vertebra"
         class="aspect-square w-full rounded-2xl object-cover"
       />
       <img
         src="/assets/images/home-lea-ajuste.avif"
+        loading="lazy"
+        decoding="async"
         alt="Léa performing a chiropractic adjustment"
         class="aspect-square w-full rounded-2xl object-cover"
       />

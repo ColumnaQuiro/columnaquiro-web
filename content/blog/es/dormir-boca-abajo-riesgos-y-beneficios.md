@@ -1,12 +1,16 @@
 ---
-title: "Dormir boca abajo: riesgos y mejores alternativas"
+title: "Dormir boca abajo: beneficios reales, riesgos para cuello y espalda, y mejores alternativas"
 slug: dormir-boca-abajo-riesgos-y-beneficios
 date: 2025-11-01
-excerpt: "¿Duermes boca abajo? Descubre qué efectos tiene esta postura en tu columna y tu cuello, y qué alternativas pueden ayudarte a descansar mejor, según ColumnaQuiro Valencia."
+excerpt: "¿Dormir boca abajo tiene algún beneficio? Qué le hace esta postura a tu cuello y tu columna, cuándo puede ayudar y cómo cambiarla sin perder sueño. ColumnaQuiro, Valencia."
 cover: /assets/images/home-hero.jpg
 author: Léa Guido
 
 ---
+
+## ¿Tiene algún beneficio dormir boca abajo?
+
+Pocos, pero existen, y conviene decirlo. Para algunas personas que roncan o tienen apneas leves, dormir boca abajo mantiene la vía aérea más abierta que dormir boca arriba, y notan que descansan mejor. También hay quien simplemente concilia el sueño antes en esa postura, y un sueño que llega rápido ya es un beneficio en sí mismo. Lo que no hace esta postura es "estirar la espalda" ni mejorar la digestión, dos ideas que escuchamos a menudo y que no tienen base. Si duermes boca abajo por el ronquido, la alternativa que recomendamos es dormir de lado con una almohada entre las rodillas: conserva la ventaja y evita la torsión del cuello que explicamos a continuación.
 
 ## ¿Por qué dormir boca abajo puede ser un problema?
 
