@@ -48,6 +48,7 @@ export const PAGES: PagePair[] = [
   },
   { key: 'blog', es: '/blog', en: '/en/blog' },
   { key: 'reserva-cita', es: '/reserva-cita', en: '/en/book-appointment' },
+  { key: 'resenas', es: '/resenas', en: '/en/reviews' },
   { key: 'privacidad', es: '/politica-de-privacidad', en: '/en/privacy-policy' },
   { key: 'aviso-legal', es: '/aviso-legal', en: '/en/legal-notice' },
   { key: 'cookies', es: '/politica-de-cookies', en: '/en/cookies-policy' },

@@ -21,6 +21,7 @@ export default {
   },
   footer: {
     tagline: 'Your Chiropractic Center in Valencia',
+    resenas: 'Patient reviews',
     sintomas: 'Symptoms',
     horarios: 'Our hours',
     days: {

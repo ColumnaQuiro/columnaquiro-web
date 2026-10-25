@@ -4,15 +4,17 @@ import { useAppI18n } from '@/composables/useAppI18n'
 import { googleRating } from '@/data/clinic'
 import { reviews } from '@/data/reviews'
 import RatingBadge from '@/components/ui/RatingBadge.vue'
+import { pathFor } from '@/utils/site-routes'
 
 const props = withDefaults(defineProps<{ title: string; limit?: number }>(), { limit: 6 })
 const { locale } = useAppI18n()
 
 const copy = {
-  es: { all: 'Ver todas las reseñas en Google', write: 'Déjanos una reseña', from: 'Reseña en Google' },
-  en: { all: 'See all reviews on Google', write: 'Leave us a review', from: 'Google review' },
+  es: { all: 'Ver todas las reseñas en Google', write: 'Déjanos una reseña', from: 'Reseña en Google', page: 'Más reseñas de pacientes' },
+  en: { all: 'See all reviews on Google', write: 'Leave us a review', from: 'Google review', page: 'More patient reviews' },
 }
 const c = computed(() => copy[locale.value])
+const reviewsTotal = reviews.length
 
 // The page's own language first, then the rest, up to `limit`.
 const shown = computed(() =>
@@ -43,6 +45,7 @@ const shown = computed(() =>
       <div class="mt-8 flex flex-wrap gap-x-6 gap-y-2 text-sm font-semibold">
         <a :href="googleRating.url" target="_blank" rel="noopener" class="text-forest underline">{{ c.all }}</a>
         <a :href="googleRating.url" target="_blank" rel="noopener" class="text-gold-dark underline">{{ c.write }}</a>
+        <NuxtLink v-if="props.limit < reviewsTotal" :to="pathFor('resenas', locale)" class="text-forest underline">{{ c.page }}</NuxtLink>
       </div>
     </div>
   </section>

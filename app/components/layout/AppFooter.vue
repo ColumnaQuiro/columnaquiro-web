@@ -35,6 +35,9 @@ const symptomsList = computed(() => symptoms[locale.value])
               clinic.phone
             }}</a>
           </div>
+          <NuxtLink :to="pathFor('resenas', locale)" class="mt-4 inline-block text-sm text-sage underline hover:text-white">{{
+            t('footer.resenas')
+          }}</NuxtLink>
           <div class="mt-5 flex gap-4">
             <a
               v-for="social in socialLinks"
