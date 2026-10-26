@@ -66,7 +66,7 @@ const total = reviews.length
       <h2 class="section-title">{{ c.askTitle }}</h2>
       <p class="mt-4 text-body/80">{{ c.askBody }}</p>
       <a
-        :href="googleRating.url"
+        :href="googleRating.writeReviewUrl"
         target="_blank"
         rel="noopener"
         class="mt-8 inline-flex items-center gap-2 rounded-xl bg-forest px-6 py-3 text-sm font-medium text-white hover:bg-forest-light"

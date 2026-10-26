@@ -17,7 +17,13 @@ export const clinic = {
 export const googleRating = {
   value: synced?.rating ?? 4.9,
   count: synced?.count ?? 159,
+  // The listing, for "see all reviews" and the badge.
   url: 'https://maps.app.goo.gl/NQEAbzbbg75xxjKU6',
+  // Opens Google's review dialog for the listing straight away, signed-in
+  // visitor permitting, instead of landing on the profile and leaving the
+  // patient to find the button. The Place ID is the listing's (it is also the
+  // GBP_PLACE_ID the reviews sync uses).
+  writeReviewUrl: 'https://search.google.com/local/writereview?placeid=ChIJTdAqy2xJYA0RzzX3L8LwfwQ',
 }
 
 // How patients are told to get here. Supplied by the clinic.
