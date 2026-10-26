@@ -4,14 +4,15 @@ import { useAppI18n } from '@/composables/useAppI18n'
 import { googleRating } from '@/data/clinic'
 import { reviews } from '@/data/reviews'
 import RatingBadge from '@/components/ui/RatingBadge.vue'
+import ReviewCard from '@/components/ui/ReviewCard.vue'
 import { pathFor } from '@/utils/site-routes'
 
 const props = withDefaults(defineProps<{ title: string; limit?: number }>(), { limit: 6 })
 const { locale } = useAppI18n()
 
 const copy = {
-  es: { all: 'Ver todas las reseñas en Google', write: 'Déjanos una reseña', from: 'Reseña en Google', page: 'Más reseñas de pacientes' },
-  en: { all: 'See all reviews on Google', write: 'Leave us a review', from: 'Google review', page: 'More patient reviews' },
+  es: { all: 'Ver todas las reseñas en Google', write: 'Déjanos una reseña', page: 'Más reseñas de pacientes' },
+  en: { all: 'See all reviews on Google', write: 'Leave us a review', page: 'More patient reviews' },
 }
 const c = computed(() => copy[locale.value])
 const reviewsTotal = reviews.length
@@ -30,16 +31,8 @@ const shown = computed(() =>
         <RatingBadge />
       </div>
       <ul class="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-        <li
-          v-for="(review, i) in shown"
-          :key="`${review.name}-${i}`"
-          :lang="review.lang"
-          class="flex flex-col justify-between rounded-2xl bg-white p-6 shadow-[0_1px_2px_0_rgba(0,0,0,0.05)]"
-        >
-          <p class="text-body">“{{ review.text }}”</p>
-          <p class="mt-4 text-sm text-slate">
-            <span class="font-semibold text-forest">{{ review.name }}</span> · {{ c.from }}
-          </p>
+        <li v-for="(review, i) in shown" :key="`${review.name}-${i}`">
+          <ReviewCard :review="review" />
         </li>
       </ul>
       <div class="mt-8 flex flex-wrap gap-x-6 gap-y-2 text-sm font-semibold">

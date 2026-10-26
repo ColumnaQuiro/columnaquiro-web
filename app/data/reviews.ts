@@ -22,6 +22,12 @@ export interface Review {
   name: string
   lang: 'es' | 'en'
   text: string
+  // Known for synced reviews only. The card shows the star row and the date
+  // when they are present; the hand-written list has neither, and inventing
+  // five stars for a quote nobody re-checked would be exactly the kind of
+  // claim the page promises not to make.
+  rating?: number
+  date?: string
 }
 
 const curated: Review[] = [
@@ -88,5 +94,5 @@ const MIN_SYNCED = 6
 
 export const reviews: Review[] =
   synced && synced.reviews.length >= MIN_SYNCED
-    ? synced.reviews.map(({ name, lang, text }) => ({ name, lang, text }))
+    ? synced.reviews.map(({ name, lang, text, rating, date }) => ({ name, lang, text, rating, date }))
     : curated
