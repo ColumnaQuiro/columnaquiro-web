@@ -1,7 +1,248 @@
 {
-  "fetchedAt": "2026-10-25T17:54:03.848Z",
-  "source": "places",
+  "fetchedAt": "2026-10-28T16:52:10.241Z",
+  "source": "business-profile",
   "rating": 4.9,
   "count": 159,
-  "reviews": []
+  "reviews": [
+    {
+      "id": "AbFvOqn-Hv_bmF0xcpoPZZpuLAd0Mcoh4FrJTiQXjtzZekCyjdCtwNKUFCY9eL8XqFXpRCje46nl9g",
+      "name": "Sergio",
+      "lang": "es",
+      "rating": 5,
+      "date": "2026-10-07",
+      "text": "Dan una atención de 10. Empecé el tratamiento por un dolor lumbar y dolores recurrentes de espalda. Ahora me siento mucho mejor en mi día a día y sigo con el mantenimiento mensual que me viene genial. También he ido para algún dolor de migrañas y he salido como nuevo. Recomendado!"
+    },
+    {
+      "id": "AbFvOqkydaqNLQSYPqwkLSLqTDPVxcdfogwMUG3_uZmBkiEc3nMxmcfaUFmv_0CDkyHDlyU9k04JeQ",
+      "name": "Adrian",
+      "lang": "es",
+      "rating": 5,
+      "date": "2026-09-30",
+      "text": "Jordana es una increíble profesional! Muy atenta, amable y dispuesta a tomarse el tiempo necesario para explicarte tu caso en particular"
+    },
+    {
+      "id": "AbFvOql6yPhxpOIgbew5xYwnJQG6T7Z5-0E1BA8OgrDAa8GXfb1k1DSvMJ1e-w3gyxNefoNuWlZ12w",
+      "name": "Kimetz",
+      "lang": "es",
+      "rating": 5,
+      "date": "2026-08-28",
+      "text": "Muy buena experiencia con Jordana. Desde el primer momento fue muy cercana y profesional, dedicando tiempo a escucharme y explicarme todo con claridad. Durante la sesión me sentí muy cómodo y se nota que trabaja con mucho cuidado y atención."
+    },
+    {
+      "id": "AbFvOqlPLT9NURN6v6GNLkyhF8kPzUHpPMuCrNgQ8WC09oXTTGxKr7UT3SnvDTCg_r00JmdsHmGk",
+      "name": "Alessandro",
+      "lang": "es",
+      "rating": 5,
+      "date": "2026-08-28",
+      "text": "Super profesionales y amables. El cuidado de Jordana fue algo excepcional! Recomiendo absolutamente!"
+    },
+    {
+      "id": "AbFvOqnCPShA4VMSPzjWNJOK3q6TGYcgnDPIoK4jEVMzWD5KWBKbZZxvqMrS4GYXM4zWjAVagboARA",
+      "name": "Jose",
+      "lang": "es",
+      "rating": 5,
+      "date": "2026-08-28",
+      "text": "Siempre que bajo a valencia por vacaciones, no interrumpo mi cuidado quiropráctico acudiendo aquí con Jordana. Es una profesional de principio a fin, siempre indagando hasta encontrar tu problema solventandolo de raíz. Totalmente recomendable."
+    },
+    {
+      "id": "AbFvOqkefhFjjJU0loyJBVbbS5Z64Uqf84JX6X-YniM3LJIxjRE6HwM5JmST_Xvr7uCz5qUA2z_QXQ",
+      "name": "Lucas",
+      "lang": "es",
+      "rating": 5,
+      "date": "2026-08-28",
+      "text": "Llegué a la consulta con un dolor de espalda desde hace meses… me atendió Jordana y en un par de meses estoy mejor que nunca! Os lo recomiendo muchísimo Jordana es la mejor"
+    },
+    {
+      "id": "AbFvOqmslnDLK-ZNcL3KXv9eEb9Ec5HTL9oYXavY9Z2CxDjElVUX-3xIZld392gyivL_zGNCapQ9wA",
+      "name": "Adri",
+      "lang": "es",
+      "rating": 5,
+      "date": "2026-08-28",
+      "text": "Jordana me lleva tratando desde hace tiempo. Atención de 10. Muy profesional y correcta pero también muy cercana. Siempre ha sido rigurosa con el seguimiento de mi caso. Muy satisfecha con el tratamiento recibido. Muy recomendada."
+    },
+    {
+      "id": "AbFvOqkrtbZx5G7OgRrEjjU0Dh4ynziI4IzMwbyFBd_QMhtDE_aYgBGYAao7C2J8Q_GImMuzWmnpug",
+      "name": "Blanca",
+      "lang": "es",
+      "rating": 5,
+      "date": "2026-08-28",
+      "text": "Jordana es toda una profesional, destacar su amabilidad y su buen trato! Hemos estado trabajando dolores en la espalda y he notado una gran mejoría."
+    },
+    {
+      "id": "AbFvOqmS7eKhO5arMiDWErrJY4ZHqQ9Qxj55Fp44MFltndPkCu93aDR7rjuxOeHbau-Fmi0Zmc8Q",
+      "name": "Fernando",
+      "lang": "es",
+      "rating": 5,
+      "date": "2026-07-29",
+      "text": "Cuando llegas a un sitio de quiropráctica sin saber verdaderamente si esto funciona, al experimentarlo me he llevado una gran satisfacción y aún cuando te encuentras con verdaderos profesionales de por medio aún mejor, gracias por hacerme sentir mejor de lo que estaba"
+    },
+    {
+      "id": "AbFvOqkKMleOsTIQ5CZcaLVmCkOTc4oJbfwONY8-8aiH00iS2e9lcUCMvsWSVZ6vIAI5ppDuthZd6A",
+      "name": "Blanca",
+      "lang": "es",
+      "rating": 5,
+      "date": "2026-07-01",
+      "text": "Lea y Natasha son dos grandes profesionales, entré con poca fe porque ya he probado de todo y debo admitir que mi corrección postural y mejora, sobretodo al caminar es genial. los consejos son prácticos y fáciles de seguir, no piden imposibles. Mil gracias y seguiremos viéndonos!!"
+    },
+    {
+      "id": "AbFvOqlfyM0Ryrms8ntErjNdOdTkpWiQEfXwvSG7fUukkAoqdTc8AjgRVw6nHYwVGva6mNc1gXbpgw",
+      "name": "Jani",
+      "lang": "es",
+      "rating": 5,
+      "date": "2026-06-29",
+      "text": "Llevo varias sesiones acudiendo al Centro Quiropráctico ColumnaQuiro y la experiencia está siendo realmente buena. Las primeras visitas las tuve con Léa, que me encantó por su cercanía y por la claridad con la que me explicó el planteamiento del tratamiento; se nota su formación y profesionalidad, y me dio mucha tranquilidad y confianza desde el principio. […]"
+    },
+    {
+      "id": "AbFvOqlLUXWbO17PLU7GzV9Mmyf3f1jtOA1e_HqoGAl3xw3qZ1scrBl-7hvn7Qx5S5SMA-H_wP7AIg",
+      "name": "Leila",
+      "lang": "es",
+      "rating": 5,
+      "date": "2026-06-25",
+      "text": "Natasha me ayuda mucho no solo con las ajustes pero tmb con los ejercicios que tengo que hacer en casa para fortalecer la columna. La recomiendo 100%!"
+    },
+    {
+      "id": "AbFvOqnk5wYQTy22eDIfjzq-cy37L2z4TXC1B1IqdiyyV46JjpEPXMf4rqmWewEANrKo63PZvHPn1w",
+      "name": "Sergio",
+      "lang": "es",
+      "rating": 5,
+      "date": "2026-06-25",
+      "text": "Muy recomendable, en un par de sesiones gran alivio en lumbares y cervicales."
+    },
+    {
+      "id": "AbFvOqnbdNoNmrSHjC7ciTz3oS7EqRu_cPhENP6gdDD8LC9wJJab2Z6NWnZ4TuuQFKwJTMgpADJxjA",
+      "name": "Jorge",
+      "lang": "es",
+      "rating": 5,
+      "date": "2026-06-25",
+      "text": "Como operador de cámara y Steadicam, mi trabajo exige muchas horas cargando peso y sometiendo la espalda y el cuello a una gran tensión. Durante bastante tiempo sufrí dolores en la zona lumbar y molestias cervicales que llegaron a afectar tanto a mi trabajo como a mi vida diaria. Después de tratarme en Columna Quiro, la mejoría ha sido increíble. […]"
+    },
+    {
+      "id": "AbFvOqkPzXvRP25jE_FiMSrvjEd8bSEN0ZRSeMGkEd3hNubva92p7K0BlIeVSQihzUzYGjdDQ4cagA",
+      "name": "Mar",
+      "lang": "es",
+      "rating": 5,
+      "date": "2026-04-29",
+      "text": "Espero cada sesión con muchísimas ganas cada mes… no solo me arreglan la espalda sino que me siento con muchísima más fuerza y energia! Todos los profesionales que trabajan el centro son un 10/10😊"
+    },
+    {
+      "id": "AbFvOqmPe952SEpoCi7VWeSuGOx43YHsqIeGSy9yQmdM0YfqhQHk1F0FxcNBIwNfrhhlbdgLg7XozQ",
+      "name": "WhitestWaters",
+      "lang": "en",
+      "rating": 5,
+      "date": "2026-04-28",
+      "text": "Lea I great! She puts you at ease and explains in detail what is going on in your body and you can see notable change from her treatments! I come back regularly for neck checkups but don't have any more upper back pain and don't need to crack my hips anymore !"
+    },
+    {
+      "id": "AbFvOqnwYDkj_gMwwLRVLsv0FCycSL5xDkrfmtYEo97nHFt74DSIhQLOLi1f_uQ4KKybBunR-YzO",
+      "name": "Eduardo",
+      "lang": "es",
+      "rating": 5,
+      "date": "2026-04-08",
+      "text": "Sin duda el mejor centro quiropráctico de España. Empecé mi tratamiento totalmente torcido y luego de las 14 sesiones ya estoy totalmente en mi sitio, recomiendo 100% por la experiencia y conocimientos de LEA. Una verdadera profesional que se merece todo lo mejor por su dedicación y empeño con la mejora de nuestras columnas"
+    },
+    {
+      "id": "AbFvOqnRYVWpbWVK2bFXdbNGAw0MEYoM28lvM1bgZfK0gzEbSdSPkhwP_vTm6aq5GAa53BOAJ7wp-w",
+      "name": "Laura",
+      "lang": "es",
+      "rating": 5,
+      "date": "2026-02-10",
+      "text": "Una profesional excelente. Me ha hecho sentir muy cómoda. Ha solucionado mis problemas de dolor en 2 sesiones. Super recomendable"
+    },
+    {
+      "id": "AbFvOqnh0SK1D_nfrGJzSY-_IuF8LO9-ZQcxAiVeotgDNN7RGvZiOkgWJmAKyMHYm7ltsTCsEUNQlQ",
+      "name": "Patricia",
+      "lang": "es",
+      "rating": 5,
+      "date": "2025-12-11",
+      "text": "Acudí hace 3 meses con problemas de espalda acompañada de los brotes de fibromialgia. Ya no sabía dónde acudir ni que tomar para estar mejor. Fue todo un descubrimiento el llegar aquí. A día de hoy he corregido mi postura, me encuentro mucho mejor. También he conseguido dormir mejor. Estoy muy contenta con el resultado, no sabia que Lea podía aportar tanto a mi vida. Mil gracias"
+    },
+    {
+      "id": "AbFvOqkFOy08mBXFNaWv2J3dRkByN7Cqc7T2oq4zZUo03rKqAs_LqqbexdqbCqKYLr_wqURkWfj-lA",
+      "name": "Agustín",
+      "lang": "es",
+      "rating": 5,
+      "date": "2025-11-23",
+      "text": "Excelente!! Muy profesionales y con resultados excelentes!! En especial a Lea que me ha tratado y guiado durante todo el tratamiento. Muy muy recomendable!!"
+    },
+    {
+      "id": "AbFvOqmSRi5r7vfWBMfCqpIEBIl8vM2xkZuOLzszvJWDPGMz8SELbOm1uF50Hbhf_wpcxW1lftu6lQ",
+      "name": "Roberto",
+      "lang": "es",
+      "rating": 5,
+      "date": "2025-11-20",
+      "text": "Fui por dolores de espalda constantes, insomnio y dolores de cabeza que no se me iban, después de realizar el tratamiento ya no tengo insomnio, ni dolores de cabeza y la espalda ha mejorado un 90%, realmente lo recomiendo, yo pillé el bono de 10 sesiones y me salió más rentable, además de la atención prestada por Lea, que te asesora en todo momento"
+    },
+    {
+      "id": "AbFvOqn_tLW-O9JaQskXFc2P5_dihoRIYU4r3aKYImL-l_YpQuktPv7yCqFffYdnhmMMgPCN4O_Z9w",
+      "name": "Agustí",
+      "lang": "es",
+      "rating": 5,
+      "date": "2025-10-14",
+      "text": "Trato excelente y profesional. Sentí mejoría desde las primeras visitas y ahora que he terminado el tratamiento seguiré yendo a revisiones periódicas encantado."
+    },
+    {
+      "id": "AbFvOqnIvrSjEvQkM8F18QKwMEQlDT7eeFtgCZUwJfzGWX57VgBmCpWFsy_pip0J-gpmwr9l30Zk",
+      "name": "Lisa",
+      "lang": "en",
+      "rating": 5,
+      "date": "2025-10-14",
+      "text": "I was so happy to find Léa here in València, particularly because she speaks English, so that was key for me. I had some hesitations due to previous chiropractic experiences, but Léa made me feel super comfortable right away, and really spent time to understand what my issue was and how she could help me in a way that felt comfortable to me as well. […]"
+    },
+    {
+      "id": "AbFvOqmCg5c-6FPOioNfBLyknZeM0kGKO09jByyBJrYMxtlKuPPlkzyg4D-eThptOPaXaVtfXHU0SA",
+      "name": "Antonio",
+      "lang": "es",
+      "rating": 5,
+      "date": "2025-08-28",
+      "text": "Gracias siempre por vuestra profesionalidad y trato personal; mi dolencia se ha visto mejorada notablemente, habéis conseguido en poco tiempo resultados espectaculares. Totalmente recomendable. Lea, gracias de nuevo por tu ayuda ."
+    },
+    {
+      "id": "AbFvOqnDi1RYGt4lSPrqrNzqMwJhJbjTnOZY6OqiCT5oWXk299FPW_gOMmZkAacVtoRfCSPVDo4sxA",
+      "name": "Judit",
+      "lang": "en",
+      "rating": 5,
+      "date": "2025-06-12",
+      "text": "Finding Lea was an absolute life-saver for me! She accompanied me through my IVF treatment and first trimester of pregnancy and helped me with my laundry list of pains and imbalances. I sorely miss her magical hands now that I am back to my home country. I have visited chiropractors in several countries so I can confidently say that Lea is absoulte top-notch in her profession. […]"
+    },
+    {
+      "id": "AbFvOqnm83Z8Ty79wkmlv58YtiGvXmlh5PNvXQTxl2a1fr2NRLWJALttx3n6_Hj3cJSLahcm7E2L",
+      "name": "Tom",
+      "lang": "en",
+      "rating": 5,
+      "date": "2024-12-13",
+      "text": "I have known Lea for years. Excellent chiropractor and good person. Highly recommended!"
+    },
+    {
+      "id": "AbFvOqkCp7nSyGSfJZrYQLkl6GR4DVg-_cwRqydrQQnl8N3Lft9fO56Yo4v_3ne-N8XFcvDUSkTF0g",
+      "name": "Emma",
+      "lang": "en",
+      "rating": 5,
+      "date": "2024-09-01",
+      "text": "I am very happy with the care I received so far! Would recommend for anyone, no matter the age and if you have symptoms or not. I came for improving my overall well-being and to feel more relaxed, connected and aligned in my body. And it’s definitely changed my health for the better 🌟 thank you!"
+    },
+    {
+      "id": "AbFvOqmiFTEQLZGybXT7mzT32rJ1jE2DW5X1ucSrNFAFLPqXiQ7E5Q60KUDMashzoh1wWo3gL2wx",
+      "name": "Chelsea",
+      "lang": "en",
+      "rating": 5,
+      "date": "2024-06-20",
+      "text": "Lea and Alba are great. I've been seeing Lea for about 3 months and her adjustments are amazing. I've had many adjustments in the past and all Chiropractors are not equal. She is gentle and takes her time. I also take my 5 year old daughter there and she LOVES it. Alba always entertains her while I'm being adjusted and I'm so grateful for that. Go book your appointment. You won't regret it!!"
+    },
+    {
+      "id": "AbFvOqmyU6U1GICvEkboBp6whIpEO4uG9DsvXebLyj-_T0eavXISmakiYVtee-XwoGRFaHjSvHwY4w",
+      "name": "Rosalee",
+      "lang": "en",
+      "rating": 5,
+      "date": "2024-05-19",
+      "text": "Im so lucky that I found Lea! Shes an amazing chiropractor, and that has been hard to find. She explains how everything in the body is connected and while fixing my posture, other problems like my jaw clenching have lessened greatly since receiving adjustments with Lea. Also a huge help that she speaks English, French and Spanish! highly recommend this place and thank you so much Lea!"
+    },
+    {
+      "id": "AbFvOqmWCgexOYUQy18wXG3dqx88McycbmUdO84Mu8dCKmzut-JRerStCKypwn0BSvQGVEN9bQf11A",
+      "name": "Christie",
+      "lang": "en",
+      "rating": 5,
+      "date": "2024-03-14",
+      "text": "I am so happy to have found Lea as my chiropractor during my 3 month stay in Valencia. Lea is amazing. She is very knowledgeable and thorough. She thoroughly pre-assesses your needs and re-assessed me after a series of treatments. She speaks English French and Spanish fluently. I always suffer from neck and back pain and very limited mobility from travel. Usually when away from home I’m in pain. […]"
+    }
+  ]
 }

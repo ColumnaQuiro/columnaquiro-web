@@ -4,7 +4,7 @@
 import { test } from 'node:test'
 import assert from 'node:assert/strict'
 import { readFileSync } from 'node:fs'
-import { buildOutput, buildPlacesOutput, clip, detectLang, firstName, originalText, sameData, LIMITS } from './sync-google-reviews.mjs'
+import { balance, buildOutput, buildPlacesOutput, clip, detectLang, firstName, originalText, sameData, LIMITS } from './sync-google-reviews.mjs'
 
 const pages = JSON.parse(readFileSync(new URL('./fixtures/google-reviews.sample.json', import.meta.url), 'utf8'))
 
@@ -48,7 +48,15 @@ test('helpers', () => {
   assert.equal(firstName('  Maria Teresa García '), 'Maria')
   assert.equal(firstName('WhitestWaters'), 'WhitestWaters')
   assert.equal(firstName('Ana,'), 'Ana')
+  assert.equal(firstName('M ANGELES'), 'M Angeles')
+  assert.equal(firstName('M LUZ “merypopins”'), 'M Luz')
+  assert.equal(firstName('A. Bad'), 'A Bad')
+  assert.equal(firstName('AGUSTÍN'), 'Agustín')
+  assert.equal(firstName('laura'), 'Laura')
+  assert.equal(firstName('C'), 'C')
   assert.equal(originalText('(Translated by Google) Hi\n\n(Original)\nHola  qué tal'), 'Hola qué tal')
+  assert.equal(originalText('Mil gracias Lea! (Translated by Google) Thank you so much, Lea!'), 'Mil gracias Lea!')
+  assert.equal(originalText('(Translated by Google) Only a translation'), 'Only a translation')
   assert.equal(originalText('Plain\ntext'), 'Plain text')
   assert.equal(detectLang('Me ha ayudado mucho con el dolor de espalda y lo recomiendo'), 'es')
   assert.equal(detectLang('She helped me a lot with my back pain and I would recommend her'), 'en')
@@ -77,4 +85,19 @@ test('a run with the same data as the file is a no-op, whatever the timestamp', 
   const full = buildOutput(pages, new Date('2026-10-25T00:00:00Z')).output
   assert.equal(sameData(full, buildOutput(pages, new Date('2026-11-01T00:00:00Z')).output), true)
   assert.equal(sameData(full, a), false)
+})
+
+test('each language keeps a floor of its newest reviews inside the cap', () => {
+  const mk = (lang, i) => ({ id: `${lang}${i}`, lang, date: `2026-${String(12 - Math.floor(i / 28)).padStart(2, '0')}-${String(28 - (i % 28)).padStart(2, '0')}` })
+  // 40 Spanish reviews, all newer than 10 English ones.
+  const sorted = [...Array.from({ length: 40 }, (_, i) => mk('es', i)), ...Array.from({ length: 10 }, (_, i) => mk('en', i + 40))]
+  const out = balance(sorted, { maxReviews: 30, minPerLang: 8 })
+  assert.equal(out.length, 30)
+  assert.equal(out.filter((r) => r.lang === 'en').length, 8)
+  assert.equal(out.filter((r) => r.lang === 'es').length, 22)
+  // Still newest first, and the English ones are the newest English ones.
+  assert.deepEqual(out.map((r) => r.id).slice(0, 3), ['es0', 'es1', 'es2'])
+  assert.deepEqual(out.filter((r) => r.lang === 'en').map((r) => r.id), ['en40', 'en41', 'en42', 'en43', 'en44', 'en45', 'en46', 'en47'])
+  // Nothing to balance when both fit.
+  assert.equal(balance(sorted.slice(0, 20), { maxReviews: 30, minPerLang: 8 }).length, 20)
 })
