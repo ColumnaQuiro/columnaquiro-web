@@ -80,29 +80,61 @@ export const LIMITS = {
   // Longer reviews are cut at a sentence end and marked with […], the same way
   // the hand-curated list did it. Nothing is paraphrased.
   maxChars: 420,
+  // Each page leads with reviews in its own language, and the English pages
+  // would look thin if a Spanish-heavy month pushed every English review out
+  // of the newest 30. So each language is guaranteed this many slots (when
+  // that many exist), filled with its own newest reviews.
+  minPerLang: 8,
 }
 
 // ---------------------------------------------------------------------------
 // Pure helpers (exported for the test file)
 // ---------------------------------------------------------------------------
 
-// Google serves reviews written in another language than the account's as
-// "(Translated by Google) … (Original) …". We only ever quote the original.
+// Google serves reviews written in another language than the account's with
+// a machine translation attached, in one of two shapes: the documented
+// "(Translated by Google) <translation> (Original) <original>", and the one
+// the listing actually returns, "<original> (Translated by Google)
+// <translation>". We only ever quote the original.
 export function originalText(comment) {
   if (!comment) return ''
   let text = String(comment)
-  const marker = text.indexOf('(Original)')
-  if (marker !== -1) text = text.slice(marker + '(Original)'.length)
-  text = text.replace(/^\s*\(Translated by Google\)\s*/i, '')
+  const original = text.indexOf('(Original)')
+  const translated = text.indexOf('(Translated by Google)')
+  if (original !== -1) {
+    text = text.slice(original + '(Original)'.length)
+  } else if (translated > 0) {
+    text = text.slice(0, translated)
+  } else if (translated === 0) {
+    text = text.slice('(Translated by Google)'.length)
+  }
   return text.replace(/\s+/g, ' ').trim()
 }
 
-// First name only, as the reviewer published it. Handles ("WhitestWaters")
-// are one token and stay whole; "Maria Teresa García" becomes "Maria".
+// First name only, as the reviewer published it, with two allowances. An
+// initial counts as part of the name ("M ANGELES" keeps both tokens, since
+// "M" on its own is nobody), and a name typed in all caps or all lower case
+// is title-cased for the card, which changes nothing about who wrote it.
+// Handles ("WhitestWaters") are one token and stay whole.
 export function firstName(displayName) {
   if (!displayName) return ''
-  const token = String(displayName).trim().split(/\s+/)[0] ?? ''
-  return token.replace(/[.,;:!?]+$/u, '')
+  const tokens = String(displayName)
+    .trim()
+    .split(/\s+/)
+    .map((t) => t.replace(/[.,;:!?]+$/u, ''))
+    .filter(Boolean)
+  if (tokens.length === 0) return ''
+  const bare = (t) => t.replace(/[.]/g, '')
+  let name = tokens[0]
+  if (bare(name).length <= 1 && tokens.length > 1 && !/^[“"'(]/.test(tokens[1])) name = `${tokens[0]} ${tokens[1]}`
+  const letters = name.replace(/[^\p{L}]/gu, '')
+  if (letters && (letters === letters.toLocaleUpperCase() || letters === letters.toLocaleLowerCase())) {
+    name = name
+      .split(' ')
+      .map((w) => (w ? [...w][0].toLocaleUpperCase() + [...w].slice(1).join('').toLocaleLowerCase() : w))
+      .join(' ')
+  }
+  return name
 }
 
 const STOPWORDS = {
@@ -184,7 +216,7 @@ export function selectReviews(rawReviews, limits = LIMITS) {
       continue
     }
     const name = firstName(raw.reviewer.displayName)
-    if (name.length < 2) {
+    if (name.replace(/[^\p{L}]/gu, '').length < 2) {
       skip('no usable name')
       continue
     }
@@ -202,7 +234,32 @@ export function selectReviews(rawReviews, limits = LIMITS) {
     kept.push({ id, name, lang, rating: 5, date, text: clip(text, limits.maxChars, limits.minChars) })
   }
   kept.sort((a, b) => (a.date < b.date ? 1 : a.date > b.date ? -1 : 0))
-  return { reviews: kept.slice(0, limits.maxReviews), skipped }
+  return { reviews: balance(kept, limits), skipped }
+}
+
+// Newest first, capped at maxReviews, but no language squeezed below
+// minPerLang while it has reviews to give: the floor is filled with that
+// language's own newest, and the oldest of the others make room.
+export function balance(sorted, limits = LIMITS) {
+  const max = limits.maxReviews
+  const floor = Math.min(limits.minPerLang ?? 0, Math.floor(max / 2))
+  const chosen = new Set(sorted.slice(0, max))
+  for (const lang of ['es', 'en']) {
+    const ofLang = sorted.filter((r) => r.lang === lang)
+    const want = Math.min(floor, ofLang.length)
+    for (const r of ofLang) {
+      if ([...chosen].filter((c) => c.lang === lang).length >= want) break
+      chosen.add(r)
+    }
+  }
+  const result = sorted.filter((r) => chosen.has(r))
+  while (result.length > max) {
+    // Drop the oldest review of whichever language is above its floor.
+    const counts = result.reduce((acc, r) => ((acc[r.lang] = (acc[r.lang] ?? 0) + 1), acc), {})
+    const idx = [...result.keys()].reverse().find((i) => counts[result[i].lang] > floor) ?? result.length - 1
+    result.splice(idx, 1)
+  }
+  return result
 }
 
 // True when two outputs carry the same data, ignoring `fetchedAt`: a weekly
