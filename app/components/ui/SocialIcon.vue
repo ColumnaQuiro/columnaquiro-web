@@ -2,8 +2,8 @@
 withDefaults(
   defineProps<{
     name: 'Instagram' | 'Facebook' | 'WhatsApp'
-    // Overridable so the same glyph can be reused at a larger size (e.g. the
-    // floating WhatsApp button) without duplicating the path data.
+    // Overridable so the same glyph can be reused at another size (e.g. the
+    // sticky bar's WhatsApp button) without duplicating the path data.
     sizeClass?: string
   }>(),
   { sizeClass: 'h-5 w-5' },
