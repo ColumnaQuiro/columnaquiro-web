@@ -148,6 +148,24 @@ t=setInterval(scan,400);scan()})();`,
             innerHTML: `!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.agent='plwebflow';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');fbq('init','871158915207190');fbq('track','PageView');`,
           },
         ].map((s) => ({ ...s, type: 'fs-cc', 'fs-cc-category': 'analytics' })),
+        // QuiroFlow's website chat: a visitor's message lands in the clinic
+        // Inbox as a lead, and the AI receptionist answers it. Not behind the
+        // consent banner, because it tracks nothing: no cookies, no third
+        // party, and the one thing it stores -- a random id in localStorage
+        // that lets the visitor read the answer back -- is written only once
+        // they send a message, which is the service they asked for.
+        //
+        // At the end of <body> so the widget never runs before there is a
+        // body to put its button in. Switched on or off in QuiroFlow
+        // (Settings > WhatsApp > Chat on your website); off, it shows nothing.
+        // Where it sits is set in main.css.
+        {
+          key: 'quiroflow-webchat',
+          src: 'https://app.quiroflow.com/webchat.js',
+          'data-clinic': 'columnaquiro',
+          async: true,
+          tagPosition: 'bodyClose',
+        },
       ] as any,
     },
   },

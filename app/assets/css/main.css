@@ -140,3 +140,29 @@ body {
     color: var(--color-forest);
   }
 }
+
+/*
+  The QuiroFlow chat bubble (loaded in nuxt.config.ts) sits just above the
+  WhatsApp button rather than on it: same right edge, one button height plus
+  a gap higher. The widget lives in a shadow root, so these three custom
+  properties are the only way in -- they place it, they cannot restyle it.
+
+  z-index 45: above page content and the WhatsApp button (z-40), below the
+  header (z-50) and the cookie banner (z-[100]), so a consent choice is never
+  covered by a chat button.
+
+  Phones: the WhatsApp button is hidden wherever the sticky action bar
+  shows, and that bar takes the bottom ~4.5rem, so the bubble clears it.
+*/
+[data-quiroflow-webchat] {
+  --qf-chat-right: 20px;
+  --qf-chat-bottom: 88px;
+  --qf-chat-z: 45;
+}
+
+@media (min-width: 640px) {
+  [data-quiroflow-webchat] {
+    --qf-chat-right: 24px;
+    --qf-chat-bottom: 92px;
+  }
+}
