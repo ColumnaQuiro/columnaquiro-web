@@ -2,9 +2,9 @@ import { computed } from 'vue'
 
 // Pages where the booking calendar is already on screen. The sticky bar's one
 // job is to put "Reservar" a tap away; where the calendar itself is the page,
-// a bar over it would only hide the bottom of the widget. The WhatsApp button
-// and the cookie bar share this rule so the bottom edge never stacks three
-// things on a phone.
+// a bar over it would only hide the bottom of the widget. The cookie bar and
+// the chat bubble's placement (main.css) share this rule so the bottom edge
+// never stacks things on a phone.
 const CALENDAR_PAGES = [
   '/reserva-cita',
   '/en/book-appointment',
