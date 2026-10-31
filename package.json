@@ -17,8 +17,8 @@
     "@nuxtjs/robots": "^6.1.4",
     "@nuxtjs/sitemap": "^8.3.4",
     "marked": "^18.0.9",
-    "nuxt": "^4.5.2",
-    "vue": "^3.5.40",
+    "nuxt": "^4.6.3",
+    "vue": "^3.5.44",
     "vue-i18n": "^11.4.8"
   },
   "devDependencies": {
