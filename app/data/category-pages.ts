@@ -5,6 +5,8 @@ export interface SymptomCard {
 
 export interface CategoryContent {
   title: string
+  // intro[0] doubles as the page's meta description and hero text, so it is
+  // kept to one sentence under ~155 characters.
   intro: string[]
   list?: { lead: string; text: string }[]
   extra?: string[]
@@ -19,6 +21,10 @@ export interface CategoryPage {
   en: CategoryContent
 }
 
+// Rewritten in Oct 2026 to claim only what the evidence supports: help with
+// musculoskeletal pain, with each group's limits stated plainly (no nervous
+// system "working at 100%", no performance gains, no effect on neurodevelopmental
+// conditions). The "associated symptoms" cards list only what we actually treat.
 export const categoryPages: CategoryPage[] = [
   {
     slugEs: 'trabajadores',
@@ -27,36 +33,32 @@ export const categoryPages: CategoryPage[] = [
     es: {
       title: 'Trabajadores',
       intro: [
-        'El dolor en la columna, ya sea dolor de espalda o lumbar, es la principal causa de ausencia y baja entre los trabajadores. De estos, más de un 70% han ido al médico por problemas musculoesqueléticos.',
-        'A la larga, un dolor de espalda no tratado puede llevar a enfermedades crónicas, lo que reduce el rendimiento y eficacia en el trabajo, dando como resultado problemas de ánimo, estrés y más dolencias.',
-        'En ColumnaQuiro, atendemos a muchas personas con dolencias en la espalda, en las cervicales y los hombros ya sea debido a una mala postura, a largas horas de trabajo, al estrés laboral, pequeños accidentes o levantamiento de peso o maquinaria.',
+        'El dolor de espalda y de cuello es una de las causas más frecuentes de baja laboral. Te ayudamos a aliviarlo y a que no vuelva.',
+        'Pasar muchas horas en la misma postura, levantar peso o el estrés del trabajo cargan la espalda, el cuello y los hombros. Cuanto antes se aborda el dolor, más fácil es que no se vuelva persistente.',
+        'En ColumnaQuiro atendemos a muchas personas con dolor de espalda, cervicales y hombros por una mala postura, jornadas largas, estrés, pequeños accidentes o por levantar peso o maquinaria. Además del tratamiento, te damos pautas para tu puesto de trabajo y ejercicios cortos para hacer durante la jornada.',
       ],
       symptoms: [
         { label: 'Dolor de espalda', image: '/assets/images/symptom-back-pain.avif' },
         { label: 'Lumbalgia', image: '/assets/images/symptom-lower-back-pain.avif' },
         { label: 'Hernia discal', image: '/assets/images/symptom-herniated-disc.avif' },
-        { label: 'Escoliosis', image: '/assets/images/symptom-scoliosis.avif' },
         { label: 'Dolor de cabeza', image: '/assets/images/symptom-head-pain.avif' },
         { label: 'Túnel carpiano', image: '/assets/images/symptom-tunel-carpiano.avif' },
-        { label: 'Estrés y depresión', image: '/assets/images/symptom-stress.avif' },
         { label: 'Dolor de cuello', image: '/assets/images/symptom-neck-pain.avif' },
       ],
     },
     en: {
       title: 'Workers',
       intro: [
-        'Back or lower-back pain is the leading cause of absence among workers. More than 70% of them have seen a doctor for a musculoskeletal problem.',
-        'Left untreated, back pain can turn into a chronic condition, reducing performance and effectiveness at work and leading to mood problems, stress, and further ailments.',
-        'At ColumnaQuiro, we care for many people with back, neck, and shoulder ailments caused by poor posture, long working hours, work-related stress, minor accidents, or heavy lifting.',
+        'Back and neck pain are among the most common reasons for sick leave. We help ease the pain and keep it from coming back.',
+        'Long hours in the same position, lifting, and work stress all load your back, neck and shoulders. The sooner pain is dealt with, the less likely it is to become persistent.',
+        'At ColumnaQuiro we see many people with back, neck and shoulder pain from poor posture, long hours, stress, minor accidents or heavy lifting. Alongside treatment, we give you advice for your workstation and short exercises to do during the day.',
       ],
       symptoms: [
         { label: 'Back pain', image: '/assets/images/symptom-back-pain.avif' },
         { label: 'Lower back pain', image: '/assets/images/symptom-lower-back-pain.avif' },
         { label: 'Herniated disc', image: '/assets/images/symptom-herniated-disc.avif' },
-        { label: 'Scoliosis', image: '/assets/images/symptom-scoliosis.avif' },
         { label: 'Headache', image: '/assets/images/symptom-head-pain.avif' },
         { label: 'Carpal tunnel', image: '/assets/images/symptom-tunel-carpiano.avif' },
-        { label: 'Stress and depression', image: '/assets/images/symptom-stress.avif' },
         { label: 'Neck pain', image: '/assets/images/symptom-neck-pain.avif' },
       ],
     },
@@ -68,31 +70,29 @@ export const categoryPages: CategoryPage[] = [
     es: {
       title: 'Bebés y niños',
       intro: [
-        'Durante el nacimiento, el bebé experimenta estrés, desde su descenso en el canal de parto hasta su salida al mundo externo desconocido. Durante este proceso, el bebé puede quedarse atrapado en una posición o encontrar obstáculos que dificulten su salida. Esto se puede reflejar en la forma poco común de su cabeza al nacer o en un lado preferido para mamar durante la lactancia. Estos esfuerzos pueden causar disfunciones en su sistema nervioso.',
-        'Desde su nacimiento hasta su desarrollo, el bebé debe pasar por diferentes etapas en un orden específico. Estas etapas son sinónimo de un buen desarrollo sensorial y motor: el desarrollo motor le permitirá tener una musculatura adecuada y una coordinación corporal, mientras que el desarrollo sensorial le permitirá desarrollar todos sus sentidos (visión, olfato, tacto, etc.).',
-        'Un sistema nervioso que funcione al 100% ayudará al bebé a superar estas etapas, mejorando su coordinación, equilibrio y todos sus sentidos.',
+        'Revisamos con técnicas muy suaves la postura y el movimiento de bebés y niños, siempre como complemento al seguimiento de su pediatra.',
+        'En bebés nos consultan sobre todo por una preferencia marcada a girar la cabeza o a mamar de un lado, o por un aplanamiento de la cabeza. Revisamos con mucha suavidad la movilidad de su cuello y te damos pautas de posición y de tiempo boca abajo supervisado, que son la base del tratamiento.',
+        'En niños y adolescentes vemos dolor de espalda, molestias por la mochila o el deporte y escoliosis, que vigilamos junto con su pediatra o traumatólogo.',
+        'La quiropráctica no trata los cólicos, el reflujo ni el estreñimiento. Si tu bebé llora mucho, regurgita a menudo o no gana peso, la primera consulta es su pediatra.',
       ],
       symptoms: [
-        { label: 'Escoliosis', image: '/assets/images/symptom-scoliosis.avif' },
-        { label: 'Reflujo', image: '/assets/images/symptom-reflux.avif' },
         { label: 'Braquicefalia', image: '/assets/images/symptom-brachycephaly.avif' },
-        { label: 'Cólicos', image: '/assets/images/symptom-colic.avif' },
-        { label: 'Estreñimiento', image: '/assets/images/symptom-constipated.avif' },
+        { label: 'Escoliosis', image: '/assets/images/symptom-scoliosis.avif' },
+        { label: 'Dolor de espalda', image: '/assets/images/symptom-back-pain.avif' },
       ],
     },
     en: {
       title: 'Babies and children',
       intro: [
-        "During birth, a baby experiences stress, from its descent through the birth canal to its arrival in the unknown outside world. In this process, the baby can get stuck in a position or run into obstacles that make it harder to be born. This can show up later as an unusual head shape or a preferred side for breastfeeding, and these strains can cause dysfunction in their nervous system.",
-        "From birth through development, a baby needs to move through different stages in a specific order. These stages go hand in hand with healthy sensory and motor development: motor development builds the right muscle tone and body coordination, while sensory development builds all of their senses (sight, smell, touch, and so on).",
-        "A nervous system working at 100% helps the baby move through these stages, improving their coordination, balance, and all of their senses.",
+        'We gently check the posture and movement of babies and children, always as a complement to their paediatrician.',
+        "Parents mostly bring babies who strongly prefer turning their head or feeding on one side, or who have a flattened head. We very gently check how their neck moves and give you advice on positioning and supervised tummy time, which are the core of treatment.",
+        'In children and teenagers we see back pain, aches from school bags or sport, and scoliosis, which we monitor together with their paediatrician or orthopaedic specialist.',
+        "Chiropractic does not treat colic, reflux or constipation. If your baby cries a lot, spits up often or isn't gaining weight, see their paediatrician first.",
       ],
       symptoms: [
-        { label: 'Scoliosis', image: '/assets/images/symptom-scoliosis.avif' },
-        { label: 'Reflux', image: '/assets/images/symptom-reflux.avif' },
         { label: 'Brachycephaly', image: '/assets/images/symptom-brachycephaly.avif' },
-        { label: 'Colic', image: '/assets/images/symptom-colic.avif' },
-        { label: 'Constipation', image: '/assets/images/symptom-constipated.avif' },
+        { label: 'Scoliosis', image: '/assets/images/symptom-scoliosis.avif' },
+        { label: 'Back pain', image: '/assets/images/symptom-back-pain.avif' },
       ],
     },
   },
@@ -102,62 +102,66 @@ export const categoryPages: CategoryPage[] = [
     heroImage: '/assets/images/category-embarazadas.webp',
     es: {
       title: 'Embarazadas',
-      intro: ['Es importante preparar el cuerpo para los cambios que se producirán durante el embarazo:'],
+      intro: [
+        'Dolor lumbar, pélvico o ciático durante el embarazo y el posparto, tratado con técnicas suaves y posiciones adaptadas a cada trimestre.',
+        'Durante el embarazo el cuerpo cambia en poco tiempo:',
+      ],
       list: [
         {
           lead: 'Cambios físicos:',
-          text: 'la alteración del centro de gravedad afecta la postura y la tensión muscular. Puede dar lugar a dolores de espalda y lumbares, dolencias muy comunes durante el embarazo.',
+          text: 'el centro de gravedad se desplaza, lo que cambia la postura y aumenta la tensión muscular. Por eso el dolor de espalda y lumbar es tan frecuente.',
         },
         {
-          lead: 'Cambios químicos:',
-          text: 'los cambios hormonales aumentan la laxidad de los ligamentos y las articulaciones.',
+          lead: 'Cambios hormonales:',
+          text: 'las hormonas del embarazo aumentan la laxitud de los ligamentos y las articulaciones, sobre todo en la pelvis.',
         },
         {
           lead: 'Cambios emocionales:',
-          text: 'ser madre es un paso importante que puede generar estrés y preguntas para la futura madre.',
+          text: 'ser madre es un paso importante que puede traer estrés y muchas preguntas.',
         },
       ],
       extra: [
-        'Estos cambios pueden interferir en el sistema nervioso, que controla todos los demás sistemas del cuerpo, como los músculos y ligamentos del suelo pélvico, la articulación sacroilíaca y el coxis.',
-        'En ColumnaQuiro ayudamos a alinear la pelvis y la columna vertebral para que el bebé tenga suficiente espacio y la madre pueda vivir un embarazo más llevadero.',
-        'Estamos certificados en la técnica Webster, una técnica quiropráctica que se centra en el análisis y la alineación de la pelvis y sus músculos y ligamentos para optimizar la función pélvica de la madre durante el embarazo y el parto, reduciendo la necesidad de medicamentos o intervenciones quirúrgicas. Además disponemos de un cojín especial para embarazadas, para que puedas tener ayuda <a href="/blog/cuanto-cuesta-un-quiropractico" class="font-semibold text-gold-dark underline">quiropráctica</a> sin interrupciones durante todo el embarazo. Por último, los ajustes quiroprácticos durante el embarazo son suaves y seguros.',
-        'El parto es un evento que genera estrés a nivel físico, químico y emocional. A nivel físico, implica horas de contracciones y esfuerzo en la salida del bebé. Químicamente, se producen cambios hormonales, como el aumento de la leche. Emocionalmente, implica la llegada del bebé, la adaptación a la maternidad y el posparto.',
-        'En ColumnaQuiro podemos contribuir significativamente a una recuperación del postparto más efectiva, optimizando el funcionamiento del cuerpo y permitiéndote disfrutar plenamente de este nuevo y emocionante capítulo en tu vida.',
+        'Por eso son tan habituales el dolor lumbar, el dolor en la articulación sacroilíaca o en el pubis y la <a href="/blog/ciatica-en-el-embarazo/" class="font-semibold text-gold-dark underline">ciática durante el embarazo</a>.',
+        'En ColumnaQuiro trabajamos la movilidad de la pelvis y la columna con técnicas suaves para aliviar estas molestias y que vivas el embarazo con más comodidad.',
+        'Estamos certificadas en la <a href="/blog/tecnica-webster-optimizando-la-alineacion-pelvica-durante-el-embarazo/" class="font-semibold text-gold-dark underline">técnica Webster</a>, que se centra en la pelvis y sus músculos y ligamentos. Tenemos un cojín especial para embarazadas para que puedas tumbarte boca abajo con comodidad durante todo el embarazo, adaptamos la técnica a cada trimestre y evitamos cualquier presión sobre el abdomen.',
+        'Antes de empezar, cuéntanos cómo va tu seguimiento con la matrona o el ginecólogo. Si tienes sangrado, contracciones, dolor de cabeza intenso o hinchazón repentina, acude a urgencias o a tu matrona.',
+        'Después del parto el cuerpo necesita tiempo para recuperarse, y es habitual el dolor de espalda y cuello por la lactancia, por cargar al bebé y por dormir poco. En el posparto te ayudamos con ese dolor y te damos pautas de postura para la lactancia y para cargar al bebé.',
       ],
       symptoms: [
         { label: 'Ciática', image: '/assets/images/symptom-sciatica.avif' },
-        { label: 'Fibromialgia', image: '/assets/images/symptom-fibromyalgia.avif' },
         { label: 'Dolor de espalda', image: '/assets/images/symptom-back-pain.avif' },
         { label: 'Lumbalgia', image: '/assets/images/symptom-lower-back-pain.avif' },
       ],
     },
     en: {
       title: 'Pregnant women',
-      intro: ["It's important to prepare your body for the changes that pregnancy brings:"],
+      intro: [
+        'Lower back, pelvic or sciatic pain during pregnancy and after birth, treated with gentle techniques and positions adapted to each trimester.',
+        'During pregnancy your body changes quickly:',
+      ],
       list: [
         {
           lead: 'Physical changes:',
-          text: 'the shift in your center of gravity affects posture and muscle tension, which can lead to back and lower-back pain — very common complaints during pregnancy.',
+          text: 'your centre of gravity shifts, which changes your posture and increases muscle tension. That is why back and lower-back pain are so common.',
         },
         {
-          lead: 'Chemical changes:',
-          text: 'hormonal changes increase the laxity of ligaments and joints.',
+          lead: 'Hormonal changes:',
+          text: 'pregnancy hormones make ligaments and joints looser, especially in the pelvis.',
         },
         {
           lead: 'Emotional changes:',
-          text: 'becoming a mother is a major step that can bring stress and questions for the mother-to-be.',
+          text: 'becoming a mother is a big step that can bring stress and lots of questions.',
         },
       ],
       extra: [
-        'These changes can interfere with the nervous system, which controls every other system in the body, including the muscles and ligaments of the pelvic floor, the sacroiliac joint, and the tailbone.',
-        'At ColumnaQuiro we help align the pelvis and spine so the baby has enough room and the mother can have a more comfortable pregnancy.',
-        'We are certified in the Webster technique, a chiropractic technique focused on analyzing and aligning the pelvis and its muscles and ligaments to optimize pelvic function during pregnancy and delivery, reducing the need for medication or surgical intervention. We also have a special cushion for pregnant patients, so you can receive uninterrupted chiropractic care throughout your pregnancy. Finally, chiropractic adjustments during pregnancy are gentle and safe.',
-        "Childbirth is an event that creates physical, chemical, and emotional stress. Physically, it involves hours of contractions and effort delivering the baby. Chemically, hormonal changes occur, such as increased milk production. Emotionally, it involves the baby's arrival, adapting to motherhood, and the postpartum period.",
-        'At ColumnaQuiro we can meaningfully contribute to a more effective postpartum recovery, optimizing how your body functions and letting you fully enjoy this new and exciting chapter of your life.',
+        'That is why lower back pain, pain in the sacroiliac joint or pubic bone, and <a href="/en/blog/sciatica-in-pregnancy/" class="font-semibold text-gold-dark underline">sciatica in pregnancy</a> are so common.',
+        'At ColumnaQuiro we work on the mobility of your pelvis and spine with gentle techniques to ease this pain and make your pregnancy more comfortable.',
+        'We are certified in the <a href="/en/blog/webster-technique/" class="font-semibold text-gold-dark underline">Webster technique</a>, which focuses on the pelvis and its muscles and ligaments. We have a special pregnancy cushion so you can lie face down comfortably throughout your pregnancy, we adapt the technique to each trimester, and we never put pressure on your bump.',
+        'Before we start, tell us how your check-ups with your midwife or obstetrician are going. If you have bleeding, contractions, a severe headache or sudden swelling, go to A&E or call your midwife.',
+        'After birth your body needs time to recover, and back and neck pain from breastfeeding, carrying your baby and short sleep are common. After birth we help with that pain and give you posture tips for feeding and carrying your baby.',
       ],
       symptoms: [
         { label: 'Sciatica', image: '/assets/images/symptom-sciatica.avif' },
-        { label: 'Fibromyalgia', image: '/assets/images/symptom-fibromyalgia.avif' },
         { label: 'Back pain', image: '/assets/images/symptom-back-pain.avif' },
         { label: 'Lower back pain', image: '/assets/images/symptom-lower-back-pain.avif' },
       ],
@@ -170,63 +174,57 @@ export const categoryPages: CategoryPage[] = [
     es: {
       title: 'Deportistas',
       intro: [
-        'Cuando hablamos de deportistas, es común pensar en posibles lesiones o síntomas relacionados con sus actividades, pero rara vez consideramos cómo la quiropráctica puede influir en su rendimiento deportivo. Sin embargo, esta disciplina ha sido adoptada por muchos atletas profesionales y es reconocida como una forma complementaria de atención médica en el ámbito deportivo.',
-        'En países con una quiropráctica más desarrollada, es habitual que atletas de alto nivel reciban ajustes quiroprácticos con frecuencia. En América, por ejemplo, el fútbol americano es uno de los deportes donde la quiropráctica tiene mayor presencia, ayudando a los jugadores a competir sin dolores ni molestias.',
-        'El cuidado quiropráctico deportivo ayuda al cuerpo a recuperarse de lesiones más rápidamente, previene nuevas lesiones y optimiza las diferentes funciones fisiológicas del cuerpo. Por eso, cada vez más atletas profesionales de todos los deportes recurren a la atención <a href="/blog/cuanto-cuesta-un-quiropractico" class="font-semibold text-gold-dark underline">quiropráctica</a> para mantenerse en óptimas condiciones físicas y realizar sus actividades al más alto nivel.',
-        'En nuestro centro quiropráctico los deportistas usan nuestro servicio por cuatro razones:',
+        'Molestias de espalda, cadera o cuello que te frenan al entrenar, y una vuelta progresiva al deporte después de una lesión.',
+        'En países donde la quiropráctica está más asentada es habitual verla en clubes y equipos, como parte de un equipo de salud con fisioterapeutas y médicos del deporte.',
+        'Donde tiene respaldo científico es en el dolor de espalda y cuello. No hay pruebas sólidas de que los ajustes aumenten la fuerza o el rendimiento, así que no te lo vamos a prometer.',
+        'En nuestro centro los deportistas vienen por tres motivos:',
       ],
       list: [
         {
-          lead: 'Quieren mejorar su rendimiento:',
-          text: 'a través de los ajustes quiroprácticos se optimiza el funcionamiento de la columna vertebral, lo que conlleva a un mejor rendimiento y recuperación.',
+          lead: 'Dolor que limita el entrenamiento:',
+          text: 'molestias de espalda, cadera o cuello que aparecen con la carga y no terminan de irse.',
         },
         {
-          lead: 'Quieren prevenir las lesiones:',
-          text: 'si su cuerpo funciona óptimamente, sus músculos trabajan mejor y por lo tanto se reduce de manera significativa la aparición de las lesiones.',
+          lead: 'Vuelta tras una lesión:',
+          text: 'deportistas que se han recuperado solo en parte y quieren volver poco a poco, con ejercicios para casa.',
         },
         {
-          lead: 'Quieren recuperarse de lesiones:',
-          text: 'en general son deportistas que han sufrido una o varias lesiones y que se han recuperado parcialmente.',
-        },
-        {
-          lead: 'Recuperación post-entrenamiento:',
-          text: 'a través de la quiropráctica se mejora el sistema nervioso, lo que ayuda a tener una mejor recuperación después del entrenamiento.',
+          lead: 'Preparar un objetivo:',
+          text: 'revisar la movilidad y la carga antes de una carrera como el <a href="/blog/preparacion-quiropractica-para-la-maraton-de-valencia/" class="font-semibold text-gold-dark underline">Maratón de Valencia</a>.',
         },
       ],
       symptoms: [
         { label: 'Hernia discal', image: '/assets/images/symptom-herniated-disc.avif' },
-        { label: 'Bajo rendimiento', image: '/assets/images/symptom-low-performance.avif' },
+        { label: 'Lesiones deportivas', image: '/assets/images/symptom-low-performance.avif' },
+        { label: 'Lumbalgia', image: '/assets/images/symptom-lower-back-pain.avif' },
       ],
     },
     en: {
       title: 'Athletes',
       intro: [
-        "When we talk about athletes, it's common to think about possible injuries or activity-related symptoms, but we rarely consider how chiropractic care can influence athletic performance. Even so, this discipline has been adopted by many professional athletes and is recognized as a complementary form of care in the world of sports.",
-        'In countries where chiropractic is more established, it is common for elite athletes to receive frequent chiropractic adjustments. In the US, for example, American football is one of the sports where chiropractic has the strongest presence, helping players compete without pain or discomfort.',
-        'Sports chiropractic care helps the body recover from injuries faster, prevents new injuries, and optimizes the body\'s various physiological functions. That\'s why more and more professional athletes across every sport turn to chiropractic care to stay in peak physical condition and perform at the highest level.',
-        'At our clinic, athletes use our service for four reasons:',
+        'Back, hip or neck pain that holds back your training, and a gradual return to sport after an injury.',
+        'In countries where chiropractic is more established it is common in clubs and teams, as part of a health team with physiotherapists and sports doctors.',
+        'Where it has scientific support is back and neck pain. There is no solid evidence that adjustments increase strength or performance, so we will not promise you that.',
+        'Athletes come to us for three reasons:',
       ],
       list: [
         {
-          lead: 'They want to improve their performance:',
-          text: 'chiropractic adjustments optimize how the spine functions, leading to better performance and recovery.',
+          lead: 'Pain that limits training:',
+          text: 'back, hip or neck pain that shows up with load and never quite goes away.',
         },
         {
-          lead: 'They want to prevent injuries:',
-          text: 'when the body functions optimally, muscles work better, significantly reducing the likelihood of injury.',
+          lead: 'Returning after an injury:',
+          text: 'athletes who have only partly recovered and want to build back up gradually, with exercises for home.',
         },
         {
-          lead: 'They want to recover from injuries:',
-          text: 'generally athletes who have suffered one or more injuries and have only partially recovered.',
-        },
-        {
-          lead: 'Post-training recovery:',
-          text: 'chiropractic care improves nervous system function, helping the body recover better after training.',
+          lead: 'Preparing for a goal:',
+          text: 'checking mobility and load before a race such as the Valencia Marathon.',
         },
       ],
       symptoms: [
         { label: 'Herniated disc', image: '/assets/images/symptom-herniated-disc.avif' },
-        { label: 'Low performance', image: '/assets/images/symptom-low-performance.avif' },
+        { label: 'Sports injuries', image: '/assets/images/symptom-low-performance.avif' },
+        { label: 'Lower back pain', image: '/assets/images/symptom-lower-back-pain.avif' },
       ],
     },
   },
@@ -237,10 +235,10 @@ export const categoryPages: CategoryPage[] = [
     es: {
       title: 'Personas mayores',
       intro: [
-        'En nuestra sociedad, aunque es común, no es normal que la tercera edad se asocie con debilidad, lentitud, enfermedad y dependencia. Es importante tener en cuenta que con el envejecimiento, nuestro cuerpo experimenta cambios, como la pérdida de calidad en huesos, colágeno y fibras musculares, lo que puede afectar nuestra calidad de vida.',
-        'Sin embargo, esta etapa es tan importante como cualquier otra, y es esencial cuidar nuestro cuerpo para disfrutar al máximo de la vida. Las enfermedades osteoarticulares son la causa más común de discapacidad en personas de edad avanzada, lo que compromete seriamente la calidad de vida. La aparición de trastornos musculoesqueléticos aumenta significativamente con la edad y, si no se tratan, pueden reducir considerablemente el bienestar y la salud.',
-        'En ColumnaQuiro, mediante la <a href="/blog/cuanto-cuesta-un-quiropractico" class="font-semibold text-gold-dark underline">quiropráctica</a> ayudamos a mejorar la movilidad, el equilibrio y el estilo de vida de manera holística en la tercera edad, fomentando un estilo de vida activo y saludable. Al restaurar la función adecuada de la columna vertebral, podemos abordar los problemas asociados con las personas mayores de 65 años.',
-        'Muchos pacientes mayores nos informan de que experimentan menos síntomas de sus enfermedades crónicas después de recibir ajustes quiroprácticos adaptados para su situación específica, lo que contribuye a mejorar su calidad de vida de manera significativa.',
+        'Te ayudamos con la rigidez y el dolor articular que llegan con la edad, con técnicas suaves y en coordinación con tu médico.',
+        'Con los años cambian los huesos, los cartílagos y los músculos, y es frecuente que aparezcan la artrosis y el dolor de espalda. No es algo que haya que aceptar sin más: mantenerse activo es una de las mejores formas de cuidarse.',
+        'En ColumnaQuiro adaptamos la técnica a cada persona: movilizaciones suaves, ninguna maniobra de fuerza cuando hay osteoporosis, y ejercicios sencillos de movilidad y equilibrio para casa.',
+        'Antes de empezar revisamos tu historial y tu medicación, y te derivamos a tu médico si algo lo requiere.',
       ],
       symptoms: [
         { label: 'Artrosis', image: '/assets/images/symptom-osteoarthritis.avif' },
@@ -253,10 +251,10 @@ export const categoryPages: CategoryPage[] = [
     en: {
       title: 'Elderly people',
       intro: [
-        "In our society, while common, it isn't actually normal for old age to be linked to weakness, slowness, illness, and dependence. It's worth remembering that as we age, our bodies go through changes — like reduced quality in bone, collagen, and muscle fibers — that can affect our quality of life.",
-        "Even so, this stage of life matters just as much as any other, and taking care of our bodies is essential to making the most of it. Osteoarticular conditions are the leading cause of disability in older adults, seriously compromising quality of life. Musculoskeletal disorders become significantly more common with age and, left untreated, can meaningfully reduce well-being and health.",
-        'At ColumnaQuiro, chiropractic care helps holistically improve mobility, balance, and lifestyle in older adults, encouraging an active and healthy way of life. By restoring proper spinal function, we can address issues associated with people over 65.',
-        'Many of our older patients tell us they experience fewer symptoms from their chronic conditions after receiving chiropractic adjustments tailored to their specific situation, meaningfully improving their quality of life.',
+        'We help with the joint stiffness and pain that come with age, using gentle techniques and working with your doctor.',
+        "As we age our bones, cartilage and muscles change, and osteoarthritis and back pain become common. It isn't something you just have to accept: staying active is one of the best ways to look after yourself.",
+        'At ColumnaQuiro we adapt the technique to each person: gentle mobilisation, no forceful techniques where there is osteoporosis, and simple mobility and balance exercises for home.',
+        'Before we start we go through your medical history and medication, and refer you to your doctor if anything needs it.',
       ],
       symptoms: [
         { label: 'Osteoarthritis', image: '/assets/images/symptom-osteoarthritis.avif' },
@@ -274,27 +272,27 @@ export const categoryPages: CategoryPage[] = [
     es: {
       title: 'Discapacidades motoras o intelectuales',
       intro: [
-        'Las personas con discapacidades motoras o intelectuales a menudo tienen acceso limitado a terapias. La <a href="/blog/cuanto-cuesta-un-quiropractico" class="font-semibold text-gold-dark underline">quiropráctica</a>, al trabajar de manera holística en el cuerpo entero, puede mejorar la sensación corporal, movilidad, funcionalidad, equilibrio y coordinación.',
-        'Además, numerosos estudios sobre la quiropráctica y el cerebro han demostrado su potencial para producir cambios en la plasticidad cerebral. En particular, los ajustes quiroprácticos pueden equilibrar diferentes áreas del cerebro y mejorar el desarrollo en personas con trastornos neuroconductuales.',
+        'Atendemos el dolor y la rigidez de espalda o cuello en personas con discapacidad motora o intelectual, con un trato adaptado a cada persona.',
+        'Las personas con discapacidad tienen a menudo más dolor musculoesquelético y menos acceso a terapias. Adaptamos el tiempo, la postura y la técnica a cada paciente, y contamos con la familia o los cuidadores.',
+        'La quiropráctica no trata el autismo, el TDAH, la dislexia ni el retraso motor. Su diagnóstico y tratamiento corresponden al pediatra, al neurólogo y a los equipos de atención temprana, con los que nos coordinamos cuando hace falta.',
       ],
       symptoms: [
-        { label: 'Espectro autístico', image: '/assets/images/symptom-autism.avif' },
-        { label: 'Dislexia', image: '/assets/images/symptom-dyslexia.avif' },
-        { label: 'Retraso motor', image: '/assets/images/symptom-intellectual-disability.avif' },
-        { label: 'Déficit de atención', image: '/assets/images/symptom-attention-deficit.avif' },
+        { label: 'Dolor de espalda', image: '/assets/images/symptom-back-pain.avif' },
+        { label: 'Dolor de cuello', image: '/assets/images/symptom-neck-pain.avif' },
+        { label: 'Escoliosis', image: '/assets/images/symptom-scoliosis.avif' },
       ],
     },
     en: {
       title: 'Motor or intellectual disabilities',
       intro: [
-        'People with motor or intellectual disabilities often have limited access to therapies. Because chiropractic care works holistically on the whole body, it can improve body awareness, mobility, functionality, balance, and coordination.',
-        'In addition, numerous studies on chiropractic and the brain have shown its potential to produce changes in brain plasticity. In particular, chiropractic adjustments can help balance different areas of the brain and support development in people with neurobehavioral disorders.',
+        'We treat back and neck pain and stiffness in people with motor or intellectual disabilities, with care adapted to each person.',
+        'People with disabilities often have more musculoskeletal pain and less access to therapy. We adapt the timing, position and technique to each patient, and involve family members or carers.',
+        "Chiropractic does not treat autism, ADHD, dyslexia or motor delay. Their diagnosis and treatment belong to the paediatrician, neurologist and early-intervention teams, and we work with them when needed.",
       ],
       symptoms: [
-        { label: 'Autism spectrum', image: '/assets/images/symptom-autism.avif' },
-        { label: 'Dyslexia', image: '/assets/images/symptom-dyslexia.avif' },
-        { label: 'Motor delay', image: '/assets/images/symptom-intellectual-disability.avif' },
-        { label: 'Attention deficit', image: '/assets/images/symptom-attention-deficit.avif' },
+        { label: 'Back pain', image: '/assets/images/symptom-back-pain.avif' },
+        { label: 'Neck pain', image: '/assets/images/symptom-neck-pain.avif' },
+        { label: 'Scoliosis', image: '/assets/images/symptom-scoliosis.avif' },
       ],
     },
   },

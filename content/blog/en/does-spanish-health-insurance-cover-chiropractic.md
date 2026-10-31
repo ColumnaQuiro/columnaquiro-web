@@ -47,7 +47,7 @@ Ask what documentation they want *before* your first visit. It is far easier to 
 
 No nuance here: not included. There is no referral pathway from your GP to a chiropractor, no co-payment arrangement, no waiting list to join.
 
-What the public system *can* provide, and this is worth not confusing, is **physiotherapy** on medical referral — a regulated profession and a different discipline. If that is what you need, your *médico de cabecera* is the way in. We cover the difference in [chiropractor or physiotherapist](/en/blog/chiropractor-or-physiotherapist).
+What the public system *can* provide, and this is worth not confusing, is **physiotherapy** on medical referral — a regulated profession and a different discipline. If that is what you need, your *médico de cabecera* is the way in. We cover the difference in [chiropractor or physiotherapist](/en/blog/chiropractor-or-physiotherapist/).
 
 ## Spanish private policies: network vs reimbursement
 
@@ -92,13 +92,13 @@ If your policy does reimburse, the invoice is the only thing that matters. It sh
 
 Before requesting it, ask your insurer **how they want the service described.** This is where claims most often stall: an invoice reading only "session" can come back refused, while one with the service properly described goes through.
 
-We issue an invoice for every visit at ColumnaQuiro. If yours needs particular details for your insurer, [tell us](/en/about-us/contact) and we will prepare it that way from the first visit.
+We issue an invoice for every visit at ColumnaQuiro. If yours needs particular details for your insurer, [tell us](/en/about-us/contact/) and we will prepare it that way from the first visit.
 
 ## If you have no cover at all
 
 This is the most common situation, so it is worth addressing directly rather than talking around it.
 
-Without cover, chiropractic is an out-of-pocket expense, and the question shifts from "is it covered?" to "what will this cost in total?". That depends on how many sessions you need, which is an estimate made after assessing you rather than a fixed number — we cover it in [how many chiropractic sessions you need](/en/blog/how-many-chiropractic-sessions-do-i-need), and the cost breakdown in [how much a chiropractor costs](/en/blog/how-much-does-a-chiropractor-cost).
+Without cover, chiropractic is an out-of-pocket expense, and the question shifts from "is it covered?" to "what will this cost in total?". That depends on how many sessions you need, which is an estimate made after assessing you rather than a fixed number — we cover it in [how many chiropractic sessions you need](/en/blog/how-many-chiropractic-sessions-do-i-need/), and the cost breakdown in [how much a chiropractor costs](/en/blog/how-much-does-a-chiropractor-cost/).
 
 Two things worth knowing before you decide:
 

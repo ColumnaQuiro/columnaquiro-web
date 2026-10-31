@@ -12,7 +12,11 @@ import { socialLinks } from '@/data/clinic'
 // banner below the last line. The copy names the price and the place, and
 // when the post maps to a condition page (blog-symptom.ts) it links there
 // too, which is also the first internal link most /sintomas pages get.
-const props = defineProps<{ symptomSlug?: string }>()
+// `gentle`: posts about conditions chiropractic does not treat (multiple
+// sclerosis, concussion, babies' development...). "Weeks with this pain?"
+// read as a sales pitch on those, so they get a quieter version that points
+// to the doctor first and offers us only for the back or neck pain.
+const props = defineProps<{ symptomSlug?: string; gentle?: boolean }>()
 const { locale } = useAppI18n()
 
 const copy = {
@@ -31,7 +35,17 @@ const copy = {
     symptom: (name: string) => `Read about ${name.toLowerCase()} →`,
   },
 }
-const c = computed(() => copy[locale.value])
+const gentleCopy = {
+  es: {
+    title: '¿Tienes dudas sobre tu caso?',
+    body: 'Para estos síntomas, la primera consulta es tu médico. Si además tienes dolor de espalda o de cuello, en la primera visita (70 €) valoramos si la quiropráctica puede ayudarte con eso.',
+  },
+  en: {
+    title: 'Questions about your case?',
+    body: 'For these symptoms, see your doctor first. If you also have back or neck pain, at a first visit (€70) we assess whether chiropractic can help with that.',
+  },
+}
+const c = computed(() => (props.gentle ? { ...copy[locale.value], ...gentleCopy[locale.value] } : copy[locale.value]))
 
 const symptom = computed(() => {
   if (!props.symptomSlug) return null

@@ -50,7 +50,7 @@ Llama, escribe o pregunta en la primera visita. Un profesional que se moleste po
 6. **"¿Qué pasa si no mejoro?"** La respuesta correcta incluye reevaluar y, si toca, derivarte a otro profesional.
 7. **"¿Tienes seguro de responsabilidad civil profesional?"** Esta es la pregunta que casi nadie hace y quizá la más práctica de todas. Al no haber colegio obligatorio, tampoco hay un seguro obligatorio asociado a la colegiación: contratarlo es voluntario. Un profesional que trabaja en serio lo tiene, y no le costará nada decírtelo.
 
-Si te interesa cómo responde cada centro a esto, lo tratamos también en [los mejores quiroprácticos de Valencia](/blog/los-mejores-quiropracticos-valencia).
+Si te interesa cómo responde cada centro a esto, lo tratamos también en [los mejores quiroprácticos de Valencia](/blog/los-mejores-quiropracticos-valencia/).
 
 ## Señales de alarma
 
@@ -74,7 +74,7 @@ Ninguna de estas es matizable. Si aparecen, busca otro sitio:
 
 Un artículo así no vale nada si el centro que lo publica se exime de su propio criterio, así que aquí están nuestras respuestas.
 
-Léa Guido es diplomada por el Barcelona College of Chiropractic, tras una carrera de seis años que empezó en el IFEC en Francia. Durante su formación trabajó además como profesora de técnicas y supervisora de clínica en el propio centro. Puedes leer [su trayectoria completa](/sobre-nosotros/equipo/lea-guido), y conocer al [resto del equipo](/sobre-nosotros/equipo).
+Léa Guido es diplomada por el Barcelona College of Chiropractic, tras una carrera de seis años que empezó en el IFEC en Francia. Durante su formación trabajó además como profesora de técnicas y supervisora de clínica en el propio centro. Puedes leer [su trayectoria completa](/sobre-nosotros/equipo/lea-guido/), y conocer al [resto del equipo](/sobre-nosotros/equipo/).
 
 Y lo mismo que te decimos de los demás: **pide ver la documentación.** No te fíes de un logotipo en una web, ni del nuestro. Un centro que no pueda enseñarte un título cuando lo pides tiene un problema, y un centro que se incomode porque preguntas tiene otro.
 

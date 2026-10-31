@@ -14,6 +14,30 @@ export interface SeoOptions {
   noindex?: boolean
 }
 
+const BRAND_SUFFIX = ` | ${SITE_NAME}`
+const TITLE_MAX = 60
+const DESCRIPTION_MAX = 160
+
+// Google shows roughly 60 characters of a title. Half the site's titles ran
+// past that once the brand suffix was added, so the visible part ended in
+// "| Colum…". The query words matter more than the brand, which Google often
+// adds on its own, so the suffix is what goes.
+export function fitTitle(title: string): string {
+  if (title.length <= TITLE_MAX || !title.endsWith(BRAND_SUFFIX)) return title
+  return title.slice(0, -BRAND_SUFFIX.length)
+}
+
+// Descriptions longer than ~160 characters are cut mid-word in results. End at
+// the last full sentence that fits; failing that, at a word, with an ellipsis.
+export function fitDescription(text: string): string {
+  const clean = text.replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim()
+  if (clean.length <= DESCRIPTION_MAX) return clean
+  const head = clean.slice(0, DESCRIPTION_MAX)
+  const sentenceEnd = Math.max(head.lastIndexOf('. '), head.lastIndexOf('? '), head.lastIndexOf('! '))
+  if (sentenceEnd >= 90) return head.slice(0, sentenceEnd + 1)
+  return `${head.slice(0, head.lastIndexOf(' ', DESCRIPTION_MAX - 1)).replace(/[,;:·]$/, '')}…`
+}
+
 export function useSeo(options: SeoOptions) {
   const route = useRoute()
   const { locale } = useAppI18n()
@@ -38,25 +62,28 @@ export function useSeo(options: SeoOptions) {
     ]
   })
 
+  const title = () => fitTitle(toValue(options.title))
+  const description = () => fitDescription(toValue(options.description))
+
   useHead({
-    title: () => toValue(options.title),
+    title,
     htmlAttrs: { lang: () => locale.value },
     link: () => [
       { rel: 'canonical' as const, href: `${SITE_URL}${canonicalPath.value}` },
       ...alternates.value,
     ],
     meta: () => [
-      { name: 'description', content: toValue(options.description) },
+      { name: 'description', content: description() },
       { property: 'og:site_name', content: SITE_NAME },
-      { property: 'og:title', content: toValue(options.title) },
-      { property: 'og:description', content: toValue(options.description) },
+      { property: 'og:title', content: title() },
+      { property: 'og:description', content: description() },
       { property: 'og:type', content: options.type ?? 'website' },
       { property: 'og:url', content: `${SITE_URL}${canonicalPath.value}` },
       { property: 'og:image', content: toValue(options.image) ?? DEFAULT_OG_IMAGE },
       { property: 'og:locale', content: locale.value === 'es' ? 'es_ES' : 'en_US' },
       { name: 'twitter:card', content: 'summary_large_image' },
-      { name: 'twitter:title', content: toValue(options.title) },
-      { name: 'twitter:description', content: toValue(options.description) },
+      { name: 'twitter:title', content: title() },
+      { name: 'twitter:description', content: description() },
       { name: 'twitter:image', content: toValue(options.image) ?? DEFAULT_OG_IMAGE },
     ],
   })

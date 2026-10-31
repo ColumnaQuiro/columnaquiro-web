@@ -1,0 +1,20 @@
+# ColumnaQuiro
+
+> Chiropractic clinic in València, Spain (Russafa / L'Eixample). Two chiropractors, consultations in Spanish, English and French. First visit 70 €: full assessment, first adjustment and a care plan. Bookings online, nothing to pay when booking.
+
+- Address: Carrer dels Vivons, 29, 46006 València, Spain
+- Phone: +34 744 73 53 63
+- Hours: Tuesday to Thursday, 09:00–13:00 and 15:00–20:00
+- Nearest metro: Xàtiva. Parking: Mercado de Ruzafa car park.
+- Focus: lower back pain, neck pain, sciatica, headaches from the neck, pregnancy-related back and pelvic pain. Chiropractic does not treat neurodevelopmental, digestive or other non-musculoskeletal conditions; the site says so on each page.
+
+## Key pages
+
+- [Home (Spanish)](https://columnaquiro.com/): the clinic, price, hours and reviews
+- [Home (English)](https://columnaquiro.com/en/): English-speaking chiropractors in Valencia
+- [Book an appointment](https://columnaquiro.com/reserva-cita/)
+- [Prices](https://columnaquiro.com/blog/cuanto-cuesta-un-quiropractico/): what the first visit and follow-ups include
+- [What chiropractic is and what the evidence says](https://columnaquiro.com/que-es-la-quiropractica/)
+- [Team](https://columnaquiro.com/sobre-nosotros/equipo/): Léa Guido and Jordana Aguar
+- [Reviews](https://columnaquiro.com/resenas/)
+- [Blog](https://columnaquiro.com/blog/)

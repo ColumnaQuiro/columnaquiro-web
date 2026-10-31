@@ -13,12 +13,12 @@ const seoText = {
   es: {
     title: '¿Para quién sirve la quiropráctica? | ColumnaQuiro',
     description:
-      'La quiropráctica es apta para todas las edades: trabajadores, niños, embarazadas, deportistas, personas mayores y personas con discapacidad.',
+      'A quién ayuda la quiropráctica en ColumnaQuiro, València: trabajadores con dolor de espalda, embarazadas, deportistas, personas mayores, niños y bebés.',
   },
   en: {
     title: 'Who is chiropractic for? | ColumnaQuiro',
     description:
-      'Chiropractic is suitable for all ages: workers, children, pregnant women, athletes, the elderly, and people with disabilities.',
+      'Who chiropractic helps at ColumnaQuiro, Valencia: workers with back pain, pregnant women, athletes, older adults, children and babies.',
   },
 }
 useSeo({
@@ -35,27 +35,27 @@ const content = {
     hub: '/para-quien-sirve-la-quiropractica',
     cards: [
       {
-        text: 'Cuida las dolencias ocasionadas por malas posturas en el trabajo. Mejora tu rendimiento laboral, los ajustes afectan positivamente a la toma de decisiones, cognición... reduciendo ausencias por salud.',
+        text: 'Dolor de espalda, cuello u hombros por pasar muchas horas sentado o de pie. Te ayudamos a aliviarlo y a ajustar tu postura y tus pausas en el trabajo.',
         linkText: 'Quiropráctica para trabajadores',
       },
       {
-        text: 'Prevé disfunciones en el sistema nervioso de tu bebé: cómo un sistema nervioso óptimo mejora su desarrollo sensorial y motor, coordinación y sentidos.',
+        text: 'Revisamos con técnicas muy suaves la postura y el movimiento de bebés y niños, y te derivamos al pediatra cuando algo lo requiere.',
         linkText: 'Quiropráctica para niños',
       },
       {
-        text: 'Prepara tu cuerpo para los cambios físicos, químicos y emocionales del embarazo y mejorar tu recuperación postparto, optimizando la función del sistema nervioso y la salud.',
+        text: 'Dolor lumbar, pélvico o ciático durante el embarazo y el posparto, con técnicas suaves y posiciones adaptadas a cada trimestre.',
         linkText: 'Quiropráctica para embarazadas',
       },
       {
-        text: 'Mejora tu rendimiento deportivo. Los ajustes aumentan la fuerza, el tiempo de reacción, la movilidad, el equilibrio y la recuperación.',
+        text: 'Molestias de espalda, cadera o cuello que te frenan al entrenar, y una vuelta progresiva a la actividad después de una lesión.',
         linkText: 'Quiropráctica para deportistas',
       },
       {
-        text: 'Mejora tu movilidad, equilibrio y calidad de vida: disfruta de un estilo de vida activo y saludable.',
+        text: 'Rigidez y dolor articular, con técnicas suaves para que sigas activo, siempre en coordinación con tu médico.',
         linkText: 'Quiropráctica para tercera edad',
       },
       {
-        text: 'La quiropráctica mejora la movilidad, equilibrio y coordinación en personas con discapacidades. También mejora el desarrollo en trastornos neuroconductuales.',
+        text: 'Dolor y rigidez de espalda o cuello en personas con discapacidad motora o intelectual, con un trato adaptado a cada persona.',
         linkText: 'Quiropráctica para discapacidades',
       },
     ],
@@ -68,27 +68,27 @@ const content = {
     hub: '/en/who-is-chiropractic-for',
     cards: [
       {
-        text: 'Take care of ailments caused by poor posture at work. Improve your work performance — adjustments positively affect decision-making and cognition, reducing health-related absences.',
+        text: 'Back, neck or shoulder pain from long hours sitting or standing. We help ease it and adjust your posture and breaks at work.',
         linkText: 'Chiropractic for workers',
       },
       {
-        text: "Anticipate dysfunctions in your baby's nervous system: how an optimal nervous system improves sensory and motor development, coordination, and the senses.",
+        text: 'We gently check the posture and movement of babies and children, and refer you to the paediatrician when something needs it.',
         linkText: 'Chiropractic for children',
       },
       {
-        text: 'Prepare your body for the physical, chemical, and emotional changes of pregnancy, and improve postpartum recovery by optimizing nervous system function and health.',
+        text: 'Lower back, pelvic or sciatic pain during pregnancy and after birth, with gentle techniques and positions adapted to each trimester.',
         linkText: 'Chiropractic for pregnant women',
       },
       {
-        text: 'Improve your sports performance. Adjustments increase strength, reaction time, mobility, balance, and recovery.',
+        text: 'Back, hip or neck pain that holds back your training, and a gradual return to activity after an injury.',
         linkText: 'Chiropractic for athletes',
       },
       {
-        text: 'Improve your mobility, balance, and quality of life: enjoy an active and healthy lifestyle.',
+        text: 'Joint stiffness and pain, with gentle techniques to keep you active, always alongside your doctor.',
         linkText: 'Chiropractic for the elderly',
       },
       {
-        text: 'Chiropractic improves mobility, balance, and coordination in people with disabilities. It also supports development in neurobehavioral disorders.',
+        text: 'Back and neck pain and stiffness in people with motor or intellectual disabilities, with care adapted to each person.',
         linkText: 'Chiropractic for disabilities',
       },
     ],
@@ -120,7 +120,7 @@ const categories = computed(() =>
       </div>
       <img
         src="/assets/images/para-todos-header.webp"
-        alt="chiropractic for everyone"
+        :alt="locale === 'es' ? 'Quiropráctica para todas las edades' : 'Chiropractic for every age'"
         class="w-full rounded-3xl"
       />
     </div>

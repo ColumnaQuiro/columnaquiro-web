@@ -1,39 +1,67 @@
 ---
-title: "Dolor de cadera y piernas: qué es y cómo cuidarlo"
+title: "Dolor de cadera (coxalgia) y de piernas: causas y tratamiento"
 slug: dolor-de-cadera-y-piernas
 date: 2025-10-30
-excerpt: "Causas comunes del dolor de cadera y piernas, cuándo puede venir de la columna y cómo la quiropráctica ayuda a cuidarlo. Guía de ColumnaQuiro Valencia."
+updated: 2026-10-31
+excerpt: "Qué es la coxalgia, cómo saber si el dolor viene de la cadera o de la columna, qué lo causa según la edad y cuándo ir al médico. Guía de ColumnaQuiro Valencia."
 cover: /assets/images/category-deportistas.webp
 author: Léa Guido
 
 ---
 
-## Causas comunes del dolor de cadera y piernas
+**Coxalgia** es el nombre médico del dolor de cadera. Puede nacer en la propia articulación, en los músculos y tendones que la rodean o en la columna lumbar, que a veces da un dolor que se nota en la cadera y baja por la pierna. Saber de dónde viene es lo primero, porque cada origen se trata de forma distinta.
 
-El dolor en la cadera y las piernas puede tener múltiples orígenes: sobrecarga muscular, problemas articulares en la propia cadera, o alteraciones en la columna lumbar que irritan los nervios que descienden hacia la pierna, como ocurre con la ciática.
+## ¿Viene de la cadera o de la columna?
 
-## Cuándo el dolor viene realmente de la columna
+| Si el dolor… | Suele venir de… |
+|---|---|
+| Se nota en la ingle o la parte delantera de la cadera y empeora al ponerte los calcetines o al girar la pierna | La articulación de la cadera |
+| Se nota en el lateral de la cadera y duele al tumbarte de ese lado o al subir escaleras | Los tendones y la bursa del lateral (tendinopatía glútea, bursitis) |
+| Empieza en la zona lumbar o el glúteo y baja por detrás del muslo, a veces con hormigueo | La columna lumbar y un nervio irritado, como en la [ciática](/sintomas/ciatica/) |
 
-Si el dolor sigue un recorrido que va desde la zona lumbar o el glúteo hacia el muslo y la pierna, especialmente si se acompaña de hormigueo o pérdida de sensibilidad, es probable que el origen esté en una raíz nerviosa comprimida a nivel de la columna, y no solo en la cadera.
+No siempre es tan claro y a veces hay más de un origen a la vez. En la primera visita hacemos pruebas de movilidad de cadera y columna para distinguirlos.
 
-## Señales que conviene vigilar
+## Causas según la edad
 
-Debilidad muscular en la pierna, dolor que empeora al toser o estornudar, o molestias que no mejoran con el descanso son señales de que conviene una valoración más completa.
+- **Personas jóvenes y deportistas:** sobrecargas musculares, tendinopatías y el pinzamiento de cadera (choque femoroacetabular). Lo explicamos en [¿por qué me duele la cadera si soy joven?](/blog/por-que-me-duele-la-cadera-si-soy-joven/).
+- **A partir de los 50:** la artrosis de cadera ([coxartrosis](/blog/coxartrosis-sintomas-y-beneficios-de-la-quiropractica/)) y la tendinopatía glútea son las más frecuentes.
+- **A cualquier edad:** el dolor que viene de la columna lumbar, sobre todo si pasas muchas horas sentado.
 
-## Cómo cuida la quiropráctica estos casos
+## Síntomas habituales
 
-Tras una valoración detallada, el [quiropráctico](/blog/cuanto-cuesta-un-quiropractico) identifica si el origen es articular, muscular o nervioso, y diseña un plan que puede incluir ajustes de columna y cadera, técnicas de liberación muscular y ejercicios específicos para restaurar la movilidad y reducir la presión sobre las estructuras afectadas.
+- Dolor al caminar, subir escaleras o levantarte después de estar sentado.
+- Rigidez por la mañana o al empezar a moverte.
+- Dificultad para cruzar las piernas, ponerte los calcetines o entrar en el coche.
+- Dolor que baja por la pierna, con o sin hormigueo, cuando el origen es la columna.
+
+## Cómo lo tratamos
+
+Según el origen, el plan combina:
+
+- **Movilizaciones y ajustes** de cadera, pelvis y columna lumbar para recuperar el movimiento.
+- **Trabajo de tejido blando** en glúteos, flexores de cadera y musculatura lumbar.
+- **Ejercicio de fuerza** para glúteos y muslos. En la artrosis de cadera, el ejercicio es el primer tratamiento que recomiendan las guías clínicas, y la terapia manual se usa como complemento.
+- **Pautas** para el día a día: cómo sentarte, dormir y dosificar la carga al caminar o correr.
+
+Muchas personas mejoran en pocas semanas cuando el origen es muscular o mecánico. Si hay compresión de un nervio o artrosis avanzada, la mejora lleva más tiempo y lo coordinamos con tu médico.
+
+## Cuándo ir al médico sin esperar
+
+- Dolor muy intenso tras una caída, sobre todo en personas mayores (puede haber una fractura).
+- Fiebre, cadera caliente o enrojecida.
+- Pérdida de fuerza en la pierna, o adormecimiento en la zona genital, o cambios al orinar.
+- Dolor de cadera en un niño que cojea.
 
 ## Preguntas frecuentes
 
-**¿El dolor de cadera siempre viene de la columna?**
-No siempre. Puede originarse en la propia articulación de la cadera, en los músculos circundantes, o efectivamente en la columna lumbar. Por eso es importante una buena valoración.
+**¿El dolor de cadera siempre es artrosis?**
+No. En personas jóvenes casi nunca lo es, y a cualquier edad puede venir de los tendones o de la columna.
 
-**¿Caminar empeora el dolor de cadera y pierna?**
-Depende de la causa. En algunos casos caminar con moderación ayuda, mientras que en otros conviene reducir la carga temporalmente. Tu quiropráctico puede orientarte según tu caso.
+**¿Caminar empeora el dolor?**
+Depende de la causa. Caminar a un ritmo cómodo suele ayudar; si el dolor aumenta durante el paseo o al día siguiente, conviene reducir la distancia temporalmente.
 
-**¿Cuánto tarda en mejorar este tipo de dolor?**
-Varía mucho según la causa, desde pocos días en casos musculares leves hasta varias semanas si hay compresión nerviosa.
+**¿Puedo seguir haciendo ejercicio?**
+En general sí, adaptando la intensidad. El reposo total suele empeorar la rigidez.
 
-**¿Cuándo debo consultar a un profesional?**
-Si el dolor es intenso, persiste más de unos días, o se acompaña de debilidad o pérdida de sensibilidad, conviene una valoración cuanto antes.
+**¿Cuánto tarda en mejorar?**
+Desde pocos días en una sobrecarga leve hasta varias semanas si hay un nervio irritado o artrosis.

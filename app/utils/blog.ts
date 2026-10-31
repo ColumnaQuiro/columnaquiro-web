@@ -1,4 +1,3 @@
-import { marked } from 'marked'
 import type { Locale } from '@/utils/site-routes'
 
 export interface BlogPost {
@@ -14,57 +13,48 @@ export interface BlogPost {
   excerpt: string
   cover: string
   author: string
-  html: string
+  /** Optional `reviewedBy:` (a practitioner's full name) and `reviewed:` date. */
+  reviewedBy?: string
+  reviewed?: string
 }
 
-function parseFrontmatter(raw: string): { data: Record<string, string>; body: string } {
-  const match = raw.match(/^---\n([\s\S]*?)\n---\n?([\s\S]*)$/)
-  if (!match) return { data: {}, body: raw }
-
-  const data: Record<string, string> = {}
-  for (const line of match[1]!.split('\n')) {
-    const separatorIndex = line.indexOf(':')
-    if (separatorIndex === -1) continue
-    const key = line.slice(0, separatorIndex).trim()
-    let value = line.slice(separatorIndex + 1).trim()
-    if (
-      (value.startsWith('"') && value.endsWith('"')) ||
-      (value.startsWith("'") && value.endsWith("'"))
-    ) {
-      value = value.slice(1, -1)
-    }
-    data[key] = value
-  }
-  return { data, body: match[2]! }
-}
-
-const files = import.meta.glob('../../content/blog/*/*.md', {
+// Two globs over the same files. `?blogmeta` is answered by the
+// `blog-frontmatter` plugin in nuxt.config.ts with the frontmatter only, so the
+// list page and every other page carry a few KB of titles and dates. The
+// bodies stay lazy: each post's markdown is its own chunk, fetched only by
+// that post's page. Loading every body eagerly put ~130 KB of markdown in the
+// main bundle of every page.
+const metaFiles = import.meta.glob('../../content/blog/*/*.md', {
   eager: true,
+  query: '?blogmeta',
+  import: 'default',
+}) as Record<string, Record<string, string>>
+
+const bodyFiles = import.meta.glob('../../content/blog/*/*.md', {
   query: '?raw',
   import: 'default',
-}) as Record<string, string>
+}) as Record<string, () => Promise<string>>
 
-function loadPosts(locale: Locale): BlogPost[] {
-  return Object.entries(files)
+function loadPosts(locale: Locale): (BlogPost & { file: string })[] {
+  return Object.entries(metaFiles)
     .filter(([path]) => path.includes(`/content/blog/${locale}/`))
-    .map(([, raw]) => {
-      const { data, body } = parseFrontmatter(raw)
-      return {
-        slug: data.slug ?? '',
-        title: data.title ?? '',
-        date: data.date ?? '',
-        updated: data.updated || undefined,
-        excerpt: data.excerpt ?? '',
-        cover: data.cover ?? '',
-        author: data.author ?? '',
-        html: marked.parse(body, { async: false }) as string,
-      }
-    })
+    .map(([file, data]) => ({
+      file,
+      slug: data.slug ?? '',
+      title: data.title ?? '',
+      date: data.date ?? '',
+      updated: data.updated || undefined,
+      excerpt: data.excerpt ?? '',
+      cover: data.cover ?? '',
+      author: data.author ?? '',
+      reviewedBy: data.reviewedBy || undefined,
+      reviewed: data.reviewed || undefined,
+    }))
     .filter((post) => post.slug)
     .sort((a, b) => (a.date < b.date ? 1 : -1))
 }
 
-const postsByLocale: Record<Locale, BlogPost[]> = {
+const postsByLocale = {
   es: loadPosts('es'),
   en: loadPosts('en'),
 }
@@ -75,4 +65,16 @@ export function getBlogPosts(locale: Locale): BlogPost[] {
 
 export function getPostBySlug(locale: Locale, slug: string): BlogPost | undefined {
   return postsByLocale[locale].find((post) => post.slug === slug)
+}
+
+export async function loadPostHtml(locale: Locale, slug: string): Promise<string> {
+  const post = postsByLocale[locale].find((p) => p.slug === slug)
+  const load = post ? bodyFiles[post.file] : undefined
+  if (!load) return ''
+  const [{ marked }, { parseFrontmatter }, raw] = await Promise.all([
+    import('marked'),
+    import('@/utils/frontmatter'),
+    load(),
+  ])
+  return marked.parse(parseFrontmatter(raw).body, { async: false }) as string
 }

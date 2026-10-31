@@ -36,7 +36,7 @@ const content = {
   },
 }
 const c = computed(() => content[locale.value])
-const telHref = `tel:+34${clinic.phone.replace(/\s/g, '')}`
+const telHref = clinic.phoneHref
 const mapOpen = ref(false)
 const mapSrc =
   'https://www.google.com/maps?q=Carrer+dels+Vivons+29,+46006+Val%C3%A8ncia&output=embed&z=16'

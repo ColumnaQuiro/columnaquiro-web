@@ -3,7 +3,8 @@ import { computed } from 'vue'
 import { useAppI18n } from '@/composables/useAppI18n'
 import { findCategoryPage } from '@/data/category-pages'
 import { useSeo } from '@/composables/useSeo'
-import { SITE_URL } from '@/utils/seo'
+import { breadcrumbJsonLd } from '@/utils/schema'
+import { CATEGORY_HUB } from '@/utils/site-routes'
 import CtaBanner from '@/components/ui/CtaBanner.vue'
 import PageHero from '@/components/ui/PageHero.vue'
 
@@ -26,21 +27,14 @@ useHead({
   script: [
     {
       type: 'application/ld+json',
+      key: 'breadcrumbs',
       innerHTML: () =>
-        JSON.stringify({
-          '@context': 'https://schema.org',
-          '@type': 'BreadcrumbList',
-          itemListElement: [
-            { '@type': 'ListItem', position: 1, name: 'Home', item: `${SITE_URL}${locale.value === 'es' ? '/' : '/en'}` },
-            {
-              '@type': 'ListItem',
-              position: 2,
-              name: t('nav.paraTodos'),
-              item: `${SITE_URL}${locale.value === 'es' ? '/para-quien-sirve-la-quiropractica' : '/en/who-is-chiropractic-for'}`,
-            },
-            { '@type': 'ListItem', position: 3, name: content.value?.title ?? '', item: `${SITE_URL}${route.path}` },
-          ],
-        }),
+        JSON.stringify(
+          breadcrumbJsonLd(locale.value, [
+            { name: t('nav.paraTodos'), path: CATEGORY_HUB[locale.value] },
+            { name: content.value?.title ?? '', path: route.path },
+          ]),
+        ),
     },
   ],
 })

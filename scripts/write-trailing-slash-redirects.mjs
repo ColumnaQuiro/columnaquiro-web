@@ -36,6 +36,26 @@ const LEGACY_REDIRECTS = [
   { from: '/blog/quiropractico-eixample-valencia/', to: '/quiropractico-eixample-valencia/' },
   { from: '/en/blog/chiropractor-in-eixample-valencia', to: '/en/chiropractor-eixample-valencia/' },
   { from: '/en/blog/chiropractor-in-eixample-valencia/', to: '/en/chiropractor-eixample-valencia/' },
+  // Overlapping posts merged into one (Oct 2026 SEO audit): each pair
+  // competed for the same searches, so the weaker one now 301s to the
+  // merged post (or, for scoliosis, to the symptom page that owns the term).
+  { from: '/blog/lordosis-cervical', to: '/blog/rectificacion-de-cervicales-sintomas-y-tratamiento-quiropractico/' },
+  { from: '/en/blog/cervical-lordosis', to: '/en/blog/straight-neck-and-cervical-lordosis/' },
+  { from: '/blog/migrana-cervical-que-es-y-como-aliviarla', to: '/blog/guia-completa-para-tratar-el-dolor-de-cabeza-por-cervicales/' },
+  { from: '/en/blog/cervical-migraine', to: '/en/blog/complete-guide-to-treating-cervical-headache/' },
+  { from: '/blog/como-eliminar-pitidos-en-los-oidos-con-quiropractica', to: '/blog/puede-la-cervical-afectar-el-oido-descubre-como-y-por-que/' },
+  { from: '/en/blog/how-to-eliminate-ringing-in-the-ears-with-chiropractic', to: '/en/blog/can-the-cervical-affect-the-ear/' },
+  { from: '/blog/quiropractica-clave-para-la-escoliosis', to: '/sintomas/escoliosis/' },
+  { from: '/en/blog/chiropractic-key-to-fighting-scoliosis', to: '/en/symptoms/scoliosis/' },
+  { from: '/blog/es-bueno-crujirse-los-dedos-descubre-la-verdad-aqui', to: '/blog/es-malo-que-te-crujan-los-huesos-descubre-la-verdad/' },
+  { from: '/blog/coxalgia-que-es-sintomas-y-beneficios-de-la-quiropractica', to: '/blog/dolor-de-cadera-y-piernas/' },
+  { from: '/en/blog/coxalgia', to: '/en/blog/hip-and-leg-pain-what-it-is-and-how-to-treat-it/' },
+  // English slugs that read as machine translations, renamed (Oct 2026).
+  { from: '/en/blog/trapezius-nerve-grip', to: '/en/blog/trapezius-pinched-nerve/' },
+  { from: '/en/blog/is-it-good-to-crunch-your-back', to: '/en/blog/is-it-good-to-crack-your-back/' },
+  { from: '/en/blog/is-it-bad-to-have-your-bones-crunching', to: '/en/blog/is-it-bad-when-your-joints-crack/' },
+  { from: '/en/blog/cervical-rectification-symptoms-and-chiropractic-care', to: '/en/blog/straight-neck-and-cervical-lordosis/' },
+  { from: '/en/blog/valencia-se-endereza-por-que-la-quiropractica-gana-terreno-frente-al-dolor-de-espalda', to: '/en/blog/valencia-is-straightening-up/' },
 ]
 
 if (!existsSync(publicDir)) {

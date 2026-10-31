@@ -76,7 +76,7 @@ La contraindicación absoluta suele ser **regional**: una metástasis lumbar no 
 
 Y las relativas, donde está la mayoría de la gente real. La **osteoporosis** y el hueso desmineralizado lo son por riesgo de fractura patológica, y la OMS señala la columna y las costillas como especialmente vulnerables, con más susceptibilidad tras tratamiento prolongado con corticoides y en mujeres posmenopáusicas; en osteoporosis severa, el ajuste manual de alta velocidad sobre esa zona queda descartado en la práctica. También lo son los **anticoagulantes** y los trastornos de la coagulación, la **insuficiencia vertebrobasilar o un ictus previo** (relativa a absoluta para el cuello), un aneurisma diagnosticado, la cirugía de columna reciente y la espondilolistesis con deslizamiento progresivo.
 
-«Relativa» no significa «da igual»: significa que la técnica cambia —movilización sin impulso, baja fuerza, instrumental— o que no se trata esa región. El embarazo no es una contraindicación, pero obliga a adaptar posición y técnica; está entre las [preguntas frecuentes sobre quiropráctica](/que-es-la-quiropractica/preguntas-frecuentes).
+«Relativa» no significa «da igual»: significa que la técnica cambia —movilización sin impulso, baja fuerza, instrumental— o que no se trata esa región. El embarazo no es una contraindicación, pero obliga a adaptar posición y técnica; está entre las [preguntas frecuentes sobre quiropráctica](/que-es-la-quiropractica/preguntas-frecuentes/).
 
 ## Cómo es un cribado serio antes del primer ajuste
 
@@ -91,9 +91,9 @@ En una primera visita bien hecha pasarás por esto, y deberías notarlo:
 5. **Consentimiento informado de verdad**: qué se va a hacer, qué notarás en 48 horas y qué riesgos hay, incluida la asociación con la disección cervical si se trabaja el cuello.
 6. **Un plan con punto de revisión**: cuándo se reevalúa y qué se hace si no mejoras.
 
-Y hay un factor español que conviene decir en voz alta: la quiropráctica **no es una profesión sanitaria regulada en España**, así que la calidad de ese cribado no la garantiza ningún colegio profesional, sino la persona que tienes delante. Pregunta dónde se formó y cuántos años duró esa formación. Los límites de la disciplina los tratamos en [pros y contras de la quiropráctica](/blog/pros-y-contras-de-la-quiropractica).
+Y hay un factor español que conviene decir en voz alta: la quiropráctica **no es una profesión sanitaria regulada en España**, así que la calidad de ese cribado no la garantiza ningún colegio profesional, sino la persona que tienes delante. Pregunta dónde se formó y cuántos años duró esa formación. Los límites de la disciplina los tratamos en [pros y contras de la quiropráctica](/blog/pros-y-contras-de-la-quiropractica/).
 
-Si te ajustan sin historia ni exploración, si nadie menciona ningún riesgo o si te venden un paquete antes de valorarte, eso sí es una señal de alarma. Si prefieres empezar por una valoración sin compromiso, puedes [reservar una primera cita](/reserva-cita) y decirlo al pedirla.
+Si te ajustan sin historia ni exploración, si nadie menciona ningún riesgo o si te venden un paquete antes de valorarte, eso sí es una señal de alarma. Si prefieres empezar por una valoración sin compromiso, puedes [reservar una primera cita](/reserva-cita/) y decirlo al pedirla.
 
 ## Preguntas frecuentes
 

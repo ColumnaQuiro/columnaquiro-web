@@ -20,7 +20,7 @@ export const symptomContent: Record<string, { es: SymptomContent; en: SymptomCon
         'Reducción progresiva del rango de movimiento',
       ],
       howChiropracticHelps: [
-        'Los ajustes <a href="/blog/cuanto-cuesta-un-quiropractico" class="font-semibold text-gold-dark underline">quiroprácticos</a> y el trabajo de movilidad articular pueden ayudar a aliviar la rigidez y mejorar la función de las articulaciones afectadas, complementando el tratamiento médico habitual.',
+        'Los ajustes quiroprácticos y el trabajo de movilidad articular pueden ayudar a aliviar la rigidez y mejorar la función de las articulaciones afectadas, complementando el tratamiento médico habitual.',
       ],
     },
     en: {
@@ -52,7 +52,7 @@ export const symptomContent: Record<string, { es: SymptomContent; en: SymptomCon
         'Dificultades de organización',
       ],
       howChiropracticHelps: [
-        'La <a href="/blog/cuanto-cuesta-un-quiropractico" class="font-semibold text-gold-dark underline">quiropráctica</a> no diagnostica ni trata el TDAH. Como parte de un enfoque integral de bienestar, algunos padres buscan cuidado quiropráctico para apoyar la salud general del sistema nervioso y la calidad del descanso de sus hijos, siempre como complemento y nunca como sustituto del seguimiento por parte de pediatría o profesionales especializados.',
+        'La quiropráctica no diagnostica ni trata el TDAH, y no hay evidencia de que mejore sus síntomas. Lo que sí podemos atender es el dolor de espalda o de cuello que tenga tu hijo o hija, como a cualquier otro niño, siempre sin sustituir el seguimiento de su pediatra o especialista.',
       ],
       note: 'Si sospechas que tu hijo/a puede tener TDAH, consulta con su pediatra o un especialista en neurodesarrollo.',
     },
@@ -68,7 +68,7 @@ export const symptomContent: Record<string, { es: SymptomContent; en: SymptomCon
         'Difficulty with organization',
       ],
       howChiropracticHelps: [
-        "Chiropractic care does not diagnose or treat ADHD. As part of a broader wellness approach, some parents seek chiropractic care to support their child's overall nervous system health and quality of rest, always as a complement to — never a substitute for — care from a pediatrician or neurodevelopmental specialist.",
+        "Chiropractic does not diagnose or treat ADHD, and there is no evidence that it improves its symptoms. What we can help with is any back or neck pain your child has, as with any other child, never in place of their paediatrician or specialist.",
       ],
       note: "If you suspect your child may have ADHD, please consult their pediatrician or a neurodevelopmental specialist.",
     },
@@ -86,7 +86,7 @@ export const symptomContent: Record<string, { es: SymptomContent; en: SymptomCon
         'Preferencia por rutinas predecibles',
       ],
       howChiropracticHelps: [
-        'La <a href="/blog/cuanto-cuesta-un-quiropractico" class="font-semibold text-gold-dark underline">quiropráctica</a> no diagnostica ni trata el autismo. Algunas familias buscan cuidado quiropráctico como parte de un enfoque de bienestar general, centrado en la comodidad física y la salud del sistema nervioso, siempre en coordinación con el equipo médico y terapéutico que acompaña a cada niño o adulto.',
+        'La quiropráctica no diagnostica ni trata el autismo, y no hay evidencia de que cambie sus características. Lo que sí podemos atender es el dolor de espalda o de cuello, adaptando el tiempo, el contacto y el entorno de la consulta a la sensibilidad de cada persona, y en coordinación con su equipo médico y terapéutico.',
       ],
       note: 'El diagnóstico y el tratamiento del TEA deben ser guiados por profesionales especializados en neurodesarrollo.',
     },
@@ -102,7 +102,7 @@ export const symptomContent: Record<string, { es: SymptomContent; en: SymptomCon
         'A preference for predictable routines',
       ],
       howChiropracticHelps: [
-        "Chiropractic care does not diagnose or treat autism. Some families seek chiropractic care as part of a broader wellness approach focused on physical comfort and nervous system health, always coordinated with the medical and therapeutic team supporting the child or adult.",
+        "Chiropractic does not diagnose or treat autism, and there is no evidence that it changes its characteristics. What we can help with is back or neck pain, adapting the timing, touch and setting of the session to each person's sensory needs, and working with their medical and therapy team.",
       ],
       note: 'ASD diagnosis and care should be guided by professionals specialized in neurodevelopment.',
     },
@@ -120,7 +120,7 @@ export const symptomContent: Record<string, { es: SymptomContent; en: SymptomCon
         'Tensión muscular acompañante',
       ],
       howChiropracticHelps: [
-        'Los ajustes <a href="/blog/cuanto-cuesta-un-quiropractico" class="font-semibold text-gold-dark underline">quiroprácticos</a> ayudan a mejorar la movilidad de la columna y reducir la tensión muscular asociada, abordando la causa mecánica del dolor de forma natural.',
+        'Los ajustes quiroprácticos ayudan a mejorar la movilidad de la columna y reducir la tensión muscular asociada, abordando la causa mecánica del dolor de forma natural.',
       ],
     },
     en: {
@@ -143,7 +143,7 @@ export const symptomContent: Record<string, { es: SymptomContent; en: SymptomCon
     es: {
       title: 'Bajo rendimiento',
       intro: [
-        'El bajo rendimiento físico o deportivo puede tener múltiples causas: fatiga acumulada, desequilibrios musculares, restricciones de movilidad o un sistema nervioso sobrecargado por el estrés.',
+        'El bajo rendimiento físico o deportivo puede tener muchas causas: fatiga acumulada, poco descanso, desequilibrios musculares, falta de movilidad o una lesión que no ha terminado de curar.',
       ],
       signs: [
         'Fatiga persistente durante el entrenamiento',
@@ -152,13 +152,13 @@ export const symptomContent: Record<string, { es: SymptomContent; en: SymptomCon
         'Sensación de rigidez o falta de fluidez en el movimiento',
       ],
       howChiropracticHelps: [
-        'Al mejorar la movilidad articular y optimizar la función del sistema nervioso, los ajustes <a href="/blog/cuanto-cuesta-un-quiropractico" class="font-semibold text-gold-dark underline">quiroprácticos</a> pueden ayudar a mejorar la fuerza, el equilibrio y los tiempos de recuperación.',
+        'No hay pruebas sólidas de que los ajustes aumenten la fuerza o el rendimiento. Donde podemos ayudarte es con el dolor de espalda, cadera o cuello que te limita al entrenar, y con una vuelta progresiva tras una lesión.',
       ],
     },
     en: {
       title: 'Low Performance',
       intro: [
-        'Low physical or athletic performance can have several causes: accumulated fatigue, muscle imbalances, mobility restrictions, or a nervous system overloaded by stress.',
+        'Low physical or athletic performance can have many causes: accumulated fatigue, poor rest, muscle imbalances, limited mobility or an injury that has not fully healed.',
       ],
       signs: [
         'Persistent fatigue during training',
@@ -167,7 +167,7 @@ export const symptomContent: Record<string, { es: SymptomContent; en: SymptomCon
         'A feeling of stiffness or lack of fluidity in movement',
       ],
       howChiropracticHelps: [
-        'By improving joint mobility and optimizing nervous system function, chiropractic adjustments can help improve strength, balance, and recovery times.',
+        'There is no solid evidence that adjustments increase strength or performance. Where we can help is with back, hip or neck pain that limits your training, and with a gradual return after an injury.',
       ],
     },
   },
@@ -183,7 +183,7 @@ export const symptomContent: Record<string, { es: SymptomContent; en: SymptomCon
         'Preferencia por girar la cabeza hacia un lado',
       ],
       howChiropracticHelps: [
-        'Un abordaje <a href="/blog/cuanto-cuesta-un-quiropractico" class="font-semibold text-gold-dark underline">quiropráctico</a> suave, junto con pautas de cambios posturales y tiempo boca abajo supervisado, puede ayudar a favorecer una forma craneal más equilibrada durante los primeros meses.',
+        'La base del tratamiento son los cambios de postura y el tiempo boca abajo supervisado. Si tu bebé gira siempre la cabeza hacia el mismo lado, revisamos con mucha suavidad la movilidad de su cuello y te enseñamos esas pautas.',
       ],
       note: 'Consulta con el pediatra para valorar la evolución y descartar otras causas.',
     },
@@ -198,7 +198,7 @@ export const symptomContent: Record<string, { es: SymptomContent; en: SymptomCon
         'A preference for turning the head to one side',
       ],
       howChiropracticHelps: [
-        'A gentle chiropractic approach, alongside guidance on positional changes and supervised tummy time, can help support a more balanced head shape during the first months.',
+        "The core of treatment is changing your baby's position and supervised tummy time. If your baby always turns their head to the same side, we very gently check how their neck moves and show you those techniques.",
       ],
       note: "Check in with your pediatrician to monitor progress and rule out other causes.",
     },
@@ -215,7 +215,7 @@ export const symptomContent: Record<string, { es: SymptomContent; en: SymptomCon
         'Pérdida de fuerza al agarrar objetos',
       ],
       howChiropracticHelps: [
-        'Los ajustes <a href="/blog/cuanto-cuesta-un-quiropractico" class="font-semibold text-gold-dark underline">quiroprácticos</a> en muñeca, codo y columna cervical pueden mejorar la movilidad y reducir la presión sobre el nervio mediano, complementando otras medidas como férulas o pausas activas.',
+        'Los ajustes quiroprácticos en muñeca, codo y columna cervical pueden mejorar la movilidad y reducir la presión sobre el nervio mediano, complementando otras medidas como férulas o pausas activas.',
       ],
     },
     en: {
@@ -249,7 +249,7 @@ export const symptomContent: Record<string, { es: SymptomContent; en: SymptomCon
         'Alivio parcial del dolor al caminar o cambiar de postura',
       ],
       howChiropracticHelps: [
-        'Los ajustes <a href="/blog/cuanto-cuesta-un-quiropractico" class="font-semibold text-gold-dark underline">quiroprácticos</a> y las técnicas de movilización de la columna lumbar pueden ayudar a reducir la presión sobre el nervio ciático, mejorar la movilidad de las vértebras implicadas y aliviar el dolor de forma natural.',
+        'Los ajustes quiroprácticos y las técnicas de movilización de la columna lumbar pueden ayudar a reducir la presión sobre el nervio ciático, mejorar la movilidad de las vértebras implicadas y aliviar el dolor de forma natural.',
         'El tratamiento suele combinarse con ejercicios específicos de estiramiento y fortalecimiento, y con pautas posturales para el día a día, adaptando el plan de cuidado a la causa concreta y a la intensidad de cada caso.',
       ],
       note: 'Si el dolor se acompaña de pérdida de fuerza progresiva en la pierna, afecta a ambas piernas, o se acompaña de pérdida de control de la vejiga o los intestinos, acude a un servicio médico de urgencias.',
@@ -287,7 +287,7 @@ export const symptomContent: Record<string, { es: SymptomContent; en: SymptomCon
         'Dificultad para calmarse',
       ],
       howChiropracticHelps: [
-        'Un cuidado <a href="/blog/cuanto-cuesta-un-quiropractico" class="font-semibold text-gold-dark underline">quiropráctico</a> suave y adaptado a bebés puede ayudar a relajar la tensión del sistema nervioso y digestivo, siendo siempre un complemento a la valoración pediátrica.',
+        'Los estudios sobre terapia manual en el cólico del lactante son pocos y de baja calidad, así que no podemos prometer que reduzca el llanto (revisión Cochrane, Dobson y cols., 2012). Si tu bebé además prefiere girar la cabeza o mamar de un lado, podemos revisar con suavidad la movilidad de su cuello.',
       ],
       note: 'Consulta siempre con el pediatra para descartar otras causas del llanto.',
     },
@@ -302,7 +302,7 @@ export const symptomContent: Record<string, { es: SymptomContent; en: SymptomCon
         'Difficulty settling down',
       ],
       howChiropracticHelps: [
-        "Gentle, infant-adapted chiropractic care can help ease tension in the nervous and digestive systems, always as a complement to your pediatrician's assessment.",
+        "Studies of manual therapy for infant colic are few and of low quality, so we cannot promise it will reduce crying (Cochrane review, Dobson et al., 2012). If your baby also prefers turning their head or feeding on one side, we can gently check how their neck moves.",
       ],
       note: "Always check with your pediatrician to rule out other causes of the crying.",
     },
@@ -311,7 +311,7 @@ export const symptomContent: Record<string, { es: SymptomContent; en: SymptomCon
     es: {
       title: 'Estreñimiento',
       intro: [
-        'El estreñimiento puede estar relacionado con la alimentación, la hidratación, el sedentarismo o, en algunos casos, con una alteración en la función nerviosa que regula el tránsito intestinal.',
+        'El estreñimiento suele estar relacionado con la alimentación, la hidratación, el sedentarismo o algunos medicamentos.',
       ],
       signs: [
         'Deposiciones poco frecuentes',
@@ -319,13 +319,13 @@ export const symptomContent: Record<string, { es: SymptomContent; en: SymptomCon
         'Sensación de evacuación incompleta',
       ],
       howChiropracticHelps: [
-        'Al mejorar la función del sistema nervioso que regula los órganos digestivos, los ajustes <a href="/blog/cuanto-cuesta-un-quiropractico" class="font-semibold text-gold-dark underline">quiroprácticos</a> pueden contribuir, junto con hábitos de alimentación e hidratación adecuados, a un tránsito intestinal más regular.',
+        'No hay evidencia de que los ajustes quiroprácticos mejoren el estreñimiento. Lo eficaz es la fibra, el agua, el movimiento y, si no basta, la valoración de tu médico. Si el estreñimiento es nuevo, se acompaña de sangre o de pérdida de peso, consulta con tu médico cuanto antes.',
       ],
     },
     en: {
       title: 'Constipation',
       intro: [
-        'Constipation can be related to diet, hydration, a sedentary lifestyle, or, in some cases, disruption in the nervous system function that regulates bowel movement.',
+        'Constipation is usually linked to diet, hydration, a sedentary lifestyle or some medications.',
       ],
       signs: [
         'Infrequent bowel movements',
@@ -333,7 +333,7 @@ export const symptomContent: Record<string, { es: SymptomContent; en: SymptomCon
         'A feeling of incomplete evacuation',
       ],
       howChiropracticHelps: [
-        'By improving the function of the nervous system that regulates the digestive organs, chiropractic adjustments — along with proper diet and hydration habits — can contribute to more regular bowel function.',
+        'There is no evidence that chiropractic adjustments relieve constipation. What works is fibre, water, movement and, if that is not enough, your doctor. If constipation is new, or comes with blood or weight loss, see your doctor promptly.',
       ],
     },
   },
@@ -349,7 +349,7 @@ export const symptomContent: Record<string, { es: SymptomContent; en: SymptomCon
         'Dificultad para escribir correctamente',
       ],
       howChiropracticHelps: [
-        'La <a href="/blog/cuanto-cuesta-un-quiropractico" class="font-semibold text-gold-dark underline">quiropráctica</a> no diagnostica ni trata la dislexia. Como parte de un enfoque de bienestar general, puede ayudar a mejorar la comodidad física y reducir el estrés, siempre en coordinación con el apoyo psicopedagógico especializado.',
+        'La quiropráctica no diagnostica ni trata la dislexia, y no hay evidencia de que mejore la lectura o la escritura. El apoyo adecuado es el psicopedagógico. Si además tu hijo o hija tiene dolor de espalda o de cuello, eso sí podemos valorarlo.',
       ],
       note: 'El abordaje de la dislexia debe ser guiado por profesionales especializados en educación y neurodesarrollo.',
     },
@@ -364,7 +364,7 @@ export const symptomContent: Record<string, { es: SymptomContent; en: SymptomCon
         'Difficulty writing correctly',
       ],
       howChiropracticHelps: [
-        'Chiropractic care does not diagnose or treat dyslexia. As part of a broader wellness approach, it may help with physical comfort and stress reduction, always alongside specialized learning support.',
+        'Chiropractic does not diagnose or treat dyslexia, and there is no evidence that it improves reading or writing. The right support is specialist learning support. If your child also has back or neck pain, that is something we can assess.',
       ],
       note: 'Support for dyslexia should be guided by professionals specialized in education and neurodevelopment.',
     },
@@ -381,7 +381,7 @@ export const symptomContent: Record<string, { es: SymptomContent; en: SymptomCon
         'Empeoramiento con posturas mantenidas frente a pantallas',
       ],
       howChiropracticHelps: [
-        'Los ajustes <a href="/blog/cuanto-cuesta-un-quiropractico" class="font-semibold text-gold-dark underline">quiroprácticos</a> cervicales y el trabajo de movilidad pueden reducir la frecuencia e intensidad de este tipo de dolor de cabeza, abordando su origen mecánico.',
+        'Los ajustes quiroprácticos cervicales y el trabajo de movilidad pueden reducir la frecuencia e intensidad de este tipo de dolor de cabeza, abordando su origen mecánico.',
       ],
     },
     en: {
@@ -433,39 +433,51 @@ export const symptomContent: Record<string, { es: SymptomContent; en: SymptomCon
     es: {
       title: 'Escoliosis',
       intro: [
-        'La escoliosis es una curvatura lateral anormal de la columna vertebral. Puede aparecer en la infancia, la adolescencia o la edad adulta, y su seguimiento debe ser realizado por un especialista.',
+        'La escoliosis es una curvatura lateral de la columna, con algo de rotación de las vértebras. Puede aparecer en la infancia, la adolescencia o la edad adulta, y su seguimiento debe hacerlo un traumatólogo o especialista en columna.',
+        'La forma más frecuente es la escoliosis idiopática del adolescente, que suele hacerse visible entre los 10 y los 15 años, durante el estirón. En adultos, la escoliosis puede venir de la adolescencia o aparecer con el desgaste de la columna. Las señales que conviene vigilar en tu hijo o hija las contamos en <a href="/blog/escoliosis-adolescencia/" class="font-semibold text-gold-dark underline">escoliosis en la adolescencia</a>.',
+        'El grado de la curva se mide en una radiografía (ángulo de Cobb), y es ese grado, junto con la edad y lo que queda de crecimiento, lo que decide el tratamiento: vigilancia, ejercicios específicos, corsé o, en curvas severas, cirugía. En adolescentes con curvas moderadas, el corsé reduce el riesgo de que la curva progrese (Weinstein y cols., <em>New England Journal of Medicine</em>, 2013).',
       ],
       signs: [
         'Hombros u omóplatos a distinta altura',
-        'Asimetría en la cintura',
-        'Molestias de espalda al mantener una postura',
+        'Asimetría en la cintura o una cadera más alta',
+        'Un lado de la espalda que sobresale al inclinarse hacia delante',
+        'Ropa que no cae igual por los dos lados',
+        'Molestias o cansancio de espalda al mantener una postura',
       ],
       howChiropracticHelps: [
-        'El cuidado <a href="/blog/cuanto-cuesta-un-quiropractico" class="font-semibold text-gold-dark underline">quiropráctico</a> puede ayudar a mejorar la movilidad, reducir las molestias asociadas y apoyar una mejor postura, siempre como complemento al seguimiento médico especializado en los casos de curvas moderadas o severas.',
+        'La quiropráctica no corrige ni cura la escoliosis, y no hay evidencia de que los ajustes reduzcan la curva. Lo que sí podemos hacer es tratar el dolor y la rigidez de espalda que a menudo la acompañan, sobre todo en adultos, y reforzar los ejercicios que te haya pautado tu especialista.',
+        'En consulta adaptamos la técnica a la forma de tu columna, con movilizaciones suaves y trabajo de tejido blando, y te damos ejercicios de movilidad y fuerza. Nos coordinamos con tu traumatólogo, y nunca sustituimos el corsé ni los controles que te haya indicado.',
+        'Si la escoliosis te da sensación de falta de aire, lo explicamos en <a href="/blog/tengo-escoliosis-y-me-cuesta-respirar/" class="font-semibold text-gold-dark underline">tengo escoliosis y me cuesta respirar</a>.',
       ],
-      note: 'Las curvas moderadas o severas requieren seguimiento por un especialista en columna.',
+      note: 'Ante cualquier sospecha de escoliosis, o si una curva conocida cambia o empieza a doler, consulta con tu médico o con un especialista en columna.',
     },
     en: {
       title: 'Scoliosis',
       intro: [
-        'Scoliosis is an abnormal sideways curvature of the spine. It can appear in childhood, adolescence, or adulthood, and should be monitored by a specialist.',
+        'Scoliosis is a sideways curve of the spine, with some rotation of the vertebrae. It can appear in childhood, adolescence or adulthood, and it should be monitored by an orthopaedic or spine specialist.',
+        'The most common form is adolescent idiopathic scoliosis, which usually becomes visible between 10 and 15, during the growth spurt. In adults, scoliosis may date from adolescence or develop with wear on the spine. The signs to watch for in your child are in <a href="/en/blog/adolescent-scoliosis/" class="font-semibold text-gold-dark underline">adolescent scoliosis</a>.',
+        'The size of the curve is measured on an X-ray (the Cobb angle), and that size, together with age and remaining growth, decides the treatment: monitoring, specific exercises, a brace or, for severe curves, surgery. In teenagers with moderate curves, bracing lowers the risk of the curve progressing (Weinstein et al., <em>New England Journal of Medicine</em>, 2013).',
       ],
       signs: [
         'Shoulders or shoulder blades at uneven heights',
-        'Waist asymmetry',
-        'Back discomfort from sustained postures',
+        'An uneven waist or one hip higher than the other',
+        'One side of the back sticking out when bending forward',
+        'Clothes that hang differently on each side',
+        'Back ache or tiredness when holding a position',
       ],
       howChiropracticHelps: [
-        'Chiropractic care can help improve mobility, reduce associated discomfort, and support better posture, always as a complement to specialized medical monitoring for moderate or severe curves.',
+        'Chiropractic does not correct or cure scoliosis, and there is no evidence that adjustments reduce the curve. What we can do is treat the back pain and stiffness that often come with it, especially in adults, and support the exercises your specialist has given you.',
+        'At the clinic we adapt the technique to the shape of your spine, with gentle mobilisation and soft-tissue work, and give you mobility and strength exercises. We work alongside your orthopaedic specialist and never replace a brace or the check-ups they have set.',
+        'If your scoliosis makes you feel short of breath, we explain it in <a href="/en/blog/scoliosis-hard-to-breathe/" class="font-semibold text-gold-dark underline">scoliosis and breathing difficulty</a>.',
       ],
-      note: 'Moderate or severe curves require monitoring by a spine specialist.',
+      note: 'If you suspect scoliosis, or a known curve changes or starts to hurt, see your doctor or a spine specialist.',
     },
   },
   'estres-y-depresion': {
     es: {
       title: 'Estrés y depresión',
       intro: [
-        'El estrés crónico y los estados de ánimo bajo tienen un componente físico real: pueden generar tensión muscular, alterar el sueño y afectar al sistema nervioso. La depresión es una condición de salud mental que requiere atención profesional especializada.',
+        'El estrés crónico y el ánimo bajo tienen un componente físico real: aumentan la tensión muscular y alteran el sueño. La depresión es una condición de salud mental que requiere atención profesional especializada.',
       ],
       signs: [
         'Tensión muscular persistente (cuello, hombros, mandíbula)',
@@ -473,14 +485,14 @@ export const symptomContent: Record<string, { es: SymptomContent; en: SymptomCon
         'Fatiga generalizada',
       ],
       howChiropracticHelps: [
-        'El cuidado <a href="/blog/cuanto-cuesta-un-quiropractico" class="font-semibold text-gold-dark underline">quiropráctico</a> puede ayudar a reducir la tensión física asociada al estrés y mejorar la calidad del sueño, como parte de un enfoque de bienestar más amplio. No sustituye la atención psicológica o psiquiátrica cuando esta es necesaria.',
+        'Podemos ayudarte con la tensión y el dolor de cuello, hombros y espalda que suele acompañar al estrés. La quiropráctica no trata la ansiedad ni la depresión y no sustituye la atención psicológica o psiquiátrica.',
       ],
       note: 'Si experimentas síntomas de depresión, consulta con un profesional de la salud mental.',
     },
     en: {
       title: 'Stress and Depression',
       intro: [
-        'Chronic stress and low mood have a real physical component — they can create muscle tension, disrupt sleep, and affect the nervous system. Depression is a mental health condition that requires specialized professional care.',
+        'Chronic stress and low mood have a real physical side: they raise muscle tension and disrupt sleep. Depression is a mental health condition that needs specialist professional care.',
       ],
       signs: [
         'Persistent muscle tension (neck, shoulders, jaw)',
@@ -488,7 +500,7 @@ export const symptomContent: Record<string, { es: SymptomContent; en: SymptomCon
         'General fatigue',
       ],
       howChiropracticHelps: [
-        'Chiropractic care can help reduce the physical tension associated with stress and improve sleep quality, as part of a broader wellness approach. It does not replace psychological or psychiatric care when that is needed.',
+        'We can help with the neck, shoulder and back tension and pain that often come with stress. Chiropractic does not treat anxiety or depression and does not replace psychological or psychiatric care.',
       ],
       note: 'If you are experiencing symptoms of depression, please consult a mental health professional.',
     },
@@ -506,7 +518,7 @@ export const symptomContent: Record<string, { es: SymptomContent; en: SymptomCon
         'Sensibilidad al tacto en zonas concretas',
       ],
       howChiropracticHelps: [
-        'Los ajustes <a href="/blog/cuanto-cuesta-un-quiropractico" class="font-semibold text-gold-dark underline">quiroprácticos</a> suaves y el trabajo de tejido blando pueden ayudar a aliviar la tensión muscular y mejorar la calidad de vida, siempre como parte de un abordaje multidisciplinar junto con el equipo médico.',
+        'Los ajustes quiroprácticos suaves y el trabajo de tejido blando pueden ayudar a aliviar la tensión muscular y mejorar la calidad de vida, siempre como parte de un abordaje multidisciplinar junto con el equipo médico.',
       ],
     },
     en: {
@@ -537,7 +549,7 @@ export const symptomContent: Record<string, { es: SymptomContent; en: SymptomCon
         'Debilidad muscular en casos más avanzados',
       ],
       howChiropracticHelps: [
-        'Los ajustes <a href="/blog/cuanto-cuesta-un-quiropractico" class="font-semibold text-gold-dark underline">quiroprácticos</a> y las técnicas de descompresión pueden ayudar a reducir la presión sobre el disco y aliviar los síntomas asociados, en casos leves o moderados.',
+        'Los ajustes quiroprácticos y las técnicas de descompresión pueden ayudar a reducir la presión sobre el disco y aliviar los síntomas asociados, en casos leves o moderados.',
       ],
     },
     en: {
@@ -567,7 +579,7 @@ export const symptomContent: Record<string, { es: SymptomContent; en: SymptomCon
         'Tensión muscular en la zona baja de la espalda',
       ],
       howChiropracticHelps: [
-        'Los ajustes <a href="/blog/cuanto-cuesta-un-quiropractico" class="font-semibold text-gold-dark underline">quiroprácticos</a> lumbares mejoran la movilidad de la columna y reducen la tensión muscular, aliviando el dolor de forma natural.',
+        'Los ajustes quiroprácticos lumbares mejoran la movilidad de la columna y reducen la tensión muscular, aliviando el dolor de forma natural.',
       ],
     },
     en: {
@@ -597,7 +609,7 @@ export const symptomContent: Record<string, { es: SymptomContent; en: SymptomCon
         'Dificultad para coordinar movimientos',
       ],
       howChiropracticHelps: [
-        'Un cuidado <a href="/blog/cuanto-cuesta-un-quiropractico" class="font-semibold text-gold-dark underline">quiropráctico</a> suave, adaptado a la edad del niño, puede formar parte de un enfoque de apoyo al desarrollo motor, siempre en coordinación con el pediatra y, si corresponde, con fisioterapia infantil.',
+        'No hay evidencia de que la quiropráctica acelere el desarrollo motor. La referencia es el pediatra, la atención temprana y la fisioterapia infantil. Si nos consultas, valoramos al niño con suavidad y te derivamos a ellos.',
       ],
       note: 'Ante cualquier señal de retraso motor, consulta con el pediatra lo antes posible.',
     },
@@ -612,7 +624,7 @@ export const symptomContent: Record<string, { es: SymptomContent; en: SymptomCon
         'Difficulty coordinating movements',
       ],
       howChiropracticHelps: [
-        "Gentle, age-appropriate chiropractic care can be part of a supportive approach to motor development, always coordinated with the child's pediatrician and, where appropriate, pediatric physiotherapy.",
+        "There is no evidence that chiropractic speeds up motor development. The right people are your child's paediatrician, early-intervention services and paediatric physiotherapy. If you come to us, we assess your child gently and refer you to them.",
       ],
       note: 'If you notice any sign of motor delay, consult your pediatrician as soon as possible.',
     },
@@ -629,7 +641,7 @@ export const symptomContent: Record<string, { es: SymptomContent; en: SymptomCon
         'Arqueo de espalda al alimentarse',
       ],
       howChiropracticHelps: [
-        'Un cuidado <a href="/blog/cuanto-cuesta-un-quiropractico" class="font-semibold text-gold-dark underline">quiropráctico</a> suave puede ayudar a relajar la tensión en la zona del diafragma y el sistema nervioso, siendo siempre un complemento a la valoración y pautas del pediatra.',
+        'No hay evidencia de que la quiropráctica trate el reflujo del bebé. Las pautas de alimentación y postura del pediatra son el tratamiento de referencia. Si además notas que tu bebé gira siempre la cabeza hacia el mismo lado, podemos revisarlo con suavidad.',
       ],
       note: 'Consulta con el pediatra si el reflujo afecta al aumento de peso o al bienestar del bebé.',
     },
@@ -644,7 +656,7 @@ export const symptomContent: Record<string, { es: SymptomContent; en: SymptomCon
         'Arching the back while feeding',
       ],
       howChiropracticHelps: [
-        "Gentle chiropractic care can help ease tension around the diaphragm and nervous system, always as a complement to your pediatrician's assessment and guidance.",
+        "There is no evidence that chiropractic treats reflux in babies. Your paediatrician's feeding and positioning advice is the standard treatment. If you also notice your baby always turns their head to the same side, we can check that gently.",
       ],
       note: "Check with your pediatrician if reflux is affecting weight gain or your baby's overall wellbeing.",
     },

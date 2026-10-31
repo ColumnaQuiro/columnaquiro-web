@@ -16,6 +16,13 @@ const CALENDAR_PAGES = [
 
 export function useStickyBar() {
   const route = useRoute()
+  // `shown`: this page has a bar at all. `visible`: it is on screen right now
+  // (it slides in once the hero's own buttons have scrolled away). The cookie
+  // banner sits above the bar only while the bar is visible; offsetting it
+  // whenever the page merely has a bar parked it over the hero's booking
+  // button on a phone, before the visitor had scrolled at all.
   const shown = computed(() => !CALENDAR_PAGES.some((p) => route.path.startsWith(p)))
-  return { shown }
+  const pastHero = useState('sticky-bar-past-hero', () => false)
+  const visible = computed(() => shown.value && pastHero.value)
+  return { shown, pastHero, visible }
 }

@@ -1,39 +1,73 @@
 ---
-title: "Guía completa para cuidar el dolor de cabeza por cervicales"
+title: "Dolor de cabeza por cervicales y «migraña cervical»: guía completa"
 slug: guia-completa-para-tratar-el-dolor-de-cabeza-por-cervicales
 date: 2025-10-21
-excerpt: "Descubre qué es el dolor de cabeza cervicogénico, por qué aparece y cómo la quiropráctica puede ayudarte a reducirlo. Guía completa de ColumnaQuiro Valencia."
+updated: 2026-10-31
+excerpt: "Qué es el dolor de cabeza cervicogénico (lo que mucha gente llama migraña cervical), cómo distinguirlo de la migraña, qué lo causa y qué tratamiento tiene respaldo."
 cover: /assets/images/home-ajuste.avif
 author: Léa Guido
 
 ---
 
-## ¿Qué es el dolor de cabeza cervicogénico?
+El **dolor de cabeza cervicogénico** es un dolor que nace en el cuello (sus articulaciones, músculos y nervios) y se nota en la cabeza, normalmente en un solo lado. Es lo que mucha gente llama **«migraña cervical»**, aunque no es una migraña: la migraña tiene un origen neurológico distinto. Las dos pueden darse en la misma persona, y distinguirlas es lo primero, porque se tratan de forma diferente.
 
-El dolor de cabeza cervicogénico es aquel que se origina en las estructuras del cuello —articulaciones, músculos y nervios de la zona cervical— y se percibe como dolor de cabeza, normalmente en un solo lado. A diferencia de la migraña, su origen no está en el cerebro, sino en la columna cervical.
+## Por qué el cuello puede dar dolor de cabeza
+
+Los nervios de las tres primeras vértebras del cuello comparten conexiones en el tronco cerebral con los nervios que recogen la sensibilidad de la cabeza. Por eso, cuando las articulaciones o los músculos de la parte alta del cuello están irritados, el cerebro puede percibir ese dolor en la nuca, la sien o detrás del ojo.
 
 ## Causas más comunes
 
-Las malas posturas mantenidas frente al ordenador o el móvil, el estrés muscular, los golpes o esguinces cervicales previos y la falta de movilidad en las vértebras del cuello son las causas más frecuentes. También influye dormir en posiciones forzadas o con almohadas poco adecuadas.
+- Posturas mantenidas con la cabeza hacia delante, frente al ordenador o el móvil.
+- Tensión muscular por estrés.
+- Un latigazo cervical o un golpe previo.
+- Poca movilidad en las vértebras de la parte alta del cuello.
+- Dormir en posturas forzadas o con una almohada que no sujeta bien el cuello.
 
-## Cómo diferenciarlo de otros tipos de cefalea
+## Cómo distinguirlo de la migraña
 
-Suele empezar en la nuca y extenderse hacia la frente o la zona del ojo, aumenta al mover el cuello o mantener posturas prolongadas, y mejora al cambiar de postura o aplicar calor. No suele ir acompañado de náuseas intensas ni de aura, como sí ocurre en la migraña.
+| | Dolor de cabeza cervicogénico | Migraña |
+|---|---|---|
+| Dónde empieza | En la nuca, y sube hacia la frente o el ojo | Suele empezar en la sien o la frente |
+| Lado | Casi siempre el mismo lado | Puede cambiar de lado |
+| Qué lo empeora | Mover el cuello o mantener una postura | Luz, ruido, esfuerzo |
+| Síntomas que lo acompañan | Rigidez de cuello, dolor al presionar la base del cráneo | Náuseas, sensibilidad a la luz y al ruido, a veces aura |
 
-## Cómo puede ayudar la quiropráctica
+Si tus dolores de cabeza encajan más con la columna de la migraña, la referencia es tu médico o un neurólogo, que puede pautarte tratamiento preventivo.
 
-El [quiropráctico](/blog/cuanto-cuesta-un-quiropractico) evalúa la movilidad de las vértebras cervicales y, mediante ajustes suaves, técnicas de movilización y recomendaciones posturales, ayuda a reducir la tensión que provoca el dolor. Muchos pacientes notan mejoría progresiva a medida que se recupera la movilidad del cuello.
+## Qué tratamiento tiene respaldo
+
+En el dolor de cabeza cervicogénico, la combinación de terapia manual y ejercicios para la musculatura profunda del cuello redujo la frecuencia y la intensidad del dolor en un ensayo clínico, con efecto mantenido al año (Jull y cols., *Spine*, 2002). Es lo que hacemos en consulta:
+
+- **Valoración** de la movilidad de las vértebras de la parte alta del cuello y de la espalda alta, y de tu postura de trabajo.
+- **Ajustes y movilizaciones suaves** en los segmentos más rígidos.
+- **Ejercicios** de control y fuerza para los músculos profundos del cuello, que son la parte que más ayuda a que el dolor no vuelva.
+- **Pautas** de pantalla, pausas y almohada.
+
+Muchas personas notan alivio en las primeras sesiones. Si en unas semanas no hay cambio, te derivamos para que te valore tu médico.
+
+## Cuándo ir al médico sin esperar
+
+Acude a urgencias o a tu médico si el dolor de cabeza:
+
+- Es repentino y muy intenso, «el peor de tu vida».
+- Va con fiebre y rigidez de cuello.
+- Va con pérdida de fuerza, adormecimiento, visión doble, confusión o dificultad para hablar.
+- Aparece después de un golpe en la cabeza.
+- Es nuevo y distinto a partir de los 50 años, o empeora semana a semana.
 
 ## Preguntas frecuentes
 
-**¿El dolor de cabeza por cervicales es peligroso?**
-No suele serlo, pero conviene descartar otras causas si el dolor es muy intenso, repentino o va acompañado de otros síntomas neurológicos.
+**¿La migraña cervical existe?**
+No como diagnóstico médico. Es el nombre popular del dolor de cabeza cervicogénico, que sí existe y nace en el cuello.
 
-**¿Cuánto tarda en mejorar con cuidado [quiropráctico](/blog/migrana-cervical-que-es-y-como-aliviarla)?**
-Depende de cada caso, pero muchas personas notan alivio en las primeras sesiones, aunque la recuperación completa de la movilidad puede requerir varias semanas.
+**¿Cómo sé si mi dolor de cabeza viene del cuello?**
+Si empieza en la nuca, es de un solo lado y empeora al mover el cuello o al pasar horas en la misma postura, es probable que tenga un componente cervical. En la primera visita lo comprobamos.
 
-**¿Puedo prevenir este tipo de dolor de cabeza?**
-Sí, cuidando la postura al trabajar, haciendo pausas activas y realizando estiramientos suaves del cuello a diario ayuda mucho.
+**¿Cuánto tarda en mejorar?**
+Muchas personas notan alivio en las primeras sesiones. Recuperar la movilidad y la fuerza del cuello lleva varias semanas.
 
-**¿Cuándo debo consultar a un profesional?**
-Si el dolor es frecuente, intenso o interfiere en tu día a día, es buen momento para que te evalúen y descarten otras causas.
+**¿Puedo prevenirlo?**
+Sí: pantalla a la altura de los ojos, pausas cada hora y unos minutos al día de los ejercicios que te pautemos.
+
+**¿La quiropráctica sirve para la migraña?**
+La evidencia es mucho más débil que en el dolor de cabeza cervicogénico. Si tienes migraña, tu médico debe llevar el tratamiento; podemos ayudarte con la tensión de cuello que a veces la acompaña.

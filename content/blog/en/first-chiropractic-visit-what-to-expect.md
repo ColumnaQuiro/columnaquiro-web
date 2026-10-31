@@ -40,7 +40,7 @@ If any of those come up, the right response is to send you to a doctor, not to a
 
 **3. First chiropractic adjustment.** With Léa, in a private room used only for you. Later adjustments are shorter — 15 to 20 minutes — because the history and testing do not need repeating.
 
-You can see [the full structure of care](/en/how-does-it-work), stage by stage, if you want to know what follows this first hour.
+You can see [the full structure of care](/en/how-does-it-work/), stage by stage, if you want to know what follows this first hour.
 
 ## Do you get adjusted on the same day?
 
@@ -70,13 +70,13 @@ Put differently: the first visit gathers information and starts the work; the se
 
 ## Practical details
 
-**Where.** Carrer dels Vivons, 29, l'Eixample, 46006 València. You can [see the clinic](/en/about-us/chiropractic-valencia) beforehand if arriving with less uncertainty helps.
+**Where.** Carrer dels Vivons, 29, l'Eixample, 46006 València. You can [see the clinic](/en/about-us/chiropractic-valencia/) beforehand if arriving with less uncertainty helps.
 
 **When.** We see patients Tuesday, Wednesday and Thursday, 09:00–13:00 and 15:00–20:00. The clinic is closed Mondays, Fridays and weekends, which is worth factoring in — particularly if you are working around a standard week.
 
 **Appointment always required.** For first visits and for adjustments. It is not bureaucracy: it is what lets us hold the room and the full hour for you rather than fitting you between two other people.
 
-**How to book.** Message us on WhatsApp, call 744 73 53 63, or [book online](/en/first-visit-offer).
+**How to book.** Message us on WhatsApp, call 744 73 53 63, or [book online](/en/first-visit-offer/).
 
 **If you cannot make it,** let us know in advance. Because the clinic runs by appointment, an empty hour is an hour someone else could have used.
 
@@ -98,4 +98,4 @@ Comfortable clothes you can move in. No sportswear needed, and no changing at th
 Yes. Plenty of people come for stiffness, for an old injury that left something behind, or for a check. The history and testing are the same.
 
 **Will I leave the first visit knowing the price and number of sessions?**
-The full plan is explained at the second session, with the findings report in hand. You can check the terms of [the first visit](/en/first-visit-offer) before booking.
+The full plan is explained at the second session, with the findings report in hand. You can check the terms of [the first visit](/en/first-visit-offer/) before booking.

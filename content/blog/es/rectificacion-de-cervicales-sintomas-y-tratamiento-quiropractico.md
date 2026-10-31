@@ -1,42 +1,68 @@
 ---
-title: "Rectificación de cervicales: síntomas y cuidado quiropráctico"
+title: "Rectificación cervical y lordosis: qué son, síntomas y tratamiento"
 slug: rectificacion-de-cervicales-sintomas-y-tratamiento-quiropractico
 date: 2025-10-13
-excerpt: "Qué es la rectificación cervical, sus síntomas más frecuentes y cómo el cuidado quiropráctico ayuda a recuperar la curva natural del cuello. ColumnaQuiro Valencia."
+updated: 2026-10-31
+excerpt: "Qué es la lordosis cervical, qué significa que esté rectificada, qué síntomas da y cómo se trata. Y por qué una curva más recta en la radiografía no siempre explica el dolor."
 cover: /assets/images/centro-sala-ajuste-2.webp
 author: Léa Guido
 
 ---
 
-## ¿Qué es la rectificación cervical?
+La **lordosis cervical** es la curva natural del cuello, en forma de C suave. Hablamos de **rectificación cervical** cuando esa curva se pierde en parte o del todo y las vértebras se alinean de forma más recta. Es un hallazgo muy frecuente en radiografías y, aunque puede ir con dolor y rigidez de cuello, no siempre es la causa: muchas personas con el cuello recto no tienen ninguna molestia.
 
-La rectificación cervical es la pérdida, total o parcial, de la curva natural del cuello. En lugar de la forma de C habitual, las vértebras cervicales se alinean de manera más recta, lo que cambia la forma en que se distribuyen las cargas sobre la columna.
+## Qué es la lordosis cervical
 
-## Causas más frecuentes
+Las siete vértebras del cuello forman una curva que ayuda a repartir el peso de la cabeza (unos 5 kg) y a absorber impactos. Esa curva puede estar:
 
-Suele desarrollarse de forma progresiva por malas posturas mantenidas, especialmente al usar el móvil o el ordenador con el cuello flexionado durante horas. También puede aparecer tras un golpe o un latigazo cervical, o simplemente con el desgaste natural asociado a los años.
+- **Normal**, con su forma de C.
+- **Disminuida o rectificada**, cuando el cuello se ve más recto de lo habitual.
+- **Aumentada (hiperlordosis)**, cuando la curva está más marcada.
+
+## Por qué se rectifica el cuello
+
+Suele desarrollarse poco a poco por posturas mantenidas con la cabeza hacia delante, sobre todo mirando el móvil o el ordenador durante horas. También puede aparecer después de un latigazo cervical o con el desgaste propio de la edad. A veces, el cuello sale recto en la radiografía simplemente porque la persona tenía los músculos tensos o la barbilla recogida al hacer la prueba.
 
 ## Síntomas habituales
 
-Las personas con rectificación cervical suelen notar rigidez y cansancio en el cuello al final del día, dolor que se extiende hacia los hombros, dolores de cabeza tensionales y, en ocasiones, mareos leves o sensación de inestabilidad al mover la cabeza.
+Cuando la rectificación va acompañada de síntomas, lo más frecuente es:
 
-## Cuidado [quiropráctico](/blog/cuanto-cuesta-un-quiropractico)
+- Rigidez y cansancio en el cuello al final del día.
+- Dolor que se extiende hacia los hombros y la parte alta de la espalda.
+- Dolor de cabeza que nace en la nuca (te lo explicamos en la [guía del dolor de cabeza por cervicales](/blog/guia-completa-para-tratar-el-dolor-de-cabeza-por-cervicales/)).
+- Sensación de fatiga al mantener la cabeza erguida mucho tiempo.
 
-El abordaje comienza con una valoración postural y de la movilidad cervical. A partir de ahí, los ajustes específicos buscan liberar las restricciones articulares, mientras que los ejercicios de fortalecimiento y las pautas de higiene postural trabajan para ayudar a la columna a recuperar progresivamente una curva más funcional.
+## ¿La curva explica el dolor?
+
+No siempre. Los estudios que han comparado la forma del cuello con el dolor no encuentran una relación clara: personas con el cuello rectificado sin dolor y personas con dolor y una curva normal son muy habituales (Grob y cols., *European Spine Journal*, 2007). Por eso no tratamos la radiografía, sino a la persona: cómo se mueve tu cuello, qué te duele y qué lo empeora.
+
+## Cómo lo tratamos
+
+En consulta valoramos la movilidad de cada segmento del cuello y de la parte alta de la espalda, tu postura de trabajo y tu historia. El tratamiento combina:
+
+- **Ajustes y movilizaciones** suaves para devolver el movimiento a las zonas más rígidas.
+- **Ejercicios de fuerza** para los músculos profundos del cuello y los de la espalda alta, que son los que sostienen la cabeza durante el día.
+- **Pautas de postura**: altura de la pantalla, cómo usar el móvil y pausas cada hora.
+
+El objetivo es que el dolor baje y que el cuello se mueva mejor. Que la curva cambie en una radiografía de control es secundario, y no te vamos a pedir radiografías repetidas para comprobarlo.
+
+## Cuándo ir antes al médico
+
+Consulta con tu médico si tienes hormigueo o pérdida de fuerza en los brazos, mareos con visión doble o dificultad para hablar, dolor después de un golpe fuerte o un accidente, o dolor que no te deja dormir y no cambia con la postura.
 
 ## Preguntas frecuentes
 
-**¿La rectificación cervical duele siempre?**
-No necesariamente. Algunas personas la tienen sin apenas síntomas, mientras que otras experimentan molestias claras; depende del grado y de cada caso.
+**¿Es lo mismo lordosis cervical que rectificación?**
+No. La lordosis es el nombre de la curva normal del cuello. La rectificación es cuando esa curva se pierde.
 
-**¿Se puede revertir por completo?**
-En muchos casos se logra una mejora significativa, aunque el grado de recuperación depende del tiempo de evolución y del compromiso con los ejercicios pautados.
+**¿La rectificación cervical se puede revertir?**
+La curva puede mejorar algo, pero lo importante es el dolor y la movilidad, que sí suelen mejorar en pocas semanas con tratamiento y ejercicio.
 
-**¿Cuánto dura el cuidado?**
-Varía según cada persona, pero suele requerir un cuidado constante durante varias semanas o meses para consolidar los resultados.
+**¿Cuánto tiempo se tarda en notar mejoría?**
+Muchas personas notan alivio de la tensión en las primeras sesiones. Consolidarlo con los ejercicios lleva varias semanas.
 
-**¿Puedo seguir haciendo ejercicio con rectificación cervical?**
-Sí, en general es recomendable, evitando posturas que fuercen el cuello y priorizando actividades que fortalezcan la musculatura de soporte.
+**¿Puedo hacer ejercicio con el cuello rectificado?**
+Sí, y es recomendable. Prioriza el fortalecimiento de cuello y espalda alta, y evita al principio posturas que fuercen el cuello hacia atrás o hacia delante mucho tiempo.
 
-**¿Cuándo debo consultar a un profesional?**
-Si notas rigidez persistente, dolor que no mejora, hormigueo en los brazos o mareos frecuentes, conviene que te evalúen cuanto antes.
+**¿Qué puedo hacer en casa?**
+Sube la pantalla a la altura de los ojos, lleva el móvil a la cara en vez de bajar la cabeza, haz pausas cada hora y duerme con una almohada que mantenga el cuello alineado.

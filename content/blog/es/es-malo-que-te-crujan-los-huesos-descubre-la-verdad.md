@@ -1,42 +1,63 @@
 ---
-title: "¿Es malo que te crujan los huesos? Descubre la verdad"
+title: "¿Es malo que te crujan los huesos o crujirse los dedos?"
 slug: es-malo-que-te-crujan-los-huesos-descubre-la-verdad
 date: 2025-11-03
-excerpt: "¿Te crujen las articulaciones al moverte? Descubre qué es la crepitación, por qué ocurre y cuándo ese sonido merece la atención de un profesional."
+updated: 2026-10-31
+excerpt: "Por qué crujen las articulaciones, si crujirse los dedos da artrosis (no) y cuándo un crujido sí merece que te vea un profesional."
 cover: /assets/images/comofunciona-header.webp
 author: Léa Guido
 
 ---
 
-## ¿Qué es la crepitación articular?
+En la mayoría de los casos, **no es malo**. Que te crujan las rodillas, el cuello o los dedos es muy frecuente y, si no hay dolor, hinchazón ni bloqueo, no indica ningún problema. Crujirse los dedos tampoco provoca artrosis. Lo que sí merece atención es un crujido que va acompañado de dolor o que aparece después de una lesión.
 
-La crepitación es el término médico para esos chasquidos, crujidos o "crujidos secos" que se escuchan al mover ciertas articulaciones, como las rodillas, los hombros o el cuello. Es un fenómeno muy común y, en la mayoría de los casos, completamente inofensivo.
+## Por qué crujen las articulaciones
 
-## ¿Por qué crujen las articulaciones al moverse?
+Ese sonido se llama **crepitación** y puede tener varios orígenes:
 
-Puede deberse a la formación y colapso de burbujas de gas en el líquido sinovial (el mismo fenómeno que ocurre al crujirse los dedos), al roce de tendones o ligamentos sobre estructuras óseas al moverse, o simplemente a pequeñas variaciones en la superficie articular.
+- **Burbujas de gas en el líquido sinovial.** Al separar las superficies de una articulación, la presión dentro de la cápsula baja y se forma una burbuja de gas. Es el chasquido de los nudillos, y también el que puede oírse en un ajuste quiropráctico. Por eso la misma articulación tarda unos 20 minutos en poder volver a crujir.
+- **Tendones o ligamentos** que se deslizan sobre un relieve del hueso al moverte, como en el hombro o la cadera.
+- **Pequeñas irregularidades** en la superficie de la articulación, más frecuentes con la edad.
 
-## ¿Cuándo es motivo de preocupación?
+## ¿Crujirse los dedos da artrosis?
 
-La crepitación aislada, sin dolor ni inflamación, rara vez indica un problema. Debe prestarse más atención cuando el crujido se acompaña de dolor, hinchazón, sensación de bloqueo, inestabilidad, o cuando aparece después de un golpe o lesión.
+No. Es uno de los mitos más extendidos y los estudios no han encontrado relación entre crujirse los nudillos de forma habitual y la artrosis de las manos (deWeber y cols., *Journal of the American Board of Family Medicine*, 2011). El ejemplo más conocido es el de un médico que se crujió los dedos de una sola mano durante unos 60 años y no encontró artrosis en ninguna de las dos (Unger, *Arthritis & Rheumatism*, 1998).
+
+Un estudio antiguo sí observó algo menos de fuerza de agarre e hinchazón de manos en personas que se crujían los dedos con mucha frecuencia (Castellanos y Axelrod, *Annals of the Rheumatic Diseases*, 1990), así que, si lo haces muy a menudo y con fuerza, no aporta nada. Pero no es un hábito peligroso.
+
+## Cuándo un crujido sí merece atención
+
+Consulta con un profesional si el crujido va con:
+
+- **Dolor** al moverte o después.
+- **Hinchazón** o calor en la articulación.
+- **Sensación de bloqueo** o de que la articulación «se sale».
+- Pérdida de movilidad.
+- Un **golpe o una lesión** reciente.
+
+En la rodilla, un crujido con dolor al agacharte o al subir escaleras puede indicar irritación de la articulación entre rótula y fémur, y en el cuello o la espalda, un crujido con dolor y rigidez suele ir ligado a una zona con poca movilidad.
 
 ## Cómo cuidar tus articulaciones
 
-Mantener una buena movilidad general, fortalecer la musculatura que rodea las articulaciones y evitar el sedentarismo prolongado ayuda a que las articulaciones se muevan con mayor fluidez y a reducir molestias asociadas a la rigidez.
+- **Muévete a diario.** La articulación se nutre con el movimiento.
+- **Fortalece los músculos** que la rodean, sobre todo en rodillas y caderas.
+- **Evita pasar horas en la misma postura**, que es lo que da la sensación de rigidez que pide «crujir».
+
+Si sientes la necesidad de crujirte la espalda o el cuello a menudo, lo explicamos en [¿es bueno crujirse la espalda?](/blog/es-bueno-crujirse-la-espalda/).
 
 ## Preguntas frecuentes
 
 **¿Es normal que me crujan las rodillas al agacharme?**
-Sí, es muy frecuente y, si no hay dolor, no suele ser motivo de alarma.
+Sí, es muy frecuente. Si no duele, no es motivo de preocupación.
 
-**¿La crepitación indica desgaste articular?**
-No necesariamente. Puede ocurrir en articulaciones completamente sanas, aunque en algunos casos sí se asocia a cambios degenerativos.
+**¿La crepitación indica desgaste?**
+No necesariamente. Aparece en articulaciones sanas, aunque en algunas personas se asocia a artrosis, sobre todo si hay dolor.
 
-**¿El ejercicio empeora la crepitación?**
-Al contrario, mantenerse activo suele mejorar la salud articular a largo plazo, salvo que exista una lesión que requiera adaptar la actividad.
+**¿Crujirse los dedos deforma las manos?**
+No hay evidencia de que lo haga.
 
-**¿Puedo hacer algo para que dejen de crujir mis articulaciones?**
-No siempre es posible ni necesario eliminar el sonido, especialmente si no hay dolor asociado.
+**¿El ejercicio empeora los crujidos?**
+No. Mantenerse activo mejora la salud de las articulaciones a largo plazo, salvo que haya una lesión que obligue a adaptar la actividad.
 
-**¿Cuándo debo consultar a un profesional?**
-Si el crujido se acompaña de dolor, hinchazón, pérdida de movilidad o aparece tras un traumatismo, conviene que te evalúe un [quiropráctico](/blog/cuanto-cuesta-un-quiropractico).
+**¿Puedo hacer algo para que dejen de crujir?**
+No siempre es posible ni necesario, sobre todo si no hay dolor.

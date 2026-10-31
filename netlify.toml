@@ -11,3 +11,32 @@
 
 [build.environment]
   NODE_VERSION = "22.19.0"
+
+# Security headers on every response. Only HSTS was being sent (by Netlify).
+# frame-ancestors keeps the site out of other sites' iframes. QuiroFlow must
+# stay allowed: after a booking its iframe navigates itself to /cita-reservada,
+# so that page first loads with app.quiroflow.com as an ancestor (see
+# CitaReservadaPage.vue), and every ancestor has to match. A full Content-
+# Security-Policy is left out on purpose: GTM, gtag, Meta, Finsweet and the QuiroFlow
+# widget and chat all need allowing, and a wrong policy breaks booking. Add one
+# in Report-Only mode with a reporting endpoint first.
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=(), payment=()"
+    Content-Security-Policy = "frame-ancestors 'self' https://app.quiroflow.com"
+
+# Fonts never change in place: a new version gets a new file name.
+[[headers]]
+  for = "/fonts/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Images can be replaced under the same name, so a week, then revalidate.
+[[headers]]
+  for = "/assets/images/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800, stale-while-revalidate=86400"

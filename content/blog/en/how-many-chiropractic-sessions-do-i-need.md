@@ -82,7 +82,7 @@ A typical plan does not space sessions evenly. It starts tighter and opens up:
 
 If you are six or eight sessions in and still attending as often as on day one with no explanation why, that is a fair question to ask out loud.
 
-You can see [how we structure that process](/en/how-does-it-work) in more detail.
+You can see [how we structure that process](/en/how-does-it-work/) in more detail.
 
 ## How to tell whether it is working
 
@@ -108,7 +108,7 @@ So maintenance, yes, as something you choose once you are well and know where th
 
 The signs of a plan that is not serious are fairly recognisable: a fixed session count quoted before any examination, long contracts paid upfront at a discount, reviews that never arrive, or an uncomfortable answer when you ask how many more. If you ask "how many left?" and get neither a number nor a date, something is off.
 
-If you want the breakdown of what each part costs, we cover that separately in [how much a chiropractor costs](/en/blog/how-much-does-a-chiropractor-cost).
+If you want the breakdown of what each part costs, we cover that separately in [how much a chiropractor costs](/en/blog/how-much-does-a-chiropractor-cost/).
 
 ## Frequently asked questions
 
@@ -128,4 +128,4 @@ Up to a point, and with diminishing returns. In the dose trial, going from 12 to
 Almost always the duration. Two people with identical pain but two weeks versus two years of history behind it are not in the same position, however similar it looks.
 
 **When should I get a second opinion?**
-If nothing has changed after 4 to 6 sessions, if nobody has given you an estimated number, or if the plan keeps extending without a clear reason. [Booking an assessment](/en/book-appointment) elsewhere to compare is entirely reasonable.
+If nothing has changed after 4 to 6 sessions, if nobody has given you an estimated number, or if the plan keeps extending without a clear reason. [Booking an assessment](/en/book-appointment/) elsewhere to compare is entirely reasonable.

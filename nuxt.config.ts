@@ -1,4 +1,7 @@
+import { readFileSync } from 'node:fs'
 import tailwindcss from '@tailwindcss/vite'
+import type { Plugin } from 'vite'
+import { parseFrontmatter } from './app/utils/frontmatter'
 import { SYMPTOM_HUB, SYMPTOM_SLUG_PAIRS, BLOG_HUB, BLOG_SLUG_PAIRS } from './app/utils/site-routes'
 
 const SITE_URL = 'https://columnaquiro.com'
@@ -14,6 +17,22 @@ const blogRoutes = BLOG_SLUG_PAIRS.flatMap((pair) =>
     : [`${BLOG_HUB.es}/${pair.es}`],
 )
 
+// Answers `import.meta.glob(..., { query: '?blogmeta' })` in app/utils/blog.ts
+// with a post's frontmatter only, so post bodies stay out of the shared
+// bundle (see that file).
+function blogFrontmatter(): Plugin {
+  return {
+    name: 'blog-frontmatter',
+    enforce: 'pre',
+    load(id) {
+      const [file, query] = id.split('?')
+      if (query !== 'blogmeta' || !file?.endsWith('.md')) return
+      this.addWatchFile(file)
+      return `export default ${JSON.stringify(parseFrontmatter(readFileSync(file, 'utf8')).data)}`
+    },
+  }
+}
+
 export default defineNuxtConfig({
   compatibilityDate: '2026-08-10',
   ssr: true,
@@ -21,6 +40,10 @@ export default defineNuxtConfig({
 
   experimental: {
     payloadExtraction: false,
+    // Every page is served at its trailing-slash URL; a link to /blog makes
+    // each click take a 301 first. This appends the slash to every internal
+    // NuxtLink, so components can keep writing '/blog'.
+    defaults: { nuxtLink: { trailingSlash: 'append' } },
   },
 
   modules: ['@nuxtjs/sitemap', '@nuxtjs/robots'],
@@ -43,19 +66,23 @@ export default defineNuxtConfig({
   css: ['~/assets/css/main.css'],
 
   vite: {
-    plugins: [tailwindcss()],
+    plugins: [tailwindcss(), blogFrontmatter()],
   },
 
   app: {
     head: {
       htmlAttrs: { lang: 'es' },
       link: [
+        // Google shows a favicon only if it is a multiple of 48 px; the
+        // .ico also answers browsers that request /favicon.ico directly.
+        { rel: 'icon', href: '/favicon.ico', sizes: '48x48' },
+        { rel: 'icon', type: 'image/png', sizes: '48x48', href: '/favicon-48x48.png' },
         { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon-32x32.png' },
         { rel: 'apple-touch-icon', href: '/apple-touch-icon.png' },
-        // Inter is self-hosted (see assets/css/main.css). Preloading the one
-        // weight nearly every first paint needs -- 400 is body text -- lets
-        // the browser fetch it alongside the CSS instead of after it.
-        { rel: 'preload', href: '/fonts/inter-latin-400.woff2', as: 'font', type: 'font/woff2', crossorigin: '' },
+        // Inter is self-hosted (see assets/css/main.css), one variable file
+        // for every weight. Preloading it lets the browser fetch it alongside
+        // the CSS instead of after it.
+        { rel: 'preload', href: '/fonts/inter-latin.woff2', as: 'font', type: 'font/woff2', crossorigin: '' },
       ],
       meta: [{ name: 'theme-color', content: '#0b382c' }],
       script: [

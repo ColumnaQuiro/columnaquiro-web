@@ -66,13 +66,13 @@ const content = {
       { name: 'WFC', label: 'World Federation of Chiropractic' },
       { name: 'ECU', label: "European Chiropractors' Union" },
     ],
-    stressFreeTitle: 'Imagina tu cuerpo libre de estrés...',
+    stressFreeTitle: 'Imagina tu día sin dolor de espalda',
     stressFreeBody:
-      'Un sistema nervioso optimizado no solo reduce el dolor, sino que eleva tu calidad de vida. En ColumnaQuiro, no solo cuidamos síntomas; restauramos el equilibrio de tu organismo de manera integral.',
+      'Cuando la espalda deja de doler, se nota en todo: duermes mejor, te mueves con más libertad y vuelves a hacer lo que te gusta. En ColumnaQuiro buscamos el origen de tu dolor, no solo el alivio de hoy.',
     stressFreeBullets: [
       'Mejor postura y movilidad articular',
-      'Aumento de los niveles de energía diaria',
-      'Reducción natural del estrés físico y emocional',
+      'Pautas y ejercicios para que el alivio dure',
+      'Menos tensión en cuello, hombros y espalda',
     ],
     methodologyTitle: 'Empieza por descubrir qué ocurre en tu cuerpo.',
     methodologyBody:
@@ -81,12 +81,12 @@ const content = {
       {
         icon: '/assets/images/icon-metodo-evaluacion.svg',
         title: 'Evaluación Digital',
-        text: 'Analizamos tu postura y columna mediante tecnología avanzada para identificar bloqueos nerviosos.',
+        text: 'Analizamos tu postura, tu movilidad y tu columna para entender de dónde viene tu dolor.',
       },
       {
         icon: '/assets/images/icon-metodo-ajuste.svg',
         title: 'Ajuste Manual',
-        text: 'Técnicas manuales precisas para corregir subluxaciones y liberar la interferencia nerviosa.',
+        text: 'Técnicas manuales precisas para devolver el movimiento a las articulaciones rígidas y aliviar el dolor.',
       },
       {
         icon: '/assets/images/icon-metodo-plan.svg',
@@ -126,10 +126,10 @@ const content = {
         text: 'Embarazo o crecimiento infantil que requiere equilibrio.',
       },
     ],
-    exploreTitle: 'Te invitamos a explorar la salud de manera más holística y natural',
+    exploreTitle: 'La quiropráctica, para cada etapa de la vida',
     exploreParagraphs: [
-      'Descubre cómo la <a href="/blog/cuanto-cuesta-un-quiropractico" class="font-semibold text-gold-dark underline">quiropráctica</a> potencia el bienestar de tu columna vertebral y favorece la salud integral de tu organismo.',
-      'La quiropráctica puede mejorar tu vida y salud. Puede ayudar a bebés, niños, mujeres embarazadas, personas con molestias en el cuello o la espalda por el trabajo, adultos mayores y deportistas.',
+      'Descubre <a href="/que-es-la-quiropractica/" class="font-semibold text-gold-dark underline">qué es la quiropráctica</a> y qué dice la evidencia sobre el dolor de espalda y cuello.',
+      'Atendemos a personas con dolor de espalda o cuello por el trabajo, a <a href="/para-quien-sirve-la-quiropractica/embarazadas/" class="font-semibold text-gold-dark underline">embarazadas</a>, deportistas, personas mayores, niños y bebés, con técnicas adaptadas a cada edad.',
     ],
     exploreButton: 'Reserva tu primera visita',
     processTitle: 'Así cuidamos de tu columna vertebral',
@@ -148,7 +148,7 @@ const content = {
       {
         number: '03',
         title: 'Plan de cuidado',
-        text: 'Para mejorar el rendimiento de tu cuerpo, fijaremos una frecuencia de ajustes quiroprácticos adecuada a tus requisitos.',
+        text: 'Te proponemos un número de sesiones y una frecuencia según tu caso, con ejercicios para casa, y revisamos juntos cómo vas.',
       },
     ],
     processButton: 'Pide tu estudio personalizado',
@@ -161,7 +161,7 @@ const content = {
       { title: 'Flexibilidad', text: 'Horarios adaptados a tu vida.' },
       {
         title: 'Foco en resultados',
-        text: 'Cuidado personalizado y adaptado a cada paciente. 100% de éxito con los pacientes que cumplen el plan de cuidado.',
+        text: 'Cuidado personalizado, con objetivos claros que revisamos contigo en cada fase del plan.',
       },
     ],
     whyTitle: '¿Por qué elegir nuestro Centro Quiropráctico?',
@@ -172,15 +172,15 @@ const content = {
     faqs: [
       {
         q: '¿La quiropráctica es un cuidado a largo plazo?',
-        a: 'Si, a diferencia de otros cuidados temporales, la quiropráctica no solo se enfoca en aliviar síntomas o dolores, sino que trabaja en prevenir problemas futuros.',
+        a: 'Depende de ti. Primero buscamos aliviar el dolor; después, si quieres, trabajamos con ejercicios y revisiones espaciadas para que no vuelva. Tú decides hasta dónde llegar.',
       },
       {
         q: '¿Cuántas sesiones necesitaré?',
-        a: 'La cantidad de sesiones depende del problema en concreto y de cómo respondas al cuidado quiropráctico. Exponemos planes de cuidado adaptados a cada paciente. Algunos pacientes sienten alivio después de la primera sesión, mientras que otros pueden necesitar varias. Normalmente ya se nota una mejoría después de la primera o segunda sesión.',
+        a: 'La cantidad de sesiones depende del problema en concreto y de cómo respondas al cuidado quiropráctico. Exponemos planes de cuidado adaptados a cada paciente. Algunos pacientes sienten alivio después de la primera sesión, mientras que otros pueden necesitar varias. Muchos pacientes notan mejoría en la primera o la segunda sesión.',
       },
       {
         q: '¿La quiropráctica solo ayuda con el dolor de espalda?',
-        a: 'La quiropráctica ayuda con el dolor de espalda y otros problemas como dolores de cabeza, migrañas, problemas digestivos y estrés.',
+        a: 'No. Además del dolor lumbar, atendemos dolor de cuello, ciática, dolor de cabeza de origen cervical y molestias en hombros, cadera o rodillas. Donde la quiropráctica tiene más respaldo científico es en el dolor de columna.',
       },
       {
         q: '¿Estaré solo/a en el ajuste?',
@@ -192,15 +192,15 @@ const content = {
       },
       {
         q: '¿Cómo sé si la quiropráctica es adecuada para mí?',
-        a: 'La quiropráctica es segura para la mayoría de las personas, al no ser un cuidado intrusivo. Antes de empezar el plan de cuidado, evaluamos a cada paciente de manera individual y personalizada para adaptar el plan a tus necesidades.',
+        a: 'La quiropráctica es segura para la mayoría de las personas. En la primera visita hacemos una valoración completa y, si vemos algo que necesita otro especialista, te derivamos antes de tratarte.',
       },
       {
         q: '¿Cuáles son los problemas de salud comunes con los que ayuda la quiropráctica?',
-        a: 'La quiropráctica ayuda con una amplia variedad de problemas: dolores en la espalda, cuello, cabeza, tobillos, brazos, codos, muñecas, costillas, cadera, piernas y rodillas. También puede ayudar con ciática, túnel carpiano, tortícolis, reumatismo, artritis, artrosis, calcificaciones, fibromialgia, escoliosis y lesiones deportivas.',
+        a: 'Sobre todo dolor lumbar, dolor de cuello, ciática y dolor de cabeza de origen cervical. También atendemos molestias en hombros, cadera y rodillas, túnel carpiano, tortícolis, rigidez por artrosis, escoliosis y lesiones deportivas, siempre en coordinación con tu médico cuando hace falta.',
       },
       {
         q: '¿Qué es la quiropráctica y cómo puede beneficiar mi salud?',
-        a: 'La quiropráctica es un enfoque de atención de la salud centrado en el sistema nervioso y la columna vertebral. Puede mejorar problemas como dolor de espalda, cuello, cabeza, fibromialgia y ciática, además de promover la salud general del cuerpo y el bienestar.',
+        a: 'Es una profesión de la salud centrada en la columna, las articulaciones y el sistema nervioso. Con ajustes, movilizaciones y ejercicio ayuda a aliviar el dolor de espalda, cuello y cabeza, y la ciática, para que vuelvas a moverte con normalidad.',
       },
     ],
   },
@@ -225,13 +225,13 @@ const content = {
       { name: 'WFC', label: 'World Federation of Chiropractic' },
       { name: 'ECU', label: "European Chiropractors' Union" },
     ],
-    stressFreeTitle: 'Imagine your body free from stress...',
+    stressFreeTitle: 'Imagine your day without back pain',
     stressFreeBody:
-      "An optimized nervous system not only reduces pain but also elevates your quality of life. At ColumnaQuiro, we don't just care for symptoms; we holistically restore your body's balance.",
+      "When your back stops hurting you notice it everywhere: you sleep better, move more freely and get back to what you enjoy. At ColumnaQuiro we look for the source of your pain, not just today's relief.",
     stressFreeBullets: [
       'Improved posture and joint mobility',
-      'Increased daily energy levels',
-      'Natural reduction of physical and emotional stress',
+      'Exercises and advice so the relief lasts',
+      'Less tension in your neck, shoulders and back',
     ],
     methodologyTitle: "Start by discovering what's going on in your body.",
     methodologyBody:
@@ -240,12 +240,12 @@ const content = {
       {
         icon: '/assets/images/icon-metodo-evaluacion.svg',
         title: 'Digital Assessment',
-        text: 'We analyze your posture and spine using advanced technology to identify nerve blockages.',
+        text: 'We assess your posture, mobility and spine to understand where your pain comes from.',
       },
       {
         icon: '/assets/images/icon-metodo-ajuste.svg',
         title: 'Manual Adjustment',
-        text: 'Precise manual techniques to correct subluxations and release nerve interference.',
+        text: 'Precise manual techniques to restore movement to stiff joints and ease pain.',
       },
       {
         icon: '/assets/images/icon-metodo-plan.svg',
@@ -285,10 +285,10 @@ const content = {
         text: 'Pregnancy or childhood growth requiring balance.',
       },
     ],
-    exploreTitle: 'We invite you to explore health in a more holistic and natural way',
+    exploreTitle: 'Chiropractic for every stage of life',
     exploreParagraphs: [
-      "Discover how chiropractic enhances your spinal well-being and promotes your body's overall health.",
-      'Chiropractic can improve your life and health. It can help babies, children, pregnant women, people with neck or back discomfort from work, seniors, and athletes.',
+      'Find out <a href="/en/what-is-chiropractic/" class="font-semibold text-gold-dark underline">what chiropractic is</a> and what the evidence says about back and neck pain.',
+      'We see people with back or neck pain from work, <a href="/en/who-is-chiropractic-for/pregnant-women/" class="font-semibold text-gold-dark underline">pregnant women</a>, athletes, older adults, children and babies, with techniques adapted to each age.',
     ],
     exploreButton: 'Book your first visit',
     processTitle: 'This is how we care for your spine',
@@ -307,7 +307,7 @@ const content = {
       {
         number: '03',
         title: 'Care plan',
-        text: "To improve your body's performance, we will establish a chiropractic adjustment frequency tailored to your needs.",
+        text: 'We suggest a number of sessions and how often, based on your case, with exercises for home, and we review your progress together.',
       },
     ],
     processButton: 'Request your personalized assessment',
@@ -320,7 +320,7 @@ const content = {
       { title: 'Flexibility', text: 'Hours adapted to your life.' },
       {
         title: 'Focus on results',
-        text: '100% success rate with patients who follow the care plan.',
+        text: 'Personalised care, with clear goals we review with you at each stage of the plan.',
       },
     ],
     whyTitle: 'Why choose our Chiropractic Center?',
@@ -331,15 +331,15 @@ const content = {
     faqs: [
       {
         q: 'Is chiropractic long-term care?',
-        a: "Yes, unlike other temporary care, chiropractic doesn't just focus on relieving symptoms or pain, but it works on preventing future problems.",
+        a: "It's up to you. First we work on easing the pain; then, if you want, we use exercises and spaced-out check-ups to keep it from coming back. You decide how far to take it.",
       },
       {
         q: 'How many sessions will I need?',
-        a: 'The number of sessions depends on the specific problem and how you respond to chiropractic care. We present care plans adapted to each patient. Some patients feel relief after the first session, while others may need several. You usually notice an improvement after the first or second session.',
+        a: 'The number of sessions depends on the specific problem and how you respond to chiropractic care. We present care plans adapted to each patient. Some patients feel relief after the first session, while others may need several. Many patients notice an improvement after the first or second session.',
       },
       {
         q: 'Does chiropractic only help with back pain?',
-        a: 'Chiropractic helps with back pain and other problems such as headaches, migraines, digestive problems and stress.',
+        a: 'No. Besides lower back pain, we see neck pain, sciatica, headaches that start in the neck, and shoulder, hip or knee pain. Spinal pain is where chiropractic has the strongest scientific support.',
       },
       {
         q: 'Will I be alone in the adjustment?',
@@ -351,15 +351,15 @@ const content = {
       },
       {
         q: 'How do I know if chiropractic is right for me?',
-        a: 'Chiropractic is safe for most people, as it is not intrusive care. Before starting the care plan, we evaluate each patient individually to adapt the plan to your needs.',
+        a: 'Chiropractic is safe for most people. At your first visit we do a full assessment and, if we see anything that needs another specialist, we refer you before treating you.',
       },
       {
         q: 'What are the common health problems that chiropractic helps with?',
-        a: 'Chiropractic helps with a wide variety of problems, such as aches and pains in different parts of the body, posture problems, and various health conditions. Among the problems that chiropractic can help with are pain in the back, neck, head, ankles, arms, elbows, wrists, ribs, hips, legs and knees. It can also help with problems such as sciatica, carpal tunnel, torticollis, rheumatism, arthritis, osteoarthritis, joints, calcifications, fibromyalgia, scoliosis and sports injuries.',
+        a: 'Mainly lower back pain, neck pain, sciatica and headaches that start in the neck. We also see shoulder, hip and knee pain, carpal tunnel, a stiff neck, osteoarthritis stiffness, scoliosis and sports injuries, working with your doctor where needed.',
       },
       {
         q: 'What is chiropractic and how can it benefit my health?',
-        a: 'Chiropractic is an approach to health care focused on the nervous system and spine. Chiropractic can improve problems such as back, neck, head pain, fibromyalgia and sciatica, in addition to promoting overall body health and well-being.',
+        a: 'It is a health profession focused on the spine, the joints and the nervous system. With adjustments, mobilisation and exercise it helps ease back, neck and head pain and sciatica, so you can move normally again.',
       },
     ],
   },
@@ -434,7 +434,7 @@ useHead({
 
   <SymptomGrid />
 
-  <ExpatSection v-if="locale === 'en'" />
+  <ExpatSection />
 
   <!-- Trust bar -->
   <section class="bg-beige px-6 py-20">
@@ -458,7 +458,7 @@ useHead({
         src="/assets/images/home-ajuste.avif"
         loading="lazy"
         decoding="async"
-        alt="chiropractic spinal adjustment"
+        :alt="locale === 'es' ? 'Ajuste quiropráctico de columna' : 'Chiropractic spinal adjustment'"
         class="aspect-[616/600] w-full rounded-2xl object-cover"
       />
       <div>

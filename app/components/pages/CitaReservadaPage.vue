@@ -6,6 +6,9 @@ import BaseButton from '@/components/ui/BaseButton.vue'
 useSeo({
   title: 'Tu cita está reservada | ColumnaQuiro',
   description: 'Tu cita en ColumnaQuiro está confirmada. Recibirás un recordatorio unos días antes.',
+  // A confirmation page has nothing to rank for. Crawlable still, so `follow`
+  // stays; the Ads conversion is a URL rule and does not care about indexing.
+  noindex: true,
 })
 
 // The Google Ads conversion for a booking is a URL rule on this page ("Reserva

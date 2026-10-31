@@ -40,7 +40,7 @@ Si aparece alguna de esas señales, lo que corresponde es derivarte a tu médico
 
 **3. Primer ajuste quiropráctico.** Con Léa, en una sala cerrada dedicada solo a ti. Los ajustes posteriores son más cortos —entre 15 y 20 minutos— porque ya no hay que repetir el historial ni las pruebas.
 
-Puedes ver [el esquema completo del cuidado](/como-funciona), etapa por etapa, si quieres saber qué viene después de esta primera hora.
+Puedes ver [el esquema completo del cuidado](/como-funciona/), etapa por etapa, si quieres saber qué viene después de esta primera hora.
 
 ## ¿Te ajustan el mismo día?
 
@@ -70,13 +70,13 @@ Dicho de otra forma: en la primera visita recogemos información y empezamos a t
 
 ## Detalles prácticos
 
-**Dónde.** Carrer dels Vivons, 29, en l'Eixample, 46006 València. Puedes ver [cómo es el centro](/sobre-nosotros/centro-quiropractico-valencia) antes de venir si te ayuda a llegar con menos incertidumbre.
+**Dónde.** Carrer dels Vivons, 29, en l'Eixample, 46006 València. Puedes ver [cómo es el centro](/sobre-nosotros/centro-quiropractico-valencia/) antes de venir si te ayuda a llegar con menos incertidumbre.
 
 **Cuándo.** Atendemos martes, miércoles y jueves, de 09:00 a 13:00 y de 15:00 a 20:00. Lunes, viernes y fin de semana el centro está cerrado, así que conviene tenerlo en cuenta al planificar.
 
 **Cita previa, siempre.** Tanto para la primera visita como para los ajustes. No es burocracia: es lo que permite reservarte la sala y el tiempo completo en lugar de encajarte entre dos pacientes.
 
-**Cómo reservar.** Puedes escribirnos por WhatsApp, llamarnos al 744 73 53 63 o [reservar online](/oferta-primera-visita).
+**Cómo reservar.** Puedes escribirnos por WhatsApp, llamarnos al 744 73 53 63 o [reservar online](/oferta-primera-visita/).
 
 **Si no puedes venir,** avísanos con antelación. Como el centro funciona con cita previa, una hora que se queda vacía es una hora que otra persona podría haber usado.
 
@@ -98,4 +98,4 @@ Ropa cómoda con la que puedas moverte. No hace falta ropa deportiva ni cambiars
 Sí. Bastante gente viene por rigidez, por una lesión antigua que dejó secuelas o por revisión. El historial y las pruebas son los mismos.
 
 **¿Salgo de la primera visita con un precio y un número de sesiones?**
-El plan completo se te explica en la segunda sesión, con el informe de resultados en la mano. Puedes consultar las condiciones de [la primera visita](/oferta-primera-visita) antes de reservar.
+El plan completo se te explica en la segunda sesión, con el informe de resultados en la mano. Puedes consultar las condiciones de [la primera visita](/oferta-primera-visita/) antes de reservar.

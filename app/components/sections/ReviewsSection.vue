@@ -35,10 +35,10 @@ const shown = computed(() =>
           <ReviewCard :review="review" />
         </li>
       </ul>
-      <div class="mt-8 flex flex-wrap gap-x-6 gap-y-2 text-sm font-semibold">
-        <a :href="googleRating.url" target="_blank" rel="noopener" class="text-forest underline">{{ c.all }}</a>
-        <a :href="googleRating.writeReviewUrl" target="_blank" rel="noopener" class="text-gold-dark underline">{{ c.write }}</a>
-        <NuxtLink v-if="props.limit < reviewsTotal" :to="pathFor('resenas', locale)" class="text-forest underline">{{ c.page }}</NuxtLink>
+      <div class="mt-8 flex flex-wrap gap-x-6 text-sm font-semibold">
+        <a :href="googleRating.url" target="_blank" rel="noopener" class="inline-flex min-h-11 items-center text-forest underline">{{ c.all }}</a>
+        <a :href="googleRating.writeReviewUrl" target="_blank" rel="noopener" class="inline-flex min-h-11 items-center text-gold-dark underline">{{ c.write }}</a>
+        <NuxtLink v-if="props.limit < reviewsTotal" :to="pathFor('resenas', locale)" class="inline-flex min-h-11 items-center text-forest underline">{{ c.page }}</NuxtLink>
       </div>
     </div>
   </section>

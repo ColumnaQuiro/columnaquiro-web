@@ -33,7 +33,7 @@ Ha habido intentos de cambiarlo: en 2011 el Ministerio de Sanidad llegó a estud
 
 No hay matices aquí: no está incluida. No existe derivación desde tu médico de familia a un quiropráctico, ni partida de copago, ni lista de espera a la que apuntarse.
 
-Lo que sí puede cubrir la Seguridad Social, y conviene no confundir, es **fisioterapia** por derivación médica, que es una profesión sanitaria regulada y una disciplina distinta. Si lo que necesitas es eso, tu médico de cabecera es la puerta de entrada. Explicamos en qué se diferencian en [quiropráctico o fisioterapeuta](/blog/quiropractico-o-fisioterapeuta).
+Lo que sí puede cubrir la Seguridad Social, y conviene no confundir, es **fisioterapia** por derivación médica, que es una profesión sanitaria regulada y una disciplina distinta. Si lo que necesitas es eso, tu médico de cabecera es la puerta de entrada. Explicamos en qué se diferencian en [quiropráctico o fisioterapeuta](/blog/quiropractico-o-fisioterapeuta/).
 
 ## Seguros privados: cuadro médico frente a reembolso
 
@@ -78,13 +78,13 @@ Si tu póliza admite reembolso, la factura es lo único que importa. Debe identi
 
 Antes de pedirla, pregunta a tu aseguradora **cómo quiere que figure el concepto**. Es el punto donde más reembolsos se atascan: una factura que dice solo "sesión" puede devolverse, mientras que una con el servicio bien descrito pasa sin problema.
 
-En ColumnaQuiro emitimos factura de todas las visitas. Si necesitas que incluya algún dato concreto para tu aseguradora, [dínoslo](/sobre-nosotros/contacto) y la preparamos así desde la primera visita.
+En ColumnaQuiro emitimos factura de todas las visitas. Si necesitas que incluya algún dato concreto para tu aseguradora, [dínoslo](/sobre-nosotros/contacto/) y la preparamos así desde la primera visita.
 
 ## Y si no tienes cobertura
 
 Es el escenario más frecuente, así que conviene plantearlo con realismo en lugar de rodearlo.
 
-Sin cobertura, la quiropráctica es un gasto directo, y la pregunta deja de ser "¿me lo cubren?" para ser "¿cuánto va a ser en total?". Eso depende del número de sesiones que necesites, que es una estimación que se hace tras valorarte, no un número fijo: lo tratamos en [cuántas sesiones de quiropráctica necesito](/blog/cuantas-sesiones-de-quiropractica-necesito), y el desglose del coste en [cuánto cuesta un quiropráctico](/blog/cuanto-cuesta-un-quiropractico).
+Sin cobertura, la quiropráctica es un gasto directo, y la pregunta deja de ser "¿me lo cubren?" para ser "¿cuánto va a ser en total?". Eso depende del número de sesiones que necesites, que es una estimación que se hace tras valorarte, no un número fijo: lo tratamos en [cuántas sesiones de quiropráctica necesito](/blog/cuantas-sesiones-de-quiropractica-necesito/), y el desglose del coste en [cuánto cuesta un quiropráctico](/blog/cuanto-cuesta-un-quiropractico/).
 
 Dos cosas que merece la pena saber antes de decidir:
 

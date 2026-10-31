@@ -65,7 +65,7 @@ Cuando la causa es inflamatoria —por ejemplo, una espondilitis anquilosante—
 
 ## Cómo puede ayudar la quiropráctica
 
-Un examen [quiropráctico](/blog/cuanto-cuesta-un-quiropractico) permite identificar si la articulación está bloqueada o presenta un exceso de movilidad, y adaptar el cuidado a cada caso. Los ajustes específicos de la pelvis, combinados con ejercicios de estabilización, suelen aportar alivio progresivo y ayudan a prevenir recaídas en los casos de origen mecánico. Si el dolor se parece más a una [ciática](/sintomas/ciatica) que baja por toda la pierna, o si además notas [dolor de cadera](/blog/dolor-de-cadera-y-piernas), vale la pena mencionarlo en la consulta: ayuda a diferenciar el origen del problema. En el caso de las [embarazadas](/para-quien-sirve-la-quiropractica/embarazadas), los ajustes se adaptan específicamente a cada trimestre.
+Un examen quiropráctico permite identificar si la articulación está bloqueada o presenta un exceso de movilidad, y adaptar el cuidado a cada caso. Los ajustes específicos de la pelvis, combinados con ejercicios de estabilización, suelen aportar alivio progresivo y ayudan a prevenir recaídas en los casos de origen mecánico. Si el dolor se parece más a una [ciática](/sintomas/ciatica/) que baja por toda la pierna, o si además notas [dolor de cadera](/blog/dolor-de-cadera-y-piernas/), vale la pena mencionarlo en la consulta: ayuda a diferenciar el origen del problema. En el caso de las [embarazadas](/para-quien-sirve-la-quiropractica/embarazadas/), los ajustes se adaptan específicamente a cada trimestre.
 
 ## ¿Es bueno caminar con sacroileítis?
 
