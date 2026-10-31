@@ -1,42 +1,86 @@
 ---
-title: "¿Es bueno el calor para las hernias discales?"
+title: "Hernia discal: ¿frío o calor? Cuándo usar cada uno"
 slug: es-bueno-el-calor-para-las-hernias-discales
 date: 2025-11-03
-excerpt: "¿Calor o frío para una hernia discal? Descubre cuándo ayuda cada uno, qué fase de la lesión importa y cómo se complementa con el cuidado quiropráctico."
+updated: 2026-10-31
+excerpt: "¿Frío o calor para una hernia discal? Qué dice la evidencia, cuándo usar cada uno, cuánto tiempo aplicarlo y qué señales piden ir al médico."
 cover: /assets/images/centro-sala-ajuste-2.webp
 author: Léa Guido
 
 ---
 
-## ¿Qué es una hernia discal?
+**Sí, el calor suele ir bien para una hernia discal**, sobre todo cuando lo que más molesta es la rigidez y la tensión muscular. El frío puede aliviar en los primeros días de una crisis si el dolor es muy agudo. La regla práctica: usa el que te alivie más, entre 15 y 20 minutos, y nunca directamente sobre la piel. Ninguno de los dos cura la hernia; ayudan a que te duela menos mientras te mueves y te recuperas.
 
-Una hernia discal ocurre cuando el núcleo interno de un disco intervertebral se desplaza y presiona sobre estructuras cercanas, como las raíces nerviosas. Esto puede provocar dolor localizado, irradiado hacia brazos o piernas, y en algunos casos hormigueo o debilidad.
+## Frío o calor: qué dice la evidencia
 
-## ¿Cuándo ayuda el calor?
+Hay más estudios sobre el calor que sobre el frío. Una revisión Cochrane encontró evidencia moderada de que el **calor local** (por ejemplo, una faja térmica) reduce el dolor y mejora la función a corto plazo en el dolor lumbar agudo y subagudo, y que la evidencia sobre el frío es insuficiente para recomendarlo o descartarlo (French et al., *Cochrane Database of Systematic Reviews*, 2006).
 
-El calor es útil sobre todo en la fase en que predomina la tensión muscular y la rigidez, ya que favorece la circulación sanguínea, relaja la musculatura de alrededor y puede reducir la sensación de rigidez, especialmente por las mañanas o tras estar mucho tiempo en la misma postura.
+Esto no significa que el frío no sirva: mucha gente lo nota útil en las primeras 48-72 horas de una crisis. Significa que no hay una norma rígida, y que tu propia respuesta es la mejor guía.
 
-## ¿Cuándo es mejor el frío?
+## Cuándo usar calor
 
-En los primeros días tras un episodio agudo, cuando hay inflamación evidente o el dolor es muy intenso, el frío suele ser más adecuado, ya que ayuda a reducir la inflamación local. Una pauta habitual es usar frío en la fase más aguda y pasar al calor cuando el dolor se estabiliza.
+- Cuando predomina la **rigidez** y la sensación de músculo "agarrotado".
+- **Por la mañana**, antes de empezar a moverte, o tras muchas horas sentado.
+- **Antes de hacer los ejercicios** que te hayan pautado, para moverte con menos tensión.
+- A partir de los primeros días de una crisis, cuando el dolor agudo empieza a calmarse.
 
-## Cómo se complementa con la quiropráctica
+## Cuándo usar frío
 
-En ColumnaQuiro valoramos cada caso de forma individual para saber si el calor, el frío, o una combinación de ambos, es lo más adecuado en cada fase. Los ajustes suaves y las técnicas de movilización pueden ayudar a reducir la presión sobre la estructura afectada, siempre de forma progresiva y adaptada a la evolución del paciente.
+- En los **primeros 2-3 días** de una crisis si el dolor es muy intenso o punzante.
+- Después de una actividad que te ha provocado el dolor.
+- Si el calor te aumenta la sensación de dolor o de pulsación.
+
+## Cómo aplicarlo bien
+
+- **15-20 minutos** cada vez, con al menos una hora de descanso entre aplicaciones.
+- **Siempre con una tela** entre la piel y la bolsa de frío o la manta eléctrica.
+- **No te duermas** con la manta eléctrica puesta.
+- Ten especial cuidado si tienes diabetes, mala circulación o la sensibilidad alterada en la zona: el riesgo de quemadura (por frío o por calor) es mayor.
+- Se pueden alternar el mismo día si te sienta bien.
+
+## Lo que más ayuda de verdad: moverte
+
+El calor y el frío son ayudas para el dolor, no el tratamiento. Lo que más influye en la recuperación de una hernia discal es **mantenerte activo dentro de lo tolerable**: caminar a diario, evitar el reposo en cama prolongado y volver poco a poco a tus actividades.
+
+Y el pronóstico suele ser bueno. Una revisión encontró que en torno a dos tercios de las hernias discales lumbares **se reabsorben de forma espontánea**, en parte o del todo, sobre todo las más grandes (Chiu et al., *Clinical Rehabilitation*, 2015). La mayoría de las personas mejoran en semanas o pocos meses sin cirugía.
+
+## Cómo lo tratamos en la clínica
+
+Primero valoramos que el cuadro encaja con una hernia o una irritación discal y descartamos señales de alarma. Después combinamos:
+
+- **Movilizaciones y ajustes suaves**, adaptados a la fase del dolor y sin maniobras bruscas cuando hay síntomas en la pierna.
+- **Ejercicios** para casa que respeten lo que tu espalda tolera y lo amplíen poco a poco.
+- Pautas concretas sobre frío, calor, postura para dormir y trabajo.
+
+## Cuándo ir antes al médico
+
+Acude a urgencias si notas:
+
+- **Pérdida de control de la orina o de las heces**, o adormecimiento en la zona genital, el periné o la cara interna de los muslos.
+- **Debilidad que va a más** en una pierna (arrastras el pie, no puedes ponerte de puntillas o de talones).
+
+Y pide cita con tu médico si el dolor viene con fiebre, pérdida de peso sin explicación, antecedentes de cáncer, o no mejora nada tras varias semanas.
 
 ## Preguntas frecuentes
 
 **¿El calor puede empeorar una hernia discal?**
-Si hay inflamación aguda, el calor puede aumentar temporalmente la sensación de hinchazón, por lo que en esa fase suele preferirse el frío.
+No daña la hernia. En los primeros días de una crisis muy aguda a algunas personas les aumenta el dolor; si es tu caso, cambia al frío.
 
-**¿Cuánto tiempo debo aplicar calor?**
-Sesiones de 15 a 20 minutos suelen ser suficientes; conviene evitar aplicaciones muy prolongadas o directas sobre la piel.
+**¿Es bueno el calor para la ciática?**
+Muchas personas con ciática por hernia notan alivio con calor en la zona lumbar y el glúteo. La ciática tiene su propia página: [ciática](/sintomas/ciatica/).
 
-**¿Puedo usar calor y frío el mismo día?**
-Sí, algunas personas alternan ambos con buenos resultados, pero es recomendable hacerlo con orientación profesional.
+**¿Y para una hernia cervical?**
+La misma lógica: calor para la rigidez del cuello y los hombros, frío si el dolor es agudo y reciente. Ver [protrusión discal cervical](/blog/protusion-discal-cervical/).
+
+**¿Mejor una manta eléctrica o una bolsa de agua caliente?**
+Las dos sirven. Lo importante es el tiempo (15-20 minutos) y no aplicarlas directamente sobre la piel.
 
 **¿La quiropráctica cura una hernia discal?**
-La quiropráctica no elimina la hernia, pero puede ayudar a reducir el dolor y mejorar la función, siempre como parte de un abordaje conjunto con el equipo médico.
+No elimina la hernia. Puede ayudar a reducir el dolor y a recuperar movimiento mientras el cuerpo hace su parte, como parte de un abordaje conjunto con tu médico.
 
-**¿Cuándo debo consultar a un profesional?**
-Si el dolor es muy intenso, se acompaña de pérdida de fuerza, o no mejora tras varios días de cuidados básicos.
+## Para saber más
+
+- [Hernia discal: síntomas y tratamiento](/sintomas/hernia-discal/)
+- [Ciática](/sintomas/ciatica/)
+- [Deshidratación discal: ¿tiene cura?](/blog/deshidratacion-discales-sintomas-y-soluciones-quiropracticas/)
+- [Contracturas musculares lumbares](/blog/contracturas-musculares-lumbares/)
