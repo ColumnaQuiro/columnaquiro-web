@@ -7,9 +7,9 @@ export const clinicSchema = {
   legalName: 'ColumnaQuiro S.L.',
   telephone: '+34744735363',
   email: 'hola@columnaquiro.com',
-  // The barrio is not part of the street address; it stays out so the string
-  // matches the Business Profile and directory listings exactly.
-  streetAddress: 'Carrer dels Vivons, 29, Bajo Izquierdo',
+  // Exactly as the Google Business Profile shows it (checked 31 Oct 2026), so
+  // every listing carries the same string. No floor, no barrio.
+  streetAddress: 'Carrer dels Vivons, 29',
   addressLocality: 'València',
   postalCode: '46006',
   addressRegion: 'Valencia',
