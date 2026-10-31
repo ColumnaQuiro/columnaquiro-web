@@ -43,8 +43,8 @@ const imageBySlug: Record<string, string> = {
 const image = computed(() => (symptomKey.value ? imageBySlug[symptomKey.value] : undefined))
 
 useSeo({
-  title: computed(() => (c.value ? `${c.value.title} | ColumnaQuiro` : 'ColumnaQuiro')),
-  description: computed(() => c.value?.intro[0] ?? ''),
+  title: computed(() => (c.value ? `${c.value.seoTitle ?? c.value.title} | ColumnaQuiro` : 'ColumnaQuiro')),
+  description: computed(() => c.value?.description ?? c.value?.intro[0] ?? ''),
 })
 </script>
 
@@ -78,6 +78,26 @@ useSeo({
     <div class="mt-4 space-y-4 text-body/80">
       <p v-for="(paragraph, i) in c.howChiropracticHelps" :key="i" v-html="paragraph" />
     </div>
+
+    <template v-if="c.redFlags?.length">
+      <h2 class="mt-10 text-xl font-semibold text-forest">
+        {{ locale === 'es' ? 'Cuándo ir antes al médico' : 'When to see a doctor first' }}
+      </h2>
+      <ul class="mt-4 list-disc space-y-1 pl-5 text-body/80">
+        <li v-for="flag in c.redFlags" :key="flag">{{ flag }}</li>
+      </ul>
+    </template>
+
+    <template v-if="c.related?.length">
+      <h2 class="mt-10 text-xl font-semibold text-forest">
+        {{ locale === 'es' ? 'Para saber más' : 'Read more' }}
+      </h2>
+      <ul class="mt-4 space-y-2">
+        <li v-for="link in c.related" :key="link.href">
+          <NuxtLink :to="link.href" class="font-semibold text-gold-dark underline">{{ link.label }}</NuxtLink>
+        </li>
+      </ul>
+    </template>
 
     <p v-if="c.note" class="mt-8 rounded-2xl bg-white p-4 text-sm text-body/70 shadow-[0_1px_2px_0_rgba(0,0,0,0.05)]">
       {{ c.note }}
