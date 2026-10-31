@@ -58,7 +58,7 @@ function pathFor(slugEs: string) {
           class="group flex flex-col gap-1.5 rounded-2xl border border-forest/10 bg-white p-4 transition-colors hover:border-forest/30 hover:bg-beige"
         >
           <span class="font-semibold leading-tight text-forest">{{ item.label }}</span>
-          <span class="text-xs text-slate">{{ item.hint }}</span>
+          <span class="text-sm text-slate">{{ item.hint }}</span>
           <span class="mt-auto pt-2 text-sm font-semibold text-gold-dark" aria-hidden="true">→</span>
         </NuxtLink>
       </div>

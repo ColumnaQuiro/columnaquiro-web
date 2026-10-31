@@ -2,12 +2,26 @@
 import { computed, ref } from 'vue'
 import { useAppI18n } from '@/composables/useAppI18n'
 import { useSeo } from '@/composables/useSeo'
+import { breadcrumbJsonLd } from '@/utils/schema'
+import { pathFor } from '@/utils/site-routes'
 import { clinic, socialLinks } from '@/data/clinic'
 import FaqAccordion from '@/components/ui/FaqAccordion.vue'
 import RatingBadge from '@/components/ui/RatingBadge.vue'
 import SocialIcon from '@/components/ui/SocialIcon.vue'
 
 const { locale } = useAppI18n()
+
+const crumbName = { es: 'Reservar cita', en: 'Book an appointment' }
+useHead({
+  script: [
+    {
+      key: 'breadcrumbs',
+      type: 'application/ld+json',
+      innerHTML: () =>
+        JSON.stringify(breadcrumbJsonLd(locale.value, [{ name: crumbName[locale.value], path: pathFor('reserva-cita', locale.value) }])),
+    },
+  ],
+})
 
 // This was the worst-converting page on the site: over 27 Jul - 24 Oct 2026,
 // 285 sessions landed here directly, stayed 21 s and 0.7% booked; in
@@ -124,7 +138,7 @@ const { heightPx } = useQuiroFlowWidget()
 // the widget's reserved height, so the swap is a fade, not a jump.
 const loaded = ref(false)
 
-const telHref = `tel:+34${clinic.phone.replace(/\s/g, '')}`
+const telHref = clinic.phoneHref
 const whatsappHref = socialLinks.find((link) => link.label === 'WhatsApp')?.href ?? ''
 </script>
 

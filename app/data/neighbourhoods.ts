@@ -122,7 +122,7 @@ export const neighbourhoods: Record<NeighbourhoodId, { routeKey: string; es: Nei
       eyebrow: "Quiropráctico en L'Eixample · València",
       heading: "Tu quiropráctico en L'Eixample",
       intro: [
-        "L'Eixample es el distrito con más búsquedas de 'quiropráctico cerca de mí' del centro de València. ColumnaQuiro está dentro de él, en Carrer dels Vivons, 29, a un paseo corto desde la Gran Via y desde Russafa.",
+        "L'Eixample es el distrito que agrupa Russafa, Pla del Remei y Gran Via. ColumnaQuiro está dentro de él, en Carrer dels Vivons, 29, en la parte de Russafa: si trabajas en la zona de Colón o de la Gran Via, es un paseo de diez minutos a la hora de comer o al salir de la oficina.",
         'La primera visita cuesta 70 € e incluye una evaluación completa, tu primer ajuste y un plan de cuidado. No pagas nada al reservar.',
       ],
       gettingHereTitle: "Cómo llegar desde los barrios de L'Eixample y alrededores",
@@ -143,8 +143,12 @@ export const neighbourhoods: Record<NeighbourhoodId, { routeKey: string; es: Nei
       faqTitle: 'Preguntas frecuentes',
       faqs: [
         {
-          q: "¿Es lo mismo un quiropráctico en L'Eixample que en el centro de València?",
-          a: "L'Eixample forma parte del centro. Si buscas un centro quiropráctico céntrico, ColumnaQuiro te queda cerca vengas de donde vengas.",
+          q: '¿Tenéis horario para quien trabaja en el centro?',
+          a: 'Sí. De martes a jueves atendemos hasta las 20 h, y los ajustes de seguimiento duran 15 a 20 minutos, así que caben antes o después de la jornada.',
+        },
+        {
+          q: '¿Lo cubre mi seguro médico?',
+          a: 'La sanidad pública no cubre la quiropráctica y la mayoría de seguros privados tampoco, aunque algunas pólizas de reembolso devuelven parte. Te damos factura para que la presentes. No necesitas derivación médica para venir.',
         },
         {
           q: '¿Puedo ir andando desde Ciutat Vella o Russafa?',
@@ -167,7 +171,7 @@ export const neighbourhoods: Record<NeighbourhoodId, { routeKey: string; es: Nei
       eyebrow: "Chiropractor in L'Eixample · Valencia",
       heading: "Your chiropractor in L'Eixample",
       intro: [
-        "L'Eixample is the central district where most 'chiropractor near me' searches in Valencia come from. ColumnaQuiro is inside it, at Carrer dels Vivons, 29, a short walk from Gran Via and from Russafa.",
+        "L'Eixample is the district that takes in Russafa, Pla del Remei and Gran Via. ColumnaQuiro is inside it, at Carrer dels Vivons, 29, on the Russafa side: if you work around Colón or Gran Via, it's a ten-minute walk at lunchtime or after the office.",
         'The first visit is €70 and includes a full assessment, your first adjustment and a care plan. Nothing to pay when booking, and we consult in English, Spanish and French.',
       ],
       gettingHereTitle: "Getting here from around L'Eixample",
@@ -188,8 +192,12 @@ export const neighbourhoods: Record<NeighbourhoodId, { routeKey: string; es: Nei
       faqTitle: 'Frequently asked questions',
       faqs: [
         {
-          q: "Is a chiropractor in L'Eixample the same as one in central Valencia?",
-          a: "L'Eixample is part of the centre. Wherever you start from, a centrally located clinic like ColumnaQuiro is easy to reach.",
+          q: 'Do you have hours for people who work in the centre?',
+          a: 'Yes. Tuesday to Thursday we see patients until 20:00, and follow-up adjustments take 15 to 20 minutes, so they fit before or after work.',
+        },
+        {
+          q: 'Does my health insurance cover it?',
+          a: "Spain's public system doesn't cover chiropractic and most private insurers don't either, though some reimbursement policies refund part of it. We give you an invoice to claim with. You don't need a doctor's referral."
         },
         {
           q: 'Can I walk from Ciutat Vella or Russafa?',

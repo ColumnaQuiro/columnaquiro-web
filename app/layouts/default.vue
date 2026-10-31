@@ -6,51 +6,12 @@ import CookieConsent from '@/components/ui/CookieConsent.vue'
 import LocaleSuggestBar from '@/components/ui/LocaleSuggestBar.vue'
 import StickyActionBar from '@/components/ui/StickyActionBar.vue'
 import { useStickyBar } from '@/composables/useStickyBar'
-import { clinicSchema, SITE_URL } from '@/utils/seo'
+import { useAppI18n } from '@/composables/useAppI18n'
+import { siteGraphJsonLd } from '@/utils/schema'
 
 const { shown: stickyBarShown } = useStickyBar()
 
-const businessJsonLd = {
-  '@context': 'https://schema.org',
-  '@type': 'Chiropractic',
-  name: clinicSchema.name,
-  legalName: clinicSchema.legalName,
-  url: SITE_URL,
-  image: `${SITE_URL}/assets/images/home-hero.jpg`,
-  logo: `${SITE_URL}/assets/images/logo-quiro.png`,
-  telephone: clinicSchema.telephone,
-  email: clinicSchema.email,
-  address: {
-    '@type': 'PostalAddress',
-    streetAddress: clinicSchema.streetAddress,
-    addressLocality: clinicSchema.addressLocality,
-    postalCode: clinicSchema.postalCode,
-    addressRegion: clinicSchema.addressRegion,
-    addressCountry: clinicSchema.addressCountry,
-  },
-  geo: {
-    '@type': 'GeoCoordinates',
-    latitude: clinicSchema.latitude,
-    longitude: clinicSchema.longitude,
-  },
-  hasMap: clinicSchema.mapsUrl,
-  openingHoursSpecification: [
-    {
-      '@type': 'OpeningHoursSpecification',
-      dayOfWeek: ['Tuesday', 'Wednesday', 'Thursday'],
-      opens: '09:00',
-      closes: '13:00',
-    },
-    {
-      '@type': 'OpeningHoursSpecification',
-      dayOfWeek: ['Tuesday', 'Wednesday', 'Thursday'],
-      opens: '15:00',
-      closes: '20:00',
-    },
-  ],
-  sameAs: clinicSchema.sameAs,
-  priceRange: '€€',
-}
+const { locale } = useAppI18n()
 
 useHead({
   // Read by main.css to lift the QuiroFlow chat bubble above the sticky bar
@@ -59,8 +20,9 @@ useHead({
   bodyAttrs: { class: computed(() => (stickyBarShown.value ? 'has-sticky-bar' : '')) },
   script: [
     {
+      key: 'site-graph',
       type: 'application/ld+json',
-      innerHTML: JSON.stringify(businessJsonLd),
+      innerHTML: () => JSON.stringify(siteGraphJsonLd(locale.value)),
     },
   ],
 })

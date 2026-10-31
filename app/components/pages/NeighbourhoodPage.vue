@@ -2,8 +2,8 @@
 import { computed } from 'vue'
 import { useAppI18n } from '@/composables/useAppI18n'
 import { useSeo } from '@/composables/useSeo'
-import { SITE_URL } from '@/utils/seo'
-import { pathFor, withTrailingSlash } from '@/utils/site-routes'
+import { breadcrumbJsonLd } from '@/utils/schema'
+import { pathFor } from '@/utils/site-routes'
 import { neighbourhoods, type NeighbourhoodId } from '@/data/neighbourhoods'
 import { socialLinks } from '@/data/clinic'
 import BaseButton from '@/components/ui/BaseButton.vue'
@@ -50,14 +50,7 @@ useHead({
     {
       key: 'nb-breadcrumbs',
       type: 'application/ld+json',
-      innerHTML: JSON.stringify({
-        '@context': 'https://schema.org',
-        '@type': 'BreadcrumbList',
-        itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Home', item: `${SITE_URL}${locale.value === 'es' ? '/' : '/en/'}` },
-          { '@type': 'ListItem', position: 2, name: c.value.heading, item: `${SITE_URL}${withTrailingSlash(route.path)}` },
-        ],
-      }),
+      innerHTML: JSON.stringify(breadcrumbJsonLd(locale.value, [{ name: c.value.heading, path: route.path }])),
     },
   ],
 })

@@ -22,7 +22,9 @@ const props = withDefaults(
   {
     slotCount: undefined,
     practitionerId: undefined,
-    noindex: false,
+    // Every offer URL is an ad landing page that repeats the evergreen pages'
+    // copy with a discount; none of them should compete in organic results.
+    noindex: true,
     seoTitle: undefined,
     seoDescription: undefined,
   },
@@ -142,7 +144,7 @@ const benefitContent = {
     {
       icon: '/assets/images/icon-metodo-evaluacion.svg',
       title: 'Evaluación completa',
-      text: 'Conoce el estado de tu salud y las recomendaciones a seguir para mejorar en tu día a día.',
+      text: 'Revisamos tu historial, tu postura y tu movilidad para entender de dónde viene tu dolor.',
     },
     {
       icon: '/assets/images/icon-metodo-ajuste.svg',
@@ -151,15 +153,15 @@ const benefitContent = {
     },
     {
       icon: '/assets/images/icon-identificas-sueno.svg',
-      title: 'Reducción del estrés y mejora del sueño',
-      text: 'Al mejorar la alineación del cuerpo y del sistema nervioso, puede ayudar a regular las hormonas del sueño y a reducir el estrés.',
+      title: 'Un plan claro',
+      text: 'Sales sabiendo qué te pasa, qué podemos hacer y cuántas sesiones calculamos, sin compromiso de seguir.',
     },
   ],
   en: [
     {
       icon: '/assets/images/icon-metodo-evaluacion.svg',
       title: 'Full assessment',
-      text: 'Understand the state of your health and the recommendations to follow to improve your day to day.',
+      text: 'We go through your history, posture and mobility to understand where your pain comes from.',
     },
     {
       icon: '/assets/images/icon-metodo-ajuste.svg',
@@ -168,8 +170,8 @@ const benefitContent = {
     },
     {
       icon: '/assets/images/icon-identificas-sueno.svg',
-      title: 'Less stress, better sleep',
-      text: 'By improving the alignment of the body and the nervous system, it can help regulate sleep hormones and reduce stress.',
+      title: 'A clear plan',
+      text: 'You leave knowing what is going on, what we can do and roughly how many sessions it takes, with no obligation to continue.',
     },
   ],
 }
@@ -185,7 +187,7 @@ const TRUST_ICONS: Record<string, string> = {
 
 const c = computed(() => content[locale.value])
 const benefits = computed(() => benefitContent[locale.value])
-const telHref = computed(() => `tel:+34${clinic.phone.replace(/\s/g, '')}`)
+const telHref = computed(() => clinic.phoneHref)
 
 const defaultSeo = {
   es: {

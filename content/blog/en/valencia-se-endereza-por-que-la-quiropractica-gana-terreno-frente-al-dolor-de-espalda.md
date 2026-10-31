@@ -1,6 +1,6 @@
 ---
 title: "Valencia straightens up: why chiropractic is gaining ground against back pain"
-slug: valencia-se-endereza-por-que-la-quiropractica-gana-terreno-frente-al-dolor-de-espalda
+slug: valencia-is-straightening-up
 date: 2025-11-19
 excerpt: "Learn the causes of back pain, its most common symptoms, and how chiropractic care can help ease discomfort, prevent future injury, and naturally improve your quality of life."
 cover: /assets/images/blog-valencia-endereza.jpg
@@ -10,7 +10,7 @@ author: Léa Guido
 
 ## What is chiropractic care?
 
-[Chiropractic](/en/blog/how-much-does-a-chiropractor-cost) is a health profession focused on diagnosing and caring for disorders of the neuromusculoskeletal system, especially the spine, with the goal of improving nerve function and reducing pain without drugs or surgery.
+Chiropractic is a health profession focused on diagnosing and caring for disorders of the neuromusculoskeletal system, especially the spine, with the goal of improving nerve function and reducing pain without drugs or surgery.
 
 ## Common symptoms of back pain
 

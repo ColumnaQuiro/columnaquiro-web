@@ -12,7 +12,7 @@ const { paraTiDropdown, sobreNosotrosDropdown, paraTodosLink, blogLink, reservaL
   useNavigation()
 const { locale, switchTo } = useLocale()
 
-const telHref = `tel:+34${clinic.phone.replace(/\s/g, '')}`
+const telHref = clinic.phoneHref
 const openMenu = ref<string | null>(null)
 const mobileOpen = ref(false)
 
@@ -129,7 +129,7 @@ function closeMenus() {
         </NuxtLink>
         <div class="flex items-center gap-1.5 text-sm text-gold-dark">
           <button
-            class="cursor-pointer"
+            class="min-h-11 min-w-11 cursor-pointer"
             :class="{ 'font-semibold': locale === 'es', 'opacity-50': locale !== 'es' }"
             @click="switchTo('es')"
           >
@@ -137,7 +137,7 @@ function closeMenus() {
           </button>
           <span class="text-body/30">|</span>
           <button
-            class="cursor-pointer"
+            class="min-h-11 min-w-11 cursor-pointer"
             :class="{ 'font-semibold': locale === 'en', 'opacity-50': locale !== 'en' }"
             @click="switchTo('en')"
           >
@@ -216,7 +216,7 @@ function closeMenus() {
 
         <div class="flex items-center justify-center gap-3 py-2 text-base font-medium text-gold-dark">
           <button
-            class="cursor-pointer"
+            class="min-h-11 min-w-11 cursor-pointer"
             :class="{ 'font-semibold': locale === 'es', 'opacity-50': locale !== 'es' }"
             @click="switchTo('es')"
           >
@@ -224,7 +224,7 @@ function closeMenus() {
           </button>
           <span class="text-body/30">|</span>
           <button
-            class="cursor-pointer"
+            class="min-h-11 min-w-11 cursor-pointer"
             :class="{ 'font-semibold': locale === 'en', 'opacity-50': locale !== 'en' }"
             @click="switchTo('en')"
           >

@@ -102,24 +102,24 @@ const content = {
       },
       {
         title: 'Mantenimiento',
-        text: 'Una vez al mes procederemos con un ajuste quiropráctico para evitar recaídas, manteniendo un estado general de salud óptimo.',
+        text: 'Opcional. Si tu dolor tiende a volver, una revisión cada pocas semanas puede ayudar a que aparezca menos. Tú decides si la quieres.',
       },
     ],
-    pathTitle: 'El camino al bienestar',
+    pathTitle: 'Las fases del plan',
     pathIntro:
-      'En tu segunda visita al centro, te explicaremos las distintas fases del cuidado quiropráctico. Es fundamental comprender que la <a href="/blog/cuanto-cuesta-un-quiropractico" class="font-semibold text-gold-dark underline">quiropráctica</a> no solo alivia dolencias, sino que promueve un bienestar integral. El camino hacia una mejor calidad de vida se divide en tres fases, cada una de ellas esencial, ya que interrumpir el proceso puede hacer que regreses al punto de partida.',
+      'En tu segunda visita te explicamos el plan, que suele tener tres fases. Revisamos tu progreso en cada una y, si no mejoras como esperábamos, cambiamos el plan o te derivamos a otro profesional.',
     phases: [
       {
         title: '1. Recuperación',
-        text: 'Durante esta fase, nos enfocamos en la recuperación intensiva de tu cuerpo. En esta etapa, tu cuerpo se defiende y los problemas en la columna dañan los nervios. Es normal sentir dolor y otros síntomas porque tu cuerpo no funciona de forma correcta. En esta fase es normal notar mejorías en pocos días.',
+        text: 'El objetivo es aliviar el dolor. Las sesiones son más seguidas, una o dos por semana, y muchas personas notan mejoría en pocas sesiones.',
       },
       {
         title: '2. Corrección',
-        text: 'Esta fase requiere un poco más de tiempo, alrededor de unas semanas. Tu cuerpo se adapta a los cambios gracias a los ajustes que hemos ido haciendo. Esto alinea tu columna y mejora el rendimiento de tu cuerpo.',
+        text: 'Cuando el dolor ha bajado, espaciamos las sesiones durante unas semanas y añadimos ejercicios para recuperar movilidad y fuerza, que es lo que más ayuda a que el dolor no vuelva.',
       },
       {
         title: '3. Mantenimiento',
-        text: 'El objetivo de esta fase es prevenir recaídas, porque estas harían un efecto opuesto, volviendo a la primera fase del camino. Todos estamos expuestos a diferentes estreses en nuestra vida que no paran de cesar, como es el trabajo, las relaciones, la familia, los amigos, etc.',
+        text: 'Opcional. Si tu dolor ha sido recurrente, revisiones cada pocas semanas pueden ayudar a reducir los días con dolor. Si no, te damos el alta con tus ejercicios.',
       },
     ],
     faqTitle: '¿Alguna pregunta?',
@@ -178,24 +178,24 @@ const content = {
       },
       {
         title: 'Maintenance',
-        text: 'Once a month we will carry out a chiropractic adjustment to prevent relapses and maintain an optimal overall state of health.',
+        text: 'Optional. If your pain tends to come back, a check-up every few weeks can help it come back less. It is your choice.',
       },
     ],
-    pathTitle: 'The path to wellness',
+    pathTitle: 'The phases of your plan',
     pathIntro:
-      'On your second visit to the center, we will explain the different phases of chiropractic care. It is essential to understand that chiropractic not only relieves ailments, but also promotes overall well-being. The path to a better quality of life is divided into three phases, each one essential — interrupting the process can bring you back to the starting point.',
+      'On your second visit we explain the plan, which usually has three phases. We review your progress at each one and, if you are not improving as expected, we change the plan or refer you to another professional.',
     phases: [
       {
         title: '1. Recovery',
-        text: "During this phase, we focus on your body's intensive recovery. At this stage, your body is fighting back and spinal problems are damaging nerves. It's normal to feel pain and other symptoms because your body isn't working properly. In this phase, it's normal to notice improvements within a few days.",
+        text: 'The goal is to ease the pain. Sessions are closer together, once or twice a week, and many people notice an improvement within a few sessions.',
       },
       {
         title: '2. Correction',
-        text: "This phase takes a little more time — around a few weeks. Your body adapts to the changes thanks to the adjustments we've been making. This aligns your spine and improves your body's performance.",
+        text: 'Once the pain has eased, we space sessions out over a few weeks and add exercises to rebuild mobility and strength, which is what helps most to keep the pain from coming back.',
       },
       {
         title: '3. Maintenance',
-        text: 'The goal of this phase is to prevent relapses, since those would have the opposite effect, sending you back to the first phase. We are all exposed to different stresses in our lives that never really stop — work, relationships, family, friends, and so on.',
+        text: 'Optional. If your pain has been recurrent, check-ups every few weeks can help reduce the days with pain. If not, we discharge you with your exercises.',
       },
     ],
     faqTitle: 'Any questions?',
@@ -267,7 +267,7 @@ const c = computed(() => content[locale.value])
               class="font-semibold text-gold-dark underline"
               >WhatsApp</a
             >{{ c.bookingPhoneIntro }}
-            <a :href="`tel:${clinic.phone.replace(/\\s/g, '')}`" class="font-semibold text-gold-dark underline">{{
+            <a :href="clinic.phoneHref" class="font-semibold text-gold-dark underline">{{
               clinic.phone
             }}</a
             >{{ c.bookingOnlineIntro }}

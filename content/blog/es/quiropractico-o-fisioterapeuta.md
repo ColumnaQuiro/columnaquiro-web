@@ -34,13 +34,13 @@ Aquí está la diferencia más importante y la que menos se explica en los artí
 
 **La quiropráctica no lo es.** No aparece en esa ley, no existe un Grado oficial español y no hay colegio profesional. Esto lo reconoce la propia [Asociación Española de Quiropráctica](https://quiropractica-aeq.com/sobre-nosotros/), cuyo objetivo declarado es conseguir un marco legislativo en el que la quiropráctica sea reconocida como profesión sanitaria, como ya ocurre en buena parte de Europa. El [Consejo General de Colegios de Fisioterapeutas](https://www.colfisiocv.com/node/12850) mantiene además la posición de que la manipulación vertebral es competencia de la fisioterapia. Es un desacuerdo real y no tiene sentido esconderlo.
 
-Qué implica esto en la práctica para ti: el título de "fisioterapeuta" está protegido y el de "quiropráctico" no. Cualquiera puede usar la palabra. Por eso, si eliges quiropráctica, la comprobación que sí puedes hacer es el título: los profesionales de la AEQ han cursado cinco años a tiempo completo en una universidad reconocida por el Consejo Europeo de Educación Quiropráctica (ECCE), como el Barcelona College of Chiropractic. Un curso de fin de semana no es eso, y la diferencia entre ambas cosas es enorme. Si tienes dudas sobre en qué consiste la disciplina antes de decidir, puedes leer [qué es la quiropráctica](/que-es-la-quiropractica) con más detalle.
+Qué implica esto en la práctica para ti: el título de "fisioterapeuta" está protegido y el de "quiropráctico" no. Cualquiera puede usar la palabra. Por eso, si eliges quiropráctica, la comprobación que sí puedes hacer es el título: los profesionales de la AEQ han cursado cinco años a tiempo completo en una universidad reconocida por el Consejo Europeo de Educación Quiropráctica (ECCE), como el Barcelona College of Chiropractic. Un curso de fin de semana no es eso, y la diferencia entre ambas cosas es enorme. Si tienes dudas sobre en qué consiste la disciplina antes de decidir, puedes leer [qué es la quiropráctica](/que-es-la-quiropractica/) con más detalle.
 
 ## Cómo es cada sesión en la práctica
 
 **En fisioterapia**, la sesión suele durar entre 45 y 60 minutos. Se combina terapia manual, a veces técnicas como punción seca o electroterapia, y sobre todo ejercicio supervisado: el fisioterapeuta te corrige mientras lo haces y te manda trabajo para casa. Buena parte del resultado depende de que hagas esos ejercicios entre sesiones.
 
-**En quiropráctica**, la primera visita es larga —historia clínica, exploración, análisis postural y biomecánico— y las siguientes son notablemente más cortas, a menudo de 10 a 20 minutos, pero más frecuentes al principio. El grueso del tiempo va al ajuste vertebral: un impulso de alta velocidad y baja amplitud sobre una articulación concreta. Si quieres el detalle de las técnicas, lo desglosamos en [qué hace un quiropráctico](/blog/que-hace-un-quiropractico-beneficios-y-tecnicas).
+**En quiropráctica**, la primera visita es larga —historia clínica, exploración, análisis postural y biomecánico— y las siguientes son notablemente más cortas, a menudo de 10 a 20 minutos, pero más frecuentes al principio. El grueso del tiempo va al ajuste vertebral: un impulso de alta velocidad y baja amplitud sobre una articulación concreta. Si quieres el detalle de las técnicas, lo desglosamos en [qué hace un quiropráctico](/blog/que-hace-un-quiropractico-beneficios-y-tecnicas/).
 
 Esa diferencia de formato explica muchos malentendidos. Quien viene de fisioterapia a veces siente que una sesión quiropráctica de quince minutos es "poco"; quien viene de quiropráctica a veces siente que la fisioterapia es "solo ejercicios". Son dos modelos distintos de repartir el tiempo, no dos niveles de dedicación.
 
@@ -62,7 +62,7 @@ Esa diferencia de formato explica muchos malentendidos. Quien viene de fisiotera
 
 **Cualquiera de los dos sirve** para un episodio de lumbalgia aguda sin señales de alarma. Lo que más importa en ese caso no es la disciplina, sino algo que ambos deberían decirte: seguir moviéndote y no meterte en cama.
 
-Si además estás valorando la osteopatía, la comparación cambia en algunos puntos y la tratamos aparte en [diferencias entre osteópata y quiropráctico](/blog/diferencias-entre-osteopata-y-quirpractico).
+Si además estás valorando la osteopatía, la comparación cambia en algunos puntos y la tratamos aparte en [diferencias entre osteópata y quiropráctico](/blog/diferencias-entre-osteopata-y-quirpractico/).
 
 ## Qué dice la evidencia
 

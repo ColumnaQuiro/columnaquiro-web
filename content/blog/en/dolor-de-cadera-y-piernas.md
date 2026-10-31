@@ -1,39 +1,67 @@
 ---
-title: "Hip and leg pain: what it is and how to care for it"
+title: "Hip and leg pain: causes and treatment"
 slug: hip-and-leg-pain-what-it-is-and-how-to-treat-it
 date: 2025-10-30
-excerpt: "Common causes of hip and leg pain, when it may come from the spine, and how chiropractic can help care for it. A guide from ColumnaQuiro Valencia."
+updated: 2026-10-31
+excerpt: "How to tell whether pain comes from your hip or your lower back, what causes it at different ages and when to see a doctor. A guide from ColumnaQuiro Valencia."
 cover: /assets/images/category-deportistas.webp
 author: Léa Guido
 
 ---
 
-## Common causes of hip and leg pain
+Hip pain (in Spanish, *coxalgia*) can start in the joint itself, in the muscles and tendons around it, or in the lower back, which sometimes causes pain felt in the hip and down the leg. Working out where it comes from is the first step, because each source is treated differently.
 
-Hip and leg pain can have several origins: muscle overload, joint problems in the hip itself, or issues in the lumbar spine that irritate the nerves running down the leg, as happens with sciatica.
+## Is it your hip or your back?
 
-## When the pain actually comes from the spine
+| If the pain… | It usually comes from… |
+|---|---|
+| Is in the groin or front of the hip and gets worse putting on socks or turning your leg | The hip joint |
+| Is on the side of the hip and hurts lying on that side or climbing stairs | The tendons and bursa on the outside of the hip (gluteal tendinopathy, bursitis) |
+| Starts in the lower back or buttock and runs down the back of the thigh, sometimes with tingling | The lower back and an irritated nerve, as in [sciatica](/en/symptoms/sciatica/) |
 
-If the pain follows a path from the lower back or buttock down the thigh and leg, especially when accompanied by tingling or numbness, it's likely coming from a compressed nerve root at the spine level, not just the hip.
+It isn't always that clear-cut, and sometimes there's more than one source. At your first visit we test how your hip and back move to tell them apart.
 
-## Signs worth watching for
+## Causes by age
 
-Muscle weakness in the leg, pain that worsens with coughing or sneezing, or discomfort that doesn't improve with rest are signs that a more thorough evaluation is needed.
+- **Young people and athletes:** muscle overload, tendinopathy and hip impingement (femoroacetabular impingement). We explain it in [why does my hip hurt if I'm young?](/en/blog/why-does-my-hip-hurt-if-im-young/).
+- **From around 50:** hip osteoarthritis ([coxarthrosis](/en/blog/coxarthrosis-symptoms-and-benefits-of-chiropractic/)) and gluteal tendinopathy are the most common.
+- **At any age:** pain coming from the lower back, especially if you sit for long hours.
 
-## How chiropractic care approaches these cases
+## Common symptoms
 
-After a detailed assessment, a chiropractor identifies whether the source is joint-related, muscular, or nerve-related, and builds a plan that may include spine and hip adjustments, muscle release techniques, and specific exercises to restore mobility and reduce pressure on the affected structures.
+- Pain walking, climbing stairs or standing up after sitting.
+- Stiffness in the morning or when you start moving.
+- Difficulty crossing your legs, putting on socks or getting into a car.
+- Pain running down the leg, with or without tingling, when the source is the back.
+
+## How we treat it
+
+Depending on the source, the plan combines:
+
+- **Mobilisation and adjustments** for the hip, pelvis and lower back to restore movement.
+- **Soft-tissue work** on the glutes, hip flexors and lower-back muscles.
+- **Strength training** for the glutes and thighs. For hip osteoarthritis, exercise is the first-line treatment in clinical guidelines, with manual therapy as an add-on.
+- **Everyday advice**: how to sit, sleep and pace your walking or running.
+
+Many people improve within a few weeks when the cause is muscular or mechanical. With a compressed nerve or advanced osteoarthritis it takes longer, and we coordinate with your doctor.
+
+## When to see a doctor straight away
+
+- Severe pain after a fall, especially in older people (there may be a fracture).
+- Fever, or a hot or red hip.
+- Weakness in the leg, numbness around the groin, or changes in passing urine.
+- Hip pain in a child who is limping.
 
 ## Frequently asked questions
 
-**Does hip pain always come from the spine?**
-Not always. It can originate in the hip joint itself, in the surrounding muscles, or indeed in the lumbar spine. That's why a proper evaluation matters.
+**Is hip pain always osteoarthritis?**
+No. In young people it almost never is, and at any age it can come from the tendons or the back.
 
-**Does walking make hip and leg pain worse?**
-It depends on the cause. In some cases moderate walking helps, while in others reducing load temporarily is better. Your chiropractor can guide you based on your case.
+**Does walking make it worse?**
+It depends on the cause. Walking at a comfortable pace usually helps; if the pain builds during the walk or the next day, cut the distance for a while.
 
-**How long does this type of pain take to improve?**
-It varies widely by cause, from a few days for mild muscular cases to several weeks if there's nerve compression.
+**Can I keep exercising?**
+Usually yes, adjusting the intensity. Complete rest tends to make stiffness worse.
 
-**When should I see a professional?**
-If the pain is intense, lasts more than a few days, or comes with weakness or numbness, it's best to get evaluated as soon as possible.
+**How long does it take to improve?**
+From a few days for a mild overload to several weeks if a nerve is irritated or there's osteoarthritis.

@@ -1,6 +1,6 @@
 ---
 title: "Trapezius Nerve Impingement: Causes and Relief"
-slug: trapezius-nerve-grip
+slug: trapezius-pinched-nerve
 date: 2025-11-06
 excerpt: "A pinched nerve in the trapezius can cause sharp pain and tingling from your neck to your shoulder. Here's why it happens and how chiropractic care can help you find relief."
 cover: /assets/images/home-ajuste.avif

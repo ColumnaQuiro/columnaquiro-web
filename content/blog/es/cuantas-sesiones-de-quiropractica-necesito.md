@@ -82,7 +82,7 @@ Un plan típico no reparte las sesiones a intervalos iguales. Empieza más apret
 
 Si a las seis u ocho sesiones sigues yendo con la misma frecuencia del primer día y nadie te ha explicado por qué, es una pregunta legítima que hacer en voz alta.
 
-Puedes ver [cómo estructuramos ese proceso](/como-funciona) con más detalle.
+Puedes ver [cómo estructuramos ese proceso](/como-funciona/) con más detalle.
 
 ## Cómo saber si está funcionando
 
@@ -108,7 +108,7 @@ Así que mantenimiento sí, como opción que eliges tú una vez estás bien, sab
 
 Las señales de que un plan no es serio son bastante reconocibles: un número de sesiones cerrado antes de explorarte, contratos largos pagados por adelantado con descuento, revisiones que nunca llegan, o una respuesta incómoda cuando preguntas cuándo terminarás. Si preguntas "¿cuántas más?" y no obtienes una cifra ni una fecha, algo falla.
 
-Si te interesa el desglose de lo que cuesta cada parte del proceso, lo tratamos aparte en [cuánto cuesta un quiropráctico](/blog/cuanto-cuesta-un-quiropractico).
+Si te interesa el desglose de lo que cuesta cada parte del proceso, lo tratamos aparte en [cuánto cuesta un quiropráctico](/blog/cuanto-cuesta-un-quiropractico/).
 
 ## Preguntas frecuentes
 
@@ -128,4 +128,4 @@ Hasta cierto punto, y cada vez menos. En el ensayo de dosis, pasar de 12 a 18 se
 Casi siempre por el tiempo de evolución. Dos personas con el mismo dolor pero con dos semanas y dos años de historia detrás no están en la misma situación, aunque lo parezca.
 
 **¿Cuándo debería buscar una segunda opinión?**
-Si tras 4 a 6 sesiones no ha cambiado nada, si nadie te ha dado un número estimado, o si el plan se alarga sin una explicación clara. [Reservar una valoración](/reserva-cita) en otro sitio para contrastar es perfectamente razonable.
+Si tras 4 a 6 sesiones no ha cambiado nada, si nadie te ha dado un número estimado, o si el plan se alarga sin una explicación clara. [Reservar una valoración](/reserva-cita/) en otro sitio para contrastar es perfectamente razonable.

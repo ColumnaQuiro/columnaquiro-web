@@ -2,6 +2,7 @@
 import { computed } from 'vue'
 import { useAppI18n } from '@/composables/useAppI18n'
 import { useSeo } from '@/composables/useSeo'
+import { credentialLine, personJsonLd } from '@/utils/schema'
 import BaseButton from '@/components/ui/BaseButton.vue'
 import CtaBanner from '@/components/ui/CtaBanner.vue'
 
@@ -9,11 +10,11 @@ const { locale } = useAppI18n()
 
 const content = {
   es: {
-    role: 'Doctora en Quiropráctica',
+    role: credentialLine('lea-guido', 'es'),
     intro:
       'Soy diplomada del Barcelona College of Chiropractic en 2021 después de completar una carrera de 6 años. Inicié mis dos primeros años de estudio en IFEC en Francia y luego decidí trasladarme a España.',
     paragraphs: [
-      'Durante mi formación, también tuve la oportunidad de trabajar como profesora de técnicas y supervisora de clínica en el Barcelona College of Chiropractic. Después de obtener mi diploma, trabajé en una consulta quiropráctica en Barcelona, donde pude aplicar mis conocimientos y habilidades en el cuidado <a href="/blog/cuanto-cuesta-un-quiropractico" class="font-semibold text-gold-dark underline">quiropráctico</a>.',
+      'Durante mi formación, también tuve la oportunidad de trabajar como profesora de técnicas y supervisora de clínica en el Barcelona College of Chiropractic. Después de obtener mi diploma, trabajé en una consulta quiropráctica en Barcelona, donde pude aplicar mis conocimientos y habilidades en el cuidado quiropráctico.',
       'Además, he asistido a numerosos seminarios y cursos de quiroprácticos tanto durante mis estudios como después de graduarme. Esto me ha permitido ampliar mis conocimientos y combinar una variedad de técnicas para brindar a cada paciente una experiencia personalizada:',
     ],
     techniques: [
@@ -30,7 +31,7 @@ const content = {
     backButton: '← Volver al equipo',
   },
   en: {
-    role: 'Doctor of Chiropractic',
+    role: credentialLine('lea-guido', 'en'),
     intro:
       'I graduated from the Barcelona College of Chiropractic in 2021 after completing a 6-year program. I started my first two years of study at IFEC in France before deciding to move to Spain.',
     paragraphs: [
@@ -56,9 +57,19 @@ const c = computed(() => content[locale.value])
 
 useSeo({
   title: computed(() =>
-    locale.value === 'es' ? 'Léa Guido, Doctora en Quiropráctica | ColumnaQuiro' : 'Léa Guido, Doctor of Chiropractic | ColumnaQuiro',
+    locale.value === 'es' ? 'Léa Guido, quiropráctica en València | ColumnaQuiro' : 'Léa Guido, chiropractor in Valencia | ColumnaQuiro',
   ),
   description: computed(() => c.value.intro),
+})
+
+useHead({
+  script: [
+    {
+      key: 'person',
+      type: 'application/ld+json',
+      innerHTML: () => JSON.stringify({ '@context': 'https://schema.org', ...personJsonLd('lea-guido', locale.value) }),
+    },
+  ],
 })
 </script>
 

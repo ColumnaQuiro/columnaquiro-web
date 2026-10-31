@@ -13,7 +13,7 @@ const openFaq = ref<number | null>(null)
     <div v-for="(faq, i) in faqs" :key="faq.q" class="rounded-2xl bg-cream p-6">
       <button
         type="button"
-        class="flex w-full cursor-pointer items-center justify-between gap-4 text-left font-bold text-forest"
+        class="flex min-h-11 w-full cursor-pointer items-center justify-between gap-4 text-left font-bold text-forest"
         @click="openFaq = openFaq === i ? null : i"
       >
         {{ faq.q }}

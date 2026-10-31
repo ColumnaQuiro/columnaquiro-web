@@ -38,13 +38,13 @@ This is where expectations imported from abroad cause real confusion, so it is w
 
 **Why this matters if you are British, Irish, American or Australian.** In the UK, chiropractic is statutorily regulated: the [Chiropractors Act 1994](https://www.legislation.gov.uk/ukpga/1994/17) created the General Chiropractic Council, the title is legally protected, and practising unregistered is a criminal offence. The US and Australia have comparable licensing. **Spain has none of that.** So the check you would never have needed at home is the one you need here: ask directly where the person trained.
 
-The meaningful credential is a five-year full-time degree from a university accredited by the European Council on Chiropractic Education (ECCE) — the Barcelona College of Chiropractic is the Spanish one — which is the standard the Spanish Chiropractic Association requires of its members. That is a completely different thing from a short course, and since the title is unprotected, both exist. If you want the background on the discipline itself before deciding, see [what chiropractic is](/en/what-is-chiropractic).
+The meaningful credential is a five-year full-time degree from a university accredited by the European Council on Chiropractic Education (ECCE) — the Barcelona College of Chiropractic is the Spanish one — which is the standard the Spanish Chiropractic Association requires of its members. That is a completely different thing from a short course, and since the title is unprotected, both exist. If you want the background on the discipline itself before deciding, see [what chiropractic is](/en/what-is-chiropractic/).
 
 ## What each session actually involves
 
 **Physiotherapy** sessions usually run 45 to 60 minutes. They combine manual therapy, sometimes techniques like dry needling or electrotherapy, and above all supervised exercise — the physiotherapist corrects your form in the room and sends you home with work to do. A large share of the outcome depends on whether you actually do it between appointments.
 
-**Chiropractic** front-loads the time differently. The first visit is long: history, physical examination, postural and biomechanical assessment. Follow-ups are noticeably shorter, often 10 to 20 minutes, but more frequent at the start. Most of that time goes on the adjustment itself — a high-velocity, low-amplitude thrust applied to a specific joint. The techniques are broken down in [what a chiropractor does](/en/blog/what-does-a-chiropractor-do).
+**Chiropractic** front-loads the time differently. The first visit is long: history, physical examination, postural and biomechanical assessment. Follow-ups are noticeably shorter, often 10 to 20 minutes, but more frequent at the start. Most of that time goes on the adjustment itself — a high-velocity, low-amplitude thrust applied to a specific joint. The techniques are broken down in [what a chiropractor does](/en/blog/what-does-a-chiropractor-do/).
 
 That structural difference causes a lot of misreading. People arriving from physiotherapy often feel a fifteen-minute chiropractic session is somehow "not enough"; people arriving from chiropractic sometimes feel physiotherapy is "just exercises". They are two ways of distributing time, not two levels of care.
 
@@ -66,7 +66,7 @@ That structural difference causes a lot of misreading. People arriving from phys
 
 **Either works** for an acute episode of low back pain with no warning signs. What matters there is less the discipline than something both should tell you: keep moving and stay out of bed.
 
-If osteopathy is also on your list, the comparison shifts on a few points and we cover it separately in [chiropractors vs. osteopaths](/en/blog/difference-chiropractors-vs-osteopaths).
+If osteopathy is also on your list, the comparison shifts on a few points and we cover it separately in [chiropractors vs. osteopaths](/en/blog/difference-chiropractors-vs-osteopaths/).
 
 ## What the evidence actually shows
 

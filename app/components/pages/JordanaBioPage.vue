@@ -2,6 +2,7 @@
 import { computed } from 'vue'
 import { useAppI18n } from '@/composables/useAppI18n'
 import { useSeo } from '@/composables/useSeo'
+import { credentialLine, personJsonLd } from '@/utils/schema'
 import BaseButton from '@/components/ui/BaseButton.vue'
 import CtaBanner from '@/components/ui/CtaBanner.vue'
 
@@ -9,7 +10,7 @@ const { locale } = useAppI18n()
 
 const content = {
   es: {
-    role: 'Doctora en Quiropráctica',
+    role: credentialLine('jordana-aguar', 'es'),
     intro:
       'Me gradué en el McTimoney College of Chiropractic en 2026. Antes de descubrir mi verdadera vocación por la quiropráctica, cursé dos años del Grado en Enfermería en la Fundación Jiménez Díaz en Madrid, una etapa que despertó mi pasión por la salud y me llevó a buscar un enfoque más integral y preventivo del bienestar corporal.',
     paragraphs: [
@@ -28,7 +29,7 @@ const content = {
     backButton: '← Volver al equipo',
   },
   en: {
-    role: 'Doctor of Chiropractic',
+    role: credentialLine('jordana-aguar', 'en'),
     intro:
       'I graduated from the McTimoney College of Chiropractic in 2026. Before discovering my true calling in chiropractic, I completed two years of a Nursing degree at the Fundación Jiménez Díaz in Madrid — a stage that sparked my passion for health and led me to look for a more comprehensive, preventive approach to body wellness.',
     paragraphs: [
@@ -52,11 +53,19 @@ const c = computed(() => content[locale.value])
 
 useSeo({
   title: computed(() =>
-    locale.value === 'es'
-      ? 'Jordana Aguar, Doctora en Quiropráctica | ColumnaQuiro'
-      : 'Jordana Aguar, Doctor of Chiropractic | ColumnaQuiro',
+    locale.value === 'es' ? 'Jordana Aguar, quiropráctica en València | ColumnaQuiro' : 'Jordana Aguar, chiropractor in Valencia | ColumnaQuiro',
   ),
   description: computed(() => c.value.intro),
+})
+
+useHead({
+  script: [
+    {
+      key: 'person',
+      type: 'application/ld+json',
+      innerHTML: () => JSON.stringify({ '@context': 'https://schema.org', ...personJsonLd('jordana-aguar', locale.value) }),
+    },
+  ],
 })
 </script>
 

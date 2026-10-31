@@ -2,9 +2,12 @@ import { synced } from './google-reviews-sync'
 
 export const clinic = {
   name: 'ColumnaQuiro',
-  address: "Carrer dels Vivons, 29, L'Eixample, 46006 València, Valencia",
+  address: 'Carrer dels Vivons, 29, Bajo Izquierdo, 46006 València',
   email: 'hola@columnaquiro.com',
   phone: '744 73 53 63',
+  // Always link this, never build a tel: href from `phone`: a template that did
+  // (with a double-escaped regex) shipped `tel:744 73 53 63` in the footer.
+  phoneHref: 'tel:+34744735363',
   mapsUrl: 'https://maps.app.goo.gl/NQEAbzbbg75xxjKU6',
 }
 

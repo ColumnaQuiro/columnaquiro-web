@@ -2,6 +2,8 @@
 import { computed } from 'vue'
 import { useAppI18n } from '@/composables/useAppI18n'
 import { useSeo } from '@/composables/useSeo'
+import { breadcrumbJsonLd } from '@/utils/schema'
+import { pathFor } from '@/utils/site-routes'
 import { googleRating } from '@/data/clinic'
 import { reviews } from '@/data/reviews'
 import RatingBadge from '@/components/ui/RatingBadge.vue'
@@ -14,6 +16,18 @@ import CtaBanner from '@/components/ui/CtaBanner.vue'
 // message -- review count is the number the local pack ranks on, and 159
 // after several years is about one a week.
 const { locale } = useAppI18n()
+
+const crumbName = { es: 'Reseñas', en: 'Reviews' }
+useHead({
+  script: [
+    {
+      key: 'breadcrumbs',
+      type: 'application/ld+json',
+      innerHTML: () =>
+        JSON.stringify(breadcrumbJsonLd(locale.value, [{ name: crumbName[locale.value], path: pathFor('resenas', locale.value) }])),
+    },
+  ],
+})
 
 const content = {
   es: {

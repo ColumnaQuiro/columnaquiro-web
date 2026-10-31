@@ -3,7 +3,7 @@ import { useAppI18n } from '@/composables/useAppI18n'
 import { useStickyBar } from '@/composables/useStickyBar'
 
 const { locale } = useAppI18n()
-const { shown: stickyBarShown } = useStickyBar()
+const { visible: stickyBarVisible } = useStickyBar()
 
 useHead({
   script: [{ src: 'https://cdn.jsdelivr.net/npm/@finsweet/cookie-consent@1/fs-cc.js', defer: true }],
@@ -11,7 +11,7 @@ useHead({
 
 const content = {
   es: {
-    text: 'Usamos cookies propias y de terceros para medir las visitas y mejorar la web.',
+    text: 'Usamos cookies para medir las visitas.',
     longText:
       'Este sitio web utiliza cookies propias y de terceros para mantener la sesión, ofrecerle una mejor experiencia de usuario y obtener datos estadísticos de navegación de los usuarios.',
     policyLink: 'Política de cookies',
@@ -28,7 +28,7 @@ const content = {
     policyPath: '/politica-de-cookies',
   },
   en: {
-    text: 'We use our own and third-party cookies to measure visits and improve the site.',
+    text: 'We use cookies to measure visits.',
     longText:
       'This website uses its own and third-party cookies to maintain your session, offer you a better user experience, and gather navigation statistics.',
     policyLink: 'Cookie policy',
@@ -58,20 +58,22 @@ const c = computed(() => content[locale.value])
     main button. One line of text plus two buttons, sized so it never hides
     what the visitor came for.
   -->
-  <div fs-cc="banner" class="fixed inset-x-0 z-[100] hidden" :class="stickyBarShown ? 'bottom-20 md:bottom-0' : 'bottom-0'">
-    <div class="mx-auto max-w-3xl px-3 pb-3">
-      <div class="flex flex-wrap items-center gap-x-4 gap-y-2 rounded-xl bg-white px-4 py-3 shadow-lg ring-1 ring-forest/10">
-        <p class="min-w-0 flex-1 text-xs text-slate">
+  <div fs-cc="banner" class="fixed inset-x-0 z-[100] hidden" :class="stickyBarVisible ? 'bottom-20 md:bottom-0' : 'bottom-0'">
+    <div class="mx-auto max-w-3xl px-2 pb-2">
+      <!-- One row on a phone too: text beside the buttons, not above them,
+           so the banner stays about 70 px tall instead of 116. -->
+      <div class="flex items-center gap-3 rounded-xl bg-white px-3 py-2 shadow-lg ring-1 ring-forest/10 sm:px-4 sm:py-3">
+        <p class="min-w-0 flex-1 text-xs leading-snug text-slate">
           {{ c.text }}
           <NuxtLink :to="c.policyPath" target="_blank" class="font-semibold text-gold-dark underline">{{
             c.policyLink
           }}</NuxtLink>
         </p>
         <div class="flex shrink-0 gap-2">
-          <a fs-cc="allow" href="#" role="button" class="rounded-full bg-gold px-4 py-2 text-xs font-semibold text-gold-dark hover:bg-gold-dark hover:text-white">{{
+          <a fs-cc="allow" href="#" role="button" class="inline-flex min-h-11 items-center rounded-full bg-gold px-4 text-xs font-semibold text-gold-dark hover:bg-gold-dark hover:text-white">{{
             c.accept
           }}</a>
-          <a fs-cc="open-preferences" href="#" role="button" class="rounded-full border border-forest/20 px-4 py-2 text-xs font-semibold text-forest hover:bg-cream">{{
+          <a fs-cc="open-preferences" href="#" role="button" class="inline-flex min-h-11 items-center rounded-full border border-forest/20 px-3 text-xs font-semibold text-forest hover:bg-cream">{{
             c.customize
           }}</a>
         </div>

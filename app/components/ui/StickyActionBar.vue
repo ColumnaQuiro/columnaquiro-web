@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed, onMounted, onUnmounted, ref } from 'vue'
+import { computed, onMounted, onUnmounted } from 'vue'
 import { useAppI18n } from '@/composables/useAppI18n'
 import { useNavigation } from '@/composables/useNavigation'
 import { useStickyBar } from '@/composables/useStickyBar'
@@ -13,7 +13,7 @@ import SocialIcon from '@/components/ui/SocialIcon.vue'
 // buttons have scrolled away, so the first screen is not shouting twice.
 const { locale } = useAppI18n()
 const { reservaLink } = useNavigation()
-const { shown } = useStickyBar()
+const { visible, pastHero } = useStickyBar()
 
 const labels = {
   es: { book: 'Reservar', call: 'Llamar', whatsapp: 'WhatsApp' },
@@ -21,10 +21,9 @@ const labels = {
 }
 const l = computed(() => labels[locale.value])
 
-const telHref = `tel:+34${clinic.phone.replace(/\s/g, '')}`
+const telHref = clinic.phoneHref
 const whatsappHref = socialLinks.find((link) => link.label === 'WhatsApp')?.href ?? ''
 
-const pastHero = ref(false)
 function onScroll() {
   pastHero.value = window.scrollY > 480
 }
@@ -38,7 +37,7 @@ onUnmounted(() => window.removeEventListener('scroll', onScroll))
 <template>
   <Transition name="sticky-bar">
     <div
-      v-if="shown && pastHero"
+      v-if="visible"
       data-cta="sticky"
       class="fixed inset-x-0 bottom-0 z-40 grid grid-cols-[1.6fr_1fr_1fr] gap-2 border-t border-forest/10 bg-white px-3 pb-[max(0.75rem,env(safe-area-inset-bottom))] pt-2.5 shadow-[0_-6px_20px_rgba(0,0,0,0.08)] md:hidden"
     >

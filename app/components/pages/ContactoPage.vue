@@ -255,7 +255,7 @@ async function handleSubmit() {
             <a :href="clinic.mapsUrl" target="_blank" rel="noopener" class="block hover:text-forest">{{
               clinic.address
             }}</a>
-            <a :href="`tel:${clinic.phone.replace(/\\s/g, '')}`" class="block hover:text-forest">{{
+            <a :href="clinic.phoneHref" class="block hover:text-forest">{{
               clinic.phone
             }}</a>
             <a :href="`mailto:${clinic.email}`" class="block hover:text-forest">{{ clinic.email }}</a>

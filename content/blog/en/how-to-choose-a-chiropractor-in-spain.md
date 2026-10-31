@@ -74,7 +74,7 @@ None of these are negotiable. If they show up, go somewhere else:
 
 An article like this is worth nothing if the clinic publishing it exempts itself from its own test, so here are our answers.
 
-Léa Guido holds a degree from the Barcelona College of Chiropractic, after a six-year programme that began at IFEC in France. During her training she also worked as a technique instructor and clinic supervisor at the college. You can read [her full background](/en/about-us/our-team/lea-guido), and meet [the rest of the team](/en/about-us/our-team).
+Léa Guido holds a degree from the Barcelona College of Chiropractic, after a six-year programme that began at IFEC in France. During her training she also worked as a technique instructor and clinic supervisor at the college. You can read [her full background](/en/about-us/our-team/lea-guido/), and meet [the rest of the team](/en/about-us/our-team/).
 
 And the same thing we say about everyone else applies here: **ask to see the documentation.** Do not take a logo on a website at face value, including ours. A clinic that cannot show you a qualification when asked has a problem, and one that takes offence at the question has a different one.
 

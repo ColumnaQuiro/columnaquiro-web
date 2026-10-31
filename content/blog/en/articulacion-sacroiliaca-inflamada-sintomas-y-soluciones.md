@@ -65,7 +65,7 @@ When the cause is inflammatory — ankylosing spondylitis, for example — treat
 
 ## How chiropractic care can help
 
-A chiropractic examination helps identify whether the joint is restricted or overly mobile, so care can be tailored to each case. Specific pelvic adjustments, combined with stabilization exercises, typically bring gradual relief and help prevent flare-ups in mechanical cases. If the pain feels more like [sciatica](/en/symptoms/sciatica) running down the whole leg, or if you're also noticing [hip and leg pain](/en/blog/hip-and-leg-pain-what-it-is-and-how-to-treat-it), it's worth mentioning at your visit — it helps pin down the actual source. For [pregnant patients](/en/who-is-chiropractic-for/pregnant-women), adjustments are tailored specifically to each trimester.
+A chiropractic examination helps identify whether the joint is restricted or overly mobile, so care can be tailored to each case. Specific pelvic adjustments, combined with stabilization exercises, typically bring gradual relief and help prevent flare-ups in mechanical cases. If the pain feels more like [sciatica](/en/symptoms/sciatica/) running down the whole leg, or if you're also noticing [hip and leg pain](/en/blog/hip-and-leg-pain-what-it-is-and-how-to-treat-it/), it's worth mentioning at your visit — it helps pin down the actual source. For [pregnant patients](/en/who-is-chiropractic-for/pregnant-women/), adjustments are tailored specifically to each trimester.
 
 ## Is it good to walk with sacroiliitis?
 

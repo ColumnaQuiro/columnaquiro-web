@@ -2,7 +2,7 @@
 import { computed } from 'vue'
 import { useAppI18n } from '@/composables/useAppI18n'
 import { useSeo } from '@/composables/useSeo'
-import { SITE_URL } from '@/utils/seo'
+import { personJsonLd, type PractitionerKey } from '@/utils/schema'
 import { team } from '@/data/team'
 import BaseButton from '@/components/ui/BaseButton.vue'
 
@@ -13,12 +13,12 @@ const seoText = {
   es: {
     title: 'Nuestro equipo | ColumnaQuiro',
     description:
-      'Conoce a Léa Guido y Jordana Aguar, doctoras en quiropráctica en ColumnaQuiro Valencia, y nuestra filosofía de cuidado natural y personalizado.',
+      'Conoce a Léa Guido y Jordana Aguar, las quiroprácticas de ColumnaQuiro en València: su formación, sus técnicas y cómo trabajan.',
   },
   en: {
     title: 'Our team | ColumnaQuiro',
     description:
-      'Meet Léa Guido and Jordana Aguar, Doctors of Chiropractic at ColumnaQuiro Valencia, and our philosophy of natural, personalized care.',
+      'Meet Léa Guido and Jordana Aguar, the chiropractors at ColumnaQuiro in Valencia: their training, their techniques and how they work.',
   },
 }
 useSeo({
@@ -49,17 +49,10 @@ useHead({
     {
       type: 'application/ld+json',
       innerHTML: () =>
-        JSON.stringify(
-          members.value.map((member) => ({
-            '@context': 'https://schema.org',
-            '@type': 'Person',
-            name: member.name,
-            jobTitle: member.role,
-            description: member.bio,
-            image: `${SITE_URL}${member.photo}`,
-            worksFor: { '@type': 'Chiropractic', name: 'ColumnaQuiro' },
-          })),
-        ),
+        JSON.stringify({
+          '@context': 'https://schema.org',
+          '@graph': (['lea-guido', 'jordana-aguar'] as PractitionerKey[]).map((key) => personJsonLd(key, locale.value)),
+        }),
     },
   ],
 })

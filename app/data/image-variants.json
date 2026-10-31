@@ -1,0 +1,114 @@
+{
+  "/assets/images/blog-artritis-artrosis.jpg": {
+    "width": 1536,
+    "height": 1024,
+    "variants": {
+      "480": "/assets/images/blog-artritis-artrosis-480.webp",
+      "768": "/assets/images/blog-artritis-artrosis-768.webp",
+      "1200": "/assets/images/blog-artritis-artrosis-1200.webp"
+    }
+  },
+  "/assets/images/blog-ciatica-embarazo.jpg": {
+    "width": 1536,
+    "height": 1024,
+    "variants": {
+      "480": "/assets/images/blog-ciatica-embarazo-480.webp",
+      "768": "/assets/images/blog-ciatica-embarazo-768.webp",
+      "1200": "/assets/images/blog-ciatica-embarazo-1200.webp"
+    }
+  },
+  "/assets/images/blog-estiramientos-oficina.jpg": {
+    "width": 1200,
+    "height": 675,
+    "variants": {
+      "480": "/assets/images/blog-estiramientos-oficina-480.webp",
+      "768": "/assets/images/blog-estiramientos-oficina-768.webp"
+    }
+  },
+  "/assets/images/blog-historias-pacientes.jpg": {
+    "width": 568,
+    "height": 378,
+    "variants": {
+      "480": "/assets/images/blog-historias-pacientes-480.webp"
+    }
+  },
+  "/assets/images/blog-maraton-valencia.jpeg": {
+    "width": 2600,
+    "height": 1368,
+    "variants": {
+      "480": "/assets/images/blog-maraton-valencia-480.webp",
+      "768": "/assets/images/blog-maraton-valencia-768.webp",
+      "1200": "/assets/images/blog-maraton-valencia-1200.webp"
+    }
+  },
+  "/assets/images/blog-tunel-carpiano.jpg": {
+    "width": 1600,
+    "height": 900,
+    "variants": {
+      "480": "/assets/images/blog-tunel-carpiano-480.webp",
+      "768": "/assets/images/blog-tunel-carpiano-768.webp",
+      "1200": "/assets/images/blog-tunel-carpiano-1200.webp"
+    }
+  },
+  "/assets/images/blog-valencia-endereza.jpg": {
+    "width": 1536,
+    "height": 2048,
+    "variants": {
+      "480": "/assets/images/blog-valencia-endereza-480.webp",
+      "768": "/assets/images/blog-valencia-endereza-768.webp",
+      "1200": "/assets/images/blog-valencia-endereza-1200.webp"
+    }
+  },
+  "/assets/images/centro-sala-ajuste-2.webp": {
+    "width": 700,
+    "height": 933,
+    "variants": {
+      "480": "/assets/images/centro-sala-ajuste-2-480.webp"
+    }
+  },
+  "/assets/images/centro-sala-ajustes.webp": {
+    "width": 700,
+    "height": 933,
+    "variants": {
+      "480": "/assets/images/centro-sala-ajustes-480.webp"
+    }
+  },
+  "/assets/images/comofunciona-header.webp": {
+    "width": 700,
+    "height": 700,
+    "variants": {
+      "480": "/assets/images/comofunciona-header-480.webp"
+    }
+  },
+  "/assets/images/home-ajuste.avif": {
+    "width": 500,
+    "height": 750,
+    "variants": {
+      "480": "/assets/images/home-ajuste-480.webp"
+    }
+  },
+  "/assets/images/home-hero.jpg": {
+    "width": 1054,
+    "height": 1428,
+    "variants": {
+      "480": "/assets/images/home-hero-480.webp",
+      "768": "/assets/images/home-hero-768.webp"
+    }
+  },
+  "/assets/images/team-lea.avif": {
+    "width": 600,
+    "height": 800,
+    "variants": {
+      "96": "/assets/images/team-lea-96.webp",
+      "192": "/assets/images/team-lea-192.webp"
+    }
+  },
+  "/assets/images/team-jordana.jpg": {
+    "width": 532,
+    "height": 800,
+    "variants": {
+      "96": "/assets/images/team-jordana-96.webp",
+      "192": "/assets/images/team-jordana-192.webp"
+    }
+  }
+}
