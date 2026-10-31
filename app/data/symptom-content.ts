@@ -1,42 +1,98 @@
 export interface SymptomContent {
   title: string
+  /** Search title, when it should say more than the bare condition name. */
+  seoTitle?: string
+  /** Meta description; falls back to intro[0]. */
+  description?: string
   intro: string[]
   signs: string[]
   howChiropracticHelps: string[]
+  /** "See a doctor first" signs, shown as their own section. */
+  redFlags?: string[]
+  /** Blog posts that go deeper on the same condition. */
+  related?: { label: string; href: string }[]
   note?: string
 }
 
 export const symptomContent: Record<string, { es: SymptomContent; en: SymptomContent }> = {
   artrosis: {
     es: {
-      title: 'Artrosis',
-      intro: [
-        'La artrosis es una enfermedad degenerativa que provoca el desgaste progresivo del cartílago articular, especialmente en rodillas, caderas, manos y columna. Es más frecuente a partir de los 50 años, aunque puede aparecer antes por sobrecarga o lesiones previas.',
+      "title": "Artrosis",
+      "seoTitle": "Artrosis: síntomas, ejercicio y tratamiento en Valencia",
+      "description": "Qué es la artrosis, qué síntomas da, por qué el ejercicio es el primer tratamiento y cómo encaja la terapia manual. Y cuándo consultar al médico.",
+      "intro": [
+        "La artrosis es el desgaste progresivo del cartílago de las articulaciones, con cambios en el hueso y en los tejidos de alrededor. Afecta sobre todo a rodillas, caderas, manos y columna, y es más frecuente a partir de los 50 años, aunque puede aparecer antes tras lesiones o sobrecargas.",
+        "Tener artrosis en una radiografía no significa necesariamente tener dolor: muchas personas con cambios importantes no tienen molestias. Lo que más influye en cómo te encuentras es la fuerza de los músculos que rodean la articulación, el peso y lo activa que sea tu vida."
       ],
-      signs: [
-        'Dolor articular que aumenta con el movimiento y mejora con el reposo',
-        'Rigidez, especialmente al levantarse por la mañana',
-        'Crujidos o chasquidos articulares',
-        'Reducción progresiva del rango de movimiento',
+      "signs": [
+        "Dolor articular que aumenta con el uso y mejora con el reposo",
+        "Rigidez por la mañana que dura menos de media hora",
+        "Crujidos al mover la articulación",
+        "Pérdida progresiva de movilidad"
       ],
-      howChiropracticHelps: [
-        'Los ajustes quiroprácticos y el trabajo de movilidad articular pueden ayudar a aliviar la rigidez y mejorar la función de las articulaciones afectadas, complementando el tratamiento médico habitual.',
+      "howChiropracticHelps": [
+        "El primer tratamiento de la artrosis es el ejercicio, junto con el control del peso, según las guías clínicas internacionales. La terapia manual se usa como complemento para aliviar la rigidez y facilitar ese ejercicio.",
+        "En consulta movilizamos con suavidad las articulaciones afectadas y las de alrededor, trabajamos el tejido blando y te pautamos ejercicios de fuerza y movilidad adaptados a tu nivel. No usamos maniobras de fuerza en articulaciones muy degeneradas ni si hay osteoporosis."
       ],
+      "redFlags": [
+        "Articulación hinchada, caliente o enrojecida de repente",
+        "Fiebre con dolor articular",
+        "Dolor que no cede con el reposo y te despierta por la noche",
+        "Deformidad o bloqueo repentino de la articulación"
+      ],
+      "related": [
+        {
+          "label": "Coxartrosis: artrosis de cadera",
+          "href": "/blog/coxartrosis-sintomas-y-beneficios-de-la-quiropractica/"
+        },
+        {
+          "label": "Diferencias entre artritis y artrosis",
+          "href": "/blog/diferencias-entre-artritis-y-artrosis/"
+        },
+        {
+          "label": "Gonalgia: dolor de rodilla",
+          "href": "/blog/gonalgia/"
+        }
+      ]
     },
     en: {
-      title: 'Osteoarthritis',
-      intro: [
-        'Osteoarthritis is a degenerative condition that causes the gradual wearing down of joint cartilage, especially in the knees, hips, hands, and spine. It becomes more common after age 50, though it can appear earlier due to overuse or past injuries.',
+      "title": "Osteoarthritis",
+      "seoTitle": "Osteoarthritis: symptoms, exercise and treatment in Valencia",
+      "description": "What osteoarthritis is, the symptoms it causes, why exercise is the first treatment and where manual therapy fits in. And when to see a doctor.",
+      "intro": [
+        "Osteoarthritis is the gradual wearing of joint cartilage, with changes in the bone and surrounding tissues. It mostly affects the knees, hips, hands and spine, and is more common from around 50, though it can appear earlier after injuries or overuse.",
+        "Having osteoarthritis on an X-ray doesn't necessarily mean having pain: many people with marked changes have no symptoms. What affects how you feel most is the strength of the muscles around the joint, your weight and how active you are."
       ],
-      signs: [
-        'Joint pain that increases with movement and eases with rest',
-        'Stiffness, especially first thing in the morning',
-        'Joint cracking or grinding sensations',
-        'Gradually reduced range of motion',
+      "signs": [
+        "Joint pain that increases with use and eases with rest",
+        "Morning stiffness lasting less than half an hour",
+        "Cracking or grinding when you move the joint",
+        "Gradual loss of movement"
       ],
-      howChiropracticHelps: [
-        'Chiropractic adjustments and joint mobility work can help ease stiffness and improve function in affected joints, complementing standard medical care.',
+      "howChiropracticHelps": [
+        "The first treatment for osteoarthritis is exercise, together with weight management, according to international clinical guidelines. Manual therapy is used as an add-on to ease stiffness and make that exercise easier.",
+        "At the clinic we gently mobilise the affected joints and those around them, work on the soft tissues and set strength and mobility exercises suited to your level. We don't use forceful techniques on badly worn joints or where there is osteoporosis."
       ],
+      "redFlags": [
+        "A joint that suddenly becomes swollen, hot or red",
+        "Fever with joint pain",
+        "Pain that doesn't ease with rest and wakes you at night",
+        "Sudden deformity or locking of the joint"
+      ],
+      "related": [
+        {
+          "label": "Coxarthrosis: hip osteoarthritis",
+          "href": "/en/blog/coxarthrosis-symptoms-and-benefits-of-chiropractic/"
+        },
+        {
+          "label": "Differences between arthritis and osteoarthritis",
+          "href": "/en/blog/differences-between-arthritis-and-osteoarthritis/"
+        },
+        {
+          "label": "Gonalgia: knee pain",
+          "href": "/en/blog/gonalgia-understanding-knee-pain/"
+        }
+      ]
     },
   },
   'deficit-de-atencion': {
@@ -109,34 +165,84 @@ export const symptomContent: Record<string, { es: SymptomContent; en: SymptomCon
   },
   'dolor-de-espalda': {
     es: {
-      title: 'Dolor de espalda',
-      intro: [
-        'El dolor de espalda es uno de los motivos de consulta más frecuentes y puede originarse en los músculos, las articulaciones, los discos intervertebrales o los nervios de la columna. Suele estar relacionado con malas posturas, sobrecarga física o sedentarismo.',
+      "title": "Dolor de espalda",
+      "seoTitle": "Dolor de espalda: causas, alivio y cuándo ir al médico",
+      "description": "Por qué duele la espalda, qué suele haber detrás, qué ayuda de verdad y qué tratamiento tiene respaldo. Y las señales para ir antes al médico.",
+      "intro": [
+        "El dolor de espalda es la causa más frecuente de baja laboral y una de las consultas más habituales. Puede afectar a la zona lumbar, a la parte media de la espalda (entre los omóplatos) o a la parte alta y el cuello.",
+        "Casi siempre es mecánico: músculos cargados, articulaciones rígidas o discos irritados, sin una enfermedad grave detrás. Influyen las posturas mantenidas, la falta de fuerza, el sedentarismo, el estrés y dormir mal. La mayoría de los episodios mejora en pocas semanas, y mantenerse activo ayuda más que el reposo."
       ],
-      signs: [
-        'Dolor localizado o difuso en la espalda',
-        'Rigidez al levantarse o tras estar sentado mucho tiempo',
-        'Molestias que empeoran con ciertos movimientos',
-        'Tensión muscular acompañante',
+      "signs": [
+        "Dolor que cambia con la postura y el movimiento",
+        "Rigidez al levantarte o después de estar sentado",
+        "Contracturas o «nudos» musculares",
+        "Dolor entre los omóplatos en quien trabaja muchas horas sentado"
       ],
-      howChiropracticHelps: [
-        'Los ajustes quiroprácticos ayudan a mejorar la movilidad de la columna y reducir la tensión muscular asociada, abordando la causa mecánica del dolor de forma natural.',
+      "howChiropracticHelps": [
+        "La quiropráctica tiene su mejor respaldo en el dolor de espalda y cuello. Las guías clínicas recomiendan la terapia manual junto con ejercicio, nunca como tratamiento aislado (NICE NG59).",
+        "En consulta buscamos el origen de tu dolor, tratamos las zonas rígidas con ajustes y movilizaciones, y te damos ejercicios y pautas para tu día a día. Revisamos contigo la evolución y, si no mejoras como esperábamos, cambiamos el plan o te derivamos."
       ],
+      "redFlags": [
+        "Pérdida de fuerza o adormecimiento en las piernas o la zona genital",
+        "Cambios al orinar o en las deposiciones",
+        "Fiebre, pérdida de peso sin explicación o antecedentes de cáncer",
+        "Dolor en el pecho o dolor de espalda con falta de aire",
+        "Dolor tras una caída o un golpe fuerte"
+      ],
+      "related": [
+        {
+          "label": "Dolor en la espalda media",
+          "href": "/blog/dolor-de-espalda-media/"
+        },
+        {
+          "label": "Punto gatillo en la espalda",
+          "href": "/blog/punto-gatillo-en-la-espalda-sintomas-y-solucion-quiropractica/"
+        },
+        {
+          "label": "¿Es peligrosa la quiropráctica? Efectos secundarios",
+          "href": "/blog/es-peligrosa-la-quiropractica-efectos-secundarios/"
+        }
+      ]
     },
     en: {
-      title: 'Back Pain',
-      intro: [
-        'Back pain is one of the most common reasons people seek care, and it can originate in the muscles, joints, spinal discs, or nerves of the spine. It is often linked to poor posture, physical overload, or a sedentary lifestyle.',
+      "title": "Back Pain",
+      "seoTitle": "Back pain: causes, relief and when to see a doctor",
+      "description": "Why your back hurts, what usually sits behind it, what really helps and which treatment has evidence. Plus the signs that mean seeing a doctor first.",
+      "intro": [
+        "Back pain is the most common reason for sick leave and one of the most common reasons to see a health professional. It can affect the lower back, the middle of the back (between the shoulder blades) or the upper back and neck.",
+        "It is almost always mechanical: overloaded muscles, stiff joints or irritated discs, with no serious disease behind it. Long-held positions, low strength, inactivity, stress and poor sleep all play a part. Most episodes improve within a few weeks, and staying active helps more than rest."
       ],
-      signs: [
-        'Localized or diffuse back pain',
-        'Stiffness when getting up or after sitting for a long time',
-        'Discomfort that worsens with certain movements',
-        'Accompanying muscle tension',
+      "signs": [
+        "Pain that changes with position and movement",
+        "Stiffness getting up or after sitting",
+        "Muscle spasms or \"knots\"",
+        "Pain between the shoulder blades in people who sit for long hours"
       ],
-      howChiropracticHelps: [
-        'Chiropractic adjustments help improve spinal mobility and reduce the associated muscle tension, naturally addressing the mechanical cause of the pain.',
+      "howChiropracticHelps": [
+        "Chiropractic has its strongest evidence for back and neck pain. Clinical guidelines recommend manual therapy alongside exercise, never on its own (NICE NG59).",
+        "At the clinic we look for the source of your pain, treat stiff areas with adjustments and mobilisation, and give you exercises and advice for everyday life. We review your progress with you and, if you're not improving as expected, we change the plan or refer you."
       ],
+      "redFlags": [
+        "Weakness or numbness in the legs or around the groin",
+        "Changes in bladder or bowel control",
+        "Fever, unexplained weight loss or a history of cancer",
+        "Chest pain, or back pain with shortness of breath",
+        "Pain after a fall or a hard knock"
+      ],
+      "related": [
+        {
+          "label": "Middle back pain",
+          "href": "/en/blog/right-middle-back-pain/"
+        },
+        {
+          "label": "Trigger points in the back",
+          "href": "/en/blog/solutions-trigger-point-on-the-back/"
+        },
+        {
+          "label": "Is chiropractic dangerous? Side effects",
+          "href": "/en/blog/is-chiropractic-dangerous-side-effects/"
+        }
+      ]
     },
   },
   'bajo-rendimiento': {
@@ -205,74 +311,154 @@ export const symptomContent: Record<string, { es: SymptomContent; en: SymptomCon
   },
   'sindrome-del-tunel-carpiano': {
     es: {
-      title: 'Síndrome del túnel carpiano',
-      intro: [
-        'El síndrome del túnel carpiano se produce por la compresión del nervio mediano a su paso por la muñeca, generando dolor, hormigueo y adormecimiento en la mano.',
+      "title": "Síndrome del túnel carpiano",
+      "seoTitle": "Túnel carpiano: síntomas, causas y tratamiento",
+      "description": "Qué es el síndrome del túnel carpiano, cómo distinguirlo de un problema del cuello, qué tratamiento conservador ayuda y cuándo consultar al médico.",
+      "intro": [
+        "El síndrome del túnel carpiano es la compresión del nervio mediano a su paso por la muñeca. Da hormigueo y adormecimiento en el pulgar, el índice, el corazón y parte del anular, a menudo por la noche.",
+        "Es más frecuente en mujeres, durante el embarazo y en trabajos con movimientos repetidos de la muñeca. Algunos síntomas parecidos vienen en realidad del cuello, de una raíz nerviosa irritada, por eso conviene valorar las dos zonas."
       ],
-      signs: [
-        'Hormigueo en pulgar, índice y corazón',
-        'Adormecimiento nocturno de la mano',
-        'Pérdida de fuerza al agarrar objetos',
+      "signs": [
+        "Hormigueo o adormecimiento en los primeros dedos, sobre todo de noche",
+        "Necesidad de sacudir la mano para que se pase",
+        "Torpeza o pérdida de fuerza al coger objetos",
+        "Dolor en la muñeca que puede subir por el antebrazo"
       ],
-      howChiropracticHelps: [
-        'Los ajustes quiroprácticos en muñeca, codo y columna cervical pueden mejorar la movilidad y reducir la presión sobre el nervio mediano, complementando otras medidas como férulas o pausas activas.',
+      "howChiropracticHelps": [
+        "El tratamiento conservador de referencia es una férula nocturna, modificar los gestos repetitivos y ejercicios de deslizamiento del nervio. La evidencia sobre la terapia manual es limitada, así que la usamos como complemento.",
+        "En consulta comprobamos si el origen está en la muñeca, en el cuello o en ambos, movilizamos la muñeca, el codo y la columna cervical, y te enseñamos los ejercicios del nervio y pautas para tu puesto de trabajo."
       ],
+      "redFlags": [
+        "Pérdida de fuerza en la mano o el pulgar",
+        "Músculo de la base del pulgar más delgado que en la otra mano",
+        "Adormecimiento constante que no se va en ningún momento del día",
+        "Síntomas en las dos manos con torpeza al andar"
+      ],
+      "related": [
+        {
+          "label": "Túnel carpiano: causas y soluciones",
+          "href": "/blog/tunel-carpiano-causas-y-soluciones/"
+        },
+        {
+          "label": "Micro-estiramientos para la oficina",
+          "href": "/blog/trabajas-en-oficina-10-micro-estiramientos-avalados/"
+        }
+      ]
     },
     en: {
-      title: 'Carpal Tunnel Syndrome',
-      intro: [
-        'Carpal tunnel syndrome occurs when the median nerve is compressed as it passes through the wrist, causing pain, tingling, and numbness in the hand.',
+      "title": "Carpal Tunnel Syndrome",
+      "seoTitle": "Carpal tunnel syndrome: symptoms, causes and treatment",
+      "description": "What carpal tunnel syndrome is, how to tell it from a neck problem, which conservative treatment helps and when to see a doctor.",
+      "intro": [
+        "Carpal tunnel syndrome is compression of the median nerve as it passes through the wrist. It causes tingling and numbness in the thumb, index, middle and part of the ring finger, often at night.",
+        "It is more common in women, during pregnancy and in jobs with repetitive wrist movements. Some similar symptoms actually come from the neck, from an irritated nerve root, so it is worth assessing both areas."
       ],
-      signs: [
-        'Tingling in the thumb, index, and middle fingers',
-        'Nighttime numbness in the hand',
-        'Loss of grip strength',
+      "signs": [
+        "Tingling or numbness in the first fingers, especially at night",
+        "Needing to shake your hand to make it pass",
+        "Clumsiness or weakness gripping things",
+        "Wrist pain that may spread up the forearm"
       ],
-      howChiropracticHelps: [
-        'Adjustments to the wrist, elbow, and cervical spine can improve mobility and reduce pressure on the median nerve, complementing other measures like splints or active breaks.',
+      "howChiropracticHelps": [
+        "The standard conservative treatment is a night splint, changing repetitive movements and nerve-gliding exercises. The evidence for manual therapy is limited, so we use it as an add-on.",
+        "At the clinic we check whether the source is the wrist, the neck or both, mobilise the wrist, elbow and neck, and teach you the nerve exercises and advice for your workstation."
       ],
+      "redFlags": [
+        "Weakness in the hand or thumb",
+        "The muscle at the base of the thumb looks thinner than on the other hand",
+        "Constant numbness that never goes away",
+        "Symptoms in both hands with unsteadiness walking"
+      ],
+      "related": [
+        {
+          "label": "Carpal tunnel: causes and solutions",
+          "href": "/en/blog/carpal-tunnel-causes-and-solutions/"
+        },
+        {
+          "label": "Micro-stretches for the office",
+          "href": "/en/blog/10-chiropractor-backed-micro-stretches-you-can-do-on-your-desk/"
+        }
+      ]
     },
   },
   ciatica: {
     es: {
-      title: 'Ciática',
-      intro: [
-        'La ciática es el dolor causado por la irritación o compresión del nervio ciático, el más largo y grueso del cuerpo. Nace en la zona lumbar, a partir de las raíces nerviosas L4 a S3, recorre el glúteo y desciende por la parte posterior de la pierna hasta el pie. No es una enfermedad en sí misma, sino un síntoma: aparece cuando alguna estructura de la columna lumbar presiona o irrita este nervio.',
-        'Las causas más habituales son una hernia discal lumbar, el estrechamiento del canal espinal (estenosis), el desplazamiento de una vértebra (espondilolistesis) o la contractura del músculo piriforme, que puede comprimir el nervio a su paso por el glúteo. El sobrepeso, el sedentarismo, las malas posturas mantenidas y los movimientos bruscos al levantar peso aumentan el riesgo de que aparezca.',
-        'A diferencia del dolor de espalda general, que suele quedarse localizado en la zona lumbar, la ciática se caracteriza por irradiarse hacia la pierna siguiendo el trayecto del nervio, y suele ir acompañada de hormigueo, adormecimiento o sensación de debilidad en la pierna afectada.',
+      "title": "Ciática",
+      "seoTitle": "Ciática: síntomas, causas y tratamiento en Valencia",
+      "description": "Qué es la ciática, por qué baja el dolor por la pierna, cuánto tarda en mejorar y qué tratamiento ayuda. Y las señales para ir al médico sin esperar.",
+      "intro": [
+        "La ciática es el dolor que nace en la zona lumbar o el glúteo y baja por detrás de la pierna, a veces hasta el pie, siguiendo el recorrido del nervio ciático. Suele ir con hormigueo o adormecimiento, y a menudo duele más en la pierna que en la espalda.",
+        "La causa más frecuente es una hernia o protrusión de un disco lumbar que irrita la raíz del nervio. Otras veces viene de un estrechamiento del canal lumbar o, más raramente, de la tensión de los músculos del glúteo. La mayoría de las ciáticas mejora en 6 a 12 semanas sin cirugía."
       ],
-      signs: [
-        'Dolor que se irradia desde la zona lumbar o el glúteo hasta la pierna, generalmente en un solo lado',
-        'Hormigueo o adormecimiento en la pierna o el pie',
-        'Sensación de debilidad muscular en la pierna afectada',
-        'Dolor que empeora al estar sentado, toser o estornudar',
-        'Alivio parcial del dolor al caminar o cambiar de postura',
+      "signs": [
+        "Dolor que baja por detrás del muslo, a veces hasta la pantorrilla o el pie",
+        "Hormigueo, quemazón o adormecimiento en la pierna",
+        "Dolor que empeora al sentarte, toser o estornudar",
+        "Normalmente afecta solo a una pierna"
       ],
-      howChiropracticHelps: [
-        'Los ajustes quiroprácticos y las técnicas de movilización de la columna lumbar pueden ayudar a reducir la presión sobre el nervio ciático, mejorar la movilidad de las vértebras implicadas y aliviar el dolor de forma natural.',
-        'El tratamiento suele combinarse con ejercicios específicos de estiramiento y fortalecimiento, y con pautas posturales para el día a día, adaptando el plan de cuidado a la causa concreta y a la intensidad de cada caso.',
+      "howChiropracticHelps": [
+        "Las guías clínicas recomiendan la terapia manual en la ciática como parte de un plan que incluya ejercicio (NICE NG59). El objetivo es reducir la irritación del nervio y recuperar el movimiento, no «recolocar» el disco.",
+        "En consulta comprobamos la fuerza, los reflejos y la sensibilidad de la pierna antes de tratar. Usamos técnicas suaves adaptadas a la fase en que estás, movilizaciones del nervio y ejercicios progresivos. Si hay signos de compresión importante del nervio, te derivamos a tu médico antes de seguir."
       ],
-      note: 'Si el dolor se acompaña de pérdida de fuerza progresiva en la pierna, afecta a ambas piernas, o se acompaña de pérdida de control de la vejiga o los intestinos, acude a un servicio médico de urgencias.',
+      "redFlags": [
+        "Pérdida de fuerza en la pierna o el pie (por ejemplo, el pie «cae» al andar)",
+        "Adormecimiento en la zona genital o cambios al orinar o en las deposiciones: es una urgencia",
+        "Ciática en las dos piernas a la vez",
+        "Dolor que empeora semana a semana pese al tratamiento"
+      ],
+      "related": [
+        {
+          "label": "Ciática en el embarazo",
+          "href": "/blog/ciatica-en-el-embarazo/"
+        },
+        {
+          "label": "Dolor de cadera y de piernas: causas y tratamiento",
+          "href": "/blog/dolor-de-cadera-y-piernas/"
+        },
+        {
+          "label": "Hernia discal",
+          "href": "/sintomas/hernia-discal/"
+        }
+      ]
     },
     en: {
-      title: 'Sciatica',
-      intro: [
-        'Sciatica is pain caused by irritation or compression of the sciatic nerve, the longest and thickest nerve in the body. It originates in the lower back, from the L4 to S3 nerve roots, runs through the buttock, and travels down the back of the leg to the foot. It isn\'t a condition in itself but a symptom: it appears when a structure in the lumbar spine presses on or irritates this nerve.',
-        'The most common causes are a lumbar herniated disc, narrowing of the spinal canal (stenosis), a vertebra shifting out of place (spondylolisthesis), or tightness in the piriformis muscle, which can compress the nerve as it passes through the buttock. Excess weight, a sedentary lifestyle, sustained poor posture, and sudden movements while lifting heavy objects all increase the risk of it appearing.',
-        'Unlike general back pain, which tends to stay localized in the lower back, sciatica is marked by pain that radiates down the leg along the path of the nerve, usually accompanied by tingling, numbness, or a feeling of weakness in the affected leg.',
+      "title": "Sciatica",
+      "seoTitle": "Sciatica: symptoms, causes and treatment in Valencia",
+      "description": "What sciatica is, why the pain runs down your leg, how long it takes to improve and what helps. Plus the signs that mean seeing a doctor straight away.",
+      "intro": [
+        "Sciatica is pain that starts in the lower back or buttock and runs down the back of the leg, sometimes to the foot, following the sciatic nerve. It often comes with tingling or numbness, and the leg frequently hurts more than the back.",
+        "The most common cause is a herniated or bulging lumbar disc irritating the nerve root. Sometimes it comes from narrowing of the spinal canal or, less often, from tight buttock muscles. Most sciatica improves within 6 to 12 weeks without surgery."
       ],
-      signs: [
-        'Pain radiating from the lower back or buttock down the leg, usually on one side',
-        'Tingling or numbness in the leg or foot',
-        'A feeling of muscle weakness in the affected leg',
-        'Pain that worsens when sitting, coughing, or sneezing',
-        'Partial relief when walking or changing position',
+      "signs": [
+        "Pain running down the back of the thigh, sometimes to the calf or foot",
+        "Tingling, burning or numbness in the leg",
+        "Pain that gets worse sitting, coughing or sneezing",
+        "Usually affects one leg only"
       ],
-      howChiropracticHelps: [
-        'Chiropractic adjustments and lumbar spine mobilization techniques can help reduce pressure on the sciatic nerve, improve mobility in the affected vertebrae, and naturally ease the pain.',
-        'Treatment is often combined with specific stretching and strengthening exercises and day-to-day postural guidance, tailoring the care plan to the underlying cause and severity of each case.',
+      "howChiropracticHelps": [
+        "Clinical guidelines recommend manual therapy for sciatica as part of a plan that includes exercise (NICE NG59). The aim is to calm the irritated nerve and restore movement, not to \"put the disc back\".",
+        "At the clinic we check your leg's strength, reflexes and sensation before treating. We use gentle techniques suited to the stage you're at, nerve mobilisation and progressive exercises. If there are signs of significant nerve compression, we refer you to your doctor before going further."
       ],
-      note: 'If the pain comes with progressive leg weakness, affects both legs, or is accompanied by loss of bladder or bowel control, seek urgent medical care.',
+      "redFlags": [
+        "Weakness in the leg or foot (for example, your foot drops when you walk)",
+        "Numbness around the groin or changes in bladder or bowel control: this is an emergency",
+        "Sciatica in both legs at once",
+        "Pain that gets worse week by week despite treatment"
+      ],
+      "related": [
+        {
+          "label": "Sciatica in pregnancy",
+          "href": "/en/blog/sciatica-in-pregnancy/"
+        },
+        {
+          "label": "Hip and leg pain: causes and treatment",
+          "href": "/en/blog/hip-and-leg-pain-what-it-is-and-how-to-treat-it/"
+        },
+        {
+          "label": "Herniated disc",
+          "href": "/en/symptoms/herniated-disc/"
+        }
+      ]
     },
   },
   colicos: {
@@ -371,67 +557,165 @@ export const symptomContent: Record<string, { es: SymptomContent; en: SymptomCon
   },
   'dolor-de-cervicales-y-cabeza': {
     es: {
-      title: 'Dolor de cervicales y cabeza',
-      intro: [
-        'Muchos dolores de cabeza tienen su origen en tensiones o disfunciones de la columna cervical, un tipo conocido como cefalea cervicogénica.',
+      "title": "Dolor de cervicales y cabeza",
+      "seoTitle": "Dolor de cabeza por cervicales: causas y tratamiento",
+      "description": "Cuándo el dolor de cabeza viene del cuello, cómo distinguirlo de la migraña y qué tratamiento tiene respaldo. Y las señales para ir al médico.",
+      "intro": [
+        "Muchos dolores de cabeza empiezan en el cuello. Se llaman cefaleas cervicogénicas: nacen en las articulaciones y los músculos de la parte alta del cuello y se notan en la nuca, la sien o detrás del ojo, casi siempre del mismo lado.",
+        "Es lo que mucha gente llama «migraña cervical», aunque no es una migraña. Suele aparecer o empeorar tras horas frente a la pantalla, con estrés o después de un latigazo cervical, y va con rigidez de cuello."
       ],
-      signs: [
-        'Dolor de cabeza que empieza en la nuca',
-        'Tensión en cuello y hombros',
-        'Empeoramiento con posturas mantenidas frente a pantallas',
+      "signs": [
+        "Dolor que empieza en la nuca y sube hacia la frente o el ojo",
+        "Casi siempre en el mismo lado",
+        "Empeora al mover el cuello o al mantener una postura",
+        "Rigidez de cuello y dolor al presionar la base del cráneo"
       ],
-      howChiropracticHelps: [
-        'Los ajustes quiroprácticos cervicales y el trabajo de movilidad pueden reducir la frecuencia e intensidad de este tipo de dolor de cabeza, abordando su origen mecánico.',
+      "howChiropracticHelps": [
+        "En el dolor de cabeza cervicogénico, la terapia manual combinada con ejercicios para la musculatura profunda del cuello redujo la frecuencia y la intensidad del dolor en un ensayo clínico, con efecto mantenido al año (Jull y cols., Spine, 2002).",
+        "En consulta comprobamos si tu dolor de cabeza tiene un componente cervical, tratamos la movilidad de la parte alta del cuello y te enseñamos esos ejercicios. Si tus dolores de cabeza encajan más con una migraña, te lo decimos y te orientamos hacia tu médico o un neurólogo."
       ],
+      "redFlags": [
+        "Dolor de cabeza repentino y muy intenso, «el peor de tu vida»",
+        "Fiebre con rigidez de cuello",
+        "Pérdida de fuerza, adormecimiento, visión doble, confusión o dificultad para hablar",
+        "Dolor de cabeza después de un golpe en la cabeza",
+        "Un dolor de cabeza nuevo y distinto a partir de los 50 años"
+      ],
+      "related": [
+        {
+          "label": "Dolor de cabeza por cervicales y «migraña cervical»: guía completa",
+          "href": "/blog/guia-completa-para-tratar-el-dolor-de-cabeza-por-cervicales/"
+        },
+        {
+          "label": "¿Puede la cervical afectar al oído?",
+          "href": "/blog/puede-la-cervical-afectar-el-oido-descubre-como-y-por-que/"
+        }
+      ]
     },
     en: {
-      title: 'Neck and Head Pain',
-      intro: [
-        'Many headaches originate from tension or dysfunction in the cervical spine — a type known as cervicogenic headache.',
+      "title": "Neck and Head Pain",
+      "seoTitle": "Headaches from the neck: causes and treatment",
+      "description": "When a headache comes from your neck, how to tell it from migraine and which treatment has evidence. Plus the signs that mean seeing a doctor.",
+      "intro": [
+        "Many headaches start in the neck. They are called cervicogenic headaches: they come from the joints and muscles at the top of the neck and are felt at the base of the skull, the temple or behind the eye, almost always on the same side.",
+        "It's what many people call a \"cervical migraine\", but it isn't a migraine. It tends to start or get worse after hours at a screen, with stress or after whiplash, and comes with neck stiffness."
       ],
-      signs: [
-        'Headache that starts at the base of the skull',
-        'Neck and shoulder tension',
-        'Worsens with sustained screen-facing postures',
+      "signs": [
+        "Pain that starts at the base of the skull and moves up to the forehead or eye",
+        "Almost always on the same side",
+        "Gets worse moving your neck or holding a position",
+        "Neck stiffness and tenderness at the base of the skull"
       ],
-      howChiropracticHelps: [
-        'Cervical adjustments and mobility work can reduce the frequency and intensity of this type of headache by addressing its mechanical origin.',
+      "howChiropracticHelps": [
+        "For cervicogenic headache, manual therapy combined with exercises for the deep neck muscles reduced how often and how badly people had headaches in a clinical trial, with the effect lasting at a year (Jull et al., Spine, 2002).",
+        "At the clinic we check whether your headache has a neck component, treat the mobility of the top of your neck and teach you those exercises. If your headaches look more like migraine, we tell you and point you to your doctor or a neurologist."
       ],
+      "redFlags": [
+        "A sudden, extremely severe headache, \"the worst of your life\"",
+        "Fever with a stiff neck",
+        "Weakness, numbness, double vision, confusion or trouble speaking",
+        "A headache after a blow to the head",
+        "A new, different headache after age 50"
+      ],
+      "related": [
+        {
+          "label": "Headaches from the neck and \"cervical migraine\": a complete guide",
+          "href": "/en/blog/complete-guide-to-treating-cervical-headache/"
+        },
+        {
+          "label": "Can your neck affect your ear?",
+          "href": "/en/blog/can-the-cervical-affect-the-ear/"
+        }
+      ]
     },
   },
   'dolor-de-cuello': {
     es: {
-      title: 'Dolor de cuello',
-      intro: [
-        'El dolor de cuello suele estar relacionado con malas posturas mantenidas, estrés o el uso prolongado de dispositivos móviles y ordenadores.',
+      "title": "Dolor de cuello",
+      "seoTitle": "Dolor de cuello y cervicalgia: causas y tratamiento",
+      "description": "Por qué duele el cuello, qué lo empeora, qué tratamiento tiene respaldo y qué puedes hacer en casa. Y cuándo hay que ir antes al médico.",
+      "intro": [
+        "El dolor de cuello, o cervicalgia, es muy frecuente en personas que pasan muchas horas frente a una pantalla o con la cabeza inclinada hacia el móvil. Suele ir con rigidez y tensión en los hombros y la parte alta de la espalda.",
+        "En la mayoría de los casos es mecánico: viene de las articulaciones y los músculos del cuello, cargados por posturas mantenidas, estrés o un mal gesto. También puede aparecer después de un latigazo cervical. Casi siempre mejora en pocas semanas con movimiento y tratamiento."
       ],
-      signs: [
-        'Rigidez al girar la cabeza',
-        'Tensión muscular en cuello y hombros',
-        'Dolor que empeora al final del día',
+      "signs": [
+        "Dolor y rigidez al girar o inclinar la cabeza",
+        "Tensión en hombros y trapecios",
+        "Dolor de cabeza que nace en la nuca",
+        "A veces, dolor que baja hacia el brazo"
       ],
-      howChiropracticHelps: [
-        'Los ajustes cervicales ayudan a restaurar la movilidad y reducir la tensión muscular, aliviando el dolor de forma natural.',
+      "howChiropracticHelps": [
+        "En el dolor de cuello, la combinación de terapia manual y ejercicio ofrece beneficios modestos pero reales según las revisiones (Gross y cols., revisión Cochrane, 2015). Es lo que hacemos en consulta: ajustes y movilizaciones suaves en las zonas rígidas del cuello y la espalda alta, y ejercicios de fuerza para la musculatura profunda del cuello.",
+        "Revisamos también tu puesto de trabajo y tus hábitos con el móvil, porque cambiar eso es lo que hace que el alivio dure."
       ],
+      "redFlags": [
+        "Dolor tras un accidente o un golpe fuerte",
+        "Hormigueo, adormecimiento o pérdida de fuerza en los brazos",
+        "Mareo con visión doble, dificultad para hablar o para tragar",
+        "Fiebre con rigidez de cuello",
+        "Dolor de cabeza repentino y muy intenso"
+      ],
+      "related": [
+        {
+          "label": "Contractura en el cuello: causas y soluciones",
+          "href": "/blog/contractura-en-el-cuello-causas-sintomas-y-soluciones/"
+        },
+        {
+          "label": "Rectificación cervical y lordosis",
+          "href": "/blog/rectificacion-de-cervicales-sintomas-y-tratamiento-quiropractico/"
+        },
+        {
+          "label": "Pinzamiento del nervio en el trapecio",
+          "href": "/blog/pinzamiento-nervio-trapecio/"
+        }
+      ]
     },
     en: {
-      title: 'Neck Pain',
-      intro: [
-        'Neck pain is often related to sustained poor posture, stress, or prolonged use of mobile devices and computers.',
+      "title": "Neck Pain",
+      "seoTitle": "Neck pain: causes and treatment in Valencia",
+      "description": "Why your neck hurts, what makes it worse, which treatment has evidence and what you can do at home. And when to see a doctor first.",
+      "intro": [
+        "Neck pain is very common in people who spend long hours at a screen or with their head tilted towards a phone. It usually comes with stiffness and tension in the shoulders and upper back.",
+        "In most cases it is mechanical: it comes from the joints and muscles of the neck, loaded by long-held positions, stress or an awkward movement. It can also follow whiplash. It almost always improves within a few weeks with movement and treatment."
       ],
-      signs: [
-        'Stiffness when turning the head',
-        'Muscle tension in the neck and shoulders',
-        'Pain that worsens by the end of the day',
+      "signs": [
+        "Pain and stiffness turning or tilting your head",
+        "Tension in the shoulders and trapezius",
+        "Headaches that start at the base of the skull",
+        "Sometimes, pain running into the arm"
       ],
-      howChiropracticHelps: [
-        'Cervical adjustments help restore mobility and reduce muscle tension, naturally easing the pain.',
+      "howChiropracticHelps": [
+        "For neck pain, combining manual therapy with exercise gives modest but real benefits according to the reviews (Gross et al., Cochrane review, 2015). That's what we do at the clinic: gentle adjustments and mobilisation for the stiff areas of the neck and upper back, and strengthening exercises for the deep neck muscles.",
+        "We also look at your workstation and phone habits, because changing those is what makes the relief last."
       ],
+      "redFlags": [
+        "Pain after an accident or a hard knock",
+        "Tingling, numbness or weakness in the arms",
+        "Dizziness with double vision, trouble speaking or swallowing",
+        "Fever with a stiff neck",
+        "A sudden, extremely severe headache"
+      ],
+      "related": [
+        {
+          "label": "Neck contracture: causes and solutions",
+          "href": "/en/blog/neck-contracture/"
+        },
+        {
+          "label": "Straight neck and cervical lordosis",
+          "href": "/en/blog/straight-neck-and-cervical-lordosis/"
+        },
+        {
+          "label": "Pinched nerve in the trapezius",
+          "href": "/en/blog/trapezius-pinched-nerve/"
+        }
+      ]
     },
   },
   escoliosis: {
     es: {
       title: 'Escoliosis',
+      seoTitle: "Escoliosis: señales, seguimiento y qué puede hacer la quiropráctica",
+      description: "Qué es la escoliosis, qué señales vigilar, cómo se sigue y trata, y qué puede y no puede hacer la quiropráctica.",
       intro: [
         'La escoliosis es una curvatura lateral de la columna, con algo de rotación de las vértebras. Puede aparecer en la infancia, la adolescencia o la edad adulta, y su seguimiento debe hacerlo un traumatólogo o especialista en columna.',
         'La forma más frecuente es la escoliosis idiopática del adolescente, que suele hacerse visible entre los 10 y los 15 años, durante el estirón. En adultos, la escoliosis puede venir de la adolescencia o aparecer con el desgaste de la columna. Las señales que conviene vigilar en tu hijo o hija las contamos en <a href="/blog/escoliosis-adolescencia/" class="font-semibold text-gold-dark underline">escoliosis en la adolescencia</a>.',
@@ -453,6 +737,8 @@ export const symptomContent: Record<string, { es: SymptomContent; en: SymptomCon
     },
     en: {
       title: 'Scoliosis',
+      seoTitle: "Scoliosis: signs, monitoring and what chiropractic can do",
+      description: "What scoliosis is, which signs to watch for, how it is monitored and treated, and what chiropractic can and cannot do.",
       intro: [
         'Scoliosis is a sideways curve of the spine, with some rotation of the vertebrae. It can appear in childhood, adolescence or adulthood, and it should be monitored by an orthopaedic or spine specialist.',
         'The most common form is adolescent idiopathic scoliosis, which usually becomes visible between 10 and 15, during the growth spurt. In adults, scoliosis may date from adolescence or develop with wear on the spine. The signs to watch for in your child are in <a href="/en/blog/adolescent-scoliosis/" class="font-semibold text-gold-dark underline">adolescent scoliosis</a>.',
@@ -507,94 +793,216 @@ export const symptomContent: Record<string, { es: SymptomContent; en: SymptomCon
   },
   fibromialgia: {
     es: {
-      title: 'Fibromialgia',
-      intro: [
-        'La fibromialgia es una condición crónica caracterizada por dolor musculoesquelético generalizado, fatiga y sensibilidad en puntos específicos del cuerpo.',
+      "title": "Fibromialgia",
+      "seoTitle": "Fibromialgia: qué ayuda y qué esperar de la quiropráctica",
+      "description": "Qué es la fibromialgia, qué tratamiento tiene más respaldo y qué papel puede tener la terapia manual, sin promesas. Y cuándo consultar al médico.",
+      "intro": [
+        "La fibromialgia es una condición crónica con dolor generalizado, cansancio, sueño poco reparador y, a menudo, dificultades de concentración. Se relaciona con una mayor sensibilidad del sistema nervioso al dolor, no con un daño en los músculos o las articulaciones.",
+        "Su diagnóstico lo hace el médico, y el tratamiento funciona mejor cuando combina varios enfoques: ejercicio adaptado, buena higiene del sueño, manejo del estrés y, cuando hace falta, medicación y apoyo psicológico."
       ],
-      signs: [
-        'Dolor generalizado y persistente',
-        'Fatiga crónica',
-        'Alteraciones del sueño',
-        'Sensibilidad al tacto en zonas concretas',
+      "signs": [
+        "Dolor generalizado durante más de tres meses",
+        "Cansancio que no mejora con el descanso",
+        "Sueño poco reparador",
+        "Sensibilidad aumentada al tacto"
       ],
-      howChiropracticHelps: [
-        'Los ajustes quiroprácticos suaves y el trabajo de tejido blando pueden ayudar a aliviar la tensión muscular y mejorar la calidad de vida, siempre como parte de un abordaje multidisciplinar junto con el equipo médico.',
+      "howChiropracticHelps": [
+        "El tratamiento con más respaldo en la fibromialgia es el ejercicio adaptado y progresivo, según las recomendaciones europeas (EULAR, 2016). La evidencia sobre la terapia manual es débil, así que no te vamos a prometer resultados.",
+        "Lo que sí podemos hacer es tratar con mucha suavidad las zonas de más tensión, como el cuello y la espalda, ayudarte a empezar a moverte sin que el dolor se dispare, y coordinarnos con tu médico. Si no notas beneficio en unas pocas sesiones, te lo diremos."
       ],
+      "redFlags": [
+        "Fiebre, pérdida de peso sin explicación o sudores nocturnos",
+        "Articulaciones hinchadas o enrojecidas",
+        "Pérdida de fuerza real en brazos o piernas",
+        "Síntomas nuevos que no encajan con los habituales"
+      ]
     },
     en: {
-      title: 'Fibromyalgia',
-      intro: [
-        'Fibromyalgia is a chronic condition characterized by widespread musculoskeletal pain, fatigue, and tenderness at specific points on the body.',
+      "title": "Fibromyalgia",
+      "seoTitle": "Fibromyalgia: what helps and what to expect from chiropractic",
+      "description": "What fibromyalgia is, which treatment has the most evidence and what role manual therapy can play, without promises. And when to see a doctor.",
+      "intro": [
+        "Fibromyalgia is a chronic condition with widespread pain, tiredness, unrefreshing sleep and often difficulty concentrating. It is linked to increased sensitivity of the nervous system to pain, not to damage in the muscles or joints.",
+        "It is diagnosed by a doctor, and treatment works best when it combines several approaches: tailored exercise, good sleep habits, stress management and, where needed, medication and psychological support."
       ],
-      signs: [
-        'Widespread, persistent pain',
-        'Chronic fatigue',
-        'Sleep disturbances',
-        'Tenderness to touch in specific areas',
+      "signs": [
+        "Widespread pain for more than three months",
+        "Tiredness that doesn't improve with rest",
+        "Unrefreshing sleep",
+        "Increased sensitivity to touch"
       ],
-      howChiropracticHelps: [
-        'Gentle adjustments and soft-tissue work can help ease muscle tension and improve quality of life, always as part of a multidisciplinary approach alongside the medical team.',
+      "howChiropracticHelps": [
+        "The treatment with the most evidence for fibromyalgia is tailored, progressive exercise, according to the European recommendations (EULAR, 2016). The evidence for manual therapy is weak, so we will not promise you results.",
+        "What we can do is treat the tensest areas, such as the neck and back, very gently, help you start moving without the pain flaring, and work with your doctor. If you don't feel any benefit within a few sessions, we'll tell you."
       ],
+      "redFlags": [
+        "Fever, unexplained weight loss or night sweats",
+        "Swollen or red joints",
+        "Real weakness in the arms or legs",
+        "New symptoms that are different from your usual ones"
+      ]
     },
   },
   'hernia-discal': {
     es: {
-      title: 'Hernia discal',
-      intro: [
-        'Una hernia discal ocurre cuando el material interno de un disco intervertebral se desplaza, pudiendo comprimir estructuras nerviosas cercanas.',
+      "title": "Hernia discal",
+      "seoTitle": "Hernia discal lumbar y cervical: síntomas y tratamiento",
+      "description": "Qué es una hernia discal, por qué no siempre duele, cuánto tarda en mejorar y qué tratamiento ayuda sin cirugía. Y cuándo hay que ir al médico.",
+      "intro": [
+        "Los discos son los amortiguadores que hay entre las vértebras. Hablamos de hernia discal cuando parte del disco sale de su sitio y puede presionar o irritar una raíz nerviosa. Es más frecuente en la zona lumbar y en el cuello.",
+        "Una hernia en la resonancia no siempre explica el dolor: los cambios en los discos son muy frecuentes en personas sin ninguna molestia, y más con la edad (Brinjikji y cols., American Journal of Neuroradiology, 2015). Lo que importa son los síntomas y la exploración. La mayoría de las hernias que dan dolor mejora en semanas o meses sin cirugía, y muchas se reabsorben solas."
       ],
-      signs: [
-        'Dolor localizado que puede irradiarse a brazo o pierna',
-        'Hormigueo o adormecimiento',
-        'Debilidad muscular en casos más avanzados',
+      "signs": [
+        "Dolor lumbar o cervical que se irradia a la pierna o al brazo",
+        "Hormigueo o adormecimiento en una zona concreta de la pierna o la mano",
+        "Dolor que empeora al sentarte, toser o agacharte",
+        "A veces, pérdida de fuerza en la pierna o el brazo"
       ],
-      howChiropracticHelps: [
-        'Los ajustes quiroprácticos y las técnicas de descompresión pueden ayudar a reducir la presión sobre el disco y aliviar los síntomas asociados, en casos leves o moderados.',
+      "howChiropracticHelps": [
+        "El tratamiento de primera línea es conservador: mantenerse activo, ejercicio y terapia manual. En consulta adaptamos la técnica a tu caso, con movilizaciones suaves y sin maniobras de fuerza en el nivel afectado cuando hay signos de compresión del nervio.",
+        "Trabajamos la movilidad del resto de la columna y la cadera, y te damos ejercicios progresivos para que recuperes la tolerancia a estar sentado, andar y cargar peso. Antes de empezar revisamos tus pruebas, si las tienes, y comprobamos fuerza, reflejos y sensibilidad."
       ],
+      "redFlags": [
+        "Pérdida de fuerza que avanza en la pierna, el pie, el brazo o la mano",
+        "Adormecimiento en la zona genital o cambios al orinar o en las deposiciones",
+        "Torpeza en las manos o inestabilidad al andar (en hernias cervicales)",
+        "Dolor insoportable que no mejora con nada"
+      ],
+      "related": [
+        {
+          "label": "¿Es bueno el calor para las hernias discales?",
+          "href": "/blog/es-bueno-el-calor-para-las-hernias-discales/"
+        },
+        {
+          "label": "Protrusión discal cervical",
+          "href": "/blog/protusion-discal-cervical/"
+        },
+        {
+          "label": "Deshidratación discal",
+          "href": "/blog/deshidratacion-discales-sintomas-y-soluciones-quiropracticas/"
+        }
+      ]
     },
     en: {
-      title: 'Herniated Disc',
-      intro: [
-        'A herniated disc occurs when the inner material of a spinal disc shifts out of place, potentially compressing nearby nerve structures.',
+      "title": "Herniated Disc",
+      "seoTitle": "Herniated disc in the back or neck: symptoms and treatment",
+      "description": "What a herniated disc is, why it doesn't always hurt, how long it takes to improve and what helps without surgery. And when to see a doctor.",
+      "intro": [
+        "Discs are the shock absorbers between the vertebrae. A herniated disc is when part of the disc moves out of place and can press on or irritate a nerve root. It is most common in the lower back and the neck.",
+        "A herniation on an MRI doesn't always explain pain: disc changes are very common in people with no symptoms at all, and more so with age (Brinjikji et al., American Journal of Neuroradiology, 2015). What matters is your symptoms and the examination. Most painful herniations improve within weeks or months without surgery, and many are reabsorbed on their own."
       ],
-      signs: [
-        'Localized pain that may radiate to the arm or leg',
-        'Tingling or numbness',
-        'Muscle weakness in more advanced cases',
+      "signs": [
+        "Lower back or neck pain that spreads into the leg or arm",
+        "Tingling or numbness in a specific area of the leg or hand",
+        "Pain that gets worse sitting, coughing or bending",
+        "Sometimes, weakness in the leg or arm"
       ],
-      howChiropracticHelps: [
-        'Chiropractic adjustments and decompression techniques can help reduce pressure on the disc and ease associated symptoms in mild to moderate cases.',
+      "howChiropracticHelps": [
+        "First-line treatment is conservative: staying active, exercise and manual therapy. At the clinic we adapt the technique to your case, with gentle mobilisation and no forceful techniques at the affected level when there are signs of nerve compression.",
+        "We work on the mobility of the rest of your spine and hips, and give you progressive exercises to rebuild your tolerance for sitting, walking and lifting. Before starting we review any scans you have and check strength, reflexes and sensation."
       ],
+      "redFlags": [
+        "Weakness that is getting worse in the leg, foot, arm or hand",
+        "Numbness around the groin or changes in bladder or bowel control",
+        "Clumsy hands or unsteadiness walking (with neck herniations)",
+        "Unbearable pain that nothing eases"
+      ],
+      "related": [
+        {
+          "label": "Is heat good for herniated discs?",
+          "href": "/en/blog/is-heat-good-for-herniated-discs/"
+        },
+        {
+          "label": "Cervical disc protrusion",
+          "href": "/en/blog/cervical-disc-protrusion/"
+        },
+        {
+          "label": "Disc dehydration",
+          "href": "/en/blog/disc-dehydration-symptoms-and-chiropractic-solutions/"
+        }
+      ]
     },
   },
   lumbalgia: {
     es: {
-      title: 'Lumbalgia',
-      intro: [
-        'La lumbalgia es el dolor localizado en la parte baja de la espalda, una de las dolencias más comunes relacionadas con la postura y la sobrecarga mecánica.',
+      "title": "Lumbalgia",
+      "seoTitle": "Lumbalgia: causas, síntomas y tratamiento en Valencia",
+      "description": "Qué es la lumbalgia, por qué aparece, cuánto suele durar y qué tratamiento tiene respaldo. Y cuándo hay que ir antes al médico.",
+      "intro": [
+        "La lumbalgia es el dolor en la parte baja de la espalda, entre las costillas y los glúteos. Es uno de los motivos de consulta más frecuentes: la mayoría de las personas la sufre alguna vez en la vida.",
+        "En casi todos los casos es una lumbalgia mecánica: viene de los músculos, las articulaciones o los discos de la zona lumbar, sin una enfermedad grave detrás. Suele aparecer tras un esfuerzo, una postura mantenida o un periodo de estrés y poco movimiento. La mayoría mejora en pocas semanas, aunque en algunas personas vuelve o se hace persistente."
       ],
-      signs: [
-        'Dolor en la zona lumbar',
-        'Rigidez al agacharse o incorporarse',
-        'Tensión muscular en la zona baja de la espalda',
+      "signs": [
+        "Dolor en la zona lumbar que empeora al agacharte, levantar peso o estar mucho tiempo sentado",
+        "Rigidez por la mañana o al levantarte de la silla",
+        "Contractura o sensación de «espalda bloqueada»",
+        "Dolor que puede irradiar a los glúteos o la parte alta del muslo"
       ],
-      howChiropracticHelps: [
-        'Los ajustes quiroprácticos lumbares mejoran la movilidad de la columna y reducen la tensión muscular, aliviando el dolor de forma natural.',
+      "howChiropracticHelps": [
+        "En la lumbalgia es donde la quiropráctica tiene más respaldo. En el dolor lumbar crónico, la manipulación vertebral consigue resultados parecidos a los de otros tratamientos recomendados (Rubinstein y cols., BMJ, 2019), y las guías clínicas la recomiendan siempre junto con ejercicio (NICE NG59).",
+        "En consulta valoramos de dónde viene tu dolor y lo tratamos con ajustes, movilizaciones y trabajo de tejido blando. Te damos ejercicios para casa y pautas para el trabajo, que son lo que más ayuda a que no vuelva. Si en unas sesiones no mejoras como esperábamos, te derivamos."
       ],
+      "redFlags": [
+        "Pérdida de fuerza en una o las dos piernas",
+        "Adormecimiento en la zona genital o los glúteos, o cambios al orinar o en las deposiciones",
+        "Fiebre, pérdida de peso sin explicación o antecedentes de cáncer",
+        "Dolor tras una caída o un golpe fuerte",
+        "Dolor que no cambia con la postura y te despierta por la noche"
+      ],
+      "related": [
+        {
+          "label": "Contracturas musculares lumbares",
+          "href": "/blog/contracturas-musculares-lumbares/"
+        },
+        {
+          "label": "¿Cuántas sesiones de quiropráctica necesito?",
+          "href": "/blog/cuantas-sesiones-de-quiropractica-necesito/"
+        },
+        {
+          "label": "Micro-estiramientos para la oficina",
+          "href": "/blog/trabajas-en-oficina-10-micro-estiramientos-avalados/"
+        }
+      ]
     },
     en: {
-      title: 'Low Back Pain',
-      intro: [
-        'Low back pain is discomfort located in the lower back, one of the most common ailments related to posture and mechanical overload.',
+      "title": "Lower Back Pain",
+      "seoTitle": "Lower back pain: causes, symptoms and treatment in Valencia",
+      "description": "What lower back pain is, why it happens, how long it usually lasts and which treatment has evidence behind it. And when to see a doctor first.",
+      "intro": [
+        "Lower back pain is pain in the lower part of the back, between the ribs and the buttocks. It is one of the most common reasons people see a health professional: most people have it at some point in their lives.",
+        "In almost every case it is mechanical: it comes from the muscles, joints or discs of the lower back, with no serious disease behind it. It often starts after an effort, a long-held position or a stressful, inactive period. Most people improve within a few weeks, though for some it comes back or lingers."
       ],
-      signs: [
-        'Pain in the lower back area',
-        'Stiffness when bending or standing up',
-        'Muscle tension in the lower back',
+      "signs": [
+        "Pain in the lower back that gets worse bending, lifting or sitting for long",
+        "Stiffness in the morning or getting up from a chair",
+        "A muscle spasm or a \"locked\" back",
+        "Pain that may spread into the buttocks or upper thigh"
       ],
-      howChiropracticHelps: [
-        'Lumbar adjustments improve spinal mobility and reduce muscle tension, naturally easing the pain.',
+      "howChiropracticHelps": [
+        "Lower back pain is where chiropractic has the strongest evidence. For chronic lower back pain, spinal manipulation gives results similar to other recommended treatments (Rubinstein et al., BMJ, 2019), and clinical guidelines recommend it always alongside exercise (NICE NG59).",
+        "At the clinic we work out where your pain comes from and treat it with adjustments, mobilisation and soft-tissue work. We give you exercises for home and advice for work, which do the most to keep it from coming back. If you're not improving as expected after a few sessions, we refer you on."
       ],
+      "redFlags": [
+        "Weakness in one or both legs",
+        "Numbness around the groin or buttocks, or changes in bladder or bowel control",
+        "Fever, unexplained weight loss or a history of cancer",
+        "Pain after a fall or a hard knock",
+        "Pain that doesn't change with position and wakes you at night"
+      ],
+      "related": [
+        {
+          "label": "Lumbar muscle contractures",
+          "href": "/en/blog/lumbar-muscle-contractures/"
+        },
+        {
+          "label": "How many chiropractic sessions do I need?",
+          "href": "/en/blog/how-many-chiropractic-sessions-do-i-need/"
+        },
+        {
+          "label": "Micro-stretches for the office",
+          "href": "/en/blog/10-chiropractor-backed-micro-stretches-you-can-do-on-your-desk/"
+        }
+      ]
     },
   },
   'retraso-motor': {
