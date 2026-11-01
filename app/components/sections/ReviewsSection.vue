@@ -7,7 +7,7 @@ import RatingBadge from '@/components/ui/RatingBadge.vue'
 import ReviewCard from '@/components/ui/ReviewCard.vue'
 import { pathFor } from '@/utils/site-routes'
 
-const props = withDefaults(defineProps<{ title: string; limit?: number }>(), { limit: 6 })
+const props = withDefaults(defineProps<{ title: string; limit?: number; prefer?: RegExp }>(), { limit: 6 })
 const { locale } = useAppI18n()
 
 const copy = {
@@ -17,10 +17,11 @@ const copy = {
 const c = computed(() => copy[locale.value])
 const reviewsTotal = reviews.length
 
-// The page's own language first, then the rest, up to `limit`.
-const shown = computed(() =>
-  [...reviews].sort((a, b) => Number(b.lang === locale.value) - Number(a.lang === locale.value)).slice(0, props.limit),
-)
+// The page's own language first, then the rest, up to `limit`. Within each
+// language, reviews matching `prefer` come first.
+const rank = (review: (typeof reviews)[number]) =>
+  Number(review.lang === locale.value) * 2 + Number(props.prefer?.test(review.text) ?? false)
+const shown = computed(() => [...reviews].sort((a, b) => rank(b) - rank(a)).slice(0, props.limit))
 </script>
 
 <template>

@@ -5,6 +5,12 @@
 // detail that is actually local (how people get here, who comes from where)
 // and shares everything else with the rest of the site through components.
 // Walking times are the ones the clinic gives patients; keep them honest.
+//
+// The local SEO audit (31 Oct 2026) found the two pages sharing about half
+// their sentences, so each one now also differs in who it speaks to (`focus`,
+// linking to the matching audience pages and posts), which conditions lead the
+// grid (`symptoms`) and which reviews it quotes (`reviewMatch`, real reviews
+// picked by theme, never claimed to come from the neighbourhood).
 export type NeighbourhoodId = 'russafa' | 'eixample'
 
 export interface NeighbourhoodCopy {
@@ -17,13 +23,29 @@ export interface NeighbourhoodCopy {
   gettingHere: string[]
   whoTitle: string
   who: string[]
+  focusTitle: string
+  focusIntro: string
+  focus: { to: string; label: string; hint: string }[]
+  reviewsTitle: string
   faqTitle: string
   faqs: { q: string; a: string }[]
 }
 
-export const neighbourhoods: Record<NeighbourhoodId, { routeKey: string; es: NeighbourhoodCopy; en: NeighbourhoodCopy }> = {
+interface Neighbourhood {
+  routeKey: string
+  // Spanish symptom slugs, in the order the grid shows them.
+  symptoms: string[]
+  // Reviews whose text matches are quoted first.
+  reviewMatch: RegExp
+  es: NeighbourhoodCopy
+  en: NeighbourhoodCopy
+}
+
+export const neighbourhoods: Record<NeighbourhoodId, Neighbourhood> = {
   russafa: {
     routeKey: 'russafa',
+    symptoms: ['lumbalgia', 'ciatica', 'dolor-de-espalda', 'escoliosis', 'hernia-discal', 'dolor-de-cervicales-y-cabeza'],
+    reviewMatch: /cada mes|revisiones|desde hace tiempo|vacaciones|pregnan|IVF|for years|3 months/i,
     es: {
       title: 'Quiropráctico en Russafa (Ruzafa), València · Primera visita 70 € | ColumnaQuiro',
       description:
@@ -48,6 +70,16 @@ export const neighbourhoods: Record<NeighbourhoodId, { routeKey: string; es: Nei
         'Corredores que entrenan por el Jardín del Turia y preparan pruebas como el Maratón de València.',
         'Personas que buscan una quiropráctica que hable inglés o francés; una parte importante de nuestras reseñas en Google está escrita por pacientes de fuera.',
       ],
+      focusTitle: 'Embarazo, familias y deporte',
+      focusIntro:
+        'Buena parte de las consultas que nos llegan desde Russafa son de embarazadas, de familias con bebés y niños y de gente que corre. Cada caso tiene su página, con lo que hacemos en consulta y lo que puedes esperar.',
+      focus: [
+        { to: '/para-quien-sirve-la-quiropractica/embarazadas', label: 'Embarazo y posparto', hint: 'dolor lumbar y de pelvis' },
+        { to: '/para-quien-sirve-la-quiropractica/bebes-y-ninos', label: 'Bebés y niños', hint: 'revisión y seguimiento' },
+        { to: '/para-quien-sirve-la-quiropractica/deportistas', label: 'Corredores y deportistas', hint: 'entrenamiento y molestias' },
+        { to: '/blog/preparacion-quiropractica-para-la-maraton-de-valencia', label: 'Preparar el Maratón de València', hint: 'cómo llegar sin lesiones' },
+      ],
+      reviewsTitle: 'Cuidado a largo plazo: lo que cuentan los pacientes',
       faqTitle: 'Preguntas frecuentes',
       faqs: [
         {
@@ -92,6 +124,16 @@ export const neighbourhoods: Record<NeighbourhoodId, { routeKey: string; es: Nei
         'Runners who train along the Turia Gardens and prepare for events like the Valencia Marathon.',
         'Newcomers and expats looking for a chiropractor who speaks English: a large share of our Google reviews are written by patients from abroad.',
       ],
+      focusTitle: 'Pregnancy, families and sport',
+      focusIntro:
+        'Many of the patients who come to us from Russafa are pregnant, parents with babies and children, or runners. Each has its own page explaining what we do in the clinic and what to expect.',
+      focus: [
+        { to: '/en/who-is-chiropractic-for/pregnant-women', label: 'Pregnancy and postpartum', hint: 'lower back and pelvic pain' },
+        { to: '/en/who-is-chiropractic-for/kids', label: 'Babies and children', hint: 'check-ups and follow-up' },
+        { to: '/en/who-is-chiropractic-for/athletes', label: 'Runners and athletes', hint: 'training and niggles' },
+        { to: '/en/blog/chiropractic-preparation-for-the-valencia-marathon-how-to-avoid-injuries', label: 'Getting ready for the Valencia Marathon', hint: 'how to get there injury-free' },
+      ],
+      reviewsTitle: 'Care over time: what patients say',
       faqTitle: 'Frequently asked questions',
       faqs: [
         {
@@ -115,6 +157,8 @@ export const neighbourhoods: Record<NeighbourhoodId, { routeKey: string; es: Nei
   },
   eixample: {
     routeKey: 'eixample',
+    symptoms: ['dolor-de-cervicales-y-cabeza', 'dolor-de-cuello', 'lumbalgia', 'sindrome-del-tunel-carpiano', 'ciatica', 'hernia-discal'],
+    reviewMatch: /mi trabajo|oficina|lumbar|cervical|dolores de cabeza|desk|office|at work/i,
     es: {
       title: "Quiropráctico en L'Eixample de València · Primera visita 70 € | ColumnaQuiro",
       description:
@@ -140,6 +184,15 @@ export const neighbourhoods: Record<NeighbourhoodId, { routeKey: string; es: Nei
         'Seguimiento de escoliosis en adultos y adolescentes.',
         'Cuidado durante el embarazo y en los primeros años de bebés y niños.',
       ],
+      focusTitle: 'Si trabajas en el centro',
+      focusIntro:
+        'Muchos pacientes vienen de las oficinas de Colón y la Gran Via con el cuello o la zona lumbar cargados de horas de pantalla. Además del ajuste, te llevas ejercicios para hacer en casa y en la mesa, y los seguimientos caben antes o después de la jornada.',
+      focus: [
+        { to: '/para-quien-sirve-la-quiropractica/trabajadores', label: 'Trabajo de oficina', hint: 'espalda, cuello y postura' },
+        { to: '/blog/trabajas-en-oficina-10-micro-estiramientos-avalados', label: '10 microestiramientos en la mesa', hint: 'entre reunión y reunión' },
+        { to: '/blog/contractura-en-el-cuello-causas-sintomas-y-soluciones', label: 'Contractura en el cuello', hint: 'causas y qué hacer' },
+      ],
+      reviewsTitle: 'Espalda, cuello y trabajo: lo que cuentan los pacientes',
       faqTitle: 'Preguntas frecuentes',
       faqs: [
         {
@@ -189,6 +242,15 @@ export const neighbourhoods: Record<NeighbourhoodId, { routeKey: string; es: Nei
         'Ongoing care for scoliosis in adults and teenagers.',
         "Care during pregnancy and through a baby's or child's early years.",
       ],
+      focusTitle: 'If you work in the centre',
+      focusIntro:
+        'Many patients come from the offices around Colón and Gran Via with a neck or lower back worn down by hours at a screen. Besides the adjustment, you leave with exercises for home and for your desk, and follow-ups fit before or after work.',
+      focus: [
+        { to: '/en/who-is-chiropractic-for/workers', label: 'Office work', hint: 'back, neck and posture' },
+        { to: '/en/blog/10-chiropractor-backed-micro-stretches-you-can-do-on-your-desk', label: '10 micro-stretches at your desk', hint: 'between meetings' },
+        { to: '/en/blog/neck-contracture', label: 'Neck muscle knots', hint: 'causes and what to do' },
+      ],
+      reviewsTitle: 'Back, neck and work: what patients say',
       faqTitle: 'Frequently asked questions',
       faqs: [
         {
