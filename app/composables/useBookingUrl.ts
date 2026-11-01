@@ -1,7 +1,17 @@
 import { computed } from 'vue'
+import { useAppI18n } from '@/composables/useAppI18n'
 
 // Builds the src for the embedded QuiroFlow booking widget, carrying this
-// page's own campaign parameters into the iframe.
+// page's own language and campaign parameters into the iframe.
+//
+// The language goes as `lang`, which the widget obeys before anything else.
+// Without it the widget followed the visitor's browser, so
+// /en/book-appointment/ booked in Spanish for anyone whose browser was not set
+// to English -- and once the widget's own Español/English/Français picker is
+// hidden (QuiroFlow: Settings > Online booking > Look), there would be no way
+// left to change it. The iframe cannot read this page's <html lang> itself:
+// it is cross-origin. Fixed per page, so it is in the prerendered HTML and
+// never patched on the client.
 //
 // They do not get there by themselves. A Meta ad lands on
 // columnaquiro.com/promocion-especial-... with utm_source/fbclid on the
@@ -61,10 +71,12 @@ const ATTRIBUTION_PARAMS = [
 
 export function useBookingUrl(base: { type: string; practitioner?: string }) {
   const route = useRoute()
+  const { locale } = useAppI18n()
 
   return computed(() => {
     const params = new URLSearchParams({ type: base.type })
     if (base.practitioner) params.set('practitioner', base.practitioner)
+    params.set('lang', locale.value)
 
     for (const [key, raw] of Object.entries(route.query)) {
       // Keys are compared trimmed and lowercased because hand-built ad URLs

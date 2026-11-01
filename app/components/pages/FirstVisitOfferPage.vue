@@ -285,7 +285,7 @@ const { heightPx } = useQuiroFlowWidget()
     <p class="mt-3 text-center text-sm text-body/70">{{ c.bookingNote }}</p>
     <iframe
       :src="bookingUrl"
-      title="Reservar cita"
+      :title="locale === 'en' ? 'Book an appointment' : 'Reservar cita'"
       :style="{ height: `${heightPx}px` }"
       class="mt-8 w-full rounded-3xl bg-white shadow-[0_1px_2px_0_rgba(0,0,0,0.05)]"
     />
