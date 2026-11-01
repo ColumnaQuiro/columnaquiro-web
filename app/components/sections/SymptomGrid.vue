@@ -7,6 +7,9 @@ import { SYMPTOM_HUB, SYMPTOM_SLUG_PAIRS } from '@/utils/site-routes'
 // (Search Console: "dolor lumbar", "irradia a la pierna"...). The /sintomas
 // pages have existed for a long time with no link to them from anywhere but
 // the footer; this is their front door.
+// `slugs` lets a page lead with its own conditions; without it the grid shows
+// the default six.
+const props = defineProps<{ slugs?: string[] }>()
 const { locale } = useAppI18n()
 
 const content = {
@@ -21,6 +24,10 @@ const content = {
       { slug: 'escoliosis', label: 'Escoliosis', hint: 'adultos y adolescentes' },
       { slug: 'sindrome-del-tunel-carpiano', label: 'Túnel carpiano', hint: 'mano y muñeca' },
     ],
+    extra: [
+      { slug: 'dolor-de-cuello', label: 'Dolor de cuello', hint: 'rigidez, contracturas' },
+      { slug: 'dolor-de-espalda', label: 'Dolor de espalda', hint: 'alta, media o baja' },
+    ],
   },
   en: {
     title: 'Where does it hurt?',
@@ -33,10 +40,19 @@ const content = {
       { slug: 'escoliosis', label: 'Scoliosis', hint: 'adults and teenagers' },
       { slug: 'sindrome-del-tunel-carpiano', label: 'Carpal tunnel', hint: 'hand and wrist' },
     ],
+    extra: [
+      { slug: 'dolor-de-cuello', label: 'Neck pain', hint: 'stiffness, knots' },
+      { slug: 'dolor-de-espalda', label: 'Back pain', hint: 'upper, mid or lower' },
+    ],
   },
 }
 
 const c = computed(() => content[locale.value])
+const items = computed(() => {
+  if (!props.slugs) return c.value.items
+  const all = [...c.value.items, ...c.value.extra]
+  return props.slugs.flatMap((slug) => all.filter((item) => item.slug === slug))
+})
 
 function pathFor(slugEs: string) {
   if (locale.value === 'es') return `${SYMPTOM_HUB.es}/${slugEs}`
@@ -52,7 +68,7 @@ function pathFor(slugEs: string) {
       <p class="mt-2 text-slate">{{ c.subtitle }}</p>
       <div class="mt-8 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-6">
         <NuxtLink
-          v-for="item in c.items"
+          v-for="item in items"
           :key="item.slug"
           :to="pathFor(item.slug)"
           class="group flex flex-col gap-1.5 rounded-2xl border border-forest/10 bg-white p-4 transition-colors hover:border-forest/30 hover:bg-beige"

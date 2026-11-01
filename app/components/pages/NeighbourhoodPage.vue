@@ -26,8 +26,8 @@ useSeo({
 })
 
 const labels = {
-  es: { book: 'Reservar primera visita · 70 €', whatsapp: 'Escríbenos por WhatsApp', reviews: 'Reseñas de pacientes del barrio y de fuera' },
-  en: { book: 'Book a first visit · €70', whatsapp: 'Message us on WhatsApp', reviews: 'What patients say' },
+  es: { book: 'Reservar primera visita · 70 €', whatsapp: 'Escríbenos por WhatsApp' },
+  en: { book: 'Book a first visit · €70', whatsapp: 'Message us on WhatsApp' },
 }
 const l = computed(() => labels[locale.value])
 const whatsappHref = socialLinks.find((link) => link.label === 'WhatsApp')?.href ?? ''
@@ -99,9 +99,28 @@ useHead({
     </div>
   </section>
 
-  <SymptomGrid />
+  <section class="bg-cream px-6 py-16">
+    <div class="mx-auto max-w-[1280px]">
+      <h2 class="section-title">{{ c.focusTitle }}</h2>
+      <p class="mt-3 max-w-3xl text-lg text-forest">{{ c.focusIntro }}</p>
+      <div class="mt-8 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+        <NuxtLink
+          v-for="item in c.focus"
+          :key="item.to"
+          :to="item.to"
+          class="group flex flex-col gap-1.5 rounded-2xl border border-forest/10 bg-white p-4 transition-colors hover:border-forest/30 hover:bg-beige"
+        >
+          <span class="font-semibold leading-tight text-forest">{{ item.label }}</span>
+          <span class="text-sm text-slate">{{ item.hint }}</span>
+          <span class="mt-auto pt-2 text-sm font-semibold text-gold-dark" aria-hidden="true">→</span>
+        </NuxtLink>
+      </div>
+    </div>
+  </section>
 
-  <ReviewsSection :title="l.reviews" :limit="3" />
+  <SymptomGrid :slugs="entry.symptoms" />
+
+  <ReviewsSection :title="c.reviewsTitle" :limit="3" :prefer="entry.reviewMatch" />
 
   <section class="bg-beige px-6 py-16">
     <div class="mx-auto max-w-3xl">
