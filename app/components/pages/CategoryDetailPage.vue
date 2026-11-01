@@ -13,14 +13,14 @@ const { locale, t } = useAppI18n()
 const page = computed(() => findCategoryPage(route.params.category as string))
 const content = computed(() => (page.value ? page.value[locale.value] : undefined))
 
-const seoTitle = computed(() =>
-  content.value
-    ? locale.value === 'es'
-      ? `Quiropráctica para ${content.value.title} | ColumnaQuiro`
-      : `Chiropractic for ${content.value.title} | ColumnaQuiro`
-    : 'ColumnaQuiro',
-)
-const seoDescription = computed(() => content.value?.intro[0] ?? '')
+const seoTitle = computed(() => {
+  if (!content.value) return 'ColumnaQuiro'
+  if (content.value.seoTitle) return `${content.value.seoTitle} | ColumnaQuiro`
+  return locale.value === 'es'
+    ? `Quiropráctica para ${content.value.title} | ColumnaQuiro`
+    : `Chiropractic for ${content.value.title} | ColumnaQuiro`
+})
+const seoDescription = computed(() => content.value?.description ?? content.value?.intro[0] ?? '')
 useSeo({ title: seoTitle, description: seoDescription })
 
 useHead({
@@ -57,13 +57,43 @@ useHead({
 
     <ul v-if="content.list" class="mt-6 space-y-3">
       <li v-for="item in content.list" :key="item.lead" class="text-body/80">
-        <span class="font-semibold text-forest">{{ item.lead }}</span> {{ item.text }}
+        <span class="font-semibold text-forest">{{ item.lead }}</span> <span v-html="item.text" />
       </li>
     </ul>
 
     <div v-if="content.extra" class="mt-6 space-y-4 text-body/80">
       <p v-for="(paragraph, i) in content.extra" :key="i" v-html="paragraph" />
     </div>
+
+    <template v-for="section in content.sections" :key="section.heading">
+      <h2 class="mt-10 text-xl font-semibold text-forest">{{ section.heading }}</h2>
+      <div v-if="section.paragraphs" class="mt-4 space-y-4 text-body/80">
+        <p v-for="(paragraph, i) in section.paragraphs" :key="i" v-html="paragraph" />
+      </div>
+      <ul v-if="section.items" class="mt-4 list-disc space-y-1 pl-5 text-body/80">
+        <li v-for="item in section.items" :key="item">{{ item }}</li>
+      </ul>
+    </template>
+
+    <template v-if="content.redFlags?.length">
+      <h2 class="mt-10 text-xl font-semibold text-forest">
+        {{ locale === 'es' ? 'Cuándo ir antes al médico' : 'When to see a doctor first' }}
+      </h2>
+      <ul class="mt-4 list-disc space-y-1 pl-5 text-body/80">
+        <li v-for="flag in content.redFlags" :key="flag">{{ flag }}</li>
+      </ul>
+    </template>
+
+    <template v-if="content.related?.length">
+      <h2 class="mt-10 text-xl font-semibold text-forest">
+        {{ locale === 'es' ? 'Para saber más' : 'Read more' }}
+      </h2>
+      <ul class="mt-4 space-y-2">
+        <li v-for="link in content.related" :key="link.href">
+          <NuxtLink :to="link.href" class="font-semibold text-gold-dark underline">{{ link.label }}</NuxtLink>
+        </li>
+      </ul>
+    </template>
 
     <h2 class="mt-16 text-2xl font-semibold text-forest">{{ t('common.sintomasAsociados') }}</h2>
     <div class="mt-6 grid grid-cols-2 gap-4 sm:grid-cols-4">
