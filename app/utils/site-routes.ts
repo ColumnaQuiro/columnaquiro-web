@@ -166,7 +166,13 @@ export function pathFor(key: string, locale: Locale): string {
   return PAGES.find((p) => p.key === key)?.[locale] ?? '/'
 }
 
-export function resolveLocalizedPaths(path: string): { es: string; en: string } | null {
+export function resolveLocalizedPaths(rawPath: string): { es: string; en: string } | null {
+  // Prerendered routes arrive as `/en/` or `/sintomas/ciatica/`, but the tables
+  // below are written without the slash. Without this, most pages (the main
+  // pages, condition pages and audience pages) lost their hreflang tags and the
+  // language switcher sent people to the other language's home page.
+  const path = rawPath.length > 1 && rawPath.endsWith('/') ? rawPath.slice(0, -1) : rawPath
+
   for (const page of [...PAGES, ...UNLISTED_PAGES]) {
     if (page.es === path || page.en === path) return { es: page.es, en: page.en }
   }
