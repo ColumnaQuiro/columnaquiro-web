@@ -20,7 +20,10 @@ export const clinicSchema = {
   latitude: 39.460101,
   longitude: -0.371892,
   mapsUrl: 'https://maps.app.goo.gl/NQEAbzbbg75xxjKU6',
+  // The listing's own Maps URL (metadata.mapsUri from the Business Profile
+  // API) ties the site's clinic to the Google place, next to the socials.
   sameAs: [
+    'https://maps.google.com/maps?cid=324242415013017039',
     'https://www.instagram.com/columnaquiro/',
     'https://www.facebook.com/profile.php?id=100089673685339',
   ],

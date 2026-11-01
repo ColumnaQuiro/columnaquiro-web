@@ -47,7 +47,7 @@ useSeo({
 const content = {
   es: {
     eyebrow: 'Centro quiropráctico · Russafa / L\'Eixample, València',
-    heroTitle: 'Vuelve a moverte sin dolor',
+    heroTitle: 'Quiropráctico en Valencia: vuelve a moverte sin dolor',
     heroSubtitle: '',
     heroBody:
       'Quiroprácticas tituladas en el centro de València. Primera visita 70 €: evaluación completa, primer ajuste y plan de cuidado personalizado.',
