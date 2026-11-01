@@ -106,8 +106,19 @@ export function siteGraphJsonLd(locale: Locale) {
           { '@type': 'OpeningHoursSpecification', dayOfWeek: ['Tuesday', 'Wednesday', 'Thursday'], opens: '09:00', closes: '13:00' },
           { '@type': 'OpeningHoursSpecification', dayOfWeek: ['Tuesday', 'Wednesday', 'Thursday'], opens: '15:00', closes: '20:00' },
         ],
+        // The clinic sits on the Russafa / L'Eixample boundary; the two
+        // neighbourhood pages target exactly these places.
+        areaServed: [
+          { '@type': 'Place', name: 'Russafa, València' },
+          { '@type': 'Place', name: "L'Eixample, València" },
+          { '@type': 'City', name: 'València' },
+        ],
+        availableLanguage: ['es', 'en', 'fr'],
         priceRange: locale === 'es' ? 'Primera visita 70 €' : 'First visit €70',
         currenciesAccepted: 'EUR',
+        // As set on the Business Profile: cards and mobile payment.
+        paymentAccepted:
+          locale === 'es' ? 'Tarjeta de crédito, tarjeta de débito, pago con el móvil' : 'Credit card, debit card, mobile payment',
         employee: (Object.keys(practitioners) as PractitionerKey[]).map((key) => ({ '@id': personId(key) })),
         sameAs: clinicSchema.sameAs,
       },

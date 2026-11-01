@@ -9,12 +9,12 @@ const { t, locale } = useAppI18n()
 
 const seoText = {
   es: {
-    title: 'Contacto | ColumnaQuiro',
+    title: 'Contacto · Quiropráctico en Valencia | ColumnaQuiro',
     description:
       'Contacta con ColumnaQuiro, tu centro quiropráctico en Valencia. Dirección, teléfono, email y formulario de contacto.',
   },
   en: {
-    title: 'Contact | ColumnaQuiro',
+    title: 'Contact · Chiropractor in Valencia | ColumnaQuiro',
     description:
       'Contact ColumnaQuiro, your chiropractic center in Valencia. Address, phone, email, and contact form.',
   },
