@@ -1,39 +1,81 @@
 ---
-title: "Brown Discharge and Lower Back Pain in Pregnancy: What You Should Know"
+title: "Brown discharge and lower back pain: causes, when to worry"
 slug: brown-discharge-and-lower-back-pain
 date: 2025-10-08
-excerpt: "Brown discharge during pregnancy should always be checked by your doctor. Here we focus separately on pregnancy-related lower back pain and how chiropractic care can help."
+updated: 2026-11-01
+excerpt: "Brown discharge or light bleeding with lower back pain: the common harmless causes, when it may be more, what to do if pregnant and when to go to A&E."
 cover: /assets/images/category-embarazadas.webp
 author: Léa Guido
 
 ---
 
-## First and most important: brown discharge needs medical evaluation
+**Brown discharge** is old blood that has taken a while to leave the body. Together with **lower back pain**, it most often has to do with your **period**: at the start or end of a period it's very common to have both. But if you **are or might be pregnant**, if the pain is severe or if you have a fever, contact your doctor or gynaecologist without waiting. We're a chiropractic clinic: we treat mechanical back pain, not the cause of the discharge, and this article doesn't replace a medical assessment.
 
-If you notice brown discharge during pregnancy, the first and most important step is to contact your OB-GYN or midwife as soon as possible. This article is not intended to diagnose the cause of that discharge, since it can have many different origins, and only a medical professional, with a proper assessment, can determine its cause and whether it needs urgent attention. Don't try to explain it yourself or wait it out — always check with your doctor first.
+## Common, usually harmless causes
 
-## Lower back pain in pregnancy is a separate topic
+- **Start or end of your period**: brown discharge is older blood, and lower back pain is common during a period because of uterine contractions.
+- **Ovulation**: some women have light spotting and pain mid-cycle, sometimes on one side.
+- **Hormonal contraception**: spotting between periods, especially in the first months or after switching method.
+- **Perimenopause**: cycles become irregular and spotting appears.
 
-Setting that aside, lower back pain is a very common pregnancy complaint with a distinct and well-understood mechanical cause: weight gain, a shifting center of gravity, and hormonal changes that loosen the pelvic ligaments.
+## If you are or might be pregnant
 
-## Why lower back pain develops
+- Early in pregnancy there can be light **implantation spotting**.
+- Even so, **any bleeding in pregnancy** should be checked with your midwife or gynaecologist the same day.
+- Go to **A&E** if the bleeding comes with **severe pain**, especially on one side of the abdomen, **dizziness or fainting**, shoulder-tip pain, or if the bleeding increases. It can point to an ectopic pregnancy or a threatened miscarriage.
+- If you don't know whether you're pregnant and it's possible, a pregnancy test is a good first step.
 
-As the uterus grows, the curve of the lower back increases to compensate for the extra weight, which can create muscle tension and joint strain in the lower back and pelvis.
+## Causes that need a medical assessment
 
-## How chiropractic care can help with lower back pain
+- **Infection**: smelly discharge, pelvic pain, fever or pain during sex (possibly pelvic inflammatory disease).
+- **Endometriosis**: very painful periods, lower back or pelvic pain that worsens with your period, pain during sex.
+- **Fibroids or polyps**: heavy periods or bleeding between periods.
+- **Urinary or kidney infection**: pain on one side of the lower back, fever, burning when passing urine or **blood in your urine** (which isn't the same as vaginal discharge).
+- **Bleeding after the menopause**: always get it checked.
 
-Gentle, pregnancy-adapted adjustments, combined with stabilization exercises and postural guidance, help reduce mechanical strain in the lower back and improve comfort throughout the different trimesters.
+## And the back pain itself
+
+Lower back pain is very common and almost always mechanical: it changes with posture and movement, improves when you move and gets worse after staying in one position for a long time. If it only appears with your period, it most likely comes from the uterus. If it comes on its own, or carries on once the discharge has stopped, it may be mechanical low back pain. See [low back pain](/en/symptoms/low-back-pain/).
+
+## What to do
+
+1. **Note where you are in your cycle**: does it match the start or end of a period, or ovulation?
+2. **If you might be pregnant**, take a test and call your midwife or gynaecologist.
+3. **Gentle heat** on the lower back or lower abdomen and gentle movement usually ease period pain.
+4. **Keep a note** of whether it repeats, how long it lasts and any other symptoms, to tell your doctor.
+
+## When to go to A&E
+
+- Bleeding with **severe** abdominal or pelvic pain.
+- **Dizziness, fainting** or feeling you might faint.
+- **High fever** with lower back or pelvic pain.
+- Heavy bleeding (soaking a pad every hour for several hours).
+- Any bleeding with **pain in pregnancy**.
+
+## How we treat it at the clinic
+
+Only the mechanical back pain, and always after your doctor or gynaecologist has assessed the discharge if there was reason to. If you're pregnant, we use techniques adapted to each trimester; we explain them in [sciatica in pregnancy](/en/blog/sciatica-in-pregnancy/).
 
 ## Frequently asked questions
 
-**Should I wait for my next appointment to mention brown discharge?**
-No. Any bleeding or brown discharge during pregnancy should be reported to your OB-GYN or midwife right away — don't wait for a scheduled check-up.
+**Is it normal to have brown discharge and back pain before my period?**
+Yes, it's very common in the days before or at the start of a period.
 
-**Is pregnancy-related back pain connected to brown discharge?**
-They're two separate issues. Back pain usually has a mechanical and postural cause, while brown discharge always requires a specific medical evaluation.
+**Can brown discharge with lower back pain mean pregnancy?**
+It can be implantation spotting, but it can also be other things. If you might be pregnant, take a test and get advice.
 
-**Is it safe to receive chiropractic adjustments during pregnancy?**
-Yes, always using techniques specifically adapted for pregnancy and after confirming with your doctor that there are no contraindications.
+**When should I worry?**
+If there's severe pain, fever, dizziness, heavy bleeding, if you're pregnant, or if it happens after the menopause.
 
-**When should I seek emergency care for back pain in pregnancy?**
-If the pain is sudden and very intense, or comes with other symptoms like bleeding, fever, or contractions, seek emergency care right away.
+**Could it be my kidneys?**
+If the pain is on one side of your back, or there's fever or discomfort passing urine, it may be a urinary or kidney infection. See your doctor.
+
+**Can a chiropractor treat this?**
+Only mechanical back pain. Your doctor or gynaecologist assesses the cause of the discharge.
+
+## Read more
+
+- [Low back pain](/en/symptoms/low-back-pain/)
+- [Sciatica in pregnancy](/en/blog/sciatica-in-pregnancy/)
+- [Chiropractic for pregnant women](/en/who-is-chiropractic-for/pregnant-women/)
+- [Back pain](/en/symptoms/back-pain/)

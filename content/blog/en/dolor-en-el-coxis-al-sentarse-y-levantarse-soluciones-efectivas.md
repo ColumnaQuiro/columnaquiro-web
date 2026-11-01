@@ -1,42 +1,86 @@
 ---
-title: "Coccyx pain when sitting and standing up: causes and solutions"
+title: "Tailbone pain when sitting and standing up: causes, relief"
 slug: coccyx-pain-when-sitting-and-standing-up
 date: 2025-10-17
-excerpt: "Discover the most common causes of tailbone pain when sitting or standing up, and which solutions, including chiropractic care, can help. ColumnaQuiro Valencia."
+updated: 2026-11-01
+excerpt: "Why your tailbone hurts when you sit and especially when you stand up, what causes it, how to sit so it hurts less, how long it takes and when to see a doctor."
 cover: /assets/images/centro-sala-ajustes.webp
 author: Léa Guido
 
 ---
 
-## What is coccydynia?
+Pain in the **coccyx** (the tailbone, the last bone of the spine) is called **coccydynia**. It typically hurts **while sitting** and, above all, **as you stand up**. It often starts after a fall onto your bottom, after childbirth or after long hours of sitting, although sometimes there's no clear cause. Most cases improve within weeks or a few months with simple changes to how you sit.
 
-Pain in the tailbone, known as coccydynia, is discomfort located at the very bottom of the spine that tends to intensify when sitting down, standing up, or spending long periods in the same position on a hard surface.
+## Why it hurts more when you stand up
 
-## Most common causes
+When you sit, some of your weight rests on the coccyx, which bends slightly forwards. When you stand, the pelvic floor and buttock muscles pull it back into place: if the joint between the sacrum and coccyx is irritated or moves more than it should, that change is the most painful moment.
 
-Common causes include a fall onto the area (even an old one), spending many hours sitting in poorly suited chairs, childbirth, or simply a change in the mobility of the pelvis and lower back that increases pressure on the tailbone.
+## Causes
 
-## How chiropractic care helps
+- **A fall onto your bottom**, even months ago.
+- **Childbirth**, especially if it was difficult or assisted.
+- **Long hours of sitting**, especially on hard surfaces or leaning back.
+- **Cycling, rowing or horse riding**, from repeated pressure.
+- **Rapid weight changes**: both excess weight and rapid weight loss change how you rest when sitting.
+- **No obvious cause**, in some cases.
 
-A chiropractic assessment looks for restrictions in the pelvis or lower spine that may be overloading the tailbone. Through gentle, specific adjustments, along with postural and sitting-habit recommendations, the goal is to reduce pressure on the area and support better pelvic mechanics.
+It's considerably more common in **women**, because of the shape of the pelvis and childbirth.
 
-## Practical everyday tips
+## What you can do
 
-Using a wedge-shaped or center-cutout cushion when sitting, avoiding hard surfaces for long periods, and standing up frequently to change position are simple measures that help while the area recovers.
+**When sitting**
+
+- Use a **cut-out or wedge cushion** (with the gap at the back), so the coccyx doesn't take weight.
+- **Lean slightly forwards** and spread your weight over your thighs, not backwards.
+- Avoid soft, low sofas where you sink back.
+- Get up every 30-45 minutes.
+
+**When standing up**
+
+- Lean your trunk forwards and **push up with your arms** before standing.
+
+**Also**
+
+- **Heat or ice** on the area for 15-20 minutes, whichever helps more.
+- **Avoid constipation**, because straining on the toilet can hurt too.
+- Gentle stretches for the buttocks and hips.
+
+## How long it takes to improve
+
+Many people improve within a few weeks with the cushion and posture changes. If it lasts more than two or three months, it's worth an assessment: there are other options, such as injections prescribed by a doctor, and surgery is kept for very specific cases that don't respond to anything else.
+
+## How we treat it at the clinic
+
+We assess the pelvis, lower back and surrounding muscles, because the coccyx is often overloaded by how you sit and by tension in the buttocks and pelvic floor. We combine gentle manual techniques with exercises and specific advice for sitting at work and at home. If the pain started after a hard fall, we rule out a fracture first.
+
+## When to see a doctor
+
+- Pain after a **hard fall**, with a lot of pain when the area is touched (possible fracture).
+- A **lump, redness, heat or discharge** at the top of the buttock crease (it may be an infected pilonidal cyst).
+- **Fever**, unexplained weight loss or a history of cancer.
+- Pain that **doesn't change with position** and wakes you at night.
+- Changes in bladder or bowel habits, or numbness around the genitals.
 
 ## Frequently asked questions
 
-**Does tailbone pain go away on its own over time?**
-In many mild cases it improves with relative rest and habit changes, but when it persists, it's worth looking for the underlying cause.
+**Why does my tailbone hurt when I sit and stand up?**
+Because when you sit the coccyx bears weight, and when you stand the muscles pull on it. If the area is irritated, the move from sitting to standing hurts most.
 
-**Is it normal for it to hurt more when standing up than when sitting?**
-Yes, that's very characteristic, since the change in pressure on the area when moving from sitting to standing tends to intensify the discomfort.
+**Does tailbone pain go away on its own?**
+In many cases yes, within weeks or a few months, especially if you change how you sit.
 
-**Does chiropractic care for the tailbone directly?**
-The approach focuses on the pelvis and lower back, which directly influence pressure and mechanics at the tailbone.
+**Does a cushion with a hole help?**
+It does, especially one with a cut-out at the back or a U shape, which leaves the coccyx unsupported. A donut-shaped cushion doesn't always work as well.
 
-**Can I keep exercising with this pain?**
-Yes, by adapting the activity and avoiding positions that increase direct pressure on the area until it improves.
+**Can I exercise?**
+Yes. Walking and swimming usually go well. At first, avoid cycling, rowing and sit-ups on a hard surface.
 
-**When should I see a professional?**
-If the pain is intense, appears after a hard fall, or doesn't improve over several weeks, it's important to get evaluated to rule out other causes.
+**Do I need an X-ray?**
+After a hard fall, yes. X-rays taken sitting and standing can show whether the coccyx moves more than normal.
+
+## Read more
+
+- [Low back pain](/en/symptoms/low-back-pain/)
+- [Inflamed sacroiliac joint](/en/blog/solutions-for-inflamed-sacroiliac-joint/)
+- [Sciatica in pregnancy](/en/blog/sciatica-in-pregnancy/)
+- [10 micro-stretches you can do at your desk](/en/blog/10-chiropractor-backed-micro-stretches-you-can-do-on-your-desk/)

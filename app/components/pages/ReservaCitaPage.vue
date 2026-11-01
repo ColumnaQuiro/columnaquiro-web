@@ -136,6 +136,13 @@ const { heightPx } = useQuiroFlowWidget()
 
 // The skeleton shows until the iframe's document has loaded. It is drawn at
 // the widget's reserved height, so the swap is a fade, not a jump.
+//
+// The iframe itself stays display:none until then, not just transparent.
+// The widget paints once before its stylesheet resets the browser's default
+// 8 px body margin, so its whole content jumps 8 px; Chrome counts that shift
+// even at opacity 0, and it was the entire 0.45 CLS Lighthouse measured here
+// (Nov 2026). A display:none frame is not laid out, so by the time it is
+// shown the widget's CSS is in and it lays out once.
 const loaded = ref(false)
 
 const telHref = clinic.phoneHref
@@ -185,7 +192,7 @@ const whatsappHref = socialLinks.find((link) => link.label === 'WhatsApp')?.href
             title="Reservar cita"
             :style="{ height: `${heightPx}px` }"
             class="relative w-full rounded-3xl bg-white shadow-[0_1px_2px_0_rgba(0,0,0,0.05)] transition-opacity duration-300"
-            :class="loaded ? 'opacity-100' : 'opacity-0'"
+            :class="loaded ? 'block opacity-100' : 'hidden opacity-0'"
             @load="loaded = true"
           />
         </div>

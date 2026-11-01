@@ -3,13 +3,26 @@ export interface SymptomCard {
   image: string
 }
 
+export interface CategorySection {
+  heading: string
+  paragraphs?: string[]
+  items?: string[]
+}
+
 export interface CategoryContent {
   title: string
-  // intro[0] doubles as the page's meta description and hero text, so it is
-  // kept to one sentence under ~155 characters.
+  // Search title and meta description; without them the page falls back to
+  // "Quiropráctica para {title}" and intro[0].
+  seoTitle?: string
+  description?: string
+  // intro[0] doubles as the hero text, so it is kept to one sentence under
+  // ~155 characters.
   intro: string[]
   list?: { lead: string; text: string }[]
   extra?: string[]
+  sections?: CategorySection[]
+  redFlags?: string[]
+  related?: { label: string; href: string }[]
   symptoms: SymptomCard[]
 }
 
@@ -173,6 +186,9 @@ export const categoryPages: CategoryPage[] = [
     heroImage: '/assets/images/category-deportistas.webp',
     es: {
       title: 'Deportistas',
+      seoTitle: 'Quiropráctica para deportistas en Valencia',
+      description:
+        'Dolor de espalda, cadera o cuello que te frena al entrenar y vuelta progresiva tras una lesión. Qué vemos, cómo trabajamos y qué no te prometemos.',
       intro: [
         'Molestias de espalda, cadera o cuello que te frenan al entrenar, y una vuelta progresiva al deporte después de una lesión.',
         'En países donde la quiropráctica está más asentada es habitual verla en clubes y equipos, como parte de un equipo de salud con fisioterapeutas y médicos del deporte.',
@@ -193,6 +209,51 @@ export const categoryPages: CategoryPage[] = [
           text: 'revisar la movilidad y la carga antes de una carrera como el <a href="/blog/preparacion-quiropractica-para-la-maraton-de-valencia/" class="font-semibold text-gold-dark underline">Maratón de Valencia</a>.',
         },
       ],
+      sections: [
+        {
+          heading: 'Lo que más vemos según el deporte',
+          items: [
+            'Running: dolor lumbar, dolor de glúteo o cadera y molestias de rodilla que aparecen al subir kilómetros.',
+            'Ciclismo: dolor de cuello y de zona lumbar, y hormigueo en las manos tras horas en la misma postura.',
+            'Pádel y tenis: dolor lumbar y entre los omóplatos por los giros, y molestias de hombro.',
+            'Gimnasio y CrossFit: lumbalgia tras levantar peso, y dolor de cuello y hombros.',
+            'Natación: dolor de cuello y de hombros por la rotación al respirar.',
+          ],
+        },
+        {
+          heading: 'Cómo trabajamos',
+          paragraphs: [
+            'En la primera visita preguntamos por tu entrenamiento (volumen, cambios recientes, objetivos), exploramos la columna, la pelvis y las articulaciones implicadas, y descartamos lo que necesita a un médico.',
+            'El tratamiento combina terapia manual, con ajustes y movilizaciones suaves, y ejercicio: movilidad, fuerza y control del movimiento. Lo más importante suele ser ajustar la carga, no dejar de entrenar del todo.',
+            'Si hace falta, nos coordinamos con tu fisioterapeuta, tu entrenador o tu médico del deporte.',
+          ],
+        },
+        {
+          heading: 'Volver a entrenar sin recaer',
+          paragraphs: [
+            'Una guía sencilla que usamos con muchos deportistas: puedes entrenar si el dolor durante el ejercicio no pasa de 3 sobre 10 y vuelve a como estaba antes en 24 horas. Si sube más o tarda en calmarse, reduce el volumen o la intensidad en la siguiente sesión.',
+          ],
+          items: [
+            'Sube el volumen poco a poco, sin grandes saltos de una semana a otra.',
+            'Mantén la fuerza durante la lesión: lo que no duele, se sigue entrenando.',
+            'Duerme y recupera: la carga solo se convierte en mejora con descanso.',
+          ],
+        },
+      ],
+      redFlags: [
+        'Dolor tras una caída o un golpe con deformidad, o que no te deja apoyar el peso',
+        'Rodilla que se hincha en pocas horas tras un giro, o que se bloquea o falla',
+        'Dolor en un punto concreto del hueso que empeora al correr y aparece cada vez antes (posible fractura por estrés)',
+        'Hormigueo, adormecimiento o pérdida de fuerza en brazos o piernas',
+        'Dolor u opresión en el pecho, falta de aire desproporcionada o mareo al hacer ejercicio: para y llama al 112',
+      ],
+      related: [
+        { label: 'Preparación para el Maratón de Valencia', href: '/blog/preparacion-quiropractica-para-la-maraton-de-valencia/' },
+        { label: 'Gonalgia: dolor de rodilla', href: '/blog/gonalgia/' },
+        { label: '¿Por qué me duele la cadera si soy joven?', href: '/blog/por-que-me-duele-la-cadera-si-soy-joven/' },
+        { label: 'Lumbalgia', href: '/sintomas/lumbalgia/' },
+        { label: 'Hernia discal: ¿frío o calor?', href: '/blog/es-bueno-el-calor-para-las-hernias-discales/' },
+      ],
       symptoms: [
         { label: 'Hernia discal', image: '/assets/images/symptom-herniated-disc.avif' },
         { label: 'Lesiones deportivas', image: '/assets/images/symptom-low-performance.avif' },
@@ -201,6 +262,9 @@ export const categoryPages: CategoryPage[] = [
     },
     en: {
       title: 'Athletes',
+      seoTitle: 'Chiropractic for athletes in Valencia',
+      description:
+        'Back, hip or neck pain that holds back your training, and a gradual return after injury. What we see, how we work and what we will not promise.',
       intro: [
         'Back, hip or neck pain that holds back your training, and a gradual return to sport after an injury.',
         'In countries where chiropractic is more established it is common in clubs and teams, as part of a health team with physiotherapists and sports doctors.',
@@ -218,8 +282,53 @@ export const categoryPages: CategoryPage[] = [
         },
         {
           lead: 'Preparing for a goal:',
-          text: 'checking mobility and load before a race such as the Valencia Marathon.',
+          text: 'checking mobility and load before a race such as the <a href="/en/blog/chiropractic-preparation-for-the-valencia-marathon-how-to-avoid-injuries/" class="font-semibold text-gold-dark underline">Valencia Marathon</a>.',
         },
+      ],
+      sections: [
+        {
+          heading: 'What we see most, by sport',
+          items: [
+            'Running: low back pain, buttock or hip pain and knee aches that appear as the mileage goes up.',
+            'Cycling: neck and lower back pain, and tingling hands after hours in the same position.',
+            'Padel and tennis: low back pain and pain between the shoulder blades from rotation, and shoulder aches.',
+            'Gym and CrossFit: low back pain after lifting, and neck and shoulder pain.',
+            'Swimming: neck and shoulder pain from turning to breathe.',
+          ],
+        },
+        {
+          heading: 'How we work',
+          paragraphs: [
+            'At the first visit we ask about your training (volume, recent changes, goals), examine your spine, pelvis and the joints involved, and rule out anything that needs a doctor.',
+            'Treatment combines manual therapy, with gentle adjustments and mobilisation, and exercise: mobility, strength and movement control. The most important part is usually adjusting your load, not stopping training altogether.',
+            'Where needed, we work alongside your physiotherapist, coach or sports doctor.',
+          ],
+        },
+        {
+          heading: 'Getting back to training without relapsing',
+          paragraphs: [
+            'A simple guide we use with many athletes: you can train if pain during exercise stays at 3 out of 10 or below and settles back to where it was within 24 hours. If it climbs higher or takes longer to settle, reduce volume or intensity in the next session.',
+          ],
+          items: [
+            'Build volume gradually, without big jumps from one week to the next.',
+            'Keep your strength up while injured: whatever does not hurt, keep training.',
+            'Sleep and recover: load only turns into progress with rest.',
+          ],
+        },
+      ],
+      redFlags: [
+        'Pain after a fall or blow with deformity, or that stops you putting weight on the limb',
+        'A knee that swells within hours of a twist, or that locks or gives way',
+        'Pain at one spot on a bone that gets worse when running and comes on earlier each time (possible stress fracture)',
+        'Tingling, numbness or weakness in your arms or legs',
+        'Chest pain or tightness, unusual breathlessness or dizziness during exercise: stop and call 112',
+      ],
+      related: [
+        { label: 'Preparing for the Valencia Marathon', href: '/en/blog/chiropractic-preparation-for-the-valencia-marathon-how-to-avoid-injuries/' },
+        { label: 'Gonalgia: knee pain', href: '/en/blog/gonalgia-understanding-knee-pain/' },
+        { label: 'Why does my hip hurt if I am young?', href: '/en/blog/why-does-my-hip-hurt-if-im-young/' },
+        { label: 'Low back pain', href: '/en/symptoms/low-back-pain/' },
+        { label: 'Herniated disc: heat or ice?', href: '/en/blog/is-heat-good-for-herniated-discs/' },
       ],
       symptoms: [
         { label: 'Herniated disc', image: '/assets/images/symptom-herniated-disc.avif' },
