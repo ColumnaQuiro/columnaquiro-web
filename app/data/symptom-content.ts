@@ -336,7 +336,7 @@ export const symptomContent: Record<string, { es: SymptomContent; en: SymptomCon
       ],
       "related": [
         {
-          "label": "Túnel carpiano: causas y soluciones",
+          "label": "Túnel carpiano: ¿puede doler hasta el hombro?",
           "href": "/blog/tunel-carpiano-causas-y-soluciones/"
         },
         {
@@ -371,7 +371,7 @@ export const symptomContent: Record<string, { es: SymptomContent; en: SymptomCon
       ],
       "related": [
         {
-          "label": "Carpal tunnel: causes and solutions",
+          "label": "Carpal tunnel: can it cause pain up to the shoulder?",
           "href": "/en/blog/carpal-tunnel-causes-and-solutions/"
         },
         {
