@@ -1,42 +1,86 @@
 ---
-title: "Is heat good for herniated discs?"
+title: "Herniated disc: heat or ice? When to use each"
 slug: is-heat-good-for-herniated-discs
 date: 2025-11-03
-excerpt: "Heat or cold for a herniated disc? Find out when each one helps, why the stage of the injury matters, and how it fits together with chiropractic care."
+updated: 2026-10-31
+excerpt: "Heat or ice for a herniated disc? What the evidence says, when to use each, how long to apply it and which warning signs mean seeing a doctor."
 cover: /assets/images/centro-sala-ajuste-2.webp
 author: Léa Guido
 
 ---
 
-## What is a herniated disc?
+**Yes, heat usually helps a herniated disc**, especially when stiffness and muscle tension are what bother you most. Ice can ease the first few days of a flare-up if the pain is very sharp. The practical rule: use whichever relieves you more, for 15 to 20 minutes, never directly on the skin. Neither one cures the herniation; both help it hurt less while you keep moving and recover.
 
-A herniated disc happens when the inner core of a spinal disc shifts and presses on nearby structures, such as nerve roots. This can cause localized pain that radiates into the arms or legs, and in some cases tingling or weakness.
+## Heat or ice: what the evidence says
 
-## When does heat help?
+There's more research on heat than on cold. A Cochrane review found moderate evidence that **local heat** (for example, a heat wrap) reduces pain and improves function in the short term for acute and subacute low back pain, and that the evidence on cold was too thin to recommend it or rule it out (French et al., *Cochrane Database of Systematic Reviews*, 2006).
 
-Heat is especially useful in the stage where muscle tension and stiffness dominate, since it boosts blood flow, relaxes the surrounding muscles, and can reduce the feeling of stiffness, particularly in the morning or after staying in the same position for a long time.
+That doesn't mean ice is useless: many people find it helps in the first 48-72 hours of a flare-up. It means there's no strict rule, and your own response is the best guide.
 
-## When is cold better?
+## When to use heat
 
-In the first days after an acute flare-up, when there's clear inflammation or the pain is very intense, cold tends to be more appropriate, since it helps reduce local inflammation. A common approach is to use cold during the most acute phase and switch to heat once the pain settles down.
+- When **stiffness** and a "seized-up" muscle feeling dominate.
+- **In the morning**, before you start moving, or after long hours of sitting.
+- **Before the exercises** you've been given, so you move with less tension.
+- From the first few days of a flare-up onwards, as the sharp pain settles.
 
-## How this fits with chiropractic care
+## When to use ice
 
-At ColumnaQuiro we assess each case individually to determine whether heat, cold, or a combination of both is most appropriate at each stage. Gentle adjustments and mobilization techniques can help reduce pressure on the affected structure, always progressively and tailored to the patient's progress.
+- In the **first 2-3 days** of a flare-up, if the pain is very intense or stabbing.
+- After an activity that set off the pain.
+- If heat makes the pain or throbbing worse.
+
+## How to apply it properly
+
+- **15-20 minutes** at a time, with at least an hour between applications.
+- **Always with a cloth** between your skin and the ice pack or heating pad.
+- **Don't fall asleep** with a heating pad on.
+- Take extra care if you have diabetes, poor circulation or reduced feeling in the area: the risk of burns (from cold or heat) is higher.
+- You can alternate both on the same day if that suits you.
+
+## What really helps most: moving
+
+Heat and ice are pain aids, not the treatment. What makes the biggest difference to recovery from a herniated disc is **staying active within what you can tolerate**: walk every day, avoid long bed rest and return gradually to your usual activities.
+
+And the outlook is usually good. A review found that around two thirds of lumbar disc herniations **resorb on their own**, partly or completely, especially the larger ones (Chiu et al., *Clinical Rehabilitation*, 2015). Most people improve within weeks or a few months without surgery.
+
+## How we treat it at the clinic
+
+First we check that the picture fits a disc herniation or irritation and rule out warning signs. Then we combine:
+
+- **Gentle mobilisation and adjustments**, adapted to the stage of the pain, with no forceful techniques when there are leg symptoms.
+- **Home exercises** that respect what your back tolerates and gradually build on it.
+- Specific advice on heat and ice, sleeping position and work.
+
+## When to see a doctor first
+
+Go to A&E if you notice:
+
+- **Loss of bladder or bowel control**, or numbness around the genitals, between the legs or on the inner thighs.
+- **Weakness that's getting worse** in a leg (your foot drags, you can't stand on your toes or heels).
+
+And see your doctor if the pain comes with fever, unexplained weight loss or a history of cancer, or hasn't improved at all after several weeks.
 
 ## Frequently asked questions
 
 **Can heat make a herniated disc worse?**
-If there's acute inflammation, heat can temporarily increase the feeling of swelling, which is why cold is usually preferred in that phase.
+It doesn't damage the disc. In the first days of a very acute flare-up, some people find it increases the pain; if that's you, switch to ice.
 
-**How long should I apply heat?**
-Sessions of 15 to 20 minutes are usually enough; avoid very long or direct applications on the skin.
+**Is heat good for sciatica?**
+Many people with sciatica from a herniated disc find heat on the lower back and buttock helps. Sciatica has its own page: [sciatica](/en/symptoms/sciatica/).
 
-**Can I use heat and cold on the same day?**
-Yes, some people alternate both with good results, but it's best done with professional guidance.
+**What about a herniated disc in the neck?**
+Same logic: heat for neck and shoulder stiffness, ice if the pain is sharp and recent. See [cervical disc protrusion](/en/blog/cervical-disc-protrusion/).
 
-**Does chiropractic care cure a herniated disc?**
-Chiropractic care doesn't eliminate the herniation, but it can help reduce pain and improve function, always as part of a combined approach with your medical team.
+**Heating pad or hot-water bottle?**
+Both work. What matters is the time (15-20 minutes) and not putting them directly on the skin.
 
-**When should I see a professional?**
-If the pain is very intense, comes with loss of strength, or doesn't improve after several days of basic care.
+**Does chiropractic cure a herniated disc?**
+It doesn't remove the herniation. It can help reduce pain and restore movement while your body does its part, alongside care from your doctor.
+
+## Read more
+
+- [Herniated disc: symptoms and treatment](/en/symptoms/herniated-disc/)
+- [Sciatica](/en/symptoms/sciatica/)
+- [Disc dehydration: can it be cured?](/en/blog/disc-dehydration-symptoms-and-chiropractic-solutions/)
+- [Lumbar muscle contractures](/en/blog/lumbar-muscle-contractures/)
