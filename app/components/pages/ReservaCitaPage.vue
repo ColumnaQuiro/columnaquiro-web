@@ -189,7 +189,7 @@ const whatsappHref = socialLinks.find((link) => link.label === 'WhatsApp')?.href
           </div>
           <iframe
             :src="bookingUrl"
-            title="Reservar cita"
+            :title="locale === 'en' ? 'Book an appointment' : 'Reservar cita'"
             :style="{ height: `${heightPx}px` }"
             class="relative w-full rounded-3xl bg-white shadow-[0_1px_2px_0_rgba(0,0,0,0.05)] transition-opacity duration-300"
             :class="loaded ? 'block opacity-100' : 'hidden opacity-0'"
