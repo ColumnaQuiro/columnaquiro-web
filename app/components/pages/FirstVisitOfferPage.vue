@@ -11,6 +11,8 @@ import { useSeo } from '@/composables/useSeo'
 // the Google Ads ones -- so the copy only has to be tuned in a single place.
 // `slotCount` is the remaining-places number the promo creatives quote;
 // `practitionerId` preselects a professional for practitioner-specific promos.
+// `heading`/`lead` replace the hero copy for partner placements (a newsletter
+// sponsor spot, say) whose readers should see the same promise they clicked.
 const props = withDefaults(
   defineProps<{
     slotCount?: number
@@ -18,6 +20,8 @@ const props = withDefaults(
     noindex?: boolean
     seoTitle?: string
     seoDescription?: string
+    heading?: string
+    lead?: string
   }>(),
   {
     slotCount: undefined,
@@ -27,6 +31,8 @@ const props = withDefaults(
     noindex: true,
     seoTitle: undefined,
     seoDescription: undefined,
+    heading: undefined,
+    lead: undefined,
   },
 )
 
@@ -227,8 +233,8 @@ const { heightPx } = useQuiroFlowWidget()
     <div class="mx-auto grid max-w-[calc(1280px+3rem)] items-center gap-12 py-16 md:grid-cols-[1.4fr_1fr] md:py-24">
       <div>
         <p class="text-sm font-semibold uppercase tracking-wide text-gold-dark">{{ c.eyebrow }}</p>
-        <h1 class="mt-4 text-4xl font-semibold text-forest sm:text-5xl">{{ c.heading }}</h1>
-        <p class="mt-6 text-lg text-body/80">{{ c.lead }}</p>
+        <h1 class="mt-4 text-4xl font-semibold text-forest sm:text-5xl">{{ heading ?? c.heading }}</h1>
+        <p class="mt-6 text-lg text-body/80">{{ lead ?? c.lead }}</p>
 
         <p class="mt-6 flex flex-wrap items-baseline gap-3">
           <span class="text-4xl font-semibold text-forest">{{ c.priceNow }}</span>
