@@ -1,9 +1,17 @@
 {
-  "fetchedAt": "2026-10-28T16:52:10.241Z",
+  "fetchedAt": "2026-11-09T15:00:12.224Z",
   "source": "business-profile",
   "rating": 4.9,
-  "count": 159,
+  "count": 162,
   "reviews": [
+    {
+      "id": "AbFvOqlQErgJHRXTDe60i_6xu6U1QpknGqNRKnieDJE-n5saTAdAptBsGuvKf6uasv7xW8K4-lnk",
+      "name": "Yaimara",
+      "lang": "es",
+      "rating": 5,
+      "date": "2026-11-05",
+      "text": "Recomiendo son unas chicas profesionales te hacen el acompañamiento desde el día uno me gusta su trabajo"
+    },
     {
       "id": "AbFvOqn-Hv_bmF0xcpoPZZpuLAd0Mcoh4FrJTiQXjtzZekCyjdCtwNKUFCY9eL8XqFXpRCje46nl9g",
       "name": "Sergio",
@@ -187,14 +195,6 @@
       "rating": 5,
       "date": "2025-10-14",
       "text": "I was so happy to find Léa here in València, particularly because she speaks English, so that was key for me. I had some hesitations due to previous chiropractic experiences, but Léa made me feel super comfortable right away, and really spent time to understand what my issue was and how she could help me in a way that felt comfortable to me as well. […]"
-    },
-    {
-      "id": "AbFvOqmCg5c-6FPOioNfBLyknZeM0kGKO09jByyBJrYMxtlKuPPlkzyg4D-eThptOPaXaVtfXHU0SA",
-      "name": "Antonio",
-      "lang": "es",
-      "rating": 5,
-      "date": "2025-08-28",
-      "text": "Gracias siempre por vuestra profesionalidad y trato personal; mi dolencia se ha visto mejorada notablemente, habéis conseguido en poco tiempo resultados espectaculares. Totalmente recomendable. Lea, gracias de nuevo por tu ayuda ."
     },
     {
       "id": "AbFvOqnDi1RYGt4lSPrqrNzqMwJhJbjTnOZY6OqiCT5oWXk299FPW_gOMmZkAacVtoRfCSPVDo4sxA",
