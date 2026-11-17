@@ -135,6 +135,7 @@ export const BLOG_SLUG_PAIRS: { es: string; en: string | null }[] = [
   { es: 'primera-visita-al-quiropractico-que-esperar', en: 'first-chiropractic-visit-what-to-expect' },
   { es: 'seguro-medico-cubre-quiropractica-espana', en: 'does-spanish-health-insurance-cover-chiropractic' },
   { es: 'como-elegir-un-buen-quiropractico-espana', en: 'how-to-choose-a-chiropractor-in-spain' },
+  { es: 'padel-y-dolor-lumbar', en: 'padel-and-lower-back-pain' },
 ]
 
 export const SYMPTOM_HUB = { es: '/sintomas', en: '/en/symptoms' }
