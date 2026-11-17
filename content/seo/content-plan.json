@@ -314,7 +314,7 @@
     {
       "week": 8,
       "date": "2026-11-02",
-      "status": "pending",
+      "status": "done",
       "cluster": "condition",
       "priority": "P1",
       "intent": "informational",
@@ -350,7 +350,8 @@
         "/sintomas/dolor-de-cervicales-y-cabeza",
         "/sintomas/estres-y-depresion",
         "/blog/guia-completa-para-tratar-el-dolor-de-cabeza-por-cervicales"
-      ]
+      ],
+      "publishedAt": "2026-11-17"
     },
     {
       "week": 9,
