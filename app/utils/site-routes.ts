@@ -136,6 +136,7 @@ export const BLOG_SLUG_PAIRS: { es: string; en: string | null }[] = [
   { es: 'seguro-medico-cubre-quiropractica-espana', en: 'does-spanish-health-insurance-cover-chiropractic' },
   { es: 'como-elegir-un-buen-quiropractico-espana', en: 'how-to-choose-a-chiropractor-in-spain' },
   { es: 'latigazo-cervical-accidente-trafico', en: 'whiplash-after-a-car-accident' },
+  { es: 'dolor-de-mandibula-bruxismo-y-cervicales', en: 'jaw-pain-bruxism-and-your-neck' },
   { es: 'padel-y-dolor-lumbar', en: 'padel-and-lower-back-pain' },
 ]
 
