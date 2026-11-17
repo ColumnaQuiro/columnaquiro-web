@@ -396,7 +396,7 @@
     {
       "week": 10,
       "date": "2026-11-16",
-      "status": "pending",
+      "status": "done",
       "cluster": "seasonal",
       "priority": "P0",
       "intent": "seasonal-local",
@@ -434,7 +434,8 @@
         "/para-quien-sirve-la-quiropractica/deportistas",
         "/blog/gonalgia",
         "/reserva-cita"
-      ]
+      ],
+      "publishedAt": "2026-11-17"
     },
     {
       "week": 11,
