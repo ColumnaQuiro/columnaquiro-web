@@ -273,7 +273,7 @@
     {
       "week": 7,
       "date": "2026-10-26",
-      "status": "pending",
+      "status": "done",
       "cluster": "condition",
       "priority": "P0",
       "intent": "informational-high-volume",
@@ -309,7 +309,8 @@
         "/sintomas/dolor-de-cuello",
         "/blog/contractura-en-el-cuello-causas-sintomas-y-soluciones",
         "/blog/quiropractica-para-vertigo-solucion-natural-y-efectiva"
-      ]
+      ],
+      "publishedAt": "2026-11-17"
     },
     {
       "week": 8,
