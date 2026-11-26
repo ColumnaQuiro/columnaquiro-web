@@ -38,6 +38,10 @@ export default {
       aviso: 'Legal Notice',
       cookies: 'Cookie Policy',
     },
+    software: {
+      text: 'We run the clinic with {link}, practice management software for chiropractic clinics',
+      link: 'QuiroFlow',
+    },
   },
   cta: {
     heading: 'Do you want to start feeling better?',

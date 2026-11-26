@@ -96,6 +96,11 @@ const symptomsList = computed(() => symptoms[locale.value])
             </NuxtLink>
           </div>
         </div>
+        <i18n-t keypath="footer.software.text" tag="p" class="mt-2 text-xs text-sage">
+          <template #link>
+            <a href="https://quiroflow.com" class="underline hover:text-white">{{ t('footer.software.link') }}</a>
+          </template>
+        </i18n-t>
       </div>
     </div>
   </footer>

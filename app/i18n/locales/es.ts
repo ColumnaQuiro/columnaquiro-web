@@ -38,6 +38,10 @@ export default {
       aviso: 'Aviso Legal',
       cookies: 'Política de Cookies',
     },
+    software: {
+      text: 'Gestionamos la clínica con {link}, software de gestión para clínicas de quiropráctica',
+      link: 'QuiroFlow',
+    },
   },
   cta: {
     heading: '¿Quieres empezar a sentirte mejor?',
